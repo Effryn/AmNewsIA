@@ -70,10 +70,12 @@
     border:1px solid #7c6af73d;
   }
   .hero-eyebrow{ font-size:12px; color:var(--dim); margin-bottom:10px; }
-  .hero-title{ font-size:21px; font-weight:800; letter-spacing:-.4px; line-height:1.1; margin-bottom:4px; }
+  .hero-title{ font-size:25px; font-weight:800; letter-spacing:-.5px; line-height:1.08; margin-bottom:5px; }
   .hero-date{ font-size:11.5px; color:var(--faint); margin-bottom:12px; }
   .hero-desc{ font-size:13px; color:var(--dim); line-height:1.5; margin-bottom:16px; }
   .player{ display:flex; align-items:center; gap:12px; background:#00000030; border:1px solid #ffffff14; border-radius:14px; padding:10px 14px; }
+  .player-body{ flex:1; min-width:0; display:flex; flex-direction:column; gap:5px; }
+  .player-label{ font-size:11px; font-weight:600; color:var(--dim); }
   .play-btn{
     width:38px; height:38px; min-width:38px; border-radius:50%; background:var(--pur);
     display:flex; align-items:center; justify-content:center; cursor:pointer; border:none;
@@ -87,12 +89,12 @@
   @keyframes wv{ 0%,100%{ transform:scaleY(.35);} 50%{ transform:scaleY(1);} }
   .dur{ font-size:11px; color:var(--faint); font-variant-numeric:tabular-nums; }
 
-  .stat-line{ margin:0 16px 16px; font-size:11.5px; color:var(--faint); text-align:center; }
-  .stat-line b{ color:var(--dim); font-weight:600; }
+  .stat-line{ margin:0 16px 16px; font-size:11.5px; color:var(--faint); text-align:center; display:flex; align-items:center; justify-content:center; gap:5px; }
+  .stat-line svg{ color:var(--faint); }
 
   .iaday{ margin:0 16px 16px; border-radius:16px; padding:16px; background:var(--surf); border:1px solid var(--line); position:relative; overflow:hidden; }
   .iaday::before{ content:""; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,var(--pur),var(--acc)); }
-  .iaday-title{ font-size:13.5px; font-weight:700; margin-bottom:12px; letter-spacing:-.1px; }
+  .iaday-title{ font-size:15px; font-weight:700; margin-bottom:12px; letter-spacing:-.15px; }
   .iaday-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:12px 6px; margin-bottom:14px; }
   .iaday-item{ border-radius:8px; padding:6px 4px; transition:background 100ms ease-out, transform 100ms ease-out; display:flex; flex-direction:column; align-items:center; gap:5px; }
   .iaday-item svg{ color:var(--faint); }
@@ -108,18 +110,20 @@
   .impact{ font-size:10px; font-weight:600; padding:4px 10px; border-radius:20px; background:var(--s2); border:1px solid var(--line); color:var(--dim); }
 
   .thirty{ margin:0 16px 20px; border-radius:16px; padding:16px; background:var(--surf); border:1px solid var(--line); }
-  .thirty-title{ font-size:13.5px; font-weight:700; margin-bottom:10px; letter-spacing:-.1px; }
+  .thirty-title{ font-size:15px; font-weight:700; margin-bottom:3px; letter-spacing:-.15px; }
+  .thirty-sub{ font-size:11.5px; color:var(--faint); margin-bottom:12px; }
   .thirty ul{ list-style:none; }
   .thirty li{ display:flex; align-items:flex-start; gap:10px; font-size:12.5px; color:var(--dim); line-height:1.42; margin-bottom:9px; }
   .thirty li:last-child{ margin-bottom:0; }
   .thirty-num{
-    width:16px; height:16px; min-width:16px; border-radius:50%; background:var(--s2); border:1px solid var(--line);
-    display:flex; align-items:center; justify-content:center; font-size:9px; font-weight:700; color:var(--faint); margin-top:1px;
+    font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:700; color:var(--pur);
+    min-width:18px; margin-top:1px;
   }
 
-  .sec{ margin:0 16px 10px; display:flex; align-items:center; justify-content:space-between; gap:8px; }
-  .sec h3{ font-size:14px; font-weight:700; letter-spacing:-.1px; }
-  .sec a{ font-size:11px; color:var(--pur); text-decoration:none; font-weight:600; display:flex; align-items:center; gap:3px; }
+  .sec{ margin:0 16px 10px; display:flex; align-items:flex-start; justify-content:space-between; gap:8px; }
+  .sec h3{ font-size:16px; font-weight:700; letter-spacing:-.15px; }
+  .sec-sub{ font-size:11px; color:var(--faint); margin-top:2px; }
+  .sec a{ font-size:11px; color:var(--pur); text-decoration:none; font-weight:600; display:flex; align-items:center; gap:3px; white-space:nowrap; margin-top:2px; }
   .sec a svg{ width:12px; height:12px; }
   .filter-chip{
     display:none; align-items:center; gap:5px; font-size:10.5px; color:var(--pur);
@@ -284,12 +288,15 @@
   <div class="main-col">
   <div class="hero">
     <div class="hero-eyebrow" id="greeting">—</div>
-    <div class="hero-title">Resumen Ejecutivo</div>
+    <div class="hero-title">El resumen de hoy</div>
     <div class="hero-date" id="heroDate">—</div>
-    <div class="hero-desc">Las noticias más importantes de inteligencia artificial, traducidas y resumidas para ti.</div>
+    <div class="hero-desc">Lo más relevante de la inteligencia artificial, seleccionado y resumido para ti.</div>
     <div class="player">
       <button class="play-btn" id="heroPlay"></button>
-      <div class="wave paused" id="wave"></div>
+      <div class="player-body">
+        <div class="player-label">Escuchar resumen</div>
+        <div class="wave paused" id="wave"></div>
+      </div>
       <div class="dur" id="heroDur">—</div>
     </div>
   </div>
@@ -297,7 +304,7 @@
   <div class="stat-line" id="statLine">—</div>
 
   <div class="iaday">
-    <div class="iaday-title">IA del Día</div>
+    <div class="iaday-title">Panorama de hoy</div>
     <div class="iaday-grid" id="iadayGrid"></div>
     <div class="iaday-foot">
       <div class="stars" id="stars"></div>
@@ -306,15 +313,19 @@
   </div>
 
   <div class="thirty">
-    <div class="thirty-title">Hoy en 30 segundos</div>
+    <div class="thirty-title">Lo esencial de hoy</div>
+    <div class="thirty-sub" id="thirtySub">—</div>
     <ul id="thirtyList"></ul>
   </div>
 
   <div class="sec">
-    <h3>Noticias</h3>
+    <div>
+      <h3>Últimas novedades</h3>
+      <div class="sec-sub">Noticias filtradas, resumidas y listas para leer o escuchar.</div>
+    </div>
     <div style="display:flex; align-items:center; gap:10px;">
       <div class="filter-chip" id="filterChip"></div>
-      <a href="#" id="verTodas">Ver todas</a>
+      <a href="#" id="verTodas">Ver todo</a>
     </div>
   </div>
   <div class="news-list" id="news-list"></div>
@@ -369,6 +380,7 @@ const ICONS = {
   code:      `<path d="M8.5 8L4 12l4.5 4M15.5 8L20 12l-4.5 4"/>`,
   videoRect: `<rect x="3" y="6" width="18" height="13" rx="2"/><path d="M10 10l5 2.5-5 2.5v-5z"/>`,
   star:      `<path d="M12 2.5l2.9 6 6.6.7-4.9 4.5 1.3 6.5-5.9-3.3-5.9 3.3 1.3-6.5-4.9-4.5 6.6-.7z"/>`,
+  globe:     `<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.3 4 5.3 4 8.5s-1.5 6.2-4 8.5c-2.5-2.3-4-5.3-4-8.5s1.5-6.2 4-8.5z"/>`,
 };
 function icon(name, size = 18) {
   return `<svg class="ic" viewBox="0 0 24 24" style="width:${size}px;height:${size}px">${ICONS[name]}</svg>`;
@@ -454,15 +466,16 @@ function renderFromData(){
   document.getElementById("briefingAudio").src = DATA.briefing.audio_url;
 
   document.getElementById("statLine").innerHTML =
-    `<b>${DATA.stats.new_articles}</b> noticias nuevas · <b>${DATA.stats.sources}</b> fuentes · Actualizado <b>${DATA.stats.updated_label}</b>`;
+    `${icon('clock', 12)} Actualizado ${DATA.stats.updated_label}`;
 
   const iaday = DATA.iaday;
   const IADAY_STATS = [
+    { icon:"newspaper",  n:DATA.stats.new_articles, l:"Noticias" },
+    { icon:"globe",      n:DATA.stats.sources,      l:"Fuentes" },
     { icon:"clock",      n:iaday.reading_minutes, l:"Lectura" },
     { icon:"headphones", n:iaday.audio_duration,  l:"Audio" },
-    { icon:"document",   n:iaday.key_count,       l:"Clave hoy" },
     { icon: ICON_BY_TYPE.paper, n:iaday.papers_count, l:"Papers", filter:"paper" },
-    { icon: ICON_BY_TYPE.repo,  n:iaday.repos_count,  l:"Repos",  filter:"repo" },
+    { icon: ICON_BY_TYPE.repo,  n:iaday.repos_count,  l:"Proyectos", filter:"repo" },
     { icon: ICON_BY_TYPE.video, n:iaday.videos_count, l:"Videos", filter:"video" },
   ];
   document.getElementById("iadayGrid").innerHTML = IADAY_STATS.map(s => `
@@ -475,8 +488,10 @@ function renderFromData(){
   document.getElementById("stars").innerHTML = Array.from({length:5}).map(() => icon('star', 12)).join("");
   document.getElementById("impact").textContent = `Impacto del día: ${iaday.impact}`;
 
+  document.getElementById("thirtySub").textContent =
+    `${DATA.thirty_seconds.length} noticias que deberías conocer.`;
   document.getElementById("thirtyList").innerHTML = DATA.thirty_seconds.map((t, i) => `
-    <li><span class="thirty-num">${i+1}</span>${t}</li>
+    <li><span class="thirty-num">${String(i+1).padStart(2,'0')}</span>${t}</li>
   `).join("");
 
   renderFeed();
@@ -491,7 +506,7 @@ function renderChrome(){
   document.getElementById("modalBack").innerHTML = icon('back', 15);
 
   const TABS = [
-    { icon:"home",       label:"Hoy",       active:true },
+    { icon:"home",       label:"Resumen",   active:true },
     { icon:"newspaper",  label:"Noticias" },
     { icon:"headphones", label:"Audio" },
     { icon:"history",    label:"Historial" },
@@ -580,7 +595,7 @@ modal.addEventListener("click", (e) => { if (e.target === modal) closeModal(); }
 function renderDesktopRail(){
   const el = document.getElementById("desktopRail");
   const ITEMS = [
-    { icon:"home",       label:"Hoy",       active:true },
+    { icon:"home",       label:"Resumen",   active:true },
     { icon:"newspaper",  label:"Noticias" },
     { icon:"headphones", label:"Audio" },
     { icon:"history",    label:"Historial" },
