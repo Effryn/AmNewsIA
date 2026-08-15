@@ -208,6 +208,57 @@
     .modal-card{ transition:opacity 200ms ease; }
     * { animation-duration: 0.001ms !important; }
   }
+
+  /* ── ESCRITORIO: mismo archivo, layout de 3 columnas (rail + contenido
+     + tendencias) inspirado en el Dash real, sin lo administrativo ──── */
+  .main-col{ min-width:0; }
+  .desktop-rail{ display:none; }
+  .right-rail{ display:none; }
+
+  @media (min-width: 900px){
+    body{ background:var(--sb); }
+    .page{
+      max-width:1080px; margin:0 auto; padding:24px 20px 60px;
+      display:grid; grid-template-columns:200px minmax(0,600px) 260px;
+      gap:24px; align-items:start;
+    }
+    .appbar{ grid-column:1 / -1; position:sticky; top:24px; border-radius:16px; margin-bottom:4px; }
+    .appbar::after{ display:none; }
+    .main-col{ grid-column:2; }
+
+    .desktop-rail{
+      grid-column:1; display:flex; flex-direction:column; gap:4px;
+      position:sticky; top:100px; background:var(--surf); border:1px solid var(--line);
+      border-radius:14px; padding:10px;
+    }
+    .drail-item{
+      display:flex; align-items:center; gap:10px; padding:9px 12px; border-radius:9px;
+      color:var(--faint); font-size:13px; font-weight:500; cursor:pointer;
+      transition:background 150ms, color 150ms;
+    }
+    .drail-item:hover{ background:var(--s2); color:var(--ink); }
+    .drail-item.active{ background:var(--s2); color:var(--pur); }
+
+    .right-rail{ grid-column:3; display:block; position:sticky; top:100px; }
+    .rail-card{ background:var(--surf); border:1px solid var(--line); border-radius:14px; padding:16px; margin-bottom:14px; }
+    .rail-card h4{ font-size:12.5px; font-weight:700; margin-bottom:12px; letter-spacing:-.1px; }
+    .rail-trend{ display:flex; gap:10px; margin-bottom:12px; align-items:flex-start; }
+    .rail-trend:last-child{ margin-bottom:0; }
+    .rail-trend .num{ font-size:11px; font-weight:700; color:var(--acc); width:14px; flex-shrink:0; }
+    .rail-trend a{ font-size:11.5px; font-weight:600; color:var(--ink); text-decoration:none; line-height:1.35; display:block; }
+    .rail-trend .src{ font-size:10px; color:var(--faint); margin-top:2px; }
+    .rail-cat{ display:flex; align-items:center; gap:8px; margin-bottom:9px; font-size:11px; }
+    .rail-cat .dot{ width:7px; height:7px; border-radius:50%; flex-shrink:0; }
+    .rail-cat .name{ color:var(--dim); width:88px; flex-shrink:0; }
+    .rail-cat .bar-bg{ flex:1; height:4px; background:var(--line); border-radius:2px; overflow:hidden; }
+    .rail-cat .bar-fill{ height:100%; border-radius:2px; }
+    .rail-cat .count{ color:var(--faint); font-size:10px; width:16px; text-align:right; }
+
+    /* En escritorio hay espacio de sobra, la barra inferior y el
+       mini-player flotante ya no aportan -- se sacan, no se duplican */
+    .tabbar, .mini-player{ display:none; }
+    .page{ padding-bottom:0; }
+  }
 </style>
 </head>
 <body>
@@ -228,6 +279,9 @@
     </div>
   </div>
 
+  <div class="desktop-rail" id="desktopRail"></div>
+
+  <div class="main-col">
   <div class="hero">
     <div class="hero-eyebrow" id="greeting">—</div>
     <div class="hero-title">Resumen Ejecutivo</div>
@@ -264,6 +318,9 @@
     </div>
   </div>
   <div class="news-list" id="news-list"></div>
+  </div>
+
+  <div class="right-rail" id="rightRail"></div>
 
   <div class="mini-player" id="miniPlayer">
     <div class="mini-progress"></div>
@@ -519,10 +576,58 @@ avatarBtn.addEventListener("click", openModal);
 document.getElementById("modalBack").addEventListener("click", closeModal);
 modal.addEventListener("click", (e) => { if (e.target === modal) closeModal(); });
 
+/* ── Paneles de escritorio: mismo dato, reorganizado, nada nuevo ── */
+function renderDesktopRail(){
+  const el = document.getElementById("desktopRail");
+  const ITEMS = [
+    { icon:"home",       label:"Hoy",       active:true },
+    { icon:"newspaper",  label:"Noticias" },
+    { icon:"headphones", label:"Audio" },
+    { icon:"history",    label:"Historial" },
+  ];
+  el.innerHTML = ITEMS.map(t => `
+    <div class="drail-item ${t.active ? 'active' : ''}">${icon(t.icon, 17)}${t.label}</div>
+  `).join("");
+}
+
+function renderRightRail(){
+  const el = document.getElementById("rightRail");
+  if (!DATA) return;
+
+  const trendHtml = DATA.articles.slice(0, 5).map((a, i) => `
+    <div class="rail-trend">
+      <div class="num">${i + 1}</div>
+      <div>
+        <a href="${a.url}" target="_blank" rel="noopener">${a.title}</a>
+        <div class="src">${a.source} · ${a.time}</div>
+      </div>
+    </div>
+  `).join("");
+
+  const tally = {};
+  DATA.articles.forEach(a => { tally[a.cat] = (tally[a.cat] || 0) + 1; });
+  const maxCount = Math.max(...Object.values(tally), 1);
+  const catHtml = Object.entries(tally)
+    .sort((a, b) => b[1] - a[1])
+    .map(([cat, count]) => `
+      <div class="rail-cat">
+        <span class="dot" style="background:${CAT_COLOR[cat] || 'var(--dim)'}"></span>
+        <span class="name">${cat}</span>
+        <div class="bar-bg"><div class="bar-fill" style="width:${(count / maxCount * 100)}%; background:${CAT_COLOR[cat] || 'var(--dim)'}"></div></div>
+        <span class="count">${count}</span>
+      </div>
+    `).join("");
+
+  el.innerHTML = `
+    <div class="rail-card"><h4>Tendencias</h4>${trendHtml}</div>
+    <div class="rail-card"><h4>Por categoría</h4>${catHtml}</div>
+  `;
+}
+
 /* ── Carga de datos ───────────────────────────────────────────── */
 fetch("data/news.json")
   .then(r => r.json())
-  .then(json => { DATA = json; renderChrome(); renderFromData(); })
+  .then(json => { DATA = json; renderChrome(); renderFromData(); renderDesktopRail(); renderRightRail(); })
   .catch(err => {
     document.querySelector(".page").innerHTML =
       `<p style="padding:40px 20px;color:var(--dim)">No se pudo cargar data/news.json. Revisa que el archivo exista y que el sitio se esté sirviendo por HTTP (no abriendo el archivo directo).</p>`;
