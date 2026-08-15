@@ -1,0 +1,45 @@
+{
+  "date_label": "14 de agosto de 2026",
+  "greeting": "Buenos días, Effry",
+  "briefing": {
+    "duration_label": "07:45",
+    "audio_url": "assets/audio/latest.mp3"
+  },
+  "stats": {
+    "new_articles": 18,
+    "sources": 24,
+    "updated_label": "06:30"
+  },
+  "iaday": {
+    "reading_minutes": "8 min",
+    "audio_duration": "6:40",
+    "key_count": 7,
+    "papers_count": 4,
+    "repos_count": 5,
+    "videos_count": 3,
+    "impact": "Alto"
+  },
+  "thirty_seconds": [
+    "OpenAI lanza GPT-5, con mejoras sustanciales en benchmarks de razonamiento como SWE-bench.",
+    "industrial-mcp extiende el protocolo MCP a entornos industriales, exponiendo equipo físico como herramientas para agentes.",
+    "Nuevo paper documenta cómo extraer trazas de razonamiento desde APIs propietarias de LLMs."
+  ],
+  "articles": [
+    { "source":"OpenAI Blog", "cat":"Modelos", "content_type":"release",
+      "title":"OpenAI lanza GPT-5: más potente, rápido y con mejor razonamiento", "time":"2h", "url":"#" },
+    { "source":"Google DeepMind", "cat":"Investigación", "content_type":"release",
+      "title":"DeepMind presenta Genie 3: mundo virtual interactivo en tiempo real", "time":"4h", "url":"#" },
+    { "source":"arXiv — cs.AI", "cat":"Investigación", "content_type":"paper", "arxiv":"2608.09867",
+      "title":"Extracción de rastros de razonamiento desde APIs de LLMs propietarios", "time":"5h", "url":"#" },
+    { "source":"Microsoft AI Blog", "cat":"Industria", "content_type":"news",
+      "title":"Microsoft integra IA en Office para productividad avanzada", "time":"6h", "url":"#" },
+    { "source":"Hugging Face", "cat":"Herramientas", "content_type":"release",
+      "title":"Hugging Face lanza SmolLM 2.1: modelos livianos y de código abierto", "time":"8h", "url":"#" },
+    { "source":"Anthropic", "cat":"Modelos", "content_type":"news",
+      "title":"Claude gana nueva capacidad de memoria a largo plazo entre chats", "time":"9h", "url":"#" },
+    { "source":"GitHub Trending", "cat":"Herramientas", "content_type":"repo", "stars":"51",
+      "title":"industrial-mcp: convierte equipo industrial en herramientas controlables por IA", "time":"10h", "url":"#" },
+    { "source":"Two Minute Papers", "cat":"Videos", "content_type":"video",
+      "title":"Claude AI falló 650 veces… luego superó el récord humano", "time":"11h", "url":"#" }
+  ]
+}
