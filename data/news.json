@@ -4,12 +4,13 @@
   "greeting": "Buenos días, Effry",
   "briefing": {
     "duration_label": "2:26",
-    "audio_url": "assets/audio/2026-08-16.mp3"
+    "audio_url": "assets/audio/2026-08-16.mp3",
+    "script_text": "En el resumen de hoy tenemos movimientos significativos en la industria de la IA, avances técnicos importantes y señales claras sobre el futuro del sector.\n\nComenzamos con lo que está sucediendo en GitHub. El repositorio LabLLM sigue ganando tracción entre desarrolladores, mientras que herramientas especializadas como el detector de phishing por email con IA y un nuevo sistema de analytics para recursos humanos demuestran cómo la comunidad está llevando los modelos de lenguaje a casos de uso muy específicos. En paralelo, Hyperion-V3 continúa siendo referencia en desarrollo Python, consolidando una tendencia clara: los desarrolladores quieren llevar estos modelos a sus proyectos reales.\n\nEn cuanto a herramientas de productividad, hay dos novedades que vale la pena resaltar. Primero, Claude ha recibido un plugin oficial de Codex que amplía sus capacidades de generación de código. Segundo, hemos visto tutoriales sobre cómo controlar agentes de IA directamente desde el teléfono, algo que hace la tecnología mucho más accesible para usuarios no técnicos.\n\nAhora, lo que está generando más conversación en el ecosistema. Anthropic ha presentado su nueva marca de agua en Claude, un sistema sofisticado que se integra en el texto generado sin ser visible, prácticamente imposible de borrar, pero —y esto es importante— que no prueba realmente la autoría. Es una medida de transparencia interesante pero con limitaciones evidentes. Relacionado con esto, Daniel Púa, jefe de seguridad en Magnific, ha hecho una declaración fuerte: mientras que Claude Opus 4.8 era una navaja en términos de capacidades, su nuevo modelo Mythos es directamente un machete. Las diferencias de rendimiento están siendo más notables que nunca.\n\nFinalmente, lo que mueve al mercado financiero: Wall Street está proyectando la salida a bolsa de Anthropic, y algunos inversores ya valoran la empresa en dos billones de dólares. Es un indicador claro de cómo el capital está viendo el futuro de la IA generativa.\n\nTambién vale mencionar que NotebookLM de Google continúa expandiendo su alcance, permitiendo que usuarios sin fuentes propias comiencen a experimentar con la herramienta. Y como nota de cierre técnico, Windows 11 ha lanzado un parche importante que corrige más de 400 fallos, manteniéndose al día con la seguridad.\n\nLa semana arranca con consolidación de herramientas, intensificación de capacidades y un mercado cada vez más atento a dónde va el dinero. Gracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 17,
     "sources": 29,
-    "updated_label": "12:44"
+    "updated_label": "14:08"
   },
   "iaday": {
     "reading_minutes": "10 min",
@@ -28,147 +29,198 @@
   "articles": [
     {
       "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
       "cat": "Modelos",
       "content_type": "repo",
       "title": "Greninja9257/LabLLM",
-      "time": "18h",
+      "summary": "⭐ 22 estrellas — Un laboratorio nativo de macOS para enseñar a pequeños modelos de lenguaje de pensar — construye la arquitectura, entrena los pesos, y observa ",
+      "time": "19h",
       "url": "https://github.com/Greninja9257/LabLLM",
       "stars": "22"
     },
     {
       "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
       "cat": "Modelos",
       "content_type": "repo",
       "title": "FloofLogic/Floofclaw",
-      "time": "115h",
+      "summary": "⭐ 4 estrellas — Un pequeño runtime de C para agentes de IA duraderos: primero local, basado en eventos, seguro para reiniciar y completamente examinable.",
+      "time": "116h",
       "url": "https://github.com/FloofLogic/Floofclaw",
       "stars": "4"
     },
     {
       "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
       "cat": "Modelos",
       "content_type": "repo",
       "title": "Amazed-Labs/llm-pqr",
-      "time": "68h",
+      "summary": "⭐ 1 estrella — Selección de modelos de LLM neutral a proveedores basada en la calidad medida, latencia, costos, capacidades y restricciones de privacidad durade",
+      "time": "69h",
       "url": "https://github.com/Amazed-Labs/llm-pqr",
       "stars": "1"
     },
     {
       "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
       "title": "zareefahmed/revisión_técnica_de_arquitectura",
-      "time": "34h",
+      "summary": "⭐ 4 estrellas — Guía de revisión técnica independiente de arquitectura, lista de verificación, plantillas y señales de sesgo del proveedor para software, nube, ",
+      "time": "35h",
       "url": "https://github.com/zareefahmed/technical-architecture-review",
       "stars": "4"
     },
     {
       "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
       "title": "ImJanindu/Cielo",
-      "time": "149h",
+      "summary": "⭐ 1 estrella — Un asistente de voz inteligente para la automatización de escritorio en Windows.",
+      "time": "150h",
       "url": "https://github.com/ImJanindu/Sky",
       "stars": "1"
     },
     {
       "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
       "title": "notepix/Awesome-AI",
-      "time": "142h",
+      "summary": "⭐ 1 estrella — Una enciclopedia china de inteligencia artificial ordenada por dependencias, con explicaciones, ejemplos ejecutables, ejercicios, proyectos y ref",
+      "time": "143h",
       "url": "https://github.com/notepix/Awesome-AI",
       "stars": "1"
     },
     {
       "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
       "title": "aligh993/HR_Análisis_AI",
-      "time": "19h",
+      "summary": "⭐ 0 estrellas — HR Analytics AI — Sistema de Retención de Empleados y Recomendación de Puestos",
+      "time": "21h",
       "url": "https://github.com/aligh993/HR_Analytics_AI",
       "stars": "0"
     },
     {
       "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
       "title": "researchradar/research-radar",
-      "time": "5h",
+      "summary": "⭐ 2 estrellas — Inteligencia de investigación self-hosted para la recopilación, deduplicación, clasificación, búsqueda y navegación de los investigadores, temas",
+      "time": "7h",
       "url": "https://github.com/researchradar/research-radar",
       "stars": "2"
     },
     {
       "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
       "title": "RamiJaloudi/cubo-ajedrez",
-      "time": "51h",
+      "summary": "⭐ 2 estrellas — Un variante del ajedrez en 3D jugada en todas las seis caras de un cubo - movimientos con envoltura, 2-4 jugadores, contrincantes del procesador",
+      "time": "52h",
       "url": "https://github.com/RamiJaloudi/cube-chess",
       "stars": "2"
     },
     {
       "source": "Migue Baena IA",
+      "source_type": "youtube",
+      "lang": "es",
       "cat": "Videos",
       "content_type": "video",
       "title": "Alternativas GRATIS a tus apps de pago 🤩💰",
-      "time": "4h",
+      "summary": "¿Cuántas suscripciones de software estás pagando ahora mismo? 🤔\n🚨 Antes de pagar otra, conoce OpenAlternative.\nEs una plataforma que reúne alternativas gratuita",
+      "time": "6h",
       "url": "https://www.youtube.com/shorts/tFLPzGgH7wI"
     },
     {
       "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
       "cat": "Modelos",
       "content_type": "news",
       "title": "Daniel Púa, jefe de seguridad en Magnific: \"Si Claude Opus 4.8 podía ser una navaja, Mythos es un machete\"",
-      "time": "7h",
+      "summary": "<p>\n     <img alt=\"Daniel&#x20;P&#x00FA;a,&#x20;jefe&#x20;de&#x20;seguridad&#x20;en&#x20;Magnific&#x3A;&#x20;&quot;Si&#x20;Claude&#x20;Opus&#x20;4.8&#x20;pod&#x",
+      "time": "8h",
       "url": "https://www.xataka.com/seguridad/daniel-pua-jefe-seguridad-magnific-claude-opus-4-8-podia-ser-navaja-mythos-machete"
     },
     {
       "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
       "cat": "Modelos",
       "content_type": "news",
       "title": "Anthropic explica cómo funciona la nueva marca de agua de Claude: no se ve, no se nota, (casi) no se puede borrar y no prueba nada",
-      "time": "8h",
+      "summary": "<p>\n     <img alt=\"Anthropic&#x20;explica&#x20;c&#x00F3;mo&#x20;funciona&#x20;la&#x20;nueva&#x20;marca&#x20;de&#x20;agua&#x20;de&#x20;Claude&#x3A;&#x20;no&#x20;",
+      "time": "9h",
       "url": "https://www.xataka.com/robotica-e-ia/anthropic-explica-como-funciona-nueva-marca-agua-claude-no-se-ve-no-se-nota-casi-no-se-puede-borrar-no-prueba-nada"
     },
     {
       "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
       "cat": "Modelos",
       "content_type": "news",
       "title": "Wall Street ya se frota las manos con la salida a bolsa de Anthropic: algunos inversores la valoran en dos billones de dólares, según FT",
-      "time": "7h",
+      "summary": "<p>\n     <img alt=\"Wall&#x20;Street&#x20;ya&#x20;se&#x20;frota&#x20;las&#x20;manos&#x20;con&#x20;la&#x20;salida&#x20;a&#x20;bolsa&#x20;de&#x20;Anthropic&#x3A;&#",
+      "time": "9h",
       "url": "https://www.xataka.com/empresas-y-economia/wall-street-se-frota-manos-salida-a-bolsa-anthropic-algunos-inversores-valoran-dos-billones-dolares-ft"
     },
     {
       "source": "Hipertextual",
+      "source_type": "rss",
+      "lang": "es",
       "cat": "Modelos",
       "content_type": "news",
       "title": "Cómo empezar de cero con Gemini Notebook (NotebookLM) aunque no tengas fuentes propias a las que preguntar",
-      "time": "8h",
+      "summary": "<figure><img alt=\"Empezar con NotebookLM, ahora Gemini Notebook\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"683\" src=\"https://i",
+      "time": "10h",
       "url": "https://hipertextual.com/guias/empezar-con-gemini-notebook-notebooklm-buscar-fuentes/"
     },
     {
       "source": "Hipertextual",
+      "source_type": "rss",
+      "lang": "es",
       "cat": "Modelos",
       "content_type": "news",
       "title": "Se acabó el chollo de generar texto con la IA e intentar engañar a tu jefe o profesor: pronto sabrá (al 100%) que ha sido ChatGPT",
-      "time": "6h",
+      "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"682\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-content/upl",
+      "time": "8h",
       "url": "https://hipertextual.com/inteligencia-artificial/se-acabo-el-chollo-de-generar-texto-con-la-ia-e-intentar-enganar-a-tu-jefe-o-profesor-pronto-sabra-al-100-que-ha-sido-chatgpt/"
     },
     {
       "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
       "cat": "Investigación",
       "content_type": "news",
       "title": "Nos vendieron las redes 5G como la forma más rápida de conectarnos con el móvil. Ahora resulta que también pueden detectar drones",
-      "time": "5h",
+      "summary": "<p>\n     <img alt=\"Nos&#x20;vendieron&#x20;las&#x20;redes&#x20;5G&#x20;como&#x20;la&#x20;forma&#x20;m&#x00E1;s&#x20;r&#x00E1;pida&#x20;de&#x20;conectarnos&#x20;",
+      "time": "6h",
       "url": "https://www.xataka.com/moviles/nos-vendieron-redes-5g-como-forma-rapida-conectarnos-movil-ahora-resulta-que-tambien-pueden-detectar-drones"
     },
     {
       "source": "Hipertextual",
+      "source_type": "rss",
+      "lang": "es",
       "cat": "Modelos",
       "content_type": "news",
       "title": "Este conector de hace 40 años sigue siendo popular en los ordenadores, pese al USB",
-      "time": "1h",
+      "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"683\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-content/upl",
+      "time": "3h",
       "url": "https://hipertextual.com/tecnologia/puerto-ps2-por-que-siguen-en-ordenadores/"
     }
   ]

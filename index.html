@@ -213,55 +213,76 @@
     * { animation-duration: 0.001ms !important; }
   }
 
-  /* ── ESCRITORIO: mismo archivo, layout de 3 columnas (rail + contenido
-     + tendencias) inspirado en el Dash real, sin lo administrativo ──── */
-  .main-col{ min-width:0; }
-  .desktop-rail{ display:none; }
-  .right-rail{ display:none; }
+  /* ── ESCRITORIO: espejo del Dash real (sidebar + resumen + feed +
+     panel de tendencias), sin Administración ─────────────────────── */
+  #desktopApp{ display:none; }
 
   @media (min-width: 900px){
-    body{ background:var(--sb); }
-    .page{
-      max-width:1080px; margin:0 auto; padding:24px 20px 60px;
-      display:grid; grid-template-columns:200px minmax(0,600px) 260px;
-      gap:24px; align-items:start;
-    }
-    .appbar{ grid-column:1 / -1; position:sticky; top:24px; border-radius:16px; margin-bottom:4px; }
-    .appbar::after{ display:none; }
-    .main-col{ grid-column:2; }
+    body{ background:var(--bg); }
+    .page{ display:none; }
+    #desktopApp{ display:flex; height:100vh; overflow:hidden; }
 
-    .desktop-rail{
-      grid-column:1; display:flex; flex-direction:column; gap:4px;
-      position:sticky; top:100px; background:var(--surf); border:1px solid var(--line);
-      border-radius:14px; padding:10px;
+    .d-sidebar{
+      width:210px; min-width:210px; background:var(--sb); border-right:1px solid var(--line);
+      padding:20px 16px; overflow-y:auto; display:flex; flex-direction:column;
     }
-    .drail-item{
-      display:flex; align-items:center; gap:10px; padding:9px 12px; border-radius:9px;
-      color:var(--faint); font-size:13px; font-weight:500; cursor:pointer;
-      transition:background 150ms, color 150ms;
+    .d-brand-name{ font-size:20px; font-weight:800; letter-spacing:-.2px; }
+    .d-brand-name b{ color:var(--acc); }
+    .d-brand-tag{ font-size:10px; color:var(--faint); margin-bottom:22px; }
+    .d-nav-group-label{ font-size:10px; color:var(--faint); font-weight:700; letter-spacing:.06em; padding:14px 8px 6px; }
+    .d-nav-item{
+      display:flex; align-items:center; gap:10px; padding:8px 12px; border-radius:6px;
+      color:var(--dim); font-size:13px; cursor:pointer; margin-bottom:2px;
     }
-    .drail-item:hover{ background:var(--s2); color:var(--ink); }
-    .drail-item.active{ background:var(--s2); color:var(--pur); }
+    .d-nav-item:hover{ background:var(--s2); color:var(--ink); }
+    .d-nav-item.active{ background:var(--s2); color:var(--ink); }
+    .d-nav-badge{ margin-left:auto; background:var(--acc); color:#000; border-radius:10px; font-size:10px; padding:1px 6px; font-weight:700; min-width:16px; text-align:center; }
+    .d-sidebar-footer{ margin-top:auto; padding-top:16px; font-size:10px; color:var(--faint); line-height:1.6; }
 
-    .right-rail{ grid-column:3; display:block; position:sticky; top:100px; }
-    .rail-card{ background:var(--surf); border:1px solid var(--line); border-radius:14px; padding:16px; margin-bottom:14px; }
-    .rail-card h4{ font-size:12.5px; font-weight:700; margin-bottom:12px; letter-spacing:-.1px; }
-    .rail-trend{ display:flex; gap:10px; margin-bottom:12px; align-items:flex-start; }
-    .rail-trend:last-child{ margin-bottom:0; }
-    .rail-trend .num{ font-size:11px; font-weight:700; color:var(--acc); width:14px; flex-shrink:0; }
-    .rail-trend a{ font-size:11.5px; font-weight:600; color:var(--ink); text-decoration:none; line-height:1.35; display:block; }
-    .rail-trend .src{ font-size:10px; color:var(--faint); margin-top:2px; }
-    .rail-cat{ display:flex; align-items:center; gap:8px; margin-bottom:9px; font-size:11px; }
-    .rail-cat .dot{ width:7px; height:7px; border-radius:50%; flex-shrink:0; }
-    .rail-cat .name{ color:var(--dim); width:88px; flex-shrink:0; }
-    .rail-cat .bar-bg{ flex:1; height:4px; background:var(--line); border-radius:2px; overflow:hidden; }
-    .rail-cat .bar-fill{ height:100%; border-radius:2px; }
-    .rail-cat .count{ color:var(--faint); font-size:10px; width:16px; text-align:right; }
+    .d-main{ flex:1; overflow-y:auto; padding:24px; }
+    .d-header h1{ font-size:22px; font-weight:700; letter-spacing:-.3px; margin-bottom:4px; }
+    .d-header p{ font-size:13px; color:var(--dim); margin-bottom:20px; }
 
-    /* En escritorio hay espacio de sobra, la barra inferior y el
-       mini-player flotante ya no aportan -- se sacan, no se duplican */
-    .tabbar, .mini-player{ display:none; }
-    .page{ padding-bottom:0; }
+    .d-summary-card{ background:var(--surf); border:1px solid #7c6af744; border-radius:16px; padding:24px; margin-bottom:20px; }
+    .d-summary-title{ font-size:14px; font-weight:700; color:var(--pur); margin-bottom:16px; }
+    .d-summary-body{ display:flex; gap:20px; margin-bottom:16px; }
+    .d-avatar{ width:80px; height:80px; min-width:80px; border-radius:50%; overflow:hidden; border:2px solid var(--pur); }
+    .d-avatar video{ width:100%; height:100%; object-fit:cover; }
+    .d-summary-text{ font-size:13.5px; color:var(--dim); line-height:1.6; max-height:130px; overflow-y:auto; }
+    .d-audio-row audio{ width:100%; height:36px; }
+
+    .d-tabs{ display:flex; gap:20px; border-bottom:1px solid var(--line); margin-bottom:16px; }
+    .d-tab{ padding:0 0 10px; font-size:13px; font-weight:500; color:var(--dim); cursor:pointer; border-bottom:2px solid transparent; }
+    .d-tab.active{ color:var(--pur); font-weight:600; border-color:var(--pur); }
+
+    .d-feed-header{ display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; }
+    .d-feed-header h3{ font-size:15px; font-weight:700; letter-spacing:-.15px; }
+    .d-feed-meta{ display:flex; align-items:center; gap:8px; font-size:10px; color:var(--faint); }
+    .d-pill{ background:var(--acc)33; color:var(--acc); padding:3px 10px; border-radius:12px; font-weight:700; }
+
+    .d-feed-card{ display:flex; gap:10px; padding:10px 12px; background:var(--surf); border:1px solid var(--line); border-radius:8px; margin-bottom:6px; }
+    .d-feed-avatar{ width:44px; height:38px; min-width:44px; border-radius:6px; display:flex; align-items:center; justify-content:center; font-size:15px; font-weight:700; }
+    .d-feed-body{ flex:1; min-width:0; }
+    .d-feed-top{ display:flex; align-items:center; gap:6px; margin-bottom:2px; flex-wrap:wrap; }
+    .d-feed-src{ font-size:10px; font-weight:600; }
+    .d-feed-time{ font-size:10px; color:var(--faint); }
+    .d-feed-lang{ font-size:8.5px; font-weight:700; padding:1px 5px; border-radius:3px; color:#fff; }
+    .d-feed-title{ font-size:12.5px; font-weight:600; color:var(--ink); text-decoration:none; display:block; margin-bottom:2px; line-height:1.35; }
+    .d-feed-summary{ font-size:10.5px; color:var(--faint); line-height:1.4; overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; }
+
+    .d-rail{ width:260px; min-width:260px; border-left:1px solid var(--line); padding:24px 16px; overflow-y:auto; }
+    .d-rail-card{ background:var(--surf); border:1px solid var(--line); border-radius:10px; padding:16px; margin-bottom:14px; }
+    .d-rail-card h4{ font-size:13px; font-weight:600; margin-bottom:12px; }
+    .d-trend-row{ display:flex; gap:8px; align-items:flex-start; margin-bottom:10px; }
+    .d-trend-row:last-child{ margin-bottom:0; }
+    .d-trend-num{ font-size:12px; font-weight:700; color:var(--acc); width:16px; flex-shrink:0; }
+    .d-trend-row a{ font-size:11px; font-weight:600; color:var(--ink); text-decoration:none; display:block; line-height:1.35; }
+    .d-trend-src{ font-size:9.5px; color:var(--faint); margin-top:2px; }
+    .d-src-row{ display:flex; align-items:center; gap:8px; margin-bottom:8px; font-size:11px; }
+    .d-src-row .name{ color:var(--dim); width:76px; flex-shrink:0; }
+    .d-src-row .bar-bg{ flex:1; height:4px; background:var(--line); border-radius:2px; overflow:hidden; }
+    .d-src-row .bar-fill{ height:100%; border-radius:2px; }
+    .d-src-row .count{ color:var(--ink); font-weight:600; font-size:11px; width:16px; text-align:right; }
   }
 </style>
 </head>
@@ -283,9 +304,6 @@
     </div>
   </div>
 
-  <div class="desktop-rail" id="desktopRail"></div>
-
-  <div class="main-col">
   <div class="hero">
     <div class="hero-eyebrow" id="greeting">—</div>
     <div class="hero-title">El resumen de hoy</div>
@@ -329,9 +347,6 @@
     </div>
   </div>
   <div class="news-list" id="news-list"></div>
-  </div>
-
-  <div class="right-rail" id="rightRail"></div>
 
   <div class="mini-player" id="miniPlayer">
     <div class="mini-progress"></div>
@@ -355,6 +370,68 @@
         </div>
       </div>
       <video id="modalVideo" src="welcome-video.mp4" playsinline controls></video>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══════════ DASHBOARD DE ESCRITORIO ══════════
+     Mismo DATA que la vista móvil, solo se muestra en pantallas
+     ≥900px (ver CSS). Sin Administración, sin nombre en el saludo. -->
+<div id="desktopApp">
+
+  <div class="d-sidebar">
+    <div class="d-brand-name">Am<b>News</b>IA</div>
+    <div class="d-brand-tag">AI News & Intelligence</div>
+
+    <div class="d-nav-item active">Inicio</div>
+
+    <div class="d-nav-group-label">NOTICIAS</div>
+    <div class="d-nav-item">Hoy <span class="d-nav-badge" id="dBadgeHoy">—</span></div>
+    <div class="d-nav-item">Historial</div>
+
+    <div class="d-nav-group-label">RESÚMENES</div>
+    <div class="d-nav-item">Diario</div>
+    <div class="d-nav-item">Semanal</div>
+    <div class="d-nav-item">Mensual</div>
+
+    <div class="d-sidebar-footer">
+      AmNewsIA<br>Hub público de solo lectura<br>Versión 1.0
+    </div>
+  </div>
+
+  <div class="d-main">
+    <div class="d-header">
+      <h1 id="dGreeting">—</h1>
+      <p id="dHeaderSub">—</p>
+    </div>
+
+    <div class="d-summary-card">
+      <div class="d-summary-title">Resumen del día</div>
+      <div class="d-summary-body">
+        <div class="d-avatar"><video src="welcome-video.mp4" muted loop autoplay playsinline></video></div>
+        <div class="d-summary-text" id="dSummaryText">—</div>
+      </div>
+      <div class="d-audio-row"><audio id="dAudio" controls></audio></div>
+    </div>
+
+    <div class="d-tabs" id="dTabs"></div>
+
+    <div class="d-feed-header">
+      <h3>Últimas novedades</h3>
+      <div class="d-feed-meta"><span class="d-pill">HOY</span><span id="dCount">—</span></div>
+    </div>
+    <div class="d-feed" id="dFeed"></div>
+  </div>
+
+  <div class="d-rail">
+    <div class="d-rail-card">
+      <h4>Tendencias</h4>
+      <div id="dTrending"></div>
+    </div>
+    <div class="d-rail-card">
+      <h4>Fuentes</h4>
+      <div id="dSources"></div>
     </div>
   </div>
 
@@ -458,9 +535,16 @@ function setFilter(type){
   if (activeFilter) document.getElementById("news-list").scrollIntoView({behavior:"smooth", block:"start"});
 }
 
+function getGreeting(){
+  const h = new Date().getHours();
+  if (h < 12) return "Buenos días";
+  if (h < 19) return "Buenas tardes";
+  return "Buenas noches";
+}
+
 function renderFromData(){
   document.getElementById("dateLabel").textContent = DATA.date_label;
-  document.getElementById("greeting").textContent = DATA.greeting;
+  document.getElementById("greeting").textContent = getGreeting();
   document.getElementById("heroDate").textContent = DATA.date_label;
   document.getElementById("heroDur").textContent = DATA.briefing.duration_label;
   document.getElementById("briefingAudio").src = DATA.briefing.audio_url;
@@ -591,61 +675,111 @@ avatarBtn.addEventListener("click", openModal);
 document.getElementById("modalBack").addEventListener("click", closeModal);
 modal.addEventListener("click", (e) => { if (e.target === modal) closeModal(); });
 
-/* ── Paneles de escritorio: mismo dato, reorganizado, nada nuevo ── */
-function renderDesktopRail(){
-  const el = document.getElementById("desktopRail");
-  const ITEMS = [
-    { icon:"home",       label:"Resumen",   active:true },
-    { icon:"newspaper",  label:"Noticias" },
-    { icon:"headphones", label:"Audio" },
-    { icon:"history",    label:"Historial" },
-  ];
-  el.innerHTML = ITEMS.map(t => `
-    <div class="drail-item ${t.active ? 'active' : ''}">${icon(t.icon, 17)}${t.label}</div>
+/* ── Dashboard de escritorio: mismo DATA, espejo del Dash real ──── */
+const SOURCE_TYPE_TABS = [
+  { key:"all", label:"Todas" },
+  { key:"rss", label:"Blogs" },
+  { key:"youtube", label:"YouTube" },
+  { key:"arxiv", label:"Papers" },
+  { key:"github", label:"GitHub" },
+  { key:"huggingface", label:"HF Papers" },
+  { key:"other", label:"Otras" },
+];
+const SOURCE_TYPE_COLOR = {
+  rss:"var(--blue)", youtube:"var(--red)", arxiv:"var(--pur)",
+  github:"var(--green)", huggingface:"#f59e0b", other:"var(--dim)",
+};
+const SOURCE_TYPE_LABEL = { rss:"Blogs", youtube:"YouTube", arxiv:"Papers", github:"GitHub", huggingface:"HF Papers" };
+const KNOWN_TYPES = new Set(["rss","youtube","arxiv","github","huggingface"]);
+let dActiveType = "all";
+
+function renderDesktopHeader(){
+  document.getElementById("dGreeting").textContent = getGreeting();
+  document.getElementById("dHeaderSub").textContent = `Aquí está tu resumen de IA de hoy, ${DATA.date_label}.`;
+  document.getElementById("dBadgeHoy").textContent = DATA.stats.new_articles;
+}
+
+function renderDesktopSummary(){
+  document.getElementById("dSummaryText").textContent =
+    DATA.briefing.script_text || "Todavía no hay un resumen generado para hoy.";
+  document.getElementById("dAudio").src = DATA.briefing.audio_url;
+}
+
+function renderDesktopTabs(){
+  document.getElementById("dTabs").innerHTML = SOURCE_TYPE_TABS.map(t => `
+    <div class="d-tab ${t.key === dActiveType ? 'active' : ''}" onclick="setDesktopType('${t.key}')">${t.label}</div>
   `).join("");
 }
 
-function renderRightRail(){
-  const el = document.getElementById("rightRail");
-  if (!DATA) return;
+function setDesktopType(key){
+  dActiveType = key;
+  renderDesktopTabs();
+  renderDesktopFeed();
+}
 
-  const trendHtml = DATA.articles.slice(0, 5).map((a, i) => `
-    <div class="rail-trend">
-      <div class="num">${i + 1}</div>
+function renderDesktopFeed(){
+  const list = dActiveType === "all" ? DATA.articles
+    : dActiveType === "other" ? DATA.articles.filter(a => !KNOWN_TYPES.has(a.source_type))
+    : DATA.articles.filter(a => a.source_type === dActiveType);
+
+  document.getElementById("dCount").textContent = `${list.length} artículos`;
+  document.getElementById("dFeed").innerHTML = list.map(a => `
+    <div class="d-feed-card">
+      <div class="d-feed-avatar" style="background:${(CAT_COLOR[a.cat]||'var(--dim)')}22; color:${CAT_COLOR[a.cat]||'var(--dim)'}">${(a.source||"?")[0].toUpperCase()}</div>
+      <div class="d-feed-body">
+        <div class="d-feed-top">
+          <span class="d-feed-src" style="color:${CAT_COLOR[a.cat]||'var(--dim)'}">${a.source}</span>
+          <span class="d-feed-time">· ${a.time}</span>
+          <span class="d-feed-lang" style="background:${(a.lang||'es')==='es' ? 'var(--green)' : 'var(--blue)'}">${(a.lang||'es').toUpperCase()}</span>
+        </div>
+        <a class="d-feed-title" href="${a.url}" target="_blank" rel="noopener">${a.title}</a>
+        <div class="d-feed-summary">${a.summary || ''}</div>
+      </div>
+    </div>
+  `).join("");
+}
+
+function renderDesktopRail(){
+  document.getElementById("dTrending").innerHTML = DATA.articles.slice(0, 5).map((a, i) => `
+    <div class="d-trend-row">
+      <div class="d-trend-num">${i + 1}</div>
       <div>
         <a href="${a.url}" target="_blank" rel="noopener">${a.title}</a>
-        <div class="src">${a.source} · ${a.time}</div>
+        <div class="d-trend-src">${a.source} · ${a.time}</div>
       </div>
     </div>
   `).join("");
 
   const tally = {};
-  DATA.articles.forEach(a => { tally[a.cat] = (tally[a.cat] || 0) + 1; });
+  DATA.articles.forEach(a => { tally[a.source_type] = (tally[a.source_type] || 0) + 1; });
   const maxCount = Math.max(...Object.values(tally), 1);
-  const catHtml = Object.entries(tally)
+  document.getElementById("dSources").innerHTML = Object.entries(tally)
     .sort((a, b) => b[1] - a[1])
-    .map(([cat, count]) => `
-      <div class="rail-cat">
-        <span class="dot" style="background:${CAT_COLOR[cat] || 'var(--dim)'}"></span>
-        <span class="name">${cat}</span>
-        <div class="bar-bg"><div class="bar-fill" style="width:${(count / maxCount * 100)}%; background:${CAT_COLOR[cat] || 'var(--dim)'}"></div></div>
+    .map(([type, count]) => `
+      <div class="d-src-row">
+        <span class="name">${SOURCE_TYPE_LABEL[type] || type}</span>
+        <div class="bar-bg"><div class="bar-fill" style="width:${count / maxCount * 100}%; background:${SOURCE_TYPE_COLOR[type] || 'var(--dim)'}"></div></div>
         <span class="count">${count}</span>
       </div>
     `).join("");
+}
 
-  el.innerHTML = `
-    <div class="rail-card"><h4>Tendencias</h4>${trendHtml}</div>
-    <div class="rail-card"><h4>Por categoría</h4>${catHtml}</div>
-  `;
+function renderDesktop(){
+  renderDesktopHeader();
+  renderDesktopSummary();
+  renderDesktopTabs();
+  renderDesktopFeed();
+  renderDesktopRail();
 }
 
 /* ── Carga de datos ───────────────────────────────────────────── */
 fetch("data/news.json")
   .then(r => r.json())
-  .then(json => { DATA = json; renderChrome(); renderFromData(); renderDesktopRail(); renderRightRail(); })
+  .then(json => { DATA = json; renderChrome(); renderFromData(); renderDesktop(); })
   .catch(err => {
-    document.querySelector(".page").innerHTML =
-      `<p style="padding:40px 20px;color:var(--dim)">No se pudo cargar data/news.json. Revisa que el archivo exista y que el sitio se esté sirviendo por HTTP (no abriendo el archivo directo).</p>`;
+    const msg = `<p style="padding:40px 20px;color:var(--dim)">No se pudo cargar data/news.json. Revisa que el archivo exista y que el sitio se esté sirviendo por HTTP (no abriendo el archivo directo).</p>`;
+    document.querySelector(".page").innerHTML = msg;
+    document.getElementById("desktopApp").innerHTML = msg;
     console.error(err);
   });
 </script>
