@@ -1,0 +1,1236 @@
+{
+  "date": "2026-08-14",
+  "date_label": "14 de agosto de 2026",
+  "greeting": "Buenos días, Effry",
+  "briefing": {
+    "duration_label": "2:35",
+    "audio_url": "assets/audio/2026-08-14.mp3"
+  },
+  "stats": {
+    "new_articles": 143,
+    "sources": 29,
+    "updated_label": "12:43"
+  },
+  "iaday": {
+    "reading_minutes": "86 min",
+    "audio_duration": "2:35",
+    "key_count": 3,
+    "papers_count": 67,
+    "repos_count": 29,
+    "videos_count": 11,
+    "impact": "Alto"
+  },
+  "thirty_seconds": [
+    "LycheeMemory V2: Memoria de Largo Plazo Eficiente para Agentes LLM a Través de la Consolidación Semántica por Niveles de Segmento",
+    "Clownjee/pipeline-de-importación-de-conocimiento",
+    "sunyifei-126/EvoGate-RSI"
+  ],
+  "articles": [
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "LycheeMemory V2: Memoria de Largo Plazo Eficiente para Agentes LLM a Través de la Consolidación Semántica por Niveles de Segmento",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.12990"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Clownjee/pipeline-de-importación-de-conocimiento",
+      "time": "105h",
+      "url": "https://github.com/clownjee/knowledge-import-pipeline",
+      "stars": "11"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "sunyifei-126/EvoGate-RSI",
+      "time": "156h",
+      "url": "https://github.com/sunyifei-126/EvoGate-RSI",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "AyushShetty07/agentic-ai-smart-video-editor",
+      "time": "47h",
+      "url": "https://github.com/AyushShetty07/agentic-ai-smart-video-editor",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "ruialexrib/legal-embeddings-finetuning-pt",
+      "time": "140h",
+      "url": "https://github.com/ruialexrib/legal-embeddings-finetuning-pt",
+      "stars": "0"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Agente de Memoria Espacial: Procedimiento de Memoria Basado en Experiencia para Inteligencia Espacial",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.12743"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "yolandalopezai/ai-learning-portfolio",
+      "time": "68h",
+      "url": "https://github.com/yolandalopezai/ai-learning-portfolio",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "m-junaid-saleem/Plataforma-de Negocios y Análisis de AI",
+      "time": "72h",
+      "url": "https://github.com/m-junaid-saleem/AI-Business-Analytics-Platform",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Siddem Mohan Krishna/AI-Real-Time-GYM-Coach",
+      "time": "78h",
+      "url": "https://github.com/siddemmohankrishna/AI-Real-Time-GYM-Coach",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Artin Ghorbanian/Aión Ex-Compañeros de AI",
+      "time": "197h",
+      "url": "https://github.com/ArtinGhorbanian/aionex-ai-companions",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "dalaofei1154/esfera-de-cognición-ia",
+      "time": "145h",
+      "url": "https://github.com/dalaofei1154/ai-cognition-sphere",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "Algunosulabhavana-sudo/Detección-de-Puestos-de-Trabajo-Falsos-AI",
+      "time": "199h",
+      "url": "https://github.com/somesulabhavana-sudo/AI-Fake-Job-Detection",
+      "stars": "1"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Intern-S2-Vista previa: Modelo de Fundación Agente Científico",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.13505"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "DarwinX: Agente Evolucionando que Captura mediante Selección Natural",
+      "time": "404h",
+      "url": "https://huggingface.co/papers/2608.07545"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "AutoDiseño: Optimización de Meta-Arreos para el Diseño Agencial a Largo Plazo",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.13560"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "digitalrcs/entorno-de-inteligencia-para-grafana",
+      "time": "118h",
+      "url": "https://github.com/digitalrcs/grafana-intelligence-gateway",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "nodalytics/hasta_el_infinito",
+      "time": "96h",
+      "url": "https://github.com/nodalytics/till_infinity",
+      "stars": "2"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "AVA-Encoder: Hacia una Aprendizaje de Representación Vidéica Nativa del Agente",
+      "time": "116h",
+      "url": "https://huggingface.co/papers/2608.12313"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "SKILLER: Aprendizaje por Reforzamiento de Nivel de Lenguaje para la Extracción Reutilizable de Habilidades en Pequeños Modelos de Lenguaje",
+      "time": "140h",
+      "url": "https://huggingface.co/papers/2608.10538"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Bugatsec/Prompts-Ingeniería-Esencial",
+      "time": "58h",
+      "url": "https://github.com/Bugatsec/Prompt-Engineering-Holy-Grail",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Aryan-JE/JI-Juggy-Inteligencia",
+      "time": "95h",
+      "url": "https://github.com/Aryan-JE/JI-Juggy-Intelligence",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "srijabiswas-01/superstore-inteligencia-de-business",
+      "time": "199h",
+      "url": "https://github.com/srijabiswas-01/superstore-business-intelligence",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "LiSheng5/npcsidekick",
+      "time": "75h",
+      "url": "https://github.com/LiSheng5/npcsidekick",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "kaseypelchy-ops/plataforma-de-calidad-de-llamadas-ai-showcase",
+      "time": "77h",
+      "url": "https://github.com/kaseypelchy-ops/ai-call-quality-platform-showcase",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "alianza85/servicio-microservicio-de-texto-a-imagen",
+      "time": "141h",
+      "url": "https://github.com/aliyanz85/text-to-image-microservice",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "disha942/PRODIGY_GA_03",
+      "time": "198h",
+      "url": "https://github.com/disha942/PRODIGY_GA_03",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "gyr0byte/Análisis_deSentimientos",
+      "time": "146h",
+      "url": "https://github.com/gyr0byte/Sentimental_Analysis",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Gabriel-Claro/huggingface-transfer-learning-redações",
+      "time": "171h",
+      "url": "https://github.com/Gabriel-Claro/huggingface-transfer-learning-redacoes",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "ajinkya0771/AI-Recruitment-Candidate-Success-Prediction",
+      "time": "202h",
+      "url": "https://github.com/ajinkya0771/AI-Recruitment-Candidate-Success-Prediction",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "khaterehparvanian/mini-doble-digital-manufacturing",
+      "time": "128h",
+      "url": "https://github.com/khaterehparvanian/mini-digital-twin-manufacturing",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "No se puede traducir directamente este texto ya que contiene un nombre de usuario y un título de aplicación que no tienen un significado claro en español.",
+      "time": "165h",
+      "url": "https://github.com/sainathgoud1229/aiml-acm-application-sainath",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "ecdedios/títulos-de-ingeniería-en-inteligencia-artificial",
+      "time": "155h",
+      "url": "https://github.com/ecdedios/masters-artificial-intelligence",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "4brxr/ruta-optimal-para-drones",
+      "time": "192h",
+      "url": "https://github.com/4brxr/ai-drone-routing-optimization",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "manojmanu22/Detección_de_Fraude_Financiero_Manteniendo_la_Privacidad",
+      "time": "147h",
+      "url": "https://github.com/manojmanu22/Privacy-Preserving-Financial-Fraud-Detection",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Eman-2211/AI-Labs-Spring26",
+      "time": "154h",
+      "url": "https://github.com/Eman-2211/AI-Labs-Spring26",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "arashKhanDeveloper/ML-KMeans-Mall-Customers-Clústerización",
+      "time": "148h",
+      "url": "https://github.com/arashKhanDeveloper/ML-KMeans-Mall-Customers-Clustering",
+      "stars": "0"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Un marco de AI4AI para la poda de tokens visuales",
+      "time": "236h",
+      "url": "https://huggingface.co/papers/2608.07193"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "PlayWorld: Evaluación de Modelos Mundiales con Jugadores Agente a Través de Objetivos de Largo Plazo",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.13552"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Científico OmniScientist: Científico Omnimodal y Omnidisciplinar Artificial Inteligente",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.13558"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "LiveAnimate: Animación Estable de Forma Larga en Transmisión Humana en Tiempo Real",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.11745"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "LLMRouter: Infraestructura unificada para el desarrollo, evaluación y implementación de routers LLM",
+      "time": "236h",
+      "url": "https://huggingface.co/papers/2608.06867"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Edición basada en políticas híbridas para la edición de conocimiento no estructurado compuesto",
+      "time": "116h",
+      "url": "https://huggingface.co/papers/2608.11660"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Mitigarea Prejudecăților Conform Genului în Traducerea Automatică Anglaz-Română",
+      "time": "188h",
+      "url": "https://huggingface.co/papers/2608.08606"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "ReRound: Ajuste reconstructivo para resolver ambigüedades en el punto medio en cuantización de LLMs sin calibración",
+      "time": "140h",
+      "url": "https://huggingface.co/papers/2608.11045"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Transformador de banda completa",
+      "time": "188h",
+      "url": "https://huggingface.co/papers/2608.08888"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Cómo puede la retórica recompensar a los revisores de IA que realizan trampas en la evaluación? Descomponiendo la sensibilidad retórica en la revisión por pares basada en la IA.",
+      "time": "164h",
+      "url": "https://huggingface.co/papers/2608.08975"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "AaLLM: Un marco de diseño de circuitos analógicos desde la generación de topología hasta el dimensionamiento utilizando modelos de lenguaje grande",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13472v1",
+      "arxiv": "2608.13472v1"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "La convergencia basada en especificación con un agente de codificación de IA: un estudio de caso sobre la desmantelamiento de una invariante arquitectónica central en 189 archivos de un conjunto de código de 717.000 líneas sin oráculo de prueba ni revisión de código humana",
+      "time": "116h",
+      "url": "https://huggingface.co/papers/2608.12440"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Distilación Context-Matched: Causalidad del Maestro para la Distilación Autoregresiva de Video",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.13391"
+    },
+    {
+      "source": "arXiv — cs.LG",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "TRAVEL: Aprendizaje de Embedding de Video Guiado por Trajeto para la Recuperación de Videos de Conducción",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13495v1",
+      "arxiv": "2608.13495v1"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "De la Evidencia Atómica a la Razonamiento Composicional Lógico: Razón Composicional Estruturada sobre Opciones de Respuesta Compuestas",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.12836"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Estimación del Objeto de Foco en Cualquier Lugar con Conceptos",
+      "time": "140h",
+      "url": "https://huggingface.co/papers/2608.11367"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Aprendizaje del Cómo Evoluciona el Mundo: Modelos de Mundos de Vídeo por Extrapolación a Través de Razonamiento Dinámico Latente",
+      "time": "164h",
+      "url": "https://huggingface.co/papers/2608.09926"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Alaya-EVOKE: De la Supervisión de Escalado Lineal a un Mundo Sin Fines",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.13546"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Vero: ¿Pueden los agentes de inteligencia artificial construir repositorios de software verificados formalmente?",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13522v1",
+      "arxiv": "2608.13522v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "MARC v1: Un marco de código abierto para razoneo y coordinación de inteligencia artificial multientidad en atención médica",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13476v1",
+      "arxiv": "2608.13476v1"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "TailBooster: Un marco generativo dual capa para la augmentación de valores extremos con garantía de validez operacional",
+      "time": "116h",
+      "url": "https://huggingface.co/papers/2608.11951"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "¿Estás Seguro de Que Estás Seguro? Sobre el Impacto del Ajuste de Instrucciones en la Confianza y la Diversidad Léxica",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.13430"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "UniSwap: Cambio de Identidad Audio-Visual en Flujo para Videos Conversacionales",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.11752"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "CW-BASS v2: Selección de Etiquetas Pseudeo Conscientes de Saturación para la Segmentación Semisupervisada bajo Maestros de Modelos de Fundación",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.12773"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "H2R-Bench: Evaluación de la manipulación humano-a-robots en videos generados en modelos del mundo",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.13049"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "AutoDiseño: Optimización de Meta-Arreos para el Diseño Agencial a Largo Plazo",
+      "time": "70h",
+      "url": "https://arxiv.org/abs/2608.13560v1",
+      "arxiv": "2608.13560v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Citación de Bench: ¿Cómo Puntuaciones Ajustadas Ocultan Fallos en el Camino de Comando?",
+      "time": "70h",
+      "url": "https://arxiv.org/abs/2608.13547v1",
+      "arxiv": "2608.13547v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Intern-S2-Vista previa: Modelo de Fundación Agente Científico",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13505v1",
+      "arxiv": "2608.13505v1"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Grandes Activaciones en Modelos de Lenguaje Lineal Híbridos de Gran Tamaño: Picos Pré-Atención y Plataformas Inter-Pic peace",
+      "time": "116h",
+      "url": "https://huggingface.co/papers/2608.12149"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "DreamX-Phi 1.0: Modelo de Mundo de Videos Condicionado por Acciones para Manejo Robótico",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.13489"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "PixSDS: ¿Por qué los SDS Latentes Hacen Píxeles Ruidosos",
+      "time": "92h",
+      "url": "https://huggingface.co/papers/2608.12997"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Sabiendo cuándo abandonar: diagnóstico y entrenamiento de SISM para abordar el razonamiento fútil",
+      "time": "404h",
+      "url": "https://huggingface.co/papers/2607.29211"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "De entradas inaudibles a fallos en los modelos: riesgos de seguridad a baja frecuencia en LALMs",
+      "time": "164h",
+      "url": "https://huggingface.co/papers/2608.09158"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "RibAssist 3D: Detectación, manejo y localización selectiva tridimensional desde proyecciones derivadas de la CT",
+      "time": "164h",
+      "url": "https://huggingface.co/papers/2608.06914"
+    },
+    {
+      "source": "arXiv — cs.LG",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Sobre los Límites Estructurales de los Sistemas de Decisiones de Aprendizaje Automático: Una Perspectiva Teórica de la Información, Basada en la Interacción y Dinámica Estocástica",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13510v1",
+      "arxiv": "2608.13510v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Investigador Omniciente: Científico Inteligente Artificial Multimodal y Omnidisciplinario",
+      "time": "70h",
+      "url": "https://arxiv.org/abs/2608.13558v1",
+      "arxiv": "2608.13558v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "DFM Mimir v1: Un Sistema de Gestión Humana Abierta Entregando Desempeño Fronterizo con 1 Billón de Parámetros Usando Solo Datos Posentrenamiento Permisibles",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13517v1",
+      "arxiv": "2608.13517v1"
+    },
+    {
+      "source": "arXiv — cs.LG",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Modelo Clínico Mundial Consciente de la Intervención para la Predicción del Resultado Pos-Operativo en Cardiología",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13518v1",
+      "arxiv": "2608.13518v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Modelos de Lenguaje con Exposición Cognitiva Controlada por la Pedagogía",
+      "time": "70h",
+      "url": "https://arxiv.org/abs/2608.13545v1",
+      "arxiv": "2608.13545v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "AlayaWorld: Modelado Interactivo de Mundos a Largo Plazo - Informe Técnico Completo (v1.1)",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13492v1",
+      "arxiv": "2608.13492v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Ensamblajes Heterogéneos Ruteados MLLM para Clasificación de Imágenes Robusta en Conjuntos de Datos Diferentes",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13463v1",
+      "arxiv": "2608.13463v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Generación de Explicaciones para Características de Autocodificadores Esparsos a Través de la Verbalización de Representaciones",
+      "time": "70h",
+      "url": "https://arxiv.org/abs/2608.13538v1",
+      "arxiv": "2608.13538v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Reducción de la Multiplicación Matricial: Reducción del Producto Matricial Adaptativa al Entrar para la Inferencia de LLM",
+      "time": "72h",
+      "url": "https://arxiv.org/abs/2608.13426v1",
+      "arxiv": "2608.13426v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "¿Estás Seguro de Que Estás Seguro? Sobre el Impacto del Ajuste de la Instrucción en la Confianza y la Diversidad Léxica",
+      "time": "72h",
+      "url": "https://arxiv.org/abs/2608.13430v1",
+      "arxiv": "2608.13430v1"
+    },
+    {
+      "source": "arXiv — cs.LG",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "TabSOM: Un método de codificación de tabular a imagen basado en mapas auto-organizadores",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13513v1",
+      "arxiv": "2608.13513v1"
+    },
+    {
+      "source": "arXiv — cs.LG",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Técnica de Regresión Ortogonal Esparsa: Un Marco Espectral para la Descubrimiento, Aproximación y Integración de Ecuaciones",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13504v1",
+      "arxiv": "2608.13504v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "HumanTracker: Hacia un Referente Integral y Alineado con los Humanos para la Seguimiento del Movimiento",
+      "time": "70h",
+      "url": "https://arxiv.org/abs/2608.13555v1",
+      "arxiv": "2608.13555v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "La geometría de los datos para la difusión oculta: Esquemas certificadamente óptimos mediante el crecimiento de la complejidad de desocultación",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13520v1",
+      "arxiv": "2608.13520v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Hacia un retiro griceano: explorando LLMs para determinar fronteras de conocimiento y especificidad del referente",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13484v1",
+      "arxiv": "2608.13484v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Preentrenamiento de Persona Sintética: Alineación desde el Token Cero",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13482v1",
+      "arxiv": "2608.13482v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Detección de Cambio Conceptual y Retreinamiento Adaptativo de Modelos de Clasificación de Software Malicioso",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13465v1",
+      "arxiv": "2608.13465v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Medición del Influjo de los Datos de Entrenamiento Sin Enfoque en Tarea durante el Preentrenamiento de Modelos de Lenguaje",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13515v1",
+      "arxiv": "2608.13515v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Motor, Cognitivo o Corporal? ¿Qué Sobrevive en la Transferencia Cruzada Lingüística en la Detección del Parkinson basada en el Habla?",
+      "time": "72h",
+      "url": "https://arxiv.org/abs/2608.13425v1",
+      "arxiv": "2608.13425v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "TAREA: Relevancia de la Tarea a Través de Contrafácticos para la Distilación Seleccional en Políticas En-Marcha",
+      "time": "72h",
+      "url": "https://arxiv.org/abs/2608.13387v1",
+      "arxiv": "2608.13387v1"
+    },
+    {
+      "source": "arXiv — cs.LG",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Aumento Defensivo para Pronósticos Probabilísticos en Línea",
+      "time": "70h",
+      "url": "https://arxiv.org/abs/2608.13554v1",
+      "arxiv": "2608.13554v1"
+    },
+    {
+      "source": "arXiv — cs.LG",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Calibración Exponencial Convexa en Dimensiones para la Medida Jaccard Multilabel",
+      "time": "70h",
+      "url": "https://arxiv.org/abs/2608.13549v1",
+      "arxiv": "2608.13549v1"
+    },
+    {
+      "source": "arXiv — cs.LG",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "DARTree: Decodificación difusa especulativa con árboles provisionales autoregresivos",
+      "time": "70h",
+      "url": "https://arxiv.org/abs/2608.13524v1",
+      "arxiv": "2608.13524v1"
+    },
+    {
+      "source": "arXiv — cs.LG",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Ventaja exponencial cuántica para el aprendizaje de señales con un qubit",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13521v1",
+      "arxiv": "2608.13521v1"
+    },
+    {
+      "source": "arXiv — cs.LG",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Bagging Robustamente Aprende Clases VC con Complejidad Am样plexidad Lineal de Muestras",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13514v1",
+      "arxiv": "2608.13514v1"
+    },
+    {
+      "source": "arXiv — cs.LG",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Aprendizaje covariante de una funcional densidad clásica tridimensional transferible",
+      "time": "71h",
+      "url": "https://arxiv.org/abs/2608.13506v1",
+      "arxiv": "2608.13506v1"
+    },
+    {
+      "source": "Yannic Kilcher",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "GPT-3 está realizando recuperación borrosa (creo que así es), no razonamiento (aprendizaje profundo / Yannic Kilcher) #Shorts",
+      "time": "48117h",
+      "url": "https://www.youtube.com/shorts/2QDNvz2QMco"
+    },
+    {
+      "source": "Two Minute Papers",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Claude AI falló 650 veces… luego superó el récord humano.",
+      "time": "56h",
+      "url": "https://www.youtube.com/watch?v=QnGNF8k_uoc"
+    },
+    {
+      "source": "Yannic Kilcher",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "¿Qué es la Lotería del Hardware? (Explicación del Papel de Investigación de Aprendizaje Automático por Yannic Kilcher) #Shorts",
+      "time": "48077h",
+      "url": "https://www.youtube.com/shorts/RJECvCxDKeA"
+    },
+    {
+      "source": "Yannic Kilcher",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "NO ME IMPORTAN LOS NOMBRES DE LOS AUTORES EN LOS ARTÍCULOS DE Investigación Sobre Aprendizaje Automático (Yannic Kilcher) #Shorts",
+      "time": "48195h",
+      "url": "https://www.youtube.com/shorts/HyeCQ4oF01k"
+    },
+    {
+      "source": "Genbeta",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Meta se ha posicionado como líder en la competencia de agencias de IA al adquirir Manus por 2.000 millones de dólares.",
+      "time": "5498h",
+      "url": "https://www.genbeta.com/inteligencia-artificial/meta-se-ha-puesto-a-cabeza-carrera-agentes-ia-adquiriendo-manus-2-000-millones-dolares"
+    },
+    {
+      "source": "Yannic Kilcher",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "El mundo extraño de las publicidades de VPN de influenciadores",
+      "time": "26384h",
+      "url": "https://www.youtube.com/watch?v=wUilk9FtIl0"
+    },
+    {
+      "source": "Yannic Kilcher",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Conferencia de Ginebra sobre IA + Arte (Festival AiiA)",
+      "time": "33507h",
+      "url": "https://www.youtube.com/shorts/dcO0xfpnojc"
+    },
+    {
+      "source": "Yannic Kilcher",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Vlog de Viajes de Madrid (Concursito de Presentación de Startups)",
+      "time": "37871h",
+      "url": "https://www.youtube.com/watch?v=gcQPCOFYWbg"
+    },
+    {
+      "source": "Yannic Kilcher",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "¿Podría el IA resolver este rompecabezas? (Juego ARC)",
+      "time": "41611h",
+      "url": "https://www.youtube.com/watch?v=EB6H1yxeZyI"
+    },
+    {
+      "source": "Yannic Kilcher",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Este juego fue hecho para robots, lo jugué de todos modos - Crafter Let's Play",
+      "time": "41708h",
+      "url": "https://www.youtube.com/watch?v=GjATw8GfKV8"
+    },
+    {
+      "source": "Yannic Kilcher",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Yannic DESMONTA el reviste anónimo (Vision Transformer)",
+      "time": "48265h",
+      "url": "https://www.youtube.com/watch?v=Stwcsq7dLHk"
+    },
+    {
+      "source": "Yannic Kilcher",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "¿Qué es una red de Hopfield?",
+      "time": "48488h",
+      "url": "https://www.youtube.com/watch?v=fkIJwYArKpw"
+    },
+    {
+      "source": "Hipertextual",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Google presenta una nueva versión de Gemini que es su modelo más versátil hasta la fecha para la programación.",
+      "time": "54h",
+      "url": "https://hipertextual.com/inteligencia-artificial/google-se-saca-de-la-manga-una-nueva-version-de-gemini-que-es-su-modelo-mas-versatil-hasta-la-fecha-para-la-programacion/"
+    },
+    {
+      "source": "Genbeta",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "La IA ha desatado la furia de este creador del lenguaje Go. Sólo ha necesitado enviarle un e-mail de agradecimiento",
+      "time": "5521h",
+      "url": "https://www.genbeta.com/inteligencia-artificial/ia-ha-desatado-furia-este-creador-lenguaje-go-solo-ha-necesitado-enviarle-e-mail-agradecimiento"
+    },
+    {
+      "source": "Xataka IA",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Apple ha hecho excepciones para vender iPhone en China durante años. La más reciente es significativa: una IA específica para el país.",
+      "time": "52h",
+      "url": "https://www.xataka.com/robotica-e-ia/apple-lleva-anos-haciendo-excepciones-para-vender-iphone-china-ultima-enorme-ia-exclusiva-para-pais"
+    },
+    {
+      "source": "Xataka IA",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Gemini ya cuenta con 1.000 millones de usuarios mensuales. La cuestión es cuántos de ellos saben que lo utilizan.",
+      "time": "70h",
+      "url": "https://www.xataka.com/robotica-e-ia/gemini-tiene-1-000-millones-usuarios-al-mes-pregunta-cuantos-saben-que-estan-usando"
+    },
+    {
+      "source": "Xataka IA",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Mistral desea ser el campeón europeo de inteligencia artificial. Para lograrlo, ha comenzado a utilizar modelos chinos.",
+      "time": "68h",
+      "url": "https://www.xataka.com/robotica-e-ia/mistral-quiere-ser-campeon-europeo-ia-para-conseguirlo-ha-empezado-a-servir-modelos-chinos"
+    },
+    {
+      "source": "Xataka IA",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "OpenAI y Anthropic tenían una cómoda ventaja en modelos frontales. Grok ha acabado convertirla en una carrera de tres.",
+      "time": "77h",
+      "url": "https://www.xataka.com/robotica-e-ia/grok-4-6-acaba-entrar-club-mejores-modelos-mundo-ha-hecho-compitiendo-precio"
+    },
+    {
+      "source": "Xataka IA",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "La IA era absurdamente cara debido al \"entrenamiento\". A partir de ahora lo será por algo diferente: la infraestructura.",
+      "time": "97h",
+      "url": "https://www.xataka.com/empresas-y-economia/inferencia-ia-gasta-que-entrenamiento-cambio-paradigma-sector-malo-para-ti"
+    },
+    {
+      "source": "Genbeta",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Sancionado un capitán del Ejército que permitió instalar un ordenador en una base militar de Zaragoza para minar criptomonedas",
+      "time": "5590h",
+      "url": "https://www.genbeta.com/seguridad/sancionado-capitan-ejercito-que-permitio-instalar-ordenador-base-militar-zaragoza-para-minar-criptomonedas"
+    },
+    {
+      "source": "Silicon España",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "El despliegue corporativo de agentes de IA se duplica en un año",
+      "time": "76h",
+      "url": "https://www.silicon.es/el-despliegue-corporativo-de-agentes-de-ia-se-duplica-en-un-ano-2583015"
+    },
+    {
+      "source": "OpenAI Blog",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "El guía del constructor para GPT-5.6",
+      "time": "77h",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6"
+    },
+    {
+      "source": "Xataka IA",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Claude intentó resolver la hipótesis de Riemann y falló 650 veces. Luego se le dijo que debía creer en sí mismo.",
+      "time": "94h",
+      "url": "https://www.xataka.com/robotica-e-ia/claude-no-ha-resuelto-hipotesis-riemann-inquietante-que-consiguio-intentaba"
+    },
+    {
+      "source": "Xataka IA",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Buscar cupones en Google se ha convertido en una lotería. Ahora uso algo que me ayuda significativamente más.",
+      "time": "99h",
+      "url": "https://www.xataka.com/robotica-e-ia/yo-creaba-cupones-tienda-online-ahora-le-pido-a-ia-que-encuentre-que-otras-esconden"
+    },
+    {
+      "source": "Genbeta",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "El planificador先导计划 of China para evitar que los asistentes de IA brinden consejos incorrectos: recurrir a humanos en temas sensibles",
+      "time": "5527h",
+      "url": "https://www.genbeta.com/inteligencia-artificial/china-tiene-plan-para-evitar-que-chatbots-ia-manipulen-emociones-incluso-proponen-derivar-conversacion-a-humanos"
+    },
+    {
+      "source": "OpenAI Blog",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Prevista velocidad ultra rápida: GPT-5.6 Sol a hasta 14 veces mayor velocidad",
+      "time": "78h",
+      "url": "https://openai.com/index/previewing-ultrafast"
+    },
+    {
+      "source": "Xataka IA",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "\"Ya no soy programador\": Linus Torvalds afirma que su trabajo ahora se centra en comprender a las personas, no en el código.",
+      "time": "75h",
+      "url": "https://www.xataka.com/aplicaciones/no-soy-programador-linus-torvalds-explica-que-dirigir-linux-no-consiste-programar"
+    },
+    {
+      "source": "Hipertextual",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "OpenAI acelera ChatGPT como nunca: su inteligencia artificial más potente ya responde en segundos gracias a esta función",
+      "time": "69h",
+      "url": "https://hipertextual.com/inteligencia-artificial/gpt-5-6-sol-ultrafast-openai/"
+    },
+    {
+      "source": "Silicon España",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "IBM y OpenAI facilitarán la implementación de inteligencia artificial a gran escala",
+      "time": "56h",
+      "url": "https://www.silicon.es/ibm-y-openai-facilitaran-la-implementacion-de-ia-a-gran-escala-2583031"
+    },
+    {
+      "source": "Genbeta",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "\"Será un trabajo estresante\", promete Sam Altman en esta oferta. Por eso ofrece más de medio millón de dólares de sueldo",
+      "time": "5501h",
+      "url": "https://www.genbeta.com/inteligencia-artificial/sera-trabajo-estresante-promete-sam-altman-esta-oferta-eso-ofrece-medio-millon-dolares-sueldo"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Presentando Gemini 3.7 Flash",
+      "time": "71h",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Registra, entrena y despliega desde un solo lugar con Strands Agents, LeRobot y depósitos de Hugging Face Storage",
+      "time": "71h",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop"
+    },
+    {
+      "source": "Genbeta",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Cadenas de TV como Telecinco o Antena 3 critican los \"realities\" de Internet: \"La Casa de los Gemelos\" campa a sus anchas en YouTube",
+      "time": "5524h",
+      "url": "https://www.genbeta.com/actualidad/cadenas-tv-como-telecinco-antena-3-critican-realities-internet-casa-gemelos-campa-a-sus-anchas-youtube"
+    },
+    {
+      "source": "Genbeta",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "La IA trae más tensión: los empleados quieren trabajar menos porque la IA ayuda. Los CEO exigen a la gente ser máquinas sin descanso",
+      "time": "5573h",
+      "url": "https://www.genbeta.com/inteligencia-artificial/ceo-cada-vez-exigen-horas-trabajo-empleados-valoran-que-nunca-ocio-ia-tiene-mucha-culpa-ambos"
+    },
+    {
+      "source": "Silicon España",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "Un tercio de las compañías españolas está buscando un partner tecnológico en IA",
+      "time": "55h",
+      "url": "https://www.silicon.es/un-tercio-de-las-companias-espanolas-esta-buscando-un-partner-tecnologico-en-ia-2583032"
+    },
+    {
+      "source": "OpenAI Blog",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "OpenAI nomina a Dali Rajic como Chief Revenue Officer",
+      "time": "79h",
+      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "Lo que Aprendimos al Reproducir 2.200 Artículos de ICML",
+      "time": "88h",
+      "url": "https://huggingface.co/blog/icml-2026-open-reproductions"
+    },
+    {
+      "source": "MIT Technology Review — IA",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Flock está endureciendo sus reglas en respuesta a una creciente oposición a la vigilancia.",
+      "time": "75h",
+      "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/"
+    },
+    {
+      "source": "Xataka IA",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "La contrahistoria sobre lo malos que son los centros de datos tiene lugar en un pequeño pueblo de EE.UU. que se ha revitalizado gracias a uno de ellos.",
+      "time": "52h",
+      "url": "https://www.xataka.com/robotica-e-ia/contrahistoria-malos-que-centros-datos-tienen-pueblecito-eeuu-que-ha-revivido-gracias-a-uno-ellos"
+    },
+    {
+      "source": "Xataka IA",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "Hasta ahora, toda la industria de IA se ha financiado a sí misma de forma circular. Nvidia acaba de romper con esa dinámica.",
+      "time": "73h",
+      "url": "https://www.xataka.com/empresas-y-economia/ahora-toda-industria-ia-se-ha-financiado-a-forma-circular-nvidia-acaba-romper-esa-dinamica"
+    },
+    {
+      "source": "Genbeta",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Ubuntu es la distribución Linux más exitosa, pero incluso ellos tuvieron que cancelar estos ocho proyectos.",
+      "time": "5549h",
+      "url": "https://www.genbeta.com/linux/ubuntu-distribucion-linux-exitosa-ellos-tuvieron-que-cancelar-estos-ocho-proyectos"
+    },
+    {
+      "source": "Silicon España",
+      "cat": "Industria",
+      "content_type": "news",
+      "title": "Wireless Logic adquiere el negocio de conectividad IoT de Algar Telecom",
+      "time": "77h",
+      "url": "https://www.silicon.es/wireless-logic-compra-el-negocio-de-conectividad-iot-de-algar-telecom-2583003"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Observaciones del Estado de los Modelos Abiertos: Verano de 2026",
+      "time": "64h",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026"
+    },
+    {
+      "source": "Genbeta",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "Así ha cambiado Internet en los 20 años transcurridos desde el lanzamiento de Genbeta",
+      "time": "5478h",
+      "url": "https://www.genbeta.com/a-fondo/asi-ha-cambiado-internet-20-anos-transcurridos-lanzamiento-genbeta"
+    },
+    {
+      "source": "Hipertextual",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "Twitch se sincera y revela por qué el uso de tus contenidos para entrenar la IA de Amazon está activado por defecto",
+      "time": "74h",
+      "url": "https://hipertextual.com/inteligencia-artificial/twitch-uso-contenidos-por-defecto-entrenar-ia-amazon/"
+    },
+    {
+      "source": "Silicon España",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "España registra 2.068 ciberataques semanales en julio",
+      "time": "56h",
+      "url": "https://www.silicon.es/espana-registra-2-068-ciberataques-semanales-en-julio-2583037"
+    },
+    {
+      "source": "Silicon España",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "SUSE se une a la Open Secure AI Alliance para impulsar la IA privada",
+      "time": "80h",
+      "url": "https://www.silicon.es/suse-se-une-a-la-open-secure-ai-alliance-para-impulsar-la-ia-privada-2582993"
+    }
+  ]
+}

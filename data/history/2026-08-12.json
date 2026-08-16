@@ -1,0 +1,477 @@
+{
+  "date": "2026-08-12",
+  "date_label": "12 de agosto de 2026",
+  "greeting": "Buenos días, Effry",
+  "briefing": {
+    "duration_label": "2:27",
+    "audio_url": "assets/audio/2026-08-12.mp3"
+  },
+  "stats": {
+    "new_articles": 52,
+    "sources": 29,
+    "updated_label": "12:43"
+  },
+  "iaday": {
+    "reading_minutes": "31 min",
+    "audio_duration": "2:27",
+    "key_count": 3,
+    "papers_count": 41,
+    "repos_count": 5,
+    "videos_count": 0,
+    "impact": "Alto"
+  },
+  "thirty_seconds": [
+    "DistilVDR: Un recuperador visual de documentos end-to-end compacto mediante distilación dual-student",
+    "Anastasiamaster/contentqueen-app-erfahrung-review-deutsch",
+    "AmirMotefaker/Irán-caza"
+  ],
+  "articles": [
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "DistilVDR: Un recuperador visual de documentos end-to-end compacto mediante distilación dual-student",
+      "time": "140h",
+      "url": "https://huggingface.co/papers/2608.10636"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Anastasiamaster/contentqueen-app-erfahrung-review-deutsch",
+      "time": "168h",
+      "url": "https://github.com/Anastasiamaster/contentqueen-app-erfahrung-review-deutsch",
+      "stars": "4"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "AmirMotefaker/Irán-caza",
+      "time": "251h",
+      "url": "https://github.com/AmirMotefaker/iran-hunt",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Vincenzo-AFK/SucesorDesarrollador",
+      "time": "97h",
+      "url": "https://github.com/vincenzo-afk/Developer-OS",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Cherish01-spec/Detección_de_Tumores_Cerebrales",
+      "time": "217h",
+      "url": "https://github.com/Cherish01-spec/Brain_Tumor_Detection",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "música/ingeniosa-inteligencia-artificial",
+      "time": "111h",
+      "url": "https://github.com/musichen/awesome-artificial-intelligence",
+      "stars": "2"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "InSight-doc: Percepción visual agente para comprensión de documentos largos",
+      "time": "140h",
+      "url": "https://huggingface.co/papers/2608.10628"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "360CityArena: Un Referente Realista de Navegación Urbana Virtual para Agentes Incarnados",
+      "time": "188h",
+      "url": "https://huggingface.co/papers/2608.08814"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "No Vale Otro Token: Estimación del Valor Marginal para Agentes Profundos Eficientes de Investigación",
+      "time": "188h",
+      "url": "https://huggingface.co/papers/2608.08389"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "El entrenamiento posterior sin referencia de modelos de lenguaje multilingües grandes para la traducción automática multilingüe",
+      "time": "140h",
+      "url": "https://huggingface.co/papers/2608.10812"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Agentes Corporales: un Nuevo Paradigma de Inteligencia Artificial Centrada en el Hombre-Agente",
+      "time": "140h",
+      "url": "https://huggingface.co/papers/2608.10915"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Gráfico de ley de potencia de atención: generalización exacta del atención por producto escalar escalada, colapso empírico durante la inferencia",
+      "time": "164h",
+      "url": "https://huggingface.co/papers/2608.10288"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Prueba Diagnóstica de Estrés Tabú para la Robustez de los Sistemas de Inteligencia Artificial basados en Modelos de Gran Escala",
+      "time": "164h",
+      "url": "https://huggingface.co/papers/2608.09900"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "JigShape: Evaluación del razonamiento visual-geométrico en sistemas de procesamiento de lenguaje con imágenes a través de rompecabezas jigsaws",
+      "time": "308h",
+      "url": "https://huggingface.co/papers/2607.27670"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "TSDS-Toolbox: Una herramienta para medir la similitud de conjuntos de datos de serie temporal",
+      "time": "212h",
+      "url": "https://huggingface.co/papers/2608.08119"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Marco de Generación Aumentada basado en la Recuperación del Conocimiento Propio para la Correspondencia de Patentes",
+      "time": "121h",
+      "url": "https://arxiv.org/abs/2608.11030v1",
+      "arxiv": "2608.11030v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Mapeo y Medición del Evolución del Comportamiento de los Modelos de Lenguaje de Gran Tamaño",
+      "time": "121h",
+      "url": "https://arxiv.org/abs/2608.11027v1",
+      "arxiv": "2608.11027v1"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Ex-Omni-2D: Modelos de diálogo omni-modal expresivos con presencia visual nativa",
+      "time": "140h",
+      "url": "https://huggingface.co/papers/2608.10720"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "UniMoMo: Aceleración basada en el mezclaje de expertos para grandes modelos de recomendación",
+      "time": "188h",
+      "url": "https://huggingface.co/papers/2608.08627"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Reconstrucción de Objeto Articulado a partir de Observación en Estado de Descanso",
+      "time": "428h",
+      "url": "https://huggingface.co/papers/2607.27749"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Aumentando la generación visual mediante una pérdida basada en la distancia de Fréchet adversaria",
+      "time": "140h",
+      "url": "https://huggingface.co/papers/2608.11205"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "iFAN: Aprendizaje Consciente de Inferencia para Transformadores de Máscaras Sencillas",
+      "time": "236h",
+      "url": "https://huggingface.co/papers/2608.03216"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "ConVAWG: Un marco basado en recuperación para la generación sintética controlada de diálogos en violencia contra mujeres y niñas",
+      "time": "118h",
+      "url": "https://arxiv.org/abs/2608.11200v1",
+      "arxiv": "2608.11200v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Auto-evolución de interfaz gráfica de usuario guiada por el tiempo del test a través de la distilación self-on-policy dirigida por reflección",
+      "time": "118h",
+      "url": "https://arxiv.org/abs/2608.11191v1",
+      "arxiv": "2608.11191v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "¿Por qué CLAUDE.md Se Continúa Expansiendo? Recordando Catastrófico en Codería Agente",
+      "time": "120h",
+      "url": "https://arxiv.org/abs/2608.11095v1",
+      "arxiv": "2608.11095v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "sLTN: Redes Neuronales de Tensorología Estructural Logística",
+      "time": "119h",
+      "url": "https://arxiv.org/abs/2608.11136v1",
+      "arxiv": "2608.11136v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "SkillZip: Compresión de Habilidades sin Evaluación para Agentes que Se Auto-evolucionan通过发现可重用的结构",
+      "time": "121h",
+      "url": "https://arxiv.org/abs/2608.11079v1",
+      "arxiv": "2608.11079v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Más allá de un conjunto de características: instability en nivel de conjunto en autoencoderes esparsos",
+      "time": "118h",
+      "url": "https://arxiv.org/abs/2608.11197v1",
+      "arxiv": "2608.11197v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Acciones Hablan Más Que Palabras: Medición del Aprendizaje de Políticas Cruzadas en Agentes que Utilizan Herramientas",
+      "time": "120h",
+      "url": "https://arxiv.org/abs/2608.11110v1",
+      "arxiv": "2608.11110v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "TEAMMix: Taxonomía Aumentada y Estrategia de Mezcla para la Clasificación jerárquica de texto con Supervisión débil y Mejora de LLM para Enriquecimiento de Taxonomía y Aumento de Mínoricos",
+      "time": "121h",
+      "url": "https://arxiv.org/abs/2608.11044v1",
+      "arxiv": "2608.11044v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "De la interpretabilidad al control: Perspectivas desde los seis años del Workshop TrustNLP",
+      "time": "119h",
+      "url": "https://arxiv.org/abs/2608.11171v1",
+      "arxiv": "2608.11171v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "ReRound: Ajuste reconstructivo para resolver ambigüedades en el punto medio en cuantización de LLMs sin calibración",
+      "time": "121h",
+      "url": "https://arxiv.org/abs/2608.11045v1",
+      "arxiv": "2608.11045v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Investigación de Largo Plazo en IA para el Constante de Grothendieck: Un Estudio de Caso sobre la Colaboración Humano-IA Matemática",
+      "time": "118h",
+      "url": "https://arxiv.org/abs/2608.11195v1",
+      "arxiv": "2608.11195v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Industria",
+      "content_type": "paper",
+      "title": "Flujo de residuos impar de dos etapas para la predicción probabilística en serie temporal que conserva la media",
+      "time": "120h",
+      "url": "https://arxiv.org/abs/2608.11114v1",
+      "arxiv": "2608.11114v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "La Ilusión de Seguridad Lingüística Cruzada en Lenguas de Recurso Bajo",
+      "time": "119h",
+      "url": "https://arxiv.org/abs/2608.11146v1",
+      "arxiv": "2608.11146v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Modelo WAM de Cirugía: Un modelo mundial para el aprendizaje de robots quirúrgicos eficiente en datos",
+      "time": "118h",
+      "url": "https://arxiv.org/abs/2608.11204v1",
+      "arxiv": "2608.11204v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Cómo Verificar la Coherencia de Reclamaciones Probabilísticas",
+      "time": "119h",
+      "url": "https://arxiv.org/abs/2608.11181v1",
+      "arxiv": "2608.11181v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Atención-Ruta Frágil como Señal de Incertidumbre en Modelos de Lenguaje Grandes",
+      "time": "119h",
+      "url": "https://arxiv.org/abs/2608.11138v1",
+      "arxiv": "2608.11138v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "RTSKG: Construcción de un Conjunto de Datos de Grafo de Conocimiento para Estaciones de Transbordo por Ferrocarril",
+      "time": "121h",
+      "url": "https://arxiv.org/abs/2608.11080v1",
+      "arxiv": "2608.11080v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Ventajas Cuánticas en Tareas de Seguimiento Estatal de IA: Compilación Semántica y Memoria Latente",
+      "time": "121h",
+      "url": "https://arxiv.org/abs/2608.11066v1",
+      "arxiv": "2608.11066v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Entropía-Céntrico Inteligencia Artificial Explicativa para la Segmentación de Imágenes de Sensing Remoto",
+      "time": "121h",
+      "url": "https://arxiv.org/abs/2608.11064v1",
+      "arxiv": "2608.11064v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Una Evaluación Comparativa de Modelos de Detección de Objetos basados en Aprendizaje Profundo en un Conjunto de Datos del Mundo Real con Varios Parques Industriales de África",
+      "time": "121h",
+      "url": "https://arxiv.org/abs/2608.11053v1",
+      "arxiv": "2608.11053v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Cambio Modomodal: Intercalación de Objetos Visuales en el Lenguaje para Alineación Explicita del Nivel de Objeto",
+      "time": "119h",
+      "url": "https://arxiv.org/abs/2608.11167v1",
+      "arxiv": "2608.11167v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Análisis Multiclase de Sentimiento para la Identificación de Posturas Políticas",
+      "time": "121h",
+      "url": "https://arxiv.org/abs/2608.11049v1",
+      "arxiv": "2608.11049v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "myMediWhisper: Construcción del corpus de habla médica birmana y ajuste fino mediante susurro para el reconocimiento de diálogo clínico ASR",
+      "time": "121h",
+      "url": "https://arxiv.org/abs/2608.11036v1",
+      "arxiv": "2608.11036v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Atribución de Datos de Alineación Emergente Desalineada con Características de Personalidad",
+      "time": "121h",
+      "url": "https://arxiv.org/abs/2608.11025v1",
+      "arxiv": "2608.11025v1"
+    },
+    {
+      "source": "OpenAI Blog",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "De asistencia a ejecución: Cómo las empresas ponen en práctica la IA",
+      "time": "106h",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Presentando OlmoEarth embeddings: Exportaciones personalizadas de embeddings desde OlmoEarth Studio para análisis downstream",
+      "time": "96h",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings"
+    },
+    {
+      "source": "MIT Technology Review — IA",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Escalar agentes de IA con datos confiables",
+      "time": "95h",
+      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/"
+    },
+    {
+      "source": "OpenAI Blog",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Los modelos de alba皆无中文内容，以下是原文的中立翻译：\n\n日破晓模型现在可在AWS上使用",
+      "time": "126h",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Colocar la inteligencia artificial del lenguaje de señas en las manos de los usuarios",
+      "time": "98h",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "LFM2.5-VL-3B para Mejores y Más Rápidas Capacidades de Visión para el Borde",
+      "time": "98h",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b"
+    }
+  ]
+}

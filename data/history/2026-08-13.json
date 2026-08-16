@@ -1,0 +1,426 @@
+{
+  "date": "2026-08-13",
+  "date_label": "13 de agosto de 2026",
+  "greeting": "Buenos días, Effry",
+  "briefing": {
+    "duration_label": "2:19",
+    "audio_url": "assets/audio/2026-08-13.mp3"
+  },
+  "stats": {
+    "new_articles": 46,
+    "sources": 29,
+    "updated_label": "12:43"
+  },
+  "iaday": {
+    "reading_minutes": "28 min",
+    "audio_duration": "2:19",
+    "key_count": 3,
+    "papers_count": 42,
+    "repos_count": 2,
+    "videos_count": 0,
+    "impact": "Alto"
+  },
+  "thirty_seconds": [
+    "CODE4LIFEOFFICIAL/.github",
+    "Un sistema RAG específico del corpus supera o iguala el rendimiento de los recientes LLMs avanzados en HealthBench.",
+    "SkillZip: Compresión de Grafos para Bibliotecas de Habilidades de Agente que Preserva los Contratos"
+  ],
+  "articles": [
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "CODE4LIFEOFFICIAL/.github",
+      "time": "188h",
+      "url": "https://github.com/CODE4LIFEOFFICIAL/.github",
+      "stars": "2"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Un sistema RAG específico del corpus supera o iguala el rendimiento de los recientes LLMs avanzados en HealthBench.",
+      "time": "97h",
+      "url": "https://arxiv.org/abs/2608.12138v1",
+      "arxiv": "2608.12138v1"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "SkillZip: Compresión de Grafos para Bibliotecas de Habilidades de Agente que Preserva los Contratos",
+      "time": "260h",
+      "url": "https://huggingface.co/papers/2608.05604"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "¿Pueden los Agentes LLM Seguir el Guion? Un Marco para la Coherencia a Largo Plazo en Narrativas Interactivas",
+      "time": "212h",
+      "url": "https://huggingface.co/papers/2608.08160"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "alejados/ocultos",
+      "time": "197h",
+      "url": "https://github.com/alfernado/silzen",
+      "stars": "3"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Listos los Cohortes: Delimitando la Oportunidad de GPU y Evitando Viajes de Idioma Host en el Control Agente-LLM",
+      "time": "116h",
+      "url": "https://huggingface.co/papers/2608.12123"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Modelado Simplificado de Entidades Agentes: Simulación de Sociedades de Grandes AGI-Agents en un Ordenador Portátil",
+      "time": "692h",
+      "url": "https://huggingface.co/papers/2608.11215"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "CoinRAG: Caché de información contextualizada para KV de largos contextos RAG",
+      "time": "236h",
+      "url": "https://huggingface.co/papers/2608.07458"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "SAG: SQL-Recuperación Aumentada de Generación con Hiperaresgos Dinámicos en Tiempo de Consulta",
+      "time": "97h",
+      "url": "https://arxiv.org/abs/2608.12129v1",
+      "arxiv": "2608.12129v1"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Exploración de Parámetros para RLVR mediante Aprendizaje Variacional",
+      "time": "148h",
+      "url": "https://huggingface.co/papers/2608.09805"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Mejorista: El AI como un instrumento científico para descubrir los mecanismos de la inteligencia",
+      "time": "116h",
+      "url": "https://huggingface.co/papers/2608.12036"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Mundos recursivos persistentes habilitan la evolución autónoma del software",
+      "time": "116h",
+      "url": "https://huggingface.co/papers/2608.10450"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Agentes Corporales Autoevolutivos a través de la Evolución de la Captura de Habilidades",
+      "time": "140h",
+      "url": "https://huggingface.co/papers/2608.11350"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "OpenART: Escalado de Agente para Equipo Rojo mediante Evolución de Entornos Abiertos",
+      "time": "380h",
+      "url": "https://huggingface.co/papers/2608.00677"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "NeuPAT: Ajuste de Alcance de Plásticidad Consciente de Neuronas para MLMLs que Preservan el Lenguaje",
+      "time": "212h",
+      "url": "https://huggingface.co/papers/2608.08107"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "AtlasVLA: Modelado de Estados Ego-Persistente para Modelos de Visión-Lenguaje-Acción",
+      "time": "236h",
+      "url": "https://huggingface.co/papers/2608.06729"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "La Ilusión del Uso Visual de Herramientas: Un Examen Causal del Pensamiento con Imágenes",
+      "time": "260h",
+      "url": "https://huggingface.co/papers/2608.06270"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "VAKRA: Evaluación del Razonamiento Multihop a Través de Interfaces de Programación de Aplicaciones y Recuperación bajo Políticas de Uso de Herramientas",
+      "time": "95h",
+      "url": "https://arxiv.org/abs/2608.12282v1",
+      "arxiv": "2608.12282v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Convergencia de Desvío y Robo de Tareas: Aumento Preservador de Recursos en Agentes LLM Basados en Habilidades",
+      "time": "95h",
+      "url": "https://arxiv.org/abs/2608.12273v1",
+      "arxiv": "2608.12273v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Un pipeline nebulado de procesamiento de lenguaje natural no supervisado-supervisado para la detección de lenguaje acusatorio en contrataciones públicas",
+      "time": "95h",
+      "url": "https://arxiv.org/abs/2608.12269v1",
+      "arxiv": "2608.12269v1"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Detector de Visibilidad de Manos: Aproximación por Punto de Key para la Visibilidad de Manos",
+      "time": "116h",
+      "url": "https://huggingface.co/papers/2608.11574"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Auto geometría: adaptación libre de GT y plug-and-play en tiempo de prueba para modelos de fundación de la visión tridimensional consistentes geométricamente",
+      "time": "140h",
+      "url": "https://huggingface.co/papers/2608.10708"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Un Simulador Congelado No Es Suficiente: Colapso de Simuladores en Aprendizaje Automático por Agente Múltiple",
+      "time": "95h",
+      "url": "https://arxiv.org/abs/2608.12253v1",
+      "arxiv": "2608.12253v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "AVA-Encoder: Hacia una Aprendizaje de Representación Vidéica Nativa del Agente",
+      "time": "94h",
+      "url": "https://arxiv.org/abs/2608.12313v1",
+      "arxiv": "2608.12313v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "¿Cuidan los LLMs entre sí? Señales de similitud pueden inducir cooperación",
+      "time": "97h",
+      "url": "https://arxiv.org/abs/2608.12125v1",
+      "arxiv": "2608.12125v1"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Relajación Simplex para Difusión Discreta",
+      "time": "140h",
+      "url": "https://huggingface.co/papers/2608.10615"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Diagram-MMU: Un Referente Multimodal para Diagramas Científicos",
+      "time": "95h",
+      "url": "https://arxiv.org/abs/2608.12262v1",
+      "arxiv": "2608.12262v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Un flujo de trabajo agencial para la modernización del HPC heredado: Convertir el núcleo de integración de dos electrones de GAMESS",
+      "time": "95h",
+      "url": "https://arxiv.org/abs/2608.12249v1",
+      "arxiv": "2608.12249v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "VICBench: Un conjunto de pruebas multilingüístico para la detección de vulnerabilidades en código",
+      "time": "95h",
+      "url": "https://arxiv.org/abs/2608.12246v1",
+      "arxiv": "2608.12246v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "QV-PIC: Cache visualmente consciente y libre de dependencia de posición para servir RAG de manera eficiente",
+      "time": "98h",
+      "url": "https://arxiv.org/abs/2608.12121v1",
+      "arxiv": "2608.12121v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "DreamFly: Memoria causal y planificación de difusión horizonte recedente para navegación visio-lenguaje aérea",
+      "time": "94h",
+      "url": "https://arxiv.org/abs/2608.12308v1",
+      "arxiv": "2608.12308v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "La construcción de modelos lógicos dinámicos maestros como grafos de conocimiento para el diagnóstico de sistemas complejos utilizando modelos de lenguaje de gran tamaño con recuperación aumentada",
+      "time": "94h",
+      "url": "https://arxiv.org/abs/2608.12304v1",
+      "arxiv": "2608.12304v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Más allá del ensayo y error: optimización agente para la adhesión de imágenes a videos",
+      "time": "95h",
+      "url": "https://arxiv.org/abs/2608.12290v1",
+      "arxiv": "2608.12290v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Quien Piensa Mejor Depende de Cuánto Tiempo Se Les Permite: Calificaciones Dependientes del Presupuesto en la Evaluación de Sistemas de Inteligencia de Lenguaje de Máquinas",
+      "time": "97h",
+      "url": "https://arxiv.org/abs/2608.12150v1",
+      "arxiv": "2608.12150v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "La transferencia de capacidades de fuerte a débil en tiempo de prueba mediante arneses AI4AI",
+      "time": "94h",
+      "url": "https://arxiv.org/abs/2608.12307v1",
+      "arxiv": "2608.12307v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "HAMP-LIC: Quantización por Posentrenamiento de Precisión Mixta Consciente del Hessiano para la Compresión de Imágenes Aprendida",
+      "time": "96h",
+      "url": "https://arxiv.org/abs/2608.12239v1",
+      "arxiv": "2608.12239v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Modelado de Gran Lenguaje para el Comercio de Pequeñas Capitalizaciones: Integrando la Sentimentalidad de Noticias Financieras, Indicadores Macroeconómicos y Señales Técnicas",
+      "time": "95h",
+      "url": "https://arxiv.org/abs/2608.12283v1",
+      "arxiv": "2608.12283v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Silencio Estructural: Cuando la Infraestructura de IA Falla para Hablantes de Lenguas Subrepresentadas",
+      "time": "95h",
+      "url": "https://arxiv.org/abs/2608.12278v1",
+      "arxiv": "2608.12278v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "La inferencia de costos basada en redistribución mejora el aprendizaje por refuerzo seguro en línea con datos escasos",
+      "time": "94h",
+      "url": "https://arxiv.org/abs/2608.12306v1",
+      "arxiv": "2608.12306v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Mapeo de Activación de Clase en Visión por Computadora Explicativa: Un Revisión Centrada en el Método de CNN, Transformador y ExPLICACIONES VISUALES EN ÉPOCA DE MODELOS DE BASE",
+      "time": "94h",
+      "url": "https://arxiv.org/abs/2608.12299v1",
+      "arxiv": "2608.12299v1"
+    },
+    {
+      "source": "arXiv — cs.AI",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Una red transformadora de atención vecinal para una segmentación tridimensional mejorada de la arteria descendente anterior izquierda",
+      "time": "95h",
+      "url": "https://arxiv.org/abs/2608.12274v1",
+      "arxiv": "2608.12274v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Paradoja de la Abundancia de Información: El Entrenamiento con Contexto Largo Debilita el Conocimiento Paramétrico",
+      "time": "96h",
+      "url": "https://arxiv.org/abs/2608.12218v1",
+      "arxiv": "2608.12218v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Massivas Activaciones en Modelos de Lenguaje Grandes con Atención Lineal Híbrida: Picos Pré-Atención y Plataformas Inter-Pic peace",
+      "time": "97h",
+      "url": "https://arxiv.org/abs/2608.12149v1",
+      "arxiv": "2608.12149v1"
+    },
+    {
+      "source": "arXiv — cs.CL",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Estructuración del Espacio de Perspectivas",
+      "time": "98h",
+      "url": "https://arxiv.org/abs/2608.12113v1",
+      "arxiv": "2608.12113v1"
+    },
+    {
+      "source": "OpenAI Blog",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Cómo RingCentral construye el trabajo basado en IA desde ingeniería hasta operaciones",
+      "time": "112h",
+      "url": "https://openai.com/index/ringcentral"
+    },
+    {
+      "source": "MIT Technology Review — IA",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Cómo los niños se sienten sobre la IA, en sus propias palabras",
+      "time": "79h",
+      "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/"
+    }
+  ]
+}

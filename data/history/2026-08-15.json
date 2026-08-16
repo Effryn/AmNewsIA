@@ -1,0 +1,524 @@
+{
+  "date": "2026-08-15",
+  "date_label": "15 de agosto de 2026",
+  "greeting": "Buenos días, Effry",
+  "briefing": {
+    "duration_label": "2:35",
+    "audio_url": "assets/audio/2026-08-15.mp3"
+  },
+  "stats": {
+    "new_articles": 60,
+    "sources": 29,
+    "updated_label": "12:43"
+  },
+  "iaday": {
+    "reading_minutes": "36 min",
+    "audio_duration": "2:35",
+    "key_count": 3,
+    "papers_count": 2,
+    "repos_count": 14,
+    "videos_count": 40,
+    "impact": "Alto"
+  },
+  "thirty_seconds": [
+    "Dineshbarri/DataPilot-AI",
+    "Jaturaput-Jongsubcharoen/RutaSens-AI-ML",
+    "sistema-de-gestion-coe/sistema-de-gestion-coe"
+  ],
+  "articles": [
+    {
+      "source": "GitHub Trending — Python",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Dineshbarri/DataPilot-AI",
+      "time": "159h",
+      "url": "https://github.com/dineshbarri/DataPilot-AI",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Jaturaput-Jongsubcharoen/RutaSens-AI-ML",
+      "time": "44h",
+      "url": "https://github.com/Jaturaput-Jongsubcharoen/RoadSense-AI-ML",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "sistema-de-gestion-coe/sistema-de-gestion-coe",
+      "time": "121h",
+      "url": "https://github.com/coe-management-system/coe-management-system",
+      "stars": "3"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "MobeenFatimaa/NutriScan",
+      "time": "168h",
+      "url": "https://github.com/MobeenFatimaa/NutriScan",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "gengyueworks/ai-timeline",
+      "time": "145h",
+      "url": "https://github.com/gengyueworks/ai-timeline",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "aadityachauhann/ai-trabajo-analizador-de-ajuste-de-ai",
+      "time": "70h",
+      "url": "https://github.com/aadityachauhann/ai-job-fit-analyzer",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Shubham03-hub/Macro-Sentinel-AI-Geo-Economic-Stress-Country-Risk-Platform",
+      "time": "100h",
+      "url": "https://github.com/Shubham03-hub/Macro-Sentinel-AI-Geo-Economic-Stress-Country-Risk-Platform",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "nssntus/unlimited-wiki",
+      "time": "79h",
+      "url": "https://github.com/nssntus/unlimited-wiki",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "Mandeep141206/AI-Phishing-Email-Detector",
+      "time": "30h",
+      "url": "https://github.com/Mandeep141206/AI-Phishing-Email-Detector",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "alishamansoori004-sketch/Producto-Reviews-Análisis-de-Sentimiento",
+      "time": "106h",
+      "url": "https://github.com/alishamansoori004-sketch/Product-Reviews-Sentiment-Analysis",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "HexCore8/Hacker",
+      "time": "25h",
+      "url": "https://github.com/HexCore8/Hacker",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "jhughes7386/PenaltyKicks-Genetic-Algorithm",
+      "time": "45h",
+      "url": "https://github.com/jhughes7386/PenaltyKicks-Genetic-Algorithm",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "soares-grs/encAIxa",
+      "time": "39h",
+      "url": "https://github.com/soares-grs/encAIxa",
+      "stars": "6"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "bro tiene un aspecto似鱼67-hub/Hyperion-V3",
+      "time": "25h",
+      "url": "https://github.com/brolookslikeanfish67-hub/Hyperion-V3",
+      "stars": "1"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Búsqueda por haz de nivel de pensamiento para razonamiento",
+      "time": "140h",
+      "url": "https://huggingface.co/papers/2608.08020"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Maglev: Deslizamiento Recurrente de Memoria",
+      "time": "284h",
+      "url": "https://huggingface.co/papers/2608.02870"
+    },
+    {
+      "source": "Migue Baena IA",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "El repositorio secreto de APIs de IA 🤫",
+      "time": "74h",
+      "url": "https://www.youtube.com/shorts/YZhVtrB_3dc"
+    },
+    {
+      "source": "Xavier Mitjana - Lab",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Kimi K3: El modelo LIBRE al nivel de Fable 5",
+      "time": "623h",
+      "url": "https://www.youtube.com/watch?v=dPdSwlSOYRY"
+    },
+    {
+      "source": "Gentleman Programming",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Una IA se salió del sandbox y atacó una empresa: qué pasó realmente",
+      "time": "289h",
+      "url": "https://www.youtube.com/watch?v=EGlCBzJxwXg"
+    },
+    {
+      "source": "Migue Baena IA",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Nuevo plugin oficial: instala Codex en Claude 🚀 💻",
+      "time": "26h",
+      "url": "https://www.youtube.com/shorts/jX7xvMwXZz8"
+    },
+    {
+      "source": "Gentleman Programming",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Tu agente de IA está CIEGO: así le das ojos al mundo real",
+      "time": "71h",
+      "url": "https://www.youtube.com/watch?v=6ChZMEMJ8hA"
+    },
+    {
+      "source": "Gentleman Programming",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "ASÍ Controlo mis agentes de IA desde el TELÉFONO",
+      "time": "26h",
+      "url": "https://www.youtube.com/watch?v=Yj51wXMwFwE"
+    },
+    {
+      "source": "Migue Baena IA",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "4 agentes de IA para automatizar el 99% de tu trabajo",
+      "time": "71h",
+      "url": "https://www.youtube.com/watch?v=zXxktjZ7s34"
+    },
+    {
+      "source": "Gentleman Programming",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "se viene ! la nueva forma de trabajo con agentes",
+      "time": "455h",
+      "url": "https://www.youtube.com/shorts/AA6lTsacIvU"
+    },
+    {
+      "source": "Migue Baena IA",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Este agente de IA crea storyboards y videos por ti 🎬",
+      "time": "51h",
+      "url": "https://www.youtube.com/shorts/9hgEXtDVnDc"
+    },
+    {
+      "source": "Migue Baena IA",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "15 herramientas de IA gratis de Google 🔥🚀",
+      "time": "124h",
+      "url": "https://www.youtube.com/shorts/nZJ4-8LBqco"
+    },
+    {
+      "source": "Gentleman Programming",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "RDD: la metodología que INVENTÉ para que la IA no te mienta",
+      "time": "360h",
+      "url": "https://www.youtube.com/watch?v=t_HEm1om2Ek"
+    },
+    {
+      "source": "Xavier Mitjana - Lab",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "La IA más ALUCINANTE que he probado (mejor que Fable 5) 🤯 Nuevo Opus 5",
+      "time": "459h",
+      "url": "https://www.youtube.com/watch?v=3UbKQebN8Ug"
+    },
+    {
+      "source": "Xavier Mitjana - Lab",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Meta contraataca con 2 NUEVOS modelos de IA TOP",
+      "time": "935h",
+      "url": "https://www.youtube.com/watch?v=b9FtG_fJ1aw"
+    },
+    {
+      "source": "Xavier Mitjana - Lab",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Edita imágenes MÁS FÁCIL con esta herramienta de GOOGLE 🤯",
+      "time": "6405h",
+      "url": "https://www.youtube.com/watch?v=pw33sBfH-cs"
+    },
+    {
+      "source": "Xavier Mitjana - Lab",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Crea IMÁGENES y VÍDEO con MIDJOURNEY 100% GRATIS 🤯",
+      "time": "6432h",
+      "url": "https://www.youtube.com/watch?v=j240TyJ4FUA"
+    },
+    {
+      "source": "Xavier Mitjana - Lab",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Crea videos con sonido GRATIS 🤯 Alternativa a VEO 3",
+      "time": "7440h",
+      "url": "https://www.youtube.com/watch?v=m9qd4B4-nTo"
+    },
+    {
+      "source": "Xavier Mitjana - Lab",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "¡OFICIAL! NANOBANANA llega a Photoshop 🤯 ¡Lo pongo a prueba!",
+      "time": "7776h",
+      "url": "https://www.youtube.com/watch?v=u2PBXFGfKz4"
+    },
+    {
+      "source": "Migue Baena IA",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "+30,000 prompts para generar fotos y videos 🔥",
+      "time": "99h",
+      "url": "https://www.youtube.com/shorts/5s8fC-Co1hE"
+    },
+    {
+      "source": "Migue Baena IA",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "¡El profesor particular GRATIS de Google que necesitas! 🤖🎓",
+      "time": "149h",
+      "url": "https://www.youtube.com/shorts/byb6cWEtTbA"
+    },
+    {
+      "source": "Migue Baena IA",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Probé la nueva VOZ de Claude vs ChatGPT… esto ya parece JARVIS",
+      "time": "167h",
+      "url": "https://www.youtube.com/watch?v=V3Ti0ylO-sM"
+    },
+    {
+      "source": "Gentleman Programming",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Patrón ORQUESTADOR-MINION: así ahorrás tokens sin perder calidad",
+      "time": "600h",
+      "url": "https://www.youtube.com/watch?v=vRydZQZ08OQ"
+    },
+    {
+      "source": "maxmaxdata",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "TRUCO CLAUDE 9 CÓDIGOS SECRETOS #ia #ai #chatgpt #bigdata #data #bilbao #claude",
+      "time": "107h",
+      "url": "https://www.youtube.com/shorts/lzMnZSmrxXs"
+    },
+    {
+      "source": "maxmaxdata",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "TRUCO DE GEMINI OMNI VIDEOS PROFESIONALES#ia #ai #chatgpt #bigdata #data #bilbao #gemini",
+      "time": "227h",
+      "url": "https://www.youtube.com/shorts/NlMVZrHa5lU"
+    },
+    {
+      "source": "maxmaxdata",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "TRUCO CLAUDE - AUTOMATIZA WORD#ia #ai #chatgpt #bigdata #data #bilbao #Claude",
+      "time": "443h",
+      "url": "https://www.youtube.com/shorts/uQzmvKpY17E"
+    },
+    {
+      "source": "maxmaxdata",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "TRUCO CLAUDE - AUTOMATIZA EXCEL SIN FÓRMULAS#ia #ai #chatgpt #bigdata #data #bilbao #excel",
+      "time": "659h",
+      "url": "https://www.youtube.com/shorts/9iRvuRGKQ5o"
+    },
+    {
+      "source": "maxmaxdata",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "TRUCO GEMINI + GOOGLE MAPS🚗 #ia #ai #Gemini #GoogleMaps #chatgpt #bigdata #data",
+      "time": "727h",
+      "url": "https://www.youtube.com/shorts/0dlLHjriWeI"
+    },
+    {
+      "source": "Migue Baena IA",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Omnisend: Esta IA optimiza tu Email Marketing 📩",
+      "time": "172h",
+      "url": "https://www.youtube.com/shorts/znJ4ICeI4f8"
+    },
+    {
+      "source": "Migue Baena IA",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Estas 2 Skills de IA cambiarán tus videos 🤩✨",
+      "time": "195h",
+      "url": "https://www.youtube.com/shorts/DTkT-t8nAbY"
+    },
+    {
+      "source": "Gentleman Programming",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Están arreglando GPT 5.6 SOL !... Lo están arreglando ?",
+      "time": "414h",
+      "url": "https://www.youtube.com/shorts/6nCmPVP6mcc"
+    },
+    {
+      "source": "Xavier Mitjana - Lab",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Crea videos con IA (GRATIS e ILIMITADO) 🤯 Tutorial MiniMax H3 en local",
+      "time": "287h",
+      "url": "https://www.youtube.com/watch?v=JCN1Y8i1be8"
+    },
+    {
+      "source": "Xavier Mitjana - Lab",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Nuevo REY en GENERACIÓN DE VIDEO (¡Hace cosas IMPOSIBLES!) 🤯",
+      "time": "7825h",
+      "url": "https://www.youtube.com/watch?v=f59l9pcWmV8"
+    },
+    {
+      "source": "Xavier Mitjana - Lab",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Anima cualquier imagen con TU MOVIMIENTO... ¡GRATIS! 🤯 Calidad BRUTAL",
+      "time": "7919h",
+      "url": "https://www.youtube.com/watch?v=cVrhNg_xvdY"
+    },
+    {
+      "source": "Gentleman Programming",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Marcas de agua en la IA?",
+      "time": "120h",
+      "url": "https://www.youtube.com/shorts/wCn6Y1OVzkc"
+    },
+    {
+      "source": "Gentleman Programming",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "NO tienes que usar siempre el mejor modelo para todo",
+      "time": "148h",
+      "url": "https://www.youtube.com/shorts/KMt4M4m66HE"
+    },
+    {
+      "source": "Gentleman Programming",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Estoy cansado jefe 🥹",
+      "time": "431h",
+      "url": "https://www.youtube.com/shorts/lwzptC5Zj30"
+    },
+    {
+      "source": "maxmaxdata",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "TRUCO CHATGPT - CAMUFLADO EN TU WHATSAPP #ia #ai #chatgpt #bigdata #data #bilbao #whatsapp",
+      "time": "323h",
+      "url": "https://www.youtube.com/shorts/mRTr3KMh4C0"
+    },
+    {
+      "source": "maxmaxdata",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "TRUCO CHATGPT - IMAGENES PROFESIONALES #ia #ai #chatgpt #bigdata #data #bilbao",
+      "time": "395h",
+      "url": "https://www.youtube.com/shorts/r3yF8XIoFRs"
+    },
+    {
+      "source": "maxmaxdata",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "5 CÓDIGOS SECRETOS DE CHATGPT #ia #chatgpt #bigdata #data",
+      "time": "490h",
+      "url": "https://www.youtube.com/shorts/Zy3RIIj1xik"
+    },
+    {
+      "source": "maxmaxdata",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "TRUCO DE CHATGPT -- CONOCE A TODA TU FAMILIA#ia #ai #chatgpt #bigdata #data #bilbao",
+      "time": "564h",
+      "url": "https://www.youtube.com/shorts/kisP9F1v5BU"
+    },
+    {
+      "source": "maxmaxdata",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "TRUCO KLING - ANIMA TU PERSONAJE#ia #ai #chatgpt #bigdata #data #bilbao #avatarIA",
+      "time": "612h",
+      "url": "https://www.youtube.com/shorts/R-1l_I2raYY"
+    },
+    {
+      "source": "Xataka IA",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Z.ai entrenó GLM-5.3 para programar mejor. El modelo aprendió de paso a ser mucho mejor en ciberseguridad",
+      "time": "42h",
+      "url": "https://www.xataka.com/robotica-e-ia/z-ai-entreno-glm-5-3-para-programar-mejor-modelo-aprendio-paso-a-ser-mucho-mejor-ciberseguridad"
+    },
+    {
+      "source": "MuyComputer",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "NVIDIA despliega la versión estable de GeForce Now para Linux",
+      "time": "31h",
+      "url": "https://www.muycomputer.com/2026/08/15/nvidia-despliega-la-version-estable-de-geforce-now-para-linux/"
+    },
+    {
+      "source": "Hipertextual",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Windows 11 se actualiza y corrige más de 400 fallos en su parche de agosto",
+      "time": "23h",
+      "url": "https://hipertextual.com/software/windows-11-actualizacion-agosto-2026/"
+    },
+    {
+      "source": "Hipertextual",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Mucho ojo con estas alertas de Chrome. Pueden instalar malware en tu ordenador",
+      "time": "24h",
+      "url": "https://hipertextual.com/seguridad/alertas-google-chrome-malware/"
+    }
+  ]
+}
