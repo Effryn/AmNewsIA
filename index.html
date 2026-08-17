@@ -3,599 +3,1144 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Demo Visual – AmNewsIA Mejorado</title>
+<title>AmNewsIA</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
-  :root[data-theme="dark"] {
-    --bg:#0d1117; --sb:#161b22; --surf:#1a2028; --s2:#21262d; --line:#30363d;
-    --ink:#e6edf3; --dim:#8b949e; --faint:#484f58;
+  :root[data-theme="dark"]{
+    --bg:#12161c; --sb:#0d1117; --surf:#1a2028; --s2:#161b22; --line:#2a3340;
+    --ink:#dfe6ee; --dim:#8c98a8; --faint:#5a6675;
     --acc:#e5a33d; --blue:#2a78d6; --green:#3fa97c; --pur:#7c6af7; --red:#c4453b;
-    --glass-bg: 22,27,34; --glass-alpha: .8;
+    --glass-bg: 26,32,40; --glass-alpha: .68;
   }
-  :root[data-theme="light"] {
-    --bg:#f6f8fa; --sb:#ffffff; --surf:#ffffff; --s2:#f0f1f4; --line:#e4e5ea;
-    --ink:#1f2328; --dim:#59636e; --faint:#9a9da5;
+  :root[data-theme="light"]{
+    --bg:#f7f7f9; --sb:#ffffff; --surf:#ffffff; --s2:#f0f1f4; --line:#e4e5ea;
+    --ink:#181a20; --dim:#5c606c; --faint:#9a9da5;
     --acc:#b5760a; --blue:#2a78d6; --green:#2f8a63; --pur:#7c5cff; --red:#c4453b;
-    --glass-bg: 255,255,255; --glass-alpha: .8;
+    --glass-bg: 255,255,255; --glass-alpha: .72;
   }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: 'Inter', system-ui, sans-serif;
-    background: var(--bg);
-    color: var(--ink);
-    line-height: 1.5;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{ font: 100%/1.5 'Inter', system-ui, sans-serif; }
+  body{ background:var(--bg); color:var(--ink); min-height:100vh; }
+  svg.ic{ width:18px; height:18px; stroke:currentColor; fill:none; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; display:block; flex-shrink:0; }
+
+  .page{ max-width:480px; margin:0 auto; min-height:100vh; position:relative; padding-bottom:64px; }
+
+  .appbar{
+    position:sticky; top:0; z-index:10; display:flex; align-items:center; justify-content:space-between;
+    padding:16px 18px; background:rgba(var(--glass-bg), var(--glass-alpha));
+    backdrop-filter:blur(20px) saturate(180%); -webkit-backdrop-filter:blur(20px) saturate(180%);
   }
-  .demo-banner {
-    margin-bottom: 24px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    background: var(--surf);
-    border: 1px solid var(--line);
-    padding: 10px 16px;
-    border-radius: 30px;
-    font-size: 14px;
-    color: var(--dim);
+  .appbar::after{
+    content:""; position:absolute; left:0; right:0; bottom:-14px; height:14px; pointer-events:none;
+    background:linear-gradient(rgba(var(--glass-bg),.35), transparent);
   }
-  .view-toggle {
-    display: flex;
-    gap: 4px;
-    background: var(--s2);
-    border-radius: 20px;
-    padding: 4px;
+  .brand-text .name{ font-size:16px; font-weight:800; letter-spacing:-.1px; }
+  .brand-text .name b{ color:var(--acc); }
+  .brand-text .date{ font-size:11px; color:var(--faint); margin-top:2px; text-transform:capitalize; }
+  .appbar-right{ display:flex; align-items:center; gap:12px; }
+
+  .theme-toggle{
+    width:32px; height:32px; border-radius:50%; background:var(--surf); border:1px solid var(--line);
+    display:flex; align-items:center; justify-content:center; cursor:pointer; color:var(--dim);
+    transition:transform 100ms ease-out;
   }
-  .view-toggle button {
-    background: none;
-    border: none;
-    padding: 6px 12px;
-    border-radius: 16px;
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--faint);
-    transition: all .2s;
+  .theme-toggle:active{ transform:scale(.88); }
+
+  .avatar-btn{
+    width:40px; height:40px; border-radius:50%; overflow:hidden; cursor:pointer;
+    border:2px solid var(--pur); position:relative; flex-shrink:0;
+    transition:transform 100ms ease-out;
   }
-  .view-toggle button.active {
-    background: var(--pur);
-    color: #fff;
+  .avatar-btn:active{ transform:scale(.9); }
+  .avatar-btn video{ width:100%; height:100%; object-fit:cover; display:block; }
+  .avatar-btn::after{
+    content:""; position:absolute; inset:0; border-radius:50%;
+    box-shadow:0 0 0 3px var(--bg), 0 0 0 4px var(--pur)55;
+  }
+  .avatar-play{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; background:rgba(0,0,0,.28); }
+  .avatar-play svg{ width:14px; height:14px; stroke:#fff; }
+
+  .hero{
+    margin:4px 16px 14px; border-radius:20px; padding:20px;
+    background:
+      radial-gradient(120% 140% at 100% 0%, #7c6af73d 0%, transparent 55%),
+      radial-gradient(120% 140% at 0% 100%, #2a78d62e 0%, transparent 55%),
+      var(--surf);
+    border:1px solid #7c6af73d;
+  }
+  .hero-eyebrow{ font-size:12px; color:var(--dim); margin-bottom:10px; }
+  .hero-title{ font-size:25px; font-weight:800; letter-spacing:-.5px; line-height:1.08; margin-bottom:5px; }
+  .hero-date{ font-size:11.5px; color:var(--faint); margin-bottom:12px; }
+  .hero-desc{ font-size:13px; color:var(--dim); line-height:1.5; margin-bottom:16px; }
+  .player{ display:flex; align-items:center; gap:12px; background:#00000030; border:1px solid #ffffff14; border-radius:14px; padding:10px 14px; }
+  .player-body{ flex:1; min-width:0; display:flex; flex-direction:column; gap:5px; }
+  .player-label{ font-size:11px; font-weight:600; color:var(--dim); }
+  .play-btn{
+    width:38px; height:38px; min-width:38px; border-radius:50%; background:var(--pur);
+    display:flex; align-items:center; justify-content:center; cursor:pointer; border:none;
+    color:#fff; transition:transform 100ms ease-out;
+  }
+  .play-btn:active{ transform:scale(.9); }
+  .play-btn svg{ stroke:#fff; width:16px; height:16px; }
+  .wave{ flex:1; display:flex; align-items:center; gap:2px; height:22px; overflow:hidden; }
+  .wave span{ width:2.5px; border-radius:2px; background:#7c6af7aa; flex-shrink:0; animation:wv 1.4s ease-in-out infinite; }
+  .wave.paused span{ animation-play-state:paused; opacity:.4; }
+  @keyframes wv{ 0%,100%{ transform:scaleY(.35);} 50%{ transform:scaleY(1);} }
+  .dur{ font-size:11px; color:var(--faint); font-variant-numeric:tabular-nums; }
+
+  .stat-line{ margin:0 16px 16px; font-size:11.5px; color:var(--faint); text-align:center; display:flex; align-items:center; justify-content:center; gap:5px; }
+  .stat-line svg{ color:var(--faint); }
+
+  .iaday{ margin:0 16px 16px; border-radius:16px; padding:16px; background:var(--surf); border:1px solid var(--line); position:relative; overflow:hidden; }
+  .iaday::before{ content:""; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,var(--pur),var(--acc)); }
+  .iaday-title{ font-size:15px; font-weight:700; margin-bottom:12px; letter-spacing:-.15px; }
+  .iaday-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:12px 6px; margin-bottom:14px; }
+  .iaday-item{ border-radius:8px; padding:6px 4px; transition:background 100ms ease-out, transform 100ms ease-out; display:flex; flex-direction:column; align-items:center; gap:5px; }
+  .iaday-item svg{ color:var(--faint); }
+  .iaday-item.clickable{ cursor:pointer; }
+  .iaday-item.clickable:active{ transform:scale(.94); background:var(--s2); }
+  .iaday-item.filter-active{ background:var(--pur)18; }
+  .iaday-item.filter-active svg{ color:var(--pur); }
+  .iaday-item .n{ font-size:16px; font-weight:800; letter-spacing:-.2px; color:var(--ink); }
+  .iaday-item .l{ font-size:9.5px; color:var(--faint); }
+  .iaday-foot{ display:flex; align-items:center; justify-content:space-between; }
+  .stars{ display:flex; gap:2px; color:var(--acc); }
+  .stars svg{ width:12px; height:12px; fill:currentColor; stroke:none; }
+  .impact{ font-size:10px; font-weight:600; padding:4px 10px; border-radius:20px; background:var(--s2); border:1px solid var(--line); color:var(--dim); }
+
+  .thirty{ margin:0 16px 20px; border-radius:16px; padding:16px; background:var(--surf); border:1px solid var(--line); }
+  .thirty-title{ font-size:15px; font-weight:700; margin-bottom:3px; letter-spacing:-.15px; }
+  .thirty-sub{ font-size:11.5px; color:var(--faint); margin-bottom:12px; }
+  .thirty ul{ list-style:none; }
+  .thirty li{ display:flex; align-items:flex-start; gap:10px; font-size:12.5px; color:var(--dim); line-height:1.42; margin-bottom:9px; }
+  .thirty li:last-child{ margin-bottom:0; }
+  .thirty-num{
+    font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:700; color:var(--pur);
+    min-width:18px; margin-top:1px;
   }
 
-  /* ── Contenedor del demo ── */
-  .demo-container {
-    width: 100%;
-    max-width: 1100px;
+  .sec{ margin:0 16px 10px; display:flex; align-items:flex-start; justify-content:space-between; gap:8px; }
+  .sec h3{ font-size:16px; font-weight:700; letter-spacing:-.15px; }
+  .sec-sub{ font-size:11px; color:var(--faint); margin-top:2px; }
+  .sec a{ font-size:11px; color:var(--pur); text-decoration:none; font-weight:600; display:flex; align-items:center; gap:3px; white-space:nowrap; margin-top:2px; }
+  .sec a svg{ width:12px; height:12px; }
+  .filter-chip{
+    display:none; align-items:center; gap:5px; font-size:10.5px; color:var(--pur);
+    background:var(--pur)18; border:1px solid var(--pur)44; border-radius:20px; padding:3px 10px 3px 12px;
+    cursor:pointer; font-weight:600; transition:transform 100ms ease-out;
   }
-  .mobile-preview, .desktop-preview {
-    display: none;
+  .filter-chip svg{ width:11px; height:11px; }
+  .filter-chip:active{ transform:scale(.92); }
+  .filter-chip.show{ display:inline-flex; }
+
+  .news-list{ margin:0 16px; }
+  .news-row{ display:flex; flex-direction:column; gap:3px; padding:10px 0; border-bottom:1px solid var(--line); transition:opacity 100ms ease-out; }
+  .news-row:active{ opacity:.6; }
+  .news-row:last-child{ border-bottom:none; }
+  .news-src{ display:flex; align-items:center; gap:6px; font-size:10.5px; color:var(--dim); font-weight:600; }
+  .news-src .dot{ width:8px; height:8px; border-radius:50%; }
+  .news-title{ font-size:13px; font-weight:600; line-height:1.35; color:var(--ink); text-decoration:none; display:block; }
+  .news-meta{ display:flex; align-items:center; justify-content:space-between; }
+  .news-meta .t{ font-size:10.5px; color:var(--faint); }
+  .news-tech{
+    font-family:'JetBrains Mono',monospace; font-size:9.5px; color:var(--dim);
+    background:var(--s2); border:1px solid var(--line); border-radius:5px; padding:2px 6px; margin-top:1px; width:fit-content;
   }
-  .mobile-preview.active, .desktop-preview.active {
-    display: block;
+  .news-meta-right{ display:flex; align-items:center; gap:8px; }
+  .news-meta .icon-btn{
+    width:22px; height:22px; border-radius:50%; background:var(--s2); border:1px solid var(--line);
+    display:flex; align-items:center; justify-content:center; color:var(--dim); cursor:pointer;
+    transition:transform 100ms ease-out;
+  }
+  .news-meta .icon-btn:active{ transform:scale(.85); }
+  .news-meta .icon-btn svg{ width:11px; height:11px; }
+
+  .mini-player{
+    position:fixed; left:50%; transform:translateX(-50%) translateY(100%); bottom:64px; width:100%; max-width:480px; height:52px;
+    background:rgba(var(--glass-bg), var(--glass-alpha));
+    backdrop-filter:blur(20px) saturate(180%); -webkit-backdrop-filter:blur(20px) saturate(180%);
+    display:flex; align-items:center; gap:10px; padding:0 14px; will-change:transform; z-index:8;
+  }
+  .mini-player::before{
+    content:""; position:absolute; left:0; right:0; top:-14px; height:14px; pointer-events:none;
+    background:linear-gradient(transparent, rgba(var(--glass-bg),.35));
+  }
+  .mini-progress{ position:absolute; top:0; left:0; height:2px; width:34%; background:var(--pur); }
+  .mini-play{
+    width:30px; height:30px; border-radius:50%; background:var(--pur); flex-shrink:0;
+    display:flex; align-items:center; justify-content:center; color:#fff; cursor:pointer;
+    transition:transform 100ms ease-out;
+  }
+  .mini-play:active{ transform:scale(.88); }
+  .mini-play svg{ width:13px; height:13px; stroke:#fff; }
+  .mini-info{ flex:1; min-width:0; }
+  .mini-info .t1{ font-size:11.5px; font-weight:600; color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .mini-info .t2{ font-size:9.5px; color:var(--faint); }
+  .mini-time{ font-size:9.5px; color:var(--faint); font-variant-numeric:tabular-nums; }
+
+  .tabbar{
+    position:fixed; left:50%; transform:translateX(-50%); bottom:0; width:100%; max-width:480px; height:64px; background:var(--sb);
+    border-top:1px solid var(--line); display:flex; padding:8px 4px 12px; z-index:9;
+  }
+  .tab{ flex:1; display:flex; flex-direction:column; align-items:center; gap:4px; color:var(--faint); font-size:9.5px; cursor:pointer; transition:transform 100ms ease-out, color 150ms; }
+  .tab:active{ transform:scale(.92); }
+  .tab.active{ color:var(--pur); }
+
+  .modal{
+    position:fixed; inset:0; background:#000000dd; z-index:20;
+    display:flex; align-items:center; justify-content:center; opacity:0; pointer-events:none; padding:24px;
+  }
+  .modal.open{ pointer-events:auto; }
+  .modal-card{
+    width:100%; max-width:420px; background:var(--sb); border-radius:20px; overflow:hidden; border:1px solid var(--line);
+    transform:scale(.3); opacity:0; will-change:transform, opacity;
+  }
+  .modal-head{ display:flex; align-items:center; gap:10px; padding:14px 16px; }
+  .modal-back{
+    width:30px; height:30px; border-radius:50%; background:var(--surf); border:1px solid var(--line);
+    display:flex; align-items:center; justify-content:center; cursor:pointer; color:var(--dim);
+    transition:transform 100ms ease-out;
+  }
+  .modal-back:active{ transform:scale(.88); }
+  .modal-head-txt .t1{ font-size:13px; font-weight:700; }
+  .modal-head-txt .t2{ font-size:10.5px; color:var(--faint); }
+  .modal video{ width:100%; display:block; aspect-ratio:9/16; max-height:500px; object-fit:cover; }
+
+  @media (prefers-reduced-motion: reduce){
+    .mini-player{ transition:opacity 200ms ease, transform 0ms; }
+    .modal-card{ transition:opacity 200ms ease; }
+    * { animation-duration: 0.001ms !important; }
   }
 
-  /* ============ ESTILOS MOBILE ============ */
-  .mobile-preview {
-    max-width: 480px;
-    margin: 0 auto;
-    background: var(--bg);
-    border-radius: 24px;
-    box-shadow: 0 8px 24px rgba(0,0,0,.1);
-    overflow: hidden;
-    position: relative;
-  }
+  /* ── ESCRITORIO: Inicio = solo noticias editoriales. Papers/GitHub/
+     YouTube/Hugging Face viven en su propia sección del sidebar ──── */
+  #desktopApp{ display:none; }
 
-  /* Appbar mejorada */
-  .m-appbar {
-    position: sticky; top: 0; z-index: 10;
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 14px 18px;
-    background: rgba(var(--glass-bg), var(--glass-alpha));
-    backdrop-filter: blur(20px) saturate(180%);
-  }
-  .m-brand { font-size: 16px; font-weight: 800; letter-spacing: -.1px; }
-  .m-brand b { color: var(--acc); }
-  .m-date { font-size: 11px; color: var(--faint); }
-  .m-actions { display: flex; gap: 10px; }
-  .m-icon-btn {
-    width: 32px; height: 32px; border-radius: 50%; background: var(--surf);
-    border: 1px solid var(--line); display: flex; align-items: center; justify-content: center;
-    cursor: pointer; color: var(--dim); transition: transform .1s;
-  }
-  .m-icon-btn:active { transform: scale(.9); }
-  .m-avatar {
-    width: 36px; height: 36px; border-radius: 50%; overflow: hidden;
-    border: 2px solid var(--pur); cursor: pointer;
-  }
-  .m-avatar video { width: 100%; height: 100%; object-fit: cover; }
+  @media (min-width: 900px){
+    body{ background:var(--bg); }
+    .page{ display:none; }
+    #desktopApp{ display:flex; flex-direction:column; height:100vh; overflow:hidden; opacity:0; transition:opacity .3s ease; }
+    #desktopApp.ready{ opacity:1; }
+    .d-body{ flex:1; display:flex; overflow:hidden; min-height:0; }
 
-  /* Hero con gradiente */
-  .m-hero {
-    margin: 8px 16px 16px;
-    border-radius: 22px;
-    padding: 20px;
-    background: linear-gradient(135deg, #7c6af7 0%, #2a78d6 50%, #e5a33d 100%);
-    color: #fff;
-    position: relative;
-    overflow: hidden;
-  }
-  .m-hero::before {
-    content: '';
-    position: absolute; inset: 0;
-    background: url('data:image/svg+xml,...') no-repeat center/cover; /* fallback */
-    opacity: .15;
-    pointer-events: none;
-  }
-  .m-hero-eyebrow { font-size: 12px; opacity: .9; margin-bottom: 8px; }
-  .m-hero-title { font-size: 26px; font-weight: 800; letter-spacing: -.5px; line-height: 1.1; margin-bottom: 4px; }
-  .m-hero-date { font-size: 12px; opacity: .8; margin-bottom: 12px; }
-  .m-hero-desc { font-size: 13px; opacity: .95; line-height: 1.5; margin-bottom: 18px; }
-  .m-player {
-    display: flex; align-items: center; gap: 12px;
-    background: rgba(255,255,255,.15);
-    backdrop-filter: blur(8px);
-    border-radius: 16px; padding: 12px 14px;
-  }
-  .m-play-btn {
-    width: 44px; height: 44px; border-radius: 50%; background: #fff; color: var(--pur);
-    display: flex; align-items: center; justify-content: center; cursor: pointer;
-    border: none; font-size: 18px; transition: transform .1s;
-    position: relative;
-  }
-  .m-play-btn::after {
-    content: ''; position: absolute; inset: -4px; border-radius: 50%;
-    border: 2px solid rgba(255,255,255,.5); animation: pulse 1.5s infinite;
-  }
-  @keyframes pulse { 0% { transform: scale(1); opacity: .6; } 100% { transform: scale(1.3); opacity: 0; } }
-  .m-player-body { flex: 1; }
-  .m-player-label { font-size: 11px; font-weight: 600; opacity: .9; }
-  .m-wave { display: flex; align-items: center; gap: 2px; height: 20px; margin-top: 4px; }
-  .m-wave span { width: 3px; background: rgba(255,255,255,.7); border-radius: 2px; animation: wave 1.4s infinite; }
-  .m-wave span:nth-child(odd) { animation-delay: .2s; }
-  @keyframes wave { 0%,100% { height: 8px; } 50% { height: 18px; } }
-  .m-duration { font-size: 11px; font-variant-numeric: tabular-nums; }
+    .d-sidebar{
+      width:220px; min-width:220px; background:var(--sb); border-right:1px solid var(--line);
+      padding:22px 14px; overflow-y:auto; display:flex; flex-direction:column;
+    }
+    .d-brand-row{ display:flex; align-items:center; justify-content:space-between; padding:0 8px 24px; }
+    .d-brand-name{ font-size:19px; font-weight:800; letter-spacing:-.3px; }
+    .d-brand-name b{ color:var(--acc); }
+    .d-search-btn{
+      width:28px; height:28px; border-radius:50%; background:var(--surf); border:1px solid var(--line);
+      display:flex; align-items:center; justify-content:center; color:var(--faint); cursor:pointer; flex-shrink:0;
+      transition:transform 100ms ease-out;
+    }
+    .d-search-btn:active{ transform:scale(.88); }
+    .d-nav-group-label{ font-size:10px; color:var(--faint); font-weight:700; letter-spacing:.07em; padding:16px 8px 8px; }
+    .d-nav-item{
+      display:flex; align-items:center; gap:10px; padding:8px 10px; border-radius:8px;
+      color:var(--dim); font-size:13px; font-weight:500; cursor:pointer; margin-bottom:2px;
+      border-left:2px solid transparent; transition:background 150ms, color 150ms, transform 100ms;
+    }
+    .d-nav-item svg{ color:var(--faint); transition:color 150ms; flex-shrink:0; }
+    .d-nav-item:hover{ background:var(--s2); color:var(--ink); }
+    .d-nav-item:hover svg{ color:var(--dim); }
+    .d-nav-item:active{ transform:scale(.97); }
+    .d-nav-item.active{ background:linear-gradient(90deg, var(--pur)18, transparent); color:var(--ink); border-left-color:var(--pur); }
+    .d-nav-item.active svg{ color:var(--pur); }
+    .d-nav-badge{ margin-left:auto; background:var(--s2); color:var(--dim); border-radius:10px; font-size:9.5px; padding:1px 7px; font-weight:700; min-width:16px; text-align:center; }
+    .d-nav-item.active .d-nav-badge{ background:var(--acc); color:#000; }
+    .d-sidebar-footer{ margin-top:auto; padding:16px 8px 4px; font-size:10.5px; color:var(--faint); line-height:1.5; border-top:1px solid var(--line); margin-top:16px; }
+    .d-sidebar-footer b{ color:var(--dim); }
+    .d-sidebar-footer .v{ font-size:9px; opacity:.6; }
 
-  /* Stat cards */
-  .m-stats {
-    margin: 0 16px 16px;
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
-  }
-  .m-stat-card {
-    background: var(--surf); border: 1px solid var(--line); border-radius: 14px;
-    padding: 12px 8px; display: flex; flex-direction: column; align-items: center; gap: 6px;
-    transition: transform .15s, background .2s, border-color .2s;
-  }
-  .m-stat-card.clickable { cursor: pointer; }
-  .m-stat-card.clickable:active { transform: scale(.95); background: var(--s2); border-color: var(--pur); }
-  .m-stat-card.filter-active { background: var(--pur)22; border-color: var(--pur); }
-  .m-stat-card svg { width: 20px; height: 20px; color: var(--faint); }
-  .m-stat-card.filter-active svg { color: var(--pur); }
-  .m-stat-num { font-size: 20px; font-weight: 800; }
-  .m-stat-label { font-size: 10px; color: var(--faint); }
+    /* ── columna central ─────────────────────────────────────────── */
+    .d-main{ flex:1; overflow-y:auto; position:relative; }
+    .d-main-topbar{
+      position:sticky; top:0; z-index:5; display:flex; align-items:center; justify-content:space-between;
+      padding:14px 32px; background:rgba(var(--glass-bg), var(--glass-alpha));
+      backdrop-filter:blur(20px) saturate(180%); -webkit-backdrop-filter:blur(20px) saturate(180%);
+      font-size:12px; color:var(--faint); font-weight:600; opacity:0; transform:translateY(-6px);
+      transition:opacity .2s, transform .2s; pointer-events:none;
+    }
+    .d-main-topbar.show{ opacity:1; transform:translateY(0); }
+    .d-main-topbar b{ color:var(--ink); }
+    .d-main-inner{ max-width:740px; margin:0 auto; padding:26px 32px 40px; }
 
-  /* Noticias como tarjetas */
-  .m-news-section { margin: 0 16px; }
-  .m-section-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; }
-  .m-section-title { font-size: 16px; font-weight: 700; }
-  .m-section-sub { font-size: 11px; color: var(--faint); margin-top: 2px; }
-  .m-filter-chip {
-    display: none; align-items: center; gap: 4px; font-size: 10px; color: var(--pur);
-    background: var(--pur)18; border: 1px solid var(--pur)44; border-radius: 16px;
-    padding: 3px 10px; cursor: pointer; font-weight: 600;
-  }
-  .m-filter-chip.show { display: inline-flex; }
-  .m-news-card {
-    background: var(--surf); border: 1px solid var(--line); border-radius: 16px;
-    padding: 14px; margin-bottom: 10px; position: relative;
-    transition: transform .15s, box-shadow .2s, border-color .2s;
-  }
-  .m-news-card::before {
-    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
-    border-radius: 16px 16px 0 0; background: var(--cat-color, var(--pur));
-  }
-  .m-news-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,.08); }
-  .m-news-src { display: flex; align-items: center; gap: 6px; font-size: 10px; font-weight: 600; color: var(--dim); margin-bottom: 6px; }
-  .m-news-src .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--cat-color, var(--pur)); }
-  .m-news-title { font-size: 14px; font-weight: 600; line-height: 1.35; margin-bottom: 4px; }
-  .m-news-summary { font-size: 11px; color: var(--faint); margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .m-news-meta { display: flex; justify-content: space-between; align-items: center; }
-  .m-news-time { font-size: 10px; color: var(--faint); }
-  .m-news-actions { display: flex; gap: 6px; }
-  .m-news-btn {
-    width: 24px; height: 24px; border-radius: 50%; background: var(--s2); border: 1px solid var(--line);
-    display: flex; align-items: center; justify-content: center; color: var(--dim); cursor: pointer;
-    transition: transform .1s;
-  }
-  .m-news-btn:active { transform: scale(.85); }
+    .d-header h1{ font-size:26px; font-weight:800; letter-spacing:-.6px; line-height:1.1; margin-bottom:5px; }
+    .d-header p{ font-size:13px; color:var(--dim); margin-bottom:20px; }
 
-  /* Mini player píldora */
-  .m-mini-player {
-    position: fixed; left: 50%; transform: translateX(-50%) translateY(120%); bottom: 20px;
-    width: calc(100% - 32px); max-width: 480px;
-    background: rgba(var(--glass-bg), var(--glass-alpha));
-    backdrop-filter: blur(20px) saturate(180%);
-    border-radius: 30px; padding: 10px 16px;
-    display: flex; align-items: center; gap: 12px;
-    box-shadow: 0 8px 24px rgba(0,0,0,.2);
-    transition: transform .3s ease;
-  }
-  .m-mini-player.visible { transform: translateX(-50%) translateY(0); }
-  .m-mini-progress-ring {
-    width: 40px; height: 40px; border-radius: 50%;
-    background: conic-gradient(var(--pur) var(--progress, 0%), var(--line) 0);
-    display: flex; align-items: center; justify-content: center;
-    cursor: pointer;
-  }
-  .m-mini-progress-ring::after {
-    content: ''; position: absolute; width: 30px; height: 30px; border-radius: 50%; background: var(--surf);
-  }
-  .m-mini-play-icon { position: relative; z-index: 1; }
-  .m-mini-info { flex: 1; min-width: 0; }
-  .m-mini-title { font-size: 12px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .m-mini-sub { font-size: 10px; color: var(--faint); }
-  .m-mini-time { font-size: 10px; font-variant-numeric: tabular-nums; }
+    /* ── tarjeta de resumen: SIN scroll interno, resumen corto + puntos clave lado a lado ── */
+    .d-summary-card{
+      background:var(--surf); border:1px solid var(--line); border-radius:18px; padding:24px;
+      margin-bottom:22px; position:relative; overflow:hidden;
+    }
+    .d-summary-card::before{ content:""; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,var(--pur),var(--acc)); }
+    .d-summary-grid{ display:grid; grid-template-columns:1.3fr 1fr; gap:26px; margin-bottom:18px; }
+    .d-summary-col-title{ font-size:10.5px; font-weight:700; color:var(--pur); text-transform:uppercase; letter-spacing:.06em; margin-bottom:10px; }
+    .d-summary-left{ display:flex; gap:14px; }
+    .d-avatar{
+      width:40px; height:40px; min-width:40px; border-radius:50%; position:relative; flex-shrink:0;
+      background:linear-gradient(135deg,var(--pur),var(--acc)); display:flex; align-items:center; justify-content:center;
+    }
+    .d-avatar svg{ width:18px; height:18px; stroke:#fff; }
+    .d-summary-text{
+      font-size:13px; color:var(--dim); line-height:1.6;
+      display:-webkit-box; -webkit-line-clamp:5; -webkit-box-orient:vertical; overflow:hidden;
+    }
+    .d-summary-text.expanded{ display:block; -webkit-line-clamp:unset; }
+    .d-summary-more{ font-size:11px; color:var(--pur); font-weight:600; cursor:pointer; margin-top:6px; display:inline-block; }
+    .d-key-points{ list-style:none; }
+    .d-key-points li{ display:flex; gap:9px; font-size:12px; color:var(--dim); line-height:1.45; margin-bottom:9px; }
+    .d-key-points li:last-child{ margin-bottom:0; }
+    .d-key-num{
+      width:16px; height:16px; min-width:16px; border-radius:50%; background:var(--acc)22; color:var(--acc);
+      font-size:9px; font-weight:800; display:flex; align-items:center; justify-content:center; margin-top:1px;
+    }
+    .d-listen-btn{
+      display:inline-flex; align-items:center; gap:10px; background:var(--pur); color:#fff; border:none;
+      border-radius:30px; padding:9px 18px 9px 10px; cursor:pointer; font-size:12.5px; font-weight:600;
+      transition:transform 100ms ease-out, box-shadow 150ms;
+    }
+    .d-listen-btn:hover{ box-shadow:0 4px 16px #7c6af755; }
+    .d-listen-btn:active{ transform:scale(.97); }
+    .d-listen-btn .d-listen-ic{
+      width:26px; height:26px; border-radius:50%; background:#ffffff26; display:flex; align-items:center; justify-content:center;
+    }
+    .d-listen-btn .d-listen-ic svg{ width:11px; height:11px; stroke:#fff; }
+    .d-listen-btn .d-listen-dur{ opacity:.85; font-weight:500; margin-left:2px; }
 
-  /* ============ ESTILOS DESKTOP ============ */
-  .desktop-preview {
-    background: var(--bg);
-    border-radius: 24px;
-    box-shadow: 0 8px 24px rgba(0,0,0,.1);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    height: 85vh;
-  }
-  .d-sidebar {
-    width: 220px; background: var(--sb); border-right: 1px solid var(--line);
-    padding: 20px 14px; overflow-y: auto;
-  }
-  .d-brand { font-size: 18px; font-weight: 800; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
-  .d-brand b { color: var(--acc); }
-  .d-nav-group { font-size: 10px; color: var(--faint); font-weight: 700; letter-spacing: .07em; margin: 16px 8px 8px; }
-  .d-nav-item {
-    display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 8px;
-    color: var(--dim); font-size: 13px; font-weight: 500; cursor: pointer; margin-bottom: 2px;
-    border-left: 2px solid transparent; transition: all .15s;
-  }
-  .d-nav-item:hover { background: var(--s2); color: var(--ink); }
-  .d-nav-item.active { background: linear-gradient(90deg, var(--pur)18, transparent); color: var(--ink); border-left-color: var(--pur); }
-  .d-nav-item svg { color: var(--faint); flex-shrink: 0; }
-  .d-nav-item.active svg { color: var(--pur); }
-  .d-badge { margin-left: auto; background: var(--s2); color: var(--dim); border-radius: 10px; font-size: 9.5px; padding: 1px 7px; font-weight: 700; }
-  .d-main { flex: 1; overflow-y: auto; padding: 24px 32px; }
-  .d-header h1 { font-size: 24px; font-weight: 800; letter-spacing: -.5px; margin-bottom: 4px; }
-  .d-header p { font-size: 13px; color: var(--dim); margin-bottom: 20px; }
-  .d-summary-card {
-    background: var(--surf); border: 1px solid var(--line); border-radius: 18px; padding: 20px;
-    margin-bottom: 24px; display: flex; gap: 20px; align-items: flex-start;
-  }
-  .d-summary-left { flex: 1.3; }
-  .d-summary-col-title { font-size: 11px; font-weight: 700; color: var(--pur); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 10px; }
-  .d-summary-text { font-size: 13px; color: var(--dim); line-height: 1.6; }
-  .d-key-points { flex: 1; }
-  .d-key-points li { display: flex; gap: 8px; font-size: 12px; color: var(--dim); margin-bottom: 8px; }
-  .d-key-num { width: 18px; height: 18px; border-radius: 50%; background: var(--acc)22; color: var(--acc); font-size: 9px; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-  .d-feed-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; }
-  .d-feed-title { font-size: 16px; font-weight: 700; }
-  .d-pill { background: var(--acc)26; color: var(--acc); padding: 3px 10px; border-radius: 12px; font-weight: 700; font-size: 10px; }
-  .d-feed-card {
-    display: flex; gap: 14px; padding: 14px; background: var(--surf); border: 1px solid var(--line); border-radius: 12px;
-    margin-bottom: 8px; transition: transform .15s, box-shadow .2s, border-color .2s;
-  }
-  .d-feed-card:hover { transform: translateY(-2px); border-color: var(--pur)55; box-shadow: 0 4px 12px rgba(0,0,0,.05); }
-  .d-feed-avatar { width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: 800; color: #fff; flex-shrink: 0; }
-  .d-feed-body { flex: 1; min-width: 0; }
-  .d-feed-src { font-size: 10px; font-weight: 700; color: var(--cat-color, var(--pur)); }
-  .d-feed-time { font-size: 10px; color: var(--faint); }
-  .d-feed-title { font-size: 13px; font-weight: 600; margin-bottom: 4px; }
-  .d-feed-summary { font-size: 11px; color: var(--faint); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .d-feed-play { width: 28px; height: 28px; border-radius: 50%; background: var(--s2); border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; color: var(--dim); align-self: center; cursor: pointer; }
-  .d-rail { width: 280px; border-left: 1px solid var(--line); padding: 20px 16px; overflow-y: auto; }
-  .d-rail-card { background: var(--surf); border: 1px solid var(--line); border-radius: 14px; padding: 16px; margin-bottom: 16px; }
-  .d-rail-card h4 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--faint); margin-bottom: 12px; }
-  .d-trend-row { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 12px; }
-  .d-trend-num { width: 16px; height: 16px; border-radius: 50%; background: var(--acc)22; color: var(--acc); font-size: 10px; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-  .d-trend-name { flex: 1; font-weight: 600; }
-  .d-trend-share { color: var(--faint); }
-  .d-src-row { display: flex; gap: 8px; font-size: 11px; margin-bottom: 8px; color: var(--dim); }
-  .d-src-name { flex: 1; }
-  .d-src-count { font-weight: 700; }
-  .d-dock {
-    display: flex; align-items: center; gap: 20px; padding: 10px 20px;
-    border-top: 1px solid var(--line); background: rgba(var(--glass-bg), var(--glass-alpha));
-    backdrop-filter: blur(20px) saturate(180%);
-  }
-  .d-dock-welcome { display: flex; align-items: center; gap: 10px; cursor: pointer; padding-right: 20px; border-right: 1px solid var(--line); }
-  .d-dock-avatar { width: 32px; height: 32px; border-radius: 50%; background: var(--pur); display: flex; align-items: center; justify-content: center; color: #fff; }
-  .d-dock-player { flex: 1; display: flex; align-items: center; gap: 14px; min-width: 0; }
-  .d-dock-icon { width: 30px; height: 30px; border-radius: 50%; background: linear-gradient(135deg, var(--pur), var(--acc)); display: flex; align-items: center; justify-content: center; color: #fff; }
-  .d-dock-title { font-size: 11px; font-weight: 600; }
-  .d-dock-sub { font-size: 9px; color: var(--faint); }
-  .d-dock-controls { display: flex; align-items: center; gap: 8px; }
-  .d-dock-btn { width: 28px; height: 28px; border-radius: 50%; background: var(--s2); border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; color: var(--dim); cursor: pointer; }
-  .d-dock-play { width: 34px; height: 34px; background: var(--pur); border: none; color: #fff; }
-  .d-dock-progress { flex: 1; display: flex; align-items: center; gap: 8px; min-width: 120px; }
-  .d-dock-time { font-size: 9px; color: var(--faint); font-variant-numeric: tabular-nums; }
-  .d-dock-bar { flex: 1; height: 3px; background: var(--line); border-radius: 2px; cursor: pointer; position: relative; }
-  .d-dock-bar-fill { height: 100%; background: var(--pur); border-radius: 2px; width: 35%; }
-  .d-dock-vol { display: flex; align-items: center; gap: 6px; color: var(--faint); }
-  .d-dock-vol input { width: 60px; accent-color: var(--pur); }
+    .d-feed-header{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:16px; }
+    .d-feed-header h3{ font-size:16px; font-weight:700; letter-spacing:-.2px; }
+    .d-feed-meta{ display:flex; align-items:center; gap:8px; font-size:11px; color:var(--faint); }
+    .d-pill{ background:var(--acc)26; color:var(--acc); padding:3px 10px; border-radius:12px; font-weight:700; font-size:10px; letter-spacing:.03em; }
 
-  /* Iconos (SVG) */
-  .ic { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; display: block; flex-shrink: 0; }
+    .d-feed-card{
+      display:flex; gap:14px; padding:14px; background:var(--surf); border:1px solid var(--line); border-radius:12px;
+      margin-bottom:8px; cursor:pointer; transition:transform 150ms ease-out, border-color 150ms ease-out, background 150ms ease-out;
+    }
+    .d-feed-card:hover{ transform:translateY(-1px); border-color:var(--pur)55; background:var(--s2); }
+    .d-feed-avatar{
+      width:46px; height:46px; min-width:46px; border-radius:11px; display:flex; align-items:center; justify-content:center;
+      font-size:16px; font-weight:800;
+    }
+    .d-feed-body{ flex:1; min-width:0; }
+    .d-feed-top{ display:flex; align-items:center; gap:7px; margin-bottom:4px; flex-wrap:wrap; }
+    .d-feed-src{ font-size:10.5px; font-weight:700; }
+    .d-feed-time{ font-size:10.5px; color:var(--faint); }
+    .d-feed-lang{ font-size:8.5px; font-weight:700; padding:1.5px 5px; border-radius:4px; color:#fff; letter-spacing:.02em; }
+    .d-feed-title{ font-size:13.5px; font-weight:650; color:var(--ink); text-decoration:none; display:block; margin-bottom:4px; line-height:1.35; }
+    .d-feed-summary{ font-size:11px; color:var(--faint); line-height:1.5; overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; }
+    .d-feed-tech{
+      font-family:'JetBrains Mono',monospace; font-size:9.5px; color:var(--dim);
+      background:var(--s2); border:1px solid var(--line); border-radius:5px; padding:2px 6px; margin-top:4px; width:fit-content;
+    }
+    .d-feed-play{
+      width:26px; height:26px; min-width:26px; border-radius:50%; background:var(--s2); border:1px solid var(--line);
+      display:flex; align-items:center; justify-content:center; color:var(--dim); align-self:center;
+    }
+
+    /* ── panel derecho: tendencias editoriales, no datos crudos ────── */
+    .d-rail{ width:280px; min-width:280px; border-left:1px solid var(--line); padding:26px 18px; overflow-y:auto; }
+    .d-rail-card{ background:var(--surf); border:1px solid var(--line); border-radius:14px; padding:18px; margin-bottom:16px; }
+    .d-rail-card h4{ font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--faint); margin-bottom:14px; }
+    .d-trend-row{ display:flex; align-items:center; gap:10px; margin-bottom:11px; }
+    .d-trend-row:last-child{ margin-bottom:0; }
+    .d-trend-num{
+      width:18px; height:18px; min-width:18px; border-radius:50%; background:var(--acc)22; color:var(--acc);
+      font-size:10px; font-weight:800; display:flex; align-items:center; justify-content:center;
+    }
+    .d-trend-name{ font-size:12px; font-weight:600; color:var(--ink); flex:1; }
+    .d-trend-share{ font-size:10.5px; color:var(--faint); font-variant-numeric:tabular-nums; }
+    .d-src-row{ display:flex; align-items:center; gap:9px; margin-bottom:10px; font-size:11px; }
+    .d-src-row:last-child{ margin-bottom:0; }
+    .d-src-row .name{ color:var(--dim); flex:1; }
+    .d-src-row .count{ color:var(--ink); font-weight:700; font-size:11px; }
+
+    /* ── dock inferior persistente: video de bienvenida + reproductor ── */
+    .d-dock{
+      height:60px; min-height:60px; border-top:1px solid var(--line);
+      background:rgba(var(--glass-bg), var(--glass-alpha));
+      backdrop-filter:blur(20px) saturate(180%); -webkit-backdrop-filter:blur(20px) saturate(180%);
+      display:flex; align-items:center; padding:0 20px; gap:20px;
+    }
+    .d-dock-welcome{ display:flex; align-items:center; gap:10px; cursor:pointer; padding-right:20px; border-right:1px solid var(--line); flex-shrink:0; }
+    .d-dock-avatar{ width:34px; height:34px; border-radius:50%; overflow:hidden; border:1.5px solid var(--pur); flex-shrink:0; }
+    .d-dock-avatar video{ width:100%; height:100%; object-fit:cover; }
+    .d-dock-welcome-txt{ font-size:11px; color:var(--dim); line-height:1.35; }
+    .d-dock-welcome-txt b{ color:var(--ink); display:block; font-weight:600; }
+
+    .d-dock-player{ flex:1; display:flex; align-items:center; gap:14px; min-width:0; }
+    .d-dock-icon{ width:30px; height:30px; min-width:30px; border-radius:50%; background:linear-gradient(135deg,var(--pur),var(--acc)); display:flex; align-items:center; justify-content:center; }
+    .d-dock-icon svg{ width:14px; height:14px; stroke:#fff; }
+    .d-dock-title{ font-size:11.5px; font-weight:600; color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .d-dock-sub{ font-size:9.5px; color:var(--faint); }
+    .d-dock-controls{ display:flex; align-items:center; gap:8px; }
+    .d-dock-btn{
+      width:28px; height:28px; border-radius:50%; background:var(--s2); border:1px solid var(--line);
+      display:flex; align-items:center; justify-content:center; color:var(--dim); cursor:pointer;
+      transition:transform 100ms ease-out;
+    }
+    .d-dock-btn:active{ transform:scale(.88); }
+    .d-dock-play{ width:34px; height:34px; background:var(--pur); border:none; color:#fff; }
+    .d-dock-progress-wrap{ flex:1; display:flex; align-items:center; gap:8px; min-width:120px; }
+    .d-dock-time{ font-size:9.5px; color:var(--faint); font-variant-numeric:tabular-nums; }
+    .d-dock-bar{ flex:1; height:3px; background:var(--line); border-radius:2px; cursor:pointer; position:relative; }
+    .d-dock-bar-fill{ height:100%; background:var(--pur); border-radius:2px; width:0%; }
+    .d-dock-vol{ display:flex; align-items:center; gap:6px; color:var(--faint); }
+    .d-dock-vol input{ width:60px; accent-color:var(--pur); }
+
+    /* ── overlay de búsqueda ─────────────────────────────────────── */
+    .d-search-overlay{
+      position:fixed; inset:0; background:#000000cc; z-index:30; display:flex; align-items:flex-start; justify-content:center;
+      padding-top:12vh; opacity:0; pointer-events:none; transition:opacity .15s;
+    }
+    .d-search-overlay.open{ opacity:1; pointer-events:auto; }
+    .d-search-box{ width:560px; max-width:90vw; background:var(--surf); border:1px solid var(--line); border-radius:16px; overflow:hidden; }
+    .d-search-input{
+      width:100%; background:none; border:none; outline:none; color:var(--ink); font-size:15px; padding:18px 20px;
+      border-bottom:1px solid var(--line); font-family:inherit;
+    }
+    .d-search-results{ max-height:340px; overflow-y:auto; padding:8px; }
+    .d-search-empty{ padding:24px 20px; color:var(--faint); font-size:12.5px; text-align:center; }
+  }
 </style>
 </head>
 <body>
 
-<div class="demo-banner">
-  <span>✨ Demo visual – AmNewsIA mejorado</span>
-  <div class="view-toggle">
-    <button id="btnMobile" class="active">📱 Móvil</button>
-    <button id="btnDesktop">🖥️ Escritorio</button>
+<div class="page">
+
+  <div class="appbar">
+    <div class="brand-text">
+      <div class="name">Am<b>News</b>IA</div>
+      <div class="date" id="dateLabel">—</div>
+    </div>
+    <div class="appbar-right">
+      <div class="theme-toggle" id="themeToggle"></div>
+      <div class="avatar-btn" id="avatarBtn">
+        <video src="welcome-video.mp4" muted loop autoplay playsinline></video>
+        <div class="avatar-play"></div>
+      </div>
+    </div>
   </div>
-  <button onclick="toggleTheme()" id="themeBtn" style="margin-left:auto; background:var(--surf); border:1px solid var(--line); border-radius:50%; width:32px; height:32px; cursor:pointer; color:var(--dim);">
-    <span id="themeIcon">🌙</span>
-  </button>
+
+  <div class="hero">
+    <div class="hero-eyebrow" id="greeting">—</div>
+    <div class="hero-title">El resumen de hoy</div>
+    <div class="hero-date" id="heroDate">—</div>
+    <div class="hero-desc">Lo más relevante de la inteligencia artificial, seleccionado y resumido para ti.</div>
+    <div class="player">
+      <button class="play-btn" id="heroPlay"></button>
+      <div class="player-body">
+        <div class="player-label">Escuchar resumen</div>
+        <div class="wave paused" id="wave"></div>
+      </div>
+      <div class="dur" id="heroDur">—</div>
+    </div>
+  </div>
+
+  <div class="stat-line" id="statLine">—</div>
+
+  <div class="iaday">
+    <div class="iaday-title">Panorama de hoy</div>
+    <div class="iaday-grid" id="iadayGrid"></div>
+    <div class="iaday-foot">
+      <div class="stars" id="stars"></div>
+      <div class="impact" id="impact">—</div>
+    </div>
+  </div>
+
+  <div class="thirty">
+    <div class="thirty-title">Lo esencial de hoy</div>
+    <div class="thirty-sub" id="thirtySub">—</div>
+    <ul id="thirtyList"></ul>
+  </div>
+
+  <div class="sec">
+    <div>
+      <h3>Últimas novedades</h3>
+      <div class="sec-sub">Noticias filtradas, resumidas y listas para leer o escuchar.</div>
+    </div>
+    <div style="display:flex; align-items:center; gap:10px;">
+      <div class="filter-chip" id="filterChip"></div>
+      <a href="#" id="verTodas">Ver todo</a>
+    </div>
+  </div>
+  <div class="news-list" id="news-list"></div>
+
+  <div class="mini-player" id="miniPlayer">
+    <div class="mini-progress"></div>
+    <div class="mini-play" id="miniPlay"></div>
+    <div class="mini-info">
+      <div class="t1">Resumen de hoy</div>
+      <div class="t2">AmNewsIA · en reproducción</div>
+    </div>
+    <div class="mini-time">00:00</div>
+  </div>
+
+  <div class="tabbar" id="tabbar"></div>
+
+  <div class="modal" id="videoModal">
+    <div class="modal-card" id="modalCard">
+      <div class="modal-head">
+        <div class="modal-back" id="modalBack"></div>
+        <div class="modal-head-txt">
+          <div class="t1">Conoce AmNewsIA</div>
+          <div class="t2">Descubre cómo funciona en 30 segundos</div>
+        </div>
+      </div>
+      <video id="modalVideo" src="welcome-video.mp4" playsinline controls></video>
+    </div>
+  </div>
+
 </div>
 
-<div class="demo-container">
-  <!-- VISTA MÓVIL -->
-  <div class="mobile-preview active" id="mobilePreview">
-    <!-- Appbar -->
-    <div class="m-appbar">
-      <div>
-        <div class="m-brand">Am<b>News</b>IA</div>
-        <div class="m-date">12 agosto 2026</div>
-      </div>
-      <div class="m-actions">
-        <div class="m-icon-btn">🔍</div>
-        <div class="m-icon-btn">🌙</div>
-        <div class="m-avatar"></div>
+<!-- ══════════ DASHBOARD DE ESCRITORIO ══════════
+     Mismo DATA que la vista móvil, solo se muestra en pantallas
+     ≥900px (ver CSS). Inicio = solo noticias editoriales; Papers,
+     GitHub, YouTube y Hugging Face viven en su propia sección. -->
+<div id="desktopApp">
+ <div class="d-body">
+
+  <div class="d-sidebar">
+    <div class="d-brand-row">
+      <div class="d-brand-name">Am<b>News</b>IA</div>
+      <div style="display:flex; gap:6px;">
+        <div class="d-search-btn" id="dThemeBtn"></div>
+        <div class="d-search-btn" id="dSearchBtn"></div>
       </div>
     </div>
 
-    <!-- Hero -->
-    <div class="m-hero">
-      <div class="m-hero-eyebrow">✨ Buenos días, Alex</div>
-      <div class="m-hero-title">El resumen de hoy</div>
-      <div class="m-hero-date">12 de agosto de 2026 · Actualizado 08:30</div>
-      <div class="m-hero-desc">Lo más relevante de la inteligencia artificial, seleccionado y resumido para ti.</div>
-      <div class="m-player">
-        <button class="m-play-btn" onclick="toggleMobilePlay()">▶</button>
-        <div class="m-player-body">
-          <div class="m-player-label">Escuchar resumen</div>
-          <div class="m-wave" id="mWave">
-            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-          </div>
-        </div>
-        <div class="m-duration">2:30</div>
-      </div>
-    </div>
+    <div class="d-nav-item active" id="dNavInicio" onclick="setDesktopView('inicio')"></div>
 
-    <!-- Stat cards -->
-    <div class="m-stats">
-      <div class="m-stat-card">📰 <span class="m-stat-num">45</span><span class="m-stat-label">Noticias</span></div>
-      <div class="m-stat-card">🌐 <span class="m-stat-num">20</span><span class="m-stat-label">Fuentes</span></div>
-      <div class="m-stat-card">⏱️ <span class="m-stat-num">12</span><span class="m-stat-label">Min lectura</span></div>
-      <div class="m-stat-card">🎧 <span class="m-stat-num">8</span><span class="m-stat-label">Min audio</span></div>
-      <div class="m-stat-card clickable" onclick="toggleFilter(this, 'paper')">📄 <span class="m-stat-num">3</span><span class="m-stat-label">Papers</span></div>
-      <div class="m-stat-card clickable" onclick="toggleFilter(this, 'repo')">💻 <span class="m-stat-num">5</span><span class="m-stat-label">Repos</span></div>
-    </div>
+    <div class="d-nav-group-label">NOTICIAS</div>
+    <div class="d-nav-item" id="dNavHoy" onclick="setDesktopView('inicio')"></div>
+    <div class="d-nav-item" id="dNavHistorial"></div>
 
-    <!-- Noticias -->
-    <div class="m-news-section">
-      <div class="m-section-header">
-        <div>
-          <div class="m-section-title">Últimas novedades</div>
-          <div class="m-section-sub">Noticias filtradas, resumidas y listas.</div>
-        </div>
-        <div class="m-filter-chip" id="mFilterChip">Papers ✕</div>
-      </div>
-      <div class="m-news-card" style="--cat-color: var(--pur)">
-        <div class="m-news-src"><span class="dot"></span>OpenAI</div>
-        <div class="m-news-title">ChatGPT lanza nueva función de memoria</div>
-        <div class="m-news-summary">La IA ahora puede recordar conversaciones anteriores para personalizar respuestas.</div>
-        <div class="m-news-meta">
-          <span class="m-news-time">12:30 · Modelos</span>
-          <div class="m-news-actions">
-            <div class="m-news-btn">▶</div>
-            <div class="m-news-btn">↗</div>
-          </div>
-        </div>
-      </div>
-      <div class="m-news-card" style="--cat-color: var(--green)">
-        <div class="m-news-src"><span class="dot"></span>DeepMind</div>
-        <div class="m-news-title">Nuevo modelo de IA resuelve problemas matemáticos complejos</div>
-        <div class="m-news-summary">AlphaGeometry 2 supera a los medallistas de oro en olimpiadas.</div>
-        <div class="m-news-meta">
-          <span class="m-news-time">11:45 · Investigación</span>
-          <div class="m-news-actions">
-            <div class="m-news-btn">▶</div>
-            <div class="m-news-btn">↗</div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="d-nav-group-label">CONTENIDO</div>
+    <div class="d-nav-item" id="dNavPapers" onclick="setDesktopView('arxiv')"></div>
+    <div class="d-nav-item" id="dNavGithub" onclick="setDesktopView('github')"></div>
+    <div class="d-nav-item" id="dNavYoutube" onclick="setDesktopView('youtube')"></div>
+    <div class="d-nav-item" id="dNavHf" onclick="setDesktopView('huggingface')"></div>
 
-    <!-- Mini player píldora -->
-    <div class="m-mini-player" id="mMiniPlayer">
-      <div class="m-mini-progress-ring" style="--progress: 40%" onclick="toggleMobilePlay()">
-        <span class="m-mini-play-icon">▶</span>
-      </div>
-      <div class="m-mini-info">
-        <div class="m-mini-title">Resumen de hoy</div>
-        <div class="m-mini-sub">AmNewsIA · en reproducción</div>
-      </div>
-      <div class="m-mini-time">1:00 / 2:30</div>
+    <div class="d-nav-group-label">RESÚMENES</div>
+    <div class="d-nav-item" id="dNavDiario"></div>
+    <div class="d-nav-item" id="dNavSemanal"></div>
+    <div class="d-nav-item" id="dNavMensual"></div>
+
+    <div class="d-sidebar-footer">
+      <b>AmNewsIA</b>
+      AI News & Intelligence
+      <div class="v">v1.0</div>
     </div>
   </div>
 
-  <!-- VISTA ESCRITORIO -->
-  <div class="desktop-preview" id="desktopPreview">
-    <div style="display:flex; flex:1; overflow:hidden;">
-      <div class="d-sidebar">
-        <div class="d-brand">Am<b>News</b>IA <span>🔍</span></div>
-        <div class="d-nav-group">NOTICIAS</div>
-        <div class="d-nav-item active">🏠 Inicio</div>
-        <div class="d-nav-item">📰 Hoy <span class="d-badge">12</span></div>
-        <div class="d-nav-item">🕒 Historial</div>
-        <div class="d-nav-group">CONTENIDO</div>
-        <div class="d-nav-item">📄 Papers <span class="d-badge">3</span></div>
-        <div class="d-nav-item">💻 GitHub <span class="d-badge">5</span></div>
-        <div class="d-nav-item">🎬 YouTube <span class="d-badge">2</span></div>
-        <div class="d-nav-item">🌐 HF <span class="d-badge">1</span></div>
-        <div class="d-nav-group">RESÚMENES</div>
-        <div class="d-nav-item">📄 Diario</div>
-        <div class="d-nav-item">📄 Semanal</div>
-        <div class="d-nav-item">📄 Mensual</div>
+  <div class="d-main" id="dMainScroll">
+    <div class="d-main-topbar" id="dTopbar">
+      Am<b>News</b>IA <span id="dTopbarDate"></span>
+    </div>
+
+    <div class="d-main-inner">
+      <div class="d-header">
+        <h1 id="dGreeting">—</h1>
+        <p id="dHeaderSub">—</p>
       </div>
-      <div class="d-main">
-        <div class="d-header">
-          <h1>Buenos días, Alex</h1>
-          <p>Lo más importante que pasó hoy en IA — 12 agosto 2026.</p>
-        </div>
-        <div class="d-summary-card">
-          <div class="d-summary-left">
+
+      <div class="d-summary-card" id="dSummaryCard">
+        <div class="d-summary-grid">
+          <div>
             <div class="d-summary-col-title">Resumen del día</div>
-            <div class="d-summary-text">Hoy en IA, OpenAI lanza una nueva función de memoria para ChatGPT, DeepMind presenta AlphaGeometry 2 capaz de resolver problemas de olimpiada, y la UE publica nuevas directrices sobre IA generativa...</div>
+            <div class="d-summary-left">
+              <div class="d-avatar" id="dAvatarIcon"></div>
+              <div>
+                <div class="d-summary-text" id="dSummaryText">—</div>
+                <span class="d-summary-more" id="dSummaryMore" onclick="toggleSummaryExpand()">Ver más</span>
+              </div>
+            </div>
           </div>
-          <div class="d-key-points">
+          <div>
             <div class="d-summary-col-title">3 puntos clave</div>
-            <li><span class="d-key-num">1</span>ChatGPT con memoria</li>
-            <li><span class="d-key-num">2</span>AlphaGeometry 2</li>
-            <li><span class="d-key-num">3</span>UE regula IA</li>
+            <ul class="d-key-points" id="dKeyPoints"></ul>
           </div>
         </div>
-        <div class="d-feed-header">
-          <span class="d-feed-title">Últimas noticias</span>
-          <span class="d-pill">HOY</span>
-        </div>
-        <div class="d-feed-card" style="--cat-color: var(--pur)">
-          <div class="d-feed-avatar" style="background: linear-gradient(135deg, #7c6af7, #2a78d6);">O</div>
-          <div class="d-feed-body">
-            <div><span class="d-feed-src">OpenAI</span> <span class="d-feed-time">12:30</span></div>
-            <div class="d-feed-title">ChatGPT lanza nueva función de memoria</div>
-            <div class="d-feed-summary">La IA ahora puede recordar conversaciones anteriores para personalizar respuestas.</div>
-          </div>
-          <div class="d-feed-play">▶</div>
-        </div>
-        <div class="d-feed-card" style="--cat-color: var(--green)">
-          <div class="d-feed-avatar" style="background: linear-gradient(135deg, #3fa97c, #2a78d6);">D</div>
-          <div class="d-feed-body">
-            <div><span class="d-feed-src">DeepMind</span> <span class="d-feed-time">11:45</span></div>
-            <div class="d-feed-title">AlphaGeometry 2 supera a medallistas de oro</div>
-            <div class="d-feed-summary">El modelo resuelve problemas de geometría de olimpiadas internacionales.</div>
-          </div>
-          <div class="d-feed-play">▶</div>
-        </div>
+        <button class="d-listen-btn" id="dListenBtn"></button>
       </div>
-      <div class="d-rail">
-        <div class="d-rail-card">
-          <h4>En tendencia</h4>
-          <div class="d-trend-row"><span class="d-trend-num">1</span><span class="d-trend-name">Modelos</span><span class="d-trend-share">35%</span></div>
-          <div class="d-trend-row"><span class="d-trend-num">2</span><span class="d-trend-name">Investigación</span><span class="d-trend-share">28%</span></div>
-          <div class="d-trend-row"><span class="d-trend-num">3</span><span class="d-trend-name">Herramientas</span><span class="d-trend-share">20%</span></div>
-        </div>
-        <div class="d-rail-card">
-          <h4>Fuentes</h4>
-          <div class="d-src-row"><span class="d-src-name">Empresas y labs</span><span class="d-src-count">8</span></div>
-          <div class="d-src-row"><span class="d-src-name">Medios y blogs</span><span class="d-src-count">12</span></div>
-          <div class="d-src-row"><span class="d-src-name">Investigación</span><span class="d-src-count">5</span></div>
-        </div>
+
+      <div class="d-feed-header">
+        <h3 id="dFeedTitle">Últimas noticias</h3>
+        <div class="d-feed-meta"><span class="d-pill" id="dPill">HOY</span><span id="dCount">—</span></div>
       </div>
+      <div class="d-feed" id="dFeed"></div>
     </div>
-    <div class="d-dock">
-      <div class="d-dock-welcome">
-        <div class="d-dock-avatar">👋</div>
-        <div>
-          <b style="font-size:11px;">Conoce AmNewsIA</b><br>
-          <span style="font-size:9px;color:var(--faint)">Video de bienvenida · 60 s</span>
-        </div>
+  </div>
+
+  <div class="d-rail">
+    <div class="d-rail-card">
+      <h4>En tendencia</h4>
+      <div id="dTrending"></div>
+    </div>
+    <div class="d-rail-card">
+      <h4>Fuentes</h4>
+      <div id="dSources"></div>
+    </div>
+  </div>
+
+ </div>
+
+  <div class="d-dock">
+    <div class="d-dock-welcome" id="dDockWelcome">
+      <div class="d-dock-avatar"><video src="welcome-video.mp4" muted loop autoplay playsinline></video></div>
+      <div class="d-dock-welcome-txt"><b>Conoce AmNewsIA</b>Ver video de bienvenida · 60 s</div>
+    </div>
+    <div class="d-dock-player">
+      <div class="d-dock-icon" id="dDockIcon"></div>
+      <div style="min-width:120px">
+        <div class="d-dock-title">Resumen del día</div>
+        <div class="d-dock-sub" id="dDockDate">—</div>
       </div>
-      <div class="d-dock-player">
-        <div class="d-dock-icon">🎧</div>
-        <div>
-          <div class="d-dock-title">Resumen del día</div>
-          <div class="d-dock-sub">12 agosto 2026</div>
-        </div>
-        <div class="d-dock-controls">
-          <div class="d-dock-btn">⏪</div>
-          <div class="d-dock-btn d-dock-play">▶</div>
-          <div class="d-dock-btn">⏩</div>
-        </div>
-        <div class="d-dock-progress">
-          <span class="d-dock-time">0:45</span>
-          <div class="d-dock-bar"><div class="d-dock-bar-fill"></div></div>
-          <span class="d-dock-time">2:30</span>
-        </div>
-        <div class="d-dock-vol">
-          <span>🔊</span>
-          <input type="range" min="0" max="100" value="80">
-        </div>
+      <div class="d-dock-controls">
+        <div class="d-dock-btn" id="dDockBack10"></div>
+        <div class="d-dock-btn d-dock-play" id="dDockPlay"></div>
+        <div class="d-dock-btn" id="dDockFwd10"></div>
+      </div>
+      <div class="d-dock-progress-wrap">
+        <span class="d-dock-time" id="dDockCurrent">0:00</span>
+        <div class="d-dock-bar" id="dDockBar"><div class="d-dock-bar-fill" id="dDockBarFill"></div></div>
+        <span class="d-dock-time" id="dDockDuration">0:00</span>
+      </div>
+      <div class="d-dock-vol">
+        <span id="dDockVolIcon"></span>
+        <input type="range" id="dDockVol" min="0" max="100" value="100">
       </div>
     </div>
   </div>
+
 </div>
+
+<div class="d-search-overlay" id="dSearchOverlay">
+  <div class="d-search-box">
+    <input class="d-search-input" id="dSearchInput" placeholder="Buscar noticias, papers, repositorios…">
+    <div class="d-search-results" id="dSearchResults"></div>
+  </div>
+</div>
+
+<audio id="briefingAudio"></audio>
 
 <script>
-  // Toggle entre vistas
-  const btnMobile = document.getElementById('btnMobile');
-  const btnDesktop = document.getElementById('btnDesktop');
-  const mobilePreview = document.getElementById('mobilePreview');
-  const desktopPreview = document.getElementById('desktopPreview');
+const ICONS = {
+  home:      `<path d="M4 11l8-7 8 7"/><path d="M6 10v9h12v-9"/><path d="M10 19v-5h4v5"/>`,
+  newspaper: `<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 9.5h8M8 13h8M8 16.5h5"/>`,
+  headphones:`<path d="M4 14v-2a8 8 0 0116 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.4"/><rect x="17" y="14" width="4" height="6" rx="1.4"/>`,
+  history:   `<circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2"/><path d="M8.5 4A9 9 0 004 8"/>`,
+  play:      `<path d="M9 7l8 5-8 5V7z"/>`,
+  pause:     `<path d="M9 7v10M15 7v10"/>`,
+  arrowUp:   `<path d="M7 17L17 7M9 7h8v8"/>`,
+  close:     `<path d="M6 6l12 12M18 6L6 18"/>`,
+  back:      `<path d="M14 6l-6 6 6 6"/>`,
+  sun:       `<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M2.5 12H5M19 12h2.5M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/>`,
+  moon:      `<path d="M20 14.5A8.5 8.5 0 019.5 4a8.5 8.5 0 1010.5 10.5z"/>`,
+  clock:     `<circle cx="12" cy="12" r="8.5"/><path d="M12 8v4.5l3 2"/>`,
+  document:  `<path d="M7 3.5h7l4 4v13H7z"/><path d="M14 3.5v4h4"/><path d="M9.5 12.5h5M9.5 16h5"/>`,
+  code:      `<path d="M8.5 8L4 12l4.5 4M15.5 8L20 12l-4.5 4"/>`,
+  videoRect: `<rect x="3" y="6" width="18" height="13" rx="2"/><path d="M10 10l5 2.5-5 2.5v-5z"/>`,
+  star:      `<path d="M12 2.5l2.9 6 6.6.7-4.9 4.5 1.3 6.5-5.9-3.3-5.9 3.3 1.3-6.5-4.9-4.5 6.6-.7z"/>`,
+  globe:     `<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.3 4 5.3 4 8.5s-1.5 6.2-4 8.5c-2.5-2.3-4-5.3-4-8.5s1.5-6.2 4-8.5z"/>`,
+  sparkles:  `<path d="M12 3l1.8 4.6L18 9l-4.2 1.4L12 15l-1.8-4.6L6 9l4.2-1.4L12 3z"/><path d="M19 14l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8.8-2z"/>`,
+  search:    `<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>`,
+  skipBack:  `<path d="M11 19l-8-7 8-7v14z"/><path d="M20 19l-8-7 8-7v14z"/>`,
+  skipFwd:   `<path d="M13 5l8 7-8 7V5z"/><path d="M4 5l8 7-8 7V5z"/>`,
+  volume:    `<path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16.5 8.5a5 5 0 010 7"/>`,
+};
+function icon(name, size = 18) {
+  return `<svg class="ic" viewBox="0 0 24 24" style="width:${size}px;height:${size}px">${ICONS[name]}</svg>`;
+}
 
-  function setView(view) {
-    if (view === 'mobile') {
-      mobilePreview.classList.add('active');
-      desktopPreview.classList.remove('active');
-      btnMobile.classList.add('active');
-      btnDesktop.classList.remove('active');
-    } else {
-      desktopPreview.classList.add('active');
-      mobilePreview.classList.remove('active');
-      btnDesktop.classList.add('active');
-      btnMobile.classList.remove('active');
-    }
+const _activeSprings = new WeakMap();
+function springTo(el, key, from, to, { stiffness = 210, damping = 26, onUpdate, onComplete } = {}) {
+  const REDUCE_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const existing = _activeSprings.get(el) || {};
+  if (existing[key]) cancelAnimationFrame(existing[key].raf);
+  if (REDUCE_MOTION) { onUpdate(to); onComplete && onComplete(); return; }
+  let value = from, velocity = existing[key]?.lastVelocity || 0;
+  const state = { raf: null, lastVelocity: 0 };
+  existing[key] = state;
+  _activeSprings.set(el, existing);
+  function step() {
+    const acceleration = -stiffness * (value - to) - damping * velocity;
+    velocity += acceleration / 60;
+    value += velocity / 60;
+    state.lastVelocity = velocity;
+    onUpdate(value);
+    if (Math.abs(value - to) < 0.5 && Math.abs(velocity) < 0.5) { onUpdate(to); onComplete?.(); return; }
+    state.raf = requestAnimationFrame(step);
   }
-  btnMobile.addEventListener('click', () => setView('mobile'));
-  btnDesktop.addEventListener('click', () => setView('desktop'));
+  state.raf = requestAnimationFrame(step);
+}
 
-  // Tema
-  function toggleTheme() {
-    const html = document.documentElement;
-    const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-    html.setAttribute('data-theme', next);
-    document.getElementById('themeIcon').textContent = next === 'dark' ? '🌙' : '☀️';
+const CAT_COLOR = {
+  "Modelos":"var(--pur)", "Investigación":"var(--green)",
+  "Herramientas":"var(--acc)", "Industria":"var(--blue)", "Videos":"var(--red)",
+};
+const TYPE_LABEL = { paper:"Papers", repo:"Repos", video:"Videos" };
+const ICON_BY_TYPE = { paper:"document", repo:"code", video:"videoRect" };
+
+let DATA = null;
+let activeFilter = null;
+
+function techPill(a){
+  if (a.content_type === "paper" && a.arxiv) return `<div class="news-tech">arXiv:${a.arxiv}</div>`;
+  if (a.content_type === "repo" && a.stars) return `<div class="news-tech">${a.stars} estrellas · repo</div>`;
+  return "";
+}
+
+function renderFeed(){
+  const list = activeFilter ? DATA.articles.filter(a => a.content_type === activeFilter) : DATA.articles;
+  document.getElementById("news-list").innerHTML = list.map(a => `
+    <div class="news-row">
+      <div class="news-src"><span class="dot" style="background:${CAT_COLOR[a.cat] || 'var(--dim)'}"></span>${a.source}</div>
+      <a class="news-title" href="${a.url}" target="_blank" rel="noopener">${a.title}</a>
+      ${techPill(a)}
+      <div class="news-meta">
+        <span class="t">${a.time} · ${a.cat}</span>
+        <div class="news-meta-right">
+          <div class="icon-btn">${icon('play', 11)}</div>
+          <a class="icon-btn" href="${a.url}" target="_blank" rel="noopener">${icon('arrowUp', 11)}</a>
+        </div>
+      </div>
+    </div>
+  `).join("");
+
+  const chip = document.getElementById("filterChip");
+  document.querySelectorAll(".iaday-item.clickable").forEach(el => el.classList.remove("filter-active"));
+  if (activeFilter){
+    chip.innerHTML = `${TYPE_LABEL[activeFilter]} ${icon('close', 11)}`;
+    chip.classList.add("show");
+    document.querySelector(`.iaday-item[data-filter="${activeFilter}"]`)?.classList.add("filter-active");
+  } else {
+    chip.classList.remove("show");
+  }
+}
+
+function setFilter(type){
+  activeFilter = (activeFilter === type) ? null : type;
+  renderFeed();
+  if (activeFilter) document.getElementById("news-list").scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+function getGreeting(){
+  const h = new Date().getHours();
+  if (h < 12) return "Buenos días";
+  if (h < 19) return "Buenas tardes";
+  return "Buenas noches";
+}
+
+function renderFromData(){
+  document.getElementById("dateLabel").textContent = DATA.date_label;
+  document.getElementById("greeting").textContent = getGreeting();
+  document.getElementById("heroDate").textContent = DATA.date_label;
+  document.getElementById("heroDur").textContent = DATA.briefing.duration_label;
+  document.getElementById("briefingAudio").src = DATA.briefing.audio_url;
+
+  document.getElementById("statLine").innerHTML =
+    `${icon('clock', 12)} Actualizado ${DATA.stats.updated_label}`;
+
+  const iaday = DATA.iaday;
+  const IADAY_STATS = [
+    { icon:"newspaper",  n:DATA.stats.new_articles, l:"Noticias" },
+    { icon:"globe",      n:DATA.stats.sources,      l:"Fuentes" },
+    { icon:"clock",      n:iaday.reading_minutes, l:"Lectura" },
+    { icon:"headphones", n:iaday.audio_duration,  l:"Audio" },
+    { icon: ICON_BY_TYPE.paper, n:iaday.papers_count, l:"Papers", filter:"paper" },
+    { icon: ICON_BY_TYPE.repo,  n:iaday.repos_count,  l:"Proyectos", filter:"repo" },
+    { icon: ICON_BY_TYPE.video, n:iaday.videos_count, l:"Videos", filter:"video" },
+  ];
+  document.getElementById("iadayGrid").innerHTML = IADAY_STATS.map(s => `
+    <div class="iaday-item ${s.filter ? 'clickable' : ''}" ${s.filter ? `data-filter="${s.filter}" onclick="setFilter('${s.filter}')"` : ''}>
+      ${icon(s.icon, 17)}
+      <div class="n">${s.n}</div>
+      <div class="l">${s.l}</div>
+    </div>
+  `).join("");
+  document.getElementById("stars").innerHTML = Array.from({length:5}).map(() => icon('star', 12)).join("");
+  document.getElementById("impact").textContent = `Impacto del día: ${iaday.impact}`;
+
+  document.getElementById("thirtySub").textContent =
+    `${DATA.thirty_seconds.length} noticias que deberías conocer.`;
+  document.getElementById("thirtyList").innerHTML = DATA.thirty_seconds.map((t, i) => `
+    <li><span class="thirty-num">${String(i+1).padStart(2,'0')}</span>${t}</li>
+  `).join("");
+
+  renderFeed();
+}
+
+function renderChrome(){
+  document.getElementById("themeToggle").innerHTML = icon('moon', 15);
+  document.querySelector(".avatar-play").innerHTML = icon('play', 13);
+  document.getElementById("heroPlay").innerHTML = icon('play', 15);
+  document.getElementById("miniPlay").innerHTML = icon('play', 12);
+  document.getElementById("verTodas").innerHTML = `Ver todas ${icon('arrowUp', 11)}`;
+  document.getElementById("modalBack").innerHTML = icon('back', 15);
+
+  const TABS = [
+    { icon:"home",       label:"Resumen",   active:true },
+    { icon:"newspaper",  label:"Noticias" },
+    { icon:"headphones", label:"Audio" },
+    { icon:"history",    label:"Historial" },
+  ];
+  document.getElementById("tabbar").innerHTML = TABS.map(t => `
+    <div class="tab ${t.active ? 'active' : ''}">${icon(t.icon, 19)}${t.label}</div>
+  `).join("");
+}
+
+document.getElementById("wave").innerHTML = Array.from({length:34}).map((_,i)=>
+  `<span style="height:${8+Math.random()*14}px; animation-delay:${(i*0.05).toFixed(2)}s"></span>`
+).join("");
+
+/* ── Reproductor: audio real del resumen diario ──────────────────── */
+let isPlaying = false;
+const miniPlayer = document.getElementById("miniPlayer");
+const briefingAudio = document.getElementById("briefingAudio");
+
+function toggleAudio(){
+  isPlaying ? briefingAudio.pause() : briefingAudio.play().catch(()=>{});
+}
+briefingAudio.addEventListener("play", () => setPlayingState(true));
+briefingAudio.addEventListener("pause", () => setPlayingState(false));
+briefingAudio.addEventListener("ended", () => setPlayingState(false));
+
+function setPlayingState(playing){
+  isPlaying = playing;
+  document.getElementById("heroPlay").innerHTML = icon(isPlaying ? 'pause' : 'play', 15);
+  document.getElementById("miniPlay").innerHTML = icon(isPlaying ? 'pause' : 'play', 12);
+  document.getElementById("wave").classList.toggle("paused", !isPlaying);
+
+  const currentPercent = parseFloat((miniPlayer.style.transform.match(/-?\d+\.?\d*/) || [0])[0]) || (isPlaying ? 100 : 0);
+  springTo(miniPlayer, 'slide', currentPercent, isPlaying ? 0 : 100, {
+    onUpdate: (v) => { miniPlayer.style.transform = `translateX(-50%) translateY(${v}%)`; },
+  });
+}
+document.getElementById("heroPlay").addEventListener("click", toggleAudio);
+document.getElementById("miniPlay").addEventListener("click", toggleAudio);
+
+function toggleTheme(){
+  const html = document.documentElement;
+  const next = html.getAttribute("data-theme") === "dark" ? "light" : "dark";
+  html.setAttribute("data-theme", next);
+  document.getElementById("themeToggle").innerHTML = icon(next === "dark" ? 'moon' : 'sun', 15);
+}
+document.getElementById("themeToggle").addEventListener("click", toggleTheme);
+
+/* ── Modal anclado al avatar ──────────────────────────────────── */
+const modal = document.getElementById("videoModal");
+const modalCard = document.getElementById("modalCard");
+const modalVideo = document.getElementById("modalVideo");
+const avatarBtn = document.getElementById("avatarBtn");
+
+function openModal(){
+  modal.classList.add("open");
+  const avatarRect = avatarBtn.getBoundingClientRect();
+  const originX = avatarRect.left + avatarRect.width / 2;
+  const originY = avatarRect.top + avatarRect.height / 2;
+  modalCard.style.transformOrigin = `${originX}px ${originY}px`;
+
+  springTo(modal, 'fade', 0, 1, { stiffness: 260, damping: 30, onUpdate: v => modal.style.opacity = v });
+  springTo(modalCard, 'scale', 0.3, 1, {
+    stiffness: 210, damping: 22,
+    onUpdate: v => { modalCard.style.transform = `scale(${v})`; modalCard.style.opacity = v; },
+  });
+  modalVideo.currentTime = 0;
+  modalVideo.play();
+}
+function closeModal(){
+  springTo(modal, 'fade', 1, 0, {
+    stiffness: 260, damping: 30,
+    onUpdate: v => modal.style.opacity = v,
+    onComplete: () => modal.classList.remove("open"),
+  });
+  springTo(modalCard, 'scale', 1, 0.3, {
+    stiffness: 210, damping: 22,
+    onUpdate: v => { modalCard.style.transform = `scale(${v})`; modalCard.style.opacity = v; },
+  });
+  modalVideo.pause();
+}
+avatarBtn.addEventListener("click", openModal);
+document.getElementById("modalBack").addEventListener("click", closeModal);
+modal.addEventListener("click", (e) => { if (e.target === modal) closeModal(); });
+
+/* ── Dashboard de escritorio: Inicio = solo noticias editoriales
+   (source_type "rss"). Papers/GitHub/YouTube/Hugging Face viven en
+   su propia vista, fuera del feed principal. ─────────────────────── */
+const VIEW_LABEL = {
+  inicio: "Últimas noticias", arxiv: "Papers", github: "GitHub",
+  youtube: "YouTube", huggingface: "Hugging Face",
+};
+const VIEW_SOURCE_TYPE = { arxiv:"arxiv", github:"github", youtube:"youtube", huggingface:"huggingface" };
+const CATEGORY_COLOR_LIST = Object.entries(CAT_COLOR);
+
+// Fuentes propias de cada empresa/lab vs. medios de comunicación --
+// para que el panel "Fuentes" agrupe editorialmente, no solo por tipo tecnico.
+const LAB_SOURCES = new Set([
+  "OpenAI Blog","Google DeepMind Blog","Meta AI Blog","Microsoft AI Blog",
+  "Anthropic","Anthropic News","Cohere Blog","ElevenLabs Blog","Perplexity Blog","Mistral AI News",
+]);
+const MEDIA_SOURCES = new Set([
+  "Xataka IA","Genbeta","MuyComputer","Hipertextual","Silicon España","MIT Technology Review — IA",
+]);
+
+let dView = "inicio";
+
+function renderDesktopSidebar(){
+  const countFor = (type) => DATA.articles.filter(a => a.source_type === type).length;
+  const newsCount = countFor("rss");
+
+  document.getElementById("dNavInicio").innerHTML = `${icon('home', 17)}Inicio`;
+  document.getElementById("dNavHoy").innerHTML = `${icon('newspaper', 17)}Hoy <span class="d-nav-badge">${newsCount}</span>`;
+  document.getElementById("dNavHistorial").innerHTML = `${icon('history', 17)}Historial`;
+  document.getElementById("dNavPapers").innerHTML = `${icon('document', 17)}Papers <span class="d-nav-badge">${countFor('arxiv')}</span>`;
+  document.getElementById("dNavGithub").innerHTML = `${icon('code', 17)}GitHub <span class="d-nav-badge">${countFor('github')}</span>`;
+  document.getElementById("dNavYoutube").innerHTML = `${icon('videoRect', 17)}YouTube <span class="d-nav-badge">${countFor('youtube')}</span>`;
+  document.getElementById("dNavHf").innerHTML = `${icon('globe', 17)}Hugging Face <span class="d-nav-badge">${countFor('huggingface')}</span>`;
+  document.getElementById("dNavDiario").innerHTML = `${icon('document', 17)}Diario`;
+  document.getElementById("dNavSemanal").innerHTML = `${icon('document', 17)}Semanal`;
+  document.getElementById("dNavMensual").innerHTML = `${icon('document', 17)}Mensual`;
+
+  document.getElementById("dThemeBtn").innerHTML = icon(document.documentElement.getAttribute("data-theme") === "dark" ? 'moon' : 'sun', 14);
+  document.getElementById("dSearchBtn").innerHTML = icon('search', 14);
+}
+
+function setDesktopView(view){
+  dView = view;
+  document.querySelectorAll("#desktopApp .d-nav-item").forEach(el => el.classList.remove("active"));
+  const map = { inicio:"dNavHoy", arxiv:"dNavPapers", github:"dNavGithub", youtube:"dNavYoutube", huggingface:"dNavHf" };
+  document.getElementById(map[view])?.classList.add("active");
+  if (view === "inicio") document.getElementById("dNavInicio").classList.add("active");
+  document.getElementById("dSummaryCard").style.display = view === "inicio" ? "block" : "none";
+  renderDesktopFeed();
+  document.getElementById("dMainScroll").scrollTo({top:0});
+}
+
+function renderDesktopHeader(){
+  document.getElementById("dGreeting").textContent = getGreeting();
+  document.getElementById("dHeaderSub").textContent = `Lo más importante que pasó hoy en IA — ${DATA.date_label}.`;
+  document.getElementById("dTopbarDate").textContent = `· ${DATA.date_label}`;
+  document.getElementById("dDockDate").textContent = DATA.date_label;
+}
+
+function renderDesktopSummary(){
+  document.getElementById("dAvatarIcon").innerHTML = icon('sparkles', 18);
+  document.getElementById("dDockIcon").innerHTML = icon('sparkles', 14);
+
+  const full = DATA.briefing.script_text || "Todavía no hay un resumen generado para hoy.";
+  const textEl = document.getElementById("dSummaryText");
+  textEl.textContent = full;
+  textEl.dataset.full = full;
+
+  const points = DATA.thirty_seconds && DATA.thirty_seconds.length ? DATA.thirty_seconds : ["Todavía no hay puntos clave para hoy."];
+  document.getElementById("dKeyPoints").innerHTML = points.map((t, i) => `
+    <li><span class="d-key-num">${i + 1}</span>${t}</li>
+  `).join("");
+
+  document.getElementById("dListenBtn").innerHTML =
+    `<span class="d-listen-ic">${icon('play', 11)}</span>Escuchar resumen del día <span class="d-listen-dur">${DATA.briefing.duration_label}</span>`;
+}
+
+function toggleSummaryExpand(){
+  const el = document.getElementById("dSummaryText");
+  const btn = document.getElementById("dSummaryMore");
+  const expanded = el.classList.toggle("expanded");
+  btn.textContent = expanded ? "Ver menos" : "Ver más";
+}
+
+function techPillDesktop(a){
+  if (a.content_type === "paper" && a.arxiv) return `<div class="d-feed-tech">arXiv:${a.arxiv}</div>`;
+  if (a.content_type === "repo" && a.stars) return `<div class="d-feed-tech">${a.stars} estrellas</div>`;
+  return "";
+}
+
+function renderDesktopFeed(){
+  const list = dView === "inicio"
+    ? DATA.articles.filter(a => a.source_type === "rss")
+    : DATA.articles.filter(a => a.source_type === VIEW_SOURCE_TYPE[dView]);
+
+  document.getElementById("dFeedTitle").textContent = VIEW_LABEL[dView];
+  document.getElementById("dPill").textContent = dView === "inicio" ? "HOY" : "";
+  document.getElementById("dPill").style.display = dView === "inicio" ? "inline-block" : "none";
+  document.getElementById("dCount").textContent =
+    dView === "inicio" ? `${list.length} noticias · últimas 24 horas` : `${list.length} elementos`;
+
+  if (!list.length){
+    document.getElementById("dFeed").innerHTML = `<p style="color:var(--faint); font-size:12.5px; padding:20px 0;">Nada por aquí todavía.</p>`;
+    return;
   }
 
-  // Simulación de reproducción móvil
-  let playing = false;
-  function toggleMobilePlay() {
-    playing = !playing;
-    const btn = document.querySelector('.m-play-btn');
-    const miniPlayer = document.getElementById('mMiniPlayer');
-    if (playing) {
-      btn.textContent = '⏸';
-      miniPlayer.classList.add('visible');
-    } else {
-      btn.textContent = '▶';
-      miniPlayer.classList.remove('visible');
-    }
+  document.getElementById("dFeed").innerHTML = list.map(a => `
+    <div class="d-feed-card" onclick="window.open('${a.url}','_blank')">
+      <div class="d-feed-avatar" style="background:linear-gradient(135deg, ${(CAT_COLOR[a.cat]||'var(--dim)')}33, ${(CAT_COLOR[a.cat]||'var(--dim)')}14); color:${CAT_COLOR[a.cat]||'var(--dim)'}">${(a.source||"?")[0].toUpperCase()}</div>
+      <div class="d-feed-body">
+        <div class="d-feed-top">
+          <span class="d-feed-src" style="color:${CAT_COLOR[a.cat]||'var(--dim)'}">${a.source}</span>
+          <span class="d-feed-time">· ${a.time}</span>
+          <span class="d-feed-lang" style="background:${(a.lang||'es')==='es' ? 'var(--green)' : 'var(--blue)'}">${(a.lang||'es').toUpperCase()}</span>
+        </div>
+        <a class="d-feed-title" href="${a.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${a.title}</a>
+        <div class="d-feed-summary">${a.summary || ''}</div>
+        ${techPillDesktop(a)}
+      </div>
+      <div class="d-feed-play">${icon('play', 10)}</div>
+    </div>
+  `).join("");
+}
+
+function renderDesktopRail(){
+  // "En tendencia" editorial: reparto por categoria SOLO de noticias
+  // (no de repos/papers), con su participacion real -- no inventamos
+  // porcentajes de variacion dia a dia que no tenemos como calcular.
+  const newsArticles = DATA.articles.filter(a => a.source_type === "rss");
+  const tally = {};
+  newsArticles.forEach(a => { tally[a.cat] = (tally[a.cat] || 0) + 1; });
+  const total = newsArticles.length || 1;
+
+  document.getElementById("dTrending").innerHTML = Object.entries(tally)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 5)
+    .map(([cat, count], i) => `
+      <div class="d-trend-row">
+        <div class="d-trend-num">${i + 1}</div>
+        <div class="d-trend-name">${cat}</div>
+        <div class="d-trend-share">${Math.round(count / total * 100)}%</div>
+      </div>
+    `).join("") || `<p style="color:var(--faint); font-size:11.5px;">Sin datos suficientes hoy.</p>`;
+
+  const groups = { "Empresas y labs": 0, "Medios y blogs": 0, "Investigación": 0, "Comunidad": 0 };
+  DATA.articles.forEach(a => {
+    if (a.source_type === "arxiv" || a.source_type === "huggingface") groups["Investigación"]++;
+    else if (a.source_type === "github") groups["Comunidad"]++;
+    else if (LAB_SOURCES.has(a.source)) groups["Empresas y labs"]++;
+    else if (MEDIA_SOURCES.has(a.source)) groups["Medios y blogs"]++;
+    else if (a.source_type === "youtube") groups["Comunidad"]++;
+    else groups["Medios y blogs"]++;
+  });
+  document.getElementById("dSources").innerHTML = Object.entries(groups)
+    .filter(([,c]) => c > 0)
+    .sort((a,b) => b[1]-a[1])
+    .map(([name, count]) => `<div class="d-src-row"><span class="name">${name}</span><span class="count">${count}</span></div>`)
+    .join("");
+}
+
+/* ── Reproductor propio del escritorio: dock inferior + boton "Escuchar
+   resumen" de la tarjeta, ambos controlan el mismo <audio> oculto que
+   ya usa la vista movil. ─────────────────────────────────────────── */
+function fmtTime(sec){
+  if (!isFinite(sec)) return "0:00";
+  const m = Math.floor(sec / 60), s = Math.floor(sec % 60);
+  return `${m}:${String(s).padStart(2,'0')}`;
+}
+
+function setupDesktopPlayer(){
+  const audio = document.getElementById("briefingAudio");
+  const dockPlay = document.getElementById("dDockPlay");
+  const listenBtn = document.getElementById("dListenBtn");
+  const bar = document.getElementById("dDockBar");
+  const barFill = document.getElementById("dDockBarFill");
+  const vol = document.getElementById("dDockVol");
+
+  function updatePlayIcon(){
+    const playing = !audio.paused;
+    dockPlay.innerHTML = icon(playing ? 'pause' : 'play', 13);
+  }
+  function updateProgress(){
+    document.getElementById("dDockCurrent").textContent = fmtTime(audio.currentTime);
+    document.getElementById("dDockDuration").textContent = fmtTime(audio.duration);
+    const pct = audio.duration ? (audio.currentTime / audio.duration * 100) : 0;
+    barFill.style.width = pct + "%";
   }
 
-  // Filtro en tarjetas de estadísticas
-  function toggleFilter(el, type) {
-    el.classList.toggle('filter-active');
-    document.getElementById('mFilterChip').classList.toggle('show', el.classList.contains('filter-active'));
-  }
+  dockPlay.addEventListener("click", () => audio.paused ? audio.play().catch(()=>{}) : audio.pause());
+  listenBtn.addEventListener("click", () => { audio.currentTime = 0; audio.play().catch(()=>{}); });
+  document.getElementById("dDockBack10").addEventListener("click", () => audio.currentTime = Math.max(0, audio.currentTime - 10));
+  document.getElementById("dDockFwd10").addEventListener("click", () => audio.currentTime = Math.min(audio.duration||0, audio.currentTime + 10));
+  bar.addEventListener("click", (e) => {
+    const rect = bar.getBoundingClientRect();
+    const pct = (e.clientX - rect.left) / rect.width;
+    if (audio.duration) audio.currentTime = pct * audio.duration;
+  });
+  vol.addEventListener("input", () => { audio.volume = vol.value / 100; });
+  document.getElementById("dDockVolIcon").innerHTML = icon('volume', 13);
+  document.getElementById("dDockBack10").innerHTML = icon('skipBack', 12);
+  document.getElementById("dDockFwd10").innerHTML = icon('skipFwd', 12);
 
-  // Mostrar mini player al cargar (opcional)
-  // Para la demo, lo mostramos inicialmente
-  document.getElementById('mMiniPlayer').classList.add('visible');
+  audio.addEventListener("play", updatePlayIcon);
+  audio.addEventListener("pause", updatePlayIcon);
+  audio.addEventListener("timeupdate", updateProgress);
+  audio.addEventListener("loadedmetadata", updateProgress);
+  updateProgress();
+}
+
+/* ── Búsqueda: filtra el DATA ya cargado, sin backend ─────────────── */
+function openSearch(){
+  const overlay = document.getElementById("dSearchOverlay");
+  overlay.classList.add("open");
+  const input = document.getElementById("dSearchInput");
+  input.value = "";
+  document.getElementById("dSearchResults").innerHTML = "";
+  setTimeout(() => input.focus(), 50);
+}
+function closeSearch(){ document.getElementById("dSearchOverlay").classList.remove("open"); }
+
+function renderSearch(q){
+  const box = document.getElementById("dSearchResults");
+  if (!q.trim()){ box.innerHTML = ""; return; }
+  const matches = DATA.articles.filter(a => a.title.toLowerCase().includes(q.toLowerCase())).slice(0, 12);
+  if (!matches.length){ box.innerHTML = `<div class="d-search-empty">Sin resultados para "${q}".</div>`; return; }
+  box.innerHTML = matches.map(a => `
+    <div class="d-feed-card" style="margin:4px 8px;" onclick="window.open('${a.url}','_blank')">
+      <div class="d-feed-avatar" style="background:linear-gradient(135deg, ${(CAT_COLOR[a.cat]||'var(--dim)')}33, ${(CAT_COLOR[a.cat]||'var(--dim)')}14); color:${CAT_COLOR[a.cat]||'var(--dim)'}">${(a.source||"?")[0].toUpperCase()}</div>
+      <div class="d-feed-body">
+        <div class="d-feed-top"><span class="d-feed-src" style="color:${CAT_COLOR[a.cat]||'var(--dim)'}">${a.source}</span><span class="d-feed-time">· ${a.time}</span></div>
+        <div class="d-feed-title">${a.title}</div>
+      </div>
+    </div>
+  `).join("");
+}
+
+function renderDesktop(){
+  renderDesktopSidebar();
+  renderDesktopHeader();
+  renderDesktopSummary();
+  renderDesktopFeed();
+  renderDesktopRail();
+  setupDesktopPlayer();
+
+  document.getElementById("dSearchBtn").addEventListener("click", openSearch);
+  document.getElementById("dSearchOverlay").addEventListener("click", (e) => { if (e.target.id === "dSearchOverlay") closeSearch(); });
+  document.getElementById("dSearchInput").addEventListener("input", (e) => renderSearch(e.target.value));
+  document.getElementById("dThemeBtn").addEventListener("click", () => {
+    toggleTheme();
+    document.getElementById("dThemeBtn").innerHTML = icon(document.documentElement.getAttribute("data-theme") === "dark" ? 'moon' : 'sun', 14);
+  });
+  document.getElementById("dDockWelcome").addEventListener("click", openModal);
+
+  const app = document.getElementById("desktopApp");
+  requestAnimationFrame(() => app.classList.add("ready"));
+
+  const scrollArea = document.getElementById("dMainScroll");
+  const topbar = document.getElementById("dTopbar");
+  scrollArea.addEventListener("scroll", () => {
+    topbar.classList.toggle("show", scrollArea.scrollTop > 140);
+  });
+}
+
+/* ── Carga de datos ───────────────────────────────────────────── */
+fetch("data/news.json")
+  .then(r => r.json())
+  .then(json => { DATA = json; renderChrome(); renderFromData(); renderDesktop(); })
+  .catch(err => {
+    const msg = `<p style="padding:40px 20px;color:var(--dim)">No se pudo cargar data/news.json. Revisa que el archivo exista y que el sitio se esté sirviendo por HTTP (no abriendo el archivo directo).</p>`;
+    document.querySelector(".page").innerHTML = msg;
+    document.getElementById("desktopApp").innerHTML = msg;
+    console.error(err);
+  });
 </script>
 </body>
 </html>
