@@ -3,18 +3,18 @@
   "date_label": "17 de agosto de 2026",
   "greeting": "Buenos días, Effry",
   "briefing": {
-    "duration_label": "—",
+    "duration_label": "2:41",
     "audio_url": "assets/audio/2026-08-17.mp3",
     "script_text": "En el resumen de hoy cubrimos la aceleración tecnológica que vive el sector de inteligencia artificial, con movimientos estratégicos que redefinen el mercado global.\n\nComenzamos con la **competencia internacional en modelos de IA**. DeepSeek continúa ganando terreno con su V4 Pro, demostrando que la carrera por la supremacía en inteligencia artificial no es exclusiva de los gigantes occidentales. Simultáneamente, Microsoft lanza una nueva herramienta para programadores que promete ser más rápida y económica que Claude Code, intensificando la presión competitiva en el segmento de desarrollo de software.\n\nEn paralelo, **Anthropic implementa nuevas medidas de seguridad**. Claude ya marca automáticamente todo el texto generado con una marca de agua para detectar contenido generado por IA. Sin embargo, emerge un debate incómodo: la comunidad ya busca formas de eliminar estas marcas, recordándonos que cualquier sistema detectable puede potencialmente ser eludido. Una carrera entre protección y evasión que apenas comienza.\n\nEn **infraestructura y hardware**, observamos tensiones significativas. Los precios de RAM han alcanzado máximos históricos, multiplicándose por cinco respecto a hace un año, complicando la accesibilidad a sistemas de alto rendimiento. Paradójicamente, mientras tanto, conectores tecnológicos como el de hace 40 años siguen dominando en computadores modernos, mostrando la inercia del hardware legacy.\n\nElon Musk anuncia su **proyecto Terafab**, una estructura que sería la más grande del planeta si se concreta. El énfasis en ese \"si\" es crucial: en un ecosistema donde los anuncios superan frecuentemente a los resultados, la cautela es prudente.\n\nEn política y regulación, OpenAI publica nuevas propuestas de política pública para la Era de la Inteligencia, reconociendo que las máquinas ya no son solo herramientas técnicas, sino actores con implicaciones sociales profundas. Esta reflexión se amplifica cuando consideramos preguntas incómodas: ¿qué sucede cuando la IA se convierte en compañía emocional de menores? MIT Technology Review plantea exactamente eso con su análisis sobre robots que se convierten en amigos de niños.\n\nFinalmente, cerramos con dos desafíos sistémicos. La **ciberdelincuencia** se ha convertido en una economía criminal globalizada sofisticada, mientras que el **impacto ambiental** de la inteligencia artificial representa un reto de sostenibilidad que la industria apenas comienza a dimensionar.\n\nUn día más donde la innovación tecnológica avanza a velocidades vertiginosas, pero donde las preguntas sobre seguridad, equidad y sostenibilidad aún no encuentran respuestas satisfactorias.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 84,
     "sources": 29,
-    "updated_label": "08:32"
+    "updated_label": "08:52"
   },
   "iaday": {
     "reading_minutes": "50 min",
-    "audio_duration": "—",
+    "audio_duration": "2:41",
     "key_count": 3,
     "papers_count": 57,
     "repos_count": 15,
@@ -82,7 +82,7 @@
       "content_type": "repo",
       "title": "Christopher Cruz 98112/AI-agents-for-cybersecurity",
       "summary": "⭐ 1 estrella — Este repositorio contiene recursos y materiales para cursos y presentaciones relacionados con Agentes y Sistemas Agentes para Operaciones de Segu",
-      "time": "44h",
+      "time": "45h",
       "url": "https://github.com/christophercruz98112/AI-agents-for-cybersecurity",
       "stars": "1"
     },
@@ -94,7 +94,7 @@
       "content_type": "repo",
       "title": "mihirgupta665/NeuroKinetIQ",
       "summary": "⭐ 1 estrella — Página de aterrizaje y muestra de producto responsive de alta gama para NeuroKinetIQ — un entrenador de gimnasio basado en IA en tiempo real que ",
-      "time": "93h",
+      "time": "94h",
       "url": "https://github.com/mihirgupta665/NeuroKinetIQ",
       "stars": "1"
     },
@@ -106,7 +106,7 @@
       "content_type": "repo",
       "title": "meharshrajvardhan/NetSage-AI",
       "summary": "⭐ 1 estrella — Sistema de depuración de redes con validación por humanos en el ciclo y evaluación responsable de IA.",
-      "time": "65h",
+      "time": "66h",
       "url": "https://github.com/meharshrajvardhan/NetSage-AI",
       "stars": "1"
     },
@@ -118,7 +118,7 @@
       "content_type": "repo",
       "title": "MohammedKathi3753/Mirai_AI",
       "summary": "⭐ 1 estrella — Plataforma de coaching de entrevistas impulsada por IA adaptable que identifica debilidades del candidato, genera práctica personalizada y rastre",
-      "time": "147h",
+      "time": "148h",
       "url": "https://github.com/MohammedKathi3753/Mirai_AI",
       "stars": "1"
     },
@@ -154,7 +154,7 @@
       "content_type": "repo",
       "title": "Sandeepreddy1211/CreditWise-Aprobación-de-Créditos-Predicción-Usando-Aprendizaje-Máquina",
       "summary": "⭐ 0 estrellas — Sistema basado en aprendizaje automático para la predicción de aprobación de préstamos que analiza la información financiera, demográfica y cred",
-      "time": "52h",
+      "time": "53h",
       "url": "https://github.com/sandeepreddy1211/CreditWise-Loan-Approval-Prediction-Using-Machine-Learning",
       "stars": "0"
     },
@@ -166,7 +166,7 @@
       "content_type": "repo",
       "title": "Proyectos/Portfolio de Jtuaz/Jericho-Tuazon",
       "summary": "⭐ 0 estrellas — Una colección de tareas académicas, implementaciones de aprendizaje automático y proyectos de ciencia de datos.",
-      "time": "116h",
+      "time": "117h",
       "url": "https://github.com/Jtuaz/Jericho-Tuazon-Projects-Portfolio",
       "stars": "0"
     },
@@ -248,7 +248,7 @@
       "content_type": "paper",
       "title": "Agentes Capturando Agentes: Cascadas de Atajos y Juego de Referencia en Sistemas Multiajente Clínicos",
       "summary": "La asistencia en la toma de decisiones clínicas se dirige hacia comités de agentes de modelos lingüísticos que deliberan en un espacio de trabajo compartido. Pr",
-      "time": "313h",
+      "time": "314h",
       "url": "https://huggingface.co/papers/2608.03744"
     },
     {
@@ -358,7 +358,7 @@
       "content_type": "paper",
       "title": "Un camino hacia un inteligente general científico AI: comprensión multimodal de imágenes científicas",
       "summary": "Las figuras y tablas científicas codifican evidencia experimental esencial, pero siguen siendo difíciles de recuperar e interpretar para bibliotecas digitales y",
-      "time": "79h",
+      "time": "80h",
       "url": "https://huggingface.co/papers/2608.14075"
     },
     {
@@ -471,7 +471,7 @@
       "content_type": "paper",
       "title": "¿Cuál médico recomienda el AI? Un examen de algoritmo basado en señales de reputación y demográficas en la elección de médicos asistida por modelos de lenguaje de gran escala",
       "summary": "Los pacientes cada vez más consultan a asistentes de modelos de lenguaje de gran tamaño (LLM) sobre qué médico ver, convirtiéndolos en intermediarios de informa",
-      "time": "68h",
+      "time": "69h",
       "url": "https://arxiv.org/abs/2608.14399v1",
       "arxiv": "2608.14399v1"
     },
@@ -519,7 +519,7 @@
       "content_type": "paper",
       "title": "SheetCompass: Gráficos de Relaciones Jerárquicas para Razonamiento Hoja de Cálculo Agente",
       "summary": "Las hojas de cálculo se utilizan ampliamente para organizar, analizar y manipular datos semi-estructurados, pero la razonamiento automatizado de hojas de cálcul",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2608.14452v1",
       "arxiv": "2608.14452v1"
     },
@@ -531,7 +531,7 @@
       "content_type": "paper",
       "title": "Solo Pasas Una Vez: Respondiendo y Absteniéndose Juntos en una Única Pasada Adelante de un Modelo de Lenguaje Congelado",
       "summary": "Una modelo de lenguaje congelado en tareas de razonamiento tiene dos debilidades interconectadas: subutiliza la evidencia que ya codifica su flujo residual, y f",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2608.14465v1",
       "arxiv": "2608.14465v1"
     },
@@ -567,7 +567,7 @@
       "content_type": "paper",
       "title": "La IA moral participativa no es neutra: La mano invisible de los desarrolladores",
       "summary": "Con el aumento de las decisiones moralmente cargadas que toman los sistemas de IA en toda la sociedad, una respuesta ha sido la elicitación de preferencias mora",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2608.14522v1",
       "arxiv": "2608.14522v1"
     },
@@ -627,7 +627,7 @@
       "content_type": "paper",
       "title": "Decodificación del Pasado: Un Marco de Aprendizaje Profundo Consciente de la Incertidumbre para la Atribución Sexual en Estampas de Manos Préhistóricas",
       "summary": "Determinar el sexo biológico de las personas que crearon los estampados de manos del Paleolítico Superior sigue siendo un problema desafiante debido a la falta ",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2608.14539v1",
       "arxiv": "2608.14539v1"
     },
@@ -639,7 +639,7 @@
       "content_type": "paper",
       "title": "Transición del Estado del Aprendizaje en Contexto a Través de las Fronteras de Sesión",
       "summary": "Este estudio investiga las propiedades metodológicas y teóricas del cambio de sesión en aplicaciones que utilizan modelos de lenguaje de gran escala. Una tarea ",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2608.14528v1",
       "arxiv": "2608.14528v1"
     },
@@ -675,7 +675,7 @@
       "content_type": "paper",
       "title": "Aprendizaje por Traslado Consciente del Desplazamiento con Fusión Adaptativa de Codificadores Dúctiles para la Predicción de PM en Entornos Con Limitaciones de Datos",
       "summary": "La predicción a corto plazo de partículas finas (PM2.5) sigue siendo difícil cuando las observaciones en el dominio objetivo son limitadas y las propiedades est",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2608.14456v1",
       "arxiv": "2608.14456v1"
     },
@@ -687,7 +687,7 @@
       "content_type": "paper",
       "title": "Satisfacción por la Información: Un Eje Orientado al Lector para la Evaluación de Resúmenes",
       "summary": "La mayoría del trabajo en evaluación de resumen se centra en la calidad general del resumen (por ejemplo, ROUGE, BERTScore) o en propiedades específicas deseada",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2608.14457v1",
       "arxiv": "2608.14457v1"
     },
@@ -723,7 +723,7 @@
       "content_type": "paper",
       "title": "Planificación Informativa Basada en la Energía Libre Esperada para la Exploración Robótica de Marte",
       "summary": "Un robot autónomo explorando eficientemente un entorno desconocido, como buscar fuentes de agua en Marte, enfrenta dos demandas simultáneas: construir un mapa d",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2608.14466v1",
       "arxiv": "2608.14466v1"
     },
@@ -771,7 +771,7 @@
       "content_type": "paper",
       "title": "Marionette: Predicción de Estados del Mundo, Renderizado de Geometría, Pintura de Apariencia",
       "summary": "Los modelos de mundos interactivos de juegos típicamente regresan autónomamente las observaciones visuales directamente en el espacio de píxeles o espacio laten",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2608.14530v1",
       "arxiv": "2608.14530v1"
     },
@@ -831,7 +831,7 @@
       "content_type": "paper",
       "title": "Los LLMs No Pagan por el Salto",
       "summary": "Zahavy [2026] argumenta que los Modelos de Lenguaje Grandes, a pesar de sus capacidades en inducción y deducción, no pueden realizar el \"Salto\" abductivo que pr",
-      "time": "68h",
+      "time": "69h",
       "url": "https://arxiv.org/abs/2608.14397v1",
       "arxiv": "2608.14397v1"
     },
