@@ -31,7 +31,6 @@
 
   .page{ max-width:480px; margin:0 auto; min-height:100vh; position:relative; padding-bottom:84px; }
 
-  /* ── App bar: vidrio, respuesta instantanea en los botones ──────── */
   .appbar{
     position:sticky; top:0; z-index:10; display:flex; align-items:center; justify-content:space-between;
     padding:16px 18px; background:rgba(var(--glass-bg), var(--glass-alpha));
@@ -43,9 +42,6 @@
   }
   .brand-text .name{ font-size:16px; font-weight:800; letter-spacing:-.1px; }
   .brand-text .name b{ color:var(--acc); }
-  .brand-text .date{ font-size:11px; color:var(--faint); margin-top:2px; text-transform:capitalize; }
-  .appbar-right{ display:flex; align-items:center; gap:12px; }
-
   .theme-toggle{
     width:32px; height:32px; border-radius:50%; background:var(--surf); border:1px solid var(--line);
     display:flex; align-items:center; justify-content:center; cursor:pointer; color:var(--dim);
@@ -53,52 +49,58 @@
   }
   .theme-toggle:active{ transform:scale(.88); }
 
-  .avatar-btn{
-    width:40px; height:40px; border-radius:50%; overflow:hidden; cursor:pointer;
-    border:2px solid var(--pur); position:relative; flex-shrink:0;
-    transition:transform 100ms ease-out;
+  .flip-wrap{ margin:12px 16px 20px; perspective:1400px; }
+  .flip-inner{
+    position:relative; transition:transform 480ms cubic-bezier(.2,.8,.2,1);
+    transform-style:preserve-3d; min-height:230px;
   }
-  .avatar-btn:active{ transform:scale(.9); }
-  .avatar-btn video{ width:100%; height:100%; object-fit:cover; display:block; }
-  .avatar-play{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; background:rgba(0,0,0,.28); }
-  .avatar-play svg{ width:14px; height:14px; stroke:#fff; }
-
-  /* ── Hero: SIN scroll interno -- line-clamp + "Ver mas" ──────────── */
-  .hero{
-    margin:12px 16px 20px; border-radius:20px; padding:20px; position:relative; overflow:hidden;
+  .flip-wrap.flipped .flip-inner{ transform:rotateY(180deg); }
+  .face{
+    backface-visibility:hidden; -webkit-backface-visibility:hidden;
+    border-radius:20px; padding:20px; position:relative; overflow:hidden;
+  }
+  .face.front{ position:relative; }
+  .face.back{
+    position:absolute; inset:0; transform:rotateY(180deg);
+    display:flex; flex-direction:column;
+  }
+  .face-bg{
     background:
       radial-gradient(120% 140% at 100% 0%, #7c6af73d 0%, transparent 55%),
       radial-gradient(120% 140% at 0% 100%, #2a78d62e 0%, transparent 55%),
       var(--surf);
     border:1px solid #7c6af73d;
   }
-  .hero::before{ content:""; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,var(--pur),var(--acc)); }
-  .hero-eyebrow{ font-size:11px; color:var(--pur); margin-bottom:4px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; }
-  .hero-date{ font-size:12px; font-weight:600; color:var(--faint); margin-bottom:12px; }
+  .face::before{ content:""; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,var(--pur),var(--acc)); z-index:1; }
+
+  .summary-label{ font-size:11px; color:var(--pur); margin-bottom:14px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; }
+  .hero-play-btn{
+    position:absolute; top:16px; right:16px; width:44px; height:44px; border-radius:50%;
+    overflow:hidden; border:2px solid var(--pur); cursor:pointer; z-index:2;
+    transition:transform 100ms ease-out;
+  }
+  .hero-play-btn:active{ transform:scale(.9); }
+  .hero-play-btn video{ width:100%; height:100%; object-fit:cover; display:block; }
+  .hero-play-overlay{ position:absolute; inset:0; background:rgba(0,0,0,.32); display:flex; align-items:center; justify-content:center; }
+  .hero-play-overlay svg{ width:15px; height:15px; stroke:#fff; }
+
   .hero-desc{
-    font-size:13px; color:var(--dim); line-height:1.6; margin-bottom:6px;
-    display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden;
+    font-size:13px; color:var(--dim); line-height:1.6; margin-bottom:6px; padding-right:52px;
+    display:-webkit-box; -webkit-line-clamp:5; -webkit-box-orient:vertical; overflow:hidden;
   }
   .hero-desc.expanded{ display:block; -webkit-line-clamp:unset; }
-  .hero-more{ font-size:11.5px; color:var(--pur); font-weight:600; cursor:pointer; display:inline-block; margin-bottom:14px; }
+  .face-links{ display:flex; align-items:center; gap:14px; margin-top:10px; }
+  .hero-more, .flip-trigger{ font-size:11.5px; color:var(--pur); font-weight:600; cursor:pointer; }
 
-  .player{ display:flex; align-items:center; gap:12px; background:#00000030; border:1px solid #ffffff14; border-radius:14px; padding:10px 14px; }
-  .player-body{ flex:1; min-width:0; display:flex; flex-direction:column; gap:5px; }
-  .player-label{ font-size:11px; font-weight:600; color:var(--dim); }
-  .play-btn{
-    width:38px; height:38px; min-width:38px; border-radius:50%; background:var(--pur);
-    display:flex; align-items:center; justify-content:center; cursor:pointer; border:none;
-    color:#fff; transition:transform 100ms ease-out;
-  }
-  .play-btn:active{ transform:scale(.9); }
-  .play-btn svg{ stroke:#fff; width:16px; height:16px; }
-  .wave{ flex:1; display:flex; align-items:center; gap:2px; height:22px; overflow:hidden; }
-  .wave span{ width:2.5px; border-radius:2px; background:#7c6af7aa; flex-shrink:0; animation:wv 1.4s ease-in-out infinite; }
-  .wave.paused span{ animation-play-state:paused; opacity:.4; }
-  @keyframes wv{ 0%,100%{ transform:scaleY(.35);} 50%{ transform:scaleY(1);} }
-  .dur{ font-size:11px; color:var(--faint); font-variant-numeric:tabular-nums; }
+  .back-title{ font-size:13px; font-weight:700; margin-bottom:4px; }
+  .back-sub{ font-size:10.5px; color:var(--faint); margin-bottom:12px; }
+  .back-list{ flex:1; overflow-y:auto; display:flex; flex-direction:column; gap:9px; padding-right:2px; }
+  .back-item{ display:block; text-decoration:none; }
+  .back-item .n{ font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--acc); font-weight:700; margin-right:5px; }
+  .back-item .t{ font-size:11.5px; color:var(--ink); font-weight:600; line-height:1.35; }
+  .back-item .s{ font-size:9.5px; color:var(--faint); margin-top:1px; }
+  .back-close{ font-size:11.5px; color:var(--pur); font-weight:600; cursor:pointer; margin-top:12px; align-self:flex-start; }
 
-  /* ── Secciones y pildoras de periodo ──────────────────────────────── */
   .sec-header{ margin:0 16px 12px; display:flex; flex-direction:column; gap:10px; }
   .sec-title-row{ display:flex; align-items:center; justify-content:space-between; }
   .sec-header h3{ font-size:17px; font-weight:700; letter-spacing:-.15px; }
@@ -113,10 +115,7 @@
   .pill-btn.active{ background:var(--pur); color:#fff; border-color:var(--pur); }
   .pill-btn.disabled{ opacity:.45; cursor:default; }
 
-  .soon-note{ margin:0 16px 24px; font-size:11.5px; color:var(--faint); background:var(--surf); border:1px solid var(--line); border-radius:10px; padding:12px 14px; }
-
-  /* ── Feed: estilo Google News, sin caja de letra ─────────────────── */
-  .news-list{ margin:0 16px 24px; }
+  .news-list{ margin:0 16px 12px; }
   .news-row{ display:flex; flex-direction:column; gap:4px; padding:12px 0; border-bottom:1px solid var(--line); text-decoration:none; transition:opacity 100ms ease-out; }
   .news-row:active{ opacity:.6; }
   .news-row:last-child{ border-bottom:none; }
@@ -131,25 +130,33 @@
   }
   .empty-note{ color:var(--faint); font-size:12.5px; padding:16px 0; }
 
-  /* ── Resúmenes y audios ───────────────────────────────────────────── */
-  .summaries-sec{ margin:0 16px 28px; }
-  .summary-card{
-    background:var(--surf); border:1px solid var(--line); border-radius:14px;
-    padding:14px; margin-bottom:10px; display:flex; align-items:center; justify-content:space-between; gap:12px;
-    cursor:pointer; transition:transform 100ms ease-out, border-color 150ms;
+  .pagination{ display:flex; align-items:center; justify-content:center; gap:16px; margin:4px 16px 26px; }
+  .page-btn{
+    font-size:11.5px; font-weight:600; color:var(--dim); background:var(--s2); border:1px solid var(--line);
+    border-radius:20px; padding:6px 14px; cursor:pointer; transition:transform 100ms ease-out, opacity 150ms;
   }
-  .summary-card:active{ transform:scale(.98); }
-  .summary-card.disabled{ opacity:.5; cursor:default; }
-  .summary-info{ flex:1; min-width:0; }
-  .summary-badge{ font-size:9.5px; font-weight:700; text-transform:uppercase; letter-spacing:.04em; color:var(--acc); margin-bottom:3px; }
-  .summary-card-title{ font-size:13px; font-weight:700; color:var(--ink); margin-bottom:2px; }
-  .summary-card-desc{ font-size:11px; color:var(--faint); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-  .summary-play-btn{
-    width:32px; height:32px; min-width:32px; border-radius:50%; background:var(--s2); border:1px solid var(--line);
-    display:flex; align-items:center; justify-content:center; color:var(--pur); flex-shrink:0;
+  .page-btn:active{ transform:scale(.95); }
+  .page-btn.disabled{ opacity:.35; pointer-events:none; }
+  .page-label{ font-size:11px; color:var(--faint); font-variant-numeric:tabular-nums; }
+
+  .summaries-sec{ margin:0 16px 28px; }
+  .rcard{
+    background:var(--surf); border:1px solid var(--line); border-radius:16px; padding:16px;
+    margin-bottom:10px; position:relative; overflow:hidden; cursor:pointer;
+    transition:transform 100ms ease-out, border-color 150ms;
+  }
+  .rcard:active{ transform:scale(.98); }
+  .rcard::before{ content:""; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,var(--pur),var(--acc)); }
+  .rcard.disabled{ opacity:.5; cursor:default; }
+  .rcard.disabled::before{ background:var(--line); }
+  .rcard-badge{ font-size:9.5px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--acc); margin-bottom:6px; }
+  .rcard-title{ font-size:13.5px; font-weight:700; color:var(--ink); margin-bottom:6px; }
+  .rcard-desc{ font-size:11.5px; color:var(--dim); line-height:1.5; padding-right:40px; overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; }
+  .rcard-play{
+    position:absolute; top:16px; right:16px; width:32px; height:32px; min-width:32px; border-radius:50%;
+    background:var(--s2); border:1px solid var(--line); display:flex; align-items:center; justify-content:center; color:var(--pur);
   }
 
-  /* ── Tabbar: 3 items ──────────────────────────────────────────────── */
   .tabbar{
     position:fixed; left:50%; transform:translateX(-50%); bottom:0; width:100%; max-width:480px; height:68px; background:var(--sb);
     border-top:1px solid var(--line); display:flex; padding:8px 4px 14px; z-index:9;
@@ -157,16 +164,6 @@
   .tab{ flex:1; display:flex; flex-direction:column; align-items:center; gap:4px; color:var(--faint); font-size:10px; font-weight:600; cursor:pointer; transition:transform 100ms ease-out, color 150ms; }
   .tab:active{ transform:scale(.92); }
   .tab.active{ color:var(--pur); }
-
-  /* ── Modal video de bienvenida ─────────────────────────────────────── */
-  .modal{ position:fixed; inset:0; background:#000000dd; z-index:20; display:flex; align-items:center; justify-content:center; opacity:0; pointer-events:none; padding:24px; }
-  .modal.open{ pointer-events:auto; }
-  .modal-card{ width:100%; max-width:420px; background:var(--sb); border-radius:20px; overflow:hidden; border:1px solid var(--line); transform:scale(.3); opacity:0; }
-  .modal-head{ display:flex; align-items:center; gap:10px; padding:14px 16px; }
-  .modal-back{ width:30px; height:30px; border-radius:50%; background:var(--surf); border:1px solid var(--line); display:flex; align-items:center; justify-content:center; cursor:pointer; color:var(--dim); }
-  .modal-head-txt .t1{ font-size:13px; font-weight:700; }
-  .modal-head-txt .t2{ font-size:10.5px; color:var(--faint); }
-  .modal video{ width:100%; display:block; aspect-ratio:9/16; max-height:500px; object-fit:cover; }
 
   @media (prefers-reduced-motion: reduce){ * { animation-duration:0.001ms !important; transition-duration:0.001ms !important; } }
 </style>
@@ -176,67 +173,53 @@
 <div class="page">
 
   <div class="appbar">
-    <div class="brand-text">
-      <div class="name">Am<b>News</b>IA</div>
-      <div class="date" id="dateLabel">—</div>
-    </div>
-    <div class="appbar-right">
-      <div class="theme-toggle" id="themeToggle"></div>
-      <div class="avatar-btn" id="avatarBtn">
-        <video src="welcome-video.mp4" muted loop autoplay playsinline></video>
-        <div class="avatar-play"></div>
-      </div>
-    </div>
+    <div class="brand-text"><div class="name">Am<b>News</b>IA</div></div>
+    <div class="theme-toggle" id="themeToggle"></div>
   </div>
 
-  <div class="hero">
-    <div class="hero-eyebrow" id="greeting">—</div>
-    <div class="hero-date" id="heroDate">—</div>
-    <div class="hero-desc" id="heroDesc">—</div>
-    <span class="hero-more" id="heroMore" onclick="toggleHeroExpand()">Ver más</span>
-    <div class="player">
-      <button class="play-btn" id="heroPlay"></button>
-      <div class="player-body">
-        <div class="player-label">Escuchar audio diario</div>
-        <div class="wave paused" id="wave"></div>
+  <div class="flip-wrap" id="flipWrap">
+    <div class="flip-inner">
+      <div class="face front face-bg">
+        <div class="summary-label">IA Summary</div>
+        <div class="hero-play-btn" id="heroPlayBtn">
+          <video src="welcome-video.mp4" muted loop autoplay playsinline></video>
+          <div class="hero-play-overlay" id="heroPlayIcon"></div>
+        </div>
+        <div class="hero-desc" id="heroDesc">—</div>
+        <div class="face-links">
+          <span class="hero-more" id="heroMore" onclick="toggleHeroExpand()">Ver más</span>
+          <span class="flip-trigger" onclick="flipCard(true)">Ver las 10 fuentes →</span>
+        </div>
       </div>
-      <div class="dur" id="heroDur">—</div>
+      <div class="face back face-bg">
+        <div class="back-title">Fuentes del resumen de hoy</div>
+        <div class="back-sub">Los artículos con más relevancia usados para armar el resumen</div>
+        <div class="back-list" id="backList"></div>
+        <span class="back-close" onclick="flipCard(false)">← Volver al resumen</span>
+      </div>
     </div>
   </div>
 
   <div class="sec-header">
     <div class="sec-title-row"><h3>Noticias</h3></div>
     <div class="nav-pills">
-      <button class="pill-btn active" id="pillHoy" onclick="setPeriod('hoy')">Hoy</button>
+      <button class="pill-btn active" id="pillHoy">Hoy</button>
       <button class="pill-btn disabled" title="Próximamente">Semana</button>
       <button class="pill-btn disabled" title="Próximamente">Mensual</button>
       <button class="pill-btn disabled" title="Próximamente">Historial</button>
     </div>
   </div>
   <div class="news-list" id="newsList"></div>
+  <div class="pagination" id="pagination"></div>
 
-  <div class="sec-header">
-    <div class="sec-title-row"><h3>Resúmenes y Audios</h3></div>
+  <div class="sec-header" id="secResumenes">
+    <div class="sec-title-row"><h3>Resúmenes</h3></div>
   </div>
   <div class="summaries-sec" id="summariesList"></div>
 
   <div class="tabbar">
-    <div class="tab active"><div id="tabIconInicio"></div>Inicio</div>
-    <div class="tab"><div id="tabIconNoticias"></div>Noticias</div>
-    <div class="tab"><div id="tabIconResumenes"></div>Resúmenes</div>
-  </div>
-
-  <div class="modal" id="videoModal">
-    <div class="modal-card" id="modalCard">
-      <div class="modal-head">
-        <div class="modal-back" id="modalBack"></div>
-        <div class="modal-head-txt">
-          <div class="t1">Conoce AmNewsIA</div>
-          <div class="t2">Descubre cómo funciona en 30 segundos</div>
-        </div>
-      </div>
-      <video id="modalVideo" src="welcome-video.mp4" playsinline controls></video>
-    </div>
+    <div class="tab active" id="tabInicio"><div id="tabIconInicio"></div>Inicio</div>
+    <div class="tab" id="tabResumenes"><div id="tabIconResumenes"></div>Resúmenes</div>
   </div>
 
 </div>
@@ -244,16 +227,13 @@
 <audio id="briefingAudio"></audio>
 
 <script>
-/* ── Íconos: mismo lenguaje SVG usado en el resto del sitio ───────── */
 const ICONS = {
-  home:      `<path d="M4 11l8-7 8 7"/><path d="M6 10v9h12v-9"/><path d="M10 19v-5h4v5"/>`,
-  newspaper: `<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 9.5h8M8 13h8M8 16.5h5"/>`,
-  headphones:`<path d="M4 14v-2a8 8 0 0116 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.4"/><rect x="17" y="14" width="4" height="6" rx="1.4"/>`,
-  play:      `<path d="M9 7l8 5-8 5V7z"/>`,
-  pause:     `<path d="M9 7v10M15 7v10"/>`,
-  back:      `<path d="M14 6l-6 6 6 6"/>`,
-  sun:       `<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M2.5 12H5M19 12h2.5M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/>`,
-  moon:      `<path d="M20 14.5A8.5 8.5 0 019.5 4a8.5 8.5 0 1010.5 10.5z"/>`,
+  home:       `<path d="M4 11l8-7 8 7"/><path d="M6 10v9h12v-9"/><path d="M10 19v-5h4v5"/>`,
+  headphones: `<path d="M4 14v-2a8 8 0 0116 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.4"/><rect x="17" y="14" width="4" height="6" rx="1.4"/>`,
+  play:       `<path d="M9 7l8 5-8 5V7z"/>`,
+  pause:      `<path d="M9 7v10M15 7v10"/>`,
+  sun:        `<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M2.5 12H5M19 12h2.5M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/>`,
+  moon:       `<path d="M20 14.5A8.5 8.5 0 019.5 4a8.5 8.5 0 1010.5 10.5z"/>`,
 };
 function icon(name, size = 18) {
   return `<svg class="ic" viewBox="0 0 24 24" style="width:${size}px;height:${size}px">${ICONS[name]}</svg>`;
@@ -263,23 +243,18 @@ const CAT_COLOR = {
   "Modelos":"var(--pur)", "Investigación":"var(--green)",
   "Herramientas":"var(--acc)", "Industria":"var(--blue)", "Videos":"var(--red)",
 };
-
+const PAGE_SIZE = 10;
 let DATA = null;
+let newsPage = 0;
 
-function getGreeting(){
-  const h = new Date().getHours();
-  if (h < 12) return "Buenos días";
-  if (h < 19) return "Buenas tardes";
-  return "Buenas noches";
+function stripMarkdown(text){
+  return (text || "").replace(/\*\*(.*?)\*\*/g, "$1").replace(/\*(.*?)\*/g, "$1").trim();
 }
 
 function renderChrome(){
   document.getElementById("themeToggle").innerHTML = icon('moon', 15);
-  document.querySelector(".avatar-play").innerHTML = icon('play', 13);
-  document.getElementById("heroPlay").innerHTML = icon('play', 15);
-  document.getElementById("modalBack").innerHTML = icon('back', 15);
+  document.getElementById("heroPlayIcon").innerHTML = icon('play', 15);
   document.getElementById("tabIconInicio").innerHTML = icon('home', 19);
-  document.getElementById("tabIconNoticias").innerHTML = icon('newspaper', 19);
   document.getElementById("tabIconResumenes").innerHTML = icon('headphones', 19);
 }
 
@@ -290,96 +265,94 @@ function toggleHeroExpand(){
   btn.textContent = expanded ? "Ver menos" : "Ver más";
 }
 
-function setPeriod(p){
-  // Solo "hoy" tiene datos reales por ahora -- las demas pildoras estan
-  // deshabilitadas a proposito en vez de simular contenido que no existe.
+function flipCard(toBack){
+  document.getElementById("flipWrap").classList.toggle("flipped", toBack);
 }
 
 function renderHero(){
-  document.getElementById("dateLabel").textContent = DATA.date_label;
-  document.getElementById("greeting").textContent = `${getGreeting()} · Resumen del día`;
-  document.getElementById("heroDate").textContent = DATA.date_label;
   document.getElementById("heroDesc").textContent =
-    DATA.briefing.script_text || "Todavía no hay un resumen generado para hoy.";
-  document.getElementById("heroDur").textContent = DATA.briefing.duration_label;
+    stripMarkdown(DATA.briefing.script_text) || "Todavía no hay un resumen generado para hoy.";
   document.getElementById("briefingAudio").src = DATA.briefing.audio_url;
 
-  document.getElementById("wave").innerHTML = Array.from({length:10}).map((_,i)=>
-    `<span style="height:${8+Math.random()*14}px; animation-delay:${(i*0.05).toFixed(2)}s"></span>`
-  ).join("");
+  const rss = DATA.articles.filter(a => a.source_type === "rss").slice(0, 10);
+  document.getElementById("backList").innerHTML = rss.map((a, i) => `
+    <a class="back-item" href="${a.url}" target="_blank" rel="noopener">
+      <span class="n">${String(i + 1).padStart(2, '0')}</span><span class="t">${a.title}</span>
+      <div class="s">${a.source} · ${a.time}</div>
+    </a>
+  `).join("") || `<p style="color:var(--faint); font-size:11.5px;">Sin fuentes registradas hoy.</p>`;
 }
 
-function renderNews(){
-  // Inicio = solo noticias editoriales (source_type "rss"), consistente
-  // con la version de escritorio -- GitHub/Papers/YouTube no se mezclan aca.
-  const list = DATA.articles.filter(a => a.source_type === "rss");
-  const box = document.getElementById("newsList");
+function renderNewsPage(){
+  const rss = DATA.articles.filter(a => a.source_type === "rss");
+  const totalPages = Math.max(1, Math.ceil(rss.length / PAGE_SIZE));
+  newsPage = Math.min(newsPage, totalPages - 1);
+  const slice = rss.slice(newsPage * PAGE_SIZE, newsPage * PAGE_SIZE + PAGE_SIZE);
 
-  if (!list.length){
+  const box = document.getElementById("newsList");
+  if (!slice.length){
     box.innerHTML = `<div class="empty-note">Sin noticias nuevas por ahora.</div>`;
-    return;
+  } else {
+    box.innerHTML = slice.map(a => `
+      <a class="news-row" href="${a.url}" target="_blank" rel="noopener">
+        <div class="news-src"><span class="dot" style="background:${CAT_COLOR[a.cat]||'var(--dim)'}"></span>${a.source}</div>
+        <span class="news-title">${a.title}</span>
+        <div class="news-meta"><span class="t">Hace ${a.time}</span><span class="news-tech">${a.cat}</span></div>
+      </a>
+    `).join("");
   }
 
-  box.innerHTML = list.map(a => `
-    <a class="news-row" href="${a.url}" target="_blank" rel="noopener">
-      <div class="news-src"><span class="dot" style="background:${CAT_COLOR[a.cat]||'var(--dim)'}"></span>${a.source}</div>
-      <span class="news-title">${a.title}</span>
-      <div class="news-meta">
-        <span class="t">Hace ${a.time}</span>
-        <span class="news-tech">${a.cat}</span>
-      </div>
-    </a>
-  `).join("");
+  document.getElementById("pagination").innerHTML = `
+    <div class="page-btn ${newsPage === 0 ? 'disabled' : ''}" onclick="changePage(-1)">← Anterior</div>
+    <div class="page-label">Página ${newsPage + 1} de ${totalPages}</div>
+    <div class="page-btn ${newsPage >= totalPages - 1 ? 'disabled' : ''}" onclick="changePage(1)">Siguiente →</div>
+  `;
+}
+function changePage(delta){
+  newsPage += delta;
+  renderNewsPage();
+  document.getElementById("newsList").scrollIntoView({behavior:"smooth", block:"start"});
 }
 
 function renderSummaries(){
-  const box = document.getElementById("summariesList");
-  box.innerHTML = `
-    <div class="summary-card" id="summaryDaily">
-      <div class="summary-info">
-        <div class="summary-badge">Diario</div>
-        <div class="summary-card-title">Resumen de hoy</div>
-        <div class="summary-card-desc">${DATA.date_label} · ${DATA.briefing.duration_label} min</div>
-      </div>
-      <div class="summary-play-btn">${icon('play', 13)}</div>
+  const excerpt = stripMarkdown(DATA.briefing.script_text).slice(0, 140);
+  document.getElementById("summariesList").innerHTML = `
+    <div class="rcard" id="rcardDaily">
+      <div class="rcard-badge">Diario</div>
+      <div class="rcard-title">Resumen de hoy</div>
+      <div class="rcard-desc">${excerpt}${excerpt.length >= 140 ? '…' : ''}</div>
+      <div class="rcard-play" id="rcardPlayIcon"></div>
     </div>
-    <div class="summary-card disabled" title="Próximamente">
-      <div class="summary-info">
-        <div class="summary-badge" style="color:var(--pur)">Semanal</div>
-        <div class="summary-card-title">Resumen semanal</div>
-        <div class="summary-card-desc">Próximamente</div>
-      </div>
-      <div class="summary-play-btn">${icon('play', 13)}</div>
+    <div class="rcard disabled" title="Próximamente">
+      <div class="rcard-badge" style="color:var(--pur)">Semanal</div>
+      <div class="rcard-title">Resumen semanal</div>
+      <div class="rcard-desc">Próximamente.</div>
+      <div class="rcard-play">${icon('play', 13)}</div>
     </div>
-    <div class="summary-card disabled" title="Próximamente">
-      <div class="summary-info">
-        <div class="summary-badge" style="color:var(--green)">Mensual</div>
-        <div class="summary-card-title">Resumen mensual</div>
-        <div class="summary-card-desc">Próximamente</div>
-      </div>
-      <div class="summary-play-btn">${icon('play', 13)}</div>
+    <div class="rcard disabled" title="Próximamente">
+      <div class="rcard-badge" style="color:var(--green)">Mensual</div>
+      <div class="rcard-title">Resumen mensual</div>
+      <div class="rcard-desc">Próximamente.</div>
+      <div class="rcard-play">${icon('play', 13)}</div>
     </div>
   `;
-  document.getElementById("summaryDaily").addEventListener("click", toggleAudio);
+  document.getElementById("rcardPlayIcon").innerHTML = icon('play', 13);
+  document.getElementById("rcardDaily").addEventListener("click", toggleAudio);
 }
 
-/* ── Reproductor ──────────────────────────────────────────────────── */
 let isPlaying = false;
 const briefingAudio = document.getElementById("briefingAudio");
-
-function toggleAudio(){
-  isPlaying ? briefingAudio.pause() : briefingAudio.play().catch(()=>{});
-}
+function toggleAudio(){ isPlaying ? briefingAudio.pause() : briefingAudio.play().catch(()=>{}); }
 briefingAudio.addEventListener("play", () => setPlayingState(true));
 briefingAudio.addEventListener("pause", () => setPlayingState(false));
 briefingAudio.addEventListener("ended", () => setPlayingState(false));
-
 function setPlayingState(playing){
   isPlaying = playing;
-  document.getElementById("heroPlay").innerHTML = icon(isPlaying ? 'pause' : 'play', 15);
-  document.getElementById("wave").classList.toggle("paused", !isPlaying);
+  document.getElementById("heroPlayIcon").innerHTML = icon(isPlaying ? 'pause' : 'play', 15);
+  const rp = document.getElementById("rcardPlayIcon");
+  if (rp) rp.innerHTML = icon(isPlaying ? 'pause' : 'play', 13);
 }
-document.getElementById("heroPlay").addEventListener("click", toggleAudio);
+document.getElementById("heroPlayBtn").addEventListener("click", toggleAudio);
 
 function toggleTheme(){
   const html = document.documentElement;
@@ -389,35 +362,21 @@ function toggleTheme(){
 }
 document.getElementById("themeToggle").addEventListener("click", toggleTheme);
 
-/* ── Modal de bienvenida ──────────────────────────────────────────── */
-const modal = document.getElementById("videoModal");
-const modalCard = document.getElementById("modalCard");
-const modalVideo = document.getElementById("modalVideo");
+document.getElementById("tabInicio").addEventListener("click", () => {
+  document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+  document.getElementById("tabInicio").classList.add("active");
+  window.scrollTo({top:0, behavior:"smooth"});
+});
+document.getElementById("tabResumenes").addEventListener("click", () => {
+  document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+  document.getElementById("tabResumenes").classList.add("active");
+  document.getElementById("secResumenes").scrollIntoView({behavior:"smooth", block:"start"});
+});
 
-function openModal(){
-  modal.classList.add("open");
-  modal.style.opacity = 1;
-  modalCard.style.transform = "scale(1)";
-  modalCard.style.opacity = 1;
-  modalVideo.currentTime = 0;
-  modalVideo.play();
-}
-function closeModal(){
-  modal.classList.remove("open");
-  modal.style.opacity = 0;
-  modalCard.style.transform = "scale(.3)";
-  modalCard.style.opacity = 0;
-  modalVideo.pause();
-}
-document.getElementById("avatarBtn").addEventListener("click", openModal);
-document.getElementById("modalBack").addEventListener("click", closeModal);
-modal.addEventListener("click", (e) => { if (e.target === modal) closeModal(); });
-
-/* ── Carga de datos ───────────────────────────────────────────────── */
 renderChrome();
 fetch("data/news.json")
   .then(r => r.json())
-  .then(json => { DATA = json; renderHero(); renderNews(); renderSummaries(); })
+  .then(json => { DATA = json; renderHero(); renderNewsPage(); renderSummaries(); })
   .catch(err => {
     document.querySelector(".page").innerHTML =
       `<p style="padding:40px 20px;color:var(--dim)">No se pudo cargar data/news.json. Revisa que el sitio se esté sirviendo por HTTP.</p>`;

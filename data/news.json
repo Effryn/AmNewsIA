@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 108,
     "sources": 31,
-    "updated_label": "16:01"
+    "updated_label": "16:24"
   },
   "iaday": {
     "reading_minutes": "65 min",
@@ -47,7 +47,7 @@
       "content_type": "repo",
       "title": "almacenamiento/gráficos",
       "summary": "⭐ 1 estrella — Gráficos de benchmarks de inteligencia artificial de código abierto para comparar modelos y agentes en términos de rendimiento, costo, velocidad ",
-      "time": "111h",
+      "time": "112h",
       "url": "https://github.com/hraness/aicharts",
       "stars": "1"
     },
@@ -59,7 +59,7 @@
       "content_type": "repo",
       "title": "yixuanlu930/algoritmos-genéticos-neuroevolución",
       "summary": "⭐ 0 estrellas — Proyecto de inteligencia artificial evolutiva que combina algoritmos genéticos, optimización memética, TSP, optimización de Himmelblau y la evol",
-      "time": "24h",
+      "time": "25h",
       "url": "https://github.com/yixuanlu930/genetic-algorithms-neuroevolution",
       "stars": "0"
     },
@@ -178,7 +178,7 @@
       "content_type": "repo",
       "title": "tcdoverlord/Angel-AI",
       "summary": "⭐ 2 estrellas — Asistente personal AI local-first con memoria persistente, proyectos, conocimientos, inferencia de Ollama, respaldos y integraciones locales de ",
-      "time": "31h",
+      "time": "32h",
       "url": "https://github.com/tcdoverlord/Angel-AI",
       "stars": "2"
     },
@@ -190,7 +190,7 @@
       "content_type": "repo",
       "title": "himanshu-jadhav108/Proyecto-Atenas",
       "summary": "⭐ 2 estrellas — ATHENA — una plataforma de alfabetización mediática impulsada por IA que ayuda a jóvenes a investigar, comparar, rastrear y aprender de la infor",
-      "time": "124h",
+      "time": "125h",
       "url": "https://github.com/himanshu-jadhav108/Project-Athena",
       "stars": "2"
     },
@@ -213,7 +213,7 @@
       "content_type": "paper",
       "title": "Segunda Reflexión: Razonamiento en Paralelo mientras los Agentes LLM Actúan y Observan",
       "summary": "Los agentes LLM en el paradigma ReAct alternan entre razonar, actuar y observar, pero el razonamiento deliberado se limita a la fase de Pensamiento: mientras el",
-      "time": "101h",
+      "time": "102h",
       "url": "https://huggingface.co/papers/2608.13667"
     },
     {
@@ -224,7 +224,7 @@
       "content_type": "repo",
       "title": "MrEon50/Pera-drm-pro",
       "summary": "⭐ 1 estrellas — Sin descripción",
-      "time": "74h",
+      "time": "75h",
       "url": "https://github.com/MrEon50/Pera-drm-pro",
       "stars": "1"
     },
@@ -424,7 +424,7 @@
       "content_type": "paper",
       "title": "Incorrecto pero Valioso: Trayectoria de Valor Más Allá de la Correctitud de las Respuestas en Mensajes de Agencias Multianimadas",
       "summary": "Sistemas de razonamiento multiagente a menudo utilizan acuerdos, confianzas o puntuaciones automatizadas para decidir cuáles mensajes deben formar parte de la r",
-      "time": "76h",
+      "time": "77h",
       "url": "https://arxiv.org/abs/2608.14375v1",
       "arxiv": "2608.14375v1"
     },
@@ -448,7 +448,7 @@
       "content_type": "paper",
       "title": "UniProbe: Un detector de hallucinación token-level aprendible para VLMs grandes utilizando representaciones internas multifásicas",
       "summary": "Los Grandes Modelos de Visión-Lenguaje (LVLMs) logran impresionantes capacidades de razonamiento visual y diálogo, pero a menudo inventan contenido que no está ",
-      "time": "155h",
+      "time": "156h",
       "url": "https://huggingface.co/papers/2608.10835"
     },
     {
@@ -470,7 +470,7 @@
       "content_type": "paper",
       "title": "Rollplex: Compartimiento de GPU en Fase Cruzada para el Post-Entrenamiento de Modelos de Lenguaje Visión",
       "summary": "Los modelos de visión y lenguaje (VLMs) permiten a los agentes inmersos razonar y actuar a partir de observaciones visuales e instrucciones de lenguaje. El apre",
-      "time": "74h",
+      "time": "75h",
       "url": "https://arxiv.org/abs/2608.14498v1",
       "arxiv": "2608.14498v1"
     },
@@ -506,7 +506,7 @@
       "content_type": "paper",
       "title": "Diseño de Aprendizaje por Refuerzo para Modelos de Difusión: Una Visión Uniforme del Espacio de Rutas",
       "summary": "El aprendizaje por refuerzo (AR) posentrenamiento proporciona un enfoque directo para alinear los modelos de difusión con las preferencias humanas y las recompe",
-      "time": "75h",
+      "time": "76h",
       "url": "https://arxiv.org/abs/2608.14430v1",
       "arxiv": "2608.14430v1"
     },
@@ -554,7 +554,7 @@
       "content_type": "paper",
       "title": "Un Estándar de Confianza para Cuatro Ejes en la Evaluación de LLM como Juez en la Regulación Basada en Principios",
       "summary": "La regulación basada en principios, con estándares evaluativos como \"justo, claro y no engañoso\" o \"proporcionar buenos resultados\", no puede reducirse a predic",
-      "time": "77h",
+      "time": "78h",
       "url": "https://arxiv.org/abs/2608.14329v1",
       "arxiv": "2608.14329v1"
     },
@@ -566,7 +566,7 @@
       "content_type": "paper",
       "title": "AnchorBench: Un Marco de Prueba Multiruta para el Efecto de Anclaje en Sistemas de Inteligencia Artificial basados en Modelos de Gran Escala",
       "summary": "El efecto de anclaje es un sesgo cognitivo en el que un valor de referencia inicial desplaza un juicio posterior hacia sí mismo. Este efecto es bien establecido",
-      "time": "77h",
+      "time": "78h",
       "url": "https://arxiv.org/abs/2608.14320v1",
       "arxiv": "2608.14320v1"
     },
@@ -590,7 +590,7 @@
       "content_type": "paper",
       "title": "Twin: Juego No Conocido con un Género de Prueba Digital",
       "summary": "Presentamos un sistema de inferencia de modelo del mundo en tiempo de prueba (Twin), en el cual un agente de codificación frontal escribe un modelo del mundo ej",
-      "time": "74h",
+      "time": "75h",
       "url": "https://arxiv.org/abs/2608.14490v1",
       "arxiv": "2608.14490v1"
     },
@@ -626,7 +626,7 @@
       "content_type": "paper",
       "title": "Más populares, más difíciles de olvidar: Popularidad adaptativa para el olvido de LLM",
       "summary": "Los hechos populares se memorizan más profundamente durante la preentrenamiento y resisten la eliminación por más tiempo que los raros; sin embargo, los métodos",
-      "time": "79h",
+      "time": "80h",
       "url": "https://arxiv.org/abs/2608.14229v1",
       "arxiv": "2608.14229v1"
     },
@@ -662,7 +662,7 @@
       "content_type": "paper",
       "title": "Generación de Datos Sanitarios de Referencia mediante un Transformador de Difusión Tabular",
       "summary": "La Generación de Datos Tabulares Cruzados (CTDG) busca aprender un modelo generativo a partir de múltiples tablas heterogéneas y producir nuevos conjuntos de da",
-      "time": "74h",
+      "time": "75h",
       "url": "https://arxiv.org/abs/2608.14496v1",
       "arxiv": "2608.14496v1"
     },
@@ -674,7 +674,7 @@
       "content_type": "paper",
       "title": "Programación óptima de trabajos de mantenimiento de carreteras teniendo en cuenta su impacto en los flujos de tráfico",
       "summary": "La planificación de mantenimiento a nivel de red requiere evaluaciones repetidas de los flujos de tráfico en equilibrio bajo reducciones de capacidad vial. Aunq",
-      "time": "74h",
+      "time": "75h",
       "url": "https://arxiv.org/abs/2608.14491v1",
       "arxiv": "2608.14491v1"
     },
@@ -710,7 +710,7 @@
       "content_type": "paper",
       "title": "Un estudio de modelos grandes en deportes",
       "summary": "Los deportes han experimentado un creciente entusiasmo global en los últimos años, sirviendo como una fuerza vital para la salud física, el intercambio cultural",
-      "time": "76h",
+      "time": "77h",
       "url": "https://arxiv.org/abs/2608.14377v1",
       "arxiv": "2608.14377v1"
     },
@@ -722,7 +722,7 @@
       "content_type": "paper",
       "title": "Aproximación de muón con adaptadores de baja秩次",
       "summary": "El optimizador Muon muestra beneficios claros en comparación con alternativas al preentrenar redes neuronales. Sin embargo, se utiliza menos frecuentemente para",
-      "time": "74h",
+      "time": "75h",
       "url": "https://arxiv.org/abs/2608.14492v1",
       "arxiv": "2608.14492v1"
     },
@@ -746,7 +746,7 @@
       "content_type": "paper",
       "title": "Estilo u Huella? Evaluación del Arte por Separado de la Clasificación de Estilo en Inserciones Visuales Congeladas",
       "summary": "Las inmersiones de imágenes congeladas de modelos como CLIP se utilizan cada vez más para clasificar pinturas por estilo artístico, con una alta precisión repor",
-      "time": "75h",
+      "time": "76h",
       "url": "https://arxiv.org/abs/2608.14435v1",
       "arxiv": "2608.14435v1"
     },
@@ -806,7 +806,7 @@
       "content_type": "paper",
       "title": "RecetaNet: Un transformer jerárquico para datos de recetas",
       "summary": "Los datos de recetas surgen en dominios como la síntesis de materiales, la formulación farmacéutica e la fabricación industrial, donde los procedimientos se rep",
-      "time": "74h",
+      "time": "75h",
       "url": "https://arxiv.org/abs/2608.14505v1",
       "arxiv": "2608.14505v1"
     },
@@ -818,7 +818,7 @@
       "content_type": "paper",
       "title": "Potenciales termodinámicos universales interátomicos para materiales cristalinos",
       "summary": "Las energías termodinámicas gobiernan la estabilidad de fases en estado sólido, pero la descubrimiento computacional de materiales aún se basa principalmente en",
-      "time": "74h",
+      "time": "75h",
       "url": "https://arxiv.org/abs/2608.14502v1",
       "arxiv": "2608.14502v1"
     },
@@ -866,7 +866,7 @@
       "content_type": "paper",
       "title": "Ver Rojo, Pensar Mal: Sesgo Color en los Modelos de Lenguaje con Visión",
       "summary": "Los modelos de lenguaje basados en la visión (VLMs) se utilizan cada vez más en sistemas de toma de decisiones industriales, como el apoyo en la contratación y ",
-      "time": "78h",
+      "time": "79h",
       "url": "https://arxiv.org/abs/2608.14286v1",
       "arxiv": "2608.14286v1"
     },
@@ -890,7 +890,7 @@
       "content_type": "video",
       "title": "IA LOCAL de 27B en una RTX 3080 ¿adiós ChatGPT?",
       "summary": "¿Es posible sustituir ChatGPT por una IA local funcionando en una RTX 3080 de solo 10 GB? En este vídeo pongo a prueba Ternary Bonsai 27B con casos de uso reale",
-      "time": "652h",
+      "time": "653h",
       "url": "https://www.youtube.com/watch?v=C6WhzKJNTyM"
     },
     {
@@ -945,7 +945,7 @@
       "content_type": "video",
       "title": "MUSE GLIMMER: META acaba de liberar un 30B para IA LOCAL - Primeras Pruebas",
       "summary": "✉️ Grupo de Telegram: https://t.me/iaporuntubo\n\nMeta acaba de liberar Muse Glimmer 30B, un nuevo modelo abierto pensado para ejecutar IA localmente en hardware ",
-      "time": "148h",
+      "time": "149h",
       "url": "https://www.youtube.com/watch?v=Z5aduyXzN_8"
     },
     {
@@ -956,7 +956,7 @@
       "content_type": "video",
       "title": "El PAPA frente a la IA: su plan para proteger a la HUMANIDAD",
       "summary": "Tus ideas siguen siendo tuyas. Prueba Lumo gratis 👉 http://www.proton.me/lumo/gustavoentrala \n\n=======================================================\n\n¿Qué dic",
-      "time": "1082h",
+      "time": "1083h",
       "url": "https://www.youtube.com/watch?v=RnFdEGGPyE4"
     },
     {
@@ -978,7 +978,7 @@
       "content_type": "video",
       "title": "Historia de ANTHROPIC, el nuevo líder mundial de la IA",
       "summary": "¿Cansado de perder horas en tareas repetitivas? Deja que la nueva IA de Odoo trabaje por ti. ¡Pruébala 15 días gratis aquí: https://www.odoo.com/r/gmfj\n\n=======",
-      "time": "1802h",
+      "time": "1803h",
       "url": "https://www.youtube.com/watch?v=n6oW7Y7io0Y"
     },
     {
@@ -1000,7 +1000,7 @@
       "content_type": "video",
       "title": "HALO 3 en VR y una sorpresa para Quest",
       "summary": "Tenemos muchas noticias que comentar, más movimiento hacia dispositivos con Inteligencia Artificial por parte de las compañías, HALO 3 VR diseñado y escrito por",
-      "time": "604h",
+      "time": "605h",
       "url": "https://www.youtube.com/watch?v=iQGkaMS7H4A"
     },
     {
@@ -1011,7 +1011,7 @@
       "content_type": "video",
       "title": "La IA ha dado el GRAN SALTO y casi nadie se ha enterado",
       "summary": "🎓 Curso GRATIS de IA 🤖 (1, 2 y 3 de septiembre) 📅  con Jon Hernández. Aprende a utilizar el nuevo ChatGPT 🚀 y consigue tu certificado  👉 https://thebigschool.co",
-      "time": "74h",
+      "time": "75h",
       "url": "https://www.youtube.com/watch?v=T-X4svhiVpk"
     },
     {
@@ -1044,7 +1044,7 @@
       "content_type": "video",
       "title": "Pasa de texto a app en segundos con Emergent 💻🤩",
       "summary": "¿Tienes tu negocio repartido en 10 hojas de Excel? 🫣\n📌 Puedes pedirle a la inteligencia artificial que construya una aplicación personalizada para ti.\n🚀 Con Eme",
-      "time": "8h",
+      "time": "9h",
       "url": "https://www.youtube.com/shorts/Y4Aop6dhuLo"
     },
     {
@@ -1066,7 +1066,7 @@
       "content_type": "video",
       "title": "🔴DIRECTO - VR Games Showcase 2026 - Agosto",
       "summary": "💯 Hazte miembro de Youtube y obtén ventajas exclusivas 👉 https://www.youtube.com/channel/UCGn6BqOTYWAutJOf9cry-pw/join\n\n🏪 Tienda de adaptadores impresos en 3D 👉",
-      "time": "84h",
+      "time": "85h",
       "url": "https://www.youtube.com/watch?v=q8sBmaj--zo"
     },
     {
@@ -1077,7 +1077,7 @@
       "content_type": "video",
       "title": "MEJORA del VIRTUAL DESKTOP por USB DIRECTO a las QUEST 3 en BETA",
       "summary": "🛒 VIRTUAL DESKTOP con un 10% para Meta Quest 👉 https://www.meta.com/affiliates/5QZNUpx4Y\n\nTenemos un montón de noticias interesantes sobre VR y las Meta Quest 3",
-      "time": "196h",
+      "time": "197h",
       "url": "https://www.youtube.com/watch?v=Eo-dcmj0PKc"
     },
     {
@@ -1099,7 +1099,7 @@
       "content_type": "video",
       "title": "Cyberpunk 2077 en VR ya es una LOCURA... y no viene solo",
       "summary": "Ya tenemos el HorizonOS 2.7 en el PTC con algunas novedades, también sabemos cosas de Steam Frame que no nos van a gustar, nuevos mods para VR impresionantes y ",
-      "time": "316h",
+      "time": "317h",
       "url": "https://www.youtube.com/watch?v=NYpkopAEBpA"
     },
     {
@@ -1110,7 +1110,7 @@
       "content_type": "video",
       "title": "Lo más BESTIA de la Realidad Virtual",
       "summary": "Hoy os cuento las principales diferencias entre todos estos monstruos de la Realidad Virtual. Quest 3, Pimax Crystal Light, Crystal Super y Dream Air ¿Cuál mere",
-      "time": "484h",
+      "time": "485h",
       "url": "https://www.youtube.com/watch?v=mhlNcF-gjn4"
     },
     {
@@ -1121,7 +1121,7 @@
       "content_type": "video",
       "title": "PIMAX Dream Air REVIEW",
       "summary": "PIMAX Dream Air uno de los mejores visores de Realidad Virtual de la compañía. En este caso hacemos la review de la versión Lighthouse, revisamos sus pantallas,",
-      "time": "772h",
+      "time": "773h",
       "url": "https://www.youtube.com/watch?v=ww0HM1unUiE"
     },
     {
@@ -1176,7 +1176,7 @@
       "content_type": "news",
       "title": "Claude ya marca todo el texto generado con una marca de agua y hay gente buscando la forma de quitarla: «Si se puede detectar, se puede eliminar»",
       "summary": "<figure><img alt=\"Claude\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"683\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-conte",
-      "time": "8h",
+      "time": "9h",
       "url": "https://hipertextual.com/tecnologia/claude-ya-marca-todo-el-texto-generado-con-una-marca-de-agua-y-ya-hay-gente-buscando-la-forma-de-quitarla-si-se-puede-detectar-se-puede-eliminar/"
     },
     {
@@ -1198,7 +1198,7 @@
       "content_type": "news",
       "title": "Nuevas ideas de políticas para la Era de la Inteligencia",
       "summary": "OpenAI financia 14 proyectos independientes que exploran nuevas ideas sobre la política del AI con el objetivo de扩宽经济机会并增强智能时代的社会韧性。",
-      "time": "16h",
+      "time": "17h",
       "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age"
     },
     {
@@ -1220,7 +1220,7 @@
       "content_type": "news",
       "title": "Los precios de la RAM ya han superado todos los límites y multiplican por 5 los de hace justo un año",
       "summary": "<figure><img alt=\"memoria RAM de Samsung\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/imgs.hipertext",
-      "time": "11h",
+      "time": "12h",
       "url": "https://hipertextual.com/tecnologia/los-precios-de-la-ram-ya-han-superado-todos-los-limites-y-multiplican-por-5-los-del-hace-justo-un-ano/"
     },
     {
