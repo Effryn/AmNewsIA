@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 108,
     "sources": 31,
-    "updated_label": "10:59"
+    "updated_label": "11:03"
   },
   "iaday": {
     "reading_minutes": "65 min",
@@ -71,7 +71,7 @@
       "content_type": "paper",
       "title": "MobileMem: Aprendizaje a partir de un Año de Experiencias Móviles",
       "summary": "La próxima generación de agentes de inteligencia artificial está cada vez más avanzando hacia sistemas que no solo responden a preguntas aisladas, sino hacia as",
-      "time": "162h",
+      "time": "163h",
       "url": "https://huggingface.co/papers/2608.13606"
     },
     {
@@ -202,7 +202,7 @@
       "content_type": "paper",
       "title": "Auto-supervisada visual distilación en política",
       "summary": "La distilación on-policy visual se basa en gran medida en una asimetría docente-alumno informativa, mediante un maestro más grande y más fuerte o una supervisió",
-      "time": "90h",
+      "time": "91h",
       "url": "https://huggingface.co/papers/2608.14144"
     },
     {
@@ -259,7 +259,7 @@
       "content_type": "paper",
       "title": "SimpleOPD: Simple Aprendizaje Directo Agnóstico al Tokenizador para Razonamiento con Contexto Largo",
       "summary": "La distilación con políticas en curso (OPD) ofrece una prometedora manera de transferir capacidades de razonamiento desde modelos maestros más fuertes, pero apl",
-      "time": "90h",
+      "time": "91h",
       "url": "https://huggingface.co/papers/2608.14277"
     },
     {
@@ -270,7 +270,7 @@
       "content_type": "paper",
       "title": "DFM Mimir v1: Un Sistema de Gestión Humana Abierto Alcanzando Rendimiento Fronterizo con 1B Parámetros Usando Solo Datos Posentrenamiento Permisibles",
       "summary": "Actualmente, el desarrollo de grandes modelos de lenguaje depende de conjuntos de datos masivos, a menudo no permitidos, creando un alto obstáculo para los inve",
-      "time": "114h",
+      "time": "115h",
       "url": "https://huggingface.co/papers/2608.13517"
     },
     {
@@ -281,7 +281,7 @@
       "content_type": "paper",
       "title": "Quien Habla Importa: Autoridad-Consciente Multi-Vista RAG sobre Procedimientos Parlamentarios Italianos",
       "summary": "Los procedimientos parlamentarios son un registro primario de la deliberación democrática, pero su volumen y fragmentación dificultan el acceso multifacético pa",
-      "time": "114h",
+      "time": "115h",
       "url": "https://huggingface.co/papers/2608.13410"
     },
     {
@@ -292,7 +292,7 @@
       "content_type": "paper",
       "title": "Más allá de las Puntuaciones Finales: Una Evaluación Sistemática de Agentes para la Investigación y Desarrollo de IA con Horizonte Largo",
       "summary": "Los agentes autónomos están cada vez más capaces de mejorar modelos, sistemas y otros artefactos técnicos mediante experimentación a largo plazo. Sin embargo, p",
-      "time": "114h",
+      "time": "115h",
       "url": "https://huggingface.co/papers/2608.13417"
     },
     {
@@ -303,7 +303,7 @@
       "content_type": "paper",
       "title": "Intern-S2-Mobius: Modelo de Fundación con Conocimiento y Razonamiento Decuplados",
       "summary": "Introducimos Mobius-v0, una arquitectura que incluye una Memoria (FFN) compartida globalmente que almacena vectores de conocimiento y múltiples Razonadores (Aut",
-      "time": "90h",
+      "time": "91h",
       "url": "https://huggingface.co/papers/2608.14290"
     },
     {
@@ -314,7 +314,7 @@
       "content_type": "paper",
       "title": "Dion3: Actualizaciones Ortogonales de Pila Completa",
       "summary": "El optimizador Muon incurre en un costo significativo de sobrecarga debido a su paso de ortogonalización de tiempo cúbico Newton-Schulz. Cuando los pesos se div",
-      "time": "138h",
+      "time": "139h",
       "url": "https://huggingface.co/papers/2608.11612"
     },
     {
@@ -325,7 +325,7 @@
       "content_type": "paper",
       "title": "Modelos de Lenguaje con Exposición Cognitiva Controlada por la Pedagogía",
       "summary": "Los modelos de lenguaje modernos se entrenan en corpora de texto a gran escala y heterogéneos de internet. Como resultado, estudiar el adquirir conocimientos y ",
-      "time": "114h",
+      "time": "115h",
       "url": "https://huggingface.co/papers/2608.13545"
     },
     {
@@ -336,7 +336,7 @@
       "content_type": "paper",
       "title": "Latente Autoinducción Político-Secuencial",
       "summary": "Habilitar a los agentes para que aprendan de la experiencia e internalicen dicha experiencia en su política se ha convertido en un problema central en el AI que",
-      "time": "114h",
+      "time": "115h",
       "url": "https://huggingface.co/papers/2608.13040"
     },
     {
@@ -347,7 +347,7 @@
       "content_type": "paper",
       "title": "PRM-as-un-Juez 1.5: Un Conjunto de Herramientas para la Evaluación del Proceso Robótico",
       "summary": "La evaluación detallada de robots es importante para comprender los modelos encarnados, superando las tasas de éxito binarias y las puntuaciones basadas en regl",
-      "time": "90h",
+      "time": "91h",
       "url": "https://huggingface.co/papers/2608.14284"
     },
     {
@@ -358,7 +358,7 @@
       "content_type": "paper",
       "title": "SPARGen: Unificando la percepción espacial y la razonamiento a través de la generación multimodal nativa",
       "summary": "La percepción espacial y el razonamiento a partir de observaciones visuales requieren recuperar la estructura geométrica, establecer correspondencias y comprend",
-      "time": "90h",
+      "time": "91h",
       "url": "https://huggingface.co/papers/2608.14138"
     },
     {
@@ -380,7 +380,7 @@
       "content_type": "paper",
       "title": "DESCUBRIR Y VERIFICAR CAUSALMENTE ATAJOS FALSOS EN CLASSIFICADORES DE TEXTO",
       "summary": "Los modelos de lenguaje neuralmente entrenados en grandes corpus corpora de origen popular frecuentemente explotan patrones superficiales espurios vinculados a ",
-      "time": "186h",
+      "time": "187h",
       "url": "https://huggingface.co/papers/2608.09209"
     },
     {
@@ -391,7 +391,7 @@
       "content_type": "paper",
       "title": "Diferenciación de Modelos Multimodales para la Descubrimiento de Características y Control",
       "summary": "Los modelos de lenguaje de gran escala multimodales (MLLMs) muestran una comprensión visual fuerte, pero las características internas que causan estos comportam",
-      "time": "186h",
+      "time": "187h",
       "url": "https://huggingface.co/papers/2608.09928"
     },
     {
@@ -402,7 +402,7 @@
       "content_type": "paper",
       "title": "CPI-Bench: Un Marco Comprehensivo, Práctico e Inteligente para Pruebas de Edición de Imágenes en el Mundo Real",
       "summary": "Con el rápido avance de los modelos de edición de imágenes y su amplia aplicación en diversos campos, existe una necesidad creciente de implementar directamente",
-      "time": "90h",
+      "time": "91h",
       "url": "https://huggingface.co/papers/2608.14546"
     },
     {
@@ -413,7 +413,7 @@
       "content_type": "paper",
       "title": "Marionette: Predicción de Estados del Mundo, Renderizado de Geometría, Pintura de Apariencia",
       "summary": "Los modelos de mundos interactivos de juegos típicamente regresan autónomamente las observaciones visuales directamente en el espacio de píxeles o espacio laten",
-      "time": "90h",
+      "time": "91h",
       "url": "https://huggingface.co/papers/2608.14530"
     },
     {
@@ -448,7 +448,7 @@
       "content_type": "paper",
       "title": "UniProbe: Un detector de hallucinación token-level aprendible para VLMs grandes utilizando representaciones internas multifásicas",
       "summary": "Los Grandes Modelos de Visión-Lenguaje (LVLMs) logran impresionantes capacidades de razonamiento visual y diálogo, pero a menudo inventan contenido que no está ",
-      "time": "150h",
+      "time": "151h",
       "url": "https://huggingface.co/papers/2608.10835"
     },
     {
@@ -459,7 +459,7 @@
       "content_type": "paper",
       "title": "Predicción de Colapso en los Fundamentos de Modelos de Series Temporales",
       "summary": "Al predecir retornos horarios para 1,000 acciones estadounidenses, observamos un fenómeno inesperado: las predicciones se vuelven casi planas y muestran un clas",
-      "time": "90h",
+      "time": "91h",
       "url": "https://huggingface.co/papers/2608.14106"
     },
     {
@@ -626,7 +626,7 @@
       "content_type": "paper",
       "title": "Más populares, más difíciles de olvidar: Popularidad adaptativa para el olvido de LLM",
       "summary": "Los hechos populares se memorizan más profundamente durante la preentrenamiento y resisten la eliminación por más tiempo que los raros; sin embargo, los métodos",
-      "time": "74h",
+      "time": "75h",
       "url": "https://arxiv.org/abs/2608.14229v1",
       "arxiv": "2608.14229v1"
     },
@@ -758,7 +758,7 @@
       "content_type": "paper",
       "title": "Mayor Precisión de Masa, Peores Respuestas: Por qué la Muestreo por Poder Puede Fallar y Cómo Corregirlo",
       "summary": "El muestreo de Potencia refina la distribución de un modelo de lenguaje sobre trayectorias de generación completas, ofreciendo una forma sin verificador de mejo",
-      "time": "70h",
+      "time": "71h",
       "url": "https://arxiv.org/abs/2608.14420v1",
       "arxiv": "2608.14420v1"
     },
@@ -854,7 +854,7 @@
       "content_type": "paper",
       "title": "Regímenes locales y globales de complejidad geométrica en representaciones de modelos lingüísticos",
       "summary": "La dimensionalidad intrínseca (DI) se utiliza ampliamente para explorar la complejidad representacional de los modelos de lenguaje, pero sigue siendo incierto s",
-      "time": "71h",
+      "time": "72h",
       "url": "https://arxiv.org/abs/2608.14361v1",
       "arxiv": "2608.14361v1"
     },
@@ -912,7 +912,7 @@
       "content_type": "video",
       "title": "Nadie creerá que la IA empezó siendo GRATIS",
       "summary": "CyberGhost VPN es la mejor opción para PROTEGER TUS DATOS y NAVEGAR DE FORMA SEGURA. \n👉Por sólo €2.03 al mes y con 4 meses GRATIS:  https://cyberghostvpn.com/Gu",
-      "time": "2253h",
+      "time": "2254h",
       "url": "https://www.youtube.com/watch?v=ZsKszAkq0jI"
     },
     {
@@ -934,7 +934,7 @@
       "content_type": "video",
       "title": "Por qué CHINA regala su IA al mundo",
       "summary": "Tus ideas siguen siendo tuyas. Prueba Lumo gratis 👉 https://www.proton.me/lumo/gustavoentrala \n\n=======================================================\n\n¿Está g",
-      "time": "453h",
+      "time": "454h",
       "url": "https://www.youtube.com/watch?v=PHeOe18bPuY"
     },
     {
@@ -978,7 +978,7 @@
       "content_type": "video",
       "title": "Historia de ANTHROPIC, el nuevo líder mundial de la IA",
       "summary": "¿Cansado de perder horas en tareas repetitivas? Deja que la nueva IA de Odoo trabaje por ti. ¡Pruébala 15 días gratis aquí: https://www.odoo.com/r/gmfj\n\n=======",
-      "time": "1797h",
+      "time": "1798h",
       "url": "https://www.youtube.com/watch?v=n6oW7Y7io0Y"
     },
     {
@@ -989,7 +989,7 @@
       "content_type": "video",
       "title": "La RAZÓN REAL por la que Anthropic NO SE ATREVE A LANZAR su nueva IA",
       "summary": "CyberGhost VPN es la mejor opción para PROTEGER TUS DATOS y NAVEGAR DE FORMA SEGURA. \n👉Por sólo €2.03 al mes y con 4 meses GRATIS:  https://cyberghostvpn.com/Gu",
-      "time": "3092h",
+      "time": "3093h",
       "url": "https://www.youtube.com/watch?v=v47Z61vTKLQ"
     },
     {
@@ -1022,7 +1022,7 @@
       "content_type": "video",
       "title": "Por qué SAM ALTMAN quiere IMPEDIR que veamos esta película",
       "summary": "🚀  Descarga gratis el reporte 2026 de HubSpot y descubre cómo los líderes obtienen resultados reales con la IA: https://clickhubspot.com/26f6b8\n\n===============",
-      "time": "789h",
+      "time": "790h",
       "url": "https://www.youtube.com/watch?v=d-zacqqP9dk"
     },
     {
@@ -1044,7 +1044,7 @@
       "content_type": "video",
       "title": "Pasa de texto a app en segundos con Emergent 💻🤩",
       "summary": "¿Tienes tu negocio repartido en 10 hojas de Excel? 🫣\n📌 Puedes pedirle a la inteligencia artificial que construya una aplicación personalizada para ti.\n🚀 Con Eme",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.youtube.com/shorts/Y4Aop6dhuLo"
     },
     {
@@ -1132,7 +1132,7 @@
       "content_type": "video",
       "title": "La amenaza CUÁNTICA que puede romper la seguridad de Internet",
       "summary": "🚀 Lleva tu estrategia al siguiente nivel descargando el informe exclusivo de HubSpot sobre IA y Go-To-Market este 2026:  https://clickhubspot.com/5a8324 \n======",
-      "time": "1965h",
+      "time": "1966h",
       "url": "https://www.youtube.com/watch?v=IbZLGOMRNs0"
     },
     {
@@ -1165,7 +1165,7 @@
       "content_type": "news",
       "title": "Si eres programador, esta nueva IA de Microsoft es más rápida y barata que Claude Code",
       "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-content/upl",
-      "time": "20h",
+      "time": "21h",
       "url": "https://hipertextual.com/inteligencia-artificial/mai-code-1-1-flash-nuevo-modelo-microsoft/"
     },
     {
@@ -1209,7 +1209,7 @@
       "content_type": "news",
       "title": "¿Qué ocurre cuando el amigo robot de un niño muere?",
       "summary": "Cuando Xander se conoció por primera vez con Moxie, ella le enseñó que cuando estaba ansioso, podía calmarse exhalando por sus labios para que sonara como una a",
-      "time": "5h",
+      "time": "6h",
       "url": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/"
     },
     {
@@ -1264,7 +1264,7 @@
       "content_type": "news",
       "title": "OpenAI se une al proyecto PORTS-Pike",
       "summary": "OpenAI se une al proyecto PORTS-Pike, expandiendo la inversión comunitaria y apoyando a miles de trabajos en el sur de Ohio.",
-      "time": "9h",
+      "time": "10h",
       "url": "https://openai.com/index/openai-joins-ports-pike-project"
     }
   ]
