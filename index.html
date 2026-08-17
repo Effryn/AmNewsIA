@@ -3,9 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AmNewsIA</title>
+<title>AmNewsIA — Resumen diario de IA</title>
+
+<!-- SEO básico -->
+<meta name="description" content="Lo más relevante de la inteligencia artificial, seleccionado y resumido para ti cada día. Noticias, papers, repositorios y videos.">
+<meta property="og:title" content="AmNewsIA">
+<meta property="og:description" content="Resumen diario de IA: noticias, papers, repos y videos seleccionados.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tu-dominio.com">
+<meta name="theme-color" content="#12161c">
+
+<!-- Favicon simple (SVG) -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%237c6af7'/><text x='50' y='65' font-size='45' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'>A</text></svg>">
+
+<!-- Fuentes -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+
 <style>
   :root[data-theme="dark"]{
     --bg:#12161c; --sb:#0d1117; --surf:#1a2028; --s2:#161b22; --line:#2a3340;
@@ -44,6 +59,7 @@
     width:32px; height:32px; border-radius:50%; background:var(--surf); border:1px solid var(--line);
     display:flex; align-items:center; justify-content:center; cursor:pointer; color:var(--dim);
     transition:transform 100ms ease-out;
+    background: none;
   }
   .theme-toggle:active{ transform:scale(.88); }
 
@@ -166,7 +182,7 @@
     content:""; position:absolute; left:0; right:0; top:-14px; height:14px; pointer-events:none;
     background:linear-gradient(transparent, rgba(var(--glass-bg),.35));
   }
-  .mini-progress{ position:absolute; top:0; left:0; height:2px; width:34%; background:var(--pur); }
+  .mini-progress{ position:absolute; top:0; left:0; height:2px; width:0%; background:var(--pur); }
   .mini-play{
     width:30px; height:30px; border-radius:50%; background:var(--pur); flex-shrink:0;
     display:flex; align-items:center; justify-content:center; color:#fff; cursor:pointer;
@@ -213,8 +229,7 @@
     * { animation-duration: 0.001ms !important; }
   }
 
-  /* ── ESCRITORIO: Inicio = solo noticias editoriales. Papers/GitHub/
-     YouTube/Hugging Face viven en su propia sección del sidebar ──── */
+  /* ── ESCRITORIO ──────────────────────────────────────────────────── */
   #desktopApp{ display:none; }
 
   @media (min-width: 900px){
@@ -255,7 +270,6 @@
     .d-sidebar-footer b{ color:var(--dim); }
     .d-sidebar-footer .v{ font-size:9px; opacity:.6; }
 
-    /* ── columna central ─────────────────────────────────────────── */
     .d-main{ flex:1; overflow-y:auto; position:relative; }
     .d-main-topbar{
       position:sticky; top:0; z-index:5; display:flex; align-items:center; justify-content:space-between;
@@ -271,7 +285,6 @@
     .d-header h1{ font-size:26px; font-weight:800; letter-spacing:-.6px; line-height:1.1; margin-bottom:5px; }
     .d-header p{ font-size:13px; color:var(--dim); margin-bottom:20px; }
 
-    /* ── tarjeta de resumen: SIN scroll interno, resumen corto + puntos clave lado a lado ── */
     .d-summary-card{
       background:var(--surf); border:1px solid var(--line); border-radius:18px; padding:24px;
       margin-bottom:22px; position:relative; overflow:hidden;
@@ -341,7 +354,6 @@
       display:flex; align-items:center; justify-content:center; color:var(--dim); align-self:center;
     }
 
-    /* ── panel derecho: tendencias editoriales, no datos crudos ────── */
     .d-rail{ width:280px; min-width:280px; border-left:1px solid var(--line); padding:26px 18px; overflow-y:auto; }
     .d-rail-card{ background:var(--surf); border:1px solid var(--line); border-radius:14px; padding:18px; margin-bottom:16px; }
     .d-rail-card h4{ font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--faint); margin-bottom:14px; }
@@ -358,7 +370,6 @@
     .d-src-row .name{ color:var(--dim); flex:1; }
     .d-src-row .count{ color:var(--ink); font-weight:700; font-size:11px; }
 
-    /* ── dock inferior persistente: video de bienvenida + reproductor ── */
     .d-dock{
       height:60px; min-height:60px; border-top:1px solid var(--line);
       background:rgba(var(--glass-bg), var(--glass-alpha));
@@ -391,7 +402,6 @@
     .d-dock-vol{ display:flex; align-items:center; gap:6px; color:var(--faint); }
     .d-dock-vol input{ width:60px; accent-color:var(--pur); }
 
-    /* ── overlay de búsqueda ─────────────────────────────────────── */
     .d-search-overlay{
       position:fixed; inset:0; background:#000000cc; z-index:30; display:flex; align-items:flex-start; justify-content:center;
       padding-top:12vh; opacity:0; pointer-events:none; transition:opacity .15s;
@@ -409,6 +419,15 @@
 </head>
 <body>
 
+<!-- Loading indicator -->
+<div id="loading" style="position:fixed;top:0;left:0;right:0;bottom:0;background:var(--bg);display:flex;align-items:center;justify-content:center;z-index:99;">
+  <div style="text-align:center;">
+    <div style="width:40px;height:40px;border:3px solid var(--line);border-top-color:var(--pur);border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 10px;"></div>
+    <div style="color:var(--dim);font-size:13px;">Cargando noticias…</div>
+  </div>
+</div>
+<style>@keyframes spin{to{transform:rotate(360deg)}}</style>
+
 <div class="page">
 
   <div class="appbar">
@@ -417,10 +436,10 @@
       <div class="date" id="dateLabel">—</div>
     </div>
     <div class="appbar-right">
-      <div class="theme-toggle" id="themeToggle"></div>
-      <div class="avatar-btn" id="avatarBtn">
+      <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema" title="Cambiar tema"></button>
+      <div class="avatar-btn" id="avatarBtn" role="button" tabindex="0" aria-label="Ver video de bienvenida" title="Conoce AmNewsIA">
         <video src="welcome-video.mp4" muted loop autoplay playsinline></video>
-        <div class="avatar-play"></div>
+        <div class="avatar-play" aria-hidden="true"></div>
       </div>
     </div>
   </div>
@@ -431,10 +450,10 @@
     <div class="hero-date" id="heroDate">—</div>
     <div class="hero-desc">Lo más relevante de la inteligencia artificial, seleccionado y resumido para ti.</div>
     <div class="player">
-      <button class="play-btn" id="heroPlay"></button>
+      <button class="play-btn" id="heroPlay" aria-label="Reproducir resumen" title="Reproducir"></button>
       <div class="player-body">
         <div class="player-label">Escuchar resumen</div>
-        <div class="wave paused" id="wave"></div>
+        <div class="wave paused" id="wave" aria-hidden="true"></div>
       </div>
       <div class="dur" id="heroDur">—</div>
     </div>
@@ -446,7 +465,7 @@
     <div class="iaday-title">Panorama de hoy</div>
     <div class="iaday-grid" id="iadayGrid"></div>
     <div class="iaday-foot">
-      <div class="stars" id="stars"></div>
+      <div class="stars" id="stars" aria-label="Impacto del día"></div>
       <div class="impact" id="impact">—</div>
     </div>
   </div>
@@ -463,15 +482,15 @@
       <div class="sec-sub">Noticias filtradas, resumidas y listas para leer o escuchar.</div>
     </div>
     <div style="display:flex; align-items:center; gap:10px;">
-      <div class="filter-chip" id="filterChip"></div>
-      <a href="#" id="verTodas">Ver todo</a>
+      <div class="filter-chip" id="filterChip" role="button" tabindex="0" aria-label="Quitar filtro"></div>
+      <a href="#" id="verTodas" aria-label="Ver todas las noticias">Ver todo</a>
     </div>
   </div>
   <div class="news-list" id="news-list"></div>
 
-  <div class="mini-player" id="miniPlayer">
+  <div class="mini-player" id="miniPlayer" aria-label="Reproductor mini">
     <div class="mini-progress"></div>
-    <div class="mini-play" id="miniPlay"></div>
+    <div class="mini-play" id="miniPlay" role="button" tabindex="0" aria-label="Pausar o reproducir"></div>
     <div class="mini-info">
       <div class="t1">Resumen de hoy</div>
       <div class="t2">AmNewsIA · en reproducción</div>
@@ -479,15 +498,15 @@
     <div class="mini-time">00:00</div>
   </div>
 
-  <div class="tabbar" id="tabbar"></div>
+  <div class="tabbar" id="tabbar" role="tablist"></div>
 
-  <div class="modal" id="videoModal">
+  <div class="modal" id="videoModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDesc">
     <div class="modal-card" id="modalCard">
       <div class="modal-head">
-        <div class="modal-back" id="modalBack"></div>
+        <div class="modal-back" id="modalBack" role="button" tabindex="0" aria-label="Cerrar modal"></div>
         <div class="modal-head-txt">
-          <div class="t1">Conoce AmNewsIA</div>
-          <div class="t2">Descubre cómo funciona en 30 segundos</div>
+          <div class="t1" id="modalTitle">Conoce AmNewsIA</div>
+          <div class="t2" id="modalDesc">Descubre cómo funciona en 30 segundos</div>
         </div>
       </div>
       <video id="modalVideo" src="welcome-video.mp4" playsinline controls></video>
@@ -496,10 +515,7 @@
 
 </div>
 
-<!-- ══════════ DASHBOARD DE ESCRITORIO ══════════
-     Mismo DATA que la vista móvil, solo se muestra en pantallas
-     ≥900px (ver CSS). Inicio = solo noticias editoriales; Papers,
-     GitHub, YouTube y Hugging Face viven en su propia sección. -->
+<!-- ══════════ DASHBOARD DE ESCRITORIO ══════════ -->
 <div id="desktopApp">
  <div class="d-body">
 
@@ -507,27 +523,27 @@
     <div class="d-brand-row">
       <div class="d-brand-name">Am<b>News</b>IA</div>
       <div style="display:flex; gap:6px;">
-        <div class="d-search-btn" id="dThemeBtn"></div>
-        <div class="d-search-btn" id="dSearchBtn"></div>
+        <div class="d-search-btn" id="dThemeBtn" role="button" tabindex="0" aria-label="Cambiar tema" title="Cambiar tema"></div>
+        <div class="d-search-btn" id="dSearchBtn" role="button" tabindex="0" aria-label="Abrir búsqueda" title="Buscar"></div>
       </div>
     </div>
 
-    <div class="d-nav-item active" id="dNavInicio" onclick="setDesktopView('inicio')"></div>
+    <div class="d-nav-item active" id="dNavInicio" onclick="setDesktopView('inicio')" role="button" tabindex="0" aria-label="Inicio"></div>
 
     <div class="d-nav-group-label">NOTICIAS</div>
-    <div class="d-nav-item" id="dNavHoy" onclick="setDesktopView('inicio')"></div>
-    <div class="d-nav-item" id="dNavHistorial"></div>
+    <div class="d-nav-item" id="dNavHoy" onclick="setDesktopView('inicio')" role="button" tabindex="0" aria-label="Noticias de hoy"></div>
+    <div class="d-nav-item" id="dNavHistorial" role="button" tabindex="0" aria-label="Historial"></div>
 
     <div class="d-nav-group-label">CONTENIDO</div>
-    <div class="d-nav-item" id="dNavPapers" onclick="setDesktopView('arxiv')"></div>
-    <div class="d-nav-item" id="dNavGithub" onclick="setDesktopView('github')"></div>
-    <div class="d-nav-item" id="dNavYoutube" onclick="setDesktopView('youtube')"></div>
-    <div class="d-nav-item" id="dNavHf" onclick="setDesktopView('huggingface')"></div>
+    <div class="d-nav-item" id="dNavPapers" onclick="setDesktopView('arxiv')" role="button" tabindex="0" aria-label="Papers"></div>
+    <div class="d-nav-item" id="dNavGithub" onclick="setDesktopView('github')" role="button" tabindex="0" aria-label="GitHub"></div>
+    <div class="d-nav-item" id="dNavYoutube" onclick="setDesktopView('youtube')" role="button" tabindex="0" aria-label="YouTube"></div>
+    <div class="d-nav-item" id="dNavHf" onclick="setDesktopView('huggingface')" role="button" tabindex="0" aria-label="Hugging Face"></div>
 
     <div class="d-nav-group-label">RESÚMENES</div>
-    <div class="d-nav-item" id="dNavDiario"></div>
-    <div class="d-nav-item" id="dNavSemanal"></div>
-    <div class="d-nav-item" id="dNavMensual"></div>
+    <div class="d-nav-item" id="dNavDiario" role="button" tabindex="0" aria-label="Resumen diario"></div>
+    <div class="d-nav-item" id="dNavSemanal" role="button" tabindex="0" aria-label="Resumen semanal"></div>
+    <div class="d-nav-item" id="dNavMensual" role="button" tabindex="0" aria-label="Resumen mensual"></div>
 
     <div class="d-sidebar-footer">
       <b>AmNewsIA</b>
@@ -552,10 +568,10 @@
           <div>
             <div class="d-summary-col-title">Resumen del día</div>
             <div class="d-summary-left">
-              <div class="d-avatar" id="dAvatarIcon"></div>
+              <div class="d-avatar" id="dAvatarIcon" aria-hidden="true"></div>
               <div>
                 <div class="d-summary-text" id="dSummaryText">—</div>
-                <span class="d-summary-more" id="dSummaryMore" onclick="toggleSummaryExpand()">Ver más</span>
+                <span class="d-summary-more" id="dSummaryMore" onclick="toggleSummaryExpand()" role="button" tabindex="0">Ver más</span>
               </div>
             </div>
           </div>
@@ -564,7 +580,7 @@
             <ul class="d-key-points" id="dKeyPoints"></ul>
           </div>
         </div>
-        <button class="d-listen-btn" id="dListenBtn"></button>
+        <button class="d-listen-btn" id="dListenBtn" aria-label="Escuchar resumen del día"></button>
       </div>
 
       <div class="d-feed-header">
@@ -589,38 +605,42 @@
  </div>
 
   <div class="d-dock">
-    <div class="d-dock-welcome" id="dDockWelcome">
-      <div class="d-dock-avatar"><video src="welcome-video.mp4" muted loop autoplay playsinline></video></div>
+    <div class="d-dock-welcome" id="dDockWelcome" role="button" tabindex="0" aria-label="Ver video de bienvenida">
+      <div class="d-dock-avatar">
+        <!-- Video se cargará solo en escritorio -->
+      </div>
       <div class="d-dock-welcome-txt"><b>Conoce AmNewsIA</b>Ver video de bienvenida · 60 s</div>
     </div>
     <div class="d-dock-player">
-      <div class="d-dock-icon" id="dDockIcon"></div>
+      <div class="d-dock-icon" id="dDockIcon" aria-hidden="true"></div>
       <div style="min-width:120px">
         <div class="d-dock-title">Resumen del día</div>
         <div class="d-dock-sub" id="dDockDate">—</div>
       </div>
       <div class="d-dock-controls">
-        <div class="d-dock-btn" id="dDockBack10"></div>
-        <div class="d-dock-btn d-dock-play" id="dDockPlay"></div>
-        <div class="d-dock-btn" id="dDockFwd10"></div>
+        <div class="d-dock-btn" id="dDockBack10" role="button" tabindex="0" aria-label="Retroceder 10 segundos"></div>
+        <div class="d-dock-btn d-dock-play" id="dDockPlay" role="button" tabindex="0" aria-label="Reproducir o pausar"></div>
+        <div class="d-dock-btn" id="dDockFwd10" role="button" tabindex="0" aria-label="Avanzar 10 segundos"></div>
       </div>
       <div class="d-dock-progress-wrap">
         <span class="d-dock-time" id="dDockCurrent">0:00</span>
-        <div class="d-dock-bar" id="dDockBar"><div class="d-dock-bar-fill" id="dDockBarFill"></div></div>
+        <div class="d-dock-bar" id="dDockBar" role="slider" tabindex="0" aria-label="Barra de progreso">
+          <div class="d-dock-bar-fill" id="dDockBarFill"></div>
+        </div>
         <span class="d-dock-time" id="dDockDuration">0:00</span>
       </div>
       <div class="d-dock-vol">
-        <span id="dDockVolIcon"></span>
-        <input type="range" id="dDockVol" min="0" max="100" value="100">
+        <span id="dDockVolIcon" aria-hidden="true"></span>
+        <input type="range" id="dDockVol" min="0" max="100" value="100" aria-label="Volumen">
       </div>
     </div>
   </div>
 
 </div>
 
-<div class="d-search-overlay" id="dSearchOverlay">
+<div class="d-search-overlay" id="dSearchOverlay" role="dialog" aria-modal="true" aria-label="Búsqueda">
   <div class="d-search-box">
-    <input class="d-search-input" id="dSearchInput" placeholder="Buscar noticias, papers, repositorios…">
+    <input class="d-search-input" id="dSearchInput" placeholder="Buscar noticias, papers, repositorios…" aria-label="Buscar contenido">
     <div class="d-search-results" id="dSearchResults"></div>
   </div>
 </div>
@@ -628,6 +648,9 @@
 <audio id="briefingAudio"></audio>
 
 <script>
+/* ============================================================
+   Utilidades
+   ============================================================ */
 const ICONS = {
   home:      `<path d="M4 11l8-7 8 7"/><path d="M6 10v9h12v-9"/><path d="M10 19v-5h4v5"/>`,
   newspaper: `<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 9.5h8M8 13h8M8 16.5h5"/>`,
@@ -653,9 +676,19 @@ const ICONS = {
   volume:    `<path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16.5 8.5a5 5 0 010 7"/>`,
 };
 function icon(name, size = 18) {
-  return `<svg class="ic" viewBox="0 0 24 24" style="width:${size}px;height:${size}px">${ICONS[name]}</svg>`;
+  return `<svg class="ic" viewBox="0 0 24 24" style="width:${size}px;height:${size}px" aria-hidden="true">${ICONS[name]}</svg>`;
 }
 
+function escapeHTML(str) {
+  if (!str) return '';
+  return String(str).replace(/[&<>"']/g, char => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  })[char]);
+}
+
+/* ============================================================
+   Animación de muelles (spring) para micro-interacciones
+   ============================================================ */
 const _activeSprings = new WeakMap();
 function springTo(el, key, from, to, { stiffness = 210, damping = 26, onUpdate, onComplete } = {}) {
   const REDUCE_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -678,6 +711,13 @@ function springTo(el, key, from, to, { stiffness = 210, damping = 26, onUpdate, 
   state.raf = requestAnimationFrame(step);
 }
 
+/* ============================================================
+   Datos globales
+   ============================================================ */
+let DATA = null;
+let activeFilter = null;
+let desktopPlayerInitialized = false;
+
 const CAT_COLOR = {
   "Modelos":"var(--pur)", "Investigación":"var(--green)",
   "Herramientas":"var(--acc)", "Industria":"var(--blue)", "Videos":"var(--red)",
@@ -685,12 +725,12 @@ const CAT_COLOR = {
 const TYPE_LABEL = { paper:"Papers", repo:"Repos", video:"Videos" };
 const ICON_BY_TYPE = { paper:"document", repo:"code", video:"videoRect" };
 
-let DATA = null;
-let activeFilter = null;
-
+/* ============================================================
+   Renderizado: vista móvil
+   ============================================================ */
 function techPill(a){
-  if (a.content_type === "paper" && a.arxiv) return `<div class="news-tech">arXiv:${a.arxiv}</div>`;
-  if (a.content_type === "repo" && a.stars) return `<div class="news-tech">${a.stars} estrellas · repo</div>`;
+  if (a.content_type === "paper" && a.arxiv) return `<div class="news-tech">arXiv:${escapeHTML(a.arxiv)}</div>`;
+  if (a.content_type === "repo" && a.stars) return `<div class="news-tech">${escapeHTML(a.stars)} estrellas · repo</div>`;
   return "";
 }
 
@@ -698,14 +738,14 @@ function renderFeed(){
   const list = activeFilter ? DATA.articles.filter(a => a.content_type === activeFilter) : DATA.articles;
   document.getElementById("news-list").innerHTML = list.map(a => `
     <div class="news-row">
-      <div class="news-src"><span class="dot" style="background:${CAT_COLOR[a.cat] || 'var(--dim)'}"></span>${a.source}</div>
-      <a class="news-title" href="${a.url}" target="_blank" rel="noopener">${a.title}</a>
+      <div class="news-src"><span class="dot" style="background:${CAT_COLOR[a.cat] || 'var(--dim)'}"></span>${escapeHTML(a.source)}</div>
+      <a class="news-title" href="${escapeHTML(a.url)}" target="_blank" rel="noopener">${escapeHTML(a.title)}</a>
       ${techPill(a)}
       <div class="news-meta">
-        <span class="t">${a.time} · ${a.cat}</span>
+        <span class="t">${escapeHTML(a.time)} · ${escapeHTML(a.cat)}</span>
         <div class="news-meta-right">
-          <div class="icon-btn">${icon('play', 11)}</div>
-          <a class="icon-btn" href="${a.url}" target="_blank" rel="noopener">${icon('arrowUp', 11)}</a>
+          <div class="icon-btn" aria-label="Reproducir audio de esta noticia">${icon('play', 11)}</div>
+          <a class="icon-btn" href="${escapeHTML(a.url)}" target="_blank" rel="noopener" aria-label="Abrir noticia">${icon('arrowUp', 11)}</a>
         </div>
       </div>
     </div>
@@ -716,9 +756,11 @@ function renderFeed(){
   if (activeFilter){
     chip.innerHTML = `${TYPE_LABEL[activeFilter]} ${icon('close', 11)}`;
     chip.classList.add("show");
+    chip.setAttribute("aria-label", `Quitar filtro ${TYPE_LABEL[activeFilter]}`);
     document.querySelector(`.iaday-item[data-filter="${activeFilter}"]`)?.classList.add("filter-active");
   } else {
     chip.classList.remove("show");
+    chip.removeAttribute("aria-label");
   }
 }
 
@@ -735,6 +777,12 @@ function getGreeting(){
   return "Buenas noches";
 }
 
+function fmtTime(sec){
+  if (!isFinite(sec)) return "0:00";
+  const m = Math.floor(sec / 60), s = Math.floor(sec % 60);
+  return `${m}:${String(s).padStart(2,'0')}`;
+}
+
 function renderFromData(){
   document.getElementById("dateLabel").textContent = DATA.date_label;
   document.getElementById("greeting").textContent = getGreeting();
@@ -743,7 +791,7 @@ function renderFromData(){
   document.getElementById("briefingAudio").src = DATA.briefing.audio_url;
 
   document.getElementById("statLine").innerHTML =
-    `${icon('clock', 12)} Actualizado ${DATA.stats.updated_label}`;
+    `${icon('clock', 12)} Actualizado ${escapeHTML(DATA.stats.updated_label)}`;
 
   const iaday = DATA.iaday;
   const IADAY_STATS = [
@@ -756,7 +804,7 @@ function renderFromData(){
     { icon: ICON_BY_TYPE.video, n:iaday.videos_count, l:"Videos", filter:"video" },
   ];
   document.getElementById("iadayGrid").innerHTML = IADAY_STATS.map(s => `
-    <div class="iaday-item ${s.filter ? 'clickable' : ''}" ${s.filter ? `data-filter="${s.filter}" onclick="setFilter('${s.filter}')"` : ''}>
+    <div class="iaday-item ${s.filter ? 'clickable' : ''}" ${s.filter ? `data-filter="${s.filter}" onclick="setFilter('${s.filter}')" role="button" tabindex="0" aria-label="Filtrar por ${s.l}"` : ''}>
       ${icon(s.icon, 17)}
       <div class="n">${s.n}</div>
       <div class="l">${s.l}</div>
@@ -768,12 +816,15 @@ function renderFromData(){
   document.getElementById("thirtySub").textContent =
     `${DATA.thirty_seconds.length} noticias que deberías conocer.`;
   document.getElementById("thirtyList").innerHTML = DATA.thirty_seconds.map((t, i) => `
-    <li><span class="thirty-num">${String(i+1).padStart(2,'0')}</span>${t}</li>
+    <li><span class="thirty-num">${String(i+1).padStart(2,'0')}</span>${escapeHTML(t)}</li>
   `).join("");
 
   renderFeed();
 }
 
+/* ============================================================
+   Renderizado: chrome (iconos estáticos)
+   ============================================================ */
 function renderChrome(){
   document.getElementById("themeToggle").innerHTML = icon('moon', 15);
   document.querySelector(".avatar-play").innerHTML = icon('play', 13);
@@ -789,7 +840,7 @@ function renderChrome(){
     { icon:"history",    label:"Historial" },
   ];
   document.getElementById("tabbar").innerHTML = TABS.map(t => `
-    <div class="tab ${t.active ? 'active' : ''}">${icon(t.icon, 19)}${t.label}</div>
+    <div class="tab ${t.active ? 'active' : ''}" role="tab" aria-selected="${t.active ? 'true' : 'false'}" tabindex="0">${icon(t.icon, 19)}${t.label}</div>
   `).join("");
 }
 
@@ -797,10 +848,14 @@ document.getElementById("wave").innerHTML = Array.from({length:34}).map((_,i)=>
   `<span style="height:${8+Math.random()*14}px; animation-delay:${(i*0.05).toFixed(2)}s"></span>`
 ).join("");
 
-/* ── Reproductor: audio real del resumen diario ──────────────────── */
+/* ============================================================
+   Reproductor (compartido móvil/escritorio)
+   ============================================================ */
 let isPlaying = false;
 const miniPlayer = document.getElementById("miniPlayer");
 const briefingAudio = document.getElementById("briefingAudio");
+const miniProgress = document.querySelector(".mini-progress");
+const miniTime = document.querySelector(".mini-time");
 
 function toggleAudio(){
   isPlaying ? briefingAudio.pause() : briefingAudio.play().catch(()=>{});
@@ -808,6 +863,13 @@ function toggleAudio(){
 briefingAudio.addEventListener("play", () => setPlayingState(true));
 briefingAudio.addEventListener("pause", () => setPlayingState(false));
 briefingAudio.addEventListener("ended", () => setPlayingState(false));
+briefingAudio.addEventListener("timeupdate", () => {
+  if (briefingAudio.duration) {
+    const pct = (briefingAudio.currentTime / briefingAudio.duration) * 100;
+    miniProgress.style.width = pct + "%";
+    miniTime.textContent = fmtTime(briefingAudio.currentTime);
+  }
+});
 
 function setPlayingState(playing){
   isPlaying = playing;
@@ -822,16 +884,36 @@ function setPlayingState(playing){
 }
 document.getElementById("heroPlay").addEventListener("click", toggleAudio);
 document.getElementById("miniPlay").addEventListener("click", toggleAudio);
+// Teclado
+document.getElementById("heroPlay").addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggleAudio(); } });
+document.getElementById("miniPlay").addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggleAudio(); } });
 
+/* ============================================================
+   Tema (persistente)
+   ============================================================ */
 function toggleTheme(){
   const html = document.documentElement;
   const next = html.getAttribute("data-theme") === "dark" ? "light" : "dark";
   html.setAttribute("data-theme", next);
-  document.getElementById("themeToggle").innerHTML = icon(next === "dark" ? 'moon' : 'sun', 15);
+  localStorage.setItem("theme", next);
+  updateThemeButtons();
 }
-document.getElementById("themeToggle").addEventListener("click", toggleTheme);
+function updateThemeButtons(){
+  const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+  document.getElementById("themeToggle").innerHTML = icon(isDark ? 'moon' : 'sun', 15);
+  const dThemeBtn = document.getElementById("dThemeBtn");
+  if (dThemeBtn) dThemeBtn.innerHTML = icon(isDark ? 'moon' : 'sun', 14);
+}
+// Aplicar tema guardado al cargar
+const savedTheme = localStorage.getItem("theme");
+if (savedTheme) document.documentElement.setAttribute("data-theme", savedTheme);
 
-/* ── Modal anclado al avatar ──────────────────────────────────── */
+document.getElementById("themeToggle").addEventListener("click", toggleTheme);
+document.getElementById("dThemeBtn")?.addEventListener("click", toggleTheme); // se asigna luego en renderDesktop también
+
+/* ============================================================
+   Modal de video (accesible)
+   ============================================================ */
 const modal = document.getElementById("videoModal");
 const modalCard = document.getElementById("modalCard");
 const modalVideo = document.getElementById("modalVideo");
@@ -851,6 +933,8 @@ function openModal(){
   });
   modalVideo.currentTime = 0;
   modalVideo.play();
+  // Enfocar el botón de cerrar para accesibilidad
+  document.getElementById("modalBack").focus();
 }
 function closeModal(){
   springTo(modal, 'fade', 1, 0, {
@@ -863,23 +947,24 @@ function closeModal(){
     onUpdate: v => { modalCard.style.transform = `scale(${v})`; modalCard.style.opacity = v; },
   });
   modalVideo.pause();
+  avatarBtn.focus();
 }
 avatarBtn.addEventListener("click", openModal);
+avatarBtn.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openModal(); } });
 document.getElementById("modalBack").addEventListener("click", closeModal);
+document.getElementById("modalBack").addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); closeModal(); } });
 modal.addEventListener("click", (e) => { if (e.target === modal) closeModal(); });
+// Escape para cerrar
+document.addEventListener("keydown", e => { if (e.key === "Escape" && modal.classList.contains("open")) closeModal(); });
 
-/* ── Dashboard de escritorio: Inicio = solo noticias editoriales
-   (source_type "rss"). Papers/GitHub/YouTube/Hugging Face viven en
-   su propia vista, fuera del feed principal. ─────────────────────── */
+/* ============================================================
+   Dashboard de escritorio
+   ============================================================ */
 const VIEW_LABEL = {
   inicio: "Últimas noticias", arxiv: "Papers", github: "GitHub",
   youtube: "YouTube", huggingface: "Hugging Face",
 };
 const VIEW_SOURCE_TYPE = { arxiv:"arxiv", github:"github", youtube:"youtube", huggingface:"huggingface" };
-const CATEGORY_COLOR_LIST = Object.entries(CAT_COLOR);
-
-// Fuentes propias de cada empresa/lab vs. medios de comunicación --
-// para que el panel "Fuentes" agrupe editorialmente, no solo por tipo tecnico.
 const LAB_SOURCES = new Set([
   "OpenAI Blog","Google DeepMind Blog","Meta AI Blog","Microsoft AI Blog",
   "Anthropic","Anthropic News","Cohere Blog","ElevenLabs Blog","Perplexity Blog","Mistral AI News",
@@ -905,7 +990,8 @@ function renderDesktopSidebar(){
   document.getElementById("dNavSemanal").innerHTML = `${icon('document', 17)}Semanal`;
   document.getElementById("dNavMensual").innerHTML = `${icon('document', 17)}Mensual`;
 
-  document.getElementById("dThemeBtn").innerHTML = icon(document.documentElement.getAttribute("data-theme") === "dark" ? 'moon' : 'sun', 14);
+  // Actualizar botones de tema/búsqueda (ya se hace en updateThemeButtons, pero por si acaso)
+  updateThemeButtons();
   document.getElementById("dSearchBtn").innerHTML = icon('search', 14);
 }
 
@@ -938,7 +1024,7 @@ function renderDesktopSummary(){
 
   const points = DATA.thirty_seconds && DATA.thirty_seconds.length ? DATA.thirty_seconds : ["Todavía no hay puntos clave para hoy."];
   document.getElementById("dKeyPoints").innerHTML = points.map((t, i) => `
-    <li><span class="d-key-num">${i + 1}</span>${t}</li>
+    <li><span class="d-key-num">${i + 1}</span>${escapeHTML(t)}</li>
   `).join("");
 
   document.getElementById("dListenBtn").innerHTML =
@@ -953,8 +1039,8 @@ function toggleSummaryExpand(){
 }
 
 function techPillDesktop(a){
-  if (a.content_type === "paper" && a.arxiv) return `<div class="d-feed-tech">arXiv:${a.arxiv}</div>`;
-  if (a.content_type === "repo" && a.stars) return `<div class="d-feed-tech">${a.stars} estrellas</div>`;
+  if (a.content_type === "paper" && a.arxiv) return `<div class="d-feed-tech">arXiv:${escapeHTML(a.arxiv)}</div>`;
+  if (a.content_type === "repo" && a.stars) return `<div class="d-feed-tech">${escapeHTML(a.stars)} estrellas</div>`;
   return "";
 }
 
@@ -975,16 +1061,16 @@ function renderDesktopFeed(){
   }
 
   document.getElementById("dFeed").innerHTML = list.map(a => `
-    <div class="d-feed-card" onclick="window.open('${a.url}','_blank')">
-      <div class="d-feed-avatar" style="background:linear-gradient(135deg, ${(CAT_COLOR[a.cat]||'var(--dim)')}33, ${(CAT_COLOR[a.cat]||'var(--dim)')}14); color:${CAT_COLOR[a.cat]||'var(--dim)'}">${(a.source||"?")[0].toUpperCase()}</div>
+    <div class="d-feed-card" onclick="window.open('${escapeHTML(a.url)}','_blank')" role="button" tabindex="0">
+      <div class="d-feed-avatar" style="background:linear-gradient(135deg, ${(CAT_COLOR[a.cat]||'var(--dim)')}33, ${(CAT_COLOR[a.cat]||'var(--dim)')}14); color:${CAT_COLOR[a.cat]||'var(--dim)'}">${escapeHTML((a.source||"?")[0].toUpperCase())}</div>
       <div class="d-feed-body">
         <div class="d-feed-top">
-          <span class="d-feed-src" style="color:${CAT_COLOR[a.cat]||'var(--dim)'}">${a.source}</span>
-          <span class="d-feed-time">· ${a.time}</span>
-          <span class="d-feed-lang" style="background:${(a.lang||'es')==='es' ? 'var(--green)' : 'var(--blue)'}">${(a.lang||'es').toUpperCase()}</span>
+          <span class="d-feed-src" style="color:${CAT_COLOR[a.cat]||'var(--dim)'}">${escapeHTML(a.source)}</span>
+          <span class="d-feed-time">· ${escapeHTML(a.time)}</span>
+          <span class="d-feed-lang" style="background:${(a.lang||'es')==='es' ? 'var(--green)' : 'var(--blue)'}">${escapeHTML((a.lang||'es').toUpperCase())}</span>
         </div>
-        <a class="d-feed-title" href="${a.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${a.title}</a>
-        <div class="d-feed-summary">${a.summary || ''}</div>
+        <a class="d-feed-title" href="${escapeHTML(a.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHTML(a.title)}</a>
+        <div class="d-feed-summary">${escapeHTML(a.summary || '')}</div>
         ${techPillDesktop(a)}
       </div>
       <div class="d-feed-play">${icon('play', 10)}</div>
@@ -993,9 +1079,6 @@ function renderDesktopFeed(){
 }
 
 function renderDesktopRail(){
-  // "En tendencia" editorial: reparto por categoria SOLO de noticias
-  // (no de repos/papers), con su participacion real -- no inventamos
-  // porcentajes de variacion dia a dia que no tenemos como calcular.
   const newsArticles = DATA.articles.filter(a => a.source_type === "rss");
   const tally = {};
   newsArticles.forEach(a => { tally[a.cat] = (tally[a.cat] || 0) + 1; });
@@ -1007,7 +1090,7 @@ function renderDesktopRail(){
     .map(([cat, count], i) => `
       <div class="d-trend-row">
         <div class="d-trend-num">${i + 1}</div>
-        <div class="d-trend-name">${cat}</div>
+        <div class="d-trend-name">${escapeHTML(cat)}</div>
         <div class="d-trend-share">${Math.round(count / total * 100)}%</div>
       </div>
     `).join("") || `<p style="color:var(--faint); font-size:11.5px;">Sin datos suficientes hoy.</p>`;
@@ -1024,20 +1107,17 @@ function renderDesktopRail(){
   document.getElementById("dSources").innerHTML = Object.entries(groups)
     .filter(([,c]) => c > 0)
     .sort((a,b) => b[1]-a[1])
-    .map(([name, count]) => `<div class="d-src-row"><span class="name">${name}</span><span class="count">${count}</span></div>`)
+    .map(([name, count]) => `<div class="d-src-row"><span class="name">${escapeHTML(name)}</span><span class="count">${count}</span></div>`)
     .join("");
 }
 
-/* ── Reproductor propio del escritorio: dock inferior + boton "Escuchar
-   resumen" de la tarjeta, ambos controlan el mismo <audio> oculto que
-   ya usa la vista movil. ─────────────────────────────────────────── */
-function fmtTime(sec){
-  if (!isFinite(sec)) return "0:00";
-  const m = Math.floor(sec / 60), s = Math.floor(sec % 60);
-  return `${m}:${String(s).padStart(2,'0')}`;
-}
-
+/* ============================================================
+   Reproductor de escritorio
+   ============================================================ */
 function setupDesktopPlayer(){
+  if (desktopPlayerInitialized) return;
+  desktopPlayerInitialized = true;
+
   const audio = document.getElementById("briefingAudio");
   const dockPlay = document.getElementById("dDockPlay");
   const listenBtn = document.getElementById("dListenBtn");
@@ -1057,18 +1137,26 @@ function setupDesktopPlayer(){
   }
 
   dockPlay.addEventListener("click", () => audio.paused ? audio.play().catch(()=>{}) : audio.pause());
+  dockPlay.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); dockPlay.click(); } });
   listenBtn.addEventListener("click", () => { audio.currentTime = 0; audio.play().catch(()=>{}); });
   document.getElementById("dDockBack10").addEventListener("click", () => audio.currentTime = Math.max(0, audio.currentTime - 10));
   document.getElementById("dDockFwd10").addEventListener("click", () => audio.currentTime = Math.min(audio.duration||0, audio.currentTime + 10));
+  document.getElementById("dDockBack10").addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); document.getElementById("dDockBack10").click(); } });
+  document.getElementById("dDockFwd10").addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); document.getElementById("dDockFwd10").click(); } });
   bar.addEventListener("click", (e) => {
     const rect = bar.getBoundingClientRect();
     const pct = (e.clientX - rect.left) / rect.width;
     if (audio.duration) audio.currentTime = pct * audio.duration;
   });
+  bar.addEventListener("keydown", e => {
+    if (e.key === "ArrowRight") { audio.currentTime = Math.min(audio.duration||0, audio.currentTime + 5); }
+    if (e.key === "ArrowLeft") { audio.currentTime = Math.max(0, audio.currentTime - 5); }
+  });
   vol.addEventListener("input", () => { audio.volume = vol.value / 100; });
   document.getElementById("dDockVolIcon").innerHTML = icon('volume', 13);
   document.getElementById("dDockBack10").innerHTML = icon('skipBack', 12);
   document.getElementById("dDockFwd10").innerHTML = icon('skipFwd', 12);
+  dockPlay.innerHTML = icon('play', 13);
 
   audio.addEventListener("play", updatePlayIcon);
   audio.addEventListener("pause", updatePlayIcon);
@@ -1077,7 +1165,9 @@ function setupDesktopPlayer(){
   updateProgress();
 }
 
-/* ── Búsqueda: filtra el DATA ya cargado, sin backend ─────────────── */
+/* ============================================================
+   Búsqueda
+   ============================================================ */
 function openSearch(){
   const overlay = document.getElementById("dSearchOverlay");
   overlay.classList.add("open");
@@ -1092,38 +1182,66 @@ function renderSearch(q){
   const box = document.getElementById("dSearchResults");
   if (!q.trim()){ box.innerHTML = ""; return; }
   const matches = DATA.articles.filter(a => a.title.toLowerCase().includes(q.toLowerCase())).slice(0, 12);
-  if (!matches.length){ box.innerHTML = `<div class="d-search-empty">Sin resultados para "${q}".</div>`; return; }
+  if (!matches.length){ box.innerHTML = `<div class="d-search-empty">Sin resultados para "${escapeHTML(q)}".</div>`; return; }
   box.innerHTML = matches.map(a => `
-    <div class="d-feed-card" style="margin:4px 8px;" onclick="window.open('${a.url}','_blank')">
-      <div class="d-feed-avatar" style="background:linear-gradient(135deg, ${(CAT_COLOR[a.cat]||'var(--dim)')}33, ${(CAT_COLOR[a.cat]||'var(--dim)')}14); color:${CAT_COLOR[a.cat]||'var(--dim)'}">${(a.source||"?")[0].toUpperCase()}</div>
+    <div class="d-feed-card" style="margin:4px 8px;" onclick="window.open('${escapeHTML(a.url)}','_blank')" role="button" tabindex="0">
+      <div class="d-feed-avatar" style="background:linear-gradient(135deg, ${(CAT_COLOR[a.cat]||'var(--dim)')}33, ${(CAT_COLOR[a.cat]||'var(--dim)')}14); color:${CAT_COLOR[a.cat]||'var(--dim)'}">${escapeHTML((a.source||"?")[0].toUpperCase())}</div>
       <div class="d-feed-body">
-        <div class="d-feed-top"><span class="d-feed-src" style="color:${CAT_COLOR[a.cat]||'var(--dim)'}">${a.source}</span><span class="d-feed-time">· ${a.time}</span></div>
-        <div class="d-feed-title">${a.title}</div>
+        <div class="d-feed-top"><span class="d-feed-src" style="color:${CAT_COLOR[a.cat]||'var(--dim)'}">${escapeHTML(a.source)}</span><span class="d-feed-time">· ${escapeHTML(a.time)}</span></div>
+        <div class="d-feed-title">${escapeHTML(a.title)}</div>
       </div>
     </div>
   `).join("");
 }
 
+/* ============================================================
+   Render principal del escritorio
+   ============================================================ */
 function renderDesktop(){
   renderDesktopSidebar();
   renderDesktopHeader();
   renderDesktopSummary();
   renderDesktopFeed();
   renderDesktopRail();
+
+  // Inicializar reproductor solo una vez
   setupDesktopPlayer();
 
+  // Eventos de búsqueda
   document.getElementById("dSearchBtn").addEventListener("click", openSearch);
   document.getElementById("dSearchOverlay").addEventListener("click", (e) => { if (e.target.id === "dSearchOverlay") closeSearch(); });
   document.getElementById("dSearchInput").addEventListener("input", (e) => renderSearch(e.target.value));
+  document.getElementById("dSearchInput").addEventListener("keydown", e => { if (e.key === "Escape") closeSearch(); });
+
+  // Tema (botón del sidebar)
   document.getElementById("dThemeBtn").addEventListener("click", () => {
     toggleTheme();
-    document.getElementById("dThemeBtn").innerHTML = icon(document.documentElement.getAttribute("data-theme") === "dark" ? 'moon' : 'sun', 14);
+    updateThemeButtons(); // actualiza iconos
   });
-  document.getElementById("dDockWelcome").addEventListener("click", openModal);
 
+  // Video de bienvenida (dock)
+  document.getElementById("dDockWelcome").addEventListener("click", openModal);
+  document.getElementById("dDockWelcome").addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openModal(); } });
+
+  // Cargar video solo en escritorio (lazy)
+  const dockAvatar = document.querySelector(".d-dock-avatar");
+  if (window.matchMedia("(min-width: 900px)").matches && dockAvatar) {
+    if (!dockAvatar.querySelector("video")) {
+      const video = document.createElement("video");
+      video.src = "welcome-video.mp4";
+      video.muted = true;
+      video.loop = true;
+      video.autoplay = true;
+      video.playsInline = true;
+      dockAvatar.appendChild(video);
+    }
+  }
+
+  // Mostrar app
   const app = document.getElementById("desktopApp");
   requestAnimationFrame(() => app.classList.add("ready"));
 
+  // Topbar al hacer scroll
   const scrollArea = document.getElementById("dMainScroll");
   const topbar = document.getElementById("dTopbar");
   scrollArea.addEventListener("scroll", () => {
@@ -1131,15 +1249,34 @@ function renderDesktop(){
   });
 }
 
-/* ── Carga de datos ───────────────────────────────────────────── */
+/* ============================================================
+   Carga de datos
+   ============================================================ */
+function showError(message) {
+  document.getElementById("loading").style.display = "none";
+  const msg = `<div style="padding:40px 20px;color:var(--dim);text-align:center;">
+    <p>${escapeHTML(message)}</p>
+    <button onclick="location.reload()" style="margin-top:16px;padding:8px 16px;background:var(--pur);color:#fff;border:none;border-radius:8px;cursor:pointer;">Reintentar</button>
+  </div>`;
+  document.querySelector(".page").innerHTML = msg;
+  document.getElementById("desktopApp").innerHTML = msg;
+}
+
 fetch("data/news.json")
-  .then(r => r.json())
-  .then(json => { DATA = json; renderChrome(); renderFromData(); renderDesktop(); })
+  .then(r => {
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return r.json();
+  })
+  .then(json => {
+    DATA = json;
+    renderChrome();
+    renderFromData();
+    renderDesktop();
+    document.getElementById("loading").style.display = "none";
+  })
   .catch(err => {
-    const msg = `<p style="padding:40px 20px;color:var(--dim)">No se pudo cargar data/news.json. Revisa que el archivo exista y que el sitio se esté sirviendo por HTTP (no abriendo el archivo directo).</p>`;
-    document.querySelector(".page").innerHTML = msg;
-    document.getElementById("desktopApp").innerHTML = msg;
     console.error(err);
+    showError("No se pudo cargar data/news.json. Revisa que el archivo exista y que el sitio se esté sirviendo por HTTP (no abriendo el archivo directo).");
   });
 </script>
 </body>
