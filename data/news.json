@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 108,
     "sources": 31,
-    "updated_label": "10:48"
+    "updated_label": "10:59"
   },
   "iaday": {
     "reading_minutes": "65 min",
@@ -236,7 +236,7 @@
       "content_type": "repo",
       "title": "codigos_de_smita/Picar",
       "summary": "⭐ 1 estrella — Un asistente personal automatizado de IA que convierte tareas en lenguaje natural en recordatorios proactivos en Discord y Correo Electrónico.",
-      "time": "143h",
+      "time": "144h",
       "url": "https://github.com/codesbysmita/Nudge",
       "stars": "1"
     },
@@ -436,7 +436,7 @@
       "content_type": "paper",
       "title": "Envs-FORGE: Síntesis de Entornos Frontal-Optimizado y Orientado a Recompensas para el Aprendizaje por Reforzamiento de Agentes",
       "summary": "El aprendizaje por refuerzo (AR) para agentes terminales requiere entornos de entrenamiento ejecutables con recompensas confiables y dificultades útiles. Receta",
-      "time": "72h",
+      "time": "73h",
       "url": "https://arxiv.org/abs/2608.14312v1",
       "arxiv": "2608.14312v1"
     },
@@ -494,7 +494,7 @@
       "content_type": "paper",
       "title": "SimpleOPD: Simple Aprendizaje Directo Agnóstico al Tokenizador para Razonamiento con Contexto Largo",
       "summary": "La distilación con políticas en curso (OPD) ofrece una prometedora manera de transferir las capacidades de razonamiento desde modelos maestros más fuertes, pero",
-      "time": "73h",
+      "time": "74h",
       "url": "https://arxiv.org/abs/2608.14277v1",
       "arxiv": "2608.14277v1"
     },
@@ -602,7 +602,7 @@
       "content_type": "paper",
       "title": "LP-NAS: Búsqueda de Arquitectura Neuronal basada en Programación Lineal",
       "summary": "La búsqueda de arquitectura neural (NAS) busca automatizar el diseño de arquitecturas de redes neuronales, reduciendo la dependencia de la experiencia humana. E",
-      "time": "69h",
+      "time": "70h",
       "url": "https://arxiv.org/abs/2608.14472v1",
       "arxiv": "2608.14472v1"
     },
@@ -638,7 +638,7 @@
       "content_type": "paper",
       "title": "Decodificación del Pasado: Un Marco de Aprendizaje Profundo Consciente de la Incertidumbre para la Atribución Sexual en Estampas de Manos Préhistóricas",
       "summary": "Determinar el sexo biológico de las personas que crearon los estampados de manos del Paleolítico Superior sigue siendo un problema desafiante debido a la falta ",
-      "time": "68h",
+      "time": "69h",
       "url": "https://arxiv.org/abs/2608.14539v1",
       "arxiv": "2608.14539v1"
     },
@@ -770,7 +770,7 @@
       "content_type": "paper",
       "title": "CytoBERT: Un modelo de fundamentación para datos de citometría",
       "summary": "La citometría mide las características complejas de células individuales (por ejemplo, los conteos y la expresión de proteínas de células inmunes) y se utiliza ",
-      "time": "70h",
+      "time": "71h",
       "url": "https://arxiv.org/abs/2608.14414v1",
       "arxiv": "2608.14414v1"
     },
@@ -830,7 +830,7 @@
       "content_type": "paper",
       "title": "Garantizando la Seguridad Física del IA en la Movilidad Urbana mediante Envolturas Informadas por Peligros Sintetizadas",
       "summary": "A medida que los sistemas robóticos heterogéneos se despliegan en zonas urbanas diversas, mantener la seguridad frente a las interacciones complejas entre human",
-      "time": "69h",
+      "time": "70h",
       "url": "https://arxiv.org/abs/2608.14481v1",
       "arxiv": "2608.14481v1"
     },
@@ -1033,7 +1033,7 @@
       "content_type": "video",
       "title": "Qué ocurre cuando una empresa funciona solo con IAs",
       "summary": "👉  Descarga aquí tu Plantilla de Plan de Marketing gratuita: https://clickhubspot.com/3387ca \n=======================================================\n¿Es posibl",
-      "time": "1461h",
+      "time": "1462h",
       "url": "https://www.youtube.com/watch?v=4AJPafs4rpk"
     },
     {
@@ -1055,7 +1055,7 @@
       "content_type": "video",
       "title": "TRUCO CHATGPT: Nueva función VISUALIZE #ia #ai #data #inteligenciaartificial #biilbao",
       "summary": "",
-      "time": "9h",
+      "time": "10h",
       "url": "https://www.youtube.com/shorts/CMbWaT8MTBo"
     },
     {
