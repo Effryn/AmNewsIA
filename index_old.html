@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AmNewsIA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root[data-theme="dark"]{
+    --bg:#12161c; --sb:#0d1117; --surf:#1a2028; --s2:#161b22; --line:#2a3340;
+    --ink:#dfe6ee; --dim:#8c98a8; --faint:#5a6675;
+    --acc:#e5a33d; --blue:#2a78d6; --green:#3fa97c; --pur:#7c6af7; --red:#c4453b;
+    --glass-bg: 26,32,40; --glass-alpha: .68;
+  }
+  :root[data-theme="light"]{
+    --bg:#f7f7f9; --sb:#ffffff; --surf:#ffffff; --s2:#f0f1f4; --line:#e4e5ea;
+    --ink:#181a20; --dim:#5c606c; --faint:#9a9da5;
+    --acc:#b5760a; --blue:#2a78d6; --green:#2f8a63; --pur:#7c5cff; --red:#c4453b;
+    --glass-bg: 255,255,255; --glass-alpha: .72;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{ font: 100%/1.5 'Inter', system-ui, sans-serif; }
+  body{ background:var(--bg); color:var(--ink); min-height:100vh; }
+  svg.ic{ width:18px; height:18px; stroke:currentColor; fill:none; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; display:block; flex-shrink:0; }
+
+  /* Estilos para el Scrollbar personalizado */
+  ::-webkit-scrollbar { width: 5px; height: 5px; }
+  ::-webkit-scrollbar-track { background: var(--s2); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb { background: var(--line); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--pur); }
+
+  .page{ max-width:480px; margin:0 auto; min-height:100vh; position:relative; padding-bottom:80px; }
+
+  .appbar{
+    position:sticky; top:0; z-index:10; display:flex; align-items:center; justify-space-between;
+    padding:16px 18px; background:rgba(var(--glass-bg), var(--glass-alpha));
+    backdrop-filter:blur(20px) saturate(180%); -webkit-backdrop-filter:blur(20px) saturate(180%);
+  }
+  .appbar::after{
+    content:""; position:absolute; left:0; right:0; bottom:-14px; height:14px; pointer-events:none;
+    background:linear-gradient(rgba(var(--glass-bg),.35), transparent);
+  }
+  .brand-text .name{ font-size:16px; font-weight:800; letter-spacing:-.1px; }
+  .brand-text .name b{ color:var(--acc); }
+  .brand-text .date{ font-size:11px; color:var(--faint); margin-top:2px; text-transform:capitalize; }
+  .appbar-right{ display:flex; align-items:center; gap:12px; }
+
+  .theme-toggle{
+    width:32px; height:32px; border-radius:50%; background:var(--surf); border:1px solid var(--line);
+    display:flex; align-items:center; justify-content:center; cursor:pointer; color:var(--dim);
+    transition:transform 100ms ease-out;
+  }
+  .theme-toggle:active{ transform:scale(.88); }
+
+  .avatar-btn{
+    width:40px; height:40px; border-radius:50%; overflow:hidden; cursor:pointer;
+    border:2px solid var(--pur); position:relative; flex-shrink:0;
+    transition:transform 100ms ease-out;
+  }
+  .avatar-btn:active{ transform:scale(.9); }
+  .avatar-play{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; background:rgba(0,0,0,.28); }
+  .avatar-play svg{ width:14px; height:14px; stroke:#fff; }
+
+  /* Hero / Resumen Principal */
+  .hero{
+    margin:12px 16px 20px; border-radius:20px; padding:20px;
+    background:
+      radial-gradient(120% 140% at 100% 0%, #7c6af73d 0%, transparent 55%),
+      radial-gradient(120% 140% at 0% 100%, #2a78d62e 0%, transparent 55%),
+      var(--surf);
+    border:1px solid #7c6af73d;
+  }
+  .hero-eyebrow{ font-size:11px; color:var(--pur); margin-bottom:4px; font-weight:700; letter-spacing:0.5px; text-transform:uppercase; }
+  .hero-date{ font-size:12px; font-weight:600; color:var(--faint); margin-bottom:12px; }
+  
+  /* Lectura con Scrollbar integrado */
+  .hero-desc{ 
+    font-size:13px; color:var(--dim); line-height:1.6; margin-bottom:16px; 
+    max-height:110px; overflow-y:auto; padding-right:8px;
+  }
+
+  .player{ display:flex; align-items:center; gap:12px; background:#00000030; border:1px solid #ffffff14; border-radius:14px; padding:10px 14px; }
+  .player-body{ flex:1; min-width:0; display:flex; flex-direction:column; gap:5px; }
+  .player-label{ font-size:11px; font-weight:600; color:var(--dim); }
+  .play-btn{
+    width:38px; height:38px; min-width:38px; border-radius:50%; background:var(--pur);
+    display:flex; align-items:center; justify-content:center; cursor:pointer; border:none;
+    color:#fff; transition:transform 100ms ease-out;
+  }
+  .play-btn:active{ transform:scale(.9); }
+  .play-btn svg{ stroke:#fff; width:16px; height:16px; fill:currentColor; }
+  .wave{ flex:1; display:flex; align-items:center; gap:2px; height:22px; overflow:hidden; }
+  .wave span{ width:2.5px; border-radius:2px; background:#7c6af7aa; flex-shrink:0; animation:wv 1.4s ease-in-out infinite; }
+  .wave.paused span{ animation-play-state:paused; opacity:.4; }
+  @keyframes wv{ 0%,100%{ transform:scaleY(.35);} 50%{ transform:scaleY(1);} }
+  .dur{ font-size:11px; color:var(--faint); font-variant-numeric:tabular-nums; }
+
+  /* Secciones */
+  .sec-header{ margin:0 16px 12px; display:flex; flex-direction:column; gap:10px; }
+  .sec-title-row{ display:flex; align-items:center; justify-content:space-between; }
+  .sec-header h3{ font-size:17px; font-weight:700; letter-spacing:-.15px; }
+
+  /* Filtros de Noticias (Hoy, Semana, Mensual, Historial) */
+  .nav-pills{ display:flex; gap:6px; overflow-x:auto; padding-bottom:4px; }
+  .pill-btn{
+    font-size:11.5px; font-weight:600; padding:6px 14px; border-radius:20px;
+    background:var(--s2); border:1px solid var(--line); color:var(--dim); cursor:pointer;
+    white-space:nowrap; transition:all 150ms ease-out;
+  }
+  .pill-btn.active{ background:var(--pur); color:#fff; border-color:var(--pur); }
+
+  /* Listado de Noticias */
+  .news-list{ margin:0 16px 24px; }
+  .news-row{ display:flex; flex-direction:column; gap:4px; padding:12px 0; border-bottom:1px solid var(--line); text-decoration:none; }
+  .news-row:last-child{ border-bottom:none; }
+  .news-src{ display:flex; align-items:center; gap:6px; font-size:10.5px; color:var(--dim); font-weight:600; }
+  .news-src .dot{ width:8px; height:8px; border-radius:50%; }
+  .news-title{ font-size:13.5px; font-weight:600; line-height:1.4; color:var(--ink); }
+  .news-meta{ display:flex; align-items:center; justify-content:space-between; margin-top:2px; }
+  .news-meta .t{ font-size:10.5px; color:var(--faint); }
+  .news-tech{
+    font-family:'JetBrains Mono',monospace; font-size:9.5px; color:var(--dim);
+    background:var(--s2); border:1px solid var(--line); border-radius:5px; padding:2px 6px;
+  }
+
+  /* Sección de Resúmenes */
+  .summaries-sec{ margin:20px 16px 28px; }
+  .summary-card{
+    background:var(--surf); border:1px solid var(--line); border-radius:14px;
+    padding:14px; margin-bottom:10px; display:flex; align-items:center; justify-content:space-between; gap:12px;
+  }
+  .summary-info{ flex:1; min-width:0; }
+  .summary-badge{ font-size:9.5px; font-weight:700; text-transform:uppercase; color:var(--acc); margin-bottom:3px; }
+  .summary-card-title{ font-size:13px; font-weight:700; color:var(--ink); margin-bottom:2px; }
+  .summary-card-desc{ font-size:11px; color:var(--faint); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .summary-play-btn{
+    width:32px; height:32px; border-radius:50%; background:var(--s2); border:1px solid var(--line);
+    display:flex; align-items:center; justify-content:center; color:var(--pur); cursor:pointer; flex-shrink:0;
+  }
+
+  /* Tabbar Inferior */
+  .tabbar{
+    position:fixed; left:50%; transform:translateX(-50%); bottom:0; width:100%; max-width:480px; height:64px; background:var(--sb);
+    border-top:1px solid var(--line); display:flex; padding:8px 4px 12px; z-index:9;
+  }
+  .tab{ flex:1; display:flex; flex-direction:column; align-items:center; gap:4px; color:var(--faint); font-size:10px; font-weight:600; cursor:pointer; transition:transform 100ms ease-out, color 150ms; }
+  .tab:active{ transform:scale(.92); }
+  .tab.active{ color:var(--pur); }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <!-- Appbar -->
+  <div class="appbar">
+    <div class="brand-text">
+      <div class="name">AmNews<b>IA</b></div>
+      <div class="date">17 de agosto de 2026</div>
+    </div>
+    <div class="appbar-right">
+      <div class="theme-toggle">
+        <svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </div>
+      <div class="avatar-btn">
+        <div class="avatar-play"><svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z"/></svg></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Briefing -->
+  <div class="hero">
+    <div class="hero-eyebrow">Resumen del Día</div>
+    <div class="hero-date">17 de agosto de 2026</div>
+    
+    <!-- Texto del resumen con scrollbar estilizado -->
+    <div class="hero-desc">
+      En la jornada de hoy destaca la aceleración tecnológica en el sector de inteligencia artificial. Se observan avances significativos en modelos de código abierto y nuevas políticas globales de regulación. Además, empresas líderes continúan desplegando capacidades avanzadas en razonamiento y modelos de lenguaje locales.
+    </div>
+    
+    <div class="player">
+      <button class="play-btn">
+        <svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z"/></svg>
+      </button>
+      <div class="player-body">
+        <div class="player-label">Escuchar audio diario</div>
+        <div class="wave">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+      <div class="dur">2:41</div>
+    </div>
+  </div>
+
+  <!-- Sección Noticias -->
+  <div class="sec-header">
+    <div class="sec-title-row">
+      <h3>Noticias</h3>
+    </div>
+    <!-- Filtros: Hoy, Semana, Mensual, Historial -->
+    <div class="nav-pills">
+      <button class="pill-btn active">Hoy</button>
+      <button class="pill-btn">Semana</button>
+      <button class="pill-btn">Mensual</button>
+      <button class="pill-btn">Historial</button>
+    </div>
+  </div>
+
+  <div class="news-list">
+    <!-- Artículo 1 -->
+    <a href="https://github.com/Abhrankan-Chakrabarti/ai-platform-foundations" class="news-row" target="_blank">
+      <div class="news-src"><div class="dot" style="background:var(--pur)"></div> GitHub Trending — Python</div>
+      <span class="news-title">Abhrankan-Chakrabarti/plataforma-de-fundamentos-de-ai</span>
+      <div class="news-meta">
+        <span class="t">Hace 23h</span>
+        <span class="news-tech">Modelos</span>
+      </div>
+    </a>
+
+    <!-- Artículo 2 -->
+    <a href="https://www.muycomputer.com/2026/08/17/deepseek-v4-pro-la-ia-china-sigue-avanzando/" class="news-row" target="_blank">
+      <div class="news-src"><div class="dot" style="background:var(--acc)"></div> MuyComputer</div>
+      <span class="news-title">DeepSeek V4 Pro, la IA china sigue avanzando</span>
+      <div class="news-meta">
+        <span class="t">Hace 5h</span>
+        <span class="news-tech">Modelos</span>
+      </div>
+    </a>
+
+    <!-- Artículo 3 -->
+    <a href="https://hipertextual.com/tecnologia/claude-ya-marca-todo-el-texto-generado-con-una-marca-de-agua-y-ya-hay-gente-buscando-la-forma-de-quitarla-si-se-puede-detectar-se-puede-eliminar/" class="news-row" target="_blank">
+      <div class="news-src"><div class="dot" style="background:var(--blue)"></div> Hipertextual</div>
+      <span class="news-title">Claude ya marca todo el texto generado con una marca de agua...</span>
+      <div class="news-meta">
+        <span class="t">Hace 4h</span>
+        <span class="news-tech">Modelos</span>
+      </div>
+    </a>
+
+    <!-- Artículo 4 -->
+    <a href="https://openai.com/index/new-policy-ideas-for-the-intelligence-age" class="news-row" target="_blank">
+      <div class="news-src"><div class="dot" style="background:var(--green)"></div> OpenAI Blog</div>
+      <span class="news-title">Nuevas ideas de políticas para la Era de la Inteligencia</span>
+      <div class="news-meta">
+        <span class="t">Hace 12h</span>
+        <span class="news-tech">Herramientas</span>
+      </div>
+    </a>
+  </div>
+
+  <!-- Sección Resúmenes -->
+  <div class="sec-header">
+    <div class="sec-title-row">
+      <h3>Resúmenes y Audios</h3>
+    </div>
+  </div>
+
+  <div class="summaries-sec">
+    <!-- Resumen Diario -->
+    <div class="summary-card">
+      <div class="summary-info">
+        <div class="summary-badge">Diario</div>
+        <div class="summary-card-title">Resumen de hoy - 17 Ago</div>
+        <div class="summary-card-desc">Podcast de 2:41 min · Avances clave e innovaciones</div>
+      </div>
+      <div class="summary-play-btn">
+        <svg class="ic" viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z"/></svg>
+      </div>
+    </div>
+
+    <!-- Resumen Semanal -->
+    <div class="summary-card">
+      <div class="summary-info">
+        <div class="summary-badge" style="color:var(--pur)">Semanal</div>
+        <div class="summary-card-title">Semana 33 - Agosto</div>
+        <div class="summary-card-desc">Audio de 8:15 min · Análisis profundo de la semana</div>
+      </div>
+      <div class="summary-play-btn">
+        <svg class="ic" viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z"/></svg>
+      </div>
+    </div>
+
+    <!-- Resumen Mensual -->
+    <div class="summary-card">
+      <div class="summary-info">
+        <div class="summary-badge" style="color:var(--green)">Mensual</div>
+        <div class="summary-card-title">Reporte Julio 2026</div>
+        <div class="summary-card-desc">Audio de 18:30 min · Consolidado mensual de tendencias</div>
+      </div>
+      <div class="summary-play-btn">
+        <svg class="ic" viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z"/></svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tabbar Inferior (Inicio, Noticias, Resúmenes) -->
+  <div class="tabbar">
+    <div class="tab active">
+      <svg class="ic" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      Inicio
+    </div>
+    <div class="tab">
+      <svg class="ic" viewBox="0 0 24 24"><path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V7m2 13a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"/><line x1="7" y1="9" x2="11" y2="9"/><line x1="7" y1="13" x2="13" y2="13"/></svg>
+      Noticias
+    </div>
+    <div class="tab">
+      <svg class="ic" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+      Resúmenes
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
