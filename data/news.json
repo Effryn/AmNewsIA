@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 84,
     "sources": 29,
-    "updated_label": "08:52"
+    "updated_label": "08:56"
   },
   "iaday": {
     "reading_minutes": "50 min",
@@ -425,7 +425,7 @@
       "content_type": "paper",
       "title": "Envs-FORGE: Síntesis de Entornos Frontal-Optimizado y Orientado a Recompensas para el Aprendizaje por Reforzamiento de Agentes",
       "summary": "El aprendizaje por refuerzo (AR) para agentes terminales requiere entornos de entrenamiento ejecutables con recompensas confiables y dificultades útiles. Receta",
-      "time": "70h",
+      "time": "71h",
       "url": "https://arxiv.org/abs/2608.14312v1",
       "arxiv": "2608.14312v1"
     },
@@ -591,7 +591,7 @@
       "content_type": "paper",
       "title": "LP-NAS: Búsqueda de Arquitectura Neuronal basada en Programación Lineal",
       "summary": "La búsqueda de arquitectura neural (NAS) busca automatizar el diseño de arquitecturas de redes neuronales, reduciendo la dependencia de la experiencia humana. E",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2608.14472v1",
       "arxiv": "2608.14472v1"
     },
