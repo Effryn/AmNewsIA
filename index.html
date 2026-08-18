@@ -42,6 +42,7 @@
   }
   .brand-text .name{ font-size:16px; font-weight:800; letter-spacing:-.1px; }
   .brand-text .name b{ color:var(--acc); }
+  .brand-text .tag{ font-size:10px; color:var(--faint); margin-top:2px; }
   .theme-toggle{
     width:32px; height:32px; border-radius:50%; background:var(--surf); border:1px solid var(--line);
     display:flex; align-items:center; justify-content:center; cursor:pointer; color:var(--dim);
@@ -49,21 +50,16 @@
   }
   .theme-toggle:active{ transform:scale(.88); }
 
+  /* ── IA Summary: tarjeta que gira, texto paginado al expandir ────── */
   .flip-wrap{ margin:12px 16px 20px; perspective:1400px; }
   .flip-inner{
     position:relative; transition:transform 480ms cubic-bezier(.2,.8,.2,1);
     transform-style:preserve-3d; min-height:230px;
   }
   .flip-wrap.flipped .flip-inner{ transform:rotateY(180deg); }
-  .face{
-    backface-visibility:hidden; -webkit-backface-visibility:hidden;
-    border-radius:20px; padding:20px; position:relative; overflow:hidden;
-  }
+  .face{ backface-visibility:hidden; -webkit-backface-visibility:hidden; border-radius:20px; padding:20px; position:relative; overflow:hidden; }
   .face.front{ position:relative; }
-  .face.back{
-    position:absolute; inset:0; transform:rotateY(180deg);
-    display:flex; flex-direction:column;
-  }
+  .face.back{ position:absolute; inset:0; transform:rotateY(180deg); display:flex; flex-direction:column; }
   .face-bg{
     background:
       radial-gradient(120% 140% at 100% 0%, #7c6af73d 0%, transparent 55%),
@@ -74,21 +70,18 @@
   .face::before{ content:""; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,var(--pur),var(--acc)); z-index:1; }
 
   .summary-label{ font-size:11px; color:var(--pur); margin-bottom:14px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; }
-  .hero-play-btn{
-    position:absolute; top:16px; right:16px; width:44px; height:44px; border-radius:50%;
-    overflow:hidden; border:2px solid var(--pur); cursor:pointer; z-index:2;
-    transition:transform 100ms ease-out;
-  }
+  .hero-play-btn{ position:absolute; top:16px; right:16px; width:44px; height:44px; border-radius:50%; overflow:hidden; border:2px solid var(--pur); cursor:pointer; z-index:2; transition:transform 100ms ease-out; }
   .hero-play-btn:active{ transform:scale(.9); }
   .hero-play-btn video{ width:100%; height:100%; object-fit:cover; display:block; }
   .hero-play-overlay{ position:absolute; inset:0; background:rgba(0,0,0,.32); display:flex; align-items:center; justify-content:center; }
   .hero-play-overlay svg{ width:15px; height:15px; stroke:#fff; }
 
-  .hero-desc{
-    font-size:13px; color:var(--dim); line-height:1.6; margin-bottom:6px; padding-right:52px;
-    display:-webkit-box; -webkit-line-clamp:5; -webkit-box-orient:vertical; overflow:hidden;
-  }
-  .hero-desc.expanded{ display:block; -webkit-line-clamp:unset; }
+  .hero-desc{ font-size:13px; color:var(--dim); line-height:1.6; margin-bottom:6px; padding-right:52px; display:-webkit-box; -webkit-line-clamp:5; -webkit-box-orient:vertical; overflow:hidden; min-height:66px; }
+  .hero-pager{ display:flex; align-items:center; gap:12px; margin-top:6px; }
+  .pager-btn{ font-size:11px; color:var(--pur); font-weight:700; cursor:pointer; }
+  .pager-btn.off{ opacity:.3; pointer-events:none; }
+  .pager-label{ font-size:10.5px; color:var(--faint); font-variant-numeric:tabular-nums; }
+
   .face-links{ display:flex; align-items:center; gap:14px; margin-top:10px; }
   .hero-more, .flip-trigger{ font-size:11.5px; color:var(--pur); font-weight:600; cursor:pointer; }
 
@@ -101,16 +94,13 @@
   .back-item .s{ font-size:9.5px; color:var(--faint); margin-top:1px; }
   .back-close{ font-size:11.5px; color:var(--pur); font-weight:600; cursor:pointer; margin-top:12px; align-self:flex-start; }
 
+  /* ── Secciones ────────────────────────────────────────────────────── */
   .sec-header{ margin:0 16px 12px; display:flex; flex-direction:column; gap:10px; }
   .sec-title-row{ display:flex; align-items:center; justify-content:space-between; }
   .sec-header h3{ font-size:17px; font-weight:700; letter-spacing:-.15px; }
 
   .nav-pills{ display:flex; gap:6px; overflow-x:auto; padding-bottom:4px; }
-  .pill-btn{
-    font-size:11.5px; font-weight:600; padding:6px 14px; border-radius:20px;
-    background:var(--s2); border:1px solid var(--line); color:var(--dim); cursor:pointer;
-    white-space:nowrap; transition:transform 100ms ease-out, background 150ms, color 150ms;
-  }
+  .pill-btn{ font-size:11.5px; font-weight:600; padding:6px 14px; border-radius:20px; background:var(--s2); border:1px solid var(--line); color:var(--dim); cursor:pointer; white-space:nowrap; transition:transform 100ms ease-out, background 150ms, color 150ms; }
   .pill-btn:active{ transform:scale(.95); }
   .pill-btn.active{ background:var(--pur); color:#fff; border-color:var(--pur); }
   .pill-btn.disabled{ opacity:.45; cursor:default; }
@@ -124,43 +114,49 @@
   .news-title{ font-size:13.5px; font-weight:600; line-height:1.4; color:var(--ink); }
   .news-meta{ display:flex; align-items:center; justify-content:space-between; margin-top:2px; }
   .news-meta .t{ font-size:10.5px; color:var(--faint); }
-  .news-tech{
-    font-family:'JetBrains Mono',monospace; font-size:9.5px; color:var(--dim);
-    background:var(--s2); border:1px solid var(--line); border-radius:5px; padding:2px 6px;
-  }
+  .news-tech{ font-family:'JetBrains Mono',monospace; font-size:9.5px; color:var(--dim); background:var(--s2); border:1px solid var(--line); border-radius:5px; padding:2px 6px; }
   .empty-note{ color:var(--faint); font-size:12.5px; padding:16px 0; }
 
   .pagination{ display:flex; align-items:center; justify-content:center; gap:16px; margin:4px 16px 26px; }
-  .page-btn{
-    font-size:11.5px; font-weight:600; color:var(--dim); background:var(--s2); border:1px solid var(--line);
-    border-radius:20px; padding:6px 14px; cursor:pointer; transition:transform 100ms ease-out, opacity 150ms;
-  }
+  .page-btn{ font-size:11.5px; font-weight:600; color:var(--dim); background:var(--s2); border:1px solid var(--line); border-radius:20px; padding:6px 14px; cursor:pointer; transition:transform 100ms ease-out, opacity 150ms; }
   .page-btn:active{ transform:scale(.95); }
   .page-btn.disabled{ opacity:.35; pointer-events:none; }
   .page-label{ font-size:11px; color:var(--faint); font-variant-numeric:tabular-nums; }
 
-  .summaries-sec{ margin:0 16px 28px; }
-  .rcard{
-    background:var(--surf); border:1px solid var(--line); border-radius:16px; padding:16px;
-    margin-bottom:10px; position:relative; overflow:hidden; cursor:pointer;
-    transition:transform 100ms ease-out, border-color 150ms;
-  }
-  .rcard:active{ transform:scale(.98); }
-  .rcard::before{ content:""; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,var(--pur),var(--acc)); }
-  .rcard.disabled{ opacity:.5; cursor:default; }
-  .rcard.disabled::before{ background:var(--line); }
-  .rcard-badge{ font-size:9.5px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--acc); margin-bottom:6px; }
-  .rcard-title{ font-size:13.5px; font-weight:700; color:var(--ink); margin-bottom:6px; }
-  .rcard-desc{ font-size:11.5px; color:var(--dim); line-height:1.5; padding-right:40px; overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; }
-  .rcard-play{
-    position:absolute; top:16px; right:16px; width:32px; height:32px; min-width:32px; border-radius:50%;
-    background:var(--s2); border:1px solid var(--line); display:flex; align-items:center; justify-content:center; color:var(--pur);
-  }
+  /* ── Resúmenes: Semanal / Mensual / Historial ────────────────────── */
+  .resumenes-body{ margin:0 16px 28px; }
 
-  .tabbar{
-    position:fixed; left:50%; transform:translateX(-50%); bottom:0; width:100%; max-width:480px; height:68px; background:var(--sb);
-    border-top:1px solid var(--line); display:flex; padding:8px 4px 14px; z-index:9;
-  }
+  .week-list{ display:flex; flex-direction:column; gap:8px; }
+  .week-day{ background:var(--surf); border:1px solid var(--line); border-radius:12px; padding:12px 14px; }
+  .week-day.empty{ opacity:.45; }
+  .week-day-head{ display:flex; align-items:baseline; gap:8px; margin-bottom:6px; }
+  .wd-name{ font-size:12.5px; font-weight:700; color:var(--ink); }
+  .wd-date{ font-size:10.5px; color:var(--faint); }
+  .day-empty{ font-size:11px; color:var(--faint); }
+  .day-text{ font-size:11.5px; color:var(--dim); line-height:1.5; margin-bottom:8px; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+  .day-actions{ margin-bottom:6px; }
+  .day-play{ display:inline-flex; align-items:center; gap:6px; font-size:11px; font-weight:600; color:var(--pur); cursor:pointer; }
+  .day-sources{ display:flex; flex-direction:column; gap:3px; }
+  .day-sources a{ font-size:10.5px; color:var(--faint); text-decoration:none; }
+  .day-sources a:active{ color:var(--pur); }
+
+  .cal-header{ display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
+  .cal-title{ font-size:13px; font-weight:700; text-transform:capitalize; }
+  .cal-nav{ width:26px; height:26px; border-radius:50%; background:var(--s2); border:1px solid var(--line); display:flex; align-items:center; justify-content:center; color:var(--dim); cursor:pointer; font-size:12px; }
+  .cal-weekdays{ display:grid; grid-template-columns:repeat(7,1fr); margin-bottom:4px; }
+  .cal-weekdays span{ text-align:center; font-size:9.5px; color:var(--faint); font-weight:600; }
+  .cal-grid{ display:grid; grid-template-columns:repeat(7,1fr); gap:4px; margin-bottom:14px; }
+  .cal-cell{ aspect-ratio:1; display:flex; align-items:center; justify-content:center; font-size:11.5px; color:var(--faint); border-radius:8px; position:relative; }
+  .cal-cell.empty{ visibility:hidden; }
+  .cal-cell.has-data{ background:var(--s2); color:var(--ink); cursor:pointer; font-weight:600; }
+  .cal-cell.has-data:active{ transform:scale(.9); }
+  .cal-cell.today{ border:1px solid var(--pur); }
+  .cal-cell.selected{ background:var(--pur); color:#fff; }
+  .cal-dot{ position:absolute; bottom:3px; width:3px; height:3px; border-radius:50%; background:var(--acc); }
+  .cal-cell.selected .cal-dot{ background:#fff; }
+  #calDayDetail, #calDayDetailHist{ background:var(--surf); border:1px solid var(--line); border-radius:12px; padding:14px; }
+
+  .tabbar{ position:fixed; left:50%; transform:translateX(-50%); bottom:0; width:100%; max-width:480px; height:68px; background:var(--sb); border-top:1px solid var(--line); display:flex; padding:8px 4px 14px; z-index:9; }
   .tab{ flex:1; display:flex; flex-direction:column; align-items:center; gap:4px; color:var(--faint); font-size:10px; font-weight:600; cursor:pointer; transition:transform 100ms ease-out, color 150ms; }
   .tab:active{ transform:scale(.92); }
   .tab.active{ color:var(--pur); }
@@ -173,7 +169,10 @@
 <div class="page">
 
   <div class="appbar">
-    <div class="brand-text"><div class="name">Am<b>News</b>IA</div></div>
+    <div class="brand-text">
+      <div class="name">Am<b>News</b>IA</div>
+      <div class="tag">AI News &amp; Intelligence</div>
+    </div>
     <div class="theme-toggle" id="themeToggle"></div>
   </div>
 
@@ -186,6 +185,7 @@
           <div class="hero-play-overlay" id="heroPlayIcon"></div>
         </div>
         <div class="hero-desc" id="heroDesc">—</div>
+        <div class="hero-pager" id="heroPager" style="display:none;"></div>
         <div class="face-links">
           <span class="hero-more" id="heroMore" onclick="toggleHeroExpand()">Ver más</span>
           <span class="flip-trigger" onclick="flipCard(true)">Ver las 10 fuentes →</span>
@@ -214,8 +214,13 @@
 
   <div class="sec-header" id="secResumenes">
     <div class="sec-title-row"><h3>Resúmenes</h3></div>
+    <div class="nav-pills">
+      <button class="pill-btn active" id="pillSemanal" onclick="setResView('semanal')">Semanal</button>
+      <button class="pill-btn" id="pillMensual" onclick="setResView('mensual')">Mensual</button>
+      <button class="pill-btn" id="pillHistorial" onclick="setResView('historial')">Historial</button>
+    </div>
   </div>
-  <div class="summaries-sec" id="summariesList"></div>
+  <div class="resumenes-body" id="resumenesBody"></div>
 
   <div class="tabbar">
     <div class="tab active" id="tabInicio"><div id="tabIconInicio"></div>Inicio</div>
@@ -244,6 +249,9 @@ const CAT_COLOR = {
   "Herramientas":"var(--acc)", "Industria":"var(--blue)", "Videos":"var(--red)",
 };
 const PAGE_SIZE = 10;
+const DAY_NAMES = ["Lun","Mar","Mié","Jue","Vie","Sáb","Dom"];
+const MONTH_NAMES = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+
 let DATA = null;
 let newsPage = 0;
 
@@ -258,11 +266,61 @@ function renderChrome(){
   document.getElementById("tabIconResumenes").innerHTML = icon('headphones', 19);
 }
 
+/* ── IA Summary: al expandir, el texto se pagina (no un solo bloque largo) ── */
+let heroPages = [];
+let heroPageIdx = 0;
+let heroExpanded = false;
+
+function paginateText(text, chunkSize = 260){
+  const sentences = (text || "").split(/(?<=[.!?])\s+/);
+  const pages = [];
+  let current = "";
+  sentences.forEach(s => {
+    if ((current + " " + s).trim().length > chunkSize && current) {
+      pages.push(current.trim());
+      current = s;
+    } else {
+      current = current ? current + " " + s : s;
+    }
+  });
+  if (current) pages.push(current.trim());
+  return pages.length ? pages : [text || ""];
+}
+
 function toggleHeroExpand(){
+  heroExpanded = !heroExpanded;
   const el = document.getElementById("heroDesc");
   const btn = document.getElementById("heroMore");
-  const expanded = el.classList.toggle("expanded");
-  btn.textContent = expanded ? "Ver menos" : "Ver más";
+  const pager = document.getElementById("heroPager");
+
+  if (heroExpanded){
+    el.classList.remove("clamped");
+    el.style.webkitLineClamp = "unset";
+    el.style.display = "block";
+    heroPageIdx = 0;
+    renderHeroPage();
+    pager.style.display = "flex";
+    btn.textContent = "Ver menos";
+  } else {
+    el.style.display = "-webkit-box";
+    el.style.webkitLineClamp = "5";
+    el.textContent = stripMarkdown(DATA.briefing.script_text);
+    pager.style.display = "none";
+    btn.textContent = "Ver más";
+  }
+}
+
+function renderHeroPage(){
+  document.getElementById("heroDesc").textContent = heroPages[heroPageIdx] || "";
+  document.getElementById("heroPager").innerHTML = `
+    <span class="pager-btn ${heroPageIdx === 0 ? 'off' : ''}" onclick="changeHeroPage(-1)">← Anterior</span>
+    <span class="pager-label">Página ${heroPageIdx + 1} de ${heroPages.length}</span>
+    <span class="pager-btn ${heroPageIdx >= heroPages.length - 1 ? 'off' : ''}" onclick="changeHeroPage(1)">Siguiente →</span>
+  `;
+}
+function changeHeroPage(delta){
+  heroPageIdx = Math.max(0, Math.min(heroPages.length - 1, heroPageIdx + delta));
+  renderHeroPage();
 }
 
 function flipCard(toBack){
@@ -270,9 +328,10 @@ function flipCard(toBack){
 }
 
 function renderHero(){
-  document.getElementById("heroDesc").textContent =
-    stripMarkdown(DATA.briefing.script_text) || "Todavía no hay un resumen generado para hoy.";
+  const clean = stripMarkdown(DATA.briefing.script_text);
+  document.getElementById("heroDesc").textContent = clean || "Todavía no hay un resumen generado para hoy.";
   document.getElementById("briefingAudio").src = DATA.briefing.audio_url;
+  heroPages = paginateText(clean);
 
   const rss = DATA.articles.filter(a => a.source_type === "rss").slice(0, 10);
   document.getElementById("backList").innerHTML = rss.map((a, i) => `
@@ -290,17 +349,13 @@ function renderNewsPage(){
   const slice = rss.slice(newsPage * PAGE_SIZE, newsPage * PAGE_SIZE + PAGE_SIZE);
 
   const box = document.getElementById("newsList");
-  if (!slice.length){
-    box.innerHTML = `<div class="empty-note">Sin noticias nuevas por ahora.</div>`;
-  } else {
-    box.innerHTML = slice.map(a => `
-      <a class="news-row" href="${a.url}" target="_blank" rel="noopener">
-        <div class="news-src"><span class="dot" style="background:${CAT_COLOR[a.cat]||'var(--dim)'}"></span>${a.source}</div>
-        <span class="news-title">${a.title}</span>
-        <div class="news-meta"><span class="t">Hace ${a.time}</span><span class="news-tech">${a.cat}</span></div>
-      </a>
-    `).join("");
-  }
+  box.innerHTML = slice.length ? slice.map(a => `
+    <a class="news-row" href="${a.url}" target="_blank" rel="noopener">
+      <div class="news-src"><span class="dot" style="background:${CAT_COLOR[a.cat]||'var(--dim)'}"></span>${a.source}</div>
+      <span class="news-title">${a.title}</span>
+      <div class="news-meta"><span class="t">Hace ${a.time}</span><span class="news-tech">${a.cat}</span></div>
+    </a>
+  `).join("") : `<div class="empty-note">Sin noticias nuevas por ahora.</div>`;
 
   document.getElementById("pagination").innerHTML = `
     <div class="page-btn ${newsPage === 0 ? 'disabled' : ''}" onclick="changePage(-1)">← Anterior</div>
@@ -314,32 +369,7 @@ function changePage(delta){
   document.getElementById("newsList").scrollIntoView({behavior:"smooth", block:"start"});
 }
 
-function renderSummaries(){
-  const excerpt = stripMarkdown(DATA.briefing.script_text).slice(0, 140);
-  document.getElementById("summariesList").innerHTML = `
-    <div class="rcard" id="rcardDaily">
-      <div class="rcard-badge">Diario</div>
-      <div class="rcard-title">Resumen de hoy</div>
-      <div class="rcard-desc">${excerpt}${excerpt.length >= 140 ? '…' : ''}</div>
-      <div class="rcard-play" id="rcardPlayIcon"></div>
-    </div>
-    <div class="rcard disabled" title="Próximamente">
-      <div class="rcard-badge" style="color:var(--pur)">Semanal</div>
-      <div class="rcard-title">Resumen semanal</div>
-      <div class="rcard-desc">Próximamente.</div>
-      <div class="rcard-play">${icon('play', 13)}</div>
-    </div>
-    <div class="rcard disabled" title="Próximamente">
-      <div class="rcard-badge" style="color:var(--green)">Mensual</div>
-      <div class="rcard-title">Resumen mensual</div>
-      <div class="rcard-desc">Próximamente.</div>
-      <div class="rcard-play">${icon('play', 13)}</div>
-    </div>
-  `;
-  document.getElementById("rcardPlayIcon").innerHTML = icon('play', 13);
-  document.getElementById("rcardDaily").addEventListener("click", toggleAudio);
-}
-
+/* ── Reproductor principal (tarjeta IA Summary) ──────────────────── */
 let isPlaying = false;
 const briefingAudio = document.getElementById("briefingAudio");
 function toggleAudio(){ isPlaying ? briefingAudio.pause() : briefingAudio.play().catch(()=>{}); }
@@ -349,10 +379,17 @@ briefingAudio.addEventListener("ended", () => setPlayingState(false));
 function setPlayingState(playing){
   isPlaying = playing;
   document.getElementById("heroPlayIcon").innerHTML = icon(isPlaying ? 'pause' : 'play', 15);
-  const rp = document.getElementById("rcardPlayIcon");
-  if (rp) rp.innerHTML = icon(isPlaying ? 'pause' : 'play', 13);
 }
 document.getElementById("heroPlayBtn").addEventListener("click", toggleAudio);
+
+/* Audio secundario para dias sueltos (semana/mes/historial) -- no
+   comparte estado con el reproductor principal, es un uso puntual. */
+let dayAudioEl = null;
+function playDayAudio(url){
+  if (dayAudioEl){ dayAudioEl.pause(); dayAudioEl = null; }
+  dayAudioEl = new Audio(url);
+  dayAudioEl.play().catch(()=>{});
+}
 
 function toggleTheme(){
   const html = document.documentElement;
@@ -373,10 +410,163 @@ document.getElementById("tabResumenes").addEventListener("click", () => {
   document.getElementById("secResumenes").scrollIntoView({behavior:"smooth", block:"start"});
 });
 
+/* ══════════════════════════════════════════════════════════════════
+   RESÚMENES: Semanal (Lun-Dom con texto+audio+fuentes),
+   Mensual (calendario del mes actual), Historial (calendario navegable)
+   -- todo alimentado por data/history/index.json + data/history/{fecha}.json
+   ══════════════════════════════════════════════════════════════════ */
+let historyIndex = null;
+
+async function loadHistoryIndex(){
+  if (historyIndex) return historyIndex;
+  try {
+    const res = await fetch("data/history/index.json");
+    historyIndex = res.ok ? await res.json() : [];
+  } catch(e){ historyIndex = []; }
+  return historyIndex;
+}
+
+async function fetchDayDetail(dateStr){
+  try {
+    const res = await fetch(`data/history/${dateStr}.json`);
+    return res.ok ? await res.json() : null;
+  } catch(e){ return null; }
+}
+
+function fmtDateISO(d){
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+function getMonday(d){
+  const day = d.getDay();
+  const diff = (day === 0 ? -6 : 1) - day;
+  const m = new Date(d);
+  m.setDate(d.getDate() + diff);
+  m.setHours(0,0,0,0);
+  return m;
+}
+
+function dayDetailHTML(data){
+  const excerpt = stripMarkdown(data.briefing.script_text);
+  const sources = (data.articles||[]).filter(a=>a.source_type==="rss").slice(0,5);
+  return `
+    <div class="day-text">${excerpt || "Sin resumen disponible este día."}</div>
+    <div class="day-actions">
+      <span class="day-play" onclick="playDayAudio('${data.briefing.audio_url}')">${icon('play',12)} Escuchar · ${data.briefing.duration_label}</span>
+    </div>
+    ${sources.length ? `<div class="day-sources">${sources.map(s=>`<a href="${s.url}" target="_blank" rel="noopener">↗ ${s.title}</a>`).join("")}</div>` : ""}
+  `;
+}
+
+async function renderSemanal(){
+  const box = document.getElementById("resumenesBody");
+  box.innerHTML = `<p style="color:var(--faint); font-size:12px; padding:8px 0;">Cargando la semana…</p>`;
+
+  const index = await loadHistoryIndex();
+  const byDate = Object.fromEntries(index.map(e => [e.date, e]));
+  const monday = getMonday(new Date());
+  const days = Array.from({length:7}).map((_,i) => { const d = new Date(monday); d.setDate(monday.getDate()+i); return d; });
+
+  const rows = await Promise.all(days.map(async (d) => {
+    const dateStr = fmtDateISO(d);
+    const label = DAY_NAMES[d.getDay() === 0 ? 6 : d.getDay() - 1];
+    const has = !!byDate[dateStr];
+    let inner = `<div class="day-empty">Sin datos este día.</div>`;
+    if (has){
+      const detail = await fetchDayDetail(dateStr);
+      if (detail) inner = dayDetailHTML(detail);
+    }
+    return `
+      <div class="week-day ${has ? '' : 'empty'}">
+        <div class="week-day-head"><span class="wd-name">${label}</span><span class="wd-date">${d.getDate()}</span></div>
+        ${inner}
+      </div>
+    `;
+  }));
+
+  box.innerHTML = `<div class="week-list">${rows.join("")}</div>`;
+}
+
+let calYear, calMonth; // usado tanto por Mensual (fijo) como Historial (navegable)
+
+function buildCalendarHTML(year, month, availableSet, navigable, detailBoxId){
+  const first = new Date(year, month, 1);
+  const startOffset = (first.getDay() === 0 ? 6 : first.getDay() - 1);
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const todayStr = fmtDateISO(new Date());
+
+  let cells = "";
+  for (let i = 0; i < startOffset; i++) cells += `<div class="cal-cell empty"></div>`;
+  for (let day = 1; day <= daysInMonth; day++){
+    const dateStr = `${year}-${String(month+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;
+    const has = availableSet.has(dateStr);
+    const isToday = dateStr === todayStr;
+    cells += `<div class="cal-cell ${has ? 'has-data' : ''} ${isToday ? 'today' : ''}" ${has ? `onclick="onCalendarDayClick('${dateStr}','${detailBoxId}')"` : ""}>${day}${has ? '<span class="cal-dot"></span>' : ''}</div>`;
+  }
+
+  return `
+    <div class="cal-header">
+      ${navigable ? `<div class="cal-nav" onclick="changeCalMonth(-1)">←</div>` : `<div style="width:26px"></div>`}
+      <div class="cal-title">${MONTH_NAMES[month]} ${year}</div>
+      ${navigable ? `<div class="cal-nav" onclick="changeCalMonth(1)">→</div>` : `<div style="width:26px"></div>`}
+    </div>
+    <div class="cal-weekdays">${DAY_NAMES.map(d => `<span>${d}</span>`).join("")}</div>
+    <div class="cal-grid">${cells}</div>
+    <div id="${detailBoxId}"><p style="color:var(--faint); font-size:11.5px;">Toca un día con datos para verlo.</p></div>
+  `;
+}
+
+async function onCalendarDayClick(dateStr, detailBoxId){
+  const box = document.getElementById(detailBoxId);
+  box.innerHTML = `<p style="color:var(--faint); font-size:11.5px;">Cargando…</p>`;
+  document.querySelectorAll(".cal-cell.has-data").forEach(c => c.classList.remove("selected"));
+  const cell = [...document.querySelectorAll(".cal-cell.has-data")].find(c => c.getAttribute("onclick")?.includes(`'${dateStr}'`));
+  if (cell) cell.classList.add("selected");
+
+  const detail = await fetchDayDetail(dateStr);
+  box.innerHTML = detail
+    ? `<div class="back-sub" style="margin-bottom:8px;">${detail.date_label}</div>${dayDetailHTML(detail)}`
+    : `<p style="color:var(--faint); font-size:11.5px;">No se pudo cargar este día.</p>`;
+}
+
+async function renderMensual(){
+  const box = document.getElementById("resumenesBody");
+  const index = await loadHistoryIndex();
+  const availableSet = new Set(index.map(e => e.date));
+  const now = new Date();
+  box.innerHTML = buildCalendarHTML(now.getFullYear(), now.getMonth(), availableSet, false, "calDayDetail");
+}
+
+async function renderHistorial(){
+  const box = document.getElementById("resumenesBody");
+  const index = await loadHistoryIndex();
+  const availableSet = new Set(index.map(e => e.date));
+  if (calYear === undefined){
+    const now = new Date();
+    calYear = now.getFullYear(); calMonth = now.getMonth();
+  }
+  box.innerHTML = buildCalendarHTML(calYear, calMonth, availableSet, true, "calDayDetailHist");
+}
+function changeCalMonth(delta){
+  calMonth += delta;
+  if (calMonth < 0){ calMonth = 11; calYear--; }
+  if (calMonth > 11){ calMonth = 0; calYear++; }
+  renderHistorial();
+}
+
+let resView = "semanal";
+function setResView(view){
+  resView = view;
+  ["Semanal","Mensual","Historial"].forEach(v => document.getElementById(`pill${v}`).classList.toggle("active", v.toLowerCase() === view));
+  if (view === "semanal") renderSemanal();
+  if (view === "mensual") renderMensual();
+  if (view === "historial") renderHistorial();
+}
+
+/* ── Carga inicial ────────────────────────────────────────────────── */
 renderChrome();
 fetch("data/news.json")
   .then(r => r.json())
-  .then(json => { DATA = json; renderHero(); renderNewsPage(); renderSummaries(); })
+  .then(json => { DATA = json; renderHero(); renderNewsPage(); setResView("semanal"); })
   .catch(err => {
     document.querySelector(".page").innerHTML =
       `<p style="padding:40px 20px;color:var(--dim)">No se pudo cargar data/news.json. Revisa que el sitio se esté sirviendo por HTTP.</p>`;
