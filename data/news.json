@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 81,
     "sources": 31,
-    "updated_label": "09:56"
+    "updated_label": "10:17"
   },
   "iaday": {
     "reading_minutes": "49 min",
@@ -35,7 +35,7 @@
       "content_type": "paper",
       "title": "Cómo fallan los agentes en AutoResearch: Evaluación diagnóstica end-to-end en 100 tareas de investigación de vanguardia del mundo real",
       "summary": "El AI ha ayudado a la investigación científica durante mucho tiempo, pero el rápido avance de LLMs y soportes agentes está remodelando el paisaje; un solo siste",
-      "time": "113h",
+      "time": "114h",
       "url": "https://huggingface.co/papers/2608.14905"
     },
     {
@@ -46,7 +46,7 @@
       "content_type": "repo",
       "title": "DavidClark-ops2004a7/Skyrim-AI-Revolution-Ultimate-NPC-Mod",
       "summary": "⭐ 21 estrellas — 🧠 Mod de NPC con inteligencia artificial para Skyrim Special Edition — verdadera inteligencia artificial para compañeros y NPCs. Memoria, progr",
-      "time": "39h",
+      "time": "40h",
       "url": "https://github.com/davidclark-ops2004a7/Skyrim-AI-Revolution-Ultimate-NPC-Mod",
       "stars": "21"
     },
@@ -106,7 +106,7 @@
       "content_type": "repo",
       "title": "nishit12angrish/fraudguard.ai",
       "summary": "⭐ 1 estrella — FraudGuard AI — Un sistema de detección de fraude en comercio electrónico impulsado por IA que combina aprendizaje automático, detección de anoma",
-      "time": "3h",
+      "time": "4h",
       "url": "https://github.com/nishit12angrish/fraudguard.ai",
       "stars": "1"
     },
@@ -118,7 +118,7 @@
       "content_type": "paper",
       "title": "DumpsterCluster: De la recogida de basura a servir LLaMA-70B en GPUs de $60",
       "summary": "Cuando los datacenters de IA retiran los GPUs funcionales, grandes cantidades de aceleradores aún capaces entran en mercados secundarios. Este artículo investig",
-      "time": "953h",
+      "time": "954h",
       "url": "https://huggingface.co/papers/2608.14614"
     },
     {
@@ -129,7 +129,7 @@
       "content_type": "paper",
       "title": "Informe Técnico MOSS-VL",
       "summary": "Presentamos MOSS-VL, una familia de modelos de lenguaje-vista abiertos que trata la interacción en tiempo real -- percibiendo mientras habla -- como una capacid",
-      "time": "89h",
+      "time": "90h",
       "url": "https://huggingface.co/papers/2608.15045"
     },
     {
@@ -140,7 +140,7 @@
       "content_type": "paper",
       "title": "HiFi-BRep: Representación Latente de Alta Fidelidad para la Generación Robusta de B-Rep",
       "summary": "La generación de representación por fronteras (B-Rep) es una tarea fundamental en el diseño asistido por computadora, pero la síntesis directa de B-Reps de alta",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2608.16485"
     },
     {
@@ -151,7 +151,7 @@
       "content_type": "paper",
       "title": "Revisión previa de auditoría-reparación cambia el contexto que inclina los umbral verificadores del modelo LLM hacia una mayor indulgencia.",
       "summary": "Los canales de verificación automatizados cada vez utilizan un modelo de lenguaje como verificador y otro (o el mismo) como corrector. Nos preguntamos si esa co",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2608.16003"
     },
     {
@@ -162,7 +162,7 @@
       "content_type": "paper",
       "title": "Detectando y Mediendo Contenido Web Optimizado para GEO",
       "summary": "La Optimización del Motor Generativo (GEO) modifica el contenido web para aumentar la probabilidad de ser seleccionado y citado por motores de búsqueda generati",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.16824v1",
       "arxiv": "2608.16824v1"
     },
@@ -174,7 +174,7 @@
       "content_type": "paper",
       "title": "Avance del Aprendizaje Relacional Abierto y Reproducible: RelArena-α, TabPFN-Rel y RPI",
       "summary": "Esta primera versión de Prior Labs en el aprendizaje relacional muestra nuestro compromiso continuo con la ciencia abierta. Abrimos fuente tres piezas de softwa",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2608.16319"
     },
     {
@@ -185,7 +185,7 @@
       "content_type": "paper",
       "title": "Modelos de Gran Descubrimiento: Búsqueda Abierta basada en Modelos y Aprendizaje Empírico",
       "summary": "La descubierta científica a menudo implica optimizar objetivos costosos de evaluar sobre espacios hipotéticos vastos, estructurados y abiertos, como moléculas, ",
-      "time": "65h",
+      "time": "66h",
       "url": "https://huggingface.co/papers/2608.15669"
     },
     {
@@ -196,7 +196,7 @@
       "content_type": "paper",
       "title": "Aprender lo No Aprendido, No lo Maestrado: Reweighted Evaluación de Ventajas Consciente de la Saturación para la Optimización de la Política con Múltiples Recompensas",
       "summary": "El aprendizaje por refuerzo (AR) con ventajas relativas grupales se ha convertido en la norma para los modeladores de lenguaje después del entrenamiento que raz",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2608.16072"
     },
     {
@@ -207,7 +207,7 @@
       "content_type": "paper",
       "title": "Drive, Pack, Fly: El Problema del Ladroncillo Viajero con Drone",
       "summary": "En las operaciones de recolección, el acumulado de carga progresivamente reduce la velocidad del vehículo, imponiendo una penalidad acumulativa en la eficiencia",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2608.16435"
     },
     {
@@ -218,7 +218,7 @@
       "content_type": "paper",
       "title": "AnyTalk: Animación del Habla para Personajes Arbitrarios Utilizando un Modelo de Generación de Video",
       "summary": "Presentamos AnyTalk, un método novedoso para generar animaciones de habla tridimensionales para personajes arbitrarios sin requerir ningún dato de animación. Mi",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2608.16143"
     },
     {
@@ -229,7 +229,7 @@
       "content_type": "paper",
       "title": "Iteración de Políticas con Feedback Humano: Trajendo el Aprendizaje por Refuerzo Pos-Entrenamiento al Aprendizaje en Contextos",
       "summary": "La preentrenamiento generativa estableció representaciones reutilizables de tareas; el trabajo posterior sobre condicionamiento basado en lenguaje e aprendizaje",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.16831v1",
       "arxiv": "2608.16831v1"
     },
@@ -253,7 +253,7 @@
       "content_type": "paper",
       "title": "NO DEJE CAER EL BATON: Manipulación robotizada a largo plazo mediante la exploración de subtareas agentes y memoria consciente de transiciones",
       "summary": "Las cadenas de manipulación robótica a largo plazo combinan muchas habilidades ricas en contacto en una tarea multietapa. Los modelos de visión-lenguaje-acción ",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.16889v1",
       "arxiv": "2608.16889v1"
     },
@@ -265,7 +265,7 @@
       "content_type": "paper",
       "title": "GRNEdit: Edición eficiente de video general desde una nueva perspectiva basada en evidencia binaria en redes de refinamiento generativo",
       "summary": "La edición general de videos basada en instrucciones busca unificar diversas operaciones de edición dentro de una interfaz intuitiva y unificada. Enfoques exist",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2608.16328"
     },
     {
@@ -276,7 +276,7 @@
       "content_type": "paper",
       "title": "Un interfaz de movimiento 2D Plug-and-Play para modelos de lenguaje de movimiento del mundo real",
       "summary": "Los Modelos de Lenguaje para Movimientos (MoLMs) suelen comprender los movimientos humanos tokenizando los movimientos 3D y procesando los token resultantes uti",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2608.15984"
     },
     {
@@ -287,7 +287,7 @@
       "content_type": "paper",
       "title": "TRACE-Bench: Descomposición y Diagnóstico de la Generación de Imágenes con Referencias Múltiples",
       "summary": "A pesar de los avances recientes en modelos unificados multimodales para la generación de imágenes con múltiples referencias, los benchmarks existentes siguen o",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2608.16765"
     },
     {
@@ -298,7 +298,7 @@
       "content_type": "paper",
       "title": "WorldRover: Un motor de datos de video sintético escalable con anotaciones ricas para la exploración del mundo",
       "summary": "Aprender a generar o reconstruir mundos explorables requiere video acompañado de más que RGB: movimiento de cámara, geometría de escena, correspondencia tempora",
-      "time": "65h",
+      "time": "66h",
       "url": "https://huggingface.co/papers/2608.15659"
     },
     {
@@ -309,7 +309,7 @@
       "content_type": "paper",
       "title": "Aclaramiento Iterativo Auto-supervisado y Denoising de Manifolds bajo un Fuerte Desfase Acústico",
       "summary": "Los modelos de fundación de la Fundación de Modelos de Texto Auditivos (ATMs) fallan catastroficamente bajo un ruido acústico severo, y las estrategias existent",
-      "time": "89h",
+      "time": "90h",
       "url": "https://huggingface.co/papers/2608.15037"
     },
     {
@@ -332,7 +332,7 @@
       "content_type": "paper",
       "title": "Cuando el Estado Se Convierte en una Superficie de Ataque: Inyección Semántica del Estado en Agentes Embodied Dirigidos por LLM",
       "summary": "Los Modelos de Lenguaje Grandes (LLMs) han demostrado capacidades en el aprendizaje en contexto, la descomposición de tareas, el razonamiento paso a paso y la g",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.16806v1",
       "arxiv": "2608.16806v1"
     },
@@ -392,7 +392,7 @@
       "content_type": "paper",
       "title": "Quipu: Un Almacén de Grafos de Conocimiento Bitemporal Gestionado",
       "summary": "Ahora los agentes escriben grafos de conocimiento, pero los almacenes de grafos de conocimiento aún llevan predeterminados que se establecieron cuando los human",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.16813v1",
       "arxiv": "2608.16813v1"
     },
@@ -452,7 +452,7 @@
       "content_type": "paper",
       "title": "Cuando los Agentes Coordinan: Medir la Coordinación en el Aprendizaje Automático con Agentes Multitudinarios",
       "summary": "Estudiamos cómo los equipos de agentes de codificación de IA se coordinan al resolver tareas de programación. Las evaluaciones actuales suelen informar si los a",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.16801v1",
       "arxiv": "2608.16801v1"
     },
@@ -476,7 +476,7 @@
       "content_type": "paper",
       "title": "CaliBench: ¿Son las Dinámicas Estocásticas de los Modelos de Mundo de Video Físicamente Calibrados?",
       "summary": "Los modelos de mundo de video aproximan la distribución estocástica de resultados físicos mediante muestreo generativo, pero los benchmarks existentes califican",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.16829v1",
       "arxiv": "2608.16829v1"
     },
@@ -488,7 +488,7 @@
       "content_type": "paper",
       "title": "Diagnóstico de Enlazamientos Incorrectos de Atributos de la Misma Clase en Modelos de Visión-Lenguaje Grandes",
       "summary": "Los grandes modelos de visión y lenguaje pueden reconocer objetos y atributos en un escenario concurrido, pero pueden asignar un atributo incorrectamente a una ",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.16805v1",
       "arxiv": "2608.16805v1"
     },
@@ -512,7 +512,7 @@
       "content_type": "paper",
       "title": "Cierre del Círculo Afectivo: Robótica Social Empática Consciente de las Dinámicas Emocionales y Modales Hablante-Oíente",
       "summary": "Los robots sociales empáticos deben responder no solo a lo que los usuarios dicen, sino también a cómo sus emociones evolucionan dinámicamente durante la intera",
-      "time": "22h",
+      "time": "23h",
       "url": "https://arxiv.org/abs/2608.16686v1",
       "arxiv": "2608.16686v1"
     },
@@ -584,7 +584,7 @@
       "content_type": "paper",
       "title": "Aprendizaje No Supervisado de Instancias de Células con Pirámides de Ruteo Generativo",
       "summary": "Identificar y representar instancias de objetos, como células o núcleos, es una tarea común en el análisis de imágenes de microscopía. Los flujos de trabajo de ",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.16810v1",
       "arxiv": "2608.16810v1"
     },
@@ -596,7 +596,7 @@
       "content_type": "paper",
       "title": "Mejorando el exponente de la multiplicación matricial con optimización moderna y AlphaEvolve",
       "summary": "Los actuales mejores límites sobre el exponente de multiplicación de matrices \\( \\omega \\) se obtienen mediante una refinación del método láser llamado análisis",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.16884v1",
       "arxiv": "2608.16884v1"
     },
@@ -632,7 +632,7 @@
       "content_type": "paper",
       "title": "Aprendizaje de lenguajes de signos cruzados mediante adaptación de dominio con alineación temporal multiescala",
       "summary": "El lenguaje de signos sirve como medio vital de comunicación para personas con déficit auditivo, pero los recursos de reconocimiento para más de 100 lenguajes d",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.16804v1",
       "arxiv": "2608.16804v1"
     },
@@ -644,7 +644,7 @@
       "content_type": "paper",
       "title": "¿Crea el LM Head un Bottleneck Gradiente Dañino? Un Prueba Causal",
       "summary": "El cabezal del modelo de lenguaje mapea un estado oculto de ancho D a un vocabulario de tamaño V, por lo que su traspuesto puede devolver al más tardar D direcc",
-      "time": "22h",
+      "time": "23h",
       "url": "https://arxiv.org/abs/2608.16671v1",
       "arxiv": "2608.16671v1"
     },
@@ -656,7 +656,7 @@
       "content_type": "paper",
       "title": "Aprendizaje por inversión de recompensa variacional basado en Q",
       "summary": "El desarrollo de sistemas de IA seguros y beneficiosos requiere que los sistemas puedan aprender y actuar de acuerdo con las preferencias humanas. Sin embargo, ",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.16888v1",
       "arxiv": "2608.16888v1"
     },
@@ -668,7 +668,7 @@
       "content_type": "paper",
       "title": "Intervalos Espectrales de Hit-and-Run y Coordinate Hit-and-Run",
       "summary": "Para cualquier cuerpo convexo \\(\\mathcal{K} \\subset \\mathbb{R}^{n}\\) que contenga una esfera unitaria, el agujero espectral de Hit-and-Run es \\(Ω(1/(n^2 C_{\\mat",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.16878v1",
       "arxiv": "2608.16878v1"
     },
@@ -704,7 +704,7 @@
       "content_type": "video",
       "title": "Cursos de IA GRATIS con certificado de Google 🤖📚",
       "summary": "Google tiene microcursos gratis para aprender inteligencia artificial. 🤖📚\n👉🏻 Se llaman AI Boost Bites y están disponibles dentro de Google Skills.\n•\nPuedes apre",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.youtube.com/shorts/yjzfTrjtO2o"
     },
     {
@@ -715,7 +715,7 @@
       "content_type": "video",
       "title": "Google lo ha vuelto a hacer: 6 nuevas funciones de Gemini que puedes usar YA",
       "summary": "Utiliza Hostinger Ecommerce. Cupón MIGUEBAENA10 https://www.hostg.xyz/aff_c?offer_id=48&amp;aff_id=206858&amp;url_id=6554\n\nPrueba Omnisend con un 30% de descuen",
-      "time": "20h",
+      "time": "21h",
       "url": "https://www.youtube.com/watch?v=Hc5JV_HdkIw"
     },
     {
@@ -759,7 +759,7 @@
       "content_type": "news",
       "title": "China está obligando a cortar a parejas. Eso sí: sólo si uno de los dos es una IA",
       "summary": "<p>\n     <img alt=\"China&#x20;est&#x00E1;&#x20;obligando&#x20;a&#x20;cortar&#x20;a&#x20;parejas.&#x20;Eso&#x20;s&#x00ED;&#x3A;&#x20;s&#x00F3;lo&#x20;si&#x20;uno",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.xataka.com/robotica-e-ia/china-esta-obligando-a-cortar-a-parejas-eso-solo-uno-dos-ia"
     },
     {
@@ -770,7 +770,7 @@
       "content_type": "news",
       "title": "Aún no se conoce de manera definitiva cómo las personas están realmente utilizando la IA.",
       "summary": "Las compañías de IA como Anthropic y OpenAI publican regularmente informes sobre cómo las personas están utilizando productos como Claude y ChatGPT, pero solo l",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/"
     },
     {
@@ -803,7 +803,7 @@
       "content_type": "news",
       "title": "Amazon está destruyendo miles de libros para entrenar sus modelos de IA",
       "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"569\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-content/upl",
-      "time": "18h",
+      "time": "19h",
       "url": "https://hipertextual.com/inteligencia-artificial/amazon-destruye-libros-raros-entrenar-ia/"
     },
     {
@@ -836,7 +836,7 @@
       "content_type": "news",
       "title": "Un cuarta parte de las brechas maliciosas se realiza con inteligencia artificial",
       "summary": "IBM alerta de que \"la IA está haciendo que los ataques sean más rápidos y baratos, mientras que las brechas de seguridad resultan cada vez más costosas\".",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.silicon.es/un-cuarta-parte-de-las-brechas-maliciosas-se-realiza-con-inteligencia-artificial-2583101"
     },
     {
@@ -858,7 +858,7 @@
       "content_type": "news",
       "title": "“Paradoja de la Inferencia”, nuevo desafío en el campo de la IA",
       "summary": "Gartner prevé que los costes de la inferencia de inteligencia artificial por flujo de trabajo agéntico se multiplicará por más de cinco hasta 2028.",
-      "time": "5h",
+      "time": "6h",
       "url": "https://www.silicon.es/paradoja-de-la-inferencia-nuevo-desafio-en-el-campo-de-la-ia-2583086"
     },
     {
@@ -869,7 +869,7 @@
       "content_type": "news",
       "title": "Colaborando con CodeAI para preparar la primera generación de inteligencia artificial",
       "summary": "OpenAI y CodeAI están colaborando para ayudar a los estudiantes a desarrollar alfabetización en inteligencia artificial, reflexionar críticamente sobre la intel",
-      "time": "2h",
+      "time": "3h",
       "url": "https://openai.com/index/partnering-with-codeai"
     },
     {
@@ -880,7 +880,7 @@
       "content_type": "news",
       "title": "Presentando ChatGPT para Adolescentes: Diseñado para el aprendizaje, respaldado por protecciones",
       "summary": "ChatGPT para Adolescentes ayuda a los adolescentes a aprender, a pensar críticamente y a usar la IA con confianza, con protecciones incorporadas más fuertes, ca",
-      "time": "2h",
+      "time": "3h",
       "url": "https://openai.com/index/chatgpt-for-teens"
     },
     {
@@ -902,7 +902,7 @@
       "content_type": "news",
       "title": "La auto_mejora recursiva del AI puede no producirse tan rápidamente como se pensaba.",
       "summary": "La industria del AI ha hecho la promesa más audaz de que el AI mejorará pronto por sí mismo, con casi ninguna necesidad de supervisión humana. Los LLMs pueden e",
-      "time": "4h",
+      "time": "5h",
       "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/"
     },
     {
@@ -913,7 +913,7 @@
       "content_type": "news",
       "title": "Lo que los defensores de Flock están omitiendo",
       "summary": "Esta historia originalmente apareció en The Algorithm, nuestro boletín semanal sobre IA. Para recibir historias como ésta en tu correo primero, únete aquí. Floc",
-      "time": "18h",
+      "time": "19h",
       "url": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/"
     },
     {
@@ -924,7 +924,7 @@
       "content_type": "news",
       "title": "Meta patenta un sistema para que tus Ray-Ban sepan quién eres y qué estás haciendo",
       "summary": "<figure><img alt=\"Meta Ray-Ban Display\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/imgs.hipertextua",
-      "time": "13h",
+      "time": "14h",
       "url": "https://hipertextual.com/tecnologia/meta-patente-reconocimiento-facial-gafas/"
     },
     {
@@ -935,7 +935,7 @@
       "content_type": "news",
       "title": "5 habilidades para encarar la vuelta a la oficina tras las vacaciones",
       "summary": "ISDI pone el foco en una forma de trabajar cada vez más condicionada por las herramientas de inteligencia artificial.",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.silicon.es/5-habilidades-para-encarar-la-vuelta-a-la-oficina-tras-las-vacaciones-2583115"
     },
     {
@@ -946,7 +946,7 @@
       "content_type": "news",
       "title": "Un 96 % de las organizaciones españoles cree que la IA privada y soberana es importante",
       "summary": "Los principales motivos para apoyar estrategias soberanas son la seguridad, ganar ventaja competitiva y simplificar el ecosistema tecnológico.",
-      "time": "4h",
+      "time": "5h",
       "url": "https://www.silicon.es/un-96-de-las-organizaciones-espanoles-cree-que-la-ia-privada-y-soberana-es-importante-2583093"
     },
     {
