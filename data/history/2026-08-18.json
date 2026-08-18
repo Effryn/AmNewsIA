@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 81,
     "sources": 31,
-    "updated_label": "09:54"
+    "updated_label": "09:56"
   },
   "iaday": {
     "reading_minutes": "49 min",
@@ -380,7 +380,7 @@
       "content_type": "paper",
       "title": "AutoSR: Regresión Simbólica Automática mediante la Búsqueda de Estados de Investigación",
       "summary": "Introducimos la Regresión Simbólica Automática (AutoSR), un sistema automatizado que instanciaba la Regresión Simbólica Simbólica de Espacio de Investigación ci",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.16876v1",
       "arxiv": "2608.16876v1"
     },
