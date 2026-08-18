@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 81,
     "sources": 31,
-    "updated_label": "10:17"
+    "updated_label": "10:33"
   },
   "iaday": {
     "reading_minutes": "49 min",
@@ -58,7 +58,7 @@
       "content_type": "repo",
       "title": "lucidrains/bdh-cq",
       "summary": "⭐ 15 estrellas — Implementación de BDH-CQ: Aprendizaje con Contexto In-Contexto con Razonamiento Latente Recurrente, propuesto por Pathway Research",
-      "time": "48h",
+      "time": "49h",
       "url": "https://github.com/lucidrains/bdh-cq",
       "stars": "15"
     },
@@ -94,7 +94,7 @@
       "content_type": "repo",
       "title": "Dytalmc/Atlas",
       "summary": "⭐ 2 estrellas — Un sistema de inteligencia artificial highly customizable y avanzado.",
-      "time": "22h",
+      "time": "23h",
       "url": "https://github.com/Dytalmc/Atlas",
       "stars": "2"
     },
@@ -320,7 +320,7 @@
       "content_type": "paper",
       "title": "HAF: Adaptación de VLAs Generalistas a la Loco-manipulación Cuerpo-Completo de Hoides通过层次行动流程和谱潜伏强化学习",
       "summary": "Los robots humanoides ofrecen gran promesa como agentes de propósito general en entornos centrados en el humano, sin embargo, los modelos de base de visión-leng",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.16837v1",
       "arxiv": "2608.16837v1"
     },
@@ -344,7 +344,7 @@
       "content_type": "paper",
       "title": "Semantic Bandits: La exploración-explotación en contexto está sesgada por los prioresemánticos",
       "summary": "Los modelos de lenguaje de gran escala (LLMs) se están desplegando cada vez más como agentes de toma de decisiones en entornos que requieren una exploración amb",
-      "time": "22h",
+      "time": "23h",
       "url": "https://arxiv.org/abs/2608.16707v1",
       "arxiv": "2608.16707v1"
     },
@@ -368,7 +368,7 @@
       "content_type": "paper",
       "title": "Cuándo Ayudan las Explicaciones en el Aprendizaje Contextualizado: Un Estudio Comparativo sobre Tipos de Explicación en Lengua Natural y Fidelidad",
       "summary": "Las explicaciones en lenguaje natural (NLEs) se utilizan cada vez más como entradas, por ejemplo, como rationales de pocos ejemplos que influyen en el comportam",
-      "time": "23h",
+      "time": "24h",
       "url": "https://arxiv.org/abs/2608.16627v1",
       "arxiv": "2608.16627v1"
     },
@@ -416,7 +416,7 @@
       "content_type": "paper",
       "title": "Informe Técnico de Palmyra x6: Un Modelo Agencial y de Uso de Herramientas Post-Entrenado mediante un Ajuste Supervisado Orientado",
       "summary": "Palmyra x6 es un modelo de lenguaje grande optimizado para el uso en tareas agencial orientadas a empresas. El modelo fue construido mediante el entrenamiento p",
-      "time": "23h",
+      "time": "24h",
       "url": "https://arxiv.org/abs/2608.16620v1",
       "arxiv": "2608.16620v1"
     },
@@ -440,7 +440,7 @@
       "content_type": "paper",
       "title": "Proteus: Activación incremental de memoria para modelado de secuencias con contexto largo",
       "summary": "La cuadrática coste del costo de la atención en modelos basados en secuencias para contextos largos ha motivado una línea creciente de investigación sobre model",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.16844v1",
       "arxiv": "2608.16844v1"
     },
@@ -572,7 +572,7 @@
       "content_type": "paper",
       "title": "Validación Temporalmente Consciente de Modelos de Predicción del Consumo de Combustible de Aprendizaje Automático: Evidencia desde Datos Operacionales a 1 Hz, CCGS \\textit{Sir Wilfrid Laurier}",
       "summary": "La predicción del consumo de combustible de los barcos (SFC) apoya la optimización de la operación de los barcos, la estimación de emisiones y los sistemas de a",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.16833v1",
       "arxiv": "2608.16833v1"
     },
@@ -620,7 +620,7 @@
       "content_type": "paper",
       "title": "Modelo de Hipnosis: Control fuerte de IA mediante efectos subliminales adicionales",
       "summary": "Mostramos que los modelos de IA son ampliamente susceptibles a un fenómeno que llamamos hipnosis del modelo, en el cual sugerencias individualmente débiles y ap",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.16834v1",
       "arxiv": "2608.16834v1"
     },
@@ -726,7 +726,7 @@
       "content_type": "news",
       "title": "Anthropic ha construido un modelo mejor que Mythos. También ha decidido que el mundo no pueda usarlo",
       "summary": "<p>\n     <img alt=\"Anthropic&#x20;ha&#x20;construido&#x20;un&#x20;modelo&#x20;mejor&#x20;que&#x20;Mythos.&#x20;Tambi&#x00E9;n&#x20;ha&#x20;decidido&#x20;que&#x2",
-      "time": "20h",
+      "time": "21h",
       "url": "https://www.xataka.com/robotica-e-ia/anthropic-ha-construido-modelo-mejor-que-mythos-tambien-ha-decidido-que-mundo-no-pueda-usarlo"
     },
     {
@@ -737,7 +737,7 @@
       "content_type": "video",
       "title": "18 días para destilar 2.8 teras",
       "summary": "18 días para destilar 2.8 teras. La matemática no cierra y nadie la está mirando. Sean críticos. #IA #OpenSource #Shorts",
-      "time": "20h",
+      "time": "21h",
       "url": "https://www.youtube.com/shorts/sbHVd4fUnIY"
     },
     {
@@ -748,7 +748,7 @@
       "content_type": "news",
       "title": "HappyRobot es la startup de Guadalajara que ya es un unicornio. Su promesa entusiasma a las empresas e inquieta a los trabajadores",
       "summary": "<p>\n     <img alt=\"HappyRobot&#x20;es&#x20;la&#x20;startup&#x20;de&#x20;Guadalajara&#x20;que&#x20;ya&#x20;es&#x20;un&#x20;unicornio.&#x20;Su&#x20;promesa&#x20;e",
-      "time": "2h",
+      "time": "3h",
       "url": "https://www.xataka.com/robotica-e-ia/happyrobot-startup-guadalajara-que-unicornio-su-promesa-entusiasma-a-empresas-e-inquieta-a-trabajadores"
     },
     {
@@ -781,7 +781,7 @@
       "content_type": "news",
       "title": "Computer History de ChatGPT: qué es y cómo esta función para que la IA sepa todo lo que haces en el ordenador",
       "summary": "<p>\n     <img alt=\"Computer&#x20;History&#x20;de&#x20;ChatGPT&#x3A;&#x20;qu&#x00E9;&#x20;es&#x20;y&#x20;c&#x00F3;mo&#x20;esta&#x20;funci&#x00F3;n&#x20;para&#x20",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.xataka.com/basics/computer-history-chatgpt-que-como-esta-funcion-ia-sepa-todo-que-haces-ordenador"
     },
     {
@@ -792,7 +792,7 @@
       "content_type": "news",
       "title": "Cataluña ha pillado a miles de conductores usando el móvil en el coche con sus cámaras IA",
       "summary": "<p>\n     <img alt=\"Catalu&#x00F1;a&#x20;ha&#x20;pillado&#x20;a&#x20;miles&#x20;de&#x20;conductores&#x20;usando&#x20;el&#x20;m&#x00F3;vil&#x20;en&#x20;el&#x20;co",
-      "time": "21h",
+      "time": "22h",
       "url": "https://www.xataka.com/movilidad/cataluna-ha-probado-camaras-ia-para-pillarte-movil-cinturon"
     },
     {
@@ -814,7 +814,7 @@
       "content_type": "news",
       "title": "OpenAI disuelve al equipo que evaluaba los riesgos catastróficos de su IA",
       "summary": "<figure><img alt=\"ChatGPT fondo de pantalla\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"577\" src=\"https://i0.wp.com/imgs.hipert",
-      "time": "20h",
+      "time": "21h",
       "url": "https://hipertextual.com/inteligencia-artificial/openai-disuelve-equipo-preparacion-riesgos-ia/"
     },
     {
@@ -825,7 +825,7 @@
       "content_type": "news",
       "title": "El proyecto AC3 culmina con éxito su plataforma inteligente Cloud-Edge",
       "summary": "Arsys e IONOS lideran una infraestructura soberana europea para optimizar la latencia y la eficiencia energética en entornos de IoT e IA.",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.silicon.es/el-proyecto-ac3-culmina-con-exito-su-plataforma-inteligente-cloud-edge-2583102"
     },
     {
@@ -847,7 +847,7 @@
       "content_type": "news",
       "title": "Globant plantea la IA como soporte para aliviar la sanidad española",
       "summary": "La integración de la inteligencia artificial busca optimizar la gestión y reducir la carga administrativa en el sistema sanitario español.",
-      "time": "5h",
+      "time": "6h",
       "url": "https://www.silicon.es/globant-plantea-la-ia-como-soporte-para-aliviar-la-sanidad-espanola-2583092"
     },
     {
@@ -957,7 +957,7 @@
       "content_type": "news",
       "title": "La mitad de las empresas españolas encalla en la implantación de la IA",
       "summary": "El 69,4% de los líderes financieros españoles tiene presupuesto para IA, pero solo el 49% la implementa por fallas en la calidad de sus datos.",
-      "time": "6h",
+      "time": "7h",
       "url": "https://www.silicon.es/la-mitad-de-las-empresas-espanolas-encalla-en-la-implantacion-de-la-ia-2583084"
     }
   ]
