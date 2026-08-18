@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 81,
     "sources": 31,
-    "updated_label": "09:52"
+    "updated_label": "09:54"
   },
   "iaday": {
     "reading_minutes": "49 min",
@@ -241,7 +241,7 @@
       "content_type": "paper",
       "title": "ClawGym II: Explorando el Aprendizaje por Refuerzo en Caja Negra en el Arnés de Agente",
       "summary": "Los arneses de agente han mejorado significativamente el rendimiento en tareas a largo plazo coordinando las interacciones del agente con el entorno. Sin embarg",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.16798v1",
       "arxiv": "2608.16798v1"
     },
@@ -548,7 +548,7 @@
       "content_type": "paper",
       "title": "Un marco analítico-prior para la predicción eficiente de frecuencias de reducción del sonido en resonadores de rama lateral rectangulares de Helmholtz.",
       "summary": "Las simulaciones de alta fidelidad basadas en elementos finitos pueden proporcionar predicciones numéricas precisas para resonadores de ramas laterales, pero lo",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.16873v1",
       "arxiv": "2608.16873v1"
     },
