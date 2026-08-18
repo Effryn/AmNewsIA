@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 81,
     "sources": 31,
-    "updated_label": "08:42"
+    "updated_label": "08:44"
   },
   "iaday": {
     "reading_minutes": "49 min",
@@ -356,7 +356,7 @@
       "content_type": "paper",
       "title": "Reconstrucción: Un Referente Ciego para Recuperar Ideas de Investigación desde Bibliografías Prepublicaciones",
       "summary": "¿Puede un modelo de lenguaje recuperar la verdadera idea de investigación de un artículo publicado solo con su bibliografía pre-publicación? Presentamos la Reco",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2608.16645v1",
       "arxiv": "2608.16645v1"
     },
@@ -692,7 +692,7 @@
       "content_type": "paper",
       "title": "Las facetas canónicas de poliedros con múltiples separadores",
       "summary": "Iniciamos un estudio poliedral del problema de la multi-separador de grafos propuesto por Irmai et al. (2024) como alternativa al problema de multicorte elevado",
-      "time": "18h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2608.16861v1",
       "arxiv": "2608.16861v1"
     },
