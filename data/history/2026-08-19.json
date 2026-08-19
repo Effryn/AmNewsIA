@@ -3,22 +3,22 @@
   "date_label": "19 de agosto de 2026",
   "greeting": "Buenos días, Effry",
   "briefing": {
-    "duration_label": "—",
+    "duration_label": "2:24",
     "audio_url": "assets/audio/2026-08-19.mp3",
-    "script_text": ""
+    "script_text": "En el resumen de hoy nos enfocamos en infraestructura, regulación y monetización en el sector de la IA.\n\n**Infraestructura y Capacidad**\n\nComenzamos con una noticia de envergadura global: China ha completado la construcción del mayor edificio del mundo dedicado exclusivamente a centros de datos de IA. Esta megaestructura tiene capacidad para albergar hasta un millón de aceleradores bajo un único techo. En paralelo, reportes indican que los hiperescaladores mundiales tienen miles de chips de IA sin desempacar en sus instalaciones. No se trata de ineficiencia, sino de una realidad operativa: los centros de datos no se construyen de la noche a la mañana. La infraestructura física sigue siendo el cuello de botella en la carrera por capacidad de procesamiento. Sumado a esto, Eaton y Trane Technologies han anunciado una alianza estratégica para avanzar en soluciones de infraestructura para fábricas de IA, reconociendo que los desafíos de refrigeración y eficiencia energética son críticos.\n\n**Monetización de Plataformas**\n\nOpenAI continúa expandiendo sus iniciativas comerciales. ChatGPT con anuncios llegará a España el próximo lunes 24 de agosto, ampliando su presencia en mercados europeos. Esta estrategia de monetización a través de publicidad se ha consolidado como modelo viable, complementando las suscripciones premium.\n\n**Seguridad, Gobernanza y Capacidades**\n\nEn el terreno regulatorio, OpenAI ha publicado un artículo sobre el fortalecimiento de la supervisión democrática en seguridad nacional, señalando que los gobiernos deben participar activamente en la governance de sistemas de IA críticos.\n\nEn cuanto a capacidades técnicas, Claude ahora puede enviar correos de Gmail sin requerir permiso explícito cada vez, lo que simplifica la experiencia de usuario pero abre debates sobre privacidad y control. Por otro lado, Snowflake automatiza la selección de modelos de IA para optimizar costes, permitiendo que las empresas elijan automáticamente el modelo más eficiente para cada tarea.\n\nFinalmente, Hugging Face ha publicado investigaciones sobre optimización de memoria en agentes de IA, un tema crucial para hacer estos sistemas más accesibles y prácticos en producción.\n\nEn resumen: la carrera por infraestructura continúa, la monetización avanza en nuevos territorios, y la sofisticación técnica de estas herramientas crece exponencialmente. Gracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 81,
+    "new_articles": 83,
     "sources": 31,
-    "updated_label": "09:59"
+    "updated_label": "10:10"
   },
   "iaday": {
-    "reading_minutes": "49 min",
-    "audio_duration": "—",
+    "reading_minutes": "50 min",
+    "audio_duration": "2:24",
     "key_count": 3,
     "papers_count": 52,
     "repos_count": 9,
-    "videos_count": 1,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -35,7 +35,7 @@
       "content_type": "paper",
       "title": "Agent Lightning v1.0: Hacia un RL agencial domado",
       "summary": "Los agentes modernos operan dentro de arneses de agente que gestionan herramientas, contexto y flujo de control, haciendo que el arnés sea una parte crítica del",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2608.17528"
     },
     {
@@ -58,7 +58,7 @@
       "content_type": "paper",
       "title": "Desmitificando las Habilidades de los Agentes: Por Qué Funcionan—Hasta Que No Lo Hacen",
       "summary": "Habilidad ha emergido como una aproximación práctica y efectiva para mejorar los agentes de LLM en tiempo de inferencia a través de paquetes estructurados de co",
-      "time": "137h",
+      "time": "138h",
       "url": "https://huggingface.co/papers/2608.14036"
     },
     {
@@ -69,7 +69,7 @@
       "content_type": "repo",
       "title": "rmmehmet/inteligencia-de-resumenes-automáticos",
       "summary": "⭐ 1 estrella — Plataforma de Inteligencia del Curriculum Vitae y Optimización para Sistemas de Presentación de Candidatos con puntuación ATS explicable, coincid",
-      "time": "20h",
+      "time": "21h",
       "url": "https://github.com/rmmehmet/ai-resume-intelligence",
       "stars": "1"
     },
@@ -188,7 +188,7 @@
       "content_type": "paper",
       "title": "FreeToken: Servicio de MoE eficiente con ejecución nativa al borde y ejecución adaptativa a la banda de ancho de banda",
       "summary": "Los modelos de peso abierto de frontera se están volviendo cada vez más disponibles, pero su servidumbre aún supone en gran medida la infraestructura de los dat",
-      "time": "65h",
+      "time": "66h",
       "url": "https://huggingface.co/papers/2608.16157"
     },
     {
@@ -211,7 +211,7 @@
       "content_type": "paper",
       "title": "MoE-ViE: Mixture of Experts Vision Encoder para la comprensión eficiente de imágenes y videos",
       "summary": "Los codificadores de visión son un componente crucial de los modelos de lenguaje y visión, y la escalabilidad efectiva de su capacidad mejora el rendimiento. Si",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2608.17402"
     },
     {
@@ -222,7 +222,7 @@
       "content_type": "paper",
       "title": "CoinVE-200K: Un Conjunto de Datos de Gran Escala de Alta Calidad para Edición de Video Guiada por Instrucciones Composicionales",
       "summary": "La calidad y diversidad de los conjuntos de datos de edición de video basados en instrucciones están mejorando constantemente, pero los conjuntos de datos exist",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2608.17566"
     },
     {
@@ -233,7 +233,7 @@
       "content_type": "paper",
       "title": "HarnessRisk: Un estándar orientado al ciclo de vida para la seguridad de la contención agente",
       "summary": "Los modelos de lenguaje grandes se están deploys con increasing frecuencia a través de arneses de agentes que gestionan herramientas, extensiones, estado persis",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2608.17597"
     },
     {
@@ -244,7 +244,7 @@
       "content_type": "paper",
       "title": "Investigación Personalizada Automática: Hacia un Verdadero Co-Científico IA",
       "summary": "Los co-científicos de IA que generan hipótesis, recuperan trabajo relacionado, diseñan experimentos, ejecutan código y redactan artículos completos están comenz",
-      "time": "137h",
+      "time": "138h",
       "url": "https://huggingface.co/papers/2608.14881"
     },
     {
@@ -255,7 +255,7 @@
       "content_type": "paper",
       "title": "¿Jugan los Modelos de Lenguaje Grande los Six Degrees of Separation? Medición de la Compresión Topológica en Manojnos de Contexto Largo",
       "summary": "Los Modelos de Lenguaje de Gran Tamaño (LLM) muestran capacidades notables de razonamiento multihop sobre contextos largos, pero los mecanismos internos que per",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2608.17950v1",
       "arxiv": "2608.17950v1"
     },
@@ -267,7 +267,7 @@
       "content_type": "paper",
       "title": "CardioState-JEPA: Aprendizaje cruzado consciente de una representación cardíaca compartida con retraso consciente",
       "summary": "La electrocardiografía (ECG), la fotopletismografía (PPG) y la fonocardiografía (PCG) proporcionan vistas complementarias del mismo ciclo cardíaco, sin embargo,",
-      "time": "161h",
+      "time": "162h",
       "url": "https://huggingface.co/papers/2608.12944"
     },
     {
@@ -278,7 +278,7 @@
       "content_type": "paper",
       "title": "DiSCO: Defendiendo la generación de texto-a-imagen mediante la optimización de prompts contrastivos guiados por la distribución",
       "summary": "A medida que los modelos generativos de texto a imagen avanzan, plantean preocupaciones críticas de seguridad, especialmente la generación de contenido No Segur",
-      "time": "65h",
+      "time": "66h",
       "url": "https://huggingface.co/papers/2608.17067"
     },
     {
@@ -289,7 +289,7 @@
       "content_type": "paper",
       "title": "Transferencia de Memoria Cross-Model mediante Adaptación del Lector del Lado de la Destino",
       "summary": "Los métodos para mejorar el uso del conocimiento en modelos de lenguaje de gran escala generalmente se dividen en dos regímenes. La recuperación no paramétrica ",
-      "time": "65h",
+      "time": "66h",
       "url": "https://huggingface.co/papers/2608.17050"
     },
     {
@@ -312,7 +312,7 @@
       "content_type": "paper",
       "title": "EDITBRIDGE: Hacia una edición de imágenes de ultra-alta resolución fidedigna y eficiente",
       "summary": "La edición de imágenes de alta resolución se demanda cada vez más en los flujos de trabajo profesionales, pero los modelos basados en difusión permanecen limita",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2608.18063"
     },
     {
@@ -323,7 +323,7 @@
       "content_type": "paper",
       "title": "A través de una ecuación común de capa, unificar las Redes Neuronales de Grafos",
       "summary": "Las redes neuronales gráficas se describen comúnmente mediante ecuaciones específicas de familia que ocultan cálculos compartidos y diferencias estructurales. I",
-      "time": "65h",
+      "time": "66h",
       "url": "https://huggingface.co/papers/2608.16097"
     },
     {
@@ -334,7 +334,7 @@
       "content_type": "paper",
       "title": "Un modo omitido es una regla rara: el peligro de la ley de muestreo-verificación en modelos del mundo de los códigos continuos",
       "summary": "En el paradigma del Modelo del Mundo en el Código, un LLM sintetiza un modelo del mundo ejecutable que un planificador clásico busca, y el modelo se acepta cuan",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2608.17956v1",
       "arxiv": "2608.17956v1"
     },
@@ -370,7 +370,7 @@
       "content_type": "paper",
       "title": "V-RAE: Reconsideración de los Espacios Latentes de Video para la Generación",
       "summary": "La generación de video latente se basa en autoencoders para definir un espacio compacto en el cual los modelos generativos operan. Aunque las arquitecturas de a",
-      "time": "161h",
+      "time": "162h",
       "url": "https://huggingface.co/papers/2608.13556"
     },
     {
@@ -381,7 +381,7 @@
       "content_type": "paper",
       "title": "PixRestore: Restauración Uniforme de Imágenes mediante un Transformador de Difusión de Pixeles",
       "summary": "La Restauración Única de Imágenes (UIR) busca recuperar contenido de alta calidad (HQ) a partir de imágenes de baja calidad (LQ) con diferentes degradaciones ut",
-      "time": "65h",
+      "time": "66h",
       "url": "https://huggingface.co/papers/2608.16793"
     },
     {
@@ -428,7 +428,7 @@
       "content_type": "paper",
       "title": "De los Corpora a las Competencias Co-evolucionantes: Diseño de Datos Centrados en las Competencias para la Generación de Imágenes Generalistas",
       "summary": "La generación de imágenes a gran escala ha beneficiado de avances en el tamaño de datos, la calidad, el rebalanceo y la recaptión, pero los pipelines convencion",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18076v1",
       "arxiv": "2608.18076v1"
     },
@@ -464,7 +464,7 @@
       "content_type": "paper",
       "title": "El Reto IOL-AI: Un Reto Abierto Hacia el Avance de la Razonamiento Lógico-Lingüístico",
       "summary": "El razonamiento en LLMs se estudia principalmente en dominios que proporcionan un modelo con reglas: matemáticas y código. Los acertijos lingüísticos invierten ",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.18011v1",
       "arxiv": "2608.18011v1"
     },
@@ -536,7 +536,7 @@
       "content_type": "paper",
       "title": "Programación RLVR eficiente mediante una estimación en línea estructurada en grafo de la dificultad",
       "summary": "El aprendizaje por refuerzo con recompensas verificables (RLVR) mejora las capacidades de razonamiento de los modelos de lenguaje grandes, pero se basa en una e",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2608.17941v1",
       "arxiv": "2608.17941v1"
     },
@@ -704,7 +704,7 @@
       "content_type": "paper",
       "title": "Se Necesita un Rubro para la Calificación, no Inteligencia",
       "summary": "Pequeños modelos de lenguaje pueden calificar respuestas abiertas de exámenes con la misma fiabilidad que modelos mucho más caros cuando se califican contra un ",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2608.17938v1",
       "arxiv": "2608.17938v1"
     },
@@ -745,6 +745,17 @@
       "arxiv": "2608.18004v1"
     },
     {
+      "source": "Migue Baena IA",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Crea infografías animadas con IA en minutos 🚀",
+      "summary": "¿Tus infografías todavía son imágenes estáticas? 🤔\nPuedes convertirlas en contenido animado con inteligencia artificial en solo 2 pasos.👇🏻\n1️⃣ Usa Gemini para o",
+      "time": "1h",
+      "url": "https://www.youtube.com/shorts/e2AaClbJj1Q"
+    },
+    {
       "source": "AlehandoroVR",
       "source_type": "youtube",
       "lang": "es",
@@ -763,7 +774,7 @@
       "content_type": "news",
       "title": "China ha levantado el mayor edificio del mundo para centros de datos de IA: bajo su techo cabrán hasta un millón de aceleradores",
       "summary": "<p>\n     <img alt=\"China&#x20;ha&#x20;levantado&#x20;el&#x20;mayor&#x20;edificio&#x20;del&#x20;mundo&#x20;para&#x20;centros&#x20;de&#x20;datos&#x20;de&#x20;IA&#",
-      "time": "18h",
+      "time": "19h",
       "url": "https://www.xataka.com/ingenieria-y-megaconstrucciones/china-ha-levantado-mayor-edificio-mundo-para-centros-datos-ia-su-techo-cabran-millon-aceleradores"
     },
     {
@@ -785,7 +796,7 @@
       "content_type": "news",
       "title": "Snowflake automatiza la selección de modelos de IA para reducir costes",
       "summary": "La compañía introduce el enrutamiento dinámico en Cortex AI Gateway y amplía su catálogo con DeepSeek-V4-Flash y GLM-5.3 para optimizar la inferencia.",
-      "time": "2h",
+      "time": "3h",
       "url": "https://www.silicon.es/snowflake-automatiza-la-seleccion-de-modelos-de-ia-para-reducir-costes-2583161"
     },
     {
@@ -796,7 +807,7 @@
       "content_type": "news",
       "title": "Fortalecimiento de la supervisión democrática en seguridad nacional",
       "summary": "OpenAI lanza una iniciativa para fortalecer la supervisión democrática del AI en la seguridad nacional, apoyando a las instituciones gubernamentales con herrami",
-      "time": "18h",
+      "time": "19h",
       "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
     },
     {
@@ -807,7 +818,7 @@
       "content_type": "news",
       "title": "Cuánta Memoria Necesita Realmente Tu Agente?",
       "summary": "",
-      "time": "19h",
+      "time": "20h",
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm"
     },
     {
@@ -818,7 +829,7 @@
       "content_type": "news",
       "title": "Modelos de Embedding Multivector (Interacción Tardía) con Sentence Transformers",
       "summary": "",
-      "time": "37h",
+      "time": "38h",
       "url": "https://huggingface.co/blog/multi-vector-encoder"
     },
     {
@@ -862,7 +873,7 @@
       "content_type": "news",
       "title": "ChatGPT Ads se expande por Europa",
       "summary": "ChatGPT Ads está expandiéndose a 31 mercados europeos. Aprende cómo los anunciantes pueden llegar a las personas mientras exploran, comparan opciones y toman de",
-      "time": "15h",
+      "time": "16h",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe"
     },
     {
@@ -873,7 +884,7 @@
       "content_type": "news",
       "title": "El desarrollo del modelo de pase en una era de capacidades cibernéticamente críticas",
       "summary": "OpenAI está fortaleciendo la supervisión, alineación y seguridad para modelos de inteligencia artificial de vanguardia. Consulta cómo nuevas medidas de protecci",
-      "time": "26h",
+      "time": "27h",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities"
     },
     {
@@ -884,7 +895,7 @@
       "content_type": "news",
       "title": "Cómo NVIDIA escalona la experiencia con ChatGPT Work",
       "summary": "Las equipos de NVIDIA utilizan el trabajo de ChatGPT para reducir tareas manuales, conectar señales en movimiento rápidamente y escalar flujos de trabajo exitos",
-      "time": "37h",
+      "time": "38h",
       "url": "https://openai.com/index/nvidia/chatgpt-work"
     },
     {
@@ -895,7 +906,7 @@
       "content_type": "news",
       "title": "Asana limpió 5 años de trabajo de ingeniería en 2 semanas con Codex",
       "summary": "Asana utilizó OpenAI Codex para reemplazar un sistema de prueba obsoleto en dos semanas, completando trabajo que se esperaba que tomara cinco años por aproximad",
-      "time": "30h",
+      "time": "31h",
       "url": "https://openai.com/index/asana"
     },
     {
@@ -906,7 +917,7 @@
       "content_type": "news",
       "title": "Un vídeo filtrado muestra en acción los nuevos AirPods con cámara de Apple",
       "summary": "<p>\n     <img alt=\"Un&#x20;v&#x00ED;deo&#x20;filtrado&#x20;muestra&#x20;en&#x20;acci&#x00F3;n&#x20;los&#x20;nuevos&#x20;AirPods&#x20;con&#x20;c&#x00E1;mara&#x20",
-      "time": "24h",
+      "time": "25h",
       "url": "https://www.xataka.com/auriculares/video-filtrado-muestra-accion-nuevos-airpods-camara-apple"
     },
     {
@@ -917,7 +928,7 @@
       "content_type": "news",
       "title": "“La IA tiende a concentrar el poder”: el CEO de Anthropic cree que la solución es regular a empresas como la suya",
       "summary": "<p>\n     <img alt=\"&#x201C;La&#x20;IA&#x20;tiende&#x20;a&#x20;concentrar&#x20;el&#x20;poder&#x201D;&#x3A;&#x20;el&#x20;CEO&#x20;de&#x20;Anthropic&#x20;cree&#x20",
-      "time": "24h",
+      "time": "25h",
       "url": "https://www.xataka.com/empresas-y-economia/ia-tiende-a-concentrar-poder-ceo-anthropic-cree-que-solucion-regular-a-empresas-como-suya"
     },
     {
@@ -963,6 +974,17 @@
       "summary": "Ha superado el objetivo para este año y ahora trabaja para alcanzar un incremento de 20x en eficiencia a escala de rack para entrenamiento e inferencia en 2030.",
       "time": "6h",
       "url": "https://www.silicon.es/amd-anuncia-una-mejora-de-4x-en-eficiencia-energetica-para-ia-2583121"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "LFM2.5 Q4_0 Puntos de control desde la distilación consciente de cuantización",
+      "summary": "",
+      "time": "ahora",
+      "url": "https://huggingface.co/blog/LiquidAI/qad"
     }
   ]
 }
