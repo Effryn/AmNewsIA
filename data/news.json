@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 81,
     "sources": 31,
-    "updated_label": "09:14"
+    "updated_label": "09:59"
   },
   "iaday": {
     "reading_minutes": "49 min",
@@ -46,7 +46,7 @@
       "content_type": "paper",
       "title": "CABLE: Ampliando el alcance de la recuperación de la memoria mediante enlaces y expansiones basados en antecedentes complementarios",
       "summary": "A medida que los agentes LLM operan en flujos de trabajo estructurados y sesiones, la preservación de un historial a largo plazo no garantiza que los contextos ",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2608.17911v1",
       "arxiv": "2608.17911v1"
     },
@@ -81,7 +81,7 @@
       "content_type": "repo",
       "title": "liventruth/UL-SMF-Cache-Compresión",
       "summary": "⭐ 7 estrellas — La Fabriqueta de Memoria Comprimida de Estado Latente Unificado (UL-SMF) es una estructura de memoria diseñada en colaboración entre hardware y ",
-      "time": "148h",
+      "time": "149h",
       "url": "https://github.com/liventruth/UL-SMF-Cache-Compression",
       "stars": "7"
     },
@@ -93,7 +93,7 @@
       "content_type": "repo",
       "title": "foundrypaul-cloud/paul-open",
       "summary": "⭐ 3 estrellas — Open de PAUL es una iniciativa de investigación abierta de Paul Foundry para desarrollar sistemas de inteligencia artificial reproducibles, orie",
-      "time": "90h",
+      "time": "91h",
       "url": "https://github.com/foundrypaul-cloud/paul-open",
       "stars": "3"
     },
@@ -105,7 +105,7 @@
       "content_type": "repo",
       "title": "686f6c61/radar-huggingface-dataset",
       "summary": "⭐ 2 estrellas — Dataset abierto de modelos de HuggingFace: metadatos curados y normalizados, licencias clasificadas, parámetros reales, tumbas de modelos retira",
-      "time": "17h",
+      "time": "18h",
       "url": "https://github.com/686f6c61/radar-huggingface-dataset",
       "stars": "2"
     },
@@ -117,7 +117,7 @@
       "content_type": "repo",
       "title": "Nazmussakib247/hirelay",
       "summary": "⭐ 1 estrella — plataforma de reclutamiento HR basada en IA que simplifica el análisis de currículos, el encaje del candidato, la programación de entrevistas, la",
-      "time": "90h",
+      "time": "91h",
       "url": "https://github.com/Nazmussakib247/hirelay",
       "stars": "1"
     },
@@ -129,7 +129,7 @@
       "content_type": "repo",
       "title": "Yasser-Ameur/myAI",
       "summary": "⭐ 1 estrella — Compañero cognitivo de inteligencia artificial multimodal local primero con memoria temporal persistente, personalidad probabilística, habilidade",
-      "time": "49h",
+      "time": "50h",
       "url": "https://github.com/Yasser-Ameur/myAI",
       "stars": "1"
     },
@@ -153,7 +153,7 @@
       "content_type": "repo",
       "title": "fualsan/AlgoritmosDeRazonamientoDiferencial",
       "summary": "⭐ 0 estrellas — Métodos para Lógica Diferencial, Razonamiento Automatizado y Algoritmos Diferenciales",
-      "time": "1h",
+      "time": "2h",
       "url": "https://github.com/fualsan/DifferentialReasoningAlgorithms",
       "stars": "0"
     },
@@ -165,7 +165,7 @@
       "content_type": "repo",
       "title": "suxuen/APRENDIZAJE_DE_MÁQUINAS_AI",
       "summary": "⭐ 0 estrellas — Practicas de evaluación para la predicción de propiedades basada en la composición en perovskitas halidas.",
-      "time": "15h",
+      "time": "16h",
       "url": "https://github.com/suxuen/LEARN_MLAI",
       "stars": "0"
     },
@@ -177,7 +177,7 @@
       "content_type": "paper",
       "title": "MathForm: Escalado del Autoformalismo Matemático con Recuperación y Verificación de Conocimiento Guiada por Refinamiento",
       "summary": "La autoformalización se presenta comúnmente como la traducción de declaraciones matemáticas en lenguaje natural a lenguajes formales verificables por máquina, c",
-      "time": "125h",
+      "time": "126h",
       "url": "https://huggingface.co/papers/2608.14221"
     },
     {
@@ -199,7 +199,7 @@
       "content_type": "paper",
       "title": "Cadena de Experiencia para la Mejora Continuada de Sistemas LLM",
       "summary": "Los humanos aprenden constantemente a partir de la experiencia, mientras que las evaluaciones convencionales de los modelos de lenguaje de gran escala (LLM) ign",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18027v1",
       "arxiv": "2608.18027v1"
     },
@@ -300,7 +300,7 @@
       "content_type": "paper",
       "title": "StagedWorkspace: Un espacio de trabajo versionado para agentes de trabajo con conocimiento",
       "summary": "Los agentes de IA cada vez realizan trabajo de conocimiento (es decir, producen y modifican artefactos digitales persistentes como repositorios de código, docum",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18050v1",
       "arxiv": "2608.18050v1"
     },
@@ -346,7 +346,7 @@
       "content_type": "paper",
       "title": "Juez, Recupera o Abstente: Juzgando con Garantías de Riesgo Probables y Protección frente a la Incertidumbre en LLM",
       "summary": "El uso de LLMs como jueces se ha convertido en una práctica estándar para evaluar las salidas de modelos a gran escala. Esto es particularmente común para tarea",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.17994v1",
       "arxiv": "2608.17994v1"
     },
@@ -358,7 +358,7 @@
       "content_type": "paper",
       "title": "Cuando el Estilo de Escritura Se Desvía: Evaluación de la Autoría bajo Cambios en Distribución de Género, Tiempo y la Época del IA",
       "summary": "La verificación de autoría (AV) asume que el estilo de escritura de un autor se mantiene lo suficientemente estable para distinguirlo del de otros escritores. S",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.17979v1",
       "arxiv": "2608.17979v1"
     },
@@ -392,7 +392,7 @@
       "content_type": "paper",
       "title": "Formulario de Adición de Valor Invariante a la Política desde el Feedback de LLM: Un Marco para Agentes RL Híbridos",
       "summary": "La combinación de grandes modelos de lenguaje con aprendizaje por refuerzo se explora cada vez más, aunque el estado teórico de las señales de recompensa deriva",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.18008v1",
       "arxiv": "2608.18008v1"
     },
@@ -404,7 +404,7 @@
       "content_type": "paper",
       "title": "El idioma tiene dos parámetros: plasticidad semántica inducida por la narrativa e interpretación sensible a fases.",
       "summary": "La lengua tiene dos parámetros. Contando cuántas veces ocurren las palabras juntas, se estima la amplitud, la fuerza de asociación. Las inmersiones de palabras ",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18041v1",
       "arxiv": "2608.18041v1"
     },
@@ -416,7 +416,7 @@
       "content_type": "paper",
       "title": "BEAR-Bench: Un conjunto de pruebas bilingüe para razones empresariales y académicas para modelos multimodales",
       "summary": "Aunque los Modelos de Lenguaje Grande Multimodales (MLLMs) han logrado avances significativos en la comprensión visual, su capacidad para razonar sobre document",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2608.17895v1",
       "arxiv": "2608.17895v1"
     },
@@ -440,7 +440,7 @@
       "content_type": "paper",
       "title": "Asimetría de Delegación en Sistemas de Recomendación Agente: Medición de la Receptividad Bilateral en Citas En Línea",
       "summary": "Agentes de LLM autónomos que conversan en nombre del usuario son un patrón de diseño emergente en plataformas de coincidencia, pero su viabilidad depende de una",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18058v1",
       "arxiv": "2608.18058v1"
     },
@@ -452,7 +452,7 @@
       "content_type": "paper",
       "title": "Explotación de Mediciones de Magnitud Solo y Complejas para una Reconstrucción MRI Dinámica Mejorada con Priorizaciones Aprendidas",
       "summary": "Los métodos de reconstrucción MRI para datos de k-space submuestreados naturalmente utilizan mediciones de valor complejo. Desarrollos paralelos en recuperación",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18036v1",
       "arxiv": "2608.18036v1"
     },
@@ -476,7 +476,7 @@
       "content_type": "paper",
       "title": "Donde un Pequeño Modelo de Lenguaje Ayuda en la Categorización de Facturas, Comprendido a Través de la Geometría de Embedding",
       "summary": "La categorización de facturas en el código contable general (GL) adecuado es fundamental para la presentación financiera y la cumplimiento fiscal. Este es un ju",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18033v1",
       "arxiv": "2608.18033v1"
     },
@@ -488,7 +488,7 @@
       "content_type": "paper",
       "title": "Por qué los Modelos Estilísticos GPT No Transfieren Directamente a la Música Simbólica: Compresión en un Sistema de Coordenadas Incorrecto",
       "summary": "Los modelos estilo GPT logran un rendimiento fuerte al representar el lenguaje mediante vocabularios finitos de tokens discretos reutilizables. Este éxito ha mo",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18025v1",
       "arxiv": "2608.18025v1"
     },
@@ -512,7 +512,7 @@
       "content_type": "paper",
       "title": "Sistema Multientidad de Inteligencia Artificial para la Estructuración de Reportes Radiológicos y la Garantía de Calidad con Evaluación Radiológica Independiente",
       "summary": "Objetivo: Desarrollar y evaluar un sistema de inteligencia artificial multi-ente localmente implementado para la estructuración de informes de radiología y la g",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18072v1",
       "arxiv": "2608.18072v1"
     },
@@ -524,7 +524,7 @@
       "content_type": "paper",
       "title": "TokEval: Un conjunto de evaluación para tokenización",
       "summary": "Los tokenizadores de modelos de lenguaje suelen seleccionarse con poca evaluación, a pesar de que sus elecciones de diseño tienen un impacto directo en las capa",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18062v1",
       "arxiv": "2608.18062v1"
     },
@@ -548,7 +548,7 @@
       "content_type": "paper",
       "title": "SpeechSense: Un conjunto de datos enfocado en paralinguistas para el análisis de sentimiento en discurso fino-granulado",
       "summary": "Los recientes avances en IA han revolucionado el procesamiento del habla, pero una comprensión efectiva del habla requiere discernir no solo lo que se dice, sin",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2608.17931v1",
       "arxiv": "2608.17931v1"
     },
@@ -560,7 +560,7 @@
       "content_type": "paper",
       "title": "Sobre la Fragilidad de los Agentes Automejorables: Varianza, Orden de las Tareas y Undespecificación",
       "summary": "Los agentes automejorables basados en memoria —que aprenden de una secuencia en línea de tareas e improving con el tiempo manteniendo un banco de memoria textua",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18066v1",
       "arxiv": "2608.18066v1"
     },
@@ -572,7 +572,7 @@
       "content_type": "paper",
       "title": "En Contra de la Polarización Política: Un Marco Unificado para Rastrear Ideologías Políticas Evolventes en las Redes Sociales",
       "summary": "El rápido crecimiento de las redes sociales ha influido significativamente en el discurso político, destacando la necesidad de comprender las ideologías polític",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.17987v1",
       "arxiv": "2608.17987v1"
     },
@@ -584,7 +584,7 @@
       "content_type": "paper",
       "title": "Título Excesivamente Seguro para Ser Seguro: Calibración de Modelos para una Detección de Anomalias en Logs Reliável",
       "summary": "La detección de anomalías en los registros en línea es crucial para mantener la confiabilidad de los sistemas de cómputo a gran escala. Aunque los detectores de",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.17965v1",
       "arxiv": "2608.17965v1"
     },
@@ -596,7 +596,7 @@
       "content_type": "paper",
       "title": "Aprendizaje Primitivo de Representación para la Reconstrucción de MRI por Contraste Dinámico sin Supervisión",
       "summary": "Una análisis cuantitativo confiable de la MRI con contraste dinámico requiere reconstrucciones de alta calidad espacio-temporales a altas tasas de submuestreo. ",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18055v1",
       "arxiv": "2608.18055v1"
     },
@@ -608,7 +608,7 @@
       "content_type": "paper",
       "title": "TabNSM: Mixer Esparsamente Neuronal para Regresión Tabular",
       "summary": "La regresión tabular de alta dimensión a gran escala sigue siendo desafiante: los modelos basados en árboles son robustos pero carecen de aprendizaje de represe",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18026v1",
       "arxiv": "2608.18026v1"
     },
@@ -632,7 +632,7 @@
       "content_type": "paper",
       "title": "Recirculación",
       "summary": "Se describe una mejora arquitectónica para tiempos de inferencia de modelos de base de producción que reduce significativamente la perplexidad y mejora la preci",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.17981v1",
       "arxiv": "2608.17981v1"
     },
@@ -644,7 +644,7 @@
       "content_type": "paper",
       "title": "Evaluando y mejorando los métodos de predicción de rendimiento de cultivos durante sequías extremas",
       "summary": "El impacto de la variabilidad climática en la producción alimentaria ha llevado a la creación de diversos modelos de pronóstico que utilizan aprendizaje automát",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.17971v1",
       "arxiv": "2608.17971v1"
     },
@@ -656,7 +656,7 @@
       "content_type": "paper",
       "title": "HLSR: Hybrid Live Forecast Selección Dinámica Vehicular Rerouting para Evitar Congestión en Tiempo Real",
       "summary": "La congestión del tráfico urbano reduce la productividad y aumenta el costo y las emisiones de viaje. La recálculo dinámico de rutas más cortas en tiempo de via",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18056v1",
       "arxiv": "2608.18056v1"
     },
@@ -668,7 +668,7 @@
       "content_type": "paper",
       "title": "Fideicomiso rastreable para inteligencia artificial preparada para acciones en biosciencia",
       "summary": "La inteligencia artificial (IA) se está convirtiendo en parte de la infraestructura de trabajo de las ciencias biológicas. Los modelos de IA pueden predecir las",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.17997v1",
       "arxiv": "2608.17997v1"
     },
@@ -680,7 +680,7 @@
       "content_type": "paper",
       "title": "Dual Co-Entrenamiento: Segmentación de la Lengua por Ultrasonido entre Conjuntos de Datos bajo una Escasez Extrema de Datos",
       "summary": "La segmentación del contorno de la lengua mediante ultrasonido sigue siendo desafiante bajo un cambio de dominio entre conjuntos de datos, donde las anotaciones",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.17983v1",
       "arxiv": "2608.17983v1"
     },
@@ -716,7 +716,7 @@
       "content_type": "paper",
       "title": "El juego de concentración: actualización bayesiana, remordimiento y información",
       "summary": "Se proporciona un juego repetido de dos jugadores con suma cero entre un aprendiz y la naturaleza, cuyo valor identifica la actualización bayesiana y proporcion",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18061v1",
       "arxiv": "2608.18061v1"
     },
@@ -728,7 +728,7 @@
       "content_type": "paper",
       "title": "Optimice Su Muestreo: Muestreo de Difusión Ajustado con Optimización Bayesiana",
       "summary": "El muestreo de un modelo de difusión generalmente requiere muchas pasadas hacia adelante a través de una gran red neural, lo que hace que la generación sea comp",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.18040v1",
       "arxiv": "2608.18040v1"
     },
@@ -740,7 +740,7 @@
       "content_type": "paper",
       "title": "Compensación de Energías de Corriente Coincidente con Física Conocida: Generación, Detección de NOD y Inversión en Campos de EDP",
       "summary": "La modelización probabilística de campos físicos beneficia tanto de un prior basado en datos como de una estructura física conocida, como las ecuaciones goberna",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.18004v1",
       "arxiv": "2608.18004v1"
     },
@@ -752,7 +752,7 @@
       "content_type": "video",
       "title": "¿Qué pasará con Quest 4? Estado ACTUAL de la VR en 2026",
       "summary": "La VR siempre es el centro de mucha critica pero ¿Es todavía una tecnología prometedora? ¿En que estado se encuentra la Realidad Virtual en 2026? \n\n🛒 Tiendas y ",
-      "time": "21h",
+      "time": "22h",
       "url": "https://www.youtube.com/watch?v=BdXLN_Vxiqo"
     },
     {
@@ -774,7 +774,7 @@
       "content_type": "news",
       "title": "Claude ahora puede enviar tus correos de Gmail sin pedirte permiso",
       "summary": "<figure><img alt=\"Claude\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"683\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-conte",
-      "time": "13h",
+      "time": "14h",
       "url": "https://hipertextual.com/inteligencia-artificial/claude-enviar-correos-gmail-sin-aprobacion/"
     },
     {
@@ -829,7 +829,7 @@
       "content_type": "news",
       "title": "Es oficial: ChatGPT con anuncios llegará a España el próximo lunes 24 de agosto",
       "summary": "<p>\n     <img alt=\"Es&#x20;oficial&#x3A;&#x20;ChatGPT&#x20;con&#x20;anuncios&#x20;llegar&#x00E1;&#x20;a&#x20;Espa&#x00F1;a&#x20;el&#x20;pr&#x00F3;ximo&#x20;lune",
-      "time": "2h",
+      "time": "3h",
       "url": "https://www.xataka.com/robotica-e-ia/oficial-chatgpt-anuncios-llegara-a-espana-proximo-lunes-24-agosto"
     },
     {
@@ -840,7 +840,7 @@
       "content_type": "news",
       "title": "Los hiperescaladores tienen miles de chips de IA sin sacar de la caja por una sencilla razón: los centros de datos no se levantan en un día",
       "summary": "<p>\n     <img alt=\"Los&#x20;hiperescaladores&#x20;tienen&#x20;miles&#x20;de&#x20;chips&#x20;de&#x20;IA&#x20;sin&#x20;sacar&#x20;de&#x20;la&#x20;caja&#x20;por&#x",
-      "time": "2h",
+      "time": "3h",
       "url": "https://www.xataka.com/empresas-y-economia/hiperescaladores-tienen-miles-chips-ia-sacar-sus-cajas-sencilla-razon-centros-datos-no-se-levantan-dia"
     },
     {
@@ -928,7 +928,7 @@
       "content_type": "news",
       "title": "La versión pirata de Marvel Tōkon: Fighting Souls funciona mejor que la de Steam, ¿por qué?",
       "summary": "<p>Marvel Tōkon: Fighting Souls ha sido todo un éxito. Este juego llegó el pasado 6 de agosto a PC y a PS5, y ha acumulado un buen nivel de ventas, pero la vers",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.muycomputer.com/2026/08/19/la-version-pirata-de-marvel-tokon-fighting-souls-funciona-mejor-que-la-de-steam-por-que/"
     },
     {
@@ -939,7 +939,7 @@
       "content_type": "news",
       "title": "Eaton y Trane Technologies se alían para progresar en fábricas de IA",
       "summary": "Anuncian un diseño de referencia que se integra con NVIDIA Omniverse DSX Blueprint para centros de datos.",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.silicon.es/eaton-y-trane-technologies-se-alian-para-progresar-en-fabricas-de-ia-2583157"
     },
     {
@@ -950,7 +950,7 @@
       "content_type": "news",
       "title": "Así es la tableta HONOR Pad X9 Max",
       "summary": "El nuevo dispositivo de HONOR luce una pantalla 13 pulgadas con tecnología IMAX Enhanced, usa una batería de 10.100 mAh, incorpora funciones de inteligencia art",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.silicon.es/asi-es-la-tableta-honor-pad-x9-max-2583139"
     },
     {
@@ -961,7 +961,7 @@
       "content_type": "news",
       "title": "AMD anuncia una mejora de 4x en eficiencia energética para IA",
       "summary": "Ha superado el objetivo para este año y ahora trabaja para alcanzar un incremento de 20x en eficiencia a escala de rack para entrenamiento e inferencia en 2030.",
-      "time": "5h",
+      "time": "6h",
       "url": "https://www.silicon.es/amd-anuncia-una-mejora-de-4x-en-eficiencia-energetica-para-ia-2583121"
     }
   ]
