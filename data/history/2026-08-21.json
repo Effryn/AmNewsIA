@@ -3,21 +3,21 @@
   "date_label": "21 de agosto de 2026",
   "greeting": "Buenos días, Effry",
   "briefing": {
-    "duration_label": "—",
+    "duration_label": "2:41",
     "audio_url": "assets/audio/2026-08-21.mp3",
     "script_text": "En el resumen de hoy nos enfocamos en cómo la inteligencia artificial está transformando nuestras herramientas cotidianas, mientras emergen debates importantes sobre los límites éticos y técnicos de esta tecnología.\n\n**Colaboración y productividad potenciada**\n\nSlack ha dado un paso decisivo integrando Claude Code directamente en sus plataformas, permitiendo a los equipos programar software en tiempo real sin abandonar sus canales de comunicación. Este movimiento consolida la tendencia de embeber capacidades de IA en las herramientas que ya usamos cada día.\n\nEn paralelo, Amazon ha hecho un giro estratégico con Alexa. La compañía ha descubierto algo más valioso que su modelo de suscripción Alexa+ de 20 dólares mensuales: integrar gratuitamente estas capacidades en televisores inteligentes. Es una apuesta clara por penetración de mercado sobre ingresos inmediatos.\n\n**La carrera de eficiencia en modelos de lenguaje**\n\nPor el lado técnico, vemos avances importantes en velocidad de inferencia. Liquid AI ha lanzado LFM2.5-DSpark, con modelos que ofrecen decodificación hasta 3.2 veces más rápida sin sacrificar calidad de salida. Simultáneamente, herramientas especializadas como S1-mini, un normalizador de texto de apenas 462 megabytes con pesos abiertos, demuestran que no todo necesita ser monolítico: hay lugar para soluciones ágiles y específicas.\n\nTambién emerge UPDF, un editor PDF pensado específicamente para la era de los agentes de IA autónomos. Son señales claras de que el ecosistema se está rediseñando alrededor de estas nuevas capacidades.\n\n**Desafíos estructurales y éticos**\n\nSin embargo, no todo es optimismo. Las empresas de IA dedican ya el 20% de sus recursos a resolver problemas de alineación —cómo hacer que estos sistemas se comporten como esperamos. Es un número significativo que refleja la complejidad real de controlar sistemas cada vez más complejos.\n\nDeepSeek, por su parte, está desafiando la narrativa de Silicon Valley sobre productividad: mientras la industria occidental ha adoptado la jornada 996 de China, DeepSeek logra resultados comparables trabajando bajo principios opuestos. Una lección incómoda sobre eficiencia real versus cultura de sobreexigencia.\n\nY en OpenAI, Greg Brockman asume un rol más prominente en la organización, en un momento en que se intensifican debates fundamentales sobre si las máquinas pueden ser conscientes y sobre la crisis actual en las capacidades matemáticas de los grandes modelos de lenguaje.\n\nEstos últimos puntos nos recuerdan que mientras optimizamos herramientas y velocidades, hay preguntas profundas aún sin respuesta.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 77,
+    "new_articles": 80,
     "sources": 43,
-    "updated_label": "06:25"
+    "updated_label": "08:47"
   },
   "iaday": {
-    "reading_minutes": "46 min",
-    "audio_duration": "—",
+    "reading_minutes": "48 min",
+    "audio_duration": "2:41",
     "key_count": 3,
-    "papers_count": 63,
-    "repos_count": 7,
+    "papers_count": 64,
+    "repos_count": 8,
     "videos_count": 0,
     "impact": "Alto"
   },
@@ -35,7 +35,7 @@
       "content_type": "paper",
       "title": "Cadena de Experiencia para la Mejoramiento Continuado de Sistemas de Lenguaje en Nube",
       "summary": "Los humanos aprenden constantemente a partir de la experiencia, mientras que las evaluaciones convencionales de los modelos de lenguaje de gran escala (LLM) ign",
-      "time": "86h",
+      "time": "88h",
       "url": "https://huggingface.co/papers/2608.18027"
     },
     {
@@ -46,7 +46,7 @@
       "content_type": "repo",
       "title": "kaduoxzero/AI-Agent",
       "summary": "⭐ 2 estrellas — Sin descripción",
-      "time": "7h",
+      "time": "10h",
       "url": "https://github.com/kaduoxzero/AI-Agent",
       "stars": "2"
     },
@@ -58,7 +58,7 @@
       "content_type": "paper",
       "title": "Repo0: Generación de Códigos desde Cero hasta Todo Orientada al Diseño",
       "summary": "Los agentes de modelos de lenguaje de gran tamaño han logrado progresos significativos en la generación de código, pero la mayoría de los sistemas existentes as",
-      "time": "38h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2608.19854"
     },
     {
@@ -69,8 +69,20 @@
       "content_type": "paper",
       "title": "Inyectar, Alinear, Recuperar: Fase Estagiarizada Pos-Entrenamiento para la Internalización del Conocimiento Documental Sin Recuperación",
       "summary": "Los modelos de lenguaje grandes a menudo fallan al responder preguntas sobre una colección de documentos limitada cuando los documentos de origen no se recupera",
-      "time": "38h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2608.20281"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "utkukose/PharmODE",
+      "summary": "⭐ 1 estrella — Una biblioteca de Python para la identificación automatizada de modelos ODE de PK/PD a partir de datos de concentración-tempo. Selecciona la estr",
+      "time": "72h",
+      "url": "https://github.com/utkukose/PharmODE",
+      "stars": "1"
     },
     {
       "source": "GitHub Trending — IA",
@@ -80,7 +92,7 @@
       "content_type": "repo",
       "title": "samsingh2008/RAKSHA_GRID",
       "summary": "⭐ 2 estrellas — RAKSHA GRID — plataforma de inteligencia para decisiones en desastres impulsada por IA que transforma informes de emergencias fragmentados en in",
-      "time": "16h",
+      "time": "18h",
       "url": "https://github.com/samsingh2008/RAKSHA_GRID",
       "stars": "2"
     },
@@ -92,7 +104,7 @@
       "content_type": "repo",
       "title": "alejandrojlamas/verbaloom",
       "summary": "⭐ 2 estrellas — Laboratorio de aplicaciones de IA con enfoque local para la traducción de largos textos, memoria editorial, auditoría de fidelidad, umbrales de ",
-      "time": "56h",
+      "time": "58h",
       "url": "https://github.com/alejandrojlamas/verbaloom",
       "stars": "2"
     },
@@ -104,7 +116,7 @@
       "content_type": "repo",
       "title": "alejandrojlamas/red-privada",
       "summary": "⭐ 2 estrellas — Investigación asistida por IA sobre fuentes públicas, con grafos de conocimiento, procedencia verificable y revisión humana. Homenaje a Manuel B",
-      "time": "57h",
+      "time": "59h",
       "url": "https://github.com/alejandrojlamas/red-privada",
       "stars": "2"
     },
@@ -116,7 +128,7 @@
       "content_type": "repo",
       "title": "atlassandx90/InsightGPT-AI-Business-Intelligence-Copilot",
       "summary": "⭐ 1 estrella — Copiloto de inteligencia empresarial impulsado por AI para análisis SQL, tableros interactivos, pronósticos de ingresos y conocimientos empresari",
-      "time": "23h",
+      "time": "25h",
       "url": "https://github.com/atlassandx90/InsightGPT-AI-Business-Intelligence-Copilot",
       "stars": "1"
     },
@@ -128,7 +140,7 @@
       "content_type": "repo",
       "title": "khaliddosari/Proyecto-de-Aprendizaje-Profundo-Tuwaiq",
       "summary": "⭐ 0 estrellas — clasificación de imágenes CIFAR-10 utilizando solo redes neuronales completamente conectadas (sin CNNs ni aprendizaje transferente). Divisones r",
-      "time": "18h",
+      "time": "21h",
       "url": "https://github.com/khaliddosari/Deep-Learning-Project-Tuwaiq",
       "stars": "0"
     },
@@ -140,7 +152,7 @@
       "content_type": "repo",
       "title": "Shaik-pardi-11/AI_Student_performance_Análisis",
       "summary": "⭐ 0 estrellas — Sistema de predicción del rendimiento estudiantil basado en inteligencia artificial que utiliza aprendizaje automático y Streamlit para forecast",
-      "time": "19h",
+      "time": "21h",
       "url": "https://github.com/Shaik-pardi-11/AI_Student_performance_Analytics",
       "stars": "0"
     },
@@ -152,7 +164,7 @@
       "content_type": "paper",
       "title": "MidTool: Síntesis de Datos Intermedios durante el Entrenamiento para el Uso de Herramientas Agente",
       "summary": "Se reconoce cada vez más como una etapa crítica para moldear las capacidades de los modelos de lenguaje de gran escala el entrenamiento intermedio. Trabajo reci",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20314v1",
       "arxiv": "2608.20314v1"
     },
@@ -164,7 +176,7 @@
       "content_type": "paper",
       "title": "SWE-bench Ciencia: ¿Pueden los Agentes de Codificación Resolver Tareas de Ingeniería en Ciencia?",
       "summary": "El software cada vez se utiliza como parte del propio instrumento científico, lo que hace que los fallos en el código científico puedan comprometer no solo el c",
-      "time": "38h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2608.19799"
     },
     {
@@ -175,7 +187,7 @@
       "content_type": "paper",
       "title": "Planificación Unificada e Identidad para la Generación de Imágenes de Grupos",
       "summary": "La generación de imágenes preservando la identidad se vuelve cada vez menos confiable cuando una escena debe contener muchos personas especificadas. Más allá de",
-      "time": "38h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2608.20336"
     },
     {
@@ -186,7 +198,7 @@
       "content_type": "paper",
       "title": "EnvHarness: Despertar Mundos Estáticos para el Aprendizaje de Agentes",
       "summary": "Los agentes LLM aprenden interactuando con entornos, pero estos entornos son construidos manualmente y estáticos: ignoran las debilidades del agente y se quedan",
-      "time": "38h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2608.19880"
     },
     {
@@ -197,7 +209,7 @@
       "content_type": "paper",
       "title": "FlashPrefill V2: Atención de Prefill Esparsa por Bloques para el Servicio de LLM con Contexto Largo",
       "summary": "La modelización de contexto extenso es una capacidad crucial para los Modelos de Lenguaje Grandes, aunque la complejidad cuadrática de la atención sigue siendo ",
-      "time": "30h",
+      "time": "32h",
       "url": "https://huggingface.co/papers/2608.19758"
     },
     {
@@ -208,7 +220,7 @@
       "content_type": "paper",
       "title": "SkillEvo: Gradientes de Evolución Auto-renovables desde Feedback de Interacción Multiturno",
       "summary": "Hoy, las Habilidades del Agente se crean o bien a mano o en una sola pasada de generación de un LLM, y por lo tanto no poseen un ciclo cerrado a través del cual",
-      "time": "206h",
+      "time": "208h",
       "url": "https://huggingface.co/papers/2608.13120"
     },
     {
@@ -219,7 +231,7 @@
       "content_type": "paper",
       "title": "MemTrapBench: Evaluación de Trampas Cognitivas en el Uso de la Memoria de LLM",
       "summary": "La memoria se ha convertido en un componente clave de los modelos de lenguaje de gran escala, permitiéndoles retener información y aprender a partir de interacc",
-      "time": "38h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2608.20202"
     },
     {
@@ -230,7 +242,7 @@
       "content_type": "paper",
       "title": "Escucha Futura: La Predicción del Encaje Siguiente Patch Permite Aprendices Auditivos Escalables",
       "summary": "El aprendizaje supervisado por sí mismo (SSL) ha impulsado un progreso significativo en el aprendizaje de representaciones auditivas, aunque los métodos existen",
-      "time": "38h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2608.19863"
     },
     {
@@ -241,8 +253,19 @@
       "content_type": "paper",
       "title": "FACET: Preservar la Intención del Origen y el Estado Ejecutable en la Síntesis de Tareas Terminal",
       "summary": "El entrenamiento de agentes terminales requiere supervisión ejecutable escalable, pero la síntesis de tareas terminales de alta calidad sigue siendo desafiante.",
-      "time": "62h",
+      "time": "64h",
       "url": "https://huggingface.co/papers/2608.18580"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Pensamiento en una Lengua de Recursos Limitados: Lo Que la Aprendizaje Supervisado Construye, Lo Que la Aprendizaje por Refuerzo Corrige, Lo Que la Precisión No Ve",
+      "summary": "Toma tres modelos de mezcla de expertos de frontera (Alibaba, OpenAI, NVIDIA; con 3.6-4.0B parámetros activos cada uno) y úmala para razonar en un idioma de rec",
+      "time": "75h",
+      "url": "https://huggingface.co/papers/2608.17744"
     },
     {
       "source": "arXiv — cs.AI",
@@ -252,7 +275,7 @@
       "content_type": "paper",
       "title": "AI4AI-Bench: Evaluación de Agentes de LLM en el Diseño Algorítmico para Mejoramiento Recursivo Self-Improvement",
       "summary": "La mejora recursiva del sistema (RSI) cuestiona si un sistema de IA puede mejorar el proceso que produce sistemas de IA, de manera que el sistema siguiente here",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20318v1",
       "arxiv": "2608.20318v1"
     },
@@ -264,7 +287,7 @@
       "content_type": "paper",
       "title": "Caixa de Modelos de Ruta del AI de Pandora: Almacenamiento Eficiente con Estimación Costosa de Valor",
       "summary": "Sistemas de IA heterogéneos compuestos por múltiples modelos, arquitecturas, marcos o configuraciones de inferencia pueden mejorar la calidad y la eficiencia al",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20316v1",
       "arxiv": "2608.20316v1"
     },
@@ -276,7 +299,7 @@
       "content_type": "paper",
       "title": "Inyectar, Alinear, Recuperar: Fase Compuesta Post-Entrenamiento para la Internalización del Conocimiento Documental Sin Recuperación",
       "summary": "Los modelos de lenguaje grandes a menudo fallan al responder preguntas sobre una colección de documentos limitada cuando los documentos de origen no se recupera",
-      "time": "17h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2608.20281v1",
       "arxiv": "2608.20281v1"
     },
@@ -288,7 +311,7 @@
       "content_type": "paper",
       "title": "NARU: Un estándar para la evaluación del desarrollo narrativo y el entendimiento de las sutilezas culturales en videos extremadamente largos japoneses",
       "summary": "La comprensión de videos de larga duración abarca tareas que van más allá de recuperar eventos aislados, incluyendo rastrear una narrativa en evolución e interp",
-      "time": "206h",
+      "time": "208h",
       "url": "https://huggingface.co/papers/2608.13210"
     },
     {
@@ -299,7 +322,7 @@
       "content_type": "paper",
       "title": "Una Abordaje Agencial para la Colección Activa de Datos, el Modelado del Comportamiento del Viaje y la Predicción de la Demanda Sensible al Clima",
       "summary": "La investigación sobre el comportamiento del viaje combina cada vez más la recopilación de datos digitales con el modelado predictivo, aunque estos pasos a menu",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20320v1",
       "arxiv": "2608.20320v1"
     },
@@ -311,7 +334,7 @@
       "content_type": "paper",
       "title": "Hacia la cuantificación del optimización de benchmarks en modelos de ASR",
       "summary": "Los benchmarks públicos son medidas importantes de las capacidades de los modelos de Reconocimiento Automático del Habla (RAH). Sin embargo, por su naturaleza p",
-      "time": "38h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2608.19936"
     },
     {
@@ -322,7 +345,7 @@
       "content_type": "paper",
       "title": "4DAnyone: Crear a Cualquiera en 4D a partir de un Video Monocular Casual",
       "summary": "Presentamos 4DAnyone, un marco para reconstruir humanos 4D a partir de un video monocular no calibrado generando videos multivista consistente de calidad de rec",
-      "time": "38h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2608.20335"
     },
     {
@@ -333,7 +356,7 @@
       "content_type": "paper",
       "title": "ForgeWM: Entrenamiento progresivo causal para modelos de mundo de videos condicionados por acciones en pocos pasos",
       "summary": "Los modelos de mundo basados en videos condicionados por acciones requieren una generación de baja latencia causal y respuestas confiables a los controles nativ",
-      "time": "175h",
+      "time": "177h",
       "url": "https://huggingface.co/papers/2608.14022"
     },
     {
@@ -344,7 +367,7 @@
       "content_type": "paper",
       "title": "Tarea-CoEvolve: Optimización Eficiente de la Harnessificación a través de la Selección Adaptativa de Tareas de Validación",
       "summary": "Presentamos una nueva aproximación para la optimización eficiente de la harnesificación de agentes LLM a través de la selección adaptativa de tareas de validaci",
-      "time": "19h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.20169v1",
       "arxiv": "2608.20169v1"
     },
@@ -356,7 +379,7 @@
       "content_type": "paper",
       "title": "Orchestbración Multientidad con las Capacidades de Razonamiento por Sentido Común de los Sistemas de Aprendizaje de Máquina para Conducción Autónoma",
       "summary": "Los vehículos autónomos requieren capacidades robustas de percepción y toma de decisiones para operar en escenarios diversos e inesperados. Aunque el aprendizaj",
-      "time": "19h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.20129v1",
       "arxiv": "2608.20129v1"
     },
@@ -368,7 +391,7 @@
       "content_type": "paper",
       "title": "Decodificación del lectura silenciosa mediante EEG no invasivo",
       "summary": "El decodificado no invasivo de la habla interior enfrenta un problema fundamental de datos: un corpus que pase por alto la actividad cerebral junto con el monól",
-      "time": "18h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.20186v1",
       "arxiv": "2608.20186v1"
     },
@@ -380,7 +403,7 @@
       "content_type": "paper",
       "title": "ConTodos: Planificación Unificada y Aterrizaje de Identidad para la Generación de Imágenes de Grupos",
       "summary": "La generación de imágenes preservando la identidad se vuelve cada vez menos confiable cuando una escena debe contener muchos personas especificadas. Más allá de",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20336v1",
       "arxiv": "2608.20336v1"
     },
@@ -392,7 +415,7 @@
       "content_type": "paper",
       "title": "Descomponer y Transmitir: La Transferencia de Habilidades entre Tareas en Agentes de LLAM",
       "summary": "Los agentes de modelos de lenguaje de gran tamaño (LLM) pueden inducir habilidades a partir de tareas completadas y reutilizarlas más tarde para crecer con la e",
-      "time": "17h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2608.20274v1",
       "arxiv": "2608.20274v1"
     },
@@ -404,7 +427,7 @@
       "content_type": "paper",
       "title": "MemTrapBench: Evaluación de Trampas Cognitivas en el Uso de Memoria de LLM",
       "summary": "La memoria se ha convertido en un componente clave de los modelos de lenguaje de gran escala, permitiendo que retengan información y aprendan a partir de intera",
-      "time": "18h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.20202v1",
       "arxiv": "2608.20202v1"
     },
@@ -416,7 +439,7 @@
       "content_type": "paper",
       "title": "¿Cuál Debe Ser la Política de Expulsión que Debe Usar un LLM en Cache? Un Estudio Sistemático a Través de Cargas de Trabajo, Capacidades y Codificadores",
       "summary": "Los cachés semánticos reutilizan una respuesta de un LLM cuando la embeddings de la consulta entrante se encuentra cerca de una consulta cachada, pero las polít",
-      "time": "17h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2608.20280v1",
       "arxiv": "2608.20280v1"
     },
@@ -428,7 +451,7 @@
       "content_type": "paper",
       "title": "Desatornillando el Lente: Una Enfoque Basado en Física para la Remoción de Gafas de Video",
       "summary": "La eliminación de alta fidelidad de gafas en videos es un desafío importante en la edición de atributos faciales, ya que la geometría facial subyacente a menudo",
-      "time": "18h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.20212v1",
       "arxiv": "2608.20212v1"
     },
@@ -440,7 +463,7 @@
       "content_type": "paper",
       "title": "PelviNeXt: Una red híbrida no dependiente de la modalidad para la imagen pélvica en salud femenina",
       "summary": "La salud femenina sigue siendo substancialmente subfinanciada en la investigación de la imagen médica, con patologías pélvicas como el síndrome policistoso ovár",
-      "time": "19h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.20144v1",
       "arxiv": "2608.20144v1"
     },
@@ -452,7 +475,7 @@
       "content_type": "paper",
       "title": "G-CARL: Verificación de Lista Ajustada a Recompensas para Aprendizaje de Información de Informes Médicos Orientados al Paciente",
       "summary": "La interpretación personalizada de informes médicos ha emergido como una necesidad crecientemente importante para los pacientes. Para abordar esta necesidad, se",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20331v1",
       "arxiv": "2608.20331v1"
     },
@@ -464,7 +487,7 @@
       "content_type": "paper",
       "title": "Ganancias Fantasmas: Auditoría del Auto Mejoramiento Contra un Nulo Medido",
       "summary": "Se juzga cada vez menos la mejora de un modelo de lenguaje por su precisión promedio, sino más bien por los problemas individuales en los que gana y pierde. Mon",
-      "time": "16h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2608.20290v1",
       "arxiv": "2608.20290v1"
     },
@@ -476,7 +499,7 @@
       "content_type": "paper",
       "title": "Capturar el Tapete: Predicción Temprana de Memecoin Fraudulento en Solana mediante Aprendizaje Automático",
       "summary": "La rápida proliferación de monedas meme en plataformas blockchain ha aumentado el riesgo de actividades fraudulentas, especialmente de rug pulls. Mientras que e",
-      "time": "17h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2608.20271v1",
       "arxiv": "2608.20271v1"
     },
@@ -488,7 +511,7 @@
       "content_type": "paper",
       "title": "QUASAR: Un Red Neuronal Cuantum-Classical para la Autenticación Física del Capa de SATCOM de Satélites SAR",
       "summary": "Los satélites SAR de banda X (8-12 GHz) desempeñan un papel crítico en la respuesta a desastres, el monitoreo ambiental y la inteligencia militar. Sin embargo, ",
-      "time": "17h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.20240v1",
       "arxiv": "2608.20240v1"
     },
@@ -500,7 +523,7 @@
       "content_type": "paper",
       "title": "Planificación Visual Espacial Cumplimentaria de Reglas para Modelos de Lenguaje Multimodales de Gran Tamaño",
       "summary": "Los modelos de lenguaje de gran escala multimodales (MLLMs) combinan el razonamiento lingüístico con la percepción visual, pero su capacidad para realizar plani",
-      "time": "17h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.20237v1",
       "arxiv": "2608.20237v1"
     },
@@ -512,7 +535,7 @@
       "content_type": "paper",
       "title": "Daedalus-150M: UnHybrido de Convolución-Atención Diseñado para la Inferencia en CPU",
       "summary": "Los modelos de lenguaje pequeños se construyen generalmente como los grandes y luego se comprimen para adaptarlos a un CPU. Hicimos lo contrario: fijamos primer",
-      "time": "18h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.20210v1",
       "arxiv": "2608.20210v1"
     },
@@ -524,7 +547,7 @@
       "content_type": "paper",
       "title": "FormalTCS: Evaluación del Límite Final de la Investigación Científica Teórica Computacional de Grandes Modelos de Lenguaje",
       "summary": "Los modelos de lenguaje de gran tamaño (LLMs) han mostrado un potencial creciente para la investigación automática en ciencias teóicas de la computación (TCS), ",
-      "time": "19h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.20153v1",
       "arxiv": "2608.20153v1"
     },
@@ -536,7 +559,7 @@
       "content_type": "paper",
       "title": "Cuando el Texto y los Números No Coinciden: Prueba Arbitral en Modelos de Lenguaje Grandes",
       "summary": "Los modelos de lenguaje de gran tamaño (LLMs) se utilizan cada vez más en contextos donde las resúmenes textuales, observaciones numéricas y salidas de herramie",
-      "time": "19h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.20116v1",
       "arxiv": "2608.20116v1"
     },
@@ -548,7 +571,7 @@
       "content_type": "paper",
       "title": "Modelos Transformer Explicables para Tareas de Predicción Clínica en Registros Electrónicos Estruturados",
       "summary": "Los modelos predictivos sobre registros electrónicos de salud (EHR) estructurados siguen siendo centrales para el aprendizaje automático en atención médica, per",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20315v1",
       "arxiv": "2608.20315v1"
     },
@@ -560,7 +583,7 @@
       "content_type": "paper",
       "title": "CalcSeg: Aprendizaje jerárquico de contexto latente consciente de confianza para la segmentación de la cicatriz miocárdica desde single-stack LGE-CMRs",
       "summary": "La segmentación de la cicatriz miocárdica desde imágenes de resonancia magnética cardíaca con gadolinio administrado tarde (LGE-CMR) de una sola capa ha sido un",
-      "time": "16h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2608.20305v1",
       "arxiv": "2608.20305v1"
     },
@@ -572,7 +595,7 @@
       "content_type": "paper",
       "title": "RoMAN-Flow: Domando Flujos Normalizadores Autoregresivos para Aprendizaje por Refuerzo Offline en Manipulación Robótica",
       "summary": "El aprendizaje por refuerzo offline mejora las políticas robóticas utilizando datos previamente recopilados sin interacción adicional con el entorno. Sin embarg",
-      "time": "18h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.20208v1",
       "arxiv": "2608.20208v1"
     },
@@ -584,7 +607,7 @@
       "content_type": "paper",
       "title": "G3Ego: Grafos dirigidos por el punto de mira para el entendimiento de acciones egocéntricas",
       "summary": "La comprensión de acciones egocéntricas a menudo se aborda utilizando modelos de video grandes preentrenados en conjuntos de datos exocéntricos extensos. Sin em",
-      "time": "19h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.20157v1",
       "arxiv": "2608.20157v1"
     },
@@ -596,7 +619,7 @@
       "content_type": "paper",
       "title": "La inducción de modelos de tareas desde trazas de uso de computadora",
       "summary": "Los registros naturales del uso de computadoras, capturados de manera pasiva a través de capturas de pantalla y acciones del mouse o teclado, son un recurso val",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20319v1",
       "arxiv": "2608.20319v1"
     },
@@ -608,7 +631,7 @@
       "content_type": "paper",
       "title": "Aprendizaje de Cuándo Pensar: Razonamiento Adaptativo para la Alcancía de Cálculos en Tiempo de Prueba",
       "summary": "Los modelos de lenguaje basados en razonamiento entrenados con aprendizaje por refuerzo suelen operar bajo un presupuesto fijo de tokens en lugar de uno adaptat",
-      "time": "17h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2608.20256v1",
       "arxiv": "2608.20256v1"
     },
@@ -620,7 +643,7 @@
       "content_type": "paper",
       "title": "Crecimiento Sin Nosotros: Consumidores Máquinas, Circularidad Corporativa, y la Desdecouplación del PIB de la Humanidad después de la AGI",
       "summary": "La objeción estándar a la automatización completa se centra en el lado del demandante: si los humanos ganan nada, ¿quién compra la producción? Esto confunde un ",
-      "time": "17h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.20231v1",
       "arxiv": "2608.20231v1"
     },
@@ -632,7 +655,7 @@
       "content_type": "paper",
       "title": "Atención por Canal Condicionada por Prompt para Modulación de Características jerárquicas Hacia una Segmentación Agnóstica del Anatomía",
       "summary": "La segmentación anatómicamente plausible sigue siendo desafiante debido a un contraste bajo, límites de fronteras ambiguas y artefactos específicos de la modali",
-      "time": "18h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.20229v1",
       "arxiv": "2608.20229v1"
     },
@@ -644,7 +667,7 @@
       "content_type": "paper",
       "title": "ConceptGuard: Evaluación del Desaprendizaje Sensible al Contexto en Modelos de Lenguaje Grandes",
       "summary": "Los Grandes Modelos de Lenguaje (GMLs) cada vez requieren una eliminación selectiva del conocimiento perjudicial o sensible, llamada desaprendizaje, pero los mé",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20338v1",
       "arxiv": "2608.20338v1"
     },
@@ -656,7 +679,7 @@
       "content_type": "paper",
       "title": "ContractScrub: Un estándar para la revisión final de contratos legales",
       "summary": "El trabajo legal, con su fuerte dependencia en el procesamiento de grandes cantidades de texto, a menudo se considera uno de los dominios más expuestos al uso d",
-      "time": "18h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.20204v1",
       "arxiv": "2608.20204v1"
     },
@@ -668,7 +691,7 @@
       "content_type": "paper",
       "title": "$TCP_α$: Estimación de confianza controlada por margen para el recuperación de información musical fiable",
       "summary": "Las redes neuronales profundas a menudo son demasiado confiadas, asignando una alta confianza incluso a predicciones incorrectas. Como resultado, los usuarios c",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20326v1",
       "arxiv": "2608.20326v1"
     },
@@ -680,7 +703,7 @@
       "content_type": "paper",
       "title": "DICS: División Centríptica Informada por Datos para Clasificadores de Árboles de Decisiones",
       "summary": "Los modelos basados en árboles de decisión son ampliamente utilizados en el aprendizaje automático debido a su interpretabilidad y fuertes resultados empíricos.",
-      "time": "17h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2608.20258v1",
       "arxiv": "2608.20258v1"
     },
@@ -692,7 +715,7 @@
       "content_type": "paper",
       "title": "Aprendizaje Transferente en Regresión No Paramétrica con Redes Neuronales Profundas con Funciones de Activación ReLU",
       "summary": "Este artículo desarrolla un marco general de aprendizaje transferencial para la regresión no paramétrica con datos compuestos por múltiples grupos. Suponiendo q",
-      "time": "17h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2608.20255v1",
       "arxiv": "2608.20255v1"
     },
@@ -704,7 +727,7 @@
       "content_type": "paper",
       "title": "Swift-Image: Explorando el Límite de Performance de Modelos Unificados Compactos de Generación de Imágenes",
       "summary": "Presentamos Swift-Image, un modelo compacto y unificado para la generación de texto-a-imagen, el edición de una sola imagen y la edición de múltiples imágenes. ",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20334v1",
       "arxiv": "2608.20334v1"
     },
@@ -716,7 +739,7 @@
       "content_type": "paper",
       "title": "Inter-X++: Un conjunto completo de pruebas para el análisis de interacción humana-humana multimodal",
       "summary": "La capacidad para percibir y sintetizar interacciones humanas es fundamental para el desarrollo de sistemas digitales humanos inteligentes. Sin embargo, los con",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20312v1",
       "arxiv": "2608.20312v1"
     },
@@ -728,7 +751,7 @@
       "content_type": "paper",
       "title": "DreamHand: Repurposing Modelos de Difusión de Video para la Recuperación Robusta a Ocultaciones del Movimiento Tridimensional Egocéntrico de las Manos",
       "summary": "Los videos egocéntricos ofrecen datos de manipulación escalables para la IA corporal, pero la recuperación de trayectorias tridimensionales métricas de manos si",
-      "time": "16h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2608.20308v1",
       "arxiv": "2608.20308v1"
     },
@@ -740,7 +763,7 @@
       "content_type": "paper",
       "title": "Análisis de Inteligencia Artificial en Flujo de Trabajo en Cirugía Colorectal: Un Estudio Multicéntrico y de Generalización Procedimental",
       "summary": "Las cirugías colorectales mínimamente invasivas (MIS-CRS) se caracterizan por una variabilidad significativa y resultados inconsistentes. ColoWorkflow, una herr",
-      "time": "19h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.20154v1",
       "arxiv": "2608.20154v1"
     },
@@ -752,7 +775,7 @@
       "content_type": "paper",
       "title": "Información sobre trayectorias: martingales y tiempos aleatorios",
       "summary": "La contabilidad del flujo de información en el espacio de caminos de una martingala no negativa proporciona identidades variacionales exactas para ella, incluso",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20337v1",
       "arxiv": "2608.20337v1"
     },
@@ -764,7 +787,7 @@
       "content_type": "paper",
       "title": "Una comparación entre radar FMCW montado en el techo, radar IR-UWB y Wi-Fi para el monitoreo de la actividad humana en el dormitorio y la detección de interrupciones del sueño",
       "summary": "A pesar de su creciente importancia para la monitoreo de la salud médica basada en frecuencias de radio sin contacto, diferentes tecnologías de radio como la ra",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20322v1",
       "arxiv": "2608.20322v1"
     },
@@ -776,7 +799,7 @@
       "content_type": "paper",
       "title": "Conjuntos de Confianza de Soporte Físico para Diccionarios Altamente Cohérentes",
       "summary": "La persecución escasa después del aprendizaje del diccionario puede proporcionar una precisión en el soporte de átomo incluso cuando su interpretación física no",
-      "time": "16h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2608.20295v1",
       "arxiv": "2608.20295v1"
     },
@@ -788,7 +811,7 @@
       "content_type": "paper",
       "title": "Modelado Estructural Causal Dinámico para el Sueño",
       "summary": "Las dinámicas causales del apnea del sueño son complejas y varían entre poblaciones de pacientes, dificultando el desarrollo de intervenciones dirigidas. Aprend",
-      "time": "17h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2608.20285v1",
       "arxiv": "2608.20285v1"
     },
@@ -800,7 +823,7 @@
       "content_type": "paper",
       "title": "La estimación de parámetros gravitacionales con ondas gravitacionales surrogadas generadas mediante aprendizaje automático",
       "summary": "Hasta la fecha, la red mundial de detectores de ondas gravitacionales ha detectado más de 350 eventos de coalescencia binaria. Los futuros detectores de tercer ",
-      "time": "18h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.20222v1",
       "arxiv": "2608.20222v1"
     },
@@ -812,7 +835,7 @@
       "content_type": "paper",
       "title": "Cálculo Exacto Algebraico del Coeficiente de Aprendizaje para Modelos Singulares Bidimensionales",
       "summary": "Los criterios de información clásicos, como el CrITERIO DE INFORMACIÓN BAYESIANO (BIC), se basan en supuestos de regularidad que fallan en modelos singulares, l",
-      "time": "18h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.20183v1",
       "arxiv": "2608.20183v1"
     },
@@ -824,7 +847,7 @@
       "content_type": "paper",
       "title": "4DAnyone: Crear a Cualquiera en 4D a partir de un Video Monocular Casual",
       "summary": "Presentamos 4DAnyone, un marco para reconstruir humanos 4D a partir de un video monocúmulo no calibrado generando videos multivista consistente de calidad de re",
-      "time": "16h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2608.20335v1",
       "arxiv": "2608.20335v1"
     },
@@ -836,7 +859,7 @@
       "content_type": "paper",
       "title": "Hacia el Modelado del Mundo-Cirugía: Una Prevista Forensic Visual- Trajectory Joint para el Planificación del Movimiento Cirúrgico",
       "summary": "La planificación quirúrgica confiable requiere modelos que anticipen no solo cómo se moverán los instrumentos, sino también cómo evolucionará el estado visual o",
-      "time": "17h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2608.20284v1",
       "arxiv": "2608.20284v1"
     },
@@ -848,7 +871,7 @@
       "content_type": "paper",
       "title": "DPC-Net: Red Colaborativa Dual-Prior para la Restauración de Imágenes Compleja",
       "summary": "El Restablecimiento de Imágenes Todo-en-Un (AiOIR) tiene como objetivo manejar diversas degradaciones dentro de un modelo unificado. Sin embargo, los métodos ex",
-      "time": "19h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.20141v1",
       "arxiv": "2608.20141v1"
     },
@@ -860,7 +883,7 @@
       "content_type": "news",
       "title": "Slack lanza una nueva función que te permite programar software junto a Claude Code",
       "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-content/upl",
-      "time": "16h",
+      "time": "19h",
       "url": "https://hipertextual.com/inteligencia-artificial/slack-code-canales-programacion-ia-equipo/"
     },
     {
@@ -871,7 +894,7 @@
       "content_type": "news",
       "title": "Alexa+ costaba 20 dólares al mes. Amazon acaba de encontrar algo más valioso que la suscripción: meterla gratis en tu TV",
       "summary": "<p>\n     <img alt=\"Alexa&#x2B;&#x20;costaba&#x20;20&#x20;d&#x00F3;lares&#x20;al&#x20;mes.&#x20;Amazon&#x20;acaba&#x20;de&#x20;encontrar&#x20;algo&#x20;m&#x00E1;",
-      "time": "ahora",
+      "time": "2h",
       "url": "https://www.xataka.com/robotica-e-ia/alexa-costaba-20-dolares-al-mes-amazon-acaba-encontrar-algo-valioso-que-suscripcion-meterla-gratis-tu-tv"
     },
     {
@@ -882,7 +905,7 @@
       "content_type": "news",
       "title": "Conoce UPDF: Un Alternativo Ligero a Adobe Construido para la Era Agencial",
       "summary": "<p>Los PDFs son fáciles de leer pero difíciles de cambiar. Ahora, el AI puede resumir un contrato de 90 páginas en segundos, pero aún no puede reescribir el arc",
-      "time": "14h",
+      "time": "17h",
       "url": "https://www.marktechpost.com/2026/08/20/meet-updf-a-lightweight-adobe-alternative-built-for-the-agentic-era/"
     },
     {
@@ -893,7 +916,7 @@
       "content_type": "news",
       "title": "Presentando AI Futures",
       "summary": "Presentando AI Futures, un nuevo blog de OpenAI que explora cómo el AI transformador podría重塑权力、治理、经济和个体自由的格局。请注意，最后一句翻译未完全保持原文结构，因中文表达习惯而进行了适当调整。",
-      "time": "27h",
+      "time": "29h",
       "url": "https://openai.com/index/introducing-ai-futures"
     },
     {
@@ -904,7 +927,7 @@
       "content_type": "news",
       "title": "Conozca S1-mini: el normalizador de texto de 462 MB de Superwhisper que convierte transcripciones de ASR crudas en texto escrito limpio",
       "summary": "<p>S1-mini es un normalizador de texto de 462 MB de pesos abiertos que se sitúa después del ASR, eliminando filler y resolviendo correcciones auto locales.</p>\n",
-      "time": "12h",
+      "time": "14h",
       "url": "https://www.marktechpost.com/2026/08/20/meet-s1-mini-superwhispers-462-mb-open-weights-text-normalizer-that-turns-raw-asr-transcripts-into-clean-written-text/"
     },
     {
@@ -915,7 +938,7 @@
       "content_type": "release",
       "title": "Liquid AI Releases LFM2.5-DSpark Proyectos de Modelos que Ofrecen hasta 3,18 veces la Velocidad en la Decodificación Sin Cambiar los Salidas del Modelo",
       "summary": "<Tres drafters de aproximadamente 300M trae decodificación especulativa a LFM2.5, entregando hasta 3,18 veces más rápido la decodificación con salida gula idént",
-      "time": "15h",
+      "time": "17h",
       "url": "https://www.marktechpost.com/2026/08/20/liquid-ai-releases-lfm2-5-dspark-draft-models-that-deliver-up-to-3-18x-faster-decoding/"
     },
     {
@@ -926,8 +949,19 @@
       "content_type": "news",
       "title": "Google Discover está obteniendo una alimentación ajustada por chatbot de inteligencia artificial",
       "summary": "Google permitirá pronto personalizar tu feed de Discover describiendo lo que deseas ver. La nueva función, que se implementará en la aplicación Google en los pr",
-      "time": "12h",
+      "time": "14h",
       "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "De Atari a EVE Online: Construyendo sobre 15 Años de Investigación en IA en Juegos",
+      "summary": "Google DeepMind se alliance con estudios de juegos para prototipar nuevas experiencias de juego basadas en IA.",
+      "time": "ahora",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/"
     }
   ]
 }
