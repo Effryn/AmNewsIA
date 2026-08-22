@@ -3,18 +3,18 @@
   "date_label": "22 de agosto de 2026",
   "greeting": "Buenos días, Effry",
   "briefing": {
-    "duration_label": "—",
+    "duration_label": "2:34",
     "audio_url": "assets/audio/2026-08-22.mp3",
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama acelerado en inteligencia artificial, con avances significativos en visión por computadora, robotización y gobernanza de modelos.\n\nComenzamos en el frente de la visión artificial. DeepSeek acaba de presentar un modelo de interpretación de imágenes que se posiciona casi al nivel de Claude Opus 4.8, lo que representa un salto importante en capacidades competitivas. Paralelamente, Apple ha anunciado despidos masivos en sus equipos de Siri y Vision Pro, sugiriendo un cambio estratégico en sus prioridades de desarrollo de IA integrada.\n\nEn robótica, vemos movimientos concretos. LG y Nvidia han cerrado un acuerdo histórico para fabricar robots humanoides, comenzando con modelos sobre ruedas destinados a automatizar operaciones en fábricas de lavadoras. Al mismo tiempo, investigadores están revolucionando el entrenamiento robótico: en lugar de entrenar un robot desde cero para cada tarea nueva, simplemente necesitan que observe unos segundos para aprender. Un cambio paradigmático en cómo pensamos la adaptabilidad de estos sistemas.\n\nEn el ecosistema de aplicaciones, OpenClaw continúa expandiendo su alcance con nuevas funcionalidades en sus aplicaciones para iPhone y Android, democratizando el acceso a herramientas de IA avanzada.\n\nAhora bien, el lado oscuro también reclama atención. El Tribunal Superior de Justicia de Canarias ha multado a un abogado que citó hasta 48 sentencias falsas, sugeridas por IA. Este caso emblemático subraya la necesidad crítica de verificación humana y responsabilidad legal en sistemas generativos.\n\nEn infraestructura, Anthropic ha lanzado Claude Mythos 5 integrado en Claude Security, permitiendo a equipos empresariales realizar escaneos de vulnerabilidad sin acceso directo al modelo. Además, se está mapeando la economía de proveedores de agentes IA, con nuevos actores como CoreWeave, Nebius y Lambda compitiendo en infraestructura GPU. Y en investigación de seguridad, se están documentando técnicas de watermarking en textos generados por IA, un paso importante hacia la trazabilidad.\n\nFinalmente, LinkedIn reporta que más de un millón de usuarios han interactuado con su botón de \"AI slop\"—contenido de IA de baja calidad—evidenciando tanto la adopción masiva como los desafíos de calidad que persisten en plataformas.\n\nEl mensaje transversal: estamos en un momento donde la capacidad técnica avanza rápidamente, pero la gobernanza, verificación y responsabilidad deben mantener el ritmo.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 37,
+    "new_articles": 38,
     "sources": 43,
-    "updated_label": "12:02"
+    "updated_label": "12:14"
   },
   "iaday": {
-    "reading_minutes": "22 min",
-    "audio_duration": "—",
+    "reading_minutes": "23 min",
+    "audio_duration": "2:34",
     "key_count": 3,
     "papers_count": 8,
     "repos_count": 12,
@@ -175,7 +175,7 @@
       "content_type": "repo",
       "title": "Clausewitzbiologicalresearch3709/letsinfer",
       "summary": "⭐ 1 estrella — Instale, ejecute y sirva el mejor entorno de inferencia local para cualquier modelo y hardware con una única API compatible con OpenAI.",
-      "time": "4h",
+      "time": "5h",
       "url": "https://github.com/Clausewitzbiologicalresearch3709/letsinfer",
       "stars": "1"
     },
@@ -187,7 +187,7 @@
       "content_type": "repo",
       "title": "muhd-fayis/Detección y Reciclaje Asistente de Residuos Inteligentes",
       "summary": "⭐ 0 estrellas — Asistente de detección de residuos y reciclaje basado en YOLOv8n con backend FastAPI y frontend Angular.",
-      "time": "80h",
+      "time": "81h",
       "url": "https://github.com/muhd-fayis/AI-Waste-Detection-Recycling-Assistant",
       "stars": "0"
     },
@@ -267,7 +267,7 @@
       "content_type": "video",
       "title": "¡Controla todos tus agentes de IA desde un solo lugar!",
       "summary": "¿Usas varios agentes de IA y ya no sabes en qué terminal está cada uno? \n📌 Conoce Herdr, una herramienta gratuita y open source para centralizar tus agentes en ",
-      "time": "24h",
+      "time": "25h",
       "url": "https://www.youtube.com/shorts/6P6hzRkrspU"
     },
     {
@@ -278,7 +278,7 @@
       "content_type": "video",
       "title": "¿ChatGPT te da siempre la razón? Prueba esto 🤯",
       "summary": "¿Sientes que ChatGPT siempre está de acuerdo contigo? 🤔\n⚠️ Cuidado: eso puede hacer que confundas validación con una buena decisión.\n•\nPuedes configurar las ins",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.youtube.com/shorts/FY8XX3Q8X_k"
     },
     {
@@ -388,7 +388,7 @@
       "content_type": "news",
       "title": "Cómo Claude marca acuarelas de texto generado por IA",
       "summary": "Un recorrido de 48 minutos sobre la muestreo de tokens, la detección y eliminación de marcas de agua",
-      "time": "4h",
+      "time": "5h",
       "url": "https://magazine.sebastianraschka.com/p/claude-watermarking"
     },
     {
@@ -445,6 +445,17 @@
       "summary": "En los últimos días, varios creadores de contenido de producción cinematográfica de renombre, incluyendo a Matti Haapoja y Sam \"Kold\" Kolder, han publicado vide",
       "time": "26h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
+    },
+    {
+      "source": "Hipertextual",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "No eres tú: el algoritmo de X (Twitter) está diseñado para hacerte enfadar",
+      "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-content/upl",
+      "time": "ahora",
+      "url": "https://hipertextual.com/internet/no-eres-tu-el-algoritmo-de-x-twitter-esta-disenado-para-hacerte-enfadar/"
     }
   ]
 }
