@@ -3,18 +3,18 @@
   "date_label": "24 de agosto de 2026",
   "greeting": "Buenos días, Effry",
   "briefing": {
-    "duration_label": "—",
+    "duration_label": "2:15",
     "audio_url": "assets/audio/2026-08-24.mp3",
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama donde la incertidumbre y la nostalgia conviven con expectativas desinfladas sobre la adopción real de inteligencia artificial en las empresas.\n\nComencemos con lo más misterioso: Ox Alpha es el nuevo modelo de IA que tiene a toda la comunidad especulando. Por el momento, nadie sabe quién está detrás de este desarrollo, lo que ha generado considerable intriga en los círculos tecnológicos. Mientras tanto, crece cierta nostalgia por versiones anteriores de tecnologías que ya desaparecieron. Muchos usuarios recuerdan con cariño a DALL-E 2 y lamentan todo lo que se perdió en el camino cuando sus creadores decidieron dar un giro estratégico.\n\nEn cuanto a expectativas empresariales, Sam Altman ha hecho una reflexión interesante. El CEO de OpenAI reconoce públicamente que se equivocó en muchas cosas, pero especialmente en una: subestimó cuánta inercia tiene la economía. Las empresas simplemente no han adoptado inteligencia artificial con la velocidad que él imaginaba hace apenas unos años.\n\nEn problemas técnicos del día, usuarios de Claude reportan que el modelo está más lento de lo habitual. Aunque no sabemos si es un caída total, definitivamente hay algo ralentizando las respuestas del asistente de Anthropic.\n\nEn desarrollos empresariales, Harvey ha presentado Harvey Tenet, un nuevo modelo de IA especializado en trabajo legal de largo alcance. Está basado en Kimi K3 y ha sido entrenado con Fireworks para optimizar tareas jurídicas específicas.\n\nPor otro lado, Gemini de Google parece tener un uso específico particularmente efectivo para ahorrar dinero, aunque los detalles nos invitan a explorarlo más a fondo.\n\nAlgo fascinante que viene de MIT Technology Review: los niños siguen aprendiendo más rápido y mejor que los sistemas de inteligencia artificial, y los investigadores todavía no logran entender completamente por qué. Esto nos recuerda que hay capacidades cognitivas humanas que aún escapan a la replicación tecnológica.\n\nFinalmente, en infraestructura de GPU, un análisis reciente ha ranqueado los mejores proveedores de computación en nube para 2026: CoreWeave, Nebius, Lambda, Crusoe y Groq encabezan la lista según su relación entre precios publicados y potencia contratada.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 103,
     "sources": 43,
-    "updated_label": "09:15"
+    "updated_label": "09:45"
   },
   "iaday": {
     "reading_minutes": "62 min",
-    "audio_duration": "—",
+    "audio_duration": "2:15",
     "key_count": 3,
     "papers_count": 68,
     "repos_count": 14,
@@ -35,7 +35,7 @@
       "content_type": "repo",
       "title": "Tahirpathan-AiLab/Evaan_Engine_inteligencia_personal",
       "summary": "⭐ 10 estrellas — Evaan — un compañero de chatbot de inteligencia artificial basado localmente y capaz de funcionar sin conexión, construido con Python & Hugging",
-      "time": "6h",
+      "time": "7h",
       "url": "https://github.com/Tahirpathan-AiLab/Evaan_Personal_Intelligence_Engine",
       "stars": "10"
     },
@@ -46,8 +46,8 @@
       "cat": "Modelos",
       "content_type": "repo",
       "title": "muhammadashir0/regledger-ai",
-      "summary": "⭐ 1 estrellas — Evidence-first FinTech compliance intelligence: explainable risk, grounded LLM/RAG, human oversight and tamper-evident audit.",
-      "time": "132h",
+      "summary": "⭐ 1 estrella — Inteligencia de cumplimiento FinTech basada en evidencias: riesgo explicable, LLM/RAG fundamentado, supervisión humana y auditoría antifraude evi",
+      "time": "133h",
       "url": "https://github.com/muhammadashir0/regledger-ai",
       "stars": "1"
     },
@@ -58,8 +58,8 @@
       "cat": "Modelos",
       "content_type": "repo",
       "title": "eldanyali/Gemini-Modular-Framework",
-      "summary": "⭐ 0 estrellas — Design and Evaluation of a Modular Framework for Using Gemini API Based on Official Gemini 2.5 Flash Notebook",
-      "time": "28h",
+      "summary": "⭐ 0 estrellas — Diseño y Evaluación de un Marco Modular para el Uso de la API Gemini Basado en el Cuaderno oficial Gemini 2.5",
+      "time": "29h",
       "url": "https://github.com/eldanyali/Gemini-Modular-Framework",
       "stars": "0"
     },
@@ -71,7 +71,7 @@
       "content_type": "paper",
       "title": "Evaluación Fiable RAG: Un Agente de Evaluación para Detectar Información Falsa y Envenenamiento del Conocimiento en Sistemas de Inteligencia Artificial Generativa",
       "summary": "La Generación Aumentada por Recuperación (RAG) sitúa los outputs de los Modelos de Lenguaje Grande (MLL) en el conocimiento externo, pero los sistemas RAG suele",
-      "time": "71h",
+      "time": "72h",
       "url": "https://arxiv.org/abs/2608.21095v1",
       "arxiv": "2608.21095v1"
     },
@@ -83,7 +83,7 @@
       "content_type": "repo",
       "title": "gitzyong812/tutoria_de_agente",
       "summary": "⭐ 7 estrellas — Construcción de agentes inteligentes: Desde empleados digitales de IA hasta empresas solitarias. Mano a mano construyendo agentes inteligentes: ",
-      "time": "27h",
+      "time": "28h",
       "url": "https://github.com/gitzyong812/agent_tutorial",
       "stars": "7"
     },
@@ -95,7 +95,7 @@
       "content_type": "repo",
       "title": "Grevix/aura",
       "summary": "⭐ 3 estrellas — Ejecución consciente del hardware para el control del presupuesto de memoria y orquestación de inferencia de LLM para laptops con bajo consumo d",
-      "time": "20h",
+      "time": "21h",
       "url": "https://github.com/Grevix/aura",
       "stars": "3"
     },
@@ -107,7 +107,7 @@
       "content_type": "repo",
       "title": "Darren-Dcruz/Investilens",
       "summary": "⭐ 3 estrellas — Agente de investigación de inversiones basado en IA que genera dossieres institucionales de acciones utilizando inteligencia web multi-fuente, c",
-      "time": "31h",
+      "time": "32h",
       "url": "https://github.com/Darren-Dcruz/Investilens",
       "stars": "3"
     },
@@ -142,7 +142,7 @@
       "content_type": "repo",
       "title": "ErBharatMalhotra/radar-de-ia-abierta",
       "summary": "⭐ 2 estrellas — Descubre proyectos emergentes de inteligencia artificial de código abierto antes que nadie - calificación triple eje (Impacto/Velocidad/Salud) e",
-      "time": "79h",
+      "time": "80h",
       "url": "https://github.com/ErBharatMalhotra/open-source-ai-radar",
       "stars": "2"
     },
@@ -176,7 +176,7 @@
       "content_type": "repo",
       "title": "Abdulmajeed-Tawfik/clasificación-de-defectos-en-superficies-automotrices",
       "summary": "⭐ 2 estrellas — Un sistema de aprendizaje profundo para la clasificación de defectos en la superficie del acero automotriz utilizando redes neuronales convoluci",
-      "time": "54h",
+      "time": "55h",
       "url": "https://github.com/Abdulmajeed-Tawfik/automotive-surface-defect-classification",
       "stars": "2"
     },
@@ -188,7 +188,7 @@
       "content_type": "repo",
       "title": "linkhesh/Ai-Crowd-Safety-yolov8",
       "summary": "⭐ 2 estrellas — sistema de monitoreo en tiempo real de la multitud impulsado por IA que utiliza YOLOv8, OpenCV y Flask para la detección de sobrepoblación y ale",
-      "time": "7h",
+      "time": "8h",
       "url": "https://github.com/linkhesh/Ai-Crowd-Safety-yolov8",
       "stars": "2"
     },
@@ -200,7 +200,7 @@
       "content_type": "repo",
       "title": "ermradulsharma/money-printer-turbo",
       "summary": "⭐ 1 estrella — Ingrese un tema de video / palabras clave para generar automáticamente guiones, encontrar material en stock, sintetizar voz en off e subtítulos, ",
-      "time": "30h",
+      "time": "31h",
       "url": "https://github.com/ermradulsharma/money-printer-turbo",
       "stars": "1"
     },
@@ -212,7 +212,7 @@
       "content_type": "repo",
       "title": "plataforma de inteligencia de medios sociales",
       "summary": "⭐ 0 estrellas — Una plataforma integral de Inteligencia y Análisis de Medios Sociales construida con Python, SQL, C++, y Streamlit para el análisis de datos, vi",
-      "time": "24h",
+      "time": "25h",
       "url": "https://github.com/ydvsamiirrr2007/social-media-intelligence-platform",
       "stars": "0"
     },
@@ -234,8 +234,8 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "Webdel-ie/AI-Course-Recommendation-System",
-      "summary": "⭐ 0 estrellas — AI-powered personalized course recommendation system using TF-IDF, cosine similarity, KNN and hybrid scoring.",
+      "title": "Webdel-ie/Sistema-de-Recomendación-de-Cursos-IA",
+      "summary": "⭐ 0 estrellas — Sistema de recomendación de cursos personalizado basado en inteligencia artificial que utiliza TF-IDF, similaridad cosinusoidal, KNN y puntuació",
       "time": "90h",
       "url": "https://github.com/Webdel-ie/AI-Course-Recommendation-System",
       "stars": "0"
@@ -348,7 +348,7 @@
       "content_type": "paper",
       "title": "ParaTempo: Razonamiento Paralelo Eficiente mediante Confianza Temporal",
       "summary": "La razonamiento paralelo mejora la precisión y la robustez de los modelos de razonamiento grandes al explorar múltiples caminos de solución, pero su costo compu",
-      "time": "173h",
+      "time": "174h",
       "url": "https://huggingface.co/papers/2608.16425"
     },
     {
@@ -404,7 +404,7 @@
       "content_type": "paper",
       "title": "Ataque a la Utilidad: Poisoning de la Memoria del Agente y los Limites del Filtrado de Contenido y la Calificación por Proveniencia",
       "summary": "La memoria persistente hace que la información falsa sea duradera: una vez que una afirmación falsa se almacena, puede ser recuperada en sesiones futuras que la",
-      "time": "69h",
+      "time": "70h",
       "url": "https://arxiv.org/abs/2608.21230v1",
       "arxiv": "2608.21230v1"
     },
@@ -416,7 +416,7 @@
       "content_type": "paper",
       "title": "Optimización de Prompt para Tareas de Codiñg en LLM",
       "summary": "Los modelos de lenguaje de gran tamaño (LLMs) se utilizan cada vez más en flujos de trabajo de investigación y encajes de desarrollo de software, pero su salida",
-      "time": "71h",
+      "time": "72h",
       "url": "https://arxiv.org/abs/2608.21074v1",
       "arxiv": "2608.21074v1"
     },
@@ -440,7 +440,7 @@
       "content_type": "paper",
       "title": "CLAR: Ruteo Continuo de Adaptador Latente para Alineación de Seguridad de Sistemas de Lenguaje con Preservación de Utilidad",
       "summary": "Mejorar la seguridad de los modelos de lenguaje de gran escala (LLMs) a menudo se realiza a expensas de la utilidad, ya que la ajustada global de seguridad pued",
-      "time": "68h",
+      "time": "69h",
       "url": "https://arxiv.org/abs/2608.21278v1",
       "arxiv": "2608.21278v1"
     },
@@ -452,7 +452,7 @@
       "content_type": "paper",
       "title": "Control Personalizado de Privacidad en LLMs a Través de la Intervención de las Cabezas de Atención",
       "summary": "El aumento del uso de la inteligencia artificial agente permite a los modelos de lenguaje de gran escala acceder a una diversidad de datos del usuario, elevando",
-      "time": "69h",
+      "time": "70h",
       "url": "https://arxiv.org/abs/2608.21209v1",
       "arxiv": "2608.21209v1"
     },
@@ -464,7 +464,7 @@
       "content_type": "paper",
       "title": "No Se Intencional: Nombres Plausibles Desconocidos para la Evaluación de LLM Centrados en la Persona",
       "summary": "Se utilizan nombres de personas de manera amplia como variables de estimulo en las evaluaciones de facticidad, filtrado de privacidad, sesgo y abstención en eva",
-      "time": "69h",
+      "time": "70h",
       "url": "https://arxiv.org/abs/2608.21206v1",
       "arxiv": "2608.21206v1"
     },
@@ -488,7 +488,7 @@
       "content_type": "paper",
       "title": "De la regulación a la implementación: Una evaluación crítica del cumplimiento regulatorio con asistencia de LLM en la industria",
       "summary": "La Unión Europea (UE) se ha convertido en un cuerpo regulador líder en el desarrollo de regulaciones sobre sostenibilidad y privacidad. Aunque las nuevas exigen",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2608.21317v1",
       "arxiv": "2608.21317v1"
     },
@@ -524,7 +524,7 @@
       "content_type": "paper",
       "title": "Aumentando LLMs en Respuestas Políticas Predictivas con Datos Semi-Estructurados",
       "summary": "El procesamiento predictivo de preguntas políticas (QA), como predecir cómo un actor político votará, va más allá de una búsqueda fáctica. Los recursos político",
-      "time": "69h",
+      "time": "70h",
       "url": "https://arxiv.org/abs/2608.21218v1",
       "arxiv": "2608.21218v1"
     },
@@ -536,7 +536,7 @@
       "content_type": "paper",
       "title": "Cuando el Pago de Características Vaya Algorítmico: Extendiendo la Ecología del Evolución del Lenguaje de Mufwene a la Exposición Mediada por LLM",
       "summary": "El modelo ecológico de Mufwene sitúa la evolución de las lenguas en la competencia entre variantes contribuidas por idioléctos individuales y en la selección de",
-      "time": "71h",
+      "time": "72h",
       "url": "https://arxiv.org/abs/2608.21088v1",
       "arxiv": "2608.21088v1"
     },
@@ -548,7 +548,7 @@
       "content_type": "paper",
       "title": "Aparte de las bromas: Medir la distancia semántica de significados dobles",
       "summary": "Los modelos de lenguaje grandes han enriquecido significativamente el conjunto de herramientas para la investigación del humor computacional, especialmente en l",
-      "time": "71h",
+      "time": "72h",
       "url": "https://arxiv.org/abs/2608.21087v1",
       "arxiv": "2608.21087v1"
     },
@@ -584,7 +584,7 @@
       "content_type": "paper",
       "title": "ConceptosTS: Limitaciones Conceptuales Guiadas por LLM para una Predicción de Series Temporales Multivariadas Interpretativa",
       "summary": "Los pronosticadores multivariados de serie temporal de vanguardia pueden modelar dependencias temporales y entre variables complejas, pero sus representaciones ",
-      "time": "68h",
+      "time": "69h",
       "url": "https://arxiv.org/abs/2608.21277v1",
       "arxiv": "2608.21277v1"
     },
@@ -596,7 +596,7 @@
       "content_type": "paper",
       "title": "El Efecto de Diseño por Excedencia: Tamaño Muestral Efectivo para Umbral bajo Clustering",
       "summary": "Muchos sistemas de aprendizaje automático establecen umbral en un cuantil de un conjunto de calibración: predictores conformales que prometen un 90% de cobertur",
-      "time": "68h",
+      "time": "69h",
       "url": "https://arxiv.org/abs/2608.21262v1",
       "arxiv": "2608.21262v1"
     },
@@ -656,7 +656,7 @@
       "content_type": "paper",
       "title": "Búsqueda unificada por ramificación y acotación para el problema del vendedor viajero de Steiner en grafos de conjuntos convexos",
       "summary": "Formalizamos el Problema del Vendedor Viajero de Steiner (Steiner-TSP) en Grafos de Conjuntos Convexos (GCS), que busca una trayectoria cerrada de costo mínimo ",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2608.21319v1",
       "arxiv": "2608.21319v1"
     },
@@ -668,7 +668,7 @@
       "content_type": "paper",
       "title": "Gestión de Modelos de IA y Conjuntos de Datos con Soporte Ontológico",
       "summary": "Recientemente, se ha realizado una gran cantidad de investigación para mejorar los métodos de inteligencia artificial (IA) y su aplicación. El enfoque principal",
-      "time": "69h",
+      "time": "70h",
       "url": "https://arxiv.org/abs/2608.21224v1",
       "arxiv": "2608.21224v1"
     },
@@ -680,7 +680,7 @@
       "content_type": "paper",
       "title": "La Ampliación de la Memoria Desbloquea un Razonamiento Basado en una Cadena Eficiente",
       "summary": "Los modelos de lenguaje grandes a menudo se basan en el razonamiento por cadena de pensamiento (CoT) para resolver tareas complejas, pero las trazas de razonami",
-      "time": "68h",
+      "time": "69h",
       "url": "https://arxiv.org/abs/2608.21265v1",
       "arxiv": "2608.21265v1"
     },
@@ -728,7 +728,7 @@
       "content_type": "paper",
       "title": "Modelo de Predicción Basado en Transformadores Consciente del Tiempo para AECOPD",
       "summary": "El cambio rápido de síntomas en la exacerbación aguda de la enfermedad obstructiva pulmonar crónica (AECOPD) hace crucial tener modelos de predicción de tiempo ",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2608.21324v1",
       "arxiv": "2608.21324v1"
     },
@@ -740,7 +740,7 @@
       "content_type": "paper",
       "title": "Algebra Lineal Avanzada con Aplicaciones - Parte I (Álgebra lineal numérica para EDPs, aprendizaje automático y asimilación de datos)",
       "summary": "Estos apuntes de conferencia forman la primera parte de un curso de maestría en álgebra lineal numérica avanzada. Su objetivo no solo es presentar los algoritmo",
-      "time": "69h",
+      "time": "70h",
       "url": "https://arxiv.org/abs/2608.21234v1",
       "arxiv": "2608.21234v1"
     },
@@ -776,7 +776,7 @@
       "content_type": "paper",
       "title": "La Costeña como Restricción Estructural: Explotando la Geometría del Escenario para la Localización de Vehículos Superficiales Autónomos",
       "summary": "Los entornos costeros contienen una rica estructura geométrica, en gran medida no explotada, capaz de proporcionar indicadores de localización referenciados glo",
-      "time": "68h",
+      "time": "69h",
       "url": "https://arxiv.org/abs/2608.21276v1",
       "arxiv": "2608.21276v1"
     },
@@ -824,7 +824,7 @@
       "content_type": "paper",
       "title": "Redes Neuronales Informadas por la Anatomía: Codificación de Prioridades Anatómicas en Pérdidas y Arquitectura, con una Formulación SE(3) de la Deformación Aortoiliaca Inducida por la Guía",
       "summary": "Los modelos de aprendizaje profundo de la anatomía pueden ser plausibles numéricamente pero imposibles anatomíicamente, y se generalizan mal cuando los datos so",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2608.21332v1",
       "arxiv": "2608.21332v1"
     },
@@ -848,7 +848,7 @@
       "content_type": "paper",
       "title": "Paralelización de Grado Fino del GPU para el Cruce por Partición Generalizado en Problemas de Viajante de Comercio de Gran Escala",
       "summary": "El Problema del Vendedora de Caminos (TSP) es uno de los problemas de optimización NP-duros más estudiados. Los resolutores basados en Algoritmos Genéticos (AG)",
-      "time": "69h",
+      "time": "70h",
       "url": "https://arxiv.org/abs/2608.21233v1",
       "arxiv": "2608.21233v1"
     },
@@ -860,7 +860,7 @@
       "content_type": "paper",
       "title": "Movimiento por Movimiento: Medición y Orientación del Cómo los Sistemas de Inteligencia de Máquinas Conductan Terapia Psicológica",
       "summary": "Los usuarios cada vez más se dirigen a los modelos de lenguaje de gran escala para obtener apoyo emocional, pero se conoce poco sobre cómo realmente realizan un",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2608.21325v1",
       "arxiv": "2608.21325v1"
     },
@@ -872,7 +872,7 @@
       "content_type": "paper",
       "title": "La Interacción Prompt-Model Llega a los Puntos Fijos: Un análisis estructural determinista y libre de tarea -- y las factorizaciones que fallaron",
       "summary": "Se establece que el efecto de un prompt no es una propiedad del propio prompt: prompts optimizados para un modelo se deterioran en otro, y las clasificaciones s",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2608.21315v1",
       "arxiv": "2608.21315v1"
     },
@@ -896,7 +896,7 @@
       "content_type": "paper",
       "title": "Incertidumbre Across- Diseño en Paneles Breves de Precios: Evidencia desde Trajeterias Simuladas de Precios",
       "summary": "Los paneles de precios observacionales de corto plazo pueden contener muchas observaciones mientras ofrecen solo un pequeño número de movimientos de precios dis",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2608.21334v1",
       "arxiv": "2608.21334v1"
     },
@@ -944,7 +944,7 @@
       "content_type": "paper",
       "title": "Ajuste de cuarta orden implícito触发电荡扰动for la afinación cero-orden de transformadores de disparos",
       "summary": "La optimización de orden cero (ZO) estima los gradientes utilizando solo evaluaciones de paso adelante, lo que lo hace adecuado para el ajuste fino de redes neu",
-      "time": "69h",
+      "time": "70h",
       "url": "https://arxiv.org/abs/2608.21223v1",
       "arxiv": "2608.21223v1"
     },
@@ -956,7 +956,7 @@
       "content_type": "paper",
       "title": "Rutas de interpolación calibradas según la dificultad para el ajuste condicional del flujo",
       "summary": "El Ajuste por Corriente Condicional entrena modelos generativos al regresar una red sobre la velocidad de un camino de interpolación de ruido a datos prescrito.",
-      "time": "68h",
+      "time": "69h",
       "url": "https://arxiv.org/abs/2608.21286v1",
       "arxiv": "2608.21286v1"
     },
@@ -968,7 +968,7 @@
       "content_type": "paper",
       "title": "WildFin: Un Conjunto de Datos en Libertad para la Reconocimiento del Comportamiento de Peces",
       "summary": "Los recientes avances en la tecnología de campo han llevado a una gran cantidad de datos de video en estado natural para la ciencia ecológica. El principal obst",
-      "time": "68h",
+      "time": "69h",
       "url": "https://arxiv.org/abs/2608.21281v1",
       "arxiv": "2608.21281v1"
     },
@@ -992,7 +992,7 @@
       "content_type": "paper",
       "title": "Instrucciones de Anclaje Fuera de la Máscara: Cachéando Referencias Exactas para una Difusión Eficiente con Contexto Inmediato",
       "summary": "La generación omnimodal es central en una amplia gama de aplicaciones de creación y edición de contenido. La condiciónamiento en contexto es esencial para este ",
-      "time": "69h",
+      "time": "70h",
       "url": "https://arxiv.org/abs/2608.21229v1",
       "arxiv": "2608.21229v1"
     },
@@ -1048,7 +1048,7 @@
       "content_type": "news",
       "title": "Los becarios en la banca ya vienen con la IA bajo el brazo: ahora le enseñan cómo funciona a sus jefes",
       "summary": "<p>\n     <img alt=\"Los&#x20;becarios&#x20;en&#x20;la&#x20;banca&#x20;ya&#x20;vienen&#x20;con&#x20;la&#x20;IA&#x20;bajo&#x20;el&#x20;brazo&#x3A;&#x20;ahora&#x20;",
-      "time": "26h",
+      "time": "27h",
       "url": "https://www.xataka.com/empresas-y-economia/becarios-banca-vienen-ia-brazo-ahora-le-ensenan-como-funciona-a-sus-jefes"
     },
     {
@@ -1070,7 +1070,7 @@
       "content_type": "news",
       "title": "Ox Alpha es el nuevo y misterioso modelo de IA del que todos hablan. Nadie sabe quién está detrás",
       "summary": "<p>\n     <img alt=\"Ox&#x20;Alpha&#x20;es&#x20;el&#x20;nuevo&#x20;y&#x20;misterioso&#x20;modelo&#x20;de&#x20;IA&#x20;del&#x20;que&#x20;todos&#x20;hablan.&#x20;Na",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.xataka.com/robotica-e-ia/ox-alpha-nuevo-misterioso-modelo-ia-que-todos-hablan-nadie-sabe-quien-esta-detras"
     },
     {
@@ -1081,7 +1081,7 @@
       "content_type": "news",
       "title": "Vercel introduce 'Is Agentic', una herramienta gratuita para evaluar la preparación de agencias que auditórea sitios web públicos utilizando más de 100 verificaciones de Ora.",
       "summary": "<p>Vercel y Ora lanzaron Is Agentic, un sitio web gratuito que evalúa la preparación para agentes de IA a través de 118 chequeos.</p>\n<p>La publicación <a href=",
-      "time": "29h",
+      "time": "30h",
       "url": "https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks/"
     },
     {
@@ -1103,7 +1103,7 @@
       "content_type": "news",
       "title": "\"Me equivoqué en muchas cosas, pero sobre todo en una: la economía tiene mucha inercia\": Sam Altman reconoce que las empresas no han adoptado IA tanto como imaginaba",
       "summary": "<p>\n     <img alt=\"&quot;Me&#x20;equivoqu&#x00E9;&#x20;en&#x20;muchas&#x20;cosas,&#x20;pero&#x20;sobre&#x20;todo&#x20;en&#x20;una&#x3A;&#x20;la&#x20;econom&#x00",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.xataka.com/robotica-e-ia/me-equivoque-muchas-cosas-todo-economia-tiene-mucha-inercia-sam-altman-reconoce-que-empresas-no-han-adoptado-ia-como-imaginaba"
     },
     {
@@ -1125,7 +1125,7 @@
       "content_type": "news",
       "title": "No eres tú: este es el motivo por el que Claude tarda tanto en responder. ¿Se ha caído?",
       "summary": "<figure><img alt=\"Claude\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"683\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-conte",
-      "time": "4h",
+      "time": "5h",
       "url": "https://hipertextual.com/tecnologia/no-eres-tu-este-es-el-motivo-por-el-que-claude-tarda-tanto-en-responder-se-ha-caido/"
     },
     {
@@ -1202,7 +1202,7 @@
       "content_type": "news",
       "title": "Mejores GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe y Groq clasificados según el precio publicado y la potencia contratacional",
       "summary": "Los cinco neoclouds de GPU más grandes ahora funcionan en modelos muy diferentes. CoreWeave y Nebius informan a la SEC; Lambda y Crusoe son privados y se dirige",
-      "time": "7h",
+      "time": "8h",
       "url": "https://www.marktechpost.com/2026/08/23/best-gpu-neoclouds-2026/"
     },
     {
@@ -1213,7 +1213,7 @@
       "content_type": "news",
       "title": "Análisis de Datos Científicos con LabPlot en Python: Procesamiento de Señales, Ajuste de Picos Espectrales, Visualización y Automatización en Lote",
       "summary": "En este tutorial, se explora un flujo de trabajo de análisis de datos científicos inspirado en LabPlot en Python, preservando la estructura y terminología del á",
-      "time": "9h",
+      "time": "10h",
       "url": "https://www.marktechpost.com/2026/08/23/scientific-data-analysis-with-labplot-in-python-signal-processing-spectral-peak-fitting-visualization-and-batch-automation/"
     },
     {
@@ -1224,7 +1224,7 @@
       "content_type": "news",
       "title": "Conozca FreeToken: Un motor de servicio MoE nativo del borde que ejecuta 753B GLM-5.2 en una sola GPU de workstation.",
       "summary": "<p>FreeToken divide los fallos de caché de MoE entre los rellenos PCIe y la ejecución del CPU utilizando ancho de banda medido, desbloqueando modelos de vanguar",
-      "time": "26h",
+      "time": "27h",
       "url": "https://www.marktechpost.com/2026/08/23/meet-freetoken-an-edge-native-moe-serving-engine-that-runs-753b-glm-5-2-on-a-single-workstation-gpu/"
     }
   ]
