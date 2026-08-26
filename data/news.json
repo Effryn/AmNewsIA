@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 86,
     "sources": 44,
-    "updated_label": "11:34"
+    "updated_label": "11:41"
   },
   "iaday": {
     "reading_minutes": "52 min",
@@ -308,7 +308,7 @@
       "content_type": "paper",
       "title": "FedV-KGQA: Responder a Preguntas con Varios Saltos sobre Grafos de Conocimiento Partitionados Verticalmente",
       "summary": "Los datos del mundo real para la respuesta de preguntas en grafos de conocimiento a menudo se distribuyen entre diferentes organizaciones debido a restricciones",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2608.24846v1",
       "arxiv": "2608.24846v1"
     },
@@ -320,7 +320,7 @@
       "content_type": "paper",
       "title": "Diagnósticos Correctos, Razonamiento Decorativo: Un Examen de Perturbaciones del Razonamiento en Cadenas Médicas",
       "summary": "Los clínicos leen las rationales de razonamiento en cadena (CoT) como evidencia del razonamiento médico, pero si la cadena visible desempeña ese papel raramente",
-      "time": "22h",
+      "time": "23h",
       "url": "https://arxiv.org/abs/2608.24790v1",
       "arxiv": "2608.24790v1"
     },
@@ -332,7 +332,7 @@
       "content_type": "paper",
       "title": "BrowserForge: Escalando episodios web mediante sandboxes de navegadores paralelas",
       "summary": "Los agentes web que actúan desde píxeles renderizados evitan la fragilidad y el costo pesado de tokens de leer el HTML o la árbol de accesibilidad de una página",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2608.24848v1",
       "arxiv": "2608.24848v1"
     },
@@ -392,7 +392,7 @@
       "content_type": "paper",
       "title": "LAION-BVD: Un conjunto de video abierto de 10 millones de horas para el pre-entrenamiento multimodal",
       "summary": "Presentamos LAION-BVD, un conjunto de datos de video abierto en gran escala para el aprendizaje multimodal, que contiene 1,3 billones de direcciones URL de vide",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2608.24845v1",
       "arxiv": "2608.24845v1"
     },
@@ -428,7 +428,7 @@
       "content_type": "paper",
       "title": "CAFE: Los agentes de búsqueda auto-mejorando necesitan retroalimentación que co-evoluya",
       "summary": "Los agentes de búsqueda supervisados por resultados aprenden cuándo y cómo recuperar evidencia, pero las recompensas terminales no localizan errores intermedios",
-      "time": "22h",
+      "time": "23h",
       "url": "https://arxiv.org/abs/2608.24794v1",
       "arxiv": "2608.24794v1"
     },
@@ -548,7 +548,7 @@
       "content_type": "paper",
       "title": "EMFE: Un marco de aprendizaje automático liviano y explicable para la clasificación de células de malaria",
       "summary": "La diagnóstico automático del malaria desde microscopio de sangre colorada se domina por las redes neuronales convolucionales profundas, que son precisas pero c",
-      "time": "22h",
+      "time": "23h",
       "url": "https://arxiv.org/abs/2608.24793v1",
       "arxiv": "2608.24793v1"
     },
@@ -608,7 +608,7 @@
       "content_type": "paper",
       "title": "Oscilador Poligonal Arbitrario: Generalizando la Síntesis Poligonal a Formas Arbitrarias, Morfología y Poliedros Tridimensionales",
       "summary": "La síntesis poligonal genera audio al recorrer el perímetro de un polígono con un phasor; el trabajo previo utiliza una velocidad angular constante, mientras qu",
-      "time": "23h",
+      "time": "24h",
       "url": "https://arxiv.org/abs/2608.24726v1",
       "arxiv": "2608.24726v1"
     },
@@ -680,7 +680,7 @@
       "content_type": "paper",
       "title": "Clasificación de Imágenes Fundales Interpretables a través de Características Basadas en Anillos del Vasos Rétinales",
       "summary": "La fotografía de la base retinal se utiliza ampliamente para laScreening y el seguimiento de las enfermedades oculares, pero muchos pipelines de clasificación m",
-      "time": "23h",
+      "time": "24h",
       "url": "https://arxiv.org/abs/2608.24723v1",
       "arxiv": "2608.24723v1"
     },
@@ -776,7 +776,7 @@
       "content_type": "paper",
       "title": "LION: Un paradigma neural de Clifford para el aprendizaje en grafos multimodales-atribuidos",
       "summary": "Recientemente, el rápido avance en dominios multimodales ha impulsado un cambio paradigmático centrado en los datos en el aprendizaje automático en grafos, pasa",
-      "time": "22h",
+      "time": "23h",
       "url": "https://arxiv.org/abs/2608.24795v1",
       "arxiv": "2608.24795v1"
     },
@@ -836,7 +836,7 @@
       "content_type": "paper",
       "title": "Aprendizaje Profundo para la Superresolución en la Disminución de Máscaras de Nubes de Satélite",
       "summary": "Se transmite una gran cantidad de datos satelitales ópticos a servidores terrestres diariamente, y más de la mitad de estos datos está afectado por neblina o nu",
-      "time": "23h",
+      "time": "24h",
       "url": "https://arxiv.org/abs/2608.24715v1",
       "arxiv": "2608.24715v1"
     },
