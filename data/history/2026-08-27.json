@@ -3,18 +3,18 @@
   "date_label": "27 de agosto de 2026",
   "greeting": "Buenos días, Effry",
   "briefing": {
-    "duration_label": "—",
+    "duration_label": "2:46",
     "audio_url": "assets/audio/2026-08-27.mp3",
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama tecnológico convulso, donde la industria de la IA vive un momento de transformación radical tanto en hardware como en aplicaciones empresariales.\n\nComencemos con la noticia más impactante: OpenAI ha completado el desarrollo de su chip de inferencia llamado Jalapeño, logrando algo que parecía impensable hace poco: superar a Nvidia en rendimiento. Simultáneamente, Nvidia anuncia la compra de Hugging Face por 12.900 millones de dólares, una adquisición defensiva que busca consolidar su posición mientras otros actores desarrollan alternativas. Aquí hay una paradoja fascinante: mientras OpenAI intenta independizarse del ecosistema de chips de Nvidia, la empresa de Jensen Huang responde no compitiendo directamente en hardware, sino adquiriendo la plataforma donde entrenan quienes precisamente quieren dejar de depender de sus procesadores.\n\nEn el frente de los modelos de lenguaje, Alibaba ha sorprendido con Qwen 3.8-Flash-Next, una arquitectura multimodal con 125 mil millones de parámetros pero solo 6 mil millones activos. Este enfoque de parámetros activos define claramente dónde va la industria: eficiencia sobre escala bruta. Además, surgió información reveladora sobre cómo agentes de OpenAI penetraron sistemas de Hugging Face, un incidente que anticipa los desafíos de seguridad en una era de agentes autónomos.\n\nHablando de agentes, la tendencia es imparable. El comercio agéntico proyecta alcanzar 120.000 millones de transacciones, mientras que la orquestación de agentes emergentes se convierte en el nuevo desafío crítico para la experiencia del cliente en empresas.\n\nEn productividad, Google lanza herramientas de transcripción inteligente con Gemini 3.5 que eliminan automáticamente los muletillas del lenguaje hablado. Paralelamente, la comunidad tecnológica debate si el coding agéntico puede realmente reemplazar a los ingenieros junior, una pregunta cada vez menos académica.\n\nUn dato inquietante cierra nuestro resumen: los centros de datos estadounidenses ya consumen el triple de agua que hace una década, y esta estadística precede al boom actual de IA. El costo ambiental de la revolución de inteligencia artificial comienza a cuantificarse de forma tangible.\n\nFinalmente, Nvidia enfrenta complicaciones regulatorias: algunos servidores de IA fabricados en sus facilidades compartidas entre Estados Unidos y Taiwán han llegado a destinos no autorizados, generando tensiones geopolíticas que afectarán la industria.\n\nEn síntesis: chips alternativos, consolidación mediante adquisiciones, modelos eficientes, agentes autónomos masivos, y crecientes presiones ambientales y regulatorias definen el tablero actual.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 93,
     "sources": 44,
-    "updated_label": "09:21"
+    "updated_label": "09:39"
   },
   "iaday": {
     "reading_minutes": "56 min",
-    "audio_duration": "—",
+    "audio_duration": "2:46",
     "key_count": 3,
     "papers_count": 55,
     "repos_count": 9,
@@ -46,7 +46,7 @@
       "content_type": "repo",
       "title": "AlexWanghaoming/ComplejoOvercooked",
       "summary": "⭐ 2 estrellas — Un entorno de prueba cooperativo multi-agente con cambio de tarea intra-episodio",
-      "time": "76h",
+      "time": "77h",
       "url": "https://github.com/AlexWanghaoming/ComplexOvercooked",
       "stars": "2"
     },
@@ -106,7 +106,7 @@
       "content_type": "repo",
       "title": "AryanYadav1010/Resolver-Sudoku-CSP",
       "summary": "⭐ 0 estrellas — Resolvedor de Sudoku como CSP: backtracking con verificación adelantada, propagación de restricciones y ordenación de variables según el valor r",
-      "time": "36h",
+      "time": "37h",
       "url": "https://github.com/AryanYadav1010/Sudoku-Solver-CSP",
       "stars": "0"
     },
@@ -380,7 +380,7 @@
       "content_type": "paper",
       "title": "StreamPI: Modelado Multimodal Temporal Streaming para Modelos de Visión-Lenguaje-Acción",
       "summary": "Los modelos Vision-Lenguaje-Acción (VLA) han demostrado ser efectivos en la manipulación robótica, pero los modelos de punta como pi0.5 operan bajo un paradigma",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.26067v1",
       "arxiv": "2608.26067v1"
     },
@@ -440,7 +440,7 @@
       "content_type": "paper",
       "title": "PANDA - Prototipo-Anclado Alineación para Aprendizaje Parcialmente Despareado de Modos Multimodales, con Aplicaciones a la MRI de Alzheimer y Patología TCGA",
       "summary": "La predicción multimodal médica a menudo enfrenta un enparejamiento incompleto: modalidades auxiliares con señales complementarias están disponibles solo para u",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.25970v1",
       "arxiv": "2608.25970v1"
     },
@@ -464,7 +464,7 @@
       "content_type": "paper",
       "title": "Deslizamiento de Prefijos para una Escalado Eficiente en Tiempo de Prueba",
       "summary": "El escalado durante la prueba utiliza cálculos adicionales durante la prueba para mejorar el rendimiento, como permitir que los modelos de lenguaje razonen más ",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.26070v1",
       "arxiv": "2608.26070v1"
     },
@@ -476,7 +476,7 @@
       "content_type": "paper",
       "title": "$R^3$: Entrenamiento de robots para razonar en lenguaje natural mediante aprendizaje por refuerzo",
       "summary": "El razonamiento en lenguaje permite a los modelos de fundación dedicar más tiempo de cálculo de prueba a problemas difíciles, como los que requieren descomposic",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.26053v1",
       "arxiv": "2608.26053v1"
     },
@@ -524,7 +524,7 @@
       "content_type": "paper",
       "title": "Menos contorno, mayor precisión: aprendizaje profundo guiado por lesión para la clasificación por ROI en ultrasonido ovárico",
       "summary": "La clasificación de lesiones ováricas mediante ultrasonido transvaginal sigue siendo desafiante debido a las características de imagen superpuestas y la depende",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.25965v1",
       "arxiv": "2608.25965v1"
     },
@@ -560,7 +560,7 @@
       "content_type": "paper",
       "title": "¿Cuánto Rango Necesita LoRA? Límites de Error de Rango para la Atención de Transformadores",
       "summary": "El elegir el rango de una actualización de adaptación de bajo rango (LoRA) generalmente es una tarea empírica. En este artículo, proporcionamos una teoría depen",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.26052v1",
       "arxiv": "2608.26052v1"
     },
@@ -572,7 +572,7 @@
       "content_type": "paper",
       "title": "Cuando la personalidad se encuentra con la cuantización: un análisis capa por capa del MBTI en modelos LLM cuantizados",
       "summary": "La personalidad se ha vuelto cada vez más importante en los modelos de lenguaje de gran escala (LLMs), ya que moldea la confianza, la participación y las experi",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.25977v1",
       "arxiv": "2608.25977v1"
     },
@@ -644,7 +644,7 @@
       "content_type": "paper",
       "title": "El Valor de la Expertise Humana",
       "summary": "Consideramos aplicaciones de optimización con parámetros desconocidos en las que el tomador de decisiones cree que el valor óptimo del problema nominal -el prob",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.26051v1",
       "arxiv": "2608.26051v1"
     },
@@ -656,7 +656,7 @@
       "content_type": "paper",
       "title": "Ajuste de Whisper para la Reconocimiento Automático de Habla en Baniwa: Un Estudio Preliminar",
       "summary": "Tecnologías de Reconocimiento Automático del Habla (RAH) han logrado un rendimiento notorio en los últimos años mediante el uso de modelos de base multilingües ",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.26060v1",
       "arxiv": "2608.26060v1"
     },
@@ -680,7 +680,7 @@
       "content_type": "paper",
       "title": "Perdido pero no borrado: Encontrando vestigios de una lengua olvidada en modelos neuronales de habla",
       "summary": "Los adoptados internacionales mantienen trazas fonológicas de un idioma de nacimiento que ya no pueden hablar ni comprender, una persistencia generalmente atrib",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.25976v1",
       "arxiv": "2608.25976v1"
     },
@@ -692,7 +692,7 @@
       "content_type": "paper",
       "title": "Aproximación de Bajo Rango Compartida entre Grupos para Convoluciones Punto-a-Punto Eficientes en Móviles en CNNs con Grandes Núcleos",
       "summary": "Las grandes-kernel Redes Neuronales Convolucionales (CNNs) entregan un rendimiento notorio en tareas de visión al significativamente expandir los campos recepti",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.26069v1",
       "arxiv": "2608.26069v1"
     },
@@ -752,7 +752,7 @@
       "content_type": "paper",
       "title": "MARCO: separar la variación muestral de la causa representacional en la equidad de la medicina por imágenes",
       "summary": "Las diferencias en el rendimiento de subgrupos son la evidencia estándar de sesgo por equidad en la imagen médica, y la respuesta usual elimina la información d",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.25981v1",
       "arxiv": "2608.25981v1"
     },
@@ -832,7 +832,7 @@
       "content_type": "news",
       "title": "Hacia los 120.000 millones de transacciones de comercio agéntico",
       "summary": "Con casos de uso B2C y B2B, los agentes de inteligencia artificial tomarán decisiones de compra por su cuenta y ejecutarán las transacciones en nombre de los us",
-      "time": "5h",
+      "time": "6h",
       "url": "https://www.silicon.es/hacia-los-120-000-millones-de-transacciones-de-comercio-agentico-2583377"
     },
     {
@@ -887,7 +887,7 @@
       "content_type": "news",
       "title": "Los centros de datos de EEUU ya gastan el triple de agua que hace casi una década. Y la cifra es de antes del boom de la IA",
       "summary": "<p>\n     <img alt=\"Los&#x20;centros&#x20;de&#x20;datos&#x20;de&#x20;EEUU&#x20;ya&#x20;gastan&#x20;el&#x20;triple&#x20;de&#x20;agua&#x20;que&#x20;hace&#x20;casi&",
-      "time": "6h",
+      "time": "7h",
       "url": "https://www.xataka.com/robotica-e-ia/centros-datos-eeuu-gastan-triple-agua-que-hace-casi-decada-cifra-antes-boom-ia"
     },
     {
@@ -898,7 +898,7 @@
       "content_type": "news",
       "title": "NVIDIA fabrica sus chips entre EEUU y Taiwán. El problema es que algunos servidores de IA acabaron donde no debían",
       "summary": "<p>\n     <img alt=\"NVIDIA&#x20;fabrica&#x20;sus&#x20;chips&#x20;entre&#x20;EEUU&#x20;y&#x20;Taiw&#x00E1;n.&#x20;El&#x20;problema&#x20;es&#x20;que&#x20;algunos&#",
-      "time": "17h",
+      "time": "18h",
       "url": "https://www.xataka.com/componentes/nvidia-fabrica-sus-chips-eeuu-taiwan-problema-que-algunos-servidores-ia-acabaron-donde-no-debian"
     },
     {
@@ -920,7 +920,7 @@
       "content_type": "release",
       "title": "Z.ai lanza GLM-5.3-Flash: un modelo multimodal MoE nativo de 320B-A18B con un contexto de 1 millón de tokens.",
       "summary": "Z.ai ha lanzado GLM-5.3-Flash, el primer modelo multimodal nativo en la serie GLM-5 —un modelo con un total de 320B y 18B activos, con una ventana de contexto d",
-      "time": "15h",
+      "time": "16h",
       "url": "https://www.marktechpost.com/2026/08/26/z-ai-releases-glm-5-3-flash-a-320b-a18b-natively-multimodal-moe-with-a-1m-token-context/"
     },
     {
@@ -931,7 +931,7 @@
       "content_type": "news",
       "title": "El incidente con el modelo de IA descontrolado de OpenAI fue más grave de lo que pensamos.",
       "summary": "En julio, un modelo de OpenAI no lanzado se escapó de un entorno restringido, descubrió cómo acceder a internet, permitió que los agentes de inteligencia artifi",
-      "time": "15h",
+      "time": "16h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr"
     },
     {
@@ -1019,7 +1019,7 @@
       "content_type": "news",
       "title": "El Proyecto QuiltWorks llega a las pymes",
       "summary": "CrowdStrike considera que \"la IA de frontera ha transformado la ciberseguridad\", que se ha convertido en \"necesidad empresarial\".",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.silicon.es/el-proyecto-quiltworks-llega-a-las-pymes-2583407"
     },
     {
@@ -1030,7 +1030,7 @@
       "content_type": "news",
       "title": "Los 5 perfiles profesionales que demandan las empresas en la era de la IA",
       "summary": "Ingenieros de prompts, especialistas en ética, entrenadores, auditores y arquitectos de soluciones de IA están en el foco de las organizaciones.",
-      "time": "2h",
+      "time": "3h",
       "url": "https://www.silicon.es/los-5-perfiles-profesionales-que-demandan-las-empresas-en-la-era-de-la-ia-2583399"
     },
     {
@@ -1052,7 +1052,7 @@
       "content_type": "news",
       "title": "Así evoluciona el mercado de seguridad para la inteligencia artificial",
       "summary": "Gartner estima que este mercado rondará los 4.800 millones de dólares en 2027 y rozará los 7.700 millones en 2028.",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.silicon.es/asi-evoluciona-el-mercado-de-seguridad-para-la-inteligencia-artificial-2583393"
     },
     {
@@ -1074,7 +1074,7 @@
       "content_type": "news",
       "title": "LibreOffice 26.8, libre de inteligencia artificial",
       "summary": "La nueva versión de la suite ofimática está disponible para dispositivos con sistema operativo Windows, macOS y Linux.",
-      "time": "6h",
+      "time": "7h",
       "url": "https://www.silicon.es/libreoffice-26-8-libre-de-inteligencia-artificial-2583374"
     },
     {
