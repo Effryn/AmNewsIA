@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 93,
     "sources": 44,
-    "updated_label": "09:11"
+    "updated_label": "09:21"
   },
   "iaday": {
     "reading_minutes": "56 min",
@@ -70,7 +70,7 @@
       "content_type": "repo",
       "title": "gulshanverse/Maquinaria-Aprendizaje",
       "summary": "⭐ 2 estrellas — Un repositorio estructurado sobre Aprendizaje Automático que cubre fundamentos, matemáticas, algoritmos, implementaciones prácticas, evaluación ",
-      "time": "65h",
+      "time": "66h",
       "url": "https://github.com/gulshanverse/Machine-Learning",
       "stars": "2"
     },
@@ -311,7 +311,7 @@
       "content_type": "paper",
       "title": "Integridad del Trazo para Agentes de Datos LLM: Una Visión para una Razonamiento Estructurado Auditable en Sistemas del Mundo Real",
       "summary": "La precisión de las respuestas es un señal de confiabilidad insuficiente para los agentes de datos de LLM. En tareas de datos estructurados, una respuesta corre",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.26036v1",
       "arxiv": "2608.26036v1"
     },
@@ -428,7 +428,7 @@
       "content_type": "paper",
       "title": "Más allá del Sorpresa Local: Diálogo Fundamentado como Revisión Selectiva de la Creencia bajo Incertidumbre Referencial",
       "summary": "Cuando un hablante se refiere a una escena que el oyente no puede ver directamente, el oyente debe decidir si preserva su comprensión actual o la revisa a medid",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.26035v1",
       "arxiv": "2608.26035v1"
     },
@@ -512,7 +512,7 @@
       "content_type": "paper",
       "title": "UltraPIPS: Mejorando la percepción del modelo en la ultrasonido B-mode con modelos de fundamentación",
       "summary": "En la imagenología médica, es común utilizar la similaridad de parches perceptuales aprendidos (LPIPS, por sus siglas en inglés) para comparar imágenes semántic",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.26033v1",
       "arxiv": "2608.26033v1"
     },
@@ -704,7 +704,7 @@
       "content_type": "paper",
       "title": "Robust CurveMoE: Defensa Multinormativa Adversarial para Modelos de Mixture-of-Experts mediante la Conectividad de Modos",
       "summary": "La defensa adversarial basada en múltiples normas busca proteger los redes neuronales contra perturbaciones definidas por diferentes restricciones de norma, per",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.26043v1",
       "arxiv": "2608.26043v1"
     },
@@ -764,7 +764,7 @@
       "content_type": "paper",
       "title": "4DGS-WAM: Bridging Pasado y Futuro con un Modelo de Acción Centrada en Objeto basado en 4D Gaussian Splatting",
       "summary": "Los modelos actuales de acciones del mundo (WAMs) suelen operar con datos visuales en 2D. Estos modelos pueden lograr una calidad visual excepcional, pero carec",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2608.25956v1",
       "arxiv": "2608.25956v1"
     },
@@ -1085,7 +1085,7 @@
       "content_type": "news",
       "title": "Google Research Introduce GlucoFM: Un modelo de foundation de dos flujos con 0,72 millón de parámetros para la monitoreo continuo de la glucemia",
       "summary": "Google Research y UNSW Sydney lanzaron GlucoFM, un modelo de base supervisado por sí mismo que divide una traza de CGM en un flujo de fisiología lenta y un fluj",
-      "time": "8h",
+      "time": "9h",
       "url": "https://www.marktechpost.com/2026/08/26/google-research-introduces-glucofm-a-0-72m-parameter-dual-stream-foundation-model-for-continuous-glucose-monitoring/"
     },
     {
