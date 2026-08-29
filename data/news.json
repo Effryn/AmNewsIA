@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 28,
     "sources": 44,
-    "updated_label": "09:40"
+    "updated_label": "10:55"
   },
   "iaday": {
     "reading_minutes": "17 min",
@@ -35,7 +35,7 @@
       "content_type": "repo",
       "title": "divanshusingh-ds/TELREGRAM-BOT",
       "summary": "⭐ 2 estrellas — asistente de Telegram impulsado por IA construido con Python, Google Gemini, LangChain & LangGraph, destacando el llamado de herramientas agente",
-      "time": "149h",
+      "time": "150h",
       "url": "https://github.com/divanshusingh-ds/TELREGRAM-BOT",
       "stars": "2"
     },
@@ -47,7 +47,7 @@
       "content_type": "repo",
       "title": "waddadelmehdi/informe-anual-ocp-cuenta-regresiva",
       "summary": "⭐ 0 estrellas — RAG demo: respuesta a preguntas sobre el informe financiero OCP 2025 utilizando LangChain, Chroma y embeddings bge-m3, más puntuación de lealtad",
-      "time": "32h",
+      "time": "33h",
       "url": "https://github.com/waddadelmehdi/ocp-annual-report-rag",
       "stars": "0"
     },
@@ -59,7 +59,7 @@
       "content_type": "repo",
       "title": "leen449/detección-de-fraude-seguros",
       "summary": "⭐ 0 estrellas — Este proyecto presenta un marco impulsado por la inteligencia artificial para la detección de fraude y el apoyo en decisiones utilizando algorit",
-      "time": "69h",
+      "time": "70h",
       "url": "https://github.com/leen449/insurance-fraud-detection",
       "stars": "0"
     },
@@ -71,7 +71,7 @@
       "content_type": "repo",
       "title": "syedatubarizvi02-gif/Sistema_de_monitoreo_de_tráfico_en_vivo_con_detecCIÓN_de_infiltración_reforzado_con_inteligencia Artificial",
       "summary": "⭐ 0 estrellas — Un sistema de cybersecurity impulsado por IA que detecta intrusiones en la red utilizando aprendizaje automático y proporciona una captura en ti",
-      "time": "2h",
+      "time": "3h",
       "url": "https://github.com/syedatubarizvi02-gif/AI-Powered-Network-Intrusion-Detection-Live-Traffic-Monitoring-System",
       "stars": "0"
     },
@@ -83,7 +83,7 @@
       "content_type": "repo",
       "title": "OmTalekarDev/Ari-AI-Assistant",
       "summary": "⭐ 1 estrella — 🤖 Un asistente de voz AI basado en el lugar construido con Python, Faster-Whisper, reconocimiento de voz, manejo de comandos y OCR opcional.",
-      "time": "30h",
+      "time": "32h",
       "url": "https://github.com/OmTalekarDev/Ari-AI-Assistant",
       "stars": "1"
     },
@@ -95,7 +95,7 @@
       "content_type": "repo",
       "title": "waddadelmehdi/ml-house-price-prediction",
       "summary": "⭐ 0 estrellas — Predictivo de precios de casas mediante regresión lineal con scikit-learn (EDA → codificación → train/test → métricas).",
-      "time": "104h",
+      "time": "105h",
       "url": "https://github.com/waddadelmehdi/ml-house-price-prediction",
       "stars": "0"
     },
@@ -107,7 +107,7 @@
       "content_type": "paper",
       "title": "CritICL: Generalización débil-a-fuerte en tiempo de inferencia desde los modos de fallo de los modelos de lenguaje pequeños",
       "summary": "Recientes avances en el escalado durante la inferencia han mejorado significativamente el rendimiento de razonamiento de los modelos de lenguaje de gran escala ",
-      "time": "65h",
+      "time": "66h",
       "url": "https://huggingface.co/papers/2608.27455"
     },
     {
@@ -118,7 +118,7 @@
       "content_type": "paper",
       "title": "Luce: Gaussians reencendibles para la generación de activos tridimensionales",
       "summary": "La generación de alta fidelidad de imágenes a 3D requiere una representación 3D que capture tanto la geometría como el aspecto. Para soportar la iluminación cam",
-      "time": "113h",
+      "time": "114h",
       "url": "https://huggingface.co/papers/2608.23943"
     },
     {
@@ -129,7 +129,7 @@
       "content_type": "paper",
       "title": "Generación de Acciones de Transmisión con Feedback Táctil en Tiempo de Ejecución",
       "summary": "La manipulación rica en contacto requiere adaptarse a estados de contacto que pueden evolucionar significativamente dentro del horizonte de acción. Sin embargo,",
-      "time": "89h",
+      "time": "90h",
       "url": "https://huggingface.co/papers/2608.25798"
     },
     {
@@ -140,7 +140,7 @@
       "content_type": "paper",
       "title": "¿Qué hace una licencia de evaluación? Un censo de compromiso de comprobación en la inferencia relativa a la inspección de evaluaciones",
       "summary": "Los artefactos de evaluación especifican una computación hacia adelante: una tarea, un calificador y un métrico reportado. No necesariamente otorgan licencia a ",
-      "time": "113h",
+      "time": "114h",
       "url": "https://huggingface.co/papers/2608.19269"
     },
     {
@@ -151,7 +151,7 @@
       "content_type": "paper",
       "title": "Edición de Video de Carácter Unificado para Transmisión en Vivo",
       "summary": "La edición de video convencional se centra principalmente en el contenido a nivel de escena, mientras que el streaming en vivo pone mayor énfasis en el sujeto h",
-      "time": "65h",
+      "time": "66h",
       "url": "https://huggingface.co/papers/2608.27123"
     },
     {
@@ -162,7 +162,7 @@
       "content_type": "video",
       "title": "5 Plugins que necesitas probar 👨🏻‍💻",
       "summary": "Si usas Claude Code o Codex, no te limites a generar código. 👨🏻‍💻\n🚀 Estas 5 herramientas pueden ampliar muchísimo lo que tu agente puede probar aplicaciones, tr",
-      "time": "22h",
+      "time": "23h",
       "url": "https://www.youtube.com/shorts/jeXAI-pJAv8"
     },
     {
@@ -173,7 +173,7 @@
       "content_type": "video",
       "title": "No uses Claude Code sin antes ver esto ⚠️🚨",
       "summary": "¿Usas Claude Code? 🤖\nEntonces estos 5 plugins pueden mejorar muchísimo tu flujo de trabajo 🔥\nLa idea es simple: mejor contexto + más memoria + mayor eficiencia ",
-      "time": "ahora",
+      "time": "1h",
       "url": "https://www.youtube.com/shorts/Ojolk1HzMEo"
     },
     {
@@ -184,7 +184,7 @@
       "content_type": "video",
       "title": "GPU de 128GB 🚀 Cómo Cargar Modelos de IA Gigantes de Forma GRATIS",
       "summary": "Aprende cómo simular una GPU de 128GB utilizando tu hardware actual para cargar modelos de IA gigantes de forma gratuita. En este video, exploramos cómo aprovec",
-      "time": "23h",
+      "time": "24h",
       "url": "https://www.youtube.com/watch?v=JWsw0eRWqAo"
     },
     {
@@ -195,7 +195,7 @@
       "content_type": "video",
       "title": "Curso de Monetización de Websites IA",
       "summary": "✅ Canal WhatsApp: https://www.whatsapp.com/channel/0029VbCR3SKId7nGTWkmFE0w\n\nContacto: nichonauta@gmail.com\nSitio web: nichonauta.com",
-      "time": "13h",
+      "time": "14h",
       "url": "https://www.youtube.com/watch?v=NebdQkAFLFQ"
     },
     {
@@ -206,7 +206,7 @@
       "content_type": "news",
       "title": "OpenAI, Anthropic y Google piden protegernos de los riesgos de la IA. Es como poner al lobo a cuidar del gallinero",
       "summary": "<p>\n     <img alt=\"OpenAI,&#x20;Anthropic&#x20;y&#x20;Google&#x20;piden&#x20;protegernos&#x20;de&#x20;los&#x20;riesgos&#x20;de&#x20;la&#x20;IA.&#x20;Es&#x20;com",
-      "time": "22h",
+      "time": "23h",
       "url": "https://www.xataka.com/robotica-e-ia/openai-anthropic-google-piden-protegernos-riesgos-ia-como-poner-al-lobo-a-cuidar-gallinero"
     },
     {
@@ -217,7 +217,7 @@
       "content_type": "news",
       "title": "La IA prometía reducir la jornada laboral de los empleados. Por el momento ya ha conseguido tres horas libres a la semana",
       "summary": "<p>\n     <img alt=\"La&#x20;IA&#x20;promet&#x00ED;a&#x20;reducir&#x20;la&#x20;jornada&#x20;laboral&#x20;de&#x20;los&#x20;empleados.&#x20;Por&#x20;el&#x20;momento",
-      "time": "18h",
+      "time": "20h",
       "url": "https://www.xataka.com/robotica-e-ia/ia-prometia-reducir-jornada-laboral-empleados-momento-ha-conseguido-tres-horas-libres-a-semana"
     },
     {
@@ -228,7 +228,7 @@
       "content_type": "news",
       "title": "Lo nuevo de Gemini puede convertir tus hojas de Excel en apps interactivas",
       "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-content/upl",
-      "time": "5h",
+      "time": "6h",
       "url": "https://hipertextual.com/inteligencia-artificial/sheets-canvas-gemini-hojas-de-excel-ia/"
     },
     {
@@ -239,7 +239,7 @@
       "content_type": "news",
       "title": "Google cambia las reglas con Gemini Notebook (NotebookLM), que estrena nuevos límites",
       "summary": "<figure><img alt=\"Estudiar con NotebookLM\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"683\" src=\"https://i0.wp.com/imgs.hipertex",
-      "time": "17h",
+      "time": "18h",
       "url": "https://hipertextual.com/inteligencia-artificial/google-cambia-las-reglas-con-gemini-notebook-notebooklm-que-estrena-nuevos-limites/"
     },
     {
@@ -250,7 +250,7 @@
       "content_type": "news",
       "title": "OpenAI, Google y Microsoft advierten sobre una ola de ciberataques con IA",
       "summary": "<figure><img alt=\"OpenAI, ChatGPT\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/imgs.hipertextual.com",
-      "time": "18h",
+      "time": "19h",
       "url": "https://hipertextual.com/inteligencia-artificial/carta-openai-empresas-ciberdefensa-ia/"
     },
     {
@@ -261,7 +261,7 @@
       "content_type": "news",
       "title": "Vercel AI libera de manera gratuita vgpu: una biblioteca en TypeScript para shaders de agentes de inteligencia artificial basados en WebGPU",
       "summary": "<p>Vercel ha abierto fuente vgpu, la biblioteca WebGPU que construyó para enviar los shaders en vercel.com. Trata los archivos .wgsl como módulos TypeScript imp",
-      "time": "20h",
+      "time": "21h",
       "url": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/"
     },
     {
@@ -272,7 +272,7 @@
       "content_type": "news",
       "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Dos laboratorios de IA chinos independientes convergen en la misma arquitectura de modelo",
       "summary": "<p>Z.ai y Qwen enviaron arquitecturas casi idénticas de manera independiente: híbridos lineales 3:1, indexadores comprimidos, residuales con gate, y entrenamien",
-      "time": "18h",
+      "time": "19h",
       "url": "https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/"
     },
     {
@@ -283,7 +283,7 @@
       "content_type": "news",
       "title": "Nuestra decisión sobre Cursor tras su adquisición por SpaceX",
       "summary": "Nuestra decisión de reducir gradualmente nuestro contrato proporcionando modelos de OpenAI a Cursor tras su adquisición por SpaceX.",
-      "time": "31h",
+      "time": "32h",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
     },
     {
@@ -294,7 +294,7 @@
       "content_type": "news",
       "title": "El Tablero de Posiciones del ASR Abierto Añade Su Primera Lengua del Sur Global",
       "summary": "",
-      "time": "37h",
+      "time": "38h",
       "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south"
     },
     {
@@ -305,7 +305,7 @@
       "content_type": "news",
       "title": "De enorme fábrica de aluminio a centro de datos para IA: Kentucky va a convertirse en el próximo gran nodo de datos para Anthropic",
       "summary": "<p>\n     <img alt=\"De&#x20;enorme&#x20;f&#x00E1;brica&#x20;de&#x20;aluminio&#x20;a&#x20;centro&#x20;de&#x20;datos&#x20;para&#x20;IA&#x3A;&#x20;Kentucky&#x20;va&",
-      "time": "18h",
+      "time": "19h",
       "url": "https://www.xataka.com/ingenieria-y-megaconstrucciones/enorme-fabrica-aluminio-a-centro-datos-para-ia-kentucky-va-a-convertirse-proximo-gran-nodo-datos-para-anthropic"
     },
     {
@@ -316,7 +316,7 @@
       "content_type": "news",
       "title": "Hugging Face Revela Microduck: Un robot bipedal de 25 cm con un precio de $399, desarrollado con código abierto y entrenado mediante aprendizaje por refuerzo.",
       "summary": "Pollen Robotics, el equipo de robótica de Bordeaux de Hugging Face, abrió pedidos previos para Microduck —un robot bipeodal de 25 cm donde cada movimiento es un",
-      "time": "8h",
+      "time": "9h",
       "url": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/"
     },
     {
@@ -327,7 +327,7 @@
       "content_type": "news",
       "title": "Musicanos que se han vuelto detectives están buscando a estafadores de IA.",
       "summary": "Con el avance de las herramientas generativas y plataformas enfocadas en el audio, la internet se ha vuelto cada vez más llena de música generada por IA, cuyas ",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai"
     },
     {
@@ -338,7 +338,7 @@
       "content_type": "news",
       "title": "La EPA de Trump desea permitir que los centros de datos oculten su contaminación atmosférica",
       "summary": "De la misma manera que los nuevos centros de datos enfrentan un creciente rechazo por parte de las comunidades vecinas, el Servicio Environmental Protection Age",
-      "time": "21h",
+      "time": "22h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit"
     }
   ]
