@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-08-30",
+    "date_label": "30 de agosto de 2026",
+    "new_articles": 30,
+    "audio_url": "assets/audio/2026-08-30.mp3",
+    "duration_label": "2:32"
+  },
+  {
     "date": "2026-08-29",
     "date_label": "29 de agosto de 2026",
     "new_articles": 28,
