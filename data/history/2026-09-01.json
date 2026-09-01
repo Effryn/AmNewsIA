@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 95,
     "sources": 44,
-    "updated_label": "08:34"
+    "updated_label": "08:35"
   },
   "iaday": {
     "reading_minutes": "57 min",
@@ -440,7 +440,7 @@
       "content_type": "paper",
       "title": "Medí antes de gestionar: Evaluando la memoria de trabajo de los agentes en codificación de agentes",
       "summary": "La memoria de trabajo del agente es heterogénea. Objetos como instrucciones, artefactos, outputs de herramientas y estados generados por el agente desempeñan ro",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.31057v1",
       "arxiv": "2608.31057v1"
     },
@@ -536,7 +536,7 @@
       "content_type": "paper",
       "title": "Mejorando la extracción de información con consultas aprendidas",
       "summary": "Cuando la extracción de información falla, un instinto natural es mejorar el modelo realizando cambios: por ejemplo, escalamiento o refinamiento de su razonamie",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2608.31058v1",
       "arxiv": "2608.31058v1"
     },
@@ -1093,7 +1093,7 @@
       "content_type": "news",
       "title": "Debian no prohibirá el código de inteligencia artificial de su distribución Linux.",
       "summary": "Debian votó para permitir que los desarrolladores utilicen herramientas de inteligencia artificial en sus contribuciones para el desarrollo, mantenimiento y doc",
-      "time": "20h",
+      "time": "21h",
       "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy"
     },
     {
