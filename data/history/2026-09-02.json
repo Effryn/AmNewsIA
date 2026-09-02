@@ -3,22 +3,22 @@
   "date_label": "2 de septiembre de 2026",
   "greeting": "Buenos días, Effry",
   "briefing": {
-    "duration_label": "—",
+    "duration_label": "2:49",
     "audio_url": "assets/audio/2026-09-02.mp3",
-    "script_text": ""
+    "script_text": "En el resumen de hoy nos encontramos con un panorama dominado por Anthropic y sus últimos lanzamientos, además de avances significativos en IA agentica que están redefiniendo lo que estas herramientas pueden hacer.\n\n**Anthropic domina la conversación**\n\nComencemos con Anthropic, que acaba de presentar Claude Fable 5.1, su modelo más potente hasta la fecha. Sin embargo, hay un giro irónico: aunque es su versión más avanzada, la compañía no permite acceso completo a todas sus capacidades. El modelo promete reducciones de costos de hasta un 45 por ciento para trabajos agenticos, y alcanza el 52,6 por ciento en benchmarks científicos, además de ofrecer lecturas de caché un 75 por ciento más económicas. También han lanzado Claude Mythos 5.1 como complemento.\n\nUn dato curioso que surge de estos lanzamientos: ha emergido lo que se está llamando el \"Claudés\", un dialecto que solamente entienden aquellos que pasan sus días interactuando constantemente con agentes de IA. Es un fenómeno lingüístico inesperado que muestra cómo estas herramientas están generando sus propias dinámicas culturales.\n\n**La revolución de la IA agentica**\n\nMás allá de Anthropic, la IA agentica es claramente el tema del momento. Google DeepMind ha introducido capacidades de comprensión de video agentica con Gemini, permitiendo que los modelos no solo analicen video, sino que actúen sobre esa información. En paralelo, Perplexity ha lanzado Hybrid Compute para Mac, un sistema donde agentes en la nube pueden orquestar tareas hacia modelos locales, equilibrando potencia y privacidad.\n\nTambién tenemos a investigadores de Princeton, Ant Group y Stanford con AQuA, un framework de dos partes diseñado específicamente para descubrimiento autónomo de factores y desarrollo de modelos en finanzas cuantitativas. Un caso de uso muy especializado pero altamente relevante.\n\n**Expansión hacia nuevas fronteras**\n\nDos noticias amplían el horizonte más allá de los modelos de lenguaje tradicionales. Google DeepMind presentó Atlas, que busca hacer en el mundo físico lo que los LLM hicieron con internet: mapear, comprender y permitir razonamiento sobre el conocimiento físico. Y Huawei está apostando por llevar su IA más allá de smartphones, buscando un nicho en el desarrollo de nuevos medicamentos.\n\nFinalmente, desde Hugging Face nos llega una reflexión importante: BenchMIRT, un análisis crítico sobre qué están realmente midiendo los benchmarks de LLM, sugiriendo que tal vez necesitamos replantear cómo evaluamos estos sistemas.\n\nEl denominador común es claro: la IA está pasando de ser una herramienta de análisis a un agente autónomo capaz de actuar, aprender y operar en múltiples dominios, desde finanzas hasta medicina.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 113,
+    "new_articles": 118,
     "sources": 44,
-    "updated_label": "10:05"
+    "updated_label": "10:22"
   },
   "iaday": {
-    "reading_minutes": "68 min",
-    "audio_duration": "—",
+    "reading_minutes": "71 min",
+    "audio_duration": "2:49",
     "key_count": 3,
-    "papers_count": 58,
+    "papers_count": 59,
     "repos_count": 11,
-    "videos_count": 6,
+    "videos_count": 7,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -105,7 +105,7 @@
       "content_type": "repo",
       "title": "MOzcelik14/Aether",
       "summary": "⭐ 1 estrella — Dispositivo de inteligencia artificial local basada en ollama",
-      "time": "24h",
+      "time": "25h",
       "url": "https://github.com/MOzcelik14/Aether",
       "stars": "1"
     },
@@ -139,7 +139,7 @@
       "content_type": "repo",
       "title": "jzbxhzdhhzbxvjajhc-netizen/protocolo_de_inteligencia Artificial_ensible-humano",
       "summary": "⭐ 1 estrella — Mi madre ya entiende al AI｜Un protocolo y una habilidad de referencia que convierte el lenguaje AI en decisiones que las personasOrdinarias puede",
-      "time": "21h",
+      "time": "22h",
       "url": "https://github.com/jzbxhzdhhzbxvjajhc-netizen/human-legible-ai-protocol",
       "stars": "1"
     },
@@ -199,7 +199,7 @@
       "content_type": "repo",
       "title": "MattFor/uni-s4",
       "summary": "⭐ 0 estrellas — Cuarto semestre, bastante difícil; muchas cosas que gestionar a la vez.",
-      "time": "89h",
+      "time": "90h",
       "url": "https://github.com/MattFor/university-s4",
       "stars": "0"
     },
@@ -248,6 +248,17 @@
       "url": "https://huggingface.co/papers/2609.00768"
     },
     {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Aprendizaje de Donde los Resultados Cambian: Razonamiento Dirigible por Créditos para Geometría Multimodal",
+      "summary": "La razonamiento geométrico-múltimodal requiere que los LMV extraigan relaciones visuales precisas y las preserven a través de deducciones múltiples. Las trazas ",
+      "time": "66h",
+      "url": "https://huggingface.co/papers/2608.30457"
+    },
+    {
       "source": "arXiv — cs.AI",
       "source_type": "arxiv",
       "lang": "en",
@@ -255,7 +266,7 @@
       "content_type": "paper",
       "title": "Recuperado pero no clasificado: sesgo por forma superficial en la recuperación estructural, desde matemáticas hasta trayectorias de agentes",
       "summary": "Evaluamos la recuperación de inmersión donde la forma superficial y el significado se separan deliberadamente: recuperando elementos que comparten estructura su",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2609.01556v1",
       "arxiv": "2609.01556v1"
     },
@@ -452,7 +463,7 @@
       "content_type": "paper",
       "title": "¿Pueden los LLMs Descubrir Leyes Científicas en Mundos Reales y Paralelos?",
       "summary": "La descubrimiento de ecuaciones científicas ha sido central para el progreso científico, progresando a través de ciclos iterativos de generación de hipótesis, p",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2609.01552v1",
       "arxiv": "2609.01552v1"
     },
@@ -488,7 +499,7 @@
       "content_type": "paper",
       "title": "NashDreamer: Aprendizaje por Refuerzo Basado en Modelos para Juegos de Información Incompleta con Sume Cero",
       "summary": "El aprendizaje por refuerzo basado en modelos (MBRL) ha logrado resultados notables en dominios con un agente, pero su extensión a juegos de información imperfe",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2609.01549v1",
       "arxiv": "2609.01549v1"
     },
@@ -548,7 +559,7 @@
       "content_type": "paper",
       "title": "SDARE-Bench: Evaluando Modelos de Lenguaje en Grande para la Detección y Respuesta a Estigmas Conversacionales en Diálogos Dyádicos y de Grupo",
       "summary": "Los Modelos de Lenguaje Grande (MLG) se utilizan cada vez más en la búsqueda de consejos y en la toma de decisiones que pueden afectar los juicios sociales. A p",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2609.01548v1",
       "arxiv": "2609.01548v1"
     },
@@ -656,7 +667,7 @@
       "content_type": "paper",
       "title": "Desajuste de Actualización de Gradiente: Reconsiderando la Entrenamiento Conflicto-Free de Redes Neuronales Informadas por la Física",
       "summary": "La formación de Redes Neuronales Informadas por la Física (PINNs) requiere la optimización conjunta del residuo de la física y de las pérdidas de condiciones in",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2609.01558v1",
       "arxiv": "2609.01558v1"
     },
@@ -668,7 +679,7 @@
       "content_type": "paper",
       "title": "Selección de Variables para el Nuevo Vendedore Basado en Características",
       "summary": "Los modelos de vendedor de noticias basados en características utilizan covariantes observables para personalizar las decisiones de inventario, buscando equilib",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2609.01544v1",
       "arxiv": "2609.01544v1"
     },
@@ -716,7 +727,7 @@
       "content_type": "paper",
       "title": "Qué, Dónde y Cómo: Explorando Representaciones Espacio-temporales en Modelos de Fundación para Videos",
       "summary": "Los modelos de fundamentación de videos auto-supervisados aprenden representaciones espacio-temporales ricas, pero sigue siendo incierto qué conceptos visuales ",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2609.01551v1",
       "arxiv": "2609.01551v1"
     },
@@ -764,7 +775,7 @@
       "content_type": "paper",
       "title": "H3-Mundo: Transformando la Comprensión del Lenguaje en el Control del Mundo",
       "summary": "Presentamos H3-World, un marco eficiente que convierte el generador de videos 33B MiniMax-H3 en un modelo de mundo interactiva. Nuestra hallazgo clave es que, a",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2609.01560v1",
       "arxiv": "2609.01560v1"
     },
@@ -776,7 +787,7 @@
       "content_type": "paper",
       "title": "BS: Tomar el Pista - Segmentación de Lesiones en PET/CT Multitracer Interactivo con un ResEnc U-Net Condicionado por Borrador",
       "summary": "La segmentación automatizada de lesiones en PET/CT全身成像复杂，受到生理示踪剂摄取模式多样性和不同示踪剂中病变外观差异的影响。autoPET/CT V挑战通过使分割交互式来应对这一问题：用户的手绘标记前景和背景区域与图像一起提供，算法被期望利用这些标记。我们提出了一种基",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2609.01554v1",
       "arxiv": "2609.01554v1"
     },
@@ -788,7 +799,7 @@
       "content_type": "paper",
       "title": "Una teoría matemática para bases neuronales reutilizables en la compresión de redes",
       "summary": "Con el creciente uso de modelos de inteligencia artificial de gran tamaño en una amplia gama de aplicaciones, el costo de la memoria se ha convertido en un barr",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2609.01550v1",
       "arxiv": "2609.01550v1"
     },
@@ -836,9 +847,20 @@
       "content_type": "paper",
       "title": "Editor de Imágenes Controlado por Cámara: Edición de Imágenes Controlada por Cámara a Través de un Modelo Secuencial Basado en Video-Prior",
       "summary": "más allá del contenido semántico, los parámetros de la cámara desempeñan un papel crucial en determinar la perspectiva geométrica y el aspecto de cualquier imag",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2609.01479v1",
       "arxiv": "2609.01479v1"
+    },
+    {
+      "source": "Migue Baena IA",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Enseña habilidades a Claude usando videos de YouTube 🤯💡",
+      "summary": "Puedes usar videos de YouTube para crear habilidades para tus agentes de IA. 🤯\nEn lugar de solo consumir contenido, puedes convertirlo en conocimiento reutiliza",
+      "time": "1h",
+      "url": "https://www.youtube.com/shorts/NiHMW6Q3FSc"
     },
     {
       "source": "Nichonauta",
@@ -903,7 +925,7 @@
       "content_type": "news",
       "title": "Anthropic acaba de lanzar Fable 5.1, su modelo de IA más potente. Hay un problema: no se atreve a dejarnos utilizarlo entero",
       "summary": "<p>\n     <img alt=\"Anthropic&#x20;acaba&#x20;de&#x20;lanzar&#x20;Fable&#x20;5.1,&#x20;su&#x20;modelo&#x20;de&#x20;IA&#x20;m&#x00E1;s&#x20;potente.&#x20;Hay&#x20",
-      "time": "6h",
+      "time": "7h",
       "url": "https://www.xataka.com/robotica-e-ia/anthropic-acaba-lanzar-fable-5-1-su-modelo-ia-potente-hay-problema-no-se-atreve-a-dejarnos-utilizarlo-entero"
     },
     {
@@ -925,7 +947,7 @@
       "content_type": "video",
       "title": "Quest 3 alcanza los 240Hz… ⚠️ Pero hay un problema",
       "summary": "Las Meta Quest 3 acaban de desbloquear una capacidad sorprendente: hasta 240 Hz de tasa de refresco. Pero, ¿realmente merece la pena utilizar 240 Hz?\n\nEn este v",
-      "time": "22h",
+      "time": "23h",
       "url": "https://www.youtube.com/watch?v=NTVR1lROFos"
     },
     {
@@ -936,7 +958,7 @@
       "content_type": "news",
       "title": "Anthropic detuvo el entrenamiento de su nueva IA por una sencilla razón: estaba aprendiendo demasiado bien a hacer trampas",
       "summary": "<p>\n     <img alt=\"Anthropic&#x20;detuvo&#x20;el&#x20;entrenamiento&#x20;de&#x20;su&#x20;nueva&#x20;IA&#x20;por&#x20;una&#x20;sencilla&#x20;raz&#x00F3;n&#x3A;&#",
-      "time": "25h",
+      "time": "26h",
       "url": "https://www.xataka.com/robotica-e-ia/anthropic-detuvo-entrenamiento-su-nueva-ia-sencilla-razon-estaba-aprendiendo-demasiado-bien-a-hacer-trampas"
     },
     {
@@ -958,7 +980,7 @@
       "content_type": "news",
       "title": "Claude Fable 5.1: lista de novedades de la nueva versión del modelo de Inteligencia Artificial de Anthropic",
       "summary": "<p>\n     <img alt=\"Claude&#x20;Fable&#x20;5.1&#x3A;&#x20;lista&#x20;de&#x20;novedades&#x20;de&#x20;la&#x20;nueva&#x20;versi&#x00F3;n&#x20;del&#x20;modelo&#x20;d",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.xataka.com/basics/claude-fable-5-1-lista-novedades-nueva-version-modelo-inteligencia-artificial-anthropic"
     },
     {
@@ -969,7 +991,7 @@
       "content_type": "news",
       "title": "\"No hay lenguaje ahí fuera”: Atlas quiere hacer con el mundo físico lo que los LLM hicieron con internet",
       "summary": "<p>\n     <img alt=\"&quot;No&#x20;hay&#x20;lenguaje&#x20;ah&#x00ED;&#x20;fuera&#x201D;&#x3A;&#x20;Atlas&#x20;quiere&#x20;hacer&#x20;con&#x20;el&#x20;mundo&#x20;f",
-      "time": "4h",
+      "time": "5h",
       "url": "https://www.xataka.com/robotica-e-ia/no-hay-lenguaje-ahi-fuera-atlas-quiere-hacer-mundo-fisico-que-llm-hicieron-internet"
     },
     {
@@ -1000,9 +1022,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Presentando la comprensión agente-centrada de videos con Gemini",
+      "title": "Presentando la comprensión agente de videos con Gemini",
       "summary": "",
-      "time": "20h",
+      "time": "21h",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
     },
     {
@@ -1035,7 +1057,7 @@
       "content_type": "release",
       "title": "Perplexity lanza computación híbrida para Mac: agentes en la nube orquestan hasta un modelo local, encerrado en el dispositivo",
       "summary": "Asistentes agentes tienen un problema estructural: el contexto que los hace útiles —documentos de trato, archivos privilegiados, registros del cliente— es exact",
-      "time": "8h",
+      "time": "9h",
       "url": "https://www.marktechpost.com/2026/09/01/perplexity-releases-hybrid-compute-on-mac-cloud-agents-orchestrate-down-to-a-local-model-gated-on-device/"
     },
     {
@@ -1321,8 +1343,41 @@
       "content_type": "news",
       "title": "Apple acusa a OpenAI de destruir evidencia",
       "summary": "Apple está promoviendo la \"descubrimiento acelerada\" en su disputa legal contra OpenAI por preocupaciones de que la compañía está destruyendo pruebas activament",
-      "time": "19h",
+      "time": "20h",
       "url": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Industria",
+      "content_type": "news",
+      "title": "Inteligencia en Tiempo Real con Modelos de Serie Temporal de IBM en Confluent",
+      "summary": "",
+      "time": "ahora",
+      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence"
+    },
+    {
+      "source": "ElevenLabs Blog",
+      "source_type": "web",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Ashley Kramer se une a ElevenLabs como Chief Revenue Officer",
+      "summary": "",
+      "time": "2h",
+      "url": "https://elevenlabs.io/blog/cro"
+    },
+    {
+      "source": "Silicon España",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "IFS aumenta en un 25 % sus ingresos recurrentes anuales",
+      "summary": "La adopción de las soluciones de inteligencia artificial se encuentra detrás de este impulso registrado durante el primer semestre del año.",
+      "time": "1h",
+      "url": "https://www.silicon.es/ifs-aumenta-en-un-25-sus-ingresos-recurrentes-anuales-2583662"
     }
   ]
 }
