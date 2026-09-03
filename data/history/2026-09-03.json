@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 110,
     "sources": 44,
-    "updated_label": "09:26"
+    "updated_label": "09:34"
   },
   "iaday": {
     "reading_minutes": "66 min",
@@ -35,7 +35,7 @@
       "content_type": "repo",
       "title": "Pokee-AI/claude-pokee",
       "summary": "⭐ 1 estrella — Integración oficial de Pokee Isaac para Claude Code — routear modelo, herramientas MCP y un cliente Python probado en modo offline.",
-      "time": "11h",
+      "time": "12h",
       "url": "https://github.com/Pokee-AI/claude-pokee",
       "stars": "1"
     },
@@ -82,7 +82,7 @@
       "content_type": "repo",
       "title": "modarresi1913/EvoLatent",
       "summary": "⭐ 1 estrella — EvoLatent — Evolución simulada en espacio latente. Un marco de código abierto en Python para evolucionar inteligencia artificial en lugar de dise",
-      "time": "11h",
+      "time": "12h",
       "url": "https://github.com/modarresi1913/EvoLatent",
       "stars": "1"
     },
@@ -142,7 +142,7 @@
       "content_type": "repo",
       "title": "vineetshirode/Minesight-AI",
       "summary": "⭐ 2 estrellas — plataforma inteligente de minería de manganeso impulsada por IA para el análisis de datos, visualización geoespacial y apoyo a la toma de decisi",
-      "time": "91h",
+      "time": "92h",
       "url": "https://github.com/vineetshirode/Minesight-AI",
       "stars": "2"
     },
@@ -154,7 +154,7 @@
       "content_type": "repo",
       "title": "aprilwang2024/mundo-de-los-ai",
       "summary": "⭐ 2 estrellas — AI Mundo: cada semestre se registra el cambio de dirección y avance tecnológico en la industria AI · Una cronología AI basada en fuentes primari",
-      "time": "22h",
+      "time": "23h",
       "url": "https://github.com/aprilwang2024/ai-worldline",
       "stars": "2"
     },
@@ -572,7 +572,7 @@
       "content_type": "paper",
       "title": "DiscoSign: Traducción de texto al lenguaje de signos consciente del discurso",
       "summary": "Los sistemas de procesamiento del lenguaje de signos han operado tradicionalmente en nivel de oración, ignorando fenómenos discursivos críticos fundamentales pa",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2609.02796v1",
       "arxiv": "2609.02796v1"
     },
@@ -632,7 +632,7 @@
       "content_type": "paper",
       "title": "Modelos de lenguaje después del entrenamiento para rendimiento de medalla de oro en competencias de codificación",
       "summary": "La programación competitiva se ha convertido en un test clave para el razonamiento de los modelos de lenguaje de gran escala, con competiciones internacionales ",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.02849v1",
       "arxiv": "2609.02849v1"
     },
@@ -752,7 +752,7 @@
       "content_type": "paper",
       "title": "AutoCompass: Localización visual precisa en mapas públicos mediante el aprendizaje desde etiquetas débiles",
       "summary": "Los mapas neuronales estiman la postura 3-DoF de una imagen en relación con un mapa bidimensional. Estos modelos se entrenan con grandes conjuntos de datos de i",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2609.02798v1",
       "arxiv": "2609.02798v1"
     },
@@ -776,7 +776,7 @@
       "content_type": "paper",
       "title": "Libros Neerlandeses para Modelos de Lenguaje",
       "summary": "Las personas cada vez utilizan modelos lingüísticos para apoyar decisiones de vida. Muchas de estas decisiones implican una predicción probabilística: ¿Cuán pro",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2609.02797v1",
       "arxiv": "2609.02797v1"
     },
@@ -836,7 +836,7 @@
       "content_type": "paper",
       "title": "UE5M3 FP4 Escalado de Bloques para la Preentrenamiento de Modelos de Lenguaje Estables",
       "summary": "La préentrenamiento estable de punto flotante de 4 bits (FP4) es difícil porque el cargamento E2M1 representa solo un rango estrecho de magnitudes. La receta de",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.02846v1",
       "arxiv": "2609.02846v1"
     },
@@ -872,7 +872,7 @@
       "content_type": "paper",
       "title": "RoGe: Síntesis de Vista de Novela a Través de una Reconstrucción e Generación Implícitas de Mano a Mano",
       "summary": "La síntesis de una nueva visión desde entradas escasas requiere tanto de una fundamentación geométrica basada en las vistas observadas como de prioridades gener",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.02847v1",
       "arxiv": "2609.02847v1"
     },
@@ -1196,7 +1196,7 @@
       "content_type": "news",
       "title": "Acer diseña una miniestación de trabajo enfocada a la IA",
       "summary": "Acer Veriton RI110 cuenta con un procesador Intel Core Ultra X7 358H y gráficos Intel Arc B390 entre sus especificaciones.",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.silicon.es/acer-disena-una-miniestacion-de-trabajo-enfocada-a-la-ia-2583696"
     },
     {
@@ -1229,7 +1229,7 @@
       "content_type": "news",
       "title": "Cloud, IA y ciberseguridad: el triángulo inseparable para la competitividad empresarial",
       "summary": "En esta tribuna, Paolo Mioli, CEO en Lutech Iberia, reflexiona sobre la necesidad de integrar la nube, la IA y la ciberseguridad para competir.",
-      "time": "5h",
+      "time": "6h",
       "url": "https://www.silicon.es/experto-opinion/cloud-ia-ciberseguridad-triangulo-inseparable-competitividad-empresarial"
     },
     {
@@ -1295,7 +1295,7 @@
       "content_type": "news",
       "title": "NYC prohíbe el uso de IA para estudiantes hasta que lleguen a la secundaria",
       "summary": "El alcalde de la Ciudad de Nueva York, Zohran Mamdani, ha anunciado una nueva política que prohibirá a los estudiantes escolares más jóvenes el uso de la IA en ",
-      "time": "22h",
+      "time": "23h",
       "url": "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban"
     }
   ]
