@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 105,
     "sources": 44,
-    "updated_label": "10:18"
+    "updated_label": "10:35"
   },
   "iaday": {
     "reading_minutes": "63 min",
@@ -46,7 +46,7 @@
       "content_type": "repo",
       "title": "SooryakiranV/sentiment-aware-multi-llm-chatbot",
       "summary": "⭐ 0 estrellas — Chatbot consciente del sentimiento con validación multi-LLM para reducir las ilusión de realidad y mejorar la fiabilidad de las respuestas.",
-      "time": "14h",
+      "time": "15h",
       "url": "https://github.com/SooryakiranV/sentiment-aware-multi-llm-chatbot",
       "stars": "0"
     },
@@ -344,7 +344,7 @@
       "content_type": "paper",
       "title": "Medición de la obsequiosidad de LLM bajo presión multifásica prolongada",
       "summary": "Los modelos de lenguaje de gran tamaño (LLMs) pueden abandonar posiciones correctas cuando los usuarios les contrapongan, exhibiendo un modo de fracaso conocido",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.09090v1",
       "arxiv": "2609.09090v1"
     },
@@ -356,7 +356,7 @@
       "content_type": "paper",
       "title": "GoDeep: Comprender sin Anotación Escenas 3D Abiertas a través de la Elevación del Lenguaje-Espacio",
       "summary": "Los métodos de segmentación semántica 3D con vocabulario variable abierta suelen elevar las características CLIP al espacio 3D. Esto inserta puntos en un espaci",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.09082v1",
       "arxiv": "2609.09082v1"
     },
@@ -368,7 +368,7 @@
       "content_type": "paper",
       "title": "Moderación en Todo: Optimal Cobertura por Dominio y Brechas por Dominio Resistentes a Alineación en Entrenamiento Multidominio Intermedio",
       "summary": "Durante la etapa intermedia del entrenamiento, entre el entrenamiento previo y la alineación, se establece generalmente la composición de datos por dominio segú",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.09081v1",
       "arxiv": "2609.09081v1"
     },
@@ -380,7 +380,7 @@
       "content_type": "paper",
       "title": "ActReview: Entrenamiento de datos y recompensas basadas en un rubricario para la generación de revisiones de pares prácticas y dirigidas a la rebuttala",
       "summary": "A medida que las LLMs se utilizan cada vez más para una autoevaluación previa a la presentación, crece la demanda de retroalimentación que no solo identifica de",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.09076v1",
       "arxiv": "2609.09076v1"
     },
@@ -452,7 +452,7 @@
       "content_type": "paper",
       "title": "ToolLoop: Síntesis de Datos de Uso de Herramientas mediante una Generación Decomponida y Retroalimentación Dinámica Self-Regulativa",
       "summary": "Los datos de alta calidad sobre el uso de herramientas son cruciales para entrenar modelos de lenguaje para interactuar eficazmente con herramientas externas. S",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.09072v1",
       "arxiv": "2609.09072v1"
     },
@@ -464,7 +464,7 @@
       "content_type": "paper",
       "title": "ThinkPrior: Priorizaciones de Dificultad para la Implementación Cero de la Selección de Prompt en el Estado Frío en RLVR",
       "summary": "En el aprendizaje por refuerzo con recompensas verificables (RLVR) entrenado con la optimización de política relativa por grupo (GRPO), la término de recompensa",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.09075v1",
       "arxiv": "2609.09075v1"
     },
@@ -536,7 +536,7 @@
       "content_type": "paper",
       "title": "Desempeño del Sistema AI Clínico y los Médicos y los Modelos de Lenguaje de Frontera en la Diagnóstico Primario",
       "summary": "La evaluación clínica de la IA debe abarcar la diagnóstico y la gestión después de la recolección de información adaptativa. Se compararon Doctorina, ocho médic",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.09070v1",
       "arxiv": "2609.09070v1"
     },
@@ -656,7 +656,7 @@
       "content_type": "paper",
       "title": "No es el RoPE el que Crea Hundimientos: El Papel de la Autoconcentración y la No-Mezcla de Valores en la Atención",
       "summary": "Los Modelos de Lenguaje de Gran Tamaño (MLGTs) a menudo muestran \"Atención Húmeda\" (AH) y los asociados \"Grandes Activaciones\" (GAs) en la posición inicial de u",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.09085v1",
       "arxiv": "2609.09085v1"
     },
@@ -740,7 +740,7 @@
       "content_type": "paper",
       "title": "Reconsiderando la ocupación aprendida en el mapeo autónomo activo con filtrado basado en la observación",
       "summary": "La mapeo 3D autónoma activa requiere que un robot espacial elija dónde medir mientras construye la geometría necesaria para la navegación. La completación de oc",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.09069v1",
       "arxiv": "2609.09069v1"
     },
@@ -901,7 +901,7 @@
       "content_type": "news",
       "title": "Unitree ya tiene el primer robot humanoide impulsado por un modelo de mundo. Sólo necesita tu ropa, tus botas y tu motocicleta",
       "summary": "<p>\n     <img alt=\"Unitree&#x20;ya&#x20;tiene&#x20;el&#x20;primer&#x20;robot&#x20;humanoide&#x20;impulsado&#x20;por&#x20;un&#x20;modelo&#x20;de&#x20;mundo.&#x20",
-      "time": "22h",
+      "time": "23h",
       "url": "https://www.xataka.com/robotica-e-ia/unitree-tiene-primer-robot-humanoide-impulsado-modelo-mundo-solo-necesita-tu-ropa-tus-botas-tu-motocicleta"
     },
     {
@@ -912,7 +912,7 @@
       "content_type": "release",
       "title": "Gradium lanza Voice Design: Escribe un Prompt y obtén un Nuevo Sonido de Voz Sintético en Segundos",
       "summary": "Equipo de agentes de voz se topa constantemente con el mismo obstáculo. El catálogo contiene 400 voces y el resumen pide una que no está en él: una recepcionist",
-      "time": "5h",
+      "time": "6h",
       "url": "https://www.marktechpost.com/2026/09/09/gradium-launches-voice-design-write-a-prompt-get-a-brand-new-synthetic-voice-in-seconds/"
     },
     {
@@ -1000,7 +1000,7 @@
       "content_type": "news",
       "title": "Presentando ChatGPT Imágenes 2.5",
       "summary": "ChatGPT Images 2.5 ayuda a convertir tus ideas, bocetos y fotos de referencia en imágenes más personalizadas y pulidas que mejor reflejan tus ideas.",
-      "time": "25h",
+      "time": "26h",
       "url": "https://openai.com/index/introducing-chatgpt-images-2-5"
     },
     {
@@ -1066,7 +1066,7 @@
       "content_type": "news",
       "title": "¿Para Quién la Seguridad? Rechazar un Subtítulo Específico de un Tópico, No el Tópico Completo",
       "summary": "",
-      "time": "22h",
+      "time": "23h",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom"
     },
     {
@@ -1209,7 +1209,7 @@
       "content_type": "news",
       "title": "Los usuarios avanzados de AI afirman que Anthropic los engañó con suscripciones, y están llevando el caso a la corte.",
       "summary": "Anthropic afirma que los usuarios avanzados son cruciales para su negocio - ha priorizado sus necesidades incluso cuando eso significa cortar el acceso a otras ",
-      "time": "19h",
+      "time": "20h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans"
     },
     {
