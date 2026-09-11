@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es" data-theme="dark">
 <head>
@@ -238,6 +239,24 @@ function stripMarkdown(text){
   return (text || "").replace(/\*\*(.*?)\*\*/g, "$1").replace(/\*(.*?)\*/g, "$1").trim();
 }
 
+// --- Seguridad: los articulos vienen de ~44 fuentes externas (RSS, GitHub,
+// Reddit, YouTube, scraping de WordPress...) que esta pagina no controla.
+// Cualquier texto que venga de ellas (title, source, time, url) se trata
+// como no confiable y se escapa/valida antes de insertarse como HTML -- si
+// no, un titulo con <script> o un href="javascript:..." se ejecutaria en
+// el navegador de cualquiera que abra el sitio.
+function escapeHtml(str){
+  return String(str ?? "").replace(/[&<>"']/g, c => ({
+    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;"
+  }[c]));
+}
+function safeUrl(url){
+  try {
+    const u = new URL(url, window.location.href);
+    return (u.protocol === "http:" || u.protocol === "https:") ? u.href : "#";
+  } catch { return "#"; }
+}
+
 function renderChrome(){
   document.getElementById("themeToggle").innerHTML = icon('moon', 15);
   document.getElementById("tabIconInicio").innerHTML = icon('home', 19);
@@ -259,9 +278,9 @@ function buildCardHTML(id, { size, label, text, audioUrl, sources, playVideo }){
 
   const sourcesHtml = (sources && sources.length)
     ? sources.map((a, i) => `
-        <a class="back-item" href="${a.url}" target="_blank" rel="noopener">
-          <span class="n">${String(i+1).padStart(2,'0')}</span><span class="t">${a.title}</span>
-          <div class="s">${a.source} · ${a.time}</div>
+        <a class="back-item" href="${safeUrl(a.url)}" target="_blank" rel="noopener">
+          <span class="n">${String(i+1).padStart(2,'0')}</span><span class="t">${escapeHtml(a.title)}</span>
+          <div class="s">${escapeHtml(a.source)} · ${escapeHtml(a.time)}</div>
         </a>`).join("")
     : `<p style="color:var(--faint); font-size:11px;">Sin fuentes registradas.</p>`;
 
@@ -272,10 +291,10 @@ function buildCardHTML(id, { size, label, text, audioUrl, sources, playVideo }){
       <div class="flip-inner">
         <div class="face front face-bg">
           <div class="summary-top">
-            <div class="summary-label">${label}</div>
+            <div class="summary-label">${escapeHtml(label)}</div>
             <div class="play-circle ${playVideo ? '' : 'static'}" id="${id}-playbtn" onclick="toggleCardAudio('${id}')">${playInner}</div>
           </div>
-          <div class="card-desc" id="${id}-desc">${text}</div>
+          <div class="card-desc" id="${id}-desc">${escapeHtml(text)}</div>
           <div class="face-links">
             <span class="link-btn" onclick="toggleCardExpand('${id}')" id="${id}-more">Ver más</span>
             <span class="link-btn" onclick="flipCardEl('${id}', true)">Ver fuentes →</span>
@@ -355,10 +374,10 @@ function renderNewsPage(listId = "newsList", pagId = "pagination"){
 
   const box = document.getElementById(listId);
   box.innerHTML = slice.length ? slice.map(a => `
-    <a class="news-row" href="${a.url}" target="_blank" rel="noopener">
-      <div class="news-src"><span class="dot" style="background:${CAT_COLOR[a.cat]||'var(--dim)'}"></span>${a.source}</div>
-      <span class="news-title">${a.title}</span>
-      <div class="news-meta"><span class="t">Hace ${a.time}</span><span class="news-tech">${a.cat}</span></div>
+    <a class="news-row" href="${safeUrl(a.url)}" target="_blank" rel="noopener">
+      <div class="news-src"><span class="dot" style="background:${CAT_COLOR[a.cat]||'var(--dim)'}"></span>${escapeHtml(a.source)}</div>
+      <span class="news-title">${escapeHtml(a.title)}</span>
+      <div class="news-meta"><span class="t">Hace ${escapeHtml(a.time)}</span><span class="news-tech">${escapeHtml(a.cat)}</span></div>
     </a>
   `).join("") : `<div class="empty-note">Sin noticias para mostrar.</div>`;
 
