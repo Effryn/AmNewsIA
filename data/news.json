@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 36,
     "sources": 44,
-    "updated_label": "14:59"
+    "updated_label": "15:01"
   },
   "iaday": {
     "reading_minutes": "22 min",
@@ -155,7 +155,7 @@
       "content_type": "paper",
       "title": "Piense Antes de Enlazar: Rareza, Razonamiento y Recuperación en Enlazado de Entidades Multilingües",
       "summary": "El enlazado multimodal de entidades sitúa menciones de entidades en texto e imágenes en entradas de una base de conocimientos. Estos sistemas se deterioran con",
-      "time": "93h",
+      "time": "94h",
       "url": "https://huggingface.co/papers/2609.10745"
     },
     {
@@ -166,7 +166,7 @@
       "content_type": "paper",
       "title": "ActReview: Entrenamiento de Datos y Premios según un Rubro Orientado a la Contrarretórica para la Generación de Revisión Peer Acción-Orienteada",
       "summary": "A medida que los LLMs se utilizan cada vez más para una autoevaluación previa a la presentación, se está generando una creciente demanda de retroalimentación",
-      "time": "117h",
+      "time": "118h",
       "url": "https://huggingface.co/papers/2609.09076"
     },
     {
@@ -177,7 +177,7 @@
       "content_type": "paper",
       "title": "IdeaAMBIG: Evaluación por Puntos de Referencia Implementación-Brechas Críticas en la Especificación de las Ideas de Investigación",
       "summary": "Una idea de investigación puede ser novedosa, coherente y plausibles desde una perspectiva científica, pero su método propuesto puede seguir siendo",
-      "time": "93h",
+      "time": "94h",
       "url": "https://huggingface.co/papers/2609.10539"
     },
     {
@@ -188,7 +188,7 @@
       "content_type": "paper",
       "title": "Construcción de Puentes Multilingües: La Mezcla de Datos como Pilar para la Generalización en Razonamiento In-Lengua",
       "summary": "Los modelos de lenguaje basados en razonamiento han logrado avances significativos en una variedad de tareas complejas, pero sus capacidades siguen siendo",
-      "time": "93h",
+      "time": "94h",
       "url": "https://huggingface.co/papers/2609.10445"
     },
     {
@@ -199,7 +199,7 @@
       "content_type": "paper",
       "title": "Más allá de las Conclusiones del Solver: Modelos de Recompensa Generativos para Autoformalización",
       "summary": "Los sistemas neurosimbólicos dependen de resolutores matemáticos para garantizar la corrección del razonamiento, pero los resolutores están fundamentalmente",
-      "time": "69h",
+      "time": "70h",
       "url": "https://huggingface.co/papers/2609.11085"
     },
     {
@@ -210,7 +210,7 @@
       "content_type": "paper",
       "title": "Estudiando Tokenizadores de Imágenes como Lenguajes Visuales en Modelos Multimodales Unificados",
       "summary": "Los tokenizadores de imágenes definen el \"lenguaje visual\" de los modelos multimodales unificados, pero suelen ser estudiados a través de métricas aisladas o",
-      "time": "117h",
+      "time": "118h",
       "url": "https://huggingface.co/papers/2609.09143"
     },
     {
@@ -221,7 +221,7 @@
       "content_type": "paper",
       "title": "Puente Adaptativo: Una Capa de Decople Basada en Proxies para Mitigar el Backpressure en ROS 2",
       "summary": "En sistemas construidos sobre Robot Operating System 2 (ROS 2) y que utilizan el Servicio de Distribución de Datos (DDS), un suscriptor con problemas de red o",
-      "time": "165h",
+      "time": "166h",
       "url": "https://huggingface.co/papers/2608.15380"
     },
     {
@@ -243,7 +243,7 @@
       "content_type": "video",
       "title": "GPU más Integrada ⚡ ¿Es MEJOR que la CPU para Modelos de IA?",
       "summary": "En este video analizamos si es rentable utilizar la GPU más integrada para acelerar la ejecución de modelos de lenguaje en comparación con el uso de la CPU.",
-      "time": "ahora",
+      "time": "1h",
       "url": "https://www.youtube.com/watch?v=1_QRR77aLTg"
     },
     {
@@ -254,7 +254,7 @@
       "content_type": "video",
       "title": "Hice el Mejor Benchmark para LLMs 🧠 ¿Inteligencia Real o solo MEMORIA?",
       "summary": "En este video presento el experimento donde hice el mejor benchmark para LLMs con el fin de descubrir si los modelos de lenguaje poseen inteligencia real o si",
-      "time": "24h",
+      "time": "25h",
       "url": "https://www.youtube.com/watch?v=qHNr4qhdWug"
     },
     {
@@ -287,7 +287,7 @@
       "content_type": "news",
       "title": "En China los tokens de IA son los nuevos puntos de fidelización: te los regalan por comer, beber o usar una tarjeta",
       "summary": "<p> <img",
-      "time": "23h",
+      "time": "24h",
       "url": "https://www.xataka.com/robotica-e-ia/china-tokens-ia-nuevos-puntos-fidelizacion-te-regalan-comer-beber-usar-tarjeta"
     },
     {
@@ -309,7 +309,7 @@
       "content_type": "news",
       "title": "¿Pueden los LLMs Diseñar Su Propio Herramienta de Agente? Seed de ByteDance dice que solo 34 de 64 Cambios Generalizan",
       "summary": "<p>ByteDance Seed, SUTD, Georgia Tech, M-A-P y TokenWave.AI presentan HarnessDev, un estándar que evalúa el arnés ejecutable que construye un modelo en lugar",
-      "time": "19h",
+      "time": "20h",
       "url": "https://www.marktechpost.com/2026/09/11/can-llms-engineer-their-own-agent-harness-bytedance-seeds-harnessdev-says-only-34-of-64-changes-generalize/"
     },
     {
@@ -342,7 +342,7 @@
       "content_type": "news",
       "title": "Escalando rápidamente el almacenamiento en línea para servir a más de mil millones de usuarios de ChatGPT",
       "summary": "Aprenda cómo OpenAI evolucionó Habitat de una biblioteca de Python a una plataforma de almacenamiento distribuida globalmente que sirve a 1 mil billones de",
-      "time": "31h",
+      "time": "32h",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one"
     },
     {
@@ -353,7 +353,7 @@
       "content_type": "news",
       "title": "La cognición ayuda a Devin a probar su propio trabajo con GPT-6 Astra",
       "summary": "GPT-6 Astra mejora la capacidad de Devin para probar el software y demostrar que funciona, con el objetivo de ayudar a los ingenieros a revisar menos código y",
-      "time": "25h",
+      "time": "26h",
       "url": "https://openai.com/index/cognition-devin-testing-with-astra"
     },
     {
@@ -397,7 +397,7 @@
       "content_type": "news",
       "title": "OpenAI solo desea ganar",
       "summary": "OpenAI ha dedicado los últimos años a plantar banderas en el terreno cada vez más difícil de las matemáticas. Esta semana, ha logrado uno de sus mayores",
-      "time": "6h",
+      "time": "7h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition"
     },
     {
