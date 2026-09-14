@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 43,
     "sources": 44,
-    "updated_label": "07:54"
+    "updated_label": "07:55"
   },
   "iaday": {
     "reading_minutes": "26 min",
@@ -325,7 +325,7 @@
       "content_type": "paper",
       "title": "Investigación de Características de Movimiento Temporal para la Traducción de Poses a Texto del Idioma de Señas India",
       "summary": "Investigamos el efecto del escala del modelo preentrenado T5 y las características explícitas de movimiento en la traducción de pose-to-text del Lenguaje de",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2609.12993v1",
       "arxiv": "2609.12993v1"
     },
