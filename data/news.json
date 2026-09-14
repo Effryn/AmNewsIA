@@ -3,18 +3,18 @@
   "date_label": "14 de septiembre de 2026",
   "greeting": "Buenos días, Effry",
   "briefing": {
-    "duration_label": "—",
+    "duration_label": "2:26",
     "audio_url": "assets/audio/2026-09-14.mp3",
     "script_text": "En el resumen de hoy analizamos un panorama de la IA que se debate entre dos fuerzas opuestas: la presión por frenar el avance y la realidad de que nadie quiere ser el primero en hacerlo.\n\nComencemos con el tema de gobernanza y regulación. Anthropic ha presentado un plan de tres pasos llamado \"Pace the Frontier\" que ha ganado el respaldo de OpenAI, xAI y Microsoft. La propuesta intenta establecer un ritmo más controlado en el desarrollo de IA, pero como señala un análisis de Xataka, el problema es evidente: todos quieren que alguien frene, pero nadie confía lo suficiente en los demás como para ser el primero en hacerlo. Es el dilema clásico del prisionero aplicado a la carrera tecnológica más importante de nuestro tiempo.\n\nEn paralelo, Dario Amodei, CEO de Anthropic, ha lanzado una provocadora pregunta: \"¿Por qué esto no lo está construyendo el Gobierno?\" Amodei argumenta que la IA es demasiado importante para dejarla únicamente en manos privadas. Una postura que contrasta con la posición del sector empresarial, aunque reconoce una verdad incómoda sobre la concentración del poder tecnológico.\n\nEn cuanto a los desarrollos técnicos, OpenAI ha anunciado que Perplexity utilizará GPT-6 Astra para sistemas end-to-end, marcando un hito en la integración de modelos avanzados. NVIDIA, por su parte, ha abierto el código de OSMO, una herramienta que orquesta el entrenamiento de IA física, simulación y pruebas de robots mediante un único archivo YAML. Un movimiento significativo hacia la democratización de las herramientas de IA.\n\nEn investigación de frontera, un equipo de Princeton propone el Recurrent Looped Transformer, una arquitectura que mantiene el estado del decodificador a través de cada token, potencialmente superando limitaciones actuales de profundidad temporal. También destaca el trabajo en Hierarchical NeRF con JAX3D para síntesis de vistas novedosas y reconstrucción 3D.\n\nEn infraestructura, el mercado de semiconductores reportó ingresos superiores a 750 mil millones de dólares en la primera mitad del año. Una cifra que refleja la voracidad de la demanda de chips para entrenar modelos de IA.\n\nFinalmente, Donald Trump y Mike Johnson han criticado lo que consideran una reacción exagerada de la industria de IA, sugiriendo que el establishment político aún no ha interiorizado la magnitud del cambio en marcha.\n\nEn resumen: regulación sin confianza, innovación sin pausa, y una tensión creciente entre gobiernos e industria sobre quién debe controlar esta tecnología.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 43,
     "sources": 44,
-    "updated_label": "07:45"
+    "updated_label": "07:54"
   },
   "iaday": {
     "reading_minutes": "26 min",
-    "audio_duration": "—",
+    "audio_duration": "2:26",
     "key_count": 3,
     "papers_count": 24,
     "repos_count": 7,
@@ -69,7 +69,7 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Más allá del Retorno de Habilidades Top-k: Ruteo de Habilidades Consciente de la Diversidad para Agentes de LLM",
-      "summary": "Large language model (LLM) agents increasingly rely on external skills, but routing user requests over large skill registries is difficult because many skills",
+      "summary": "Los agentes de modelos de lenguaje de gran tamaño (LLM) cada vez se basan más en habilidades externas, pero rutear las solicitudes del usuario a través de",
       "time": "230h",
       "url": "https://huggingface.co/papers/2609.05824"
     },
@@ -337,7 +337,7 @@
       "content_type": "paper",
       "title": "Continue, Adapt, or Yield: In-Turn Adaptation to Overlapping Speech in Full-Duplex Agents",
       "summary": "Full-duplex evaluation often emphasizes whether an agent keeps speaking or stops. That binary cannot express a third response humans use routinely: continuing",
-      "time": "64h",
+      "time": "65h",
       "url": "https://arxiv.org/abs/2609.13117v1",
       "arxiv": "2609.13117v1"
     },
@@ -430,7 +430,7 @@
       "content_type": "news",
       "title": "Todos quieren frenar la carrera de la IA. Hay un problema: nadie se fía lo suficiente del otro como para ser el primero",
       "summary": "<p> <img",
-      "time": "2h",
+      "time": "3h",
       "url": "https://www.xataka.com/robotica-e-ia/todos-quieren-frenar-carrera-ia-hay-problema-nadie-se-fia-suficiente-otro-como-para-ser-primero"
     },
     {
@@ -450,7 +450,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "Async GRPO con LoRA en HF Jobs: un recipiente, un proxy, y sin NCCL",
+      "title": "Async GRPO con LoRA a través de trabajos de HF: un recipiente, un proxy, y sin NCCL",
       "summary": "",
       "time": "106h",
       "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs"
@@ -496,7 +496,7 @@
       "content_type": "news",
       "title": "Jerarquía NeRF con JAX3D para la renderización volumétrica, síntesis de vistas nuevas y reconstrucción tridimensional",
       "summary": "En este tutorial, se construye un sistema completo de campos de radiancia neural jerárquicos (NeRF) utilizando JAX, Flax, Optax y las primitives de renderizado",
-      "time": "14h",
+      "time": "15h",
       "url": "https://www.marktechpost.com/2026/09/13/hierarchical-nerf-with-jax3d-for-volumetric-rendering-novel-view-synthesis-and-3d-reconstruction/"
     },
     {
