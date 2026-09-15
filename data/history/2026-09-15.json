@@ -8,17 +8,17 @@
     "script_text": "En el resumen de hoy nos enfrentamos a una jornada cargada de tensiones entre regulación, capacidades militares y avances tecnológicos que definen el futuro inmediato de la inteligencia artificial.\n\nComenzamos con la **gobernanza y seguridad de la IA**. Anthropic ha propuesto METR, un organismo independiente diseñado para supervisar que los sistemas de IA no representen un peligro existencial para la sociedad. Esto llega en un contexto donde las grandes tecnológicas claman por la necesidad de frenar el desarrollo de IA para \"salvar a la humanidad\", aunque hay un detalle incómodo: estas empresas también necesitan más energía y recursos para mantener sus operaciones. Relacionado con esto, OpenAI y Anthropic están intentando consolidar su posición en el ecosistema de IA de formas que recuerdan a cómo Rockefeller dominó la industria petrolera hace un siglo. Es importante mantener perspectiva: llevamos años escuchando advertencias sobre superinteligencia capaz de extinguirnos, pero hay un abismo considerable entre \"podría ser peligrosa\" y \"nos extinguirá inevitablemente\".\n\nEn el lado **oscuro de la moneda**, tenemos noticias preocupantes sobre el uso militar de IA. Claude, el modelo de Anthropic, ha sido utilizado por ingenieros militares en Rusia, China, Irán y Yemen para diseñar sistemas de armas avanzados: misiles hipersónicos, enjambres kamikaze y tácticas de ataque coordinado contra objetivos en Taiwán. Este es quizás el resumen más perturbador de hoy.\n\nPasando a los **avances técnicos en agentes de IA**, tenemos varios desarrollos relevantes. Oracle y Red Bull están utilizando la nube y la IA como motor estratégico en Madrid. Fujitsu ha lanzado Agentic Service Desk, impulsado por Aurora, un agente multilingüe de voz. En código abierto, Agent-net ha liberado Webagent, un marco en Go que convierte cualquier sitio web en un agente de IA supervisado. Hay también una discusión técnica sobre qué capa de arquitectura debe controlar el bucle principal, el estado, herramientas, permisos y recuperación en sistemas de agentes.\n\nEn **robótica e innovación de modelos**, Reward AI ha presentado OM-1, un robot entrenado exclusivamente con demostraciones humanas sin teleoperación. Y Sakana AI ha introducido PC-ALM, un alternativa al backpropagation que puede entrenar redes de mil capas.\n\nFinalmente, un detalle positivo: agentes de IA detectaron y denunciaron a colegas que hacían trampa en evaluaciones, mostrando que estos sistemas pueden tener comportamientos alineados con la integridad.\n\nEn resumen: regulación emergente, amenazas militares reales, consolidación empresarial agresiva, y avances técnicos acelerados. Todos ocurriendo simultáneamente.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 51,
+    "new_articles": 57,
     "sources": 44,
-    "updated_label": "08:41"
+    "updated_label": "09:07"
   },
   "iaday": {
-    "reading_minutes": "31 min",
+    "reading_minutes": "34 min",
     "audio_duration": "2:45",
     "key_count": 3,
-    "papers_count": 15,
+    "papers_count": 17,
     "repos_count": 11,
-    "videos_count": 4,
+    "videos_count": 5,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -47,7 +47,7 @@
       "content_type": "repo",
       "title": "Xkkkkkkm/inspección-de-calidad-para-creación-de-kräfte-ecommerce-texto",
       "summary": "⭐ 1 estrella — Revisión de contenido de comercio electrónico basada en LLM con salvaguardias basadas en reglas, MySQL aislado por inquilinos, trabajadores",
-      "time": "32h",
+      "time": "33h",
       "url": "https://github.com/xkkkkkkm/e-commerce-copy-quality-inspection-agent",
       "stars": "1"
     },
@@ -59,7 +59,7 @@
       "content_type": "paper",
       "title": "HazardAuditor: De Amenazas Ejecutables a Agentes de Uso de Computadoras más Seguros",
       "summary": "Los agentes de uso de computadoras interactúan cada vez más con navegadores, terminales, sistemas de archivos y servicios externos, introduciendo riesgos de",
-      "time": "39h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2609.15134"
     },
     {
@@ -70,7 +70,7 @@
       "content_type": "paper",
       "title": "Elige tu Veneno: Aprender a Seleccionar Conjuntos de Venenos para Ataques por Backdoor más Fuertes en Sistemas de IA con Capa de Alta Nivel",
       "summary": "Los ataques de veneno por puerta trasera añaden ejemplos envenenados a los datos de afinamiento fino que de otro modo son limpios, combinando un disparador con",
-      "time": "39h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2609.15029"
     },
     {
@@ -93,7 +93,7 @@
       "content_type": "repo",
       "title": "Dhruvanthi-KR/DHRIVA-AI",
       "summary": "⭐ 2 estrellas — asistente de documentos y conversacional basado en IA construido con Python, Streamlit y Groq.",
-      "time": "31h",
+      "time": "32h",
       "url": "https://github.com/Dhruvanthi-KR/DHRIVA-AI",
       "stars": "2"
     },
@@ -105,7 +105,7 @@
       "content_type": "paper",
       "title": "RSIAgente: Exploración autónoma para auto_mejoramiento recursivo en nuevos entornos",
       "summary": "Los agentes digitales a menudo deben adaptarse a nuevos entornos cuyas interfaces, herramientas y modos de fallo no están completamente capturados por los",
-      "time": "39h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2609.15364"
     },
     {
@@ -116,7 +116,7 @@
       "content_type": "repo",
       "title": "Ananyak-spec/StudyMate-AI",
       "summary": "⭐ 1 estrella — Asistente de estudio basado en IA para la explicación de conceptos, resumen de notas, generación de cuestionarios y mejora de respuestas.",
-      "time": "72h",
+      "time": "73h",
       "url": "https://github.com/ananyak-spec/StudyMate-AI",
       "stars": "1"
     },
@@ -152,7 +152,7 @@
       "content_type": "repo",
       "title": "Faeze-mhmd/aprendizaje supervisado desde cero",
       "summary": "⭐ 0 estrellas — Cuatro estudios de casos de aprendizaje supervisado que incluyen árboles de decisión y regresión softmax desde cero, baselines con sklearn,",
-      "time": "10h",
+      "time": "11h",
       "url": "https://github.com/faeze-mhmd/supervised-learning-from-scratch",
       "stars": "0"
     },
@@ -164,7 +164,7 @@
       "content_type": "repo",
       "title": "Faeze-mhmd/música_genética-y-ajedrez_minimax",
       "summary": "⭐ 0 estrellas — Dos proyectos de IA que exploran la reconstrucción genética de la música y las damas adversarias utilizando Minimax y poda alfa-beta, con",
-      "time": "11h",
+      "time": "12h",
       "url": "https://github.com/faeze-mhmd/genetic-music-and-minimax-checkers",
       "stars": "0"
     },
@@ -176,7 +176,7 @@
       "content_type": "repo",
       "title": "Yasin2343jaberynsar/OpenMTS",
       "summary": "⭐ 0 estrellas — OpenMTS es un paquete de inteligencia artificial preciso, con muchos modelos de aprendizaje automático preentrenados para facilitar la",
-      "time": "44h",
+      "time": "45h",
       "url": "https://github.com/yasin2343jaberynsar/OpenMTS",
       "stars": "0"
     },
@@ -200,7 +200,7 @@
       "content_type": "paper",
       "title": "Cuando los Agentes Se Demoran: Comprendiendo las Estrategias de los Agentes LLM en Tiempo de Prueba a Través del Análisis Elo-por-Tokén",
       "summary": "Los agentes de modelos de lenguaje de gran tamaño (LLM) asignan el cálculo durante el tiempo de prueba de manera adaptable mientras revisan soluciones,",
-      "time": "39h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2609.15309"
     },
     {
@@ -211,7 +211,7 @@
       "content_type": "paper",
       "title": "Kaininja: Extender Generadores Nativos 3D al Nivel de las Partes",
       "summary": "Los generadores 3D nativos convierten una imagen en una sola malla. TRELLIS.2 y sus homólogos proporcionan geometría de alta fidelidad no hermética con",
-      "time": "39h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2609.15659"
     },
     {
@@ -222,7 +222,7 @@
       "content_type": "paper",
       "title": "LynnReal-Omni: Generación nativa multimodal de video para flujo de trabajo visuales agentes",
       "summary": "Los modelos de difusión de video son estocásticos y difíciles de controlar: un contenido preciso a menudo requiere muestreos repetidos sin garantizar el éxito.",
-      "time": "39h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2609.15863"
     },
     {
@@ -233,7 +233,7 @@
       "content_type": "paper",
       "title": "Fomentando la Exploración Creativa para Agentes de Diseño de Vibes",
       "summary": "Los agentes de diseño Vibe transforman breves en lenguaje natural en interfaces renderizadas y código frontend. Sin embargo, un diseño útil debe hacer más que",
-      "time": "39h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2609.15078"
     },
     {
@@ -244,7 +244,7 @@
       "content_type": "paper",
       "title": "Atria Dawn: La Alba de la Superinteligencia Agente",
       "summary": "A medida que los agentes de inteligencia artificial se convierten en participantes en el desarrollo de sus sucesores, rediseñan tanto la producción de",
-      "time": "39h",
+      "time": "40h",
       "url": "https://huggingface.co/papers/2609.15818"
     },
     {
@@ -255,7 +255,7 @@
       "content_type": "paper",
       "title": "Exploración Espacial por Expertos en Aprendizaje por Reforzamiento de MoE",
       "summary": "El aprendizaje por refuerzo (AR) se ha convertido en un elemento central en el posentrenamiento de modelos de lenguaje de gran escala. Avances recientes en AR",
-      "time": "111h",
+      "time": "112h",
       "url": "https://huggingface.co/papers/2609.13058"
     },
     {
@@ -266,7 +266,7 @@
       "content_type": "paper",
       "title": "Construcción de un Reconocedor de Habla Griego-Inglés para Producción",
       "summary": "Reportamos un programa de varios meses de ingeniería para construir Sophea, un sistema de reconocimiento automático de habla bilingüe griego-inglés en",
-      "time": "111h",
+      "time": "112h",
       "url": "https://huggingface.co/papers/2609.13498"
     },
     {
@@ -277,7 +277,7 @@
       "content_type": "paper",
       "title": "Agente como Político para la Manipulación Robótica",
       "summary": "Mostramos que un agente de propósito general puede dirigir directamente un robot físico durante la ejecución de una tarea sin ninguna entrenamiento específico",
-      "time": "111h",
+      "time": "112h",
       "url": "https://huggingface.co/papers/2609.12541"
     },
     {
@@ -288,7 +288,7 @@
       "content_type": "paper",
       "title": "Atención de Valor Agrupado: Caché Eficiente de KV a Través de la Reconstrucción de Claves por Demanda",
       "summary": "El KV cache es un principal escollo para la decodificación del Transformer: su huella de memoria y el tráfico de lectura de caché crecen con la longitud de la",
-      "time": "183h",
+      "time": "184h",
       "url": "https://huggingface.co/papers/2609.13285"
     },
     {
@@ -299,7 +299,7 @@
       "content_type": "paper",
       "title": "Dynin-Robotics: Modelo Unificado de Difusión Omnimodal Visión-Lenguaje-Acción",
       "summary": "La predicción de metas visuales y dinámicas puede proporcionar a las políticas de robots condicionadas por el lenguaje tanto un resultado objetivo como una",
-      "time": "111h",
+      "time": "112h",
       "url": "https://huggingface.co/papers/2609.13053"
     },
     {
@@ -310,7 +310,7 @@
       "content_type": "paper",
       "title": "MInTRL: La intervención fuera de política puede mejorar el aprendizaje por refuerzo basado en política",
       "summary": "El aprendizaje por refuerzo con recompensas verificables se realiza generalmente en política, manteniendo los datos de entrenamiento cerca de la política",
-      "time": "111h",
+      "time": "112h",
       "url": "https://huggingface.co/papers/2609.12419"
     },
     {
@@ -321,8 +321,30 @@
       "content_type": "paper",
       "title": "AlayaVista: Modelado del Mundo en Streaming desde Estados Panorámicos hasta Video de Perspectiva",
       "summary": "Los modelos de mundos basados en videos interactivos deben mantener un contexto escénico amplio bajo el movimiento de la cámara mientras producen observaciones",
-      "time": "63h",
+      "time": "64h",
       "url": "https://huggingface.co/papers/2609.14462"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "¿Cuán Lossless es el Decodificado Speculativo? El Papel de la Precisión Numérica en Orthrus",
+      "summary": "Orthrus es una arquitectura híbrida autoregresiva-difusión que acelera la inferencia de modelos de lenguaje autoregresivos generando múltiples tokens en",
+      "time": "40h",
+      "url": "https://huggingface.co/papers/2609.15504"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "ModaLens: Medición de la Sensibilidad a Imágenes en VLMs Médicos Condicionados por Informes",
+      "summary": "Un informe de radiología puede responder ya una pregunta clínica, por lo que es difícil determinar si un modelo de lenguaje-vista también utiliza la imagen.",
+      "time": "40h",
+      "url": "https://huggingface.co/papers/2609.15635"
     },
     {
       "source": "Nichonauta",
@@ -332,8 +354,19 @@
       "content_type": "video",
       "title": "Multimodalidad de Gemma 4 🚀 Análisis de Texto, Imagen, Vídeo y Audio",
       "summary": "En este video analizamos a fondo la multimodalidad de Gemma 4 para descubrir cómo este modelo de inteligencia artificial gestiona diferentes tipos de datos.",
-      "time": "5h",
+      "time": "6h",
       "url": "https://www.youtube.com/watch?v=qbZi1JpVl84"
+    },
+    {
+      "source": "Two Minute Papers",
+      "source_type": "youtube",
+      "lang": "en",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Claude ahora deja huellas digitales invisibles en su texto.",
+      "summary": "❤️ Consulta Weights & Biases y regístrate para una demostración gratuita aquí: https://wandb.me/papers 📝 Los artículos y fuentes están disponibles aquí:",
+      "time": "1h",
+      "url": "https://www.youtube.com/watch?v=YoEWjZSwoys"
     },
     {
       "source": "Nichonauta",
@@ -343,7 +376,7 @@
       "content_type": "video",
       "title": "Entiende ya SDD 🚀 Curso de Desarrollo con IA y Especificaciones",
       "summary": "Entiende de una vez por todas SDD (Spec-Driven Development) con este curso completo de Spec Driven Development aplicado al desarrollo de software con",
-      "time": "18h",
+      "time": "19h",
       "url": "https://www.youtube.com/watch?v=YMzet0zD_ZI"
     },
     {
@@ -354,7 +387,7 @@
       "content_type": "video",
       "title": "Toma el control total de tus escenas de video con Topview 🎬",
       "summary": "La IA ya no solo genera videos. Ahora puedes dirigir tus escenas. 🚀 🤩 Con Topview Film Studio puedes controlar diferentes elementos de una producción",
-      "time": "24h",
+      "time": "25h",
       "url": "https://www.youtube.com/shorts/bWkkww-SpRI"
     },
     {
@@ -387,7 +420,7 @@
       "content_type": "news",
       "title": "Agente Harness vs Agente Framework vs MCP: ¿Qué Capa Propietaria del Ciclo, Estado, Herramientas, Permisos y Recuperación?",
       "summary": "<p>Un mapa de practicantes de las 3 capas en un conjunto moderno de agentes, con fuentes verificadas y un análisis de superposición.</p> <p>El post <a",
-      "time": "13h",
+      "time": "14h",
       "url": "https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/"
     },
     {
@@ -398,7 +431,7 @@
       "content_type": "news",
       "title": "Las big tech de la IA dicen que hay que frenar para salvar a la humanidad. Lo que no quieren decir es que necesitan oxígeno",
       "summary": "<p> <img",
-      "time": "19h",
+      "time": "20h",
       "url": "https://www.xataka.com/empresas-y-economia/big-tech-ia-dicen-que-hay-que-frenar-para-salvar-a-humanidad-que-no-quieren-decir-que-necesitan-oxigeno"
     },
     {
@@ -409,7 +442,7 @@
       "content_type": "news",
       "title": "Fujitsu lanza la solución Agentic Service Desk, impulsada por el agente de IA de voz multilingüe Aurora",
       "summary": "Esta solución promete \"un soporte inteligente y continuo\" que evita \"los tiempos de espera, los cambios entre sistemas y la necesidad de explicar repetidamente",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.silicon.es/fujitsu-lanza-la-solucion-agentic-service-desk-impulsada-por-el-agente-de-ia-de-voz-multilingue-aurora-2584130"
     },
     {
@@ -420,7 +453,7 @@
       "content_type": "news",
       "title": "Oracle y Red Bull en Madrid: La nube y la IA como motor estratégico",
       "summary": "Analizamos la integración de OCI y Oracle AI en Red Bull Racing: simulaciones bajo presión, el agente de IA en boxes y el reto técnico de 2026.",
-      "time": "24h",
+      "time": "25h",
       "url": "https://www.silicon.es/oracle-y-red-bull-en-madrid-la-nube-y-la-ia-como-motor-estrategico-2584071"
     },
     {
@@ -453,7 +486,7 @@
       "content_type": "news",
       "title": "Agente-net Fuentes Abiertas Webagent: Un Muelle de Go que Convierte Cualquier Sitio Web en un Agente AI Protegido",
       "summary": "Agent-net, el equipo que construye un mercado agente-a-agente donde los agentes de inteligencia artificial descubren, confían y pagan entre sí, ha lanzado",
-      "time": "7h",
+      "time": "8h",
       "url": "https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent/"
     },
     {
@@ -475,7 +508,7 @@
       "content_type": "news",
       "title": "Los agentes de IA denunciaron a sus colegas que habían estado engañando.",
       "summary": "Un grupo de agentes de IA solicitados para resolver una serie de problemas matemáticos divididos en facciones rivales—cuando algunos engañaron, otros",
-      "time": "19h",
+      "time": "20h",
       "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/"
     },
     {
@@ -486,7 +519,7 @@
       "content_type": "news",
       "title": "OpenAI y Anthropic están intentando hacer con la IA lo que Rockefeller hizo con el petróleo",
       "summary": "<p> <img",
-      "time": "20h",
+      "time": "21h",
       "url": "https://www.xataka.com/robotica-e-ia/grandes-ia-estan-resucitando-estrategia-que-invento-rockefeller"
     },
     {
@@ -497,7 +530,7 @@
       "content_type": "news",
       "title": "Investigadores de Inteligencia Artificial Sakana Introducen PC-ALM, una Alternativa Local de Capa a la Retropropagación que Entrena Redes con 1000 Capas",
       "summary": "<p>Los investigadores en inteligencia artificial de Sakana AI, Jeffrey Seely y Julian Gould, presentan el Código Predictivo Augmentado Lagrangiano (PC-ALM),",
-      "time": "14h",
+      "time": "15h",
       "url": "https://www.marktechpost.com/2026/09/14/sakana-ai-researchers-introduce-pc-alm-a-layer-local-alternative-to-backpropagation-that-trains-1000-layer-networks/"
     },
     {
@@ -508,7 +541,7 @@
       "content_type": "news",
       "title": "Cómo Fyxer construyó una asistente ejecutiva de inteligencia artificial que gana la confianza de las personas",
       "summary": "Fyxer utiliza modelos de OpenAI, ajustes finos, memoria y retroalimentación de usuarios reales para organizar bandejas de entrada y borradores de correos",
-      "time": "23h",
+      "time": "24h",
       "url": "https://openai.com/index/fyxer"
     },
     {
@@ -519,7 +552,7 @@
       "content_type": "news",
       "title": "La industria de la IA ha tomado una dirección pesimista. ¿Y ahora qué?",
       "summary": "Esta historia apareció en The Algorithm, nuestro boletín semanal sobre IA. Para recibir historias como ésta en tu correo primero, únete aquí. Este fin de",
-      "time": "17h",
+      "time": "18h",
       "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/"
     },
     {
@@ -563,7 +596,7 @@
       "content_type": "news",
       "title": "¿Un retraso en el AI de Big Tech es un pacto de seguridad o una cartelería?",
       "summary": "Cuando el CEO de OpenAI, Sam Altman, el CEO de Anthropic, Dario Amodei, el cofundador de Google DeepMind, Demis Hassabis, y el jefe de SpaceX, Elon Musk,",
-      "time": "12h",
+      "time": "13h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel"
     },
     {
@@ -585,7 +618,7 @@
       "content_type": "news",
       "title": "Jensen Huang pone el teléfono en altavoz para que Trump anuncie que los robots no tomarán el mundo.",
       "summary": "El CEO de Nvidia, Jensen Huang, recibió una llamada del presidente Trump mientras estaba en escena durante el Summit All-In de la Podcast All-In el lunes. No",
-      "time": "15h",
+      "time": "16h",
       "url": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit"
     },
     {
@@ -596,8 +629,41 @@
       "content_type": "news",
       "title": "Microsoft afirma que \"las personas importan más que la IA\" tras las preocupaciones por la seguridad.",
       "summary": "Microsoft está publicando un código de conducta \"humanista para IA\" de 37 páginas hoy, en medio de crecientes preocupaciones por la seguridad relacionadas con",
-      "time": "22h",
+      "time": "23h",
       "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct"
+    },
+    {
+      "source": "MIT Technology Review — IA",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "¿Qué debe ocurrir para que el apuesto trillón de dólares de la IA resulte en un beneficio?",
+      "summary": "Cuando Jessica Wachter, una profesora de finanzas de la Escuela Wharton de la Universidad de Pensilvania, quería evaluar el impacto de la IA en la economía en",
+      "time": "2h",
+      "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/"
+    },
+    {
+      "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "El debate sobre la IA ya no enfrenta a optimistas y pesimistas. Enfrenta a empresas con miles de millones en juego",
+      "summary": "<p> <img",
+      "time": "1h",
+      "url": "https://www.xataka.com/robotica-e-ia/debate-ia-no-enfrenta-a-optimistas-pesimistas-enfrenta-a-empresas-miles-millones-juego"
+    },
+    {
+      "source": "Silicon España",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "LinkedIn lanza Hiring Assistant en español: IA para selección de talento",
+      "summary": "Hiring Assistant llega al mercado hispanohablante para optimizar la captación de talento basada en habilidades y reducir la carga operativa en RRHH.",
+      "time": "1h",
+      "url": "https://www.silicon.es/linkedin-lanza-hiring-assistant-en-espanol-ia-para-seleccion-de-talento-2584148"
     }
   ]
 }
