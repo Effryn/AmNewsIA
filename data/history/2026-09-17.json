@@ -8,15 +8,15 @@
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama fascinante donde la industria de la IA se divide en tres estrategias completamente distintas.\n\n**Seguridad y confianza como negocio**\n\nMark Zuckerberg ha encontrado su propia vía mientras el debate se polariza entre quienes piden frenar la IA y quienes aceleran sin límites. Su apuesta es clara: vender seguridad. Por su parte, Sam Altman de OpenAI reconoce que \"el mundo tiene razón al tener miedo de la IA\", pero su solución es que confiemos en quienes la construyen. En paralelo, OpenAI ha lanzado un marco de divulgación de desalineación de modelos con tres vías de revisión y seis reportes de incidentes desde entrenamientos con aprendizaje reforzado. La transparencia, al menos en el papel, se convierte en moneda de cambio.\n\n**Una IA diferente: menos es más**\n\nUn aspecto curioso viene de uno de los creadores de ChatGPT: una IA que no sabe escribir. Suena contradictorio, pero ahí está precisamente su ventaja competitiva. Una idea que abre nuevas posibilidades en nichos específicos.\n\n**OpenAI reimagina la publicidad**\n\nOpenAI también publica reflexiones sobre cómo la IA está redefiniendo el mundo de la publicidad, anticipando cambios disruptivos en este sector.\n\n**Agentes de IA: la nueva frontera**\n\nVarios gigantes avanzan en la implementación de agentes autónomos. Stanford ha lanzado Paper2Agent, convirtiendo papers de investigación en agentes de IA que reproducen resultados y funcionan con nuevos datos. Workiva presenta Agent Studio, y Google ya permite que cualquier agente de IA controle tu hogar inteligente. Esta democratización de los agentes marca un cambio fundamental en cómo interactuamos con la tecnología.\n\n**El hogar conectado habla español**\n\nDesde LG, su directivo Noh Beom-jun describe una visión provocadora: \"El futuro del hogar conectado no es instalar otra app más, es hablarle a tu casa por Telegram\". Una perspectiva que promete simplificar radicalmente la experiencia del usuario.\n\n**La guerra de las herramientas de productividad**\n\nClaude contraataca a Gemini lanzando sus propias versiones de Docs y Slides. Google Research, mientras tanto, presenta Retrieve-for-Train, un sistema que acelera consultas entre 12 y 20 veces. Y Snap no se queda atrás, lanzando una nueva herramienta de IA para sus Specs, disponible ya en iOS y Mac.\n\n**Conclusión**\n\nLa semana consolida un patrón: la IA deja de ser un tema abstracto para convertirse en infraestructura operativa en hogares, oficinas y negocios. La pregunta ya no es si llegará, sino cómo gobernarla.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 94,
+    "new_articles": 98,
     "sources": 44,
-    "updated_label": "08:27"
+    "updated_label": "08:30"
   },
   "iaday": {
-    "reading_minutes": "56 min",
+    "reading_minutes": "59 min",
     "audio_duration": "2:40",
     "key_count": 3,
-    "papers_count": 58,
+    "papers_count": 61,
     "repos_count": 4,
     "videos_count": 4,
     "impact": "Alto"
@@ -120,6 +120,17 @@
       "url": "https://huggingface.co/papers/2609.17632"
     },
     {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "In-Context Robot Learning with VLM Agents",
+      "summary": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can",
+      "time": "39h",
+      "url": "https://huggingface.co/papers/2609.19138"
+    },
+    {
       "source": "arXiv — cs.CL",
       "source_type": "arxiv",
       "lang": "en",
@@ -152,6 +163,17 @@
       "summary": "Los repositorios de código científico codifican décadas de conocimiento humano en modelos, métodos y herramientas ejecutables. Sin embargo, cadenas de",
       "time": "39h",
       "url": "https://huggingface.co/papers/2609.19134"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches",
+      "summary": "When agentic sessions run to a million tokens with many sessions resident at once, the KV cache and the index that ranks it live in host memory, and the scan",
+      "time": "63h",
+      "url": "https://huggingface.co/papers/2609.17652"
     },
     {
       "source": "Hugging Face — Daily Papers",
@@ -275,6 +297,17 @@
       "time": "19h",
       "url": "https://arxiv.org/abs/2609.18844v1",
       "arxiv": "2609.18844v1"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Assessing nnU-Net Generalization across Brain Tumor Populations in BraTS-GoAT 2026",
+      "summary": "BraTS-GoAT evaluates tumor segmentation across heterogeneous populations. We trained a conventional 3D nnU-Net on 1,351 labeled cases using five-fold",
+      "time": "87h",
+      "url": "https://huggingface.co/papers/2609.15524"
     },
     {
       "source": "arXiv — cs.AI",
@@ -524,7 +557,7 @@
       "content_type": "paper",
       "title": "Materias del Informe de Práctica Importan: El Impacto de la Elección del Referente en la Evaluación del Informe de Rayos X del Tórax",
       "summary": "Los radiólogos siguen prácticas de informe heterogéneas. Dos radiólogos examinando la misma imagen e identificando los mismos hallazgos clínicos podrían",
-      "time": "17h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2609.19093v1",
       "arxiv": "2609.19093v1"
     },
@@ -728,7 +761,7 @@
       "content_type": "paper",
       "title": "Aprendizaje de Operadores de Lyapunov para Sistemas No Lineales",
       "summary": "La construcción de funciones de Lyapunov para sistemas dinámicos no lineales es un problema central en el análisis de estabilidad, pero sigue siendo",
-      "time": "18h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2609.18894v1",
       "arxiv": "2609.18894v1"
     },
@@ -885,7 +918,7 @@
       "content_type": "news",
       "title": "Claude presenta para Geminis su propia versión de Documentos y Diapositivas.",
       "summary": "Claude está obteniendo un conjunto de nuevas herramientas hoy: Docs y Slides. Permitirán crear documentos y presentaciones a través de los chats de Claude, que",
-      "time": "18h",
+      "time": "19h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides"
     },
     {
@@ -1107,6 +1140,17 @@
       "summary": "Over the past few days, a lot of people who stand to make a lot of money from AI all publicly agreed that it's time to make everyone slow down before we lose",
       "time": "23h",
       "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation"
+    },
+    {
+      "source": "Silicon España",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "La mayoría de los españoles no entiende cómo obtiene resultados la IA",
+      "summary": "Pero también son mayoría los que confían en las respuestas que obtienen a partir de esta tecnología.",
+      "time": "ahora",
+      "url": "https://www.silicon.es/la-mayoria-de-los-espanoles-no-entiende-como-obtiene-resultados-la-ia-2584275"
     }
   ]
 }
