@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 98,
     "sources": 44,
-    "updated_label": "08:33"
+    "updated_label": "08:40"
   },
   "iaday": {
     "reading_minutes": "59 min",
@@ -320,7 +320,7 @@
       "content_type": "paper",
       "title": "Cuando el Mañana Se Convierte en Hoy: Políticas Autogestionantes para la Predicción de Series Temporales Agenciales",
       "summary": "La predicción de series temporales agenciales se refiere a sistemas cuyos mecanismos subyacentes evolucionan, lo que hace que la eficacia relativa de los",
-      "time": "18h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2609.24862v1",
       "arxiv": "2609.24862v1"
     },
@@ -440,7 +440,7 @@
       "content_type": "paper",
       "title": "Exactitud en la Inferencia: Un criterio representacional para la generalización fuera de la distribución",
       "summary": "Un modelo generaliza fuera de su distribución de entrenamiento solo cuando computa una representación estructuralmente equivalente a la mecanismos generador,",
-      "time": "17h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2609.24942v1",
       "arxiv": "2609.24942v1"
     },
@@ -1149,7 +1149,7 @@
       "content_type": "news",
       "title": "Los propietarios de iPhone pueden presentar reclamaciones en el acuerdo por $250 millones de Siri AI de Apple.",
       "summary": "Apple está pagando 250 millones de dólares para resolver acusaciones de que no cumplió con la entrega de una Siri mejorada con IA - y ahora, los propietarios",
-      "time": "21h",
+      "time": "22h",
       "url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement"
     }
   ]
