@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-10-01",
+    "date_label": "1 de octubre de 2026",
+    "new_articles": 96,
+    "audio_url": "assets/audio/2026-10-01.mp3",
+    "duration_label": "—"
+  },
+  {
     "date": "2026-09-30",
     "date_label": "30 de septiembre de 2026",
     "new_articles": 97,
