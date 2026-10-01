@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 96,
     "sources": 44,
-    "updated_label": "10:50"
+    "updated_label": "11:00"
   },
   "iaday": {
     "reading_minutes": "58 min",
@@ -59,7 +59,7 @@
       "content_type": "paper",
       "title": "SkillGym: Training Skill-Use Agents with Automatic Verifiable Environment Generation",
       "summary": "Skills equip LLM agents with professional knowledge and guidance to complete long-horizon and complex tasks. Although skills have been widely adopted in recent",
-      "time": "65h",
+      "time": "66h",
       "url": "https://huggingface.co/papers/2609.37539"
     },
     {
@@ -106,7 +106,7 @@
       "content_type": "paper",
       "title": "LEAP: Learned Block-wise Evidence Retrieval for Long Audio-Video Perception",
       "summary": "Hour-scale audio-visual question answering is constrained by a context dilemma: dense whole-recording encoding rapidly exhausts context limits, whereas uniform",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2609.39938"
     },
     {
@@ -177,7 +177,7 @@
       "content_type": "paper",
       "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
       "summary": "Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps,",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40340v1",
       "arxiv": "2609.40340v1"
     },
@@ -189,7 +189,7 @@
       "content_type": "paper",
       "title": "NavHarness: Towards Lifelong Embodied Navigation",
       "summary": "Frontier models can now perform well on individual embodied navigation tasks through multi-round multimodal reasoning with simple tools. Across successive",
-      "time": "89h",
+      "time": "90h",
       "url": "https://huggingface.co/papers/2609.34276"
     },
     {
@@ -200,7 +200,7 @@
       "content_type": "paper",
       "title": "Beyond the Remembered World: Predictive 4D Belief for Persistent Navigation in Evolving Worlds",
       "summary": "Persistent spatial memory enables embodied agents to navigate familiar environments across repeated visits. However, targets may move while unobserved,",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2609.39166"
     },
     {
@@ -211,7 +211,7 @@
       "content_type": "paper",
       "title": "Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text",
       "summary": "We find that major reported improvements in decoding words from non-invasive brain recordings are largely reproducible without any brain data. In the",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2609.40359"
     },
     {
@@ -222,7 +222,7 @@
       "content_type": "paper",
       "title": "CUA-SWE: When Computer-Use Agents Meet Visual Software Engineering",
       "summary": "Software development requires more than editing code: developers repeatedly run software, interact with its interfaces, visually inspect its behavior, and use",
-      "time": "137h",
+      "time": "138h",
       "url": "https://huggingface.co/papers/2609.32600"
     },
     {
@@ -233,7 +233,7 @@
       "content_type": "paper",
       "title": "Evaluating Bounded Autonomy in Regulated Agentic AI: A Diagnostic Harness with Constitutional Rewards, Escalation Labels, and Runtime Governance",
       "summary": "We propose RegLLM, a diagnostic harness for bounded autonomy in regulated agentic workflows. It instruments six trustworthiness signals: citation validity,",
-      "time": "89h",
+      "time": "90h",
       "url": "https://huggingface.co/papers/2609.37501"
     },
     {
@@ -244,7 +244,7 @@
       "content_type": "paper",
       "title": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
       "summary": "Recent autonomous machine learning engineering (MLE) agents have made significant progress on public leaderboards. Often motivated by progress stagnation over",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40303v1",
       "arxiv": "2609.40303v1"
     },
@@ -256,7 +256,7 @@
       "content_type": "paper",
       "title": "Label-free steering: Compressing test-time reinforcement learning into bias-only subspaces",
       "summary": "Test-time reinforcement learning (TTRL) enables models to improve their reasoning without relying on labeled training data, but existing approaches typically",
-      "time": "89h",
+      "time": "90h",
       "url": "https://huggingface.co/papers/2609.18587"
     },
     {
@@ -267,7 +267,7 @@
       "content_type": "paper",
       "title": "Safety of Latent Communication in Multi-Agent Systems",
       "summary": "Latent communication enables multi-agent systems to exchange information directly in internal representation space, reducing the token, computation, and",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2609.39788"
     },
     {
@@ -278,7 +278,7 @@
       "content_type": "paper",
       "title": "ATLAS: Aligned Transport of Latent Structure for Reliable World Model Planning",
       "summary": "Latent world models rely on representation geometry for planning, yet regularizing the latent marginal alone does not determine the state-to-state",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2609.36333"
     },
     {
@@ -289,7 +289,7 @@
       "content_type": "paper",
       "title": "LoopVL: Recurrent Visual Intelligence",
       "summary": "We introduce LoopVL to study whether Loop Transformers can be effectively extended to vision- language models. LoopVL combines Module-Loop and Model-Loop",
-      "time": "65h",
+      "time": "66h",
       "url": "https://huggingface.co/papers/2609.38426"
     },
     {
@@ -312,7 +312,7 @@
       "content_type": "paper",
       "title": "The Endless Exam: Mathematical Constructions from Today's Models toward Superintelligence",
       "summary": "We introduce the Endless Exam, a benchmark spanning fourteen parameterised families of mathematical construction problems, with verifiable scores that",
-      "time": "89h",
+      "time": "90h",
       "url": "https://huggingface.co/papers/2609.24555"
     },
     {
@@ -323,7 +323,7 @@
       "content_type": "paper",
       "title": "Synthetic Pre-pretraining Survives Scale, but Not as a Grammatical Prior",
       "summary": "Pre-pretraining (PPT) on synthetic non-natural language data improves token efficiency during language model pre-training (PT). Prior work attributes this gain",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2609.39827"
     },
     {
@@ -346,7 +346,7 @@
       "content_type": "paper",
       "title": "It's Not What the Image Shows: Irrelevant Context Destabilises VLM Judges Without Informing Them",
       "summary": "Vision-language models (VLMs) are increasingly used in place of human annotators, making it important that substitutability tests reflect the model rather than",
-      "time": "65h",
+      "time": "66h",
       "url": "https://huggingface.co/papers/2609.37863"
     },
     {
@@ -357,7 +357,7 @@
       "content_type": "paper",
       "title": "DyRAD: Radar Novel View Synthesis for Dynamic Driving Scenes",
       "summary": "Reconstructing dynamic driving scenes from recorded sensor data supports closed-loop evaluation of autonomous driving systems by synthesizing observations",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2609.39841"
     },
     {
@@ -368,7 +368,7 @@
       "content_type": "paper",
       "title": "How Much Is an AI Token Worth? Scaling Laws for Wild AI-Generated Web Text",
       "summary": "Web text makes up the majority of pretraining data and is increasingly AI-generated. After applying FineWeb quality filtering, we find that 27.5% of tokens",
-      "time": "41h",
+      "time": "42h",
       "url": "https://huggingface.co/papers/2609.40295"
     },
     {
@@ -379,7 +379,7 @@
       "content_type": "paper",
       "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
       "summary": "As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40325v1",
       "arxiv": "2609.40325v1"
     },
@@ -391,7 +391,7 @@
       "content_type": "paper",
       "title": "Cogentic: Multi-Agent Orchestration for Automated Proof Discovery",
       "summary": "We present Cogentic, a multi-agent harness for automated proof discovery on open research problems. While frontier language models can generate strong",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40324v1",
       "arxiv": "2609.40324v1"
     },
@@ -451,7 +451,7 @@
       "content_type": "paper",
       "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
       "summary": "Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40358v1",
       "arxiv": "2609.40358v1"
     },
@@ -463,7 +463,7 @@
       "content_type": "paper",
       "title": "Semifactual Credit-Augmented Policy Optimization",
       "summary": "Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40360v1",
       "arxiv": "2609.40360v1"
     },
@@ -475,7 +475,7 @@
       "content_type": "paper",
       "title": "Turbo Harness: Instance-Adaptive Harness Optimization",
       "summary": "Automating the search for effective harnesses is an important step toward enabling agents to recursively self-improve. Existing harness optimizations typically",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40330v1",
       "arxiv": "2609.40330v1"
     },
@@ -487,7 +487,7 @@
       "content_type": "paper",
       "title": "DynaHarness: A Dynamic Physical Harness for Self-Evolving Robot Agents",
       "summary": "Pretrained robot policies provide useful action priors, but long-horizon manipulation still requires coordination between semantic reasoning and physical",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40306v1",
       "arxiv": "2609.40306v1"
     },
@@ -535,7 +535,7 @@
       "content_type": "paper",
       "title": "Is Weight Tying Still Beneficial for Decoder-Only LLMs in Private Settings Under DP-SGD?",
       "summary": "Differentially Private Stochastic Gradient Descent (DP-SGD) is a leading approach for privacy-preserving fine-tuning of large language models (LLMs). Many",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40335v1",
       "arxiv": "2609.40335v1"
     },
@@ -547,7 +547,7 @@
       "content_type": "paper",
       "title": "AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents",
       "summary": "The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. Can pretrained",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40353v1",
       "arxiv": "2609.40353v1"
     },
@@ -571,7 +571,7 @@
       "content_type": "paper",
       "title": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
       "summary": "Recent video generation is increasingly realistic and controllable, yet video editing remains less developed, particularly for precise local edits that must",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40356v1",
       "arxiv": "2609.40356v1"
     },
@@ -595,7 +595,7 @@
       "content_type": "paper",
       "title": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
       "summary": "Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives.",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40361v1",
       "arxiv": "2609.40361v1"
     },
@@ -607,7 +607,7 @@
       "content_type": "paper",
       "title": "Image Classifiers are Efficient Self-Supervised Video Representation Learners",
       "summary": "We introduce VideoMSN, a Masked Siamese Network framework for efficient self-supervised spatio-temporal representation learning in videos. Instead of relying",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40347v1",
       "arxiv": "2609.40347v1"
     },
@@ -619,7 +619,7 @@
       "content_type": "paper",
       "title": "Looped Diffusion Transformer",
       "summary": "Improving text-to-image models has traditionally relied on increasing model size or the number of denoising steps. In this work, we explore an alternative way",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40305v1",
       "arxiv": "2609.40305v1"
     },
@@ -655,7 +655,7 @@
       "content_type": "paper",
       "title": "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
       "summary": "We present Multimodal Flow, a fully continuous generative model of language and vision. Most unified multimodal models either model both language and quantized",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40362v1",
       "arxiv": "2609.40362v1"
     },
@@ -667,7 +667,7 @@
       "content_type": "paper",
       "title": "Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?",
       "summary": "Egocentric human data provides a scalable source of experience for robot learning, but varies substantially in human-robot alignment, behavioral coverage, and",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40341v1",
       "arxiv": "2609.40341v1"
     },
@@ -679,7 +679,7 @@
       "content_type": "paper",
       "title": "MatLoom: Layered Text-to-Material Generation in a Compact Program Space",
       "summary": "Material generation should produce not only an appearance, but also the rules that construct it. We introduce MatLoom, a compact, layer-oriented language for",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40322v1",
       "arxiv": "2609.40322v1"
     },
@@ -691,7 +691,7 @@
       "content_type": "paper",
       "title": "Scaling Laws for Looped Mixture of Experts",
       "summary": "Looped transformers and Mixture-of-Experts (MoE) offer complementary routes to efficient scaling: recurrence increases computational depth at fixed parameters,",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40316v1",
       "arxiv": "2609.40316v1"
     },
@@ -727,7 +727,7 @@
       "content_type": "paper",
       "title": "Compression Footprints as Security Signals for Model-Poisoning Defense in Federated Learning",
       "summary": "Lossy compression is widely used in Federated Learning (FL) but is generally treated as an error source, while conventional poisoning defenses inspect update",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40312v1",
       "arxiv": "2609.40312v1"
     },
@@ -739,7 +739,7 @@
       "content_type": "paper",
       "title": "GLARE: Generating Listening Heads with Appropriate Reactions",
       "summary": "While talking head generation has advanced rapidly, generating natural listener behavior in dyadic conversations, which know when to react, how to react, and",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40317v1",
       "arxiv": "2609.40317v1"
     },
@@ -799,7 +799,7 @@
       "content_type": "paper",
       "title": "I Have a Stream: Making Self-Supervised Learning Work on Continuous Video",
       "summary": "Self-supervised learning draws inspiration from infant visual development, yet standard training pipelines bear little resemblance to it: images are",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40333v1",
       "arxiv": "2609.40333v1"
     },
@@ -811,7 +811,7 @@
       "content_type": "paper",
       "title": "Atomizer-IO: Beyond Pixels, Patches and Grids",
       "summary": "Most vision architectures assume that observations lie on a regular grid, an effective abstraction for natural images but a restrictive one for sensing data",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2609.40320v1",
       "arxiv": "2609.40320v1"
     },
@@ -911,7 +911,7 @@
       "content_type": "news",
       "title": "Hace más de un siglo, Alemania envió un mensaje de radio que nadie pudo descifrar. Ahora GPT-6 Astra lo ha conseguido",
       "summary": "<p> <img",
-      "time": "23h",
+      "time": "24h",
       "url": "https://www.xataka.com/robotica-e-ia/llevamos-1918-tratando-descifrar-mensaje-codigo-primera-guerra-mundial-gpt-6-astra-ha-conseguido"
     },
     {
@@ -944,7 +944,7 @@
       "content_type": "news",
       "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise demand for conversational agents",
       "summary": "",
-      "time": "25h",
+      "time": "26h",
       "url": "https://elevenlabs.io/blog/tender-22bn"
     },
     {
@@ -955,7 +955,7 @@
       "content_type": "news",
       "title": "Después de llenar internet de vídeos generados con IA, ahora China quiere convertirlos en una industria",
       "summary": "<p> <img",
-      "time": "9h",
+      "time": "10h",
       "url": "https://www.xataka.com/robotica-e-ia/asi-como-china-esta-haciendo-que-video-generado-ia-deje-ser-experimento-se-convierta-industria"
     },
     {
@@ -1032,7 +1032,7 @@
       "content_type": "news",
       "title": "Helping small businesses put AI to work",
       "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are",
-      "time": "27h",
+      "time": "28h",
       "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
     },
     {
@@ -1054,7 +1054,7 @@
       "content_type": "news",
       "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
       "summary": "",
-      "time": "37h",
+      "time": "38h",
       "url": "https://huggingface.co/blog/open-tts-leaderboard"
     },
     {
@@ -1076,7 +1076,7 @@
       "content_type": "release",
       "title": "NVIDIA Releases Kumo Tabular: Open Tabular Foundation Models That Predict New Rows in a Single Forward Pass",
       "summary": "<p>NVIDIA has released Kumo Tabular, a new family of tabular foundation models (TFMs) for classification and regression. If you have followed TabPFN or TabICL,",
-      "time": "6h",
+      "time": "7h",
       "url": "https://www.marktechpost.com/2026/09/30/nvidia-releases-kumo-tabular/"
     },
     {
@@ -1109,7 +1109,7 @@
       "content_type": "news",
       "title": "Google reportedly tests paying publishers for AI search results",
       "summary": "Google has launched a pilot program that pays publishers for their contributions to its AI-powered search features, according to a report from The Information.",
-      "time": "22h",
+      "time": "23h",
       "url": "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features"
     },
     {
