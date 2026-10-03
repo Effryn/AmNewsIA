@@ -3,18 +3,18 @@
   "date_label": "3 de octubre de 2026",
   "greeting": "Buenos días, Effry",
   "briefing": {
-    "duration_label": "—",
+    "duration_label": "2:38",
     "audio_url": "assets/audio/2026-10-03.mp3",
     "script_text": "En el resumen de hoy nos enfocamos en tres ejes principales que están transformando el panorama de la inteligencia artificial: la descentralización de los agentes, la seguridad ante su expansión, y los avances en modelos especializados.\n\nComenzamos con los agentes de software. IBM ha anunciado \"Bob\", una solución revolucionaria para desarrolladores que permite ejecutar agentes de IA en entornos privados y aislados, sin necesidad de enviar el código a la nube. Simultáneamente, OpenAI ha lanzado una guía completa para la familia GPT-6, mientras que su nuevo agente \"Dot\" promete democratizar la automatización empresarial incluso en tareas cotidianas como pedir comida. Meta y OpenAI, junto con Uber, han dado un paso más enseñando a estos agentes cuándo comunicarse y cuándo permanecer en silencio, un avance crítico para su adopción responsable.\n\nEn cuanto a hardware especializado, Nvidia ha presentado el DGX Spark de 64GB, un equipo desktop con capacidad de 1 petaFLOP diseñado específicamente para ejecutar localmente agentes de IA, fine-tuning e inferencia. Esta tendencia hacia la computación de borde refleja la creciente demanda de procesamiento independiente.\n\nLa seguridad emerge como preocupación central. Apple anuncia restricciones significativas en el acceso al disco de Mac, reconociendo que los agentes de IA representan un riesgo \"sustancial\" para la privacidad del usuario. Meta, en contraste, abre el código de su plataforma Muse para permitir que otros desarrollen gadgets de IA, demostrando un enfoque más permisivo hacia la innovación distribuida.\n\nEn modelos especializados, Microsoft lanza MAI-Transcribe-2-Streaming, posicionándose como el modelo número uno en speech-to-text en tiempo real según Artificial Analysis. Hugging Face contribuye con AstaBrief, un modelo rápido para generación automática de reportes. Datalab introduce OmniExtractBench para abordar un problema urgente: los sesgos y la falta de transparencia en los benchmarks de extracción de datos.\n\nFinalmente, un dato curioso: una compañía afirma haber creado un modelo capaz de pasar el test de Turing, aunque Nvidia expresa escepticismo sobre estas afirmaciones. MIT Technology Review, por su lado, explora cómo redefinir la inteligencia empresarial mediante IA autónoma.\n\nEl mensaje claro es que 2025 ve converger tres tendencias: la independencia tecnológica, la responsabilidad en el despliegue, y la especialización de modelos. Los agentes no solo son más poderosos, sino que ahora pueden ejecutarse localmente y con mayor seguridad.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 26,
     "sources": 44,
-    "updated_label": "10:23"
+    "updated_label": "11:22"
   },
   "iaday": {
     "reading_minutes": "16 min",
-    "audio_duration": "—",
+    "audio_duration": "2:38",
     "key_count": 3,
     "papers_count": 8,
     "repos_count": 5,
@@ -35,7 +35,7 @@
       "content_type": "repo",
       "title": "Paritosh8-AI/AgenticEV_RCA",
       "summary": "⭐ 1 estrella — Motor de análisis de causa raíz (RCA) y de inferencia causal impulsado por IA para redes de carga rápida de vehículos eléctricos (VE). Triage de",
-      "time": "28h",
+      "time": "29h",
       "url": "https://github.com/Paritosh8-AI/AgenticEV_RCA",
       "stars": "1"
     },
@@ -47,7 +47,7 @@
       "content_type": "repo",
       "title": "Mafifrizi/Tanuki",
       "summary": "⭐ 5 estrellas — Operador de Identidad Táctica para Linux & Directorio Activo Híbrido",
-      "time": "23h",
+      "time": "24h",
       "url": "https://github.com/Mafifrizi/tanuki",
       "stars": "5"
     },
@@ -59,7 +59,7 @@
       "content_type": "repo",
       "title": "NotHarshhaa/devops-ai-implementation-ideas",
       "summary": "⭐ 2 estrellas — Una colección de ideas prácticas y enfocadas en la implementación que muestran cómo se puede integrar el IA en los flujos de trabajo de DevOps,",
-      "time": "99h",
+      "time": "100h",
       "url": "https://github.com/NotHarshhaa/devops-ai-implementation-ideas",
       "stars": "2"
     },
@@ -71,7 +71,7 @@
       "content_type": "repo",
       "title": "Lucidrains/self-play-pretrain-zero-data",
       "summary": "⭐ 2 estrellas — Implementación del Preentrenamiento con Autojueguito sin Datos Zerо",
-      "time": "17h",
+      "time": "18h",
       "url": "https://github.com/lucidrains/self-play-pretrain-zero-data",
       "stars": "2"
     },
@@ -83,7 +83,7 @@
       "content_type": "repo",
       "title": "Almuzahidseyam/Detección y Mapeo de Pozos",
       "summary": "⭐ 1 estrella — 🚗 Análisis de videos de cámara de bordo con inteligencia artificial para la detección en tiempo real de baches, mapeo geoespacial e monitoreo de",
-      "time": "65h",
+      "time": "66h",
       "url": "https://github.com/almuzahidseyam/Pothole-Detection-Mapping",
       "stars": "1"
     },
@@ -95,7 +95,7 @@
       "content_type": "paper",
       "title": "X-Tree: Tokenización de Experiencia Reutilizable para una Generalización Eficiente de Agentes",
       "summary": "Los agentes multietapa se entrenan en flujos de acción planos: SFT y RLVR pesan cada token uniformemente y ignoran las subprocedimientos que se repiten en",
-      "time": "185h",
+      "time": "186h",
       "url": "https://huggingface.co/papers/2609.32993"
     },
     {
@@ -106,7 +106,7 @@
       "content_type": "paper",
       "title": "Dosis de Persona: Dirección de Activación Calibrada para el Control Graduado de Características",
       "summary": "Un coeficiente de dirección de activación establece la fuerza de intervención, pero solicitar un grado particular de expresión de la persona requiere una",
-      "time": "137h",
+      "time": "138h",
       "url": "https://huggingface.co/papers/2609.36388"
     },
     {
@@ -117,7 +117,7 @@
       "content_type": "paper",
       "title": "Sustitución de Modelos de Lenguaje Grandes por Modelos de Jev Decision para la Orquestación de Servicios en Borde con Baja Latencia",
       "summary": "Los servicios de solicitud de lenguaje natural pueden requerir una decisión de modelo de lenguaje antes de que comience la ejecución, consumiendo parte del",
-      "time": "185h",
+      "time": "186h",
       "url": "https://huggingface.co/papers/2609.22753"
     },
     {
@@ -128,7 +128,7 @@
       "content_type": "paper",
       "title": "Transformadores Deben Detenerse de Pensar Demasiado Temprano, y una Pequeña LoRA lo Soluciona",
       "summary": "Los transformadores preentrenados utilizan poco de su profundidad para seguir referencias en contexto. Modelos de base confiables solo siguen 1,4 a 3,6 líneas,",
-      "time": "113h",
+      "time": "114h",
       "url": "https://huggingface.co/papers/2609.36585"
     },
     {
@@ -139,7 +139,7 @@
       "content_type": "paper",
       "title": "Evaluación de la manipulación dirigida por objetivos en la generación de video egocéntrico",
       "summary": "Los modelos de generación de video se están explorando cada vez más como simuladores de mundo para el planeamiento corporizado y el aprendizaje. Para hacerlo",
-      "time": "65h",
+      "time": "66h",
       "url": "https://huggingface.co/papers/2610.01092"
     },
     {
@@ -150,7 +150,7 @@
       "content_type": "paper",
       "title": "MemFold: Aprendizaje de una Memoria Compacta Suave para la Personalización con Contexto Largo a Través de Optimización por Política On-Política",
       "summary": "Un asistente que sirve al mismo usuario a lo largo de un horizonte largo debe responder basándose en lo que ese usuario ha revelado: cuáles son aún sus",
-      "time": "113h",
+      "time": "114h",
       "url": "https://huggingface.co/papers/2609.36435"
     },
     {
@@ -161,7 +161,7 @@
       "content_type": "paper",
       "title": "Modelos de Generación de Videos: Una Revisión de Ajustes y Alineaciones Post-Entrenamiento",
       "summary": "La generación de videos ha progresado rápidamente, pasando de clips cortos y de baja calidad a secuencias de alta resolución y larga duración con dinámicas",
-      "time": "89h",
+      "time": "90h",
       "url": "https://huggingface.co/papers/2610.00812"
     },
     {
@@ -172,7 +172,7 @@
       "content_type": "paper",
       "title": "Honeycomb: Constant-Size Scene Memory Representation for Video World Models",
       "summary": "Video world models require persistent scene memory to maintain consistency during long-horizon video generation. Existing spatial memories accumulate RGB",
-      "time": "89h",
+      "time": "90h",
       "url": "https://huggingface.co/papers/2609.37690"
     },
     {
@@ -183,7 +183,7 @@
       "content_type": "video",
       "title": "Conecta +10.000 prompts gratuitos a Claude Code 🤯",
       "summary": "¿Sigues buscando prompts de IA uno por uno en Internet? 🫣 📌 Esta herramienta reúne miles de prompts y workflows de código abierto para tareas de tu día a día.",
-      "time": "ahora",
+      "time": "1h",
       "url": "https://www.youtube.com/shorts/puf_BjwAFtk"
     },
     {
@@ -194,7 +194,7 @@
       "content_type": "video",
       "title": "FrogNano 4B 🚀 ¿Es REALMENTE mejor que el Qwen 3.5 Original?",
       "summary": "Analizamos el nuevo FrogNano 4B para descubrir si este modelo de lenguaje realmente supera al Qwen 3.5 original. En este video ponemos a prueba las capacidades",
-      "time": "15h",
+      "time": "16h",
       "url": "https://www.youtube.com/watch?v=95vKXHnfwpA"
     },
     {
@@ -205,7 +205,7 @@
       "content_type": "news",
       "title": "IBM Introduce Bob para Entornos Self-Hosted y Air-Gapped: Desarrollo de Software Agencial Sin Mover Tu Código",
       "summary": "IBM ha hecho una implementación autónoma de IBM Bob, su plataforma de desarrollo de software agente, generalmente disponible. Las empresas pueden ejecutar",
-      "time": "6h",
+      "time": "7h",
       "url": "https://www.marktechpost.com/2026/10/02/ibm-brings-bob-to-self-hosted-and-air-gapped-environments/"
     },
     {
@@ -216,7 +216,7 @@
       "content_type": "news",
       "title": "Meta, OpenAI y Uber Acaban de Enseñar a los Agentes de IA a Hablar. ¿Y Cuando Deberían Guardar Silencio?",
       "summary": "TL;DR: Meta's Muse, OpenAI's Dots y Uber's asistente para choferes comparten una apuesta: el agente habla primero. Eso mueve el problema difícil de qué",
-      "time": "6h",
+      "time": "7h",
       "url": "https://www.marktechpost.com/2026/10/03/meta-openai-and-uber-just-taught-ai-agents-to-talk-first-what-about-when-to-stay-quiet/"
     },
     {
@@ -227,7 +227,7 @@
       "content_type": "news",
       "title": "Una compañía dice haber creado un modelo IA capaz de pasar el test de Turing. Nvidia opina algo distinto",
       "summary": "<p> <img",
-      "time": "18h",
+      "time": "19h",
       "url": "https://www.xataka.com/robotica-e-ia/tenemos-nuevo-modelo-capaz-pasar-test-turing-video-al-eso-dicen-sus-creadores"
     },
     {
@@ -238,7 +238,7 @@
       "content_type": "news",
       "title": "NVIDIA Anuncia el DGX Spark 64GB: Un Ordenador de 1-PetaFLOP para Agentes de Inteligencia Artificial Locales, Ajustes Finos y Inferencia con Grace Blackwell",
       "summary": "NVIDIA anunció una nueva configuración de 64GB para DGX Spark — de Acer, ASUS, Dell, Gigabyte, HP y MSI — su sistema de escritorio para inteligencia artificial",
-      "time": "19h",
+      "time": "20h",
       "url": "https://www.marktechpost.com/2026/10/02/nvidia-announces-dgx-spark-64gb-a-1-petaflop-grace-blackwell-desktop-for-local-ai-agents-fine-tuning-and-inference/"
     },
     {
@@ -249,7 +249,7 @@
       "content_type": "news",
       "title": "Apple limitará el acceso al disco de los Mac al aumentar significativamente el riesgo con los agentes de inteligencia artificial.",
       "summary": "Apple añadirá nuevas restricciones para el \"accesso total al disco\" en Mac en respuesta a los riesgos planteados por los agentes de inteligencia artificial,",
-      "time": "17h",
+      "time": "18h",
       "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
     },
     {
@@ -260,7 +260,7 @@
       "content_type": "release",
       "title": "Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model on Artificial Analysis",
       "summary": "Microsoft AI ha lanzado MAI-Transcribe-2-Streaming, su primer modelo de conversión de voz a texto en tiempo real. Se sitúa en primer lugar entre 38 modelos en",
-      "time": "8h",
+      "time": "9h",
       "url": "https://www.marktechpost.com/2026/10/02/microsoft-ai-releases-mai-transcribe-2-streaming-1-real-time-speech-to-text-model-on-artificial-analysis/"
     },
     {
@@ -271,7 +271,7 @@
       "content_type": "news",
       "title": "Dirige el código de fuentes abiertas de Meta para permitirte crear gadgets de Muse AI",
       "summary": "Meta ahora te permite crear tus propios gadgets Muse que incluyan el agente de inteligencia artificial de la compañía con el código que la empresa ha abierto",
-      "time": "16h",
+      "time": "17h",
       "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
     },
     {
@@ -282,7 +282,7 @@
       "content_type": "news",
       "title": "El agente Dot de OpenAI es software empresarial que también puede ordenar tu cena.",
       "summary": "Es una historia tan antigua como la semana pasada: el nuevo plataforma de agentes de OpenAI, llamada Dots, está llena de pequeños personajes encantadores que",
-      "time": "19h",
+      "time": "20h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent"
     },
     {
@@ -293,7 +293,7 @@
       "content_type": "release",
       "title": "El Inteligente Primer Plano Lanza la Inferencia Primera: Sin Servidor y Reserva de Servicio para Modelos Abiertos del Futuro",
       "summary": "Prime Intellect ha lanzado Prime Inference, una plataforma compatible con OpenAI para servir modelos fronterizos abiertos en NVIDIA Blackwell. Su",
-      "time": "7h",
+      "time": "8h",
       "url": "https://www.marktechpost.com/2026/10/02/prime-intellect-launches-prime-inference-serverless-and-reserved-serving-for-frontier-open-models/"
     },
     {
@@ -304,7 +304,7 @@
       "content_type": "news",
       "title": "Explicación de los Modelos de Inteligencia Artificial para Decisiones: TypeSafe Jev vs Fastino GLiDE, GLiNER2.5-Decide y Competidores de Código Abierto",
       "summary": "<p>Los modelos de inteligencia artificial de decisiones responden a preguntas tipificadas con probabilidades calibradas en lugar de texto generado. Jev de",
-      "time": "9h",
+      "time": "10h",
       "url": "https://www.marktechpost.com/2026/10/02/decision-ai-models-explained-typesafe-jev-vs-fastino-glide-gliner2-5-decide-and-open-source-competitors/"
     },
     {
@@ -315,7 +315,7 @@
       "content_type": "news",
       "title": "Romper con (Elon Musk) es difícil.",
       "summary": "En un regreso a la dinámica de internet de estilo MySpace, Shivon Zilis anunció que había terminado su relación con el padre de sus cuatro hijos, Elon Musk, en",
-      "time": "19h",
+      "time": "20h",
       "url": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis"
     }
   ]
