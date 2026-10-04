@@ -3,18 +3,18 @@
   "date_label": "4 de octubre de 2026",
   "greeting": "Buenos días, Effry",
   "briefing": {
-    "duration_label": "—",
+    "duration_label": "2:43",
     "audio_url": "assets/audio/2026-10-04.mp3",
     "script_text": "En el resumen de hoy destacan avances significativos en agentes de IA, tensiones en la adopción comercial, y cambios profundos en la industria de semiconductores.\n\nComenzamos con DeepSeek, que acaba de lanzar Harness v0.2 con aplicaciones de escritorio oficial para su plataforma de agentes de código abierto. Este movimiento democratiza el acceso a herramientas de IA avanzadas, aunque desde la comunidad técnica suena una alarma importante: Simon Willison advierte que necesitamos límites presupuestarios por defecto en prácticamente todas las herramientas de IA. Es un recordatorio de que la capacidad técnica no siempre va acompañada de responsabilidad financiera.\n\nEn otro frente, Hugging Face plantea un problema crítico que muchas empresas enfrentarán: \"The Agent Said It Was Done. The Database Disagreed.\" Esto refleja uno de los grandes retos actuales: la desconexión entre lo que los agentes de IA declaran como completado y la realidad de los sistemas. Es un llamado a la verificación y la confiabilidad.\n\nAhora bien, la adopción comercial de IA está generando fricciones. McDonald's experimenta con precios dinámicos del Big Mac usando IA, pero los clientes rechazan abiertamente esta estrategia. Es un caso de manual sobre cómo la tecnología bien intencionada puede erosionar la confianza del consumidor. Y Capcom adelanta que está preparándose para un futuro donde \"creamos videojuegos junto con la IA\", una declaración que abre debates fascinantes sobre creatividad y autoría.\n\nEn el capítulo de innovación técnica, Aleph Alpha lanza Kolibri, un modelo multilingüe de 78 mil millones de parámetros con solo 3.46 mil millones activos. Y Google amplía su apuesta por privacidad: Federated Learning ahora opera dentro de entornos de ejecución confiable, integrando privacidad diferencial verificable externamente en Gboard.\n\nNVIDIA, por su parte, revela IsaacTeleop, un motor de retargeting basado en grafos que traduce movimientos de manos y controles en acciones robóticas precisas. Un paso decisivo hacia la teleoperación de robots más intuitiva.\n\nFinalmente, el panorama económico. Micron ha alcanzado un trimestre récord, ganando más que Apple. El giro es dramático: hace un año ganaba 3.2 mil millones trimestrales. Su CEO advierte que la escasez de RAM se intensificará en 2027 y 2028. Este mensaje es crucial para toda la industria: el boom de IA está agotando la capacidad de producción de semiconductores críticos.\n\nEstos doce movimientos pintan un cuadro complejo: innovación acelerada, presiones comerciales sin resolver, brechas de confianza en sistemas, y límites físicos que se aproximan en la cadena de suministro.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 31,
     "sources": 44,
-    "updated_label": "12:10"
+    "updated_label": "13:01"
   },
   "iaday": {
     "reading_minutes": "19 min",
-    "audio_duration": "—",
+    "audio_duration": "2:43",
     "key_count": 3,
     "papers_count": 0,
     "repos_count": 12,
@@ -35,7 +35,7 @@
       "content_type": "repo",
       "title": "Kajaredhruv433/Momentum-V2",
       "summary": "⭐ 2 estrellas — Entrevistador agencial AI que selecciona dinámicamente a los entrevistadores, adapta preguntas según las respuestas del candidato y realiza",
-      "time": "44h",
+      "time": "45h",
       "url": "https://github.com/kajaredhruv433/Momentum-V2",
       "stars": "2"
     },
@@ -59,7 +59,7 @@
       "content_type": "repo",
       "title": "Vizdumb2005/LOKI",
       "summary": "⭐ 1 estrella — LOKI — Mentalista Digital es un proyecto de código abierto impulsado por IA que combina aprendizaje automático, psicología e diseño interactivos",
-      "time": "26h",
+      "time": "27h",
       "url": "https://github.com/Vizdumb2005/LOKI",
       "stars": "1"
     },
@@ -71,7 +71,7 @@
       "content_type": "repo",
       "title": "Rasidi3112/quantum-ai-mini-lab",
       "summary": "⭐ 1 estrella — Un laboratorio de IA cuántica amigable para principiantes que compara el aprendizaje automático clásico con un Clasificador Cuántico Variacional",
-      "time": "16h",
+      "time": "17h",
       "url": "https://github.com/rasidi3112/quantum-ai-mini-lab",
       "stars": "1"
     },
@@ -83,7 +83,7 @@
       "content_type": "repo",
       "title": "Vongaik/CapSense-AI",
       "summary": "⭐ 1 estrella — Aplicación de retroalimentación del cliente impulsada por IA que construimos para Capgemini, que analiza el sentimiento y genera respuestas",
-      "time": "101h",
+      "time": "102h",
       "url": "https://github.com/vongaik/CapSense-AI",
       "stars": "1"
     },
@@ -95,7 +95,7 @@
       "content_type": "repo",
       "title": "Ripleytia/Ripleytia-OBS-AI-Studio",
       "summary": "⭐ 1 estrellas — 🎙️ Canlı yayıncılar için özel tasarlanmış, yapay zeka destekli akıllı OBS Studio sürümü ve gelişmiş yayın yönetim merkezi.",
-      "time": "151h",
+      "time": "152h",
       "url": "https://github.com/ripleytia/Ripleytia-OBS-AI-Studio",
       "stars": "1"
     },
@@ -107,7 +107,7 @@
       "content_type": "repo",
       "title": "Pinalgevariya15/cv-extractor-ai",
       "summary": "⭐ 1 estrella — Extracción rápida y estructurada de datos del currículum desde archivos PDF impulsada por Groq y Pydantic. Características de validación de",
-      "time": "154h",
+      "time": "155h",
       "url": "https://github.com/pinalgevariya15/cv-extractor-ai",
       "stars": "1"
     },
@@ -119,7 +119,7 @@
       "content_type": "repo",
       "title": "SteveSolvesProblems/bicíclico-parentesco",
       "summary": "⭐ 1 estrella — Razonamiento familiar sin una red neuronal: un modelo basado en conjuntos que deriva sus reglas de símbolos opacos. CLUTRR, todos los seis",
-      "time": "93h",
+      "time": "94h",
       "url": "https://github.com/SteveSolvesProblems/bicyclic-kinship",
       "stars": "1"
     },
@@ -131,7 +131,7 @@
       "content_type": "repo",
       "title": "Shawkath646/cuadernos-académicos-colab",
       "summary": "⭐ 0 estrellas — Contenido académico curado, conjuntos de problemas algorítmicos y experimentos en ciencia de datos en Inteligencia Artificial (Búsqueda y",
-      "time": "13h",
+      "time": "14h",
       "url": "https://github.com/shawkath646/academic-colab-notebooks",
       "stars": "0"
     },
@@ -143,7 +143,7 @@
       "content_type": "repo",
       "title": "Nayanatumma69-collab/ai-tic-tac-toe",
       "summary": "⭐ 0 estrellas — Juego de Gato basado en AI utilizando el algoritmo Minimax en Python.",
-      "time": "54h",
+      "time": "55h",
       "url": "https://github.com/nayanatumma69-collab/ai-tic-tac-toe",
       "stars": "0"
     },
@@ -155,7 +155,7 @@
       "content_type": "repo",
       "title": "Gabriele-marsili/appunti-magistrale-ai",
       "summary": "⭐ 0 estrellas — Dispensas, apuntadores e código de la magistral en Informática, para el percurso AI (Unipi), por año y curso, con enlaces OneNote",
-      "time": "97h",
+      "time": "98h",
       "url": "https://github.com/gabriele-marsili/appunti-magistrale-ai",
       "stars": "0"
     },
@@ -179,7 +179,7 @@
       "content_type": "video",
       "title": "LLMs locales y su potencial real 🤖 ¿Pueden sustituir a los Modelos FRONTERA?",
       "summary": "En este video analizamos los LLMs locales y su potencial real frente a los grandes modelos de frontera en tareas de programación. Comparamos cómo un modelo de",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.youtube.com/watch?v=CBTR1q4CeP0"
     },
     {
@@ -190,7 +190,7 @@
       "content_type": "video",
       "title": "Pi 1.0 🚀 El Agente de Desarrollo MINIMALISTA para la Terminal",
       "summary": "Descubre cómo funciona Pi 1.0, el nuevo agente de desarrollo minimalista diseñado para trabajar directamente desde tu terminal. Esta versión 1.0 llega como un",
-      "time": "22h",
+      "time": "23h",
       "url": "https://www.youtube.com/watch?v=hKaMUjWqqFY"
     },
     {
@@ -201,7 +201,7 @@
       "content_type": "video",
       "title": "Comparando Harness - Pi vs Codex ⚡ ¿Cuál es MEJOR para Programar con IA?",
       "summary": "En este video realizamos una comparando Harness - Pi vs Codex para determinar cuál entorno ofrece mejores resultados al programar con inteligencia artificial.",
-      "time": "9h",
+      "time": "10h",
       "url": "https://www.youtube.com/watch?v=iFlXJn8K9Hc"
     },
     {
@@ -212,7 +212,7 @@
       "content_type": "video",
       "title": "Curso Completo IA Local 🚀 Cómo Usar Llama.cpp con Modelos GGUF",
       "summary": "En este Curso Completo IA Local aprenderás a ejecutar modelos de lenguaje de pesos abiertos directamente en tu propio hardware utilizando Llama.cpp. Este",
-      "time": "19h",
+      "time": "20h",
       "url": "https://www.youtube.com/watch?v=fMKMg5wGwlI"
     },
     {
@@ -234,7 +234,7 @@
       "content_type": "news",
       "title": "La versión v0.2 de DeepSeek Harness trae aplicaciones de escritorio oficiales a su marco de agente de código abierto.",
       "summary": "<p>DeepSeek ha lanzado aplicaciones oficiales para macOS y Windows del escritorio para DeepSeek Harness v0,2, su arnés de agente con licencia MIT. La versión",
-      "time": "10h",
+      "time": "11h",
       "url": "https://www.marktechpost.com/2026/10/03/deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness/"
     },
     {
@@ -245,7 +245,7 @@
       "content_type": "news",
       "title": "McDonald's está usando la IA para sugerir el precio del Big Mac en función del local. A sus clientes no les está gustando",
       "summary": "<p> <img",
-      "time": "ahora",
+      "time": "1h",
       "url": "https://www.xataka.com/aplicaciones/mcdonald-s-esta-usando-ia-para-sugerir-precio-big-mac-funcion-local-a-sus-clientes-no-les-esta-gustando"
     },
     {
@@ -256,7 +256,7 @@
       "content_type": "news",
       "title": "Los etruscos diseñaron sus tumbas hace 2.500 años con un sobrecogedor \"efecto catedral\": la muerte era un espectáculo sensorial",
       "summary": "<p> <img",
-      "time": "21h",
+      "time": "22h",
       "url": "https://www.xataka.com/magnet/tumba-etrusca-eco-catedral-muerte-hace-2-500-anos-era-experiencia-inmersiva"
     },
     {
@@ -267,7 +267,7 @@
       "content_type": "news",
       "title": "Nuestra tele de dentro de cinco años se está fraguando ya hoy, y este 2026 hemos visto muchos avances que queremos ya en nuestro salón",
       "summary": "<p> <img",
-      "time": "6h",
+      "time": "7h",
       "url": "https://www.xataka.com/televisores/nuestra-tele-dentro-cinco-anos-se-esta-fraguando-hoy-este-2026-hemos-visto-muchos-avances-que-queremos-nuestro-salon"
     },
     {
@@ -278,7 +278,7 @@
       "content_type": "news",
       "title": "Se necesitarán límites presupuestarios por defecto rígidos para prácticamente todo.",
       "summary": "Aquí se presenta una característica de producto que el mundo necesitará mucho más en los próximos meses y años: límites presupuestarios predeterminados. Me",
-      "time": "15h",
+      "time": "16h",
       "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
     },
     {
@@ -289,7 +289,7 @@
       "content_type": "news",
       "title": "El agente dijo que estaba hecho. La base de datos no estaba de acuerdo.",
       "summary": "",
-      "time": "16h",
+      "time": "17h",
       "url": "https://huggingface.co/blog/microsoft/thinkingbox"
     },
     {
@@ -322,7 +322,7 @@
       "content_type": "news",
       "title": "\"Escaseará más en 2027 y 2028 que hoy\". El demoledor aviso del CEO de Micron sobre la RAM tras firmar un trimestre récord",
       "summary": "<p> <img",
-      "time": "21h",
+      "time": "22h",
       "url": "https://www.xataka.com/componentes/anuncia-margenes-record-fabricas-ceo-micron-avisa-crisis-ram-escaseara-2027-2028-que-hoy"
     },
     {
@@ -333,7 +333,7 @@
       "content_type": "news",
       "title": "Google Research Mueve el Aprendizaje Federado a los ETEs: Gboard Ahora Entrena con Privacidad Diferencial Verificable Externamente",
       "summary": "Google Research ha presentado un sistema de aprendizaje federado que traslada el cálculo de gradientes de los teléfonos a TEEs del lado del servidor",
-      "time": "7h",
+      "time": "8h",
       "url": "https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/"
     },
     {
@@ -344,7 +344,7 @@
       "content_type": "news",
       "title": "Dentro de NVIDIA IsaacTeleop: De la Tracking de Manos y Controladores a Acciones de Robot con el Motor de Retargeting Basado en Grafos",
       "summary": "Se aprende cómo NVIDIA IsaacTeleop convierte la rastreo de manos con XR e input de controlador de movimiento en comandos de robot utilizando un motor de",
-      "time": "14h",
+      "time": "15h",
       "url": "https://www.marktechpost.com/2026/10/03/inside-nvidias-isaacteleop-from-hand-and-controller-tracking-to-robot-actions-with-the-graph-based-retargeting-engine/"
     },
     {
@@ -355,7 +355,7 @@
       "content_type": "news",
       "title": "Capcom está preparándose para un 'futuro en el cual crearemos juegos junto con la inteligencia artificial'.",
       "summary": "El Pragmata de Capcom podría centrarse en los horrores de la IA, pero en la práctica, el estudio no parece estar tan en contra de la tecnología. Durante la",
-      "time": "22h",
+      "time": "23h",
       "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development"
     },
     {
@@ -366,7 +366,7 @@
       "content_type": "news",
       "title": "El CEO de Splice, Kakul Srivastava, cree que los correos electrónicos basados en IA están matando las conversaciones.",
       "summary": "Kakul Srivastava es el CEO de Splice, la plataforma de muestras en la que innumerables productores confían para obtener sonidos aislados y bucles melódicos.",
-      "time": "24h",
+      "time": "25h",
       "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview"
     },
     {
@@ -377,7 +377,7 @@
       "content_type": "news",
       "title": "Un empleado de seguridad de OpenAI ha renunciado y está dando la alarma.",
       "summary": "David Robinson solía escribir los informes de seguridad que acompañaban a cada lanzamiento de modelo importante en OpenAI. Esta semana, renunció a su puesto y",
-      "time": "24h",
+      "time": "25h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
     }
   ]
