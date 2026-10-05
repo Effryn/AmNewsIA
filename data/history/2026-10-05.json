@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 84,
     "sources": 44,
-    "updated_label": "08:30"
+    "updated_label": "09:29"
   },
   "iaday": {
     "reading_minutes": "50 min",
@@ -35,7 +35,7 @@
       "content_type": "repo",
       "title": "Pensamientodev923/EstateWise-ChatBot",
       "summary": "⭐ 6 estrellas — 🏠 Una aplicación de bienes raíces inteligente que ofrece autenticación segura, gestión de conversaciones y recomendaciones personalizadas de",
-      "time": "71h",
+      "time": "72h",
       "url": "https://github.com/thinkingdev923/EstateWise-ChatBot",
       "stars": "6"
     },
@@ -47,7 +47,7 @@
       "content_type": "paper",
       "title": "VeriHarness: Escalando la Verificación Agente para Tareas a Largo Plazo",
       "summary": "A medida que los agentes LLM asumen tareas cada vez más complejas y de horizonte largo, la verificación de sus resultados se vuelve cada vez más desafiante.",
-      "time": "111h",
+      "time": "112h",
       "url": "https://huggingface.co/papers/2610.00972"
     },
     {
@@ -58,7 +58,7 @@
       "content_type": "repo",
       "title": "Himanshu-jadhav108/TradeGuard",
       "summary": "⭐ 3 estrellas — capa de seguridad asistida por IA que convierte ideas de comercio en un lenguaje natural en órdenes validadas y conscientes de riesgo con",
-      "time": "45h",
+      "time": "46h",
       "url": "https://github.com/himanshu-jadhav108/TradeGuard",
       "stars": "3"
     },
@@ -70,7 +70,7 @@
       "content_type": "repo",
       "title": "Hammadshakeelai/apex-chess-engine",
       "summary": "⭐ 1 estrellas — Next-generation superhuman chess AI engine & research arena. Features Dual-NNUE, spatial policy ViT, playable bots (Stockfish 17, Lc0,",
-      "time": "66h",
+      "time": "67h",
       "url": "https://github.com/hammadshakeelai/apex-chess-engine",
       "stars": "1"
     },
@@ -82,7 +82,7 @@
       "content_type": "repo",
       "title": "Thanhlexyz/vn-at-top-ai-conference",
       "summary": "⭐ 1 estrellas — Top-tier AI conference performance of Vietnamese Universities.",
-      "time": "119h",
+      "time": "120h",
       "url": "https://github.com/thanhlexyz/vn-at-top-ai-conference",
       "stars": "1"
     },
@@ -94,7 +94,7 @@
       "content_type": "repo",
       "title": "Ayorinha/ayorai-opensearch",
       "summary": "⭐ 1 estrellas — AYORAI ATTRACTOR — Evidence-first claim-level verification engine",
-      "time": "116h",
+      "time": "117h",
       "url": "https://github.com/Ayorinha/ayorai-opensearch",
       "stars": "1"
     },
@@ -106,7 +106,7 @@
       "content_type": "repo",
       "title": "StevenTapscott/IMDB-Sentiment-Analysis",
       "summary": "⭐ 0 estrellas — IT Online Learning guided project. AI-powered movie review sentiment analysis using DistilBERT, fine-tuning, Hugging Face and Streamlit, with",
-      "time": "16h",
+      "time": "17h",
       "url": "https://github.com/StevenTapscott/IMDB-Sentiment-Analysis",
       "stars": "0"
     },
@@ -118,7 +118,7 @@
       "content_type": "repo",
       "title": "Lin-yang-2713/artificial-intelligence-course",
       "summary": "⭐ 0 estrellas — A comprehensive AI course featuring Jupyter notebooks in both English and French, covering topics like NLP, machine learning, and data",
-      "time": "119h",
+      "time": "120h",
       "url": "https://github.com/lin-yang-2713/artificial-intelligence-course",
       "stars": "0"
     },
@@ -130,7 +130,7 @@
       "content_type": "repo",
       "title": "Roness3yn/property-investment-intelligence-system",
       "summary": "⭐ 0 estrellas — AI-powered Property Investment Intelligence System for analyzing real-estate opportunities, estimating investment potential, assessing risk,",
-      "time": "41h",
+      "time": "42h",
       "url": "https://github.com/roness3yn/property-investment-intelligence-system",
       "stars": "0"
     },
@@ -142,7 +142,7 @@
       "content_type": "paper",
       "title": "HyperBrowseComp: Un prueba de estrés multilingüe y multimodal para agentes de navegación web",
       "summary": "Introducimos HyperBrowseComp, un conjunto de pruebas multilingüe y multimodal que incluye 423 preguntas manualmente redactadas y validadas por humanos a lo",
-      "time": "87h",
+      "time": "88h",
       "url": "https://huggingface.co/papers/2610.03574"
     },
     {
@@ -153,7 +153,7 @@
       "content_type": "paper",
       "title": "Reconsideración del Recalentamiento de Tokens para SFT: Suprimir, Invertir y Extrapolar Características Aprendidas",
       "summary": "El ajuste finamente supervisado (SFT) aprende con mayor agresividad de tokens que el modelo considera menos probables. Esto ayuda a adquirir nuevos",
-      "time": "207h",
+      "time": "208h",
       "url": "https://huggingface.co/papers/2609.33463"
     },
     {
@@ -164,7 +164,7 @@
       "content_type": "paper",
       "title": "Inteligencia de Memoria Espacial: Dotando los Modelos del Mundo con una Memoria a Largo Plazo Guiada por un Entendimiento",
       "summary": "La generación de videos largos y los modelos del mundo han demostrado un potencial fuerte para entretenimiento interactivo y simulación corporal al predecir",
-      "time": "111h",
+      "time": "112h",
       "url": "https://huggingface.co/papers/2610.02521"
     },
     {
@@ -175,7 +175,7 @@
       "content_type": "paper",
       "title": "MotorMind: Aparatoso de Visión General para Modelos de Lenguaje en Manipulación Robótica sin Supervisión Preliminar",
       "summary": "Los modelos de visión-lenguaje-acción (VLA) han avanzado la manipulación robótica, pero su generalización cero-shot en nuevas tareas y entornos sigue siendo",
-      "time": "159h",
+      "time": "160h",
       "url": "https://huggingface.co/papers/2609.38078"
     },
     {
@@ -186,7 +186,7 @@
       "content_type": "paper",
       "title": "De la recuperación a las decisiones tipificadas: modelos calibrados de la Sistema Uno basados en codificadores de oraciones biomédicas",
       "summary": "Los modelos de decisiones tipificadas responden a preguntas esquemáticamente restringidas sobre un texto en una sola pasada hacia adelante y devuelven",
-      "time": "111h",
+      "time": "112h",
       "url": "https://huggingface.co/papers/2610.02486"
     },
     {
@@ -197,7 +197,7 @@
       "content_type": "paper",
       "title": "SimuVerity: Agentes para la medición de rendimiento para la generación de modelos Simulink de calidad de ingeniería",
       "summary": "Los benchmarks existentes de Simulink evalúan principalmente si los modelos generados se compilan, ejecutan o se asemejan a un modelo de referencia. Estos",
-      "time": "111h",
+      "time": "112h",
       "url": "https://huggingface.co/papers/2610.02304"
     },
     {
@@ -208,7 +208,7 @@
       "content_type": "paper",
       "title": "FrugalEvo: Hacia la Evolución de Programas Guiada por LLM Consciente del Costo",
       "summary": "Los métodos evolutivos guiados por LLM, como AlphaEvolve, han emergido como enfoques poderosos para problemas de optimización computacional desafiantes, como",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03675v1",
       "arxiv": "2610.03675v1"
     },
@@ -220,7 +220,7 @@
       "content_type": "paper",
       "title": "NeutronGym: Diseño de Instrumento Neutrones Graduados en Física para Agentes LLM",
       "summary": "Diseñar un instrumento científico prueba si los agentes de modelos lingüísticos pueden hacer física en lugar de recordarla, siempre y cuando la calificación no",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03631v1",
       "arxiv": "2610.03631v1"
     },
@@ -232,7 +232,7 @@
       "content_type": "paper",
       "title": "Writerslogic en la CLEF 2026 Track de SimpleText: Simplificación de Multi-Candidato y Detección Acumulada de Complicación",
       "summary": "Se describe la participación del equipo de Writerslogic en la tarea compartida CLEF 2026 SimpleText, abordando las Tareas 1 (simplificación de texto) y 2",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03567v1",
       "arxiv": "2610.03567v1"
     },
@@ -244,7 +244,7 @@
       "content_type": "paper",
       "title": "Pivot-SD: Eficiente Auto-distilación para Modelos de Difusión de Lenguaje con Máscaras",
       "summary": "Los modelos de difusión oculta (dLMs) ofrecen una alternativa prometedora paralela a los modelos autoregresivos para el razonamiento complejo. Sin embargo,",
-      "time": "87h",
+      "time": "88h",
       "url": "https://huggingface.co/papers/2610.03665"
     },
     {
@@ -255,7 +255,7 @@
       "content_type": "paper",
       "title": "Aprendizaje con Soporte Local",
       "summary": "Exploramos el olvido catastrófico en el contexto de modelos pre-entrenados de gran escala. Considerando el olvido como un problema geométrico en el espacio de",
-      "time": "111h",
+      "time": "112h",
       "url": "https://huggingface.co/papers/2610.02126"
     },
     {
@@ -266,7 +266,7 @@
       "content_type": "paper",
       "title": "¿Saben los Grandes Modelos de Lenguaje las Leyes Colombianas? Un Estándar de Fidedignidad para el Sistema Legal Colombiano",
       "summary": "Los modelos de lenguaje de gran tamaño (LLMs) se utilizan cada vez más para apoyar la práctica legal, la educación y la investigación, pero su fiabilidad en",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03639v1",
       "arxiv": "2610.03639v1"
     },
@@ -278,7 +278,7 @@
       "content_type": "paper",
       "title": "CLIMB: Confianza-Guía de Evidencia Complementaria Multimodal para la Generación Aumentada con Recuperación Multimodal",
       "summary": "Los modelos de lenguaje multimodal de gran tamaño (MLLMs) han demostrado fuertes habilidades de razonamiento visual, pero la respuesta a preguntas visuales con",
-      "time": "68h",
+      "time": "69h",
       "url": "https://arxiv.org/abs/2610.03421v1",
       "arxiv": "2610.03421v1"
     },
@@ -290,7 +290,7 @@
       "content_type": "paper",
       "title": "Modelado de Acciones Mundiales con Planificación Visual Progresiva",
       "summary": "Los modelos de acciones del mundo (WAMs) han emergido como un paradigma prometedor para el control robótico, prediciendo conjuntamente dinámicas visuales",
-      "time": "111h",
+      "time": "112h",
       "url": "https://huggingface.co/papers/2610.02508"
     },
     {
@@ -301,7 +301,7 @@
       "content_type": "paper",
       "title": "LVMT: Transformador de Máscara de Video para la Segmentación Larga de Video",
       "summary": "Los métodos existentes de segmentación de video en línea tienen dificultades para rastrear objetos en videos largos y complejos con ocultaciones a largo plazo.",
-      "time": "159h",
+      "time": "160h",
       "url": "https://huggingface.co/papers/2609.34895"
     },
     {
@@ -312,7 +312,7 @@
       "content_type": "paper",
       "title": "El entrenamiento en razonamiento eficiente no siempre perjudica la fidelidad y la monitoreabilidad del pensamiento crítico.",
       "summary": "El razonamiento en cadena de pensamiento (CoT) permite que los humanos inspeccionen cómo los grandes modelos de lenguaje llegan a sus respuestas y supervisen",
-      "time": "87h",
+      "time": "88h",
       "url": "https://huggingface.co/papers/2610.03509"
     },
     {
@@ -323,7 +323,7 @@
       "content_type": "paper",
       "title": "Dream4ACT: Una interfaz visual compartida de acción para el modelado multiecorporeo de video-acción",
       "summary": "Los modelos de generación de video (VGMs) ofrecen fuertes priores espaciotemporales para el modelado de observaciones corporales-acción. Sin embargo, los",
-      "time": "135h",
+      "time": "136h",
       "url": "https://huggingface.co/papers/2609.40153"
     },
     {
@@ -334,7 +334,7 @@
       "content_type": "paper",
       "title": "Acción Nativa-Aprendizaje a partir de Videos para Modelos de Acción Mundial",
       "summary": "Los modelos de acción mundial integran dinámicas visuales futuras con la predicción de acciones de los robots, pero su escalabilidad está limitada por la",
-      "time": "87h",
+      "time": "88h",
       "url": "https://huggingface.co/papers/2610.03391"
     },
     {
@@ -345,7 +345,7 @@
       "content_type": "paper",
       "title": "HelixWorld: Un modelo interactivo en tiempo real de audio-visual",
       "summary": "La simulación del mundo es intrínsecamente multisensorial, requiriendo dinámicas visuales y acústicas sincronizadas en tiempo real. Sin embargo, los modelos",
-      "time": "159h",
+      "time": "160h",
       "url": "https://huggingface.co/papers/2609.38123"
     },
     {
@@ -356,7 +356,7 @@
       "content_type": "paper",
       "title": "MRVQ: Un índice residencial para búsqueda de vectores elásticos en términos de dimensión y tasa",
       "summary": "Los servicios de recuperación densa deben cambiar entre dimensiones de prefijo de embeddings e índices de tasa de bits según cambien los plazos, la calidad y",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03651v1",
       "arxiv": "2610.03651v1"
     },
@@ -368,7 +368,7 @@
       "content_type": "paper",
       "title": "Modelos de Lenguaje que Juegan Ajedrez y Explican sus Movimientos",
       "summary": "Los motores de ajedrez modernos son expertos silenciosos: juegan a un nivel superhumano, pero no ofrecen explicaciones de sus jugadas. Por otro lado, los",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03695v1",
       "arxiv": "2610.03695v1"
     },
@@ -380,7 +380,7 @@
       "content_type": "paper",
       "title": "Referencia de Embedding Mundial",
       "summary": "La fidelidad física ha recibido una atención creciente en modelos del mundo y la generación de video, aunque cómo las representaciones de video codifican",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03632v1",
       "arxiv": "2610.03632v1"
     },
@@ -392,7 +392,7 @@
       "content_type": "paper",
       "title": "Estrategias de Representación del Autor para la Atribución de Autoría Cero-Shot: Un Estudio Comparativo entre los Enfoques Basados en Sistemas de Aprendizaje de Máquina y Basados en Embedding",
       "summary": "La atribución de autoría (AA) requiere capturar características estilísticas finamente detalladas, lo que la hace particularmente desafiante en entornos sin",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2610.03531v1",
       "arxiv": "2610.03531v1"
     },
@@ -404,7 +404,7 @@
       "content_type": "paper",
       "title": "Composición estructurada de insigths atómicos verificables para la generación de informes a partir de tablas",
       "summary": "La generación de tablas para informes se refiere a la tarea de generar automáticamente informes analíticos de nivel de artículo a partir de tablas",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2610.03525v1",
       "arxiv": "2610.03525v1"
     },
@@ -416,7 +416,7 @@
       "content_type": "paper",
       "title": "La incertidumbre en un solo pasaje se dirige hacia la detección de alucinaciones en el nivel del reclamo en modelos de lenguaje médico persa.",
       "summary": "La detección de alucinaciones es particularmente importante para los modelos de lenguaje médico, pero los enfoques basados en muestreo repetido son costosos y",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2610.03482v1",
       "arxiv": "2610.03482v1"
     },
@@ -440,7 +440,7 @@
       "content_type": "paper",
       "title": "4DCodeBench: Agentes de benchmarks en gráficos inversos de escenas dinámicas",
       "summary": "Presentamos 4DCodeBench, un estándar para gráficos inversos en cuatro dimensiones mediante la generación de código, en el cual los agentes reconstruyen escenas",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03715v1",
       "arxiv": "2610.03715v1"
     },
@@ -452,7 +452,7 @@
       "content_type": "paper",
       "title": "De mezcla a ruptura: descomposición de grafos en optimización descentralizada mediante el envío de mensajes",
       "summary": "Estudiamos la minimización de sumas de funciones suaves y fuertemente convexas sobre grafos no dirigidos, con cada función mantenida por un agente y la",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03709v1",
       "arxiv": "2610.03709v1"
     },
@@ -464,7 +464,7 @@
       "content_type": "paper",
       "title": "Créditos Donde Importan: Optimización de Políticas Consciente de Dependencia para Agentes Terminales",
       "summary": "Los agentes que utilizan terminales se benefician del aprendizaje por refuerzo (RL) en codificación, depuración y otras tareas en múltiples pasos. En estas",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03634v1",
       "arxiv": "2610.03634v1"
     },
@@ -476,7 +476,7 @@
       "content_type": "paper",
       "title": "Writerslogic en PAN 2026: Proceso sobre Contenido para una Detección Robusta frente al Cambio de Dominio",
       "summary": "Se describen los sistemas de Writerslogic para tres Tareas Compartidas del PAN en las actividades CLEF 2026 (Detección de Trajeto Razonamiento, Detección de",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03565v1",
       "arxiv": "2610.03565v1"
     },
@@ -488,7 +488,7 @@
       "content_type": "paper",
       "title": "Planificación para Aprender",
       "summary": "Los métodos de gradiente de política son centrales en el aprendizaje por refuerzo moderno, incluyendo el posentrenamiento de LLM. Cuando experimentan",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03667v1",
       "arxiv": "2610.03667v1"
     },
@@ -500,7 +500,7 @@
       "content_type": "paper",
       "title": "MoSE3: Learning World-Space SE(3) at Every Pixel",
       "summary": "Dense 3D point tracking has been a prominent paradigm for modeling motion in dynamic scenes, but a point track is just a 3-DoF translation curve per pixel: it",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03716v1",
       "arxiv": "2610.03716v1"
     },
@@ -512,7 +512,7 @@
       "content_type": "paper",
       "title": "¿Qué Deberían Olvidar los Modelos del Mundo? Retención Estratificada para Adaptación Continua",
       "summary": "El aprendizaje continuo considera la degradación en datos previamente vistos como evidencia de fracaso, una convención heredada de entornos con un objetivo de",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03713v1",
       "arxiv": "2610.03713v1"
     },
@@ -524,7 +524,7 @@
       "content_type": "paper",
       "title": "Detección a Bordo de Anomalias para un Monitoreo Efectivo del Medio Ambiente Marítimo",
       "summary": "Los ecosistemas marinos se ven afectados por diversas amenazas, como derrames de petróleo, brotes de algas y desbordamientos de sedimentos, que alteran",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03649v1",
       "arxiv": "2610.03649v1"
     },
@@ -536,7 +536,7 @@
       "content_type": "paper",
       "title": "FALCON: Un marco y conjunto de datos agnóstico para la generación de datos sintéticos para parejas NL2SQL",
       "summary": "Las bases de datos relacionales son una de las formas más extendidas de conocimiento estructurado, y el acceso natural del lenguaje a ellas requiere vincular",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03625v1",
       "arxiv": "2610.03625v1"
     },
@@ -548,7 +548,7 @@
       "content_type": "paper",
       "title": "Un registro cercano a cero en el monitoreo no es evidencia de control conductual.",
       "summary": "El entrenamiento posterior con recompensas verificables puede inducir el engaño de recompensas, lo que motiva el uso de monitores dentro del objetivo de",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2610.03458v1",
       "arxiv": "2610.03458v1"
     },
@@ -560,7 +560,7 @@
       "content_type": "paper",
       "title": "RNADyn: Un Referente para la Generación y Comprensión de las Dinámicas del ARN",
       "summary": "El ácido ribonucleico (ARN) funciona mediante cambios de conformación que no son completamente capturados por estructuras estáticas. Sin embargo, los datos de",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03712v1",
       "arxiv": "2610.03712v1"
     },
@@ -572,7 +572,7 @@
       "content_type": "paper",
       "title": "PoCoFL: Aprendizaje federado cumplimentario de políticas",
       "summary": "El Aprendizaje Federado (FL) es un paradigma de aprendizaje orientado a la privacidad que permite la entrenamiento colaborativo del modelo manteniendo los",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03650v1",
       "arxiv": "2610.03650v1"
     },
@@ -584,7 +584,7 @@
       "content_type": "paper",
       "title": "Decoding the Functional Roles of Register and High-Norm Patch Tokens in Vision Transformers",
       "summary": "Self-supervised Vision Transformers (ViTs), such as DINOv2, learn rich visual representations, but the functions of their internal tokens remain poorly",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03698v1",
       "arxiv": "2610.03698v1"
     },
@@ -596,7 +596,7 @@
       "content_type": "paper",
       "title": "ProAR: Learning Prospective Reasoning with Autoregressive Video Models",
       "summary": "Autoregressive (AR) video models excel at causal generation, but their reliance on next-chunk prediction confines them to a short-sighted, reactive paradigm.",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03664v1",
       "arxiv": "2610.03664v1"
     },
@@ -608,7 +608,7 @@
       "content_type": "paper",
       "title": "Menos Decodificador es Más Codificador: Aprendizaje Geométrico de Representación desde la Síntesis de Vista Novel",
       "summary": "Este artículo examina el papel de la Sinthesis de Vistas Nuevas (NVS) en el aprendizaje de representaciones geométricas. En principio, la NVS debería razonar",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03717v1",
       "arxiv": "2610.03717v1"
     },
@@ -620,7 +620,7 @@
       "content_type": "paper",
       "title": "EyeRobot 2.0: Mirada activa para manipulación precisa sin cámaras del antebrazo",
       "summary": "Inspirado por la visión humana, presentamos un marco que utiliza el enfoque activo del ojo para permitir la manipulación bimanual fina con solo una cámara",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03710v1",
       "arxiv": "2610.03710v1"
     },
@@ -632,7 +632,7 @@
       "content_type": "paper",
       "title": "IA informada por el transcriptoma para predecir la respuesta a la terapia neoadjuvante a partir de biopsias de cáncer de mama",
       "summary": "La escasez de datos etiquetados limita el desarrollo de biomarcadores de aprendizaje profundo en oncología. Desarrollamos un modelo de inteligencia artificial",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03693v1",
       "arxiv": "2610.03693v1"
     },
@@ -644,7 +644,7 @@
       "content_type": "paper",
       "title": "Revisando las Representaciones Temporales-Frecuenciales del Entrante en la Estimación de Multiple Notas para Coros Vocales",
       "summary": "La estimación del pitch múltiple en ensambles vocales es desafiante debido a que los cantantes ocupan rango de pitch superpuestos y a menudo cantan a",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03656v1",
       "arxiv": "2610.03656v1"
     },
@@ -656,7 +656,7 @@
       "content_type": "paper",
       "title": "LoGo: Recompensas locales-global para la generación consistente de videos a largo plazo",
       "summary": "Los modelos de video controlados por cámara están avanzando rápidamente hacia horizontes de generación largos y control de cámara complejo. Un modo de fallo",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03636v1",
       "arxiv": "2610.03636v1"
     },
@@ -668,7 +668,7 @@
       "content_type": "paper",
       "title": "Profundidad como Tiempo en Modelos Generativos de Un Paso",
       "summary": "La reciente ola de modelos generativos en un paso, que comprimen la trayectoria multietapa de la difusión mediante la distilación o mapas de flujo aprendidos,",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03626v1",
       "arxiv": "2610.03626v1"
     },
@@ -680,7 +680,7 @@
       "content_type": "paper",
       "title": "Video de Baixo Costo--Anticipación del Tiempo como una Base Fuerte para la Regresión Emocional EEG--fNIRS en Videos Familiares",
       "summary": "La estimación continua de la regresión emocional evalúa el valor y la excitación en cada momento mientras un espectador ve un video. En la implementación con",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03618v1",
       "arxiv": "2610.03618v1"
     },
@@ -692,7 +692,7 @@
       "content_type": "paper",
       "title": "Divergence controls entropy in distillation",
       "summary": "La destilación se ha convertido en una primitiva central en el entrenamiento de modelos de lenguaje de gran escala, pero sus propiedades no se entienden bien",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2610.03529v1",
       "arxiv": "2610.03529v1"
     },
@@ -704,7 +704,7 @@
       "content_type": "paper",
       "title": "Aprendizaje a partir de Razonamiento Reparado: Destilación On-Policy Guiada por la Raíz del Problema",
       "summary": "La auto-distilación con políticas en curso (OPSD) utiliza soluciones de referencia como retrovisión privilegiada para supervisar las trayectorias de",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2610.03515v1",
       "arxiv": "2610.03515v1"
     },
@@ -716,7 +716,7 @@
       "content_type": "paper",
       "title": "LESSER: Selección de Datos Pos-Entrenamiento con Gradientes del Capa de Salida",
       "summary": "La elección de datos post-entrenamiento para los modelos de lenguaje de gran escala afecta significativamente el rendimiento downstream. Un enfoque popular es",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03702v1",
       "arxiv": "2610.03702v1"
     },
@@ -728,7 +728,7 @@
       "content_type": "paper",
       "title": "Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals",
       "summary": "Las dinámicas de las células, organismos y fluidos a menudo se modelan como distribuciones de probabilidad que evolucionan con el tiempo. La reconstrucción y",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03679v1",
       "arxiv": "2610.03679v1"
     },
@@ -740,7 +740,7 @@
       "content_type": "paper",
       "title": "Proyección a partir de Simulaciones de Contracausalidades: Una Evaluación Sim2Real",
       "summary": "La implementación de una nueva política de decisión crea un problema de inicio frío para los modelos de predicción cuyos objetivos dependen de las acciones de",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03662v1",
       "arxiv": "2610.03662v1"
     },
@@ -752,7 +752,7 @@
       "content_type": "paper",
       "title": "Inferencia Estocástica Variacional con Amortización y Estructura para Modelos de Variables Latentes de Procesos Gaussiales",
       "summary": "Muchos métodos de aprendizaje automático buscan aproximar la variedad de baja dimensionalidad en la que viven los datos. Una característica deseable de estos",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03647v1",
       "arxiv": "2610.03647v1"
     },
@@ -764,7 +764,7 @@
       "content_type": "paper",
       "title": "Cuándo puede un Bandido Zafarar Su Ancla? Procesos E-Autorizados-Samplin-G Thompson bajo No-estacionariedad",
       "summary": "Stationarity rewards memory, but after a change the same history can mislead. We ask when forgetting should be permitted. E-process-authorized Thompson",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03646v1",
       "arxiv": "2610.03646v1"
     },
@@ -812,7 +812,7 @@
       "content_type": "paper",
       "title": "FlowHMR: Physically Plausible Motion Capture from Video",
       "summary": "We present FlowHMR, a framework for recovering physically plausible global 3D human motion from monocular video. Previous learning-based methods typically",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03691v1",
       "arxiv": "2610.03691v1"
     },
@@ -824,7 +824,7 @@
       "content_type": "paper",
       "title": "SigLIP2 for aerial fire risk classification",
       "summary": "We examine the transfer of a pretrained SigLIP2 image encoder to seven class fire risk classification from aerial imagery. We introduce a reproducible",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2610.03689v1",
       "arxiv": "2610.03689v1"
     },
@@ -836,7 +836,7 @@
       "content_type": "paper",
       "title": "DEPICT: Scoring Text-to-Image Alignment by Answer Agreement",
       "summary": "Image-text alignment is a core problem in computer vision with applications in caption evaluation, hallucination detection, data curation, and the benchmarking",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03617v1",
       "arxiv": "2610.03617v1"
     },
@@ -848,7 +848,7 @@
       "content_type": "paper",
       "title": "ManifoldSplat: Language-Guided Semantic Shape Editing of 3D Gaussian Head Avatars",
       "summary": "High-fidelity 3D head avatars have reached near-photorealistic quality. While recent methods enable text-driven manipulation, they struggle to provide",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03599v1",
       "arxiv": "2610.03599v1"
     },
@@ -860,7 +860,7 @@
       "content_type": "paper",
       "title": "Rethinking What to Cache in Few-Step Diffusion Transformers: Solver-Aware Target Selection",
       "summary": "Diffusion Transformers (DiTs) can generate high-quality images and videos, but generating each sample requires multiple costly DiT forward passes. Two common",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03577v1",
       "arxiv": "2610.03577v1"
     },
@@ -872,7 +872,7 @@
       "content_type": "video",
       "title": "El beneficio de un AI de un billón de dólares está desapareciendo",
       "summary": "❤️ Revisa Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers 📝 Sonneto 5.5: https://www.anthropic.com/claude-sonnet-5-5 🙏 Queremos agradecer a",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.youtube.com/watch?v=ZHVNTTKu9fU"
     },
     {
@@ -883,7 +883,7 @@
       "content_type": "video",
       "title": "15 errores con Claude Code que te hacen perder tiempo y dinero",
       "summary": "Prueba Omnisend con un 30% de descuento durante 3 meses: https://your.omnisend.com/miguebaena (Código: MIGUELBAENAIA) 📧 CONTACTO 🫱🏼‍🫲🏽 Colaboraciones:",
-      "time": "18h",
+      "time": "19h",
       "url": "https://www.youtube.com/watch?v=kRsf9IN2_nc"
     },
     {
@@ -894,7 +894,7 @@
       "content_type": "video",
       "title": "Mas MODs para PCVR y HorizonOS 2,9 esta en el PTC",
       "summary": "HorizonOS 2.9 ya está aquí con bastantes mejoras acercándose al futuro de las Meta VR Glasses. Con las Quest 3 podremos ver como funciona el Sistema Operativo",
-      "time": "20h",
+      "time": "21h",
       "url": "https://www.youtube.com/watch?v=AQ67WCYzL9E"
     },
     {
@@ -905,7 +905,7 @@
       "content_type": "news",
       "title": "GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job",
       "summary": "<p>Astra leads computer use, Argon leads legal and finance work, and Sol wins on price for coding agents.</p> <p>The post <a",
-      "time": "14h",
+      "time": "15h",
       "url": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/"
     },
     {
@@ -916,7 +916,7 @@
       "content_type": "news",
       "title": "The Story of Qwen: Alibaba’s AI Models From 7B to 2.4T",
       "summary": "<p>Alibaba's Qwen went from an invite-only chatbot in April 2023 to a 2.4-trillion-parameter open-weight model in August 2026. This is the full story, release",
-      "time": "7h",
+      "time": "8h",
       "url": "https://www.marktechpost.com/2026/10/04/the-story-of-qwen-alibabas-ai-models-from-7b-to-2-4t/"
     },
     {
@@ -927,7 +927,7 @@
       "content_type": "news",
       "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
       "summary": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were",
-      "time": "20h",
+      "time": "21h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft"
     },
     {
@@ -938,7 +938,7 @@
       "content_type": "news",
       "title": "La gente realmente odia la IA, entonces ¿por qué no pueden obtener suficiente?",
       "summary": "Durante el verano hablé con el CEO de Springboards, una startup que está construyendo un LLM que se propone generar una mayor variedad de respuestas que sus",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/"
     },
     {
@@ -949,7 +949,7 @@
       "content_type": "news",
       "title": "Construcción de publicidad para el modo en que las personas utilizan IA",
       "summary": "OpenAI introduce un nuevo formato publicitario visual en ChatGPT y expande las herramientas de medición, las asociaciones de atribución y la adecuación de la",
-      "time": "1h",
+      "time": "2h",
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
     },
     {
@@ -960,7 +960,7 @@
       "content_type": "news",
       "title": "Nokia nombra a Fernando Rionegro como nuevo Country Manager para España",
       "summary": "En pleno centenario de la compañía y ante el avance de la IA, Rionegro asumirá la representación institucional y corporativa de la multinacional en nuestro",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.silicon.es/nokia-nombra-a-fernando-rionegro-como-nuevo-country-manager-para-espana-2584747"
     },
     {
@@ -971,7 +971,7 @@
       "content_type": "news",
       "title": "Yandex Introduces Sona: A Single Generative Recommender That Replaces Entire Recommendation Cascade",
       "summary": "<p>One transformer ran candidate generation and ranking in Yandex Music's A/B test without hand-engineered features, lifting likes 11.42%.</p> <p>The post <a",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.marktechpost.com/2026/10/05/yandex-introduces-sona-a-single-generative-recommender-that-replaces-entire-recommendation-cascade/"
     },
     {
@@ -982,7 +982,7 @@
       "content_type": "news",
       "title": "Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks",
       "summary": "<p>Cantina Security, with Yeta Labs, has released apex-flash-1, an open-weights model trained specifically for vulnerability research. It is a reinforcement",
-      "time": "9h",
+      "time": "10h",
       "url": "https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/"
     },
     {
@@ -993,7 +993,7 @@
       "content_type": "news",
       "title": "Our minds aren’t equipped to handle AI",
       "summary": "Norbert Wiener, godfather of cybernetics, once said, \"The thought of every age is reflected in its technique.\" For the past century, our thought has been",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought"
     },
     {
@@ -1004,7 +1004,7 @@
       "content_type": "news",
       "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
       "summary": "New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and",
-      "time": "19h",
+      "time": "20h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true"
     }
   ]
