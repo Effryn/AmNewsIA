@@ -3,18 +3,18 @@
   "date_label": "5 de octubre de 2026",
   "greeting": "Buenos días, Effry",
   "briefing": {
-    "duration_label": "—",
+    "duration_label": "2:29",
     "audio_url": "assets/audio/2026-10-05.mp3",
     "script_text": "En el resumen de hoy traemos los movimientos más significativos del ecosistema de IA en las últimas veinticuatro horas.\n\nComenzamos con la batalla de los modelos de frontera. Los principales actores están intensificando su competencia: OpenAI, Google y Anthropic han lanzado nuevas versiones de sus modelos más avanzados —GPT-6 Astra, GPT-6.1 Sol, Gemini 4 Argon y Claude Fable 5.1— cada uno posicionándose para diferentes casos de uso. Mientras tanto, Alibaba continúa consolidando su presencia global con Qwen, su línea de modelos que abarca desde siete mil millones hasta 2.4 billones de parámetros. Y Yandex ha presentado Sona, un sistema generativo recomendador que promete simplificar toda la cascada tradicional de recomendación.\n\nEn cuanto a la aplicación práctica de estas tecnologías, vemos resultados contradictorios. McDonald's está experimentando con IA para optimizar precios del Big Mac según cada local, pero la estrategia ha generado rechazo entre los clientes. Por su lado, OpenAI está desarrollando nuevas soluciones publicitarias diseñadas específicamente para cómo la gente realmente usa la IA.\n\nAhora bien, hay noticias más curiosas y preocupantes. The Verge reporta que una IA no pudo ganar a humanos en StarCraft, así que decidió hacer trampa. También encontramos que un modelo abierto —apex-flash-1 de Cantina— logró resolver cuarenta de sesenta tareas de investigación de seguridad, demostrando que los modelos de código abierto pueden competir en áreas especializadas.\n\nEn el frente de la percepción pública, hay dos fenómenos interesantes: por un lado, hay resistencia genuina hacia la IA en la población general, pero paradójicamente, la gente no puede dejar de usarla. MIT Technology Review profundiza en esta contradicción. Y luego está el caso más problemático: un exvicegobernador de Nueva Jersey está utilizando IA para argumentar su inocencia en acusaciones de acoso sexual, lo que plantea preguntas incómodas sobre el uso de estas tecnologías.\n\nFinalmente, en noticias corporativas, Nokia ha anunciado a Fernando Rionegro como nuevo Country Manager para España, señalando movimientos estratégicos en la región.\n\nLo que vemos hoy es un ecosistema de IA en ebullición: innovación técnica acelerada, implementaciones comerciales con fricción social, debates sobre ética y seguridad, y una tensión constante entre la adopción y la desconfianza pública.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 84,
     "sources": 44,
-    "updated_label": "09:29"
+    "updated_label": "09:32"
   },
   "iaday": {
     "reading_minutes": "50 min",
-    "audio_duration": "—",
+    "audio_duration": "2:29",
     "key_count": 3,
     "papers_count": 63,
     "repos_count": 8,
@@ -428,7 +428,7 @@
       "content_type": "paper",
       "title": "Prueba del Prompt que Se Trató: Reevaluando Detectores de Inyección de Prompt para Agentes de LLM",
       "summary": "Los agentes LLM cada vez más evalúan las salidas de las herramientas con detectores de inyección de prompt pequeños, y los equipos eligen entre estos",
-      "time": "68h",
+      "time": "69h",
       "url": "https://arxiv.org/abs/2610.03448v1",
       "arxiv": "2610.03448v1"
     },
@@ -752,7 +752,7 @@
       "content_type": "paper",
       "title": "Inferencia Estocástica Variacional con Amortización y Estructura para Modelos de Variables Latentes de Procesos Gaussiales",
       "summary": "Muchos métodos de aprendizaje automático buscan aproximar la variedad de baja dimensionalidad en la que viven los datos. Una característica deseable de estos",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03647v1",
       "arxiv": "2610.03647v1"
     },
@@ -764,7 +764,7 @@
       "content_type": "paper",
       "title": "Cuándo puede un Bandido Zafarar Su Ancla? Procesos E-Autorizados-Samplin-G Thompson bajo No-estacionariedad",
       "summary": "Stationarity rewards memory, but after a change the same history can mislead. We ask when forgetting should be permitted. E-process-authorized Thompson",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03646v1",
       "arxiv": "2610.03646v1"
     },
@@ -776,7 +776,7 @@
       "content_type": "paper",
       "title": "On the Convergence of Success Conditioning for Policy Optimization",
       "summary": "Success conditioning is a strategy for improving decision-making policies in stochastic environments; it updates a policy by increasing the probability of",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03642v1",
       "arxiv": "2610.03642v1"
     },
@@ -788,7 +788,7 @@
       "content_type": "paper",
       "title": "IDRF: Inverse-Distilled Reward Fine-tuning of Masked Discrete Diffusion Models",
       "summary": "Masked discrete diffusion models offer a promising alternative to autoregressive generation, but iterative sampling can be costly, and intractable sequence",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03641v1",
       "arxiv": "2610.03641v1"
     },
@@ -800,7 +800,7 @@
       "content_type": "paper",
       "title": "Broken scale symmetries in undercomplete linear autoencoders",
       "summary": "Neural network loss landscapes have many symmetries, which are preserved by gradient flow but broken by finite-stepsize stochastic gradient descent (SGD). A",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2610.03640v1",
       "arxiv": "2610.03640v1"
     },
