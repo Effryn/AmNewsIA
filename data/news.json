@@ -10,7 +10,7 @@
   "stats": {
     "new_articles": 94,
     "sources": 44,
-    "updated_label": "14:47"
+    "updated_label": "14:50"
   },
   "iaday": {
     "reading_minutes": "56 min",
@@ -428,7 +428,7 @@
       "content_type": "paper",
       "title": "Back to the Future: Reconsiderar la infraestructura EDA para sistemas agentes en la verificación de diseño de chips",
       "summary": "La escala computacional sin precedentes de la inteligencia artificial moderna depende de sistemas de chip complejos con múltiples billones de transistores, sin",
-      "time": "23h",
+      "time": "24h",
       "url": "https://arxiv.org/abs/2610.06790v1",
       "arxiv": "2610.06790v1"
     },
@@ -584,7 +584,7 @@
       "content_type": "paper",
       "title": "Clustering de ida-vuelta KNN: detección jerárquica multiscale en grafos de vecinos más cercanos dirigidos",
       "summary": "Introducimos el Clustering de Vecindarios de Vuelta y Avante KNN (RTKNNC), un método basado en grafos para encontrar la estructura de agrupamiento en varios",
-      "time": "23h",
+      "time": "24h",
       "url": "https://arxiv.org/abs/2610.06795v1",
       "arxiv": "2610.06795v1"
     },
@@ -911,7 +911,7 @@
       "content_type": "news",
       "title": "Conectando agentes de IA con el conocimiento empresarial",
       "summary": "Para todo los datos que los sistemas de inteligencia artificial acumulan y analizan constantemente, los agentes de inteligencia artificial empresariales a",
-      "time": "25h",
+      "time": "26h",
       "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/"
     },
     {
