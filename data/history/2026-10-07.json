@@ -7,17 +7,17 @@
     "script_text": "En el resumen de hoy tenemos movimientos importantes en modelos de código abierto, restricciones de seguridad en plataformas establecidas, y cambios en estrategias de monetización que están redefiniendo el panorama de la IA.\n\nComenzamos con un hito significativo en el ecosistema open source. Mistral ha lanzado Mistral Large 4, también conocido como \"Le Chonk\", un modelo multimodal con 1.05 billones de parámetros que utiliza arquitectura Mixture of Experts. La relevancia aquí es que Mistral continúa cerrando la brecha con modelos chinos de alto rendimiento, pero manteniendo el código abierto, lo que democratiza el acceso a capacidades de IA de nivel empresarial.\n\nEn paralelo, Google DeepMind ha liberado EmbeddingGemma 2, un modelo multimodal de embeddings mucho más ligero con 740 millones de parámetros. Esta es una estrategia complementaria: mientras Mistral apunta a máxima potencia con pesos abiertos, Google ofrece soluciones eficientes y compactas para casos de uso específicos.\n\nAhora bien, si el ecosistema open source se expande, el lado propietario se contrae. Apple está cortando el acceso a agentes de IA por motivos de seguridad, y Google está eliminando el acceso gratuito a Gemini Flash y Pro. Estos movimientos revelan una preocupación creciente sobre los riesgos de seguridad que conlleva la autonomía de los agentes de IA sin supervisión.\n\nEn cuanto a monetización, OpenAI mantiene su estrategia de cobrar por diferentes capacidades. Mientras tanto, han anunciado partnerships interesantes: Jump Trading está utilizando ChatGPT para escalar investigación cuantitativa, y OpenAI está compartiendo avances en matemáticas. ChatGPT además está agregando nuevas funciones, como un probador virtual que te permite subir fotos de ropa para ver cómo te queda.\n\nUn dato curioso pero importante: alguien ha entrenado un modelo para detectar textos generados por IA, asegurando precisión del 98%. Esto abre un nuevo frente: la carrera de los detectores frente a los generadores, similar a la dinámica clásica de antivirus versus malware.\n\nMeta, por su parte, ha liberado Rebalancer, un solucionador de asignaciones en C++ capaz de procesar 40 millones de problemas de placement diarios, dirigido a optimización a escala.\n\nEn síntesis: el código abierto avanza con fuerza, las plataformas establecidas refuerzan controles de seguridad, y la monetización se polariza entre modelos gratuitos de empresa y servicios premium. El mercado continúa en plena transformación.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 102,
+    "new_articles": 112,
     "sources": 44,
-    "updated_label": "10:27"
+    "updated_label": "10:43"
   },
   "iaday": {
-    "reading_minutes": "61 min",
+    "reading_minutes": "67 min",
     "audio_duration": "—",
     "key_count": 3,
-    "papers_count": 63,
-    "repos_count": 15,
-    "videos_count": 3,
+    "papers_count": 66,
+    "repos_count": 16,
+    "videos_count": 5,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -45,7 +45,7 @@
       "content_type": "repo",
       "title": "BerkayYagizEren/engines-de-rag-semántico",
       "summary": "⭐ 0 estrellas — Producción lista para la Generación Aumentada con Recuperación (RAG) y API de búsqueda vectorial densa con FastAPI y SQLite.",
-      "time": "115h",
+      "time": "116h",
       "url": "https://github.com/BerkayYagizEren/semantic-rag-engine",
       "stars": "0"
     },
@@ -93,7 +93,7 @@
       "content_type": "repo",
       "title": "A220man/A220man",
       "summary": "⭐ 1 estrella — Ryan Vo | AI, aprendizaje automático, agentes de IA, evaluación de modelos y seguridad de IA.",
-      "time": "8h",
+      "time": "9h",
       "url": "https://github.com/A220man/A220man",
       "stars": "1"
     },
@@ -105,7 +105,7 @@
       "content_type": "repo",
       "title": "Bosca-io/bosca",
       "summary": "⭐ 1 estrella — Bosca unifica tu contenido, tu trabajo y tu audiencia — luego aplica inteligencia a todos estos elementos: análisis a lo largo de todo el",
-      "time": "38h",
+      "time": "39h",
       "url": "https://github.com/bosca-io/bosca",
       "stars": "1"
     },
@@ -164,7 +164,7 @@
       "content_type": "repo",
       "title": "DonaFidele/smart-transit-africa-ml",
       "summary": "⭐ 1 estrella — Una arquitectura que combina K-Means y Random Forest para simular y predecir la saturación del tráfico urbano, incorporando factores",
-      "time": "37h",
+      "time": "38h",
       "url": "https://github.com/DonaFidele/smart-transit-africa-ml",
       "stars": "1"
     },
@@ -224,9 +224,21 @@
       "content_type": "repo",
       "title": "Sumit436802/Sistema_de_Predicción_de_Contratación_Basado_en_Inteligencia_Artificial",
       "summary": "⭐ 0 estrellas — Proyecto de aprendizaje automático para predecir decisiones de contratación de reclutadores.",
-      "time": "25h",
+      "time": "26h",
       "url": "https://github.com/Sumit436802/AI-Based-Hiring-Prediction-System",
       "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Dileepkumarm316/MEGA-Resume-Builder",
+      "summary": "⭐ 1 estrella — Construye un currículum profesional y compatible con sistemas de gestión de empleados en segundos 🚀",
+      "time": "10h",
+      "url": "https://github.com/dileepkumarm316/MEGA-Resume-Builder",
+      "stars": "1"
     },
     {
       "source": "arXiv — cs.AI",
@@ -341,6 +353,17 @@
       "url": "https://huggingface.co/papers/2610.08777"
     },
     {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "¿Necesitan los modelos de lenguaje una tabla de inserción ajustable de entrada? Códigos fijos mínimos de token a escala de 1,7B-Class",
+      "summary": "Una tabla de inyección de entrada ajustable asigna a cada elemento del vocabulario un vector independientemente ajustable. Investigamos si esta parametrización",
+      "time": "137h",
+      "url": "https://huggingface.co/papers/2610.04002"
+    },
+    {
       "source": "arXiv — cs.AI",
       "source_type": "arxiv",
       "lang": "en",
@@ -372,7 +395,7 @@
       "content_type": "paper",
       "title": "SquidAgent: Paralellize Prudentemente, Coordinar Eficientemente",
       "summary": "Los agentes basados en LLM resuelven tareas complejas en múltiples pasos, pero la ejecución en secuencia incurre una latencia significativa. En principio, la",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2610.08647v1",
       "arxiv": "2610.08647v1"
     },
@@ -455,6 +478,28 @@
       "arxiv": "2610.08674v1"
     },
     {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "D2P: Difusión Serie-Paralela para la Generación de Video Físicamente y Lógicamente Coherente",
+      "summary": "Los modelos de difusión bidireccional de video desenfaran videos enteros en paralelo, pero cuando se entrenan con datos in-distribuidos de generadores",
+      "time": "65h",
+      "url": "https://huggingface.co/papers/2610.06847"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "paper",
+      "title": "Una Acción Segura No Es Suficiente: Decodificación Futuro-Posible para Políticas de Visión-Lenguaje-Acción",
+      "summary": "Una acción segura no es necesariamente viable. Una política de visión-lenguaje-acción (VLA) congelada puede favorecer un movimiento localmente admisible que",
+      "time": "41h",
+      "url": "https://huggingface.co/papers/2610.05166"
+    },
+    {
       "source": "arXiv — cs.AI",
       "source_type": "arxiv",
       "lang": "en",
@@ -498,7 +543,7 @@
       "content_type": "paper",
       "title": "Adenoising Representaciones Jerárquicas: Difusión Conjunta Continua para Modelado Léxico",
       "summary": "Los Modelos de Lenguaje por Difusión Continua (CDLMs) mantienen la promesa de una generación de texto en paralelo agnóstica al orden. Recientemente, los",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2610.08738v1",
       "arxiv": "2610.08738v1"
     },
@@ -558,7 +603,7 @@
       "content_type": "paper",
       "title": "Un Estudio Sistemático de Espacios de Identificación Semántica para la Recuperación de Información Generativa",
       "summary": "Generative Information Retrieval (GIR) ha emergido como un paradigma transformador, desplazando la recuperación de documentos de un flujo de trabajo",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2610.08732v1",
       "arxiv": "2610.08732v1"
     },
@@ -654,7 +699,7 @@
       "content_type": "paper",
       "title": "EgoLAP: Aprendizaje a partir de Datos Egocéntricos Humanos mediante Razonamiento Lenguaje-Acción",
       "summary": "Los datos egocéntricos humanos ofrecen un camino para escalar el aprendizaje de los robots más allá de las demostraciones de robots costosas, sin embargo, el",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2610.08726v1",
       "arxiv": "2610.08726v1"
     },
@@ -690,7 +735,7 @@
       "content_type": "paper",
       "title": "El Par Mínimo Perdido: Evaluación de Estereotipos en Sistemas de Inteligencia Artificial basados en Modelos de Gran Escala",
       "summary": "Un enfoque común para medir sesgos en Modelos de Lenguaje Grandes es comparar las log-verosimilitudes de dos oraciones de contraste estereotípicas.",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2610.08747v1",
       "arxiv": "2610.08747v1"
     },
@@ -726,7 +771,7 @@
       "content_type": "paper",
       "title": "Linear Bandits bajo Restricciones Exactas de Ventana Deslizante",
       "summary": "Estudiamos bandits lineales bajo restricciones exactas de ventana deslizante, donde cada bloque consecutivo de acciones debe pertenecer a un conjunto factible",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2610.08745v1",
       "arxiv": "2610.08745v1"
     },
@@ -762,7 +807,7 @@
       "content_type": "paper",
       "title": "Aprendizaje por Refuerzo con Conjuntos Conformes de Acciones: Una Aplicación a la Recomendación Secuencial",
       "summary": "Los recomendadores secuenciales suelen utilizar un tamaño fijo de lista, a pesar de que el número de alternativas útiles cambia durante una sesión. Se propone",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2610.08743v1",
       "arxiv": "2610.08743v1"
     },
@@ -846,7 +891,7 @@
       "content_type": "paper",
       "title": "Sobre la Tractabilidad Computacional de los Bandits Robustos",
       "summary": "Cuando el entorno no pertenece a la clase de hipótesis del aprendizaje, se maneja típicamente utilizando garantías de aprendizaje agnóstico. Sin embargo, para",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2610.08740v1",
       "arxiv": "2610.08740v1"
     },
@@ -858,7 +903,7 @@
       "content_type": "paper",
       "title": "Optimización inversa en línea óptima y eficiente",
       "summary": "En la inversa lineal en línea, un aprendiz recomienda una acción y luego observa la elección de un experto que maximiza un objetivo lineal fijo e desconocido",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2610.08735v1",
       "arxiv": "2610.08735v1"
     },
@@ -980,6 +1025,28 @@
       "url": "https://www.youtube.com/watch?v=pDWGRg32Bsk"
     },
     {
+      "source": "Two Minute Papers",
+      "source_type": "youtube",
+      "lang": "en",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "El nuevo AI de DeepMind Acaba de Descifrar el Código de la Vida",
+      "summary": "❤️ Consulta Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers Agradecemos la invitación de Google DeepMind. 📝 El Atlas AlphaGenome está disponible",
+      "time": "ahora",
+      "url": "https://www.youtube.com/watch?v=Wkaw03p3BrM"
+    },
+    {
+      "source": "Migue Baena IA",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Ahorra horas en tus diapositivas con esta herramienta 💻✨",
+      "summary": "¿Sigues haciendo tus presentaciones desde cero en PowerPoint? 🤯 Con Runable puedes utilizar Inteligencia Artificial para pasar de una idea a una presentación",
+      "time": "ahora",
+      "url": "https://www.youtube.com/shorts/J-rDk4c2PE8"
+    },
+    {
       "source": "Xataka IA",
       "source_type": "rss",
       "lang": "es",
@@ -1018,6 +1085,17 @@
       "lang": "es",
       "cat": "Modelos",
       "content_type": "news",
+      "title": "Wall Street ha descubierto que implantar IA no va de despedir empleados sino de contratar a los correctos",
+      "summary": "<p> <img",
+      "time": "1h",
+      "url": "https://www.xataka.com/robotica-e-ia/wall-street-ha-descubierto-que-implantar-ia-no-consiste-despedir-empleados-sino-contratar-a-correctos"
+    },
+    {
+      "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Modelos",
+      "content_type": "news",
       "title": "Alguien ha entrenado un modelo IA para detectar textos escritos con IA y dice detectarlos con un 98% de precisión",
       "summary": "<p> <img",
       "time": "7h",
@@ -1031,7 +1109,7 @@
       "content_type": "release",
       "title": "Mistral AI lanza Mistral Large 4 (Le Chonk): un modelo multimodal MoE con 1.05T parámetros.",
       "summary": "Mistral AI ha lanzado Mistral Large 4, apodado Le Chonk, como una vista previa pública. Es un modelo de Mixture of Experts con 1.05 trillones de parámetros, 49",
-      "time": "19h",
+      "time": "20h",
       "url": "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/"
     },
     {
@@ -1042,7 +1120,7 @@
       "content_type": "release",
       "title": "Google DeepMind lanza EmbeddingGemma 2, un modelo de embeddings multimodales de 740M abiertos construido sobre Gemma 4.",
       "summary": "<p>Google DeepMind's EmbeddingGemma 2 mapea 5 tipos de entrada en un espacio de 768d y se lanza hoy bajo la licencia Apache 2.0.</p> <p>El post <a",
-      "time": "18h",
+      "time": "19h",
       "url": "https://www.marktechpost.com/2026/10/06/google-deepmind-releases-embeddinggemma-2-a-740m-open-multimodal-embedding-model-built-on-gemma-4/"
     },
     {
@@ -1086,7 +1164,7 @@
       "content_type": "news",
       "title": "Meta AI libera de manera abierta Rebalancer: un solver de asignación en C++ que resuelve aproximadamente 40 millones de problemas de distribución diariamente.",
       "summary": "Meta ha abierto fuente Rebalancer, la biblioteca de C++ y Python que ha utilizado durante más de 9 años para colocar particiones, servidores y tráfico. Maneja",
-      "time": "6h",
+      "time": "7h",
       "url": "https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day/"
     },
     {
@@ -1152,7 +1230,7 @@
       "content_type": "news",
       "title": "España acelera su gasto en IA pública pero solo escala el 27% de proyectos",
       "summary": "Un informe de Capgemini revela que la administración española destinará el 7,4% de su presupuesto TI a IA en 2027, topando con el muro del piloto.",
-      "time": "23h",
+      "time": "24h",
       "url": "https://www.silicon.es/espana-acelera-su-gasto-en-ia-publica-pero-solo-escala-el-27-de-proyectos-2584775"
     },
     {
@@ -1196,7 +1274,7 @@
       "content_type": "news",
       "title": "No podemos simplemente cambiar la definición de 'grabación'.",
       "summary": "Con el hardware de IA, las empresas de tecnología están impulsando la definición de lo que sí y no constituye una grabación. Por la mayoría de la historia de",
-      "time": "20h",
+      "time": "21h",
       "url": "https://www.theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording"
     },
     {
@@ -1209,6 +1287,39 @@
       "summary": "Los anuncios se muestran en planes Free y Go, para usuarios adultos y fuera de conversaciones sensibles.",
       "time": "1h",
       "url": "https://www.silicon.es/publicidad-en-chatgp-un-canal-con-potencial-sin-benchmarks-consolidados-2584772"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Presentando Falcon ASR",
+      "summary": "",
+      "time": "ahora",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Una familia de modelos, dos resultados de nivel oro: afinando el Nemotron para IOI y IMO",
+      "summary": "",
+      "time": "ahora",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "El AI podría revolucionar la entrega de comida",
+      "summary": "DoorDash, la aplicación de entrega de comida líder, procesó 970 millones de pedidos en su segundo trimestre este año y generó 4.5 mil millones de dólares en",
+      "time": "1h",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites"
     }
   ]
 }
