@@ -9,7 +9,7 @@
   "stats": {
     "new_articles": 112,
     "sources": 44,
-    "updated_label": "10:43"
+    "updated_label": "10:46"
   },
   "iaday": {
     "reading_minutes": "67 min",
@@ -188,7 +188,7 @@
       "content_type": "repo",
       "title": "PkLavc/Autotrader",
       "summary": "⭐ 1 estrella — Sistema de trading autónomo basado en Kronos. Predice los mercados, construye carteras y realiza operaciones simuladas automáticamente con",
-      "time": "10h",
+      "time": "11h",
       "url": "https://github.com/PkLavc/Autotrader",
       "stars": "1"
     },
@@ -383,7 +383,7 @@
       "content_type": "paper",
       "title": "Razonamiento Basado en Evidencias: Verificación Neuroléxica del AI Biomédico en Radiogenómica del Glioblastoma",
       "summary": "Fondo: El IA biomédico puede generar explicaciones plausibles sin verificar con fiabilidad si cada afirmación está respaldada por evidencia específica del",
-      "time": "20h",
+      "time": "21h",
       "url": "https://arxiv.org/abs/2610.08660v1",
       "arxiv": "2610.08660v1"
     },
@@ -879,7 +879,7 @@
       "content_type": "paper",
       "title": "Flujo neural de Petri para reacciones químicas",
       "summary": "Se han utilizado los retículos de Petri para describir procesos químicos como reacciones. Se adaptan bien a la química: los lugares representan los enlaces",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2610.08750v1",
       "arxiv": "2610.08750v1"
     },
@@ -1285,7 +1285,7 @@
       "content_type": "news",
       "title": "Publicidad en ChatGPT, un canal con potencial sin benchmarks consolidados",
       "summary": "Los anuncios se muestran en planes Free y Go, para usuarios adultos y fuera de conversaciones sensibles.",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.silicon.es/publicidad-en-chatgp-un-canal-con-potencial-sin-benchmarks-consolidados-2584772"
     },
     {
@@ -1307,7 +1307,7 @@
       "content_type": "news",
       "title": "Una familia de modelos, dos resultados de nivel oro: afinando el Nemotron para IOI y IMO",
       "summary": "",
-      "time": "ahora",
+      "time": "1h",
       "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
     },
     {
