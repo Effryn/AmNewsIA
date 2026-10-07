@@ -7,15 +7,15 @@
     "script_text": "En el resumen de hoy tenemos movimientos importantes en modelos de código abierto, restricciones de seguridad en plataformas establecidas, y cambios en estrategias de monetización que están redefiniendo el panorama de la IA.\n\nComenzamos con un hito significativo en el ecosistema open source. Mistral ha lanzado Mistral Large 4, también conocido como \"Le Chonk\", un modelo multimodal con 1.05 billones de parámetros que utiliza arquitectura Mixture of Experts. La relevancia aquí es que Mistral continúa cerrando la brecha con modelos chinos de alto rendimiento, pero manteniendo el código abierto, lo que democratiza el acceso a capacidades de IA de nivel empresarial.\n\nEn paralelo, Google DeepMind ha liberado EmbeddingGemma 2, un modelo multimodal de embeddings mucho más ligero con 740 millones de parámetros. Esta es una estrategia complementaria: mientras Mistral apunta a máxima potencia con pesos abiertos, Google ofrece soluciones eficientes y compactas para casos de uso específicos.\n\nAhora bien, si el ecosistema open source se expande, el lado propietario se contrae. Apple está cortando el acceso a agentes de IA por motivos de seguridad, y Google está eliminando el acceso gratuito a Gemini Flash y Pro. Estos movimientos revelan una preocupación creciente sobre los riesgos de seguridad que conlleva la autonomía de los agentes de IA sin supervisión.\n\nEn cuanto a monetización, OpenAI mantiene su estrategia de cobrar por diferentes capacidades. Mientras tanto, han anunciado partnerships interesantes: Jump Trading está utilizando ChatGPT para escalar investigación cuantitativa, y OpenAI está compartiendo avances en matemáticas. ChatGPT además está agregando nuevas funciones, como un probador virtual que te permite subir fotos de ropa para ver cómo te queda.\n\nUn dato curioso pero importante: alguien ha entrenado un modelo para detectar textos generados por IA, asegurando precisión del 98%. Esto abre un nuevo frente: la carrera de los detectores frente a los generadores, similar a la dinámica clásica de antivirus versus malware.\n\nMeta, por su parte, ha liberado Rebalancer, un solucionador de asignaciones en C++ capaz de procesar 40 millones de problemas de placement diarios, dirigido a optimización a escala.\n\nEn síntesis: el código abierto avanza con fuerza, las plataformas establecidas refuerzan controles de seguridad, y la monetización se polariza entre modelos gratuitos de empresa y servicios premium. El mercado continúa en plena transformación.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 100,
+    "new_articles": 102,
     "sources": 44,
-    "updated_label": "08:47"
+    "updated_label": "08:58"
   },
   "iaday": {
-    "reading_minutes": "60 min",
+    "reading_minutes": "61 min",
     "audio_duration": "—",
     "key_count": 3,
-    "papers_count": 62,
+    "papers_count": 63,
     "repos_count": 15,
     "videos_count": 3,
     "impact": "Alto"
@@ -57,7 +57,7 @@
       "content_type": "repo",
       "title": "Ianwieds/awesome-ai-agents",
       "summary": "⭐ 2 estrellas — A curated list of AI agent frameworks, coding agents, browser agents, tools, platforms and research.",
-      "time": "87h",
+      "time": "88h",
       "url": "https://github.com/ianwieds/awesome-ai-agents",
       "stars": "2"
     },
@@ -69,7 +69,7 @@
       "content_type": "repo",
       "title": "Valorisa/AI-Frontier-Watcher",
       "summary": "⭐ 1 estrellas — Veille documentaro-informationnelle sur les modèles d’IA de pointe : disponibilité, évolutions, accès, API, plateformes et concurrents, avec un",
-      "time": "71h",
+      "time": "72h",
       "url": "https://github.com/valorisa/AI-Frontier-Watcher",
       "stars": "1"
     },
@@ -81,7 +81,7 @@
       "content_type": "repo",
       "title": "Sabarinathan-raja/Document-information",
       "summary": "⭐ 0 estrellas — AI-powered document information extraction and analysis using Google Gemini API and Python.",
-      "time": "20h",
+      "time": "21h",
       "url": "https://github.com/sabarinathan-raja/Document-information",
       "stars": "0"
     },
@@ -176,7 +176,7 @@
       "content_type": "repo",
       "title": "Sukisuou/Ophelia",
       "summary": "⭐ 1 estrellas — custom transformer daughter",
-      "time": "138h",
+      "time": "139h",
       "url": "https://github.com/sukisuou/Ophelia",
       "stars": "1"
     },
@@ -212,7 +212,7 @@
       "content_type": "repo",
       "title": "19jenil/AI-Image-Detection-Deep-Learning",
       "summary": "⭐ 0 estrellas — Deep learning-based web application for detecting AI-generated images using CNN and transfer learning models including ResNet50, MobileNetV2",
-      "time": "17h",
+      "time": "18h",
       "url": "https://github.com/19jenil/AI-Image-Detection-Deep-Learning",
       "stars": "0"
     },
@@ -296,6 +296,17 @@
       "url": "https://huggingface.co/papers/2610.02858"
     },
     {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "DiffGate: Difficulty-Gated Teacher Guidance for On-Policy Distillation",
+      "summary": "On-policy distillation (OPD) has emerged as a widely used paradigm for post-training large language models, reducing the train--test mismatch of conventional",
+      "time": "111h",
+      "url": "https://huggingface.co/papers/2610.04596"
+    },
+    {
       "source": "arXiv — cs.CL",
       "source_type": "arxiv",
       "lang": "en",
@@ -303,7 +314,7 @@
       "content_type": "paper",
       "title": "Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment",
       "summary": "Language models increasingly act as agents. An agent that says an action is wrong and then takes it anyway is a different failure from one that does not know",
-      "time": "18h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2610.08670v1",
       "arxiv": "2610.08670v1"
     },
@@ -337,7 +348,7 @@
       "content_type": "paper",
       "title": "Agente en una Botella: ¿Pueden los Agentes LLM Transformar sus Capacidades en Artefactos Baratos y Escalables?",
       "summary": "Los modelos de lenguaje de gran escala (LLMs) pueden resolver muchas tareas específicas, pero consultarlos individualmente para millones de instancias",
-      "time": "17h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2610.08775v1",
       "arxiv": "2610.08775v1"
     },
@@ -439,7 +450,7 @@
       "content_type": "paper",
       "title": "EC-RAG: Event Chain Retrieval-Augmented Generation for Long Video Understanding",
       "summary": "Current large video-language models (LVLMs) still face challenges when dealing with long videos, mainly because frames are often processed independently,",
-      "time": "18h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2610.08674v1",
       "arxiv": "2610.08674v1"
     },
@@ -463,7 +474,7 @@
       "content_type": "paper",
       "title": "VeriFine: Escalado de Verificación para Auto Mejoramiento en Razonamiento Embodied",
       "summary": "Las políticas de auto-mejoramiento continúan revelando nuevos patrones de fallo, lo que cambia lo que sus jueces deben poder verificar. Sin embargo, jueces",
-      "time": "17h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2610.08761v1",
       "arxiv": "2610.08761v1"
     },
@@ -499,7 +510,7 @@
       "content_type": "paper",
       "title": "Same-Number Citation Swaps: Stress-Testing Jev as a Financial Evidence Judge",
       "summary": "Financial reports repeat values across periods, metrics and accounting lines, allowing an LLM-generated calculation to be numerically correct while citing the",
-      "time": "18h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2610.08675v1",
       "arxiv": "2610.08675v1"
     },
@@ -535,7 +546,7 @@
       "content_type": "paper",
       "title": "Sherpa: Enseñando LLMs a enseñar de manera adaptativa",
       "summary": "Los modelos de lenguaje de gran tamaño (LLMs) se han vuelto cada vez mejores resolviendo problemas, pero resolver un problema no es lo mismo que enseñarlo. Los",
-      "time": "17h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2610.08778v1",
       "arxiv": "2610.08778v1"
     },
@@ -619,7 +630,7 @@
       "content_type": "paper",
       "title": "AdvSim2Real : Entrenamiento de Agentes Web contra la Inyección Adaptativa de Prompts en un Modelo de Mundo Web",
       "summary": "Los agentes web completan las solicitudes del usuario leyendo y actuando en páginas que terceros escriben, por lo que una instrucción plantada en una página",
-      "time": "17h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2610.08773v1",
       "arxiv": "2610.08773v1"
     },
@@ -631,7 +642,7 @@
       "content_type": "paper",
       "title": "WorldSonus: Traer sonido a mundos",
       "summary": "Los recientes avances en modelos del mundo han permitido una síntesis visual cada vez más realista. Sin embargo, estos entornos generados permanecen en gran",
-      "time": "17h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2610.08760v1",
       "arxiv": "2610.08760v1"
     },
@@ -739,7 +750,7 @@
       "content_type": "paper",
       "title": "Data Leakage in Patch-Based Hyperspectral Image Classification: Quantifying the Impact of Spatial Overlap",
       "summary": "Patch-based learning improves hyperspectral image (HSI) classification by exploiting local spectral-spatial information, but random train-test sampling from",
-      "time": "17h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2610.08770v1",
       "arxiv": "2610.08770v1"
     },
@@ -811,7 +822,7 @@
       "content_type": "paper",
       "title": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion",
       "summary": "We develop the first feedback design for rapid stabilization of the Kuramoto--Sivashinsky equation with a spatially varying anti-diffusion coefficient. For",
-      "time": "17h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2610.08764v1",
       "arxiv": "2610.08764v1"
     },
@@ -907,7 +918,7 @@
       "content_type": "paper",
       "title": "Backend-Agnostic Sparse Attention for Fast High-Resolution Visual Generation",
       "summary": "Diffusion Transformers (DiTs) have achieved strong performance in image and video generation, but the quadratic complexity of full attention makes",
-      "time": "17h",
+      "time": "18h",
       "url": "https://arxiv.org/abs/2610.08772v1",
       "arxiv": "2610.08772v1"
     },
@@ -965,7 +976,7 @@
       "content_type": "video",
       "title": "Inteligencia artificial: por qué rechacé Jev para gentle-ai",
       "summary": "Gentleman Programming | Inteligencia artificial | Inteligencia artificial: por qué rechacé a Jev para gentle-ai y la verdad detrás del fomo de los modelos",
-      "time": "19h",
+      "time": "20h",
       "url": "https://www.youtube.com/watch?v=pDWGRg32Bsk"
     },
     {
@@ -1053,7 +1064,7 @@
       "content_type": "news",
       "title": "InserciónGemma 2: un modelo de inserción multimodal abierto y liviano",
       "summary": "",
-      "time": "15h",
+      "time": "16h",
       "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
     },
     {
@@ -1152,7 +1163,7 @@
       "content_type": "news",
       "title": "A Developer’s Guide to Laya: Zero-Shot Decisions and Calibration",
       "summary": "<p>Explore a comprehensive coding guide to Laya, the open-source zero-shot decision engine. Learn how to implement typed decisions, fit custom temperatures,",
-      "time": "10h",
+      "time": "11h",
       "url": "https://www.marktechpost.com/2026/10/06/a-developers-guide-to-laya-zero-shot-decisions-and-calibration/"
     },
     {
@@ -1187,6 +1198,17 @@
       "summary": "With AI hardware, tech companies are pushing the definition of what does and doesn't constitute a recording. For most of gadget history, it'd be reasonable to",
       "time": "19h",
       "url": "https://www.theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording"
+    },
+    {
+      "source": "Silicon España",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "Publicidad en ChatGPT, un canal con potencial sin benchmarks consolidados",
+      "summary": "Los anuncios se muestran en planes Free y Go, para usuarios adultos y fuera de conversaciones sensibles.",
+      "time": "ahora",
+      "url": "https://www.silicon.es/publicidad-en-chatgp-un-canal-con-potencial-sin-benchmarks-consolidados-2584772"
     }
   ]
 }
