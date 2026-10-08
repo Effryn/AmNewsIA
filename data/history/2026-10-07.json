@@ -9,7 +9,7 @@
   "stats": {
     "new_articles": 112,
     "sources": 44,
-    "updated_label": "21:54"
+    "updated_label": "21:57"
   },
   "iaday": {
     "reading_minutes": "67 min",
@@ -57,7 +57,7 @@
       "content_type": "repo",
       "title": "Ianwieds/agentes-inteligentes-awesomes",
       "summary": "⭐ 2 estrellas — Una lista curada de marcos de agentes de inteligencia artificial, agentes de codificación, agentes de navegador, herramientas, plataformas y",
-      "time": "100h",
+      "time": "101h",
       "url": "https://github.com/ianwieds/awesome-ai-agents",
       "stars": "2"
     },
@@ -69,7 +69,7 @@
       "content_type": "repo",
       "title": "Valoriza/AI-Frontier-Watcher",
       "summary": "⭐ 1 estrellas — Vigilancia documental-informativa sobre los modelos de IA de punta: disponibilidad, evoluciones, acceso, API, plataformas y competidores, con",
-      "time": "84h",
+      "time": "85h",
       "url": "https://github.com/valorisa/AI-Frontier-Watcher",
       "stars": "1"
     },
@@ -371,7 +371,7 @@
       "content_type": "paper",
       "title": "Agente en una Botella: ¿Pueden los Agentes LLM Transformar sus Capacidades en Artefactos Baratos y Escalables?",
       "summary": "Los modelos de lenguaje de gran escala (LLMs) pueden resolver muchas tareas específicas, pero consultarlos individualmente para millones de instancias",
-      "time": "30h",
+      "time": "31h",
       "url": "https://arxiv.org/abs/2610.08775v1",
       "arxiv": "2610.08775v1"
     },
@@ -473,7 +473,7 @@
       "content_type": "paper",
       "title": "EC-RAG: Event Chain Retrieval-Augmented Generation para la Comprensión de Videos Largos",
       "summary": "Actualmente, los grandes modelos de video-lenguaje (LVLMs) siguen enfrentando desafíos al tratar con videos largos, principalmente porque las cuadros a menudo",
-      "time": "31h",
+      "time": "32h",
       "url": "https://arxiv.org/abs/2610.08674v1",
       "arxiv": "2610.08674v1"
     },
@@ -555,7 +555,7 @@
       "content_type": "paper",
       "title": "Intercambios de Citas con el Mismo Número: Prueba de Estrés de Jev como Juez de Pruebas Financieras",
       "summary": "Los informes financieros repiten valores a lo largo de períodos, métricas y líneas contables, lo que permite que un cálculo generado por un LLM sea",
-      "time": "31h",
+      "time": "32h",
       "url": "https://arxiv.org/abs/2610.08675v1",
       "arxiv": "2610.08675v1"
     },
@@ -675,7 +675,7 @@
       "content_type": "paper",
       "title": "AdvSim2Real : Entrenamiento de Agentes Web contra la Inyección Adaptativa de Prompts en un Modelo de Mundo Web",
       "summary": "Los agentes web completan las solicitudes del usuario leyendo y actuando en páginas que terceros escriben, por lo que una instrucción plantada en una página",
-      "time": "30h",
+      "time": "31h",
       "url": "https://arxiv.org/abs/2610.08773v1",
       "arxiv": "2610.08773v1"
     },
@@ -795,7 +795,7 @@
       "content_type": "paper",
       "title": "El filtrado de filtración de datos en la clasificación basada en parches de imágenes hiperspectrales: cuantificación del impacto de la superposición espacial",
       "summary": "El aprendizaje basado en parches mejora la clasificación de imágenes de espectro hiperspectral (HSI) al explotar la información espectral-espacial local, pero",
-      "time": "30h",
+      "time": "31h",
       "url": "https://arxiv.org/abs/2610.08770v1",
       "arxiv": "2610.08770v1"
     },
@@ -963,7 +963,7 @@
       "content_type": "paper",
       "title": "Atención Esparsa Agnóstica del Backend para una Generación Visual de Alta Resolución Rápida",
       "summary": "Los Diffusion Transformers (DiTs) han logrado un rendimiento fuerte en la generación de imágenes y videos, pero la complejidad cuadrática de la atención",
-      "time": "30h",
+      "time": "31h",
       "url": "https://arxiv.org/abs/2610.08772v1",
       "arxiv": "2610.08772v1"
     },
@@ -1142,7 +1142,7 @@
       "content_type": "news",
       "title": "InserciónGemma 2: un modelo de inserción multimodal abierto y liviano",
       "summary": "",
-      "time": "28h",
+      "time": "29h",
       "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
     },
     {
