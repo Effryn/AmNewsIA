@@ -9,7 +9,7 @@
   "stats": {
     "new_articles": 64,
     "sources": 44,
-    "updated_label": "16:36"
+    "updated_label": "16:53"
   },
   "iaday": {
     "reading_minutes": "38 min",
@@ -57,7 +57,7 @@
       "content_type": "repo",
       "title": "Shashikantdev3/attention-span",
       "summary": "⭐ 2 estrellas — Daily AI news, fact-checked and traced back to its roots. A source-checked history of AI since 1943, a glossary with lineage, and the labs and",
-      "time": "51h",
+      "time": "52h",
       "url": "https://github.com/shashikantdev3/attention-span",
       "stars": "2"
     },
@@ -69,7 +69,7 @@
       "content_type": "repo",
       "title": "FareedKhan-dev/lean-agent",
       "summary": "⭐ 0 estrellas — A coding agent that refuses to over-engineer, built from scratch and measured honestly in one course notebook",
-      "time": "87h",
+      "time": "88h",
       "url": "https://github.com/FareedKhan-dev/lean-agent",
       "stars": "0"
     },
@@ -93,7 +93,7 @@
       "content_type": "repo",
       "title": "Regional-Hub-for-Big-Data-in-Brazil/training-materials",
       "summary": "⭐ 1 estrellas — training materials",
-      "time": "50h",
+      "time": "51h",
       "url": "https://github.com/Regional-Hub-for-Big-Data-in-Brazil/training-materials",
       "stars": "1"
     },
@@ -117,7 +117,7 @@
       "content_type": "repo",
       "title": "Arst24/EV-Driver-Drowsiness-Detection",
       "summary": "⭐ 1 estrellas — AI-based driver drowsiness detection using Python, MediaPipe, Arduino Mega 2560, and an ISD1820 voice warning module.",
-      "time": "8h",
+      "time": "9h",
       "url": "https://github.com/arst24/EV-Driver-Drowsiness-Detection",
       "stars": "1"
     },
@@ -702,7 +702,7 @@
       "content_type": "news",
       "title": "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text",
       "summary": "<p>Nace.AI has open-sourced Drex 1.5, a 9B decision model that returns a probability for every option in 1 forward pass. It scores 58.08 on Decision Index",
-      "time": "14h",
+      "time": "15h",
       "url": "https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/"
     },
     {
