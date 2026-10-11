@@ -328,6 +328,16 @@ function flipCardEl(id, toBack){
   document.getElementById(`${id}-wrap`).classList.toggle("flipped", toBack);
 }
 
+/* Ruta del audio por convencion: assets/audio/{fecha}.mp3.
+   El JSON ya no publica audio_url (cambio del 2026-10-07). */
+function audioUrlFor(data){
+  if (!data || !data.briefing) return null;
+  if (data.briefing.audio_url) return data.briefing.audio_url;
+  const dur = data.briefing.duration_label;
+  if (!data.date || !dur || dur === "\u2014") return null;
+  return `assets/audio/${data.date}.mp3`;
+}
+
 let activeAudioId = null;
 function toggleCardAudio(id){
   const entry = cardRegistry[id];
@@ -351,6 +361,7 @@ const briefingAudio = document.getElementById("briefingAudio");
 briefingAudio.addEventListener("play", () => { if (activeAudioId) setIconState(activeAudioId, true); });
 briefingAudio.addEventListener("pause", () => { if (activeAudioId) setIconState(activeAudioId, false); });
 briefingAudio.addEventListener("ended", () => { if (activeAudioId) setIconState(activeAudioId, false); });
+briefingAudio.addEventListener("error", () => { if (activeAudioId) setIconState(activeAudioId, false); });
 
 /* ── IA Summary principal ─────────────────────────────────────────── */
 function renderHero(){
@@ -358,7 +369,7 @@ function renderHero(){
   const rss = DATA.articles.filter(a => a.source_type === "rss").slice(0, 10);
   document.getElementById("heroMount").innerHTML = buildCardHTML("hero", {
     size:"main", label:"IA Summary", text:clean,
-    audioUrl:DATA.briefing.audio_url, sources:rss, playVideo:true,
+    audioUrl:audioUrlFor(DATA), sources:rss, playVideo:true,
   });
 
   const d = DATA.date.split("-");
@@ -516,7 +527,7 @@ function dayCardHTML(id, dateLabel, detail){
   const sources = (detail.articles || []).filter(a => a.source_type === "rss").slice(0, 10);
   return buildCardHTML(id, {
     size:"small", label: dateLabel, text:clean,
-    audioUrl:detail.briefing.audio_url, sources, playVideo:false,
+    audioUrl:audioUrlFor(detail), sources, playVideo:false,
   });
 }
 
