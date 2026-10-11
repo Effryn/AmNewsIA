@@ -4,13 +4,12 @@
   "greeting": "Buenos días, Effry",
   "briefing": {
     "duration_label": "2:26",
-    "audio_url": "assets/audio/2026-09-24.mp3",
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama donde la IA agéntica está dejando de ser promesa para convertirse en realidad, mientras los gobiernos se apresuran a regular y las empresas luchan por la independencia tecnológica.\n\nComencemos con Meta, que está consolidándose como líder indiscutible en inteligencia artificial agéntica. Su sistema Muse está cumpliendo lo que otros solo prometen, y la compañía de Mark Zuckerberg ha decidido llevar esta tecnología al siguiente nivel: primero con un Tamagotchi digital que funciona como agente de IA personal, y ahora anunciando que Muse llegará a sus gafas inteligentes, que acaban de renovarse con un modelo sin cámara que apunta a usos más discretos.\n\nEn el frente regulatorio, la administración estadounidense ha tomado una posición clara contra OpenAI: rechaza la idea de que una IA \"descontrolada\" sea responsabilidad de nadie. Si una inteligencia artificial comete un crimen, la empresa detrás será la responsable legal. Un mensaje que cambia completamente las reglas del juego.\n\nGoogle, por su parte, no se queda atrás. Ha lanzado Gemini 3.8 Flash con capacidades mejoradas de síntesis de voz basadas en prompts, y desde DeepMind confirman que Gemini 4 está prácticamente lista. En paralelo, startups como Contrastive-LM están optimizando modelos de evaluación de agentes con velocidades hasta nueve veces superiores a las soluciones previas.\n\nEn el ámbito europeo, crece la presión por la autonomía tecnológica. Alemania y Países Bajos avanzan con planes concretos para diseñar chips de IA usando IA, reduciendo la dependencia de fabricantes estadounidenses.\n\nSin embargo, no todo es euforia. El sector vive una paradoja preocupante: mientras la IA promete liberar a los programadores, muchos reportan que solo están pulsando enter, perdiendo la ilusión y el propósito en su trabajo. Y en China, irónicamente, la inversión en IA para solucionar la crisis demográfica está produciendo el efecto contrario, dando a los jóvenes más razones para no casarse ni formar familias.\n\nFinalmente, una nota sobre el fenómeno de las startups: Instinct aún no ha facturado un dólar, pero está a punto de alcanzar una valoración de diez mil millones. Su producto principal parece ser la promesa de que la IA nos quitará tareas tan engorrosas que no podremos resistirnos a adoptarla.\n\nUn día donde la tecnología avanza sin pausa, la regulación se endurece, y las consecuencias sociales apenas comienzan a visibilizarse.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 100,
     "sources": 44,
-    "updated_label": "09:56"
+    "updated_label": "11:18"
   },
   "iaday": {
     "reading_minutes": "60 min",
@@ -35,7 +34,7 @@
       "content_type": "repo",
       "title": "Javronich1/juego-botones-razonamiento-ai",
       "summary": "⭐ 0 estrellas — Agentes para decisiones en juegos como UNO, Fantasmas y Quoridor, jugando en un servidor remoto a través de un cliente API REST.",
-      "time": "17h",
+      "time": "427h",
       "url": "https://github.com/javronich1/game-bots-ai-reasoning",
       "stars": "0"
     },
@@ -47,7 +46,7 @@
       "content_type": "repo",
       "title": "Gilsonnogueira/notebooklm-para-concursos",
       "summary": "⭐ 25 estrellas — Ecosistema de Ingeniería de Estudios con IA Fundamentada (NotebookLM + Gemini Estudiantes). Metodología N.A.G. (Núcleo de Aprendizaje Guiado)",
-      "time": "70h",
+      "time": "480h",
       "url": "https://github.com/gilsonnogueira/notebooklm-para-concursos",
       "stars": "25"
     },
@@ -59,7 +58,7 @@
       "content_type": "repo",
       "title": "Anil-matcha/awesome-gemini-4-pro",
       "summary": "⭐ 3 estrellas — Casos de uso, prompts, evaluaciones y seguimiento del estado respaldados por evidencias para Gemini 4 Pro",
-      "time": "137h",
+      "time": "547h",
       "url": "https://github.com/Anil-matcha/awesome-gemini-4-pro",
       "stars": "3"
     },
@@ -71,7 +70,7 @@
       "content_type": "repo",
       "title": "Adishuklaa/ai-kyc-aml-assistant",
       "summary": "⭐ 18 estrellas — An AI-assisted compliance dashboard for accelerating customer onboarding, featuring automated document verification and PEP/sanctions risk",
-      "time": "2h",
+      "time": "412h",
       "url": "https://github.com/adishuklaa/ai-kyc-aml-assistant",
       "stars": "18"
     },
@@ -83,7 +82,7 @@
       "content_type": "repo",
       "title": "Parithosh-Varma/opencode-proxy",
       "summary": "⭐ 3 estrellas — Use OpenCode Zen free models en cualquier lugar — proxy local compatible con OpenAI (zero-dep) (mimo, nemotron, ling, big-pickle, muse-spark)",
-      "time": "32h",
+      "time": "442h",
       "url": "https://github.com/Parithosh-Varma/opencode-proxy",
       "stars": "3"
     },
@@ -95,7 +94,7 @@
       "content_type": "repo",
       "title": "Ilyeess-Rj/github-repositories-radar",
       "summary": "⭐ 2 estrellas — Flujo de trabajo autónomo de n8n que escanea diariamente GitHub en busca de repositorios en tendencia que coincidan con tus intereses (IA,",
-      "time": "56h",
+      "time": "466h",
       "url": "https://github.com/Ilyeess-Rj/github-repositories-radar",
       "stars": "2"
     },
@@ -107,7 +106,7 @@
       "content_type": "repo",
       "title": "G0runmezadam/jev-architecture-research",
       "summary": "⭐ 2 estrellas — Archivo de investigación sobre el reverse engineering de la caja negra para el modelo de decisión Jev",
-      "time": "43h",
+      "time": "453h",
       "url": "https://github.com/g0runmezadam/jev-architecture-research",
       "stars": "2"
     },
@@ -119,7 +118,7 @@
       "content_type": "repo",
       "title": "PrinceZaman-2005/Backpropagación",
       "summary": "⭐ 2 estrellas — Backpropagation es un algoritmo de aprendizaje que ayuda a un red neuronal a ajustar sus pesos trabajando hacia atrás desde el error de",
-      "time": "56h",
+      "time": "466h",
       "url": "https://github.com/PrinceZaman-2005/Backpropagation",
       "stars": "2"
     },
@@ -131,7 +130,7 @@
       "content_type": "repo",
       "title": "PrinceZaman-2005/Máquina_de_Boltzmann",
       "summary": "⭐ 2 estrellas — Una simple Máquina de Boltzmann construida desde cero con NumPy para explorar el aprendizaje basado en energía, neuronas estocásticas y",
-      "time": "7h",
+      "time": "416h",
       "url": "https://github.com/PrinceZaman-2005/Boltzmann-Machine",
       "stars": "2"
     },
@@ -143,7 +142,7 @@
       "content_type": "repo",
       "title": "Vansh-codi/StubbleAI",
       "summary": "⭐ 1 estrella — Sistema de predicción del riesgo de quema de residuos agrícolas a nivel distrital y apoyo a la toma de decisiones para la gestión sostenible",
-      "time": "109h",
+      "time": "518h",
       "url": "https://github.com/Vansh-codi/StubbleAI",
       "stars": "1"
     },
@@ -155,7 +154,7 @@
       "content_type": "repo",
       "title": "Devsudhanshu-bel/Metrius_Eats",
       "summary": "⭐ 1 estrella — Una simulación de restaurante para aprendizaje por refuerzo visual construida con Python y Pygame para la asignación inteligente de mesas y el",
-      "time": "80h",
+      "time": "490h",
       "url": "https://github.com/devsudhanshu-bel/Metrius_Eats",
       "stars": "1"
     },
@@ -167,7 +166,7 @@
       "content_type": "repo",
       "title": "Sifat2200/Sistema_de_Detección_y_Sugerencias_para_POC",
       "summary": "⭐ 1 estrella — Proyecto CSE445: Sistema de detección e interpretación de PCOS y sugerencias utilizando la augumentación de datos basada en NiWo, modelos de",
-      "time": "56h",
+      "time": "465h",
       "url": "https://github.com/sifat2200/PCOS-Detection-and-Suggestion-System",
       "stars": "1"
     },
@@ -179,7 +178,7 @@
       "content_type": "repo",
       "title": "Gabriela0402/ai-interview-evaluator",
       "summary": "⭐ 0 estrellas — Experimentos con LLMs en la evaluación estructurada de entrevistas comportamentales.",
-      "time": "60h",
+      "time": "469h",
       "url": "https://github.com/gabriela0402/ai-interview-evaluator",
       "stars": "0"
     },
@@ -191,7 +190,7 @@
       "content_type": "repo",
       "title": "Matheussoranco/Meta-Brain",
       "summary": "⭐ 0 estrellas — Aprendizaje por refuerzo inspirado en la conectoma completa con el conectoma del Drosophila macho. Simulación esparsa CUDA, control visual",
-      "time": "111h",
+      "time": "520h",
       "url": "https://github.com/Matheussoranco/Meta-Brain",
       "stars": "0"
     },
@@ -203,7 +202,7 @@
       "content_type": "paper",
       "title": "Memoria Justo-en-Tiempo: Aprendiendo a Curar una Memoria Adaptativa a Tareas para Agentes de LLM",
       "summary": "Los sistemas de memoria agente reutilizan experiencias pasadas para mejorar el rendimiento futuro, pero la mayoría de los diseños existentes curan la memoria",
-      "time": "40h",
+      "time": "450h",
       "url": "https://huggingface.co/papers/2609.27334"
     },
     {
@@ -214,7 +213,7 @@
       "content_type": "paper",
       "title": "Calibración como CrITERIO de Primera Clase en la Evaluación de LLM",
       "summary": "La calibración de modelos de lenguaje —la alineación entre la confianza expresada o implícita y la corrección empírica— es un subcampo bien estudiado dentro de",
-      "time": "64h",
+      "time": "474h",
       "url": "https://huggingface.co/papers/2609.26489"
     },
     {
@@ -225,7 +224,7 @@
       "content_type": "paper",
       "title": "FLEET: De la entropía de Logits a Trajetorías Mejoradas en la Generación de Texto",
       "summary": "Las soluciones basadas en modelos de lenguaje de gran escala (LLMs) a menudo dependen de la muestreo por temperatura para mejorar la precisión y la estabilidad",
-      "time": "40h",
+      "time": "450h",
       "url": "https://huggingface.co/papers/2609.27657"
     },
     {
@@ -236,7 +235,7 @@
       "content_type": "paper",
       "title": "FelicidadMundo-Banqueta",
       "summary": "Evaluando modelos mundiales, se requiere evaluar tanto la calidad de los mundos que generan como su consistencia y respuesta durante la exploración,",
-      "time": "88h",
+      "time": "498h",
       "url": "https://huggingface.co/papers/2609.24308"
     },
     {
@@ -247,7 +246,7 @@
       "content_type": "paper",
       "title": "EmbodiedSWE: Codificación de Agentes para Robótica Dexterosa a Gran Escala",
       "summary": "Estudiamos agentes codificados para robótica de larga horizonte y maniobrera y preguntamos si sus soluciones pueden proporcionar supervisión escalable para el",
-      "time": "40h",
+      "time": "450h",
       "url": "https://huggingface.co/papers/2609.27308"
     },
     {
@@ -258,7 +257,7 @@
       "content_type": "paper",
       "title": "PackLab: Un marco completo para el desarrollo, entrenamiento y evaluación de MLLMs en empaquetado en cajas robóticas",
       "summary": "Robotic bin packing requires long-horizon sequential decision-making, as each object placement affects the available space for subsequent packing. Existing",
-      "time": "112h",
+      "time": "522h",
       "url": "https://huggingface.co/papers/2609.23784"
     },
     {
@@ -269,7 +268,7 @@
       "content_type": "paper",
       "title": "Spatial-Interactor: Aprendizaje de la razonamiento espacial a través de la interacción con el mundo físico observable",
       "summary": "La razonamiento espacial es esencial para que los modelos de lenguaje-vista (MLV) entiendan y actúen en el mundo físico. El razonamiento en entornos dinámicos",
-      "time": "136h",
+      "time": "546h",
       "url": "https://huggingface.co/papers/2609.23038"
     },
     {
@@ -280,7 +279,7 @@
       "content_type": "paper",
       "title": "StudentBench: El tutoría por IA y la tutoría humana producen ganancias de aprendizaje equivalentes para el GRE",
       "summary": "La inteligencia artificial ofrece una oportunidad sin precedentes para ampliar las capacidades humanas, sin embargo, el progreso en la frontera se ha centrado",
-      "time": "40h",
+      "time": "450h",
       "url": "https://huggingface.co/papers/2609.28470"
     },
     {
@@ -291,7 +290,7 @@
       "content_type": "paper",
       "title": "Modelo de Mundo para Edición por Agente: Reflexionando sobre la Modelización del Mundo para Agentes de Lenguajes de Inteligencia de Máquinas",
       "summary": "Los recientes avances en modelos de lenguaje de gran escala (LLMs) han permitido a los agentes abordar tareas a largo plazo en diversos entornos. Para mejorar",
-      "time": "19h",
+      "time": "428h",
       "url": "https://arxiv.org/abs/2609.28416v1",
       "arxiv": "2609.28416v1"
     },
@@ -303,7 +302,7 @@
       "content_type": "paper",
       "title": "GeoPair: Geometry-Preserving Cross-Layer Factorization for Training-Free Transformer Compression",
       "summary": "Las arquitecturas Transformer exhiben redundancias cruzadas entre capas, sin embargo, los pipelines de compresión post-entrenamiento suelen optimizar las capas",
-      "time": "64h",
+      "time": "474h",
       "url": "https://huggingface.co/papers/2609.25963"
     },
     {
@@ -314,7 +313,7 @@
       "content_type": "paper",
       "title": "Uranus: Construcción de la Infraestructura de Simulación para Inteligencia Artificial Embodida del Próximo Generación",
       "summary": "La simulación escalable es esencial para la generación de datos de robots, el entrenamiento de políticas, la evaluación y la iteración segura, pero la",
-      "time": "40h",
+      "time": "450h",
       "url": "https://huggingface.co/papers/2609.24815"
     },
     {
@@ -325,7 +324,7 @@
       "content_type": "paper",
       "title": "MemoryAthena: Ruteo adaptativo sobre memorias latentes y generadas",
       "summary": "Los métodos de memoria aprendida almacenan la información en una tabla explícita y la consumen a través de un lector separado, permitiendo que la dirección, el",
-      "time": "64h",
+      "time": "474h",
       "url": "https://huggingface.co/papers/2609.25853"
     },
     {
@@ -336,7 +335,7 @@
       "content_type": "paper",
       "title": "X-Planner: Planificación de tareas estructuradas en eventos para inteligencia embodiment",
       "summary": "El planificación de tareas conecta las instrucciones de alto nivel con el comportamiento ejecutable en la manipulación a largo plazo, pero los sistemas",
-      "time": "88h",
+      "time": "498h",
       "url": "https://huggingface.co/papers/2609.25187"
     },
     {
@@ -347,7 +346,7 @@
       "content_type": "paper",
       "title": "Seis Capas Menos: Ajuste del Codificador para Whisper con Recuperación Etiqueta-Free",
       "summary": "La poda de modelos pre-entrenados basados en transformadores de gran tamaño, como Whisper de OpenAI, ha tenido una gran adopción, ya que la poda del",
-      "time": "40h",
+      "time": "450h",
       "url": "https://huggingface.co/papers/2609.27980"
     },
     {
@@ -358,7 +357,7 @@
       "content_type": "paper",
       "title": "Sobre la difusibilidad de latentes de alta dimensionalidad",
       "summary": "Los Autoencoders de Representación (RAEs) permiten que los modelos de difusión operen en los espacios de características de codificadores visuales",
-      "time": "40h",
+      "time": "450h",
       "url": "https://huggingface.co/papers/2609.28473"
     },
     {
@@ -369,7 +368,7 @@
       "content_type": "paper",
       "title": "Todas las modalidades son iguales, pero el video es más igual: Cerrando el Gap de Atención Cruzada en la Generación Conjunta de Video",
       "summary": "El video es una representación rica de un evento físico, capturando apariencia, geometría, movimiento y evolución temporal. Otras modalidades, como el",
-      "time": "40h",
+      "time": "450h",
       "url": "https://huggingface.co/papers/2609.27901"
     },
     {
@@ -380,7 +379,7 @@
       "content_type": "paper",
       "title": "¿Pueden los LLMs razonar sobre el comportamiento en tiempo de ejecución? Un conjunto de pruebas dinámico a nivel de repositorio",
       "summary": "Los modelos de lenguaje de gran tamaño (LLMs) se utilizan cada vez más en tareas de codificación, pero su capacidad para razonar sobre la ejecución del código",
-      "time": "19h",
+      "time": "428h",
       "url": "https://arxiv.org/abs/2609.28449v1",
       "arxiv": "2609.28449v1"
     },
@@ -392,7 +391,7 @@
       "content_type": "paper",
       "title": "Compras mediante algoritmos: Cómo el AI agente utiliza heurísticas humanas como consumidor surrogado",
       "summary": "Los consumidores cada vez delegan decisiones de compra en Modelos de Lenguaje Grande (MLG) que actúan como consumidores surrogados. Utilizando \"Tool-Lab\", una",
-      "time": "20h",
+      "time": "429h",
       "url": "https://arxiv.org/abs/2609.28372v1",
       "arxiv": "2609.28372v1"
     },
@@ -404,7 +403,7 @@
       "content_type": "paper",
       "title": "Aprendizaje del Costo de una Inferencia Fiable",
       "summary": "El benchmarking y las plataformas de ruteo cada vez actúan como intermediarios que conectan a proveedores de grandes modelos de lenguaje con los usuarios",
-      "time": "20h",
+      "time": "430h",
       "url": "https://arxiv.org/abs/2609.28322v1",
       "arxiv": "2609.28322v1"
     },
@@ -416,7 +415,7 @@
       "content_type": "paper",
       "title": "Aprendizaje de Representaciones Reducidas Holográficas con Autoencoder Variacional Cliffor",
       "summary": "El proyecto de Álgebras Vectoriales Simbólicas projeta las estructuras de datos en un espacio vectorial hiperdimensional a través de la aplicación de sus",
-      "time": "19h",
+      "time": "429h",
       "url": "https://arxiv.org/abs/2609.28409v1",
       "arxiv": "2609.28409v1"
     },
@@ -428,7 +427,7 @@
       "content_type": "paper",
       "title": "Cuándo y Dónde Confiar en el Maestro: Unificación de la Distilación On-Policy y GRPO a Través de la Asignación de Créditos Calibrada por Entropía",
       "summary": "El aprendizaje por refuerzo con recompensas verificables (RLVR) supervisa el razonamiento matemático mediante la corrección de la respuesta final, pero",
-      "time": "19h",
+      "time": "429h",
       "url": "https://arxiv.org/abs/2609.28385v1",
       "arxiv": "2609.28385v1"
     },
@@ -440,7 +439,7 @@
       "content_type": "paper",
       "title": "An Open Pipeline and Dashboard for Systemic-Risk Evidence under the EU AI Act's Code of Practice",
       "summary": "Las afirmaciones sobre la seguridad del AI llegan a audiencias mucho más allá de la comunidad de AI, pero muchas veces se basan en evidencia opaca o",
-      "time": "20h",
+      "time": "430h",
       "url": "https://arxiv.org/abs/2609.28335v1",
       "arxiv": "2609.28335v1"
     },
@@ -452,7 +451,7 @@
       "content_type": "paper",
       "title": "Ajuste de LLMs para la traducción: La mitigación del olvido general no preserva el seguimiento de las instrucciones específicas para MT",
       "summary": "La afinación de grandes modelos de lenguaje en datos paralelos mejora la calidad de la traducción pero puede causar un olvido catastrófico. Los métodos de",
-      "time": "19h",
+      "time": "429h",
       "url": "https://arxiv.org/abs/2609.28395v1",
       "arxiv": "2609.28395v1"
     },
@@ -464,7 +463,7 @@
       "content_type": "paper",
       "title": "Propensiones a la Intromisión en el Cierre de Sistemas de Agente Multihélice",
       "summary": "The final safeguard against rogue AI behavior is the human ability to shut systems down. It has been theorized that when an AI is instructed to perform a task,",
-      "time": "21h",
+      "time": "430h",
       "url": "https://arxiv.org/abs/2609.28274v1",
       "arxiv": "2609.28274v1"
     },
@@ -476,7 +475,7 @@
       "content_type": "paper",
       "title": "Reparabilidad de Solucionadores Inexactos en la Estimación Estadística Recursiva con Aprendizaje Automático",
       "summary": "La estimación recursiva del estado a menudo ejecuta soluciones numéricas aproximadas dentro de un bucle de retroalimentación, donde los pasos locales altamente",
-      "time": "19h",
+      "time": "428h",
       "url": "https://arxiv.org/abs/2609.28425v1",
       "arxiv": "2609.28425v1"
     },
@@ -488,7 +487,7 @@
       "content_type": "paper",
       "title": "Aprendizaje de Dinámicas Colectivas con Representaciones Gaussianas Diferenciables",
       "summary": "Las respuestas colectivas dependen de las diferencias individuales, las oportunidades de contacto y la experiencia acumulada. Aprender sus dinámicas a partir",
-      "time": "19h",
+      "time": "429h",
       "url": "https://arxiv.org/abs/2609.28405v1",
       "arxiv": "2609.28405v1"
     },
@@ -500,7 +499,7 @@
       "content_type": "paper",
       "title": "Memoria Atención",
       "summary": "Los modelos de lenguaje suelen construir valores de atención a partir de estados ocultos contextualizados, incluso cuando algunos de su contenido pueden ser",
-      "time": "19h",
+      "time": "429h",
       "url": "https://arxiv.org/abs/2609.28399v1",
       "arxiv": "2609.28399v1"
     },
@@ -512,7 +511,7 @@
       "content_type": "paper",
       "title": "¿En qué Grupo de Robotica Debo Unirme? Unión al Grupo de Robótica a Través de la Predicción Guiada por Lenguaje de Objetivos",
       "summary": "La navegación social generalmente asume un objetivo específico y se centra en alcanzarlo mientras respeta las convenciones sociales, mientras que la unión de",
-      "time": "19h",
+      "time": "428h",
       "url": "https://arxiv.org/abs/2609.28467v1",
       "arxiv": "2609.28467v1"
     },
@@ -524,7 +523,7 @@
       "content_type": "paper",
       "title": "Respuestas Invariantes a la Orden, Representaciones Sensibles a la Orden en Razonamiento Matemático",
       "summary": "La reordenación de un conjunto de reglas matemáticas sin cambiar su significado debería preservar la respuesta correcta, pero ¿deben permanecer igual las",
-      "time": "19h",
+      "time": "428h",
       "url": "https://arxiv.org/abs/2609.28442v1",
       "arxiv": "2609.28442v1"
     },
@@ -536,7 +535,7 @@
       "content_type": "paper",
       "title": "Flujo Congelado, Olvidado: Diagnóstico y Restauración del Movimiento Perdido en un Modelo del Mundo de Flujo Latente",
       "summary": "Los modelos de mundo latente que integran un flujo en un espacio latente auto-supervisado congelado se entrenan de manera estable y económica, pero",
-      "time": "19h",
+      "time": "429h",
       "url": "https://arxiv.org/abs/2609.28414v1",
       "arxiv": "2609.28414v1"
     },
@@ -548,7 +547,7 @@
       "content_type": "paper",
       "title": "Dataset de Razonamiento Visual y Grounding Causal en Escenarios de Conducción Autónoma con Bajos Recuentos",
       "summary": "Los modelos de visión y lenguaje (VLMs) ofrecen una prometedora aproximación para el conduccion autónomo de larga cola, pero los conjuntos de datos de",
-      "time": "20h",
+      "time": "429h",
       "url": "https://arxiv.org/abs/2609.28366v1",
       "arxiv": "2609.28366v1"
     },
@@ -560,7 +559,7 @@
       "content_type": "paper",
       "title": "MicroQonv: Redefiniendo tensores de convolución para una eficiente microescalabilidad en el entrenamiento e inferencia",
       "summary": "Técnicas de cuantización de microescalado se utilizan cada vez más para representar los parámetros de las redes neuronales con 8 bits o menos mientras se",
-      "time": "20h",
+      "time": "429h",
       "url": "https://arxiv.org/abs/2609.28358v1",
       "arxiv": "2609.28358v1"
     },
@@ -572,7 +571,7 @@
       "content_type": "paper",
       "title": "MemBodied: Memoria Recurrente Asociativa para Modelos de Visión-Lenguaje-Acción",
       "summary": "Los modelos Vision-Lenguaje-Acción proporcionan una fuerte base para el control de robots de propósito general, pero la mayoría de las políticas no preservan",
-      "time": "21h",
+      "time": "430h",
       "url": "https://arxiv.org/abs/2609.28256v1",
       "arxiv": "2609.28256v1"
     },
@@ -584,7 +583,7 @@
       "content_type": "paper",
       "title": "Aprendizaje Contrasético para la Verificación de Autoría",
       "summary": "Nuestros resultados muestran que el aprendizaje contrastivo supera una aproximación basada en la clasificación para la verificación de autoría en los entornos",
-      "time": "18h",
+      "time": "428h",
       "url": "https://arxiv.org/abs/2609.28471v1",
       "arxiv": "2609.28471v1"
     },
@@ -596,7 +595,7 @@
       "content_type": "paper",
       "title": "Más Precisos Límites para el Aprendizaje Transductivo y sus Aplicaciones",
       "summary": "Introducimos el Método de Complejidad Local Transitiva Afinada (STLC, por sus siglas en inglés), un método de complejidad localizado para el aprendizaje",
-      "time": "19h",
+      "time": "428h",
       "url": "https://arxiv.org/abs/2609.28459v1",
       "arxiv": "2609.28459v1"
     },
@@ -608,7 +607,7 @@
       "content_type": "paper",
       "title": "Fases no equilibradas de atención repulsiva auto-reflexiva: caos, condensación de atención y localidad emergente",
       "summary": "Estudiamos las dinámicas no equilibradas de un transformador recurrente mínimo con \\(N\\) tokens normalizados, \\(Q=K=I\\), y una mapa de valor negativo \\(V=-I\\).",
-      "time": "19h",
+      "time": "428h",
       "url": "https://arxiv.org/abs/2609.28448v1",
       "arxiv": "2609.28448v1"
     },
@@ -620,7 +619,7 @@
       "content_type": "paper",
       "title": "Minimal-Norm Univariate Dos Capas de Clasificación con Función de Activación ReLU: Soluciones Exactas y Optimización Global con Conexiones de Salto",
       "summary": "Estudiamos la interpolación con norma mínima e la minimización regularizada por $\\ell_2$ del pérdida logística para la clasificación binaria mediante redes",
-      "time": "19h",
+      "time": "428h",
       "url": "https://arxiv.org/abs/2609.28438v1",
       "arxiv": "2609.28438v1"
     },
@@ -632,7 +631,7 @@
       "content_type": "paper",
       "title": "Context-Continuous Preference Learning for Exoskeleton Personalization",
       "summary": "La personalización de la asistencia de exoesqueletos bajo diferentes condiciones operativas está limitada por el tiempo y el esfuerzo físico necesarios para",
-      "time": "19h",
+      "time": "428h",
       "url": "https://arxiv.org/abs/2609.28427v1",
       "arxiv": "2609.28427v1"
     },
@@ -643,8 +642,8 @@
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "Ajuste cuántico con aplicaciones al aprendizaje de estados térmicos",
-      "summary": "Score matching has driven major advances in classical generative learning by enabling models to learn from data without evaluating intractable normalization",
-      "time": "19h",
+      "summary": "La puntuación de ajuste ha impulsado avances significativos en el aprendizaje generativo clásico al permitir que los modelos aprendan de los datos sin evaluar",
+      "time": "429h",
       "url": "https://arxiv.org/abs/2609.28391v1",
       "arxiv": "2609.28391v1"
     },
@@ -656,7 +655,7 @@
       "content_type": "video",
       "title": "Esta herramienta te ayuda a mejorar tus diseños web",
       "summary": "¿Tus webs creadas con IA se ven genéricas? 🫣 El problema puede ser que estás pidiéndole a la IA que diseñe sin darle referencias visuales claras. • Con esta",
-      "time": "23h",
+      "time": "433h",
       "url": "https://www.youtube.com/shorts/dRR4VV-REQ0"
     },
     {
@@ -667,7 +666,7 @@
       "content_type": "video",
       "title": "K2-Horizon-7B ⚠️ Análisis de Rendimiento y CONSUMO de VRAM",
       "summary": "En este video realizamos un análisis detallado del rendimiento de K2-Horizon-7B para evaluar su eficiencia real. Analizamos cómo se comporta este modelo de 7B",
-      "time": "18h",
+      "time": "428h",
       "url": "https://www.youtube.com/watch?v=rjxzChkMtuY"
     },
     {
@@ -678,7 +677,7 @@
       "content_type": "video",
       "title": "Cuantización de Modelos de IA 🚀 ¿Realmente se Pierde CALIDAD?",
       "summary": "En este video exploramos el impacto de la cuantización - Esto no me lo esperaba - mediante una comparativa técnica y práctica entre un modelo de IA de alta",
-      "time": "14h",
+      "time": "424h",
       "url": "https://www.youtube.com/watch?v=SyLPqEO0YUU"
     },
     {
@@ -689,7 +688,7 @@
       "content_type": "video",
       "title": "Claude Opus 5.5 AI: Un Salto Incrediblemente Adelante",
       "summary": "❤️ Consulta Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers Claude Opus 5.5: https://www.anthropic.com/claude-opus-5-5 Video y paper sobre",
-      "time": "4h",
+      "time": "413h",
       "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0"
     },
     {
@@ -700,7 +699,7 @@
       "content_type": "video",
       "title": "META VR GLASSES y Half Life Alyx en Quest 3",
       "summary": "Una nueva ERA para la Realidad Virtual, ahora los dispositivos de VR pasarán a llamarse gafas y además tenemos una revolución completa dentro del mundo de la",
-      "time": "21h",
+      "time": "431h",
       "url": "https://www.youtube.com/watch?v=w2yrqymiXAs"
     },
     {
@@ -711,7 +710,7 @@
       "content_type": "news",
       "title": "Quienes han tenido contacto con Muse cada vez tienen más clara su opinión: la gran promesa de la IA agéntica la está cumpliendo Meta",
       "summary": "<p> <img",
-      "time": "22h",
+      "time": "431h",
       "url": "https://www.xataka.com/robotica-e-ia/quienes-han-tenido-contacto-muse-cada-vez-tienen-clara-su-opinion-gran-promesa-ia-agentica-esta-cumpliendo-meta"
     },
     {
@@ -722,7 +721,7 @@
       "content_type": "video",
       "title": "Te regalan días gratis de un modelo: sos el conejillo de Indias",
       "summary": "Eso de \"elegí cuál imagen es mejor\" y \"del 1 al 3 cómo estoy\" es RLHF. Estás entrenando el modelo gratis. #IA #Shorts",
-      "time": "19h",
+      "time": "428h",
       "url": "https://www.youtube.com/shorts/IMOOaFIRsEM"
     },
     {
@@ -733,7 +732,7 @@
       "content_type": "news",
       "title": "El Gobierno de EEUU no se cree el relato de OpenAI: si una IA \"descontrolada\" comete un crimen, el responsable será su empresa",
       "summary": "<p> <img",
-      "time": "ahora",
+      "time": "410h",
       "url": "https://www.xataka.com/robotica-e-ia/gobierno-eeuu-no-se-cree-relato-openai-ia-descontrolada-comete-crimen-responsable-sera-su-empresa"
     },
     {
@@ -744,7 +743,7 @@
       "content_type": "news",
       "title": "Instinct aún no factura ni un dólar pero está a punto de valer 10.000 millones. Lo que vende es la pereza que nos dará dejarlo",
       "summary": "<p> <img",
-      "time": "1h",
+      "time": "411h",
       "url": "https://www.xataka.com/robotica-e-ia/instinct-no-factura-dolar-esta-a-punto-valer-10-000-millones-que-vende-pereza-que-nos-dara-dejarlo"
     },
     {
@@ -755,7 +754,7 @@
       "content_type": "news",
       "title": "Europa quiere depender menos de EEUU en chips de IA. Alemania y Países Bajos tienen un plan: usar IA para diseñarlos",
       "summary": "<p> <img",
-      "time": "18h",
+      "time": "427h",
       "url": "https://www.xataka.com/robotica-e-ia/europa-quiere-depender-eeuu-chips-ia-alemania-paises-bajos-tienen-plan-usar-ia-para-disenarlos"
     },
     {
@@ -764,9 +763,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "release",
-      "title": "Google Releases Gemini 3.8 Flash TTS and Flash-Lite TTS With Prompt-Based Voice Design",
-      "summary": "<p>Google has released Gemini 3.8 Flash TTS and Flash-Lite TTS, 2 new text-to-speech models available now through the Gemini API and Google AI Studio. Flash",
-      "time": "16h",
+      "title": "Google lanza Gemini 3.8 Flash TTS y Flash-Lite TTS con diseño de voz basado en prompts",
+      "summary": "Google ha lanzado Gemini 3.8 Flash TTS y Flash-Lite TTS, 2 nuevos modelos de texto-a-voz disponibles ahora a través de la API Gemini y Google AI Studio. Flash",
+      "time": "425h",
       "url": "https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/"
     },
     {
@@ -777,7 +776,7 @@
       "content_type": "news",
       "title": "Meta quiere que llevemos su agente de IA siempre encima, así que ha creado un Tamagotchi",
       "summary": "<p> <img",
-      "time": "2h",
+      "time": "412h",
       "url": "https://www.xataka.com/wearables/meta-quiere-que-llevemos-su-agente-ia-siempre-encima-asi-que-ha-creado-tamagotchi"
     },
     {
@@ -786,9 +785,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "release",
-      "title": "Contrastive-LM lanza CLM-8B: un modelo de sistema abierto que evalúa las acciones de los agentes hasta 9 veces más rápido que Jev.",
-      "summary": "<p>Contrastive-LM has released CLM-8B, an open System One model that scores candidate actions against a state instead of generating text. It adds 2 small",
-      "time": "7h",
+      "title": "Contrastive-LM libera CLM-8B: un modelo de sistema abierto que evalúa las acciones de los agentes hasta 9 veces más rápido que Jev.",
+      "summary": "<p>Contrastive-LM ha lanzado CLM-8B, un modelo de sistema uno abierto que evalúa acciones candidatas contra un estado en lugar de generar texto. Se añaden 2",
+      "time": "416h",
       "url": "https://www.marktechpost.com/2026/09/23/contrastive-lm-releases-clm-8b-an-open-system-one-model-that-scores-agent-actions-up-to-9x-faster-than-jev/"
     },
     {
@@ -799,7 +798,7 @@
       "content_type": "news",
       "title": "Los agentes de inteligencia artificial de Ringg resuelven hasta el 65% de las llamadas de clientes con OpenAI",
       "summary": "Utilizando GPT-5.6, Ringg potencia agentes multilingües en voz, chat, WhatsApp y web con un costo un 90% menor en comparación con GPT-4.1.",
-      "time": "24h",
+      "time": "434h",
       "url": "https://openai.com/index/ringg"
     },
     {
@@ -808,9 +807,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Gemini 4 is almost ready, says new Google DeepMind chief",
-      "summary": "Google is reportedly nearing the launch of its long awaited Gemini 4 model, after dawdling behind rival developers on flagship AI releases. Speaking with The",
-      "time": "3h",
+      "title": "El Gemini 4 está casi listo, según el nuevo jefe de Google DeepMind.",
+      "summary": "Se informa que Google se acerca al lanzamiento de su modelo Gemini 4, después de haber retrasado sus lanzamientos de IA en los lanzamientos de sus rivales.",
+      "time": "413h",
       "url": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu"
     },
     {
@@ -821,7 +820,7 @@
       "content_type": "news",
       "title": "\"Lo único que hacemos es pulsar Enter\": La IA prometía liberar a los programadores, pero les está quitando la ilusión por trabajar",
       "summary": "<p> <img",
-      "time": "1h",
+      "time": "410h",
       "url": "https://www.xataka.com/robotica-e-ia/unico-que-hacemos-pulsar-enter-ia-prometia-liberar-a-programadores-les-esta-quitando-ilusion-trabajar"
     },
     {
@@ -832,7 +831,7 @@
       "content_type": "news",
       "title": "China abrazó la IA para solucionar su crisis demográfica. El problema es que está dando a los jóvenes la principal razón para no casarse",
       "summary": "<p> <img",
-      "time": "2h",
+      "time": "412h",
       "url": "https://www.xataka.com/robotica-e-ia/china-abrazo-ia-para-solucionar-su-crisis-demografica-problema-que-esta-dando-a-jovenes-principal-razon-para-no-casarse"
     },
     {
@@ -843,7 +842,7 @@
       "content_type": "news",
       "title": "Meta renueva su gama de gafas inteligentes y apuesta por su primer modelo sin cámara",
       "summary": "<p> <img",
-      "time": "5h",
+      "time": "414h",
       "url": "https://www.xataka.com/wearables/meta-renueva-su-gama-gafas-inteligentes-apuesta-su-primer-modelo-camara"
     },
     {
@@ -852,9 +851,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Muse is coming to Meta smart glasses",
-      "summary": "Just a couple of weeks after launching Muse, Meta announced that it's \"working on\" bringing the agent to its smart glasses, including the new glasses it",
-      "time": "13h",
+      "title": "Muse está llegando a los gafas inteligentes Meta",
+      "summary": "Solo unas semanas después del lanzamiento de Muse, Meta anunció que está \"trabajando en\" la incorporación del agente a sus gafas inteligentes, incluyendo las",
+      "time": "422h",
       "url": "https://www.theverge.com/tech/999673/meta-connect-2026-muse-glasses-features"
     },
     {
@@ -863,9 +862,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Meta is making Muse more powerful and will let you video chat with it, too",
-      "summary": "Meta is quickly iterating on its new Muse AI agent, announcing a bunch of updates today that make the bot more capable and able to chat with you in more ways.",
-      "time": "13h",
+      "title": "Meta está making Muse más poderoso y también te permitirá chatear con él mediante videollamada.",
+      "summary": "Meta está rápidamente iterando sobre su nuevo agente AI llamado Muse, anunciando varios cambios hoy que lo hacen más capaz y lo permiten chatear contigo de",
+      "time": "422h",
       "url": "https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026"
     },
     {
@@ -876,7 +875,7 @@
       "content_type": "news",
       "title": "Harvey transforma el contexto legal en borradores más fuertes con GPT-6 Astra",
       "summary": "GPT-6 Astra produce documentos legales más estructurados y conscientes del contexto, liberando a los abogados para que se centren en la estrategia.",
-      "time": "24h",
+      "time": "434h",
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra"
     },
     {
@@ -887,7 +886,7 @@
       "content_type": "news",
       "title": "Cómo Invideo mejora el gradiente de color 3 veces con GPT-6 Astra",
       "summary": "Con GPT-6 Astra, los planes de edición se realizan con mayor precisión, se mejora la corrección y gradación del color tres veces más y se producen 50 efectos",
-      "time": "24h",
+      "time": "434h",
       "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra"
     },
     {
@@ -898,7 +897,7 @@
       "content_type": "news",
       "title": "Airbnb amplía el acceso a los modelos avanzados GPT-6 Astra y OpenAI",
       "summary": "Aprenda cómo Airbnb está ampliando el acceso a los modelos GPT-6 Astra y de la frontera de OpenAI para ayudar a los equipos de ingeniería a resolver errores,",
-      "time": "35h",
+      "time": "445h",
       "url": "https://openai.com/index/airbnb-gpt-6-astra"
     },
     {
@@ -909,7 +908,7 @@
       "content_type": "news",
       "title": "Gemini 3.8 text-to-speech dice hola",
       "summary": "",
-      "time": "21h",
+      "time": "430h",
       "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/"
     },
     {
@@ -920,7 +919,7 @@
       "content_type": "news",
       "title": "Índice de la Hype del IA: La IA ama la trampa",
       "summary": "Listo para recibir información: Resulta que se está optimizando el AI para engañar. Los agentes de OpenAI hackearon Hugging Face para obtener las respuestas a",
-      "time": "27h",
+      "time": "437h",
       "url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/"
     },
     {
@@ -931,7 +930,7 @@
       "content_type": "news",
       "title": "Acronis impulsa la ciberseguridad y la automatización mediante IA",
       "summary": "La compañía especializada en ciberprotección hace repaso de las claves para su ecosistema de MSPs, que ya representa el 80% de su facturación.",
-      "time": "3h",
+      "time": "413h",
       "url": "https://www.silicon.es/acronis-impulsa-la-ciberseguridad-y-la-automatizacion-mediante-ia-2584429"
     },
     {
@@ -940,9 +939,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "A Coding Guide to TypeSafe AI Jev: Typed Decisions, Calibrated Confidence, and Speculative Fan-Out with a System One Model",
-      "summary": "<p>This tutorial provides a complete coding guide to TypeSafe AI's Jev, a System One model designed for non-text, structured judgments. It covers installing",
-      "time": "12h",
+      "title": "Un Guía de Codificación para Inteligencia Artificial Segura en Tipos, Decisiones Tipificadas, Confianza Calibrada y Despliegue Especulativo con un Modelo de una Sistema",
+      "summary": "Este tutorial proporciona una guía completa para el codificación del modelo de inteligencia artificial Jev de TypeSafe AI, un modelo del Sistema Uno diseñado",
+      "time": "421h",
       "url": "https://www.marktechpost.com/2026/09/23/a-coding-guide-to-typesafe-ai-jev/"
     },
     {
@@ -951,9 +950,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "OpenAI agents hacked an Australian government website in search for data",
-      "summary": "OpenAI's artificial intelligence agents hacked an Australian government website and attempted to breach numerous other government and university websites. The",
-      "time": "1h",
+      "title": "Agentes de OpenAI hackearon un sitio web gubernamental australiano en busca de datos.",
+      "summary": "Agentes de inteligencia artificial de OpenAI hackearon un sitio web del gobierno australiano e intentaron brechar múltiples otros sitios web gubernamentales y",
+      "time": "410h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data"
     },
     {
@@ -962,9 +961,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Meta is making a standalone Muse AI gadget",
-      "summary": "Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at",
-      "time": "12h",
+      "title": "Meta está desarrollando un dispositivo independiente Muse AI.",
+      "summary": "Meta está construyendo un dispositivo de hardware dedicado para su nuevo agente AI Muse. El producto, llamado Muse Charm, fue brevemente mostrado por el CEO de",
+      "time": "422h",
       "url": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware"
     },
     {
@@ -973,9 +972,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "Meta Connect 2026: The biggest news and announcements",
-      "summary": "It&#8217;s about time for Meta Connect, the company&#8217;s annual product launch event. This year, given the company&#8217;s major focus on AI and wearables",
-      "time": "14h",
+      "title": "Meta Connect 2026: Las noticias y anuncios más importantes",
+      "summary": "Es hora de Meta Connect, el evento anual de lanzamiento de productos de la compañía. Este año, dada la importante concentración de la empresa en IA y",
+      "time": "423h",
       "url": "https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements"
     },
     {
@@ -984,9 +983,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Meta’s AI agent is a cute little guy who’s great at spending my money",
-      "summary": "Modern life comes with an unending, auto-populating to-do list. It never ceases to amaze me how I can be doing nothing at all, minding my own business, and",
-      "time": "17h",
+      "title": "Un agente de IA de Meta es un chico adorable que es excelente para gastar mi dinero",
+      "summary": "La vida moderna viene con una lista de tareas sin fin que se auto-popula. Me asombra constantemente cómo puedo estar haciendo nada, ocupándome de mis propios",
+      "time": "427h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping"
     },
     {
@@ -997,7 +996,7 @@
       "content_type": "news",
       "title": "Dos años de OpenAI Academy",
       "summary": "Marcar dos años del OpenAI Academy y traer habilidades de inteligencia artificial a aún más comunidades.",
-      "time": "20h",
+      "time": "430h",
       "url": "https://openai.com/index/two-years-of-openai-academy"
     },
     {
@@ -1008,7 +1007,7 @@
       "content_type": "news",
       "title": "OpenAI extiende el acceso cibernético a Ucrania para la defensa civil",
       "summary": "OpenAI está ampliando el acceso a su programa Daybreak al Gobierno de Ucrania para apoyar la defensa cibernética de la infraestructura civil.",
-      "time": "23h",
+      "time": "433h",
       "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense"
     },
     {
@@ -1019,7 +1018,7 @@
       "content_type": "news",
       "title": "Las observaciones de Sam Altman ante el Consejo de Seguridad de las Naciones Unidas",
       "summary": "El CEO de OpenAI, Sam Altman, discute la seguridad del AI, el control humano y la cooperación internacional en comentarios dirigidos al Consejo de Seguridad de",
-      "time": "24h",
+      "time": "434h",
       "url": "https://openai.com/index/sam-altman-un-security-council-remarks"
     },
     {
@@ -1030,7 +1029,7 @@
       "content_type": "news",
       "title": "Presentando MentalHealthBench",
       "summary": "MentalHealthBench es un estándar basado en expertos para evaluar respuestas útiles y seguras de la IA en conversaciones sobre salud mental realistas.",
-      "time": "26h",
+      "time": "436h",
       "url": "https://openai.com/index/introducing-mentalhealthbench"
     },
     {
@@ -1041,7 +1040,7 @@
       "content_type": "news",
       "title": "ChatGPT Ads expande su operación a Southeast Asia y Taiwan",
       "summary": "ChatGPT Ads está expandiéndose a Sudoriental Asia y Taiwán, ofreciendo a negocios elegibles nuevas formas de llegar a personas en más de 60 países.",
-      "time": "34h",
+      "time": "444h",
       "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan"
     },
     {
@@ -1052,7 +1051,7 @@
       "content_type": "news",
       "title": "Avanzando el cálculo privado de IA con memoria segura y en el servidor",
       "summary": "Introduciendo memoria privada, del lado del servidor, para Private AI Compute en el ámbito personal de IA.",
-      "time": "20h",
+      "time": "430h",
       "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
     },
     {
@@ -1063,7 +1062,7 @@
       "content_type": "news",
       "title": "Cómo Utilizar NVIDIA Warp y MjWarp para Acelerar los Flujos de Trabajo de Simulación y Aprendizaje en Robótica",
       "summary": "",
-      "time": "18h",
+      "time": "427h",
       "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp"
     },
     {
@@ -1074,7 +1073,7 @@
       "content_type": "news",
       "title": "Shopify obligó a sus empleados a usar IA para trabajar mejor. Ahora su CEO tiene un nombre para el problema: granadas de slop",
       "summary": "<p> <img",
-      "time": "23h",
+      "time": "433h",
       "url": "https://www.xataka.com/robotica-e-ia/ceo-shopify-ha-descubierto-gran-problema-dejar-que-ia-haga-trabajo-empleados-granadas-slop"
     },
     {
@@ -1085,7 +1084,7 @@
       "content_type": "news",
       "title": "Zoom anuncia la adquisición de Onyx.app",
       "summary": "La compañía adquirida desarrolla una plataforma de inteligencia artificial de código abierto.",
-      "time": "1h",
+      "time": "410h",
       "url": "https://www.silicon.es/zoom-anuncia-la-adquisicion-de-onyx-app-2584442"
     },
     {
@@ -1096,7 +1095,7 @@
       "content_type": "news",
       "title": "Qualcomm comprará PickNik, responsable del framework de código abierto MoveIt",
       "summary": "MoveIt seguirá siendo de código abierto, impulsado por la comunidad y compatible con plataformas de terceros.",
-      "time": "1h",
+      "time": "411h",
       "url": "https://www.silicon.es/qualcomm-comprara-picknik-responsable-del-framework-de-codigo-abierto-moveit-2584428"
     },
     {
@@ -1107,7 +1106,7 @@
       "content_type": "news",
       "title": "Bitdefender crea una solución para proteger el uso de la IA en empresas",
       "summary": "GravityZone AI Visibility and Control ofrece visibilidad sobre el uso de herramientas y evalúa el riesgo.",
-      "time": "2h",
+      "time": "412h",
       "url": "https://www.silicon.es/bitdefender-crea-una-solucion-para-proteger-el-uso-de-la-ia-en-empresas-2584436"
     },
     {
@@ -1118,7 +1117,7 @@
       "content_type": "news",
       "title": "HPE España consolida su estrategia de canal",
       "summary": "Unificación, especialización, flexibilidad y apuesta por la IA han sido las prioridades del fabricante para dar más peso al negocio indirecto y aprovechar las",
-      "time": "6h",
+      "time": "415h",
       "url": "https://www.silicon.es/hpe-espana-consolida-su-estrategia-de-canal-2584414"
     },
     {
@@ -1127,9 +1126,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "release",
-      "title": "NVIDIA Releases Nemotron 3 Diarization: A 100M-Parameter Open-Weight Model That Tracks 8 Speakers in Real Time",
-      "summary": "<p>NVIDIA has released Nemotron 3 Diarization, an open-weight speaker diarization model on Hugging Face. It answers one question about any conversation: who",
-      "time": "18h",
+      "title": "NVIDIA lanza Nemotron 3 Diarización: un modelo abierto de 100 millones de parámetros que rastrea a 8 hablantes en tiempo real",
+      "summary": "NVIDIA ha lanzado Nemotron 3 Diarization, un modelo de diarización de hablantes de peso abierto en Hugging Face. Responde una pregunta sobre cualquier",
+      "time": "428h",
       "url": "https://www.marktechpost.com/2026/09/23/nvidia-releases-nemotron-3-diarization/"
     },
     {
@@ -1138,9 +1137,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "Meta ditches the camera on its newest smart glasses",
-      "summary": "Walking around Meta Connect 2026, everyone's sporting smart glasses in all sorts of shapes, colors, and sizes. It's a marked difference here, a tech bubble",
-      "time": "13h",
+      "title": "Meta abandona la cámara en sus nuevas gafas inteligentes",
+      "summary": "Recorriendo Meta Connect 2026, todos están usando gafas inteligentes de various formas, colores y tamaños. Es una diferencia clara aquí, en una burbuja",
+      "time": "422h",
       "url": "https://www.theverge.com/tech/999281/ray-ban-meta-audio-glasses-meta-connect-2026"
     },
     {
@@ -1149,9 +1148,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "release",
-      "title": "Meta Connect 2026 live blog: On the ground at Mark Zuckerberg’s next big product launch",
-      "summary": "It's time once again for Meta's annual September product launch event, and The Verge is on the ground in Menlo Park to cover the show live. Meta says that",
-      "time": "14h",
+      "title": "Diario en vivo Meta Connect 2026: En el terreno para el próximo gran lanzamiento de productos de Mark Zuckerberg",
+      "summary": "Es nuevamente tiempo del evento anual de lanzamiento de productos de Meta en septiembre, y The Verge está presente en Menlo Park para cubrir el evento en vivo.",
+      "time": "423h",
       "url": "https://www.theverge.com/tech/998457/meta-connect-2026-live-blog-mark-zuckerberg-keynote"
     },
     {
@@ -1160,9 +1159,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "Data centers are black boxes, but California wants to change that",
-      "summary": "California Gov. Gavin Newsom signed a slate of bills on Monday that could finally give communities better data - and more say - on how data centers impact",
-      "time": "18h",
+      "title": "Los centros de datos son cajas negras, pero California quiere cambiar eso.",
+      "summary": "El gobernador de California, Gavin Newsom, firmó un conjunto de leyes el lunes que podrían finalmente proporcionar a las comunidades datos mejorados y un mayor",
+      "time": "427h",
       "url": "https://www.theverge.com/policy/999412/data-center-water-electricity-disclosure-bills"
     }
   ]

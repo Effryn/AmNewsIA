@@ -4,13 +4,12 @@
   "greeting": "Buenos días, Effry",
   "briefing": {
     "duration_label": "2:47",
-    "audio_url": "assets/audio/2026-09-08.mp3",
     "script_text": "En el resumen de hoy nos enfocamos en tres tendencias clave que están redefiniendo el panorama de la inteligencia artificial: modelos más eficientes, infraestructura descentralizada y la emergencia de comportamientos inesperados en agentes autónomos.\n\nEmpecemos por los modelos compactos. OpenBMB acaba de liberar MiniCPM5-2B, un modelo denso de tan solo 2.52 mil millones de parámetros que logra un promedio de 53.9 puntos en 34 benchmarks diferentes. Lo interesante aquí no es solo el rendimiento, sino que está diseñado específicamente para ejecutarse directamente en dispositivos, sin depender de servidores en la nube. En paralelo, Reducto ha lanzado r-1, un modelo de análisis de documentos en una sola pasada que reduce errores en un 20 por ciento, con un costo operativo de apenas un centavo por página. Ambos proyectos responden a una realidad clara: el futuro es local, eficiente y económico.\n\nPero lo que está sucediendo bajo el capó es aún más fascinante. OpenAI permitió acceso a internet a miles de agentes experimentales, y lo que pasó después sorprendió a los investigadores: los agentes autónomos se organizaron, crearon sus propios canales de comunicación y montaron un Slack funcional en una vieja wiki alemana. Es un fenómeno que merece atención: cuando los sistemas tienen libertad y herramientas, emergen comportamientos que no fueron explícitamente programados. En esa misma línea, investigadores del MIT están desarrollando agentes con capacidad de planificación predictiva, diseñados para anticipar lo inesperado.\n\nEn infraestructura, Lenovo presentó en IFA su apuesta por la IA híbrida omnipresente. El mensaje fue claro: el hardware es casi lo de menos. Lo realmente importante es que la inteligencia permee todos los niveles de la experiencia del usuario. Y aquí, Mistral nos ofrece una reflexión interesante. Nacieron hace tres años con el objetivo de construir modelos europeos independientes, pero después de tres años de evolución, han descubierto que la verdadera batalla no está en los modelos mismos, sino en la infraestructura subyacente. Necesitan controlar las capas más profundas del stack tecnológico.\n\nFinalmente, Axis Robotics ha liberado AXIS, un motor de datos basado en navegador que integra 207 tareas diferentes de manipulación robótica con 50 mil trayectorias documentadas. Es un recurso invaluable para entrenar sistemas que necesitan aprender a interactuar físicamente con el mundo.\n\nEn conclusión: modelos que caben en tu teléfono, agentes que se autoorganizan, infraestructura descentralizada, y datos masivos para robots. El ecosistema de IA está fragmentándose en mil direcciones simultáneamente, y eso es precisamente lo que lo hace tan dinámico.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 39,
     "sources": 44,
-    "updated_label": "10:02"
+    "updated_label": "11:17"
   },
   "iaday": {
     "reading_minutes": "23 min",
@@ -22,8 +21,8 @@
     "impact": "Alto"
   },
   "thirty_seconds": [
-    "jafarxdev/proyectos-de-inginería-de-inteligencia-artificial",
-    "rDaeeMaMMaD/mizbán",
+    "Jafarxdev/proyectos-de-inginería-de-inteligencia-artificial",
+    "RDaeeMaMMaD/mizbán",
     "AhmadJeddi/Sistema Operativo Universal-AI"
   ],
   "articles": [
@@ -33,9 +32,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "repo",
-      "title": "jafarxdev/proyectos-de-inginería-de-inteligencia-artificial",
-      "summary": "⭐ 1 estrella — Un portafolio de ingeniería de IA con prácticas que abarca LLMs, ingeniería de prompts, RAG, LangChain, LangGraph, agentes de IA, sistemas multi-",
-      "time": "2h",
+      "title": "Jafarxdev/proyectos-de-inginería-de-inteligencia-artificial",
+      "summary": "⭐ 1 estrella — Un portafolio de ingeniería de IA con prácticas que abarca LLMs, ingeniería de prompts, RAG, LangChain, LangGraph, agentes de IA, sistemas",
+      "time": "795h",
       "url": "https://github.com/jafarxdev/ai-engineering-projects",
       "stars": "1"
     },
@@ -45,9 +44,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "repo",
-      "title": "rDaeeMaMMaD/mizbán",
-      "summary": "⭐ 3 estrellas — Mizban: puerta de enlace de API de IA self-hosted para OpenAI, ChatGPT, DeepSeek, Gemini, OpenRouter, NVIDIA. PHP + MySQL, cola, equilibrador de",
-      "time": "39h",
+      "title": "RDaeeMaMMaD/mizbán",
+      "summary": "⭐ 3 estrellas — Mizban: puerta de enlace de API de IA self-hosted para OpenAI, ChatGPT, DeepSeek, Gemini, OpenRouter, NVIDIA. PHP + MySQL, cola, equilibrador",
+      "time": "833h",
       "url": "https://github.com/rDaeeMaMMaD/mizban",
       "stars": "3"
     },
@@ -59,7 +58,7 @@
       "content_type": "repo",
       "title": "AhmadJeddi/Sistema Operativo Universal-AI",
       "summary": "⭐ 3 estrellas — Un marco de operación para agentes y asistentes para mejorar el razonamiento, la toma de decisiones, la ejecución y los resultados prácticos.",
-      "time": "122h",
+      "time": "915h",
       "url": "https://github.com/AhmadJeddi/Universal-AI-Operating-System",
       "stars": "3"
     },
@@ -70,8 +69,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Dr. Claw: Un espacio de trabajo para científicos de la inteligencia artificial para la investigación de vibra.",
-      "summary": "Los agentes de codificación por línea de comandos (por ejemplo, Claude Code, Gemini CLI) ya pueden leer y escribir archivos y mantener sesiones prolongadas, per",
-      "time": "209h",
+      "summary": "Los agentes de codificación por línea de comandos (por ejemplo, Claude Code, Gemini CLI) ya pueden leer y escribir archivos y mantener sesiones prolongadas,",
+      "time": "1002h",
       "url": "https://huggingface.co/papers/2609.00365"
     },
     {
@@ -81,8 +80,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "¿Qué Otros Elementos Necesitan Ser Corregidos? Explorando el Cálculo de Costo-Efectivo en el Tiempo del Test para la Propagación de Revisión en Artículos Generados a Través de Conversaciones",
-      "summary": "Los Modelos de Lenguaje de Gran Tamaño (LLMs) a menudo ayudan a los usuarios a generar artefactos a través de ciclos iterativos de generación y revisión en conv",
-      "time": "137h",
+      "summary": "Los Modelos de Lenguaje de Gran Tamaño (LLMs) a menudo ayudan a los usuarios a generar artefactos a través de ciclos iterativos de generación y revisión en",
+      "time": "930h",
       "url": "https://huggingface.co/papers/2609.03254"
     },
     {
@@ -91,9 +90,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "repo",
-      "title": "Guía de AhmadJeddi/LLM-VLM-VLM",
-      "summary": "⭐ 3 estrellas — Un guía para principiantes sobre cómo funcionan los modelos de lenguaje y los modelos multimodales — desde los modelos de lenguaje y Transformer",
-      "time": "22h",
+      "title": "AhmadJeddi/LLM-VLM-Guide",
+      "summary": "⭐ 3 estrellas — Un guía para principiantes sobre cómo funcionan los modelos de lenguaje y los modelos multimodales — desde los modelos de lenguaje y",
+      "time": "815h",
       "url": "https://github.com/AhmadJeddi/LLM-VLM-Guide",
       "stars": "3"
     },
@@ -104,8 +103,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Aceleración sin pérdida de velocidad en LLMs mediante difusión discreta",
-      "summary": "Los Grandes Modelos de Lenguaje (GMLs) han logrado gran parte de su éxito gracias a la predicción del próximo token (PNP), pero su estructura autoregresiva (AR)",
-      "time": "137h",
+      "summary": "Los Grandes Modelos de Lenguaje (GMLs) han logrado gran parte de su éxito gracias a la predicción del próximo token (PNP), pero su estructura autoregresiva",
+      "time": "930h",
       "url": "https://huggingface.co/papers/2609.04010"
     },
     {
@@ -115,8 +114,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "HarvestBench: Medición de si los agentes de LLM estarán dispuestos a pagar para evitar la matanza de animales",
-      "summary": "Benchmarks para los efectos secundarios que un agente causa en el camino hacia una meta ya existen, pero HarvestBench es el primero en poner un precio a la evit",
-      "time": "137h",
+      "summary": "Benchmarks para los efectos secundarios que un agente causa en el camino hacia una meta ya existen, pero HarvestBench es el primero en poner un precio a la",
+      "time": "930h",
       "url": "https://huggingface.co/papers/2609.04444"
     },
     {
@@ -125,9 +124,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "lucidrains/declarativa-atención",
+      "title": "Lucidrains/declarativa-atención",
       "summary": "⭐ 11 estrellas — Implementación del procedimiento en Modelos de Lenguaje Puede Controlar Su Propia Atención, de Namgyu Ho et al. de AI de KAIST",
-      "time": "47h",
+      "time": "840h",
       "url": "https://github.com/lucidrains/declarative-attention",
       "stars": "11"
     },
@@ -138,8 +137,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "EmbodiedSkills: Un marco unificado para orquestar, entrenar y desplegar agentes VLA",
-      "summary": "Los modelos Vision-Lenguaje-Acción (VLA) mapean observaciones visuales e instrucciones de lenguaje directamente a acciones de los robots, pero las tareas a larg",
-      "time": "185h",
+      "summary": "Los modelos Vision-Lenguaje-Acción (VLA) mapean observaciones visuales e instrucciones de lenguaje directamente a acciones de los robots, pero las tareas a",
+      "time": "978h",
       "url": "https://huggingface.co/papers/2609.01281"
     },
     {
@@ -150,7 +149,7 @@
       "content_type": "repo",
       "title": "Kai26-Han/miniLLM",
       "summary": "⭐ 1 estrella — De 0 entrenar un modelo con 200M de parámetros desde cero (train a 200M-parameter model from scratch)",
-      "time": "81h",
+      "time": "875h",
       "url": "https://github.com/Kai26-Han/miniLLM",
       "stars": "1"
     },
@@ -160,9 +159,9 @@
       "lang": "en",
       "cat": "Investigación",
       "content_type": "repo",
-      "title": "paula-saenz/prevision-de-pluviosidad-aprendizaje-automatico",
+      "title": "Paula-saenz/prevision-de-pluviosidad-aprendizaje-automatico",
       "summary": "⭐ 0 estrellas — Proyecto de aprendizaje automático para la predicción de lluvias utilizando Regresión Logística, KNN, SVM, Naive Bayes y Árboles de Decisión.",
-      "time": "19h",
+      "time": "813h",
       "url": "https://github.com/paula-saenz/rainfall-prediction-machine-learning",
       "stars": "0"
     },
@@ -173,8 +172,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "ENEAS: Ensamblaje neurnal guiado por embeddings para segmentación adaptativa",
-      "summary": "Presentamos ENEAS, un método unificado y adaptable mediante texto para el seguimiento de instancias y la descubrimiento semántico. Aún los modelos de segmentaci",
-      "time": "137h",
+      "summary": "Presentamos ENEAS, un método unificado y adaptable mediante texto para el seguimiento de instancias y la descubrimiento semántico. Aún los modelos de",
+      "time": "930h",
       "url": "https://huggingface.co/papers/2609.03756"
     },
     {
@@ -183,9 +182,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "FlowBalance: Mejoramiento自身从基于验证的经验在线策略推理",
-      "summary": "Un modelo de razonamiento puede mejorar a partir de su propia experiencia on-policy, pero este ciclo interno es frágil: los verificadores terminales proporciona",
-      "time": "137h",
+      "title": "FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience",
+      "summary": "Un modelo de razonamiento puede mejorar a partir de su propia experiencia on-policy, pero este ciclo interno es frágil: los verificadores terminales",
+      "time": "930h",
       "url": "https://huggingface.co/papers/2609.03241"
     },
     {
@@ -195,8 +194,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Análisis estructural de respuestas de ajuste de seguridad sin rechazo para reducir los rechazos falsos en modelos de lenguaje",
-      "summary": "Lograr un equilibrio entre la ayuda y la seguridad sigue siendo un desafío fundamental en la alineación de los modelos de lenguaje de gran escala. Para alcanzar",
-      "time": "113h",
+      "summary": "Lograr un equilibrio entre la ayuda y la seguridad sigue siendo un desafío fundamental en la alineación de los modelos de lenguaje de gran escala. Para",
+      "time": "906h",
       "url": "https://huggingface.co/papers/2609.04714"
     },
     {
@@ -206,8 +205,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "UniMate: Un Modelo Unificado para Animar Esqueletos Diversos",
-      "summary": "Los recientes avances en la automatización del montaje ahora entregan activos 3D animables a gran escala, pero la generación del movimiento para impulsarlos sig",
-      "time": "113h",
+      "summary": "Los recientes avances en la automatización del montaje ahora entregan activos 3D animables a gran escala, pero la generación del movimiento para impulsarlos",
+      "time": "906h",
       "url": "https://huggingface.co/papers/2609.05415"
     },
     {
@@ -217,8 +216,8 @@
       "cat": "Investigación",
       "content_type": "paper",
       "title": "Un Síntoma, Tres Palancas: Un Revisión Crítica de la Auto-Distilación por Políticas en Tiempo Real",
-      "summary": "La distilación on-policy entrena un modelo de lenguaje en sus propias generaciones mientras un maestro las califica token por token. Combina la supervisión dens",
-      "time": "329h",
+      "summary": "La distilación on-policy entrena un modelo de lenguaje en sus propias generaciones mientras un maestro las califica token por token. Combina la supervisión",
+      "time": "1122h",
       "url": "https://huggingface.co/papers/2608.25936"
     },
     {
@@ -228,8 +227,8 @@
       "cat": "Investigación",
       "content_type": "paper",
       "title": "Verifique Antes de Destilar: Control del Maestro por Nivel de Promp para la Destilación por Política Actual",
-      "summary": "La distilación on-policy (OPD) acelera el entrenamiento posterior al proporcionar supervisión densa de nivel de token de un maestro congelado en los despliegues",
-      "time": "161h",
+      "summary": "La distilación on-policy (OPD) acelera el entrenamiento posterior al proporcionar supervisión densa de nivel de token de un maestro congelado en los",
+      "time": "954h",
       "url": "https://huggingface.co/papers/2609.02998"
     },
     {
@@ -239,8 +238,8 @@
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "Síntesis de Datos de Cambio Guiada por el Conocimiento del Mundo Real para Sensoreo Remoto",
-      "summary": "La síntesis de datos de cambio proporciona una solución eficaz en términos de costos para expandir los datos de entrenamiento e mejorar el rendimiento de los mo",
-      "time": "353h",
+      "summary": "Change data synthesis provides a cost-effective solution for expanding training data and improving the performance of change detection models. However,",
+      "time": "1146h",
       "url": "https://huggingface.co/papers/2608.24263"
     },
     {
@@ -250,8 +249,8 @@
       "cat": "Investigación",
       "content_type": "paper",
       "title": "Desarrollar el Mundo: Factorizar Propiedades 4D para Reforzar el Razonamiento Espacial",
-      "summary": "A pesar del notable desempeño de los Modelos de Lenguaje-Visión (VLMs) en tareas multimodales generales, siguen siendo fundamentalmente ``planos'' al razonar so",
-      "time": "137h",
+      "summary": "A pesar del notable desempeño de los Modelos de Lenguaje-Visión (VLMs) en tareas multimodales generales, siguen siendo fundamentalmente ``planos'' al razonar",
+      "time": "930h",
       "url": "https://huggingface.co/papers/2609.03729"
     },
     {
@@ -261,8 +260,8 @@
       "cat": "Investigación",
       "content_type": "paper",
       "title": "Sabiendo lo que no responder: No cumplimiento selectivo en modelos de visión y lenguaje",
-      "summary": "Los modelos de lenguaje-vista (VLMs) se esperan para responder de manera útil a solicitudes apropiadas mientras se abstienen de cumplir con solicitudes incorrec",
-      "time": "113h",
+      "summary": "Los modelos de lenguaje-vista (VLMs) se esperan para responder de manera útil a solicitudes apropiadas mientras se abstienen de cumplir con solicitudes",
+      "time": "906h",
       "url": "https://huggingface.co/papers/2609.04720"
     },
     {
@@ -272,8 +271,8 @@
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "La Competencia PNPL 2026: Clasificación de Palabras y Generalización Eficiente entre Múltiples Disciplinas en LibriBrain100",
-      "summary": "La ambición de la competencia PNPL de 2025 (Landau et al., 2025) fue lanzar un currículo multianual para la decodificación no invasiva del habla. Diseñado para ",
-      "time": "137h",
+      "summary": "La ambición de la competencia PNPL de 2025 (Landau et al., 2025) fue lanzar un currículo multianual para la decodificación no invasiva del habla. Diseñado para",
+      "time": "930h",
       "url": "https://huggingface.co/papers/2609.03231"
     },
     {
@@ -283,8 +282,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Qwen 3.8 27B Gratis y Ultra Rápido ⚡ Cómo usarlo con VELOCIDAD EXTREMA",
-      "summary": "Descubre cómo utilizar el modelo Qwen 3.8 27B gratis y ultra rápido gracias a la potencia de Cerebras. En este video exploramos las capacidades de este modelo d",
-      "time": "3h",
+      "summary": "Descubre cómo utilizar el modelo Qwen 3.8 27B gratis y ultra rápido gracias a la potencia de Cerebras. En este video exploramos las capacidades de este modelo",
+      "time": "796h",
       "url": "https://www.youtube.com/watch?v=M2tJcJWQQGQ"
     },
     {
@@ -294,8 +293,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "MiniCPM 1B ⚠️ ¿Vale la pena? Análisis de este modelo de IA",
-      "summary": "En este video analizamos a fondo el modelo MiniCPM 1B para descubrir si realmente vale la pena utilizarlo en tus proyectos de inteligencia artificial. Evaluamos",
-      "time": "18h",
+      "summary": "En este video analizamos a fondo el modelo MiniCPM 1B para descubrir si realmente vale la pena utilizarlo en tus proyectos de inteligencia artificial.",
+      "time": "811h",
       "url": "https://www.youtube.com/watch?v=WNMltGLM11U"
     },
     {
@@ -305,8 +304,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Phi 4 mini 🔍 ¿Sigue VALIENDO la pena en la ACTUALIDAD?",
-      "summary": "En este video analizamos si el modelo Phi 4 mini sigue siendo una opción viable o si ha quedado totalmente obsoleto frente a las nuevas arquitecturas. Evaluamos",
-      "time": "23h",
+      "summary": "En este video analizamos si el modelo Phi 4 mini sigue siendo una opción viable o si ha quedado totalmente obsoleto frente a las nuevas arquitecturas.",
+      "time": "816h",
       "url": "https://www.youtube.com/watch?v=xRvm662DZVw"
     },
     {
@@ -316,8 +315,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Integra pagos en tu app GRATIS",
-      "summary": "¿Estás creando una app con Claude y necesitas integrar pagos? 💳\nEn lugar de pasar horas investigando cómo hacerlo, puedes probar PagoKit.\n•\nEsta herramienta gra",
-      "time": "ahora",
+      "summary": "¿Estás creando una app con Claude y necesitas integrar pagos? 💳 En lugar de pasar horas investigando cómo hacerlo, puedes probar PagoKit. • Esta herramienta",
+      "time": "794h",
       "url": "https://www.youtube.com/shorts/LY4-KK4Kgi0"
     },
     {
@@ -327,8 +326,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Si usas Claude Code, necesitas conocer estos 5 plugins. 🚀",
-      "summary": "Si usas Claude Code, necesitas conocer estas 5 herramientas. 🚀 \n👉🏻 Claude Code puede ser mucho más que una herramienta para escribir código desde la terminal.\nC",
-      "time": "24h",
+      "summary": "Si usas Claude Code, necesitas conocer estas 5 herramientas. 🚀 👉🏻 Claude Code puede ser mucho más que una herramienta para escribir código desde la terminal.",
+      "time": "817h",
       "url": "https://www.youtube.com/shorts/8swFMW1DZBY"
     },
     {
@@ -338,8 +337,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "MiniCPM5 2B ⚠️ ¿Realmente SUPERIOR o una DECEPCIÓN?",
-      "summary": "Analizamos a fondo el nuevo modelo MiniCPM5 2B para descubrir si realmente ofrece un rendimiento superior en su categoría o si es una decepción para los usuario",
-      "time": "11h",
+      "summary": "Analizamos a fondo el nuevo modelo MiniCPM5 2B para descubrir si realmente ofrece un rendimiento superior en su categoría o si es una decepción para los",
+      "time": "804h",
       "url": "https://www.youtube.com/watch?v=T0w0TXtk_0Y"
     },
     {
@@ -349,8 +348,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Qwen Drive 🚀 la IA con PERCEPCIÓN 3D para Entender el Entorno",
-      "summary": "Descubre cómo funciona Qwen Drive, el innovador modelo de lenguaje con percepción 3D diseñado para entender entornos complejos. Este modelo de Alibaba permite q",
-      "time": "7h",
+      "summary": "Descubre cómo funciona Qwen Drive, el innovador modelo de lenguaje con percepción 3D diseñado para entender entornos complejos. Este modelo de Alibaba permite",
+      "time": "800h",
       "url": "https://www.youtube.com/watch?v=wEUQsy_oDps"
     },
     {
@@ -360,8 +359,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Tiel Coder 35B A3B 🧪 ¿Realmente es MEJOR que Qwen 3.5? Prueba de CÓDIGO",
-      "summary": "En este video ponemos a prueba el modelo Tiel Coder 35B A3B para determinar si realmente supera al Qwen 3.5 en tareas de programación. Analizamos este modelo co",
-      "time": "15h",
+      "summary": "En este video ponemos a prueba el modelo Tiel Coder 35B A3B para determinar si realmente supera al Qwen 3.5 en tareas de programación. Analizamos este modelo",
+      "time": "808h",
       "url": "https://www.youtube.com/watch?v=TKEN45TbQ14"
     },
     {
@@ -371,8 +370,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "GPT-6 Astra Cambia Todo",
-      "summary": "❤️ Revisa Lambda aquí y únete a su nube GPU: https://lambda.ai/papers\n\nEnlaces / fuentes:\nSimulación Honey: busca \"Variational Stokes: Un Solver Unificado de Pr",
-      "time": "4h",
+      "summary": "❤️ Revisa Lambda aquí y únete a su nube GPU: https://lambda.ai/papers Enlaces / fuentes: Simulación Honey: busca \"Variational Stokes: Un Solver Unificado de",
+      "time": "797h",
       "url": "https://www.youtube.com/watch?v=eVBJIUxv8N8"
     },
     {
@@ -381,9 +380,9 @@
       "lang": "en",
       "cat": "Videos",
       "content_type": "video",
-      "title": "Nueva release Gentle-AI y Gentle-Pi !!",
+      "title": "Nueva versión Gentle-AI y Gentle-Pi !!",
       "summary": "",
-      "time": "4h",
+      "time": "797h",
       "url": "https://www.youtube.com/shorts/Pzv-Nj6zf-w"
     },
     {
@@ -393,8 +392,8 @@
       "cat": "Modelos",
       "content_type": "release",
       "title": "OpenBMB lanza MiniCPM5-2B: un modelo denso de 2,52B que promedia 53,9 en 34 pruebas y está diseñado para ejecutarse en dispositivo.",
-      "summary": "OpenBMB ha lanzado MiniCPM5-2B, un modelo de lenguaje causal denso con 2,516,756,480 parámetros y un contexto nativo de 131,072 tokens. Logra un promedio de 53.",
-      "time": "17h",
+      "summary": "OpenBMB ha lanzado MiniCPM5-2B, un modelo de lenguaje causal denso con 2,516,756,480 parámetros y un contexto nativo de 131,072 tokens. Logra un promedio de",
+      "time": "810h",
       "url": "https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/"
     },
     {
@@ -404,8 +403,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "OpenAI dio acceso a Internet a miles de agentes. Ellos acabaron montándose su propio Slack en una vieja wiki alemana",
-      "summary": "<p>\n     <img alt=\"OpenAI&#x20;dio&#x20;acceso&#x20;a&#x20;Internet&#x20;a&#x20;miles&#x20;de&#x20;agentes.&#x20;Ellos&#x20;acabaron&#x20;mont&#x00E1;ndose&#x20",
-      "time": "7h",
+      "summary": "<p> <img",
+      "time": "800h",
       "url": "https://www.xataka.com/robotica-e-ia/openai-dio-acceso-a-internet-a-miles-agentes-ellos-acabaron-montandose-su-propio-slack-vieja-wiki-alemana"
     },
     {
@@ -415,8 +414,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "En IFA Lenovo deja claro que el hardware es casi lo de menos: en su apuesta suma ahora una IA híbrida en todas partes",
-      "summary": "<p>\n     <img alt=\"En&#x20;IFA&#x20;Lenovo&#x20;deja&#x20;claro&#x20;que&#x20;el&#x20;hardware&#x20;es&#x20;casi&#x20;lo&#x20;de&#x20;menos&#x3A;&#x20;en&#x20;s",
-      "time": "20h",
+      "summary": "<p> <img",
+      "time": "813h",
       "url": "https://www.xataka.com/empresas-y-economia/lenovo-cree-que-privacidad-sera-nueva-batalla-ia-eso-apuesta-todo-al-procesamiento-local"
     },
     {
@@ -425,9 +424,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "release",
-      "title": "Reducto Releases r-1: Un Modelo de解析单页文档解析一次性减少20%错误，每页成本1美分",
-      "summary": "Examinamos r-1, el modelo de解析文档解析模型Reducto，它于2026年9月1日发布。我们探讨了它如何将OCR、布局检测、表格、格式化和定位整合到一次完整的页面处理中，替代了随附的多阶段代理管道。我们拆解了两个对迁移决策至关重要的数字：据报道，错误减少了20%，而每页费用为1美分，相比之下",
-      "time": "9h",
+      "title": "Reducto Releases r-1: A Single Pass Document Parsing Model That Cuts Errors 20% at 1 Cent Per Page",
+      "summary": "<p>We look at r-1, the document parsing model Reducto released on September 1, 2026. We walk through how it folds OCR, layout detection, tables, formatting and",
+      "time": "803h",
       "url": "https://www.marktechpost.com/2026/09/07/reducto-releases-r-1-a-single-pass-document-parsing-model-that-cuts-errors-20-at-1-cent-per-page/"
     },
     {
@@ -437,8 +436,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Mistral nació para construir modelos europeos. Tres años después ha descubierto que la verdadera batalla está debajo de ellos",
-      "summary": "<p>\n     <img alt=\"Mistral&#x20;naci&#x00F3;&#x20;para&#x20;construir&#x20;modelos&#x20;europeos.&#x20;Tres&#x20;a&#x00F1;os&#x20;despu&#x00E9;s&#x20;ha&#x20;de",
-      "time": "4h",
+      "summary": "<p> <img",
+      "time": "797h",
       "url": "https://www.xataka.com/robotica-e-ia/mistral-nacio-para-construir-modelos-europeos-tres-anos-despues-ha-descubierto-que-verdadera-batalla-esta-debajo-ellos"
     },
     {
@@ -448,8 +447,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Este empresario de inteligencia artificial está desarrollando agentes que pueden planificar ante el imprevisto.",
-      "summary": "El despacho de Danijar Hafner en el distrito de SoMa de San Francisco está principalmente vacío. Su reciente startup aún está en modo de stealth y ni siquiera t",
-      "time": "2h",
+      "summary": "El despacho de Danijar Hafner en el distrito de SoMa de San Francisco está principalmente vacío. Su reciente startup aún está en modo de stealth y ni siquiera",
+      "time": "795h",
       "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/"
     },
     {
@@ -459,8 +458,8 @@
       "cat": "Herramientas",
       "content_type": "release",
       "title": "Axis Robotics lanza AXIS: un motor de datos basado en navegador con 207 tareas de manipulación de robots y 50.129 trayectorias.",
-      "summary": "<p>Los conjuntos de datos de robots han crecido mucho más lentamente que los modelos entrenados con ellos, principalmente porque la recopilación se mantiene atr",
-      "time": "18h",
+      "summary": "<p>Los conjuntos de datos de robots han crecido mucho más lentamente que los modelos entrenados con ellos, principalmente porque la recopilación se mantiene",
+      "time": "811h",
       "url": "https://www.marktechpost.com/2026/09/07/axis-robotics-releases-axis-a-browser-based-data-engine-with-207-robot-manipulation-tasks-and-50129-trajectories/"
     }
   ]

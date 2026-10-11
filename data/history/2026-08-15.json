@@ -4,27 +4,26 @@
   "greeting": "Buenos días, Effry",
   "briefing": {
     "duration_label": "2:35",
-    "audio_url": "assets/audio/2026-08-15.mp3",
     "script_text": "En el resumen de hoy te traemos un especial sobre herramientas prácticas que están ganando tracción en la comunidad, y también algunas actualizaciones importantes de seguridad que no deberías pasar por alto. Empecemos con lo más interesante en GitHub. Ha habido un movimiento fuerte alrededor de proyectos de visión por computadora y detección. RoadSense destaca como un modelo de IA para análisis de tráfico y comportamiento vial, algo muy útil si trabajas en movilidad autónoma o sistemas de monitoreo. En paralelo, encontramos un detector de correos de phishing basado en machine learning que, honestamente, es algo que merece la pena probar en tu sandbox personal si trabajas en ciberseguridad o detectando anomalías. Estos dos te dan patrones prácticos de clasificación que puedes reutilizar. En otro frente, hay dos proyectos que merecen atención: un análisis de algoritmos genéticos aplicado a penales en fútbol, que es un ejemplo académico muy limpio de optimización evolutiva, y Hyperion V3, que promete mejoras en eficiencia de modelos Python. Si buscas entender optimización sin ir directo a papers densos, estos son excelentes puntos de entrada. Ahora, lo que realmente cambia el juego: Z.ai acaba de entrenar GLM-5.3, un modelo especializado en código, y aquí viene lo interesante, el modelo mejoró exponencialmente no solo en programación, sino también en tareas de ciberseguridad. Esto confirma lo que muchos ya sospechábamos: que el entrenamiento en código fuerte transfiere habilidades a detección de vulnerabilidades. Si trabajas en generación de código o análisis de seguridad, este es un modelo que definitivamente deberías monitorear. En el lado de infraestructura, NVIDIA ha sacado la versión estable de GeForce Now para Linux. Para los que desarrollamos en sistemas Linux, esto es un cambio real: acceso a GPUs gaming sin configuración compleja. Es un movimiento que democratiza el acceso a potencia de cómputo. Y termino con dos alertas de seguridad que son críticas. Windows 11 acaba de recibir un parche masivo con más de 400 correcciones en agosto, así que si estás en ese ecosistema, no dejes pasar esa actualización. Más importante aún: Chrome está siendo explotado a través de alertas falsas que instalan malware. Suena simple, pero es sofisticado. Mantén a tu equipo alert sobre esto. En resumen: hay herramientas frescas que probar, un modelo de código generativo que merece seguimiento, y recordatorios de seguridad que no son negociables. Eso es todo por hoy. Gracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 60,
-    "sources": 31,
-    "updated_label": "09:52"
+    "new_articles": 57,
+    "sources": 44,
+    "updated_label": "11:17"
   },
   "iaday": {
-    "reading_minutes": "36 min",
+    "reading_minutes": "34 min",
     "audio_duration": "2:35",
     "key_count": 3,
     "papers_count": 2,
     "repos_count": 14,
-    "videos_count": 40,
+    "videos_count": 37,
     "impact": "Alto"
   },
   "thirty_seconds": [
     "Dineshbarri/DataPilot-AI",
     "Jaturaput-Jongsubcharoen/RutaSens-AI-ML",
-    "sistema-de-gestion-coe/sistema-de-gestion-coe"
+    "Sistema-de-gestion-coe/sistema-de-gestion-coe"
   ],
   "articles": [
     {
@@ -34,8 +33,8 @@
       "cat": "Modelos",
       "content_type": "repo",
       "title": "Dineshbarri/DataPilot-AI",
-      "summary": "⭐ 1 estrella — Agente autónomo de inteligencia artificial para ciencia de datos, calidad de datos, EDA, análisis estadístico, evaluación de ML, explicabilidad e",
-      "time": "204h",
+      "summary": "⭐ 1 estrella — Agente autónomo de inteligencia artificial para ciencia de datos, calidad de datos, EDA, análisis estadístico, evaluación de ML, explicabilidad",
+      "time": "1501h",
       "url": "https://github.com/dineshbarri/DataPilot-AI",
       "stars": "1"
     },
@@ -46,8 +45,8 @@
       "cat": "Herramientas",
       "content_type": "repo",
       "title": "Jaturaput-Jongsubcharoen/RutaSens-AI-ML",
-      "summary": "⭐ 0 estrellas — Pipeline de aprendizaje automático de TensorFlow para RoadSense AI, que incluye el aprendizaje transferente con EfficientNetB0, el procesamiento",
-      "time": "89h",
+      "summary": "⭐ 0 estrellas — Pipeline de aprendizaje automático de TensorFlow para RoadSense AI, que incluye el aprendizaje transferente con EfficientNetB0, el",
+      "time": "1386h",
       "url": "https://github.com/Jaturaput-Jongsubcharoen/RoadSense-AI-ML",
       "stars": "0"
     },
@@ -57,9 +56,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "sistema-de-gestion-coe/sistema-de-gestion-coe",
-      "summary": "⭐ 3 estrellas — Sistema de gestión de la CoE universitaria para datos académicos centralizados, análisis, programación, optimización de carga de trabajo y gesti",
-      "time": "166h",
+      "title": "Sistema-de-gestion-coe/sistema-de-gestion-coe",
+      "summary": "⭐ 3 estrellas — Sistema de gestión de la CoE universitaria para datos académicos centralizados, análisis, programación, optimización de carga de trabajo y",
+      "time": "1462h",
       "url": "https://github.com/coe-management-system/coe-management-system",
       "stars": "3"
     },
@@ -70,8 +69,8 @@
       "cat": "Herramientas",
       "content_type": "repo",
       "title": "MobeenFatimaa/NutriScan",
-      "summary": "⭐ 2 estrellas — Una aplicación web basada en Flask y visión por computadora que analiza imágenes de comidas, predice platos con una precisión ajustada del 99,28",
-      "time": "213h",
+      "summary": "⭐ 2 estrellas — Una aplicación web basada en Flask y visión por computadora que analiza imágenes de comidas, predice platos con una precisión ajustada del",
+      "time": "1509h",
       "url": "https://github.com/MobeenFatimaa/NutriScan",
       "stars": "2"
     },
@@ -81,9 +80,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "gengyueworks/ai-timeline",
-      "summary": "⭐ 2 estrellas — AI Timeline · 116 hitos respaldados por fuentes desde 1936 hasta 2026-08. Un cronologías bilingües de la inteligencia artificial — construida po",
-      "time": "190h",
+      "title": "Gengyueworks/ai-timeline",
+      "summary": "⭐ 2 estrellas — AI Timeline · 116 hitos respaldados por fuentes desde 1936 hasta 2026-08. Un cronologías bilingües de la inteligencia artificial — construida",
+      "time": "1487h",
       "url": "https://github.com/gengyueworks/ai-timeline",
       "stars": "2"
     },
@@ -93,9 +92,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "aadityachauhann/ai-trabajo-analizador-de-ajuste-de-ai",
-      "summary": "⭐ 2 estrellas — Sistema basado en IA para currículum y coincidencia de empleos que analiza brechas de habilidades, compatibilidad con ATS, recomendaciones de ca",
-      "time": "115h",
+      "title": "Aadityachauhann/ai-trabajo-analizador-de-ajuste-de-ai",
+      "summary": "⭐ 2 estrellas — Sistema basado en IA para currículum y coincidencia de empleos que analiza brechas de habilidades, compatibilidad con ATS, recomendaciones de",
+      "time": "1411h",
       "url": "https://github.com/aadityachauhann/ai-job-fit-analyzer",
       "stars": "2"
     },
@@ -106,8 +105,8 @@
       "cat": "Herramientas",
       "content_type": "repo",
       "title": "Shubham03-hub/Macro-Sentinel-AI-Geo-Economic-Stress-Country-Risk-Platform",
-      "summary": "⭐ 1 estrella — Una plataforma ML端到端用于预测国家风险和地理经济压力，配备MLflow跟踪和交互式Streamlit仪表板。",
-      "time": "145h",
+      "summary": "⭐ 1 estrellas — An end-to-end ML platform for predicting country risk and geo-economic stress with MLflow tracking and an interactive Streamlit dashboard.",
+      "time": "1442h",
       "url": "https://github.com/Shubham03-hub/Macro-Sentinel-AI-Geo-Economic-Stress-Country-Risk-Platform",
       "stars": "1"
     },
@@ -117,9 +116,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "nssntus/unlimited-wiki",
-      "summary": "⭐ 1 estrella — Plataforma de conocimiento multiusuario basada en el lugar con ingreso de documentos, OCR, curaduría asistida por IA y publicación pública revisa",
-      "time": "124h",
+      "title": "Nssntus/unlimited-wiki",
+      "summary": "⭐ 1 estrella — Plataforma de conocimiento multiusuario basada en el lugar con ingreso de documentos, OCR, curaduría asistida por IA y publicación pública",
+      "time": "1420h",
       "url": "https://github.com/nssntus/unlimited-wiki",
       "stars": "1"
     },
@@ -130,8 +129,8 @@
       "cat": "Investigación",
       "content_type": "repo",
       "title": "Mandeep141206/AI-Phishing-Email-Detector",
-      "summary": "⭐ 1 estrella — Un sistema de detección de correos electrónicos de phishing basado en IA que utiliza NLP, TF-IDF, ingeniería de características y modelos de apre",
-      "time": "75h",
+      "summary": "⭐ 1 estrella — Un sistema de detección de correos electrónicos de phishing basado en IA que utiliza NLP, TF-IDF, ingeniería de características y modelos de",
+      "time": "1372h",
       "url": "https://github.com/Mandeep141206/AI-Phishing-Email-Detector",
       "stars": "1"
     },
@@ -141,9 +140,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "alishamansoori004-sketch/Producto-Reviews-Análisis-de-Sentimiento",
+      "title": "Alishamansoori004-sketch/Producto-Reviews-Análisis-de-Sentimiento",
       "summary": "⭐ 0 estrellas — análisis de la opinión de reseñas de productos impulsado por IA utilizando NLP, TF-IDF y Regresión Logística con Flask.",
-      "time": "151h",
+      "time": "1448h",
       "url": "https://github.com/alishamansoori004-sketch/Product-Reviews-Sentiment-Analysis",
       "stars": "0"
     },
@@ -154,8 +153,8 @@
       "cat": "Herramientas",
       "content_type": "repo",
       "title": "HexCore8/Hacker",
-      "summary": "⭐ 0 estrellas — Este repositorio es mantenido por Hex Core e incluye miles de recursos relacionados con el hacking ético, recompensas por errores, forenses digi",
-      "time": "70h",
+      "summary": "⭐ 0 estrellas — Este repositorio es mantenido por Hex Core e incluye miles de recursos relacionados con el hacking ético, recompensas por errores, forenses",
+      "time": "1366h",
       "url": "https://github.com/HexCore8/Hacker",
       "stars": "0"
     },
@@ -165,9 +164,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "jhughes7386/PenaltyKicks-Genetic-Algorithm",
+      "title": "Jhughes7386/PenaltyKicks-Genetic-Algorithm",
       "summary": "⭐ 0 estrellas — Sin descripción",
-      "time": "90h",
+      "time": "1387h",
       "url": "https://github.com/jhughes7386/PenaltyKicks-Genetic-Algorithm",
       "stars": "0"
     },
@@ -177,9 +176,9 @@
       "lang": "en",
       "cat": "Investigación",
       "content_type": "repo",
-      "title": "soares-grs/encAIxa",
+      "title": "Soares-grs/encAIxa",
       "summary": "⭐ 6 estrellas — Optimize su currículum para cada puesto con IA, sugerencias basadas en evidencias y generación de PDF. ATS — local, privado y multiplataforma",
-      "time": "84h",
+      "time": "1380h",
       "url": "https://github.com/soares-grs/encAIxa",
       "stars": "6"
     },
@@ -189,9 +188,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "bro tiene un aspecto似鱼67-hub/Hyperion-V3",
+      "title": "Brolookslikeanfish67-hub/Hyperion-V3",
       "summary": "⭐ 1 estrella — un modelo de inteligencia artificial construido desde cero que tiene 1.11 mil millones de parámetros",
-      "time": "70h",
+      "time": "1366h",
       "url": "https://github.com/brolookslikeanfish67-hub/Hyperion-V3",
       "stars": "1"
     },
@@ -202,8 +201,8 @@
       "cat": "Investigación",
       "content_type": "paper",
       "title": "Búsqueda por haz de nivel de pensamiento para razonamiento",
-      "summary": "La escalabilidad del cálculo durante la prueba es un principal impulsor del rendimiento en los modelos de razonamiento de gran escala (LRMs), pero la eficiencia",
-      "time": "185h",
+      "summary": "La escalabilidad del cálculo durante la prueba es un principal impulsor del rendimiento en los modelos de razonamiento de gran escala (LRMs), pero la",
+      "time": "1482h",
       "url": "https://huggingface.co/papers/2608.08020"
     },
     {
@@ -213,8 +212,8 @@
       "cat": "Investigación",
       "content_type": "paper",
       "title": "Maglev: Deslizamiento Recurrente de Memoria",
-      "summary": "Introducimos una arquitectura recurrente de Transformer con memoria de tamaño fijo que generaliza la atención de ventana deslizante mientras permanece paraleliz",
-      "time": "329h",
+      "summary": "Introducimos una arquitectura recurrente de Transformer con memoria de tamaño fijo que generaliza la atención de ventana deslizante mientras permanece",
+      "time": "1626h",
       "url": "https://huggingface.co/papers/2608.02870"
     },
     {
@@ -224,8 +223,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "El repositorio secreto de APIs de IA 🤫",
-      "summary": "¿Estás pagando demasiado por tus APIs de IA? 💸\n👉🏻 Existe un repositorio gratuito que reúne proveedores y modelos como DeepSeek, Gemini, Kimi y muchos más.\n•\nCon",
-      "time": "119h",
+      "summary": "¿Estás pagando demasiado por tus APIs de IA? 💸 👉🏻 Existe un repositorio gratuito que reúne proveedores y modelos como DeepSeek, Gemini, Kimi y muchos más. •",
+      "time": "1416h",
       "url": "https://www.youtube.com/shorts/YZhVtrB_3dc"
     },
     {
@@ -235,8 +234,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Kimi K3: El modelo LIBRE al nivel de Fable 5",
-      "summary": "En este vídeo analizamos a fondo el Kimi K3 de Moonshot, el nuevo modelo de inteligencia artificial chino que promete competir al de tú a tú con los gigantes de",
-      "time": "668h",
+      "summary": "En este vídeo analizamos a fondo el Kimi K3 de Moonshot, el nuevo modelo de inteligencia artificial chino que promete competir al de tú a tú con los gigantes",
+      "time": "1965h",
       "url": "https://www.youtube.com/watch?v=dPdSwlSOYRY"
     },
     {
@@ -246,8 +245,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Una IA se salió del sandbox y atacó una empresa: qué pasó realmente",
-      "summary": "Gentleman Programming | IA se escapó | Se escapó una IA de OpenAI y terminó adentro de la infraestructura de Hugging Face. Te explico qué pasó de verdad, sin hu",
-      "time": "334h",
+      "summary": "Gentleman Programming | IA se escapó | Se escapó una IA de OpenAI y terminó adentro de la infraestructura de Hugging Face. Te explico qué pasó de verdad, sin",
+      "time": "1630h",
       "url": "https://www.youtube.com/watch?v=EGlCBzJxwXg"
     },
     {
@@ -257,8 +256,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Nuevo plugin oficial: instala Codex en Claude 🚀 💻",
-      "summary": "Claude Code y Codex ahora pueden trabajar juntos. 🤯 \n‼️ OpenAI lanzó un plugin oficial que permite integrar Codex directamente dentro de Claude Code desde tu te",
-      "time": "71h",
+      "summary": "Claude Code y Codex ahora pueden trabajar juntos. 🤯 ‼️ OpenAI lanzó un plugin oficial que permite integrar Codex directamente dentro de Claude Code desde tu",
+      "time": "1368h",
       "url": "https://www.youtube.com/shorts/jX7xvMwXZz8"
     },
     {
@@ -268,8 +267,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Tu agente de IA está CIEGO: así le das ojos al mundo real",
-      "summary": "Gentleman Programming | Agentes de IA | Tu agente de IA está ciego: le das herramientas, contexto y un modelo carísimo, pero cuando sale al mundo real a buscar ",
-      "time": "116h",
+      "summary": "Gentleman Programming | Agentes de IA | Tu agente de IA está ciego: le das herramientas, contexto y un modelo carísimo, pero cuando sale al mundo real a buscar",
+      "time": "1413h",
       "url": "https://www.youtube.com/watch?v=6ChZMEMJ8hA"
     },
     {
@@ -279,8 +278,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "ASÍ Controlo mis agentes de IA desde el TELÉFONO",
-      "summary": "Gentleman Programming | Agentes de IA | Controlo mis agentes de IA desde el teléfono: tu máquina, tu red, tus llaves, sin subir el código a la nube de nadie. To",
-      "time": "71h",
+      "summary": "Gentleman Programming | Agentes de IA | Controlo mis agentes de IA desde el teléfono: tu máquina, tu red, tus llaves, sin subir el código a la nube de nadie.",
+      "time": "1367h",
       "url": "https://www.youtube.com/watch?v=Yj51wXMwFwE"
     },
     {
@@ -290,8 +289,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "4 agentes de IA para automatizar el 99% de tu trabajo",
-      "summary": "Recursos del video: https://app.notion.com/p/4-agentes-de-IA-para-organizar-crear-auditar-y-prepararte-3b35accb1cc9803da4a2d1f7f65288da?source=copy_link\n\n\nMi co",
-      "time": "116h",
+      "summary": "Recursos del video: https://app.notion.com/p/4-agentes-de-IA-para-organizar-crear-auditar-y-prepararte-3b35accb1cc9803da4a2d1f7f65288da?source=copy_link Mi",
+      "time": "1413h",
       "url": "https://www.youtube.com/watch?v=zXxktjZ7s34"
     },
     {
@@ -300,9 +299,9 @@
       "lang": "es",
       "cat": "Videos",
       "content_type": "video",
-      "title": "se viene ! la nueva forma de trabajo con agentes",
+      "title": "Se viene ! la nueva forma de trabajo con agentes",
       "summary": "Link Gentleman VPS: https://www.hostgator.la/7607-10-3-9.html",
-      "time": "500h",
+      "time": "1797h",
       "url": "https://www.youtube.com/shorts/AA6lTsacIvU"
     },
     {
@@ -312,8 +311,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Este agente de IA crea storyboards y videos por ti 🎬",
-      "summary": "Crear videos cinematográficos con IA acaba de ser mucho más fácil. 😎\n🚨 Seedance 2.5 ya está disponible en Topview Canvas y puedes hacer cosas como:\n✅ Crear secu",
-      "time": "96h",
+      "summary": "Crear videos cinematográficos con IA acaba de ser mucho más fácil. 😎 🚨 Seedance 2.5 ya está disponible en Topview Canvas y puedes hacer cosas como: ✅ Crear",
+      "time": "1393h",
       "url": "https://www.youtube.com/shorts/9hgEXtDVnDc"
     },
     {
@@ -323,8 +322,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "15 herramientas de IA gratis de Google 🔥🚀",
-      "summary": "🚨 Google acaba de poner 15 herramientas de IA en el radar. \nY probablemente solo conoces Gemini. 🙂‍↔️\n•\nEstas son solo 5️⃣ que deberías conocer:\n1️⃣ Pomelli: cr",
-      "time": "169h",
+      "summary": "🚨 Google acaba de poner 15 herramientas de IA en el radar. Y probablemente solo conoces Gemini. 🙂‍↔️ • Estas son solo 5️⃣ que deberías conocer: 1️⃣ Pomelli:",
+      "time": "1466h",
       "url": "https://www.youtube.com/shorts/nZJ4-8LBqco"
     },
     {
@@ -334,8 +333,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "RDD: la metodología que INVENTÉ para que la IA no te mienta",
-      "summary": "Gentleman Programming | RDD (Receipt Driven Development): la metodología que inventé para que la IA no te mienta cuando dice \"esto funciona\". Congela tus cambio",
-      "time": "405h",
+      "summary": "Gentleman Programming | RDD (Receipt Driven Development): la metodología que inventé para que la IA no te mienta cuando dice \"esto funciona\". Congela tus",
+      "time": "1702h",
       "url": "https://www.youtube.com/watch?v=t_HEm1om2Ek"
     },
     {
@@ -345,8 +344,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "La IA más ALUCINANTE que he probado (mejor que Fable 5) 🤯 Nuevo Opus 5",
-      "summary": "👉 Prueba Magnific:\nhttps://www.magnific.com/app/ai-image-generator?utm_source=youtube&amp;utm_medium=content&amp;utm_campaign=mitjana\n\n---\n\nENLACES DEL VÍDEO\n\n👉",
-      "time": "504h",
+      "summary": "👉 Prueba Magnific: https://www.magnific.com/app/ai-image-generator?utm_source=youtube&amp;utm_medium=content&amp;utm_campaign=mitjana --- ENLACES DEL VÍDEO 👉",
+      "time": "1801h",
       "url": "https://www.youtube.com/watch?v=3UbKQebN8Ug"
     },
     {
@@ -356,8 +355,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Meta contraataca con 2 NUEVOS modelos de IA TOP",
-      "summary": "Toda la INFO del curso de Google \n👉 https://iaenaccion.com/curso-ia-gemini-notebook-google\n\n--\nENLACES DEL VÍDEO:\n\nhttps://meta.ai/\n\n\nMARCAS DE TIEMPO\n\n00:00 In",
-      "time": "980h",
+      "summary": "Toda la INFO del curso de Google 👉 https://iaenaccion.com/curso-ia-gemini-notebook-google -- ENLACES DEL VÍDEO: https://meta.ai/ MARCAS DE TIEMPO 00:00 Intro",
+      "time": "2276h",
       "url": "https://www.youtube.com/watch?v=b9FtG_fJ1aw"
     },
     {
@@ -367,8 +366,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Edita imágenes MÁS FÁCIL con esta herramienta de GOOGLE 🤯",
-      "summary": "Aprovecha el descuento Black Friday en mi curso de Google \n👉 https://iaenaccion.com/curso-ia-gemini-notebook-google/\n\n---\n\nENLACES DEL VIDEO\n👉 https://labs.goog",
-      "time": "6450h",
+      "summary": "Aprovecha el descuento Black Friday en mi curso de Google 👉 https://iaenaccion.com/curso-ia-gemini-notebook-google/ --- ENLACES DEL VIDEO 👉",
+      "time": "7747h",
       "url": "https://www.youtube.com/watch?v=pw33sBfH-cs"
     },
     {
@@ -378,8 +377,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Crea IMÁGENES y VÍDEO con MIDJOURNEY 100% GRATIS 🤯",
-      "summary": "Aprovecha el descuento Black Friday en mi curso de Google \n👉 https://iaenaccion.com/curso-ia-gemini-notebook-google/\n\n---\n\nENLACES DEL VIDEO\n👉 https://meta.ai/ ",
-      "time": "6477h",
+      "summary": "Aprovecha el descuento Black Friday en mi curso de Google 👉 https://iaenaccion.com/curso-ia-gemini-notebook-google/ --- ENLACES DEL VIDEO 👉 https://meta.ai/",
+      "time": "7773h",
       "url": "https://www.youtube.com/watch?v=j240TyJ4FUA"
     },
     {
@@ -389,8 +388,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Crea videos con sonido GRATIS 🤯 Alternativa a VEO 3",
-      "summary": "Accede a la INFO del curso de Google \n👉 https://iaenaccion.com/curso-ia-gemini-notebook-google/\n\n---\n\nENLACES DEL VIDEO\n\nhttps://grok.com/imagine\nhttps://youtu.",
-      "time": "7485h",
+      "summary": "Accede a la INFO del curso de Google 👉 https://iaenaccion.com/curso-ia-gemini-notebook-google/ --- ENLACES DEL VIDEO https://grok.com/imagine",
+      "time": "8781h",
       "url": "https://www.youtube.com/watch?v=m9qd4B4-nTo"
     },
     {
@@ -400,8 +399,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "¡OFICIAL! NANOBANANA llega a Photoshop 🤯 ¡Lo pongo a prueba!",
-      "summary": "Accede a la INFO del curso de Google \n👉 https://iaenaccion.com/curso-ia-gemini-notebook-google/\n\n---\n\n✅ SUCRÍBETE A MI CANAL: http://bit.ly/suscribirse_XM​​​​\n\n",
-      "time": "7821h",
+      "summary": "Accede a la INFO del curso de Google 👉 https://iaenaccion.com/curso-ia-gemini-notebook-google/ --- ✅ SUCRÍBETE A MI CANAL: http://bit.ly/suscribirse_XM​​​​ 📕",
+      "time": "9118h",
       "url": "https://www.youtube.com/watch?v=u2PBXFGfKz4"
     },
     {
@@ -411,8 +410,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "+30,000 prompts para generar fotos y videos 🔥",
-      "summary": "¿Tardas 20 minutos intentando escribir el prompt perfecto y aun así la imagen no sale como imaginabas? 🫣 \n📌 Conoce YouMind, una plataforma con más de 30.000 pro",
-      "time": "144h",
+      "summary": "¿Tardas 20 minutos intentando escribir el prompt perfecto y aun así la imagen no sale como imaginabas? 🫣 📌 Conoce YouMind, una plataforma con más de 30.000",
+      "time": "1441h",
       "url": "https://www.youtube.com/shorts/5s8fC-Co1hE"
     },
     {
@@ -422,8 +421,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "¡El profesor particular GRATIS de Google que necesitas! 🤖🎓",
-      "summary": "¿Quieres un profesor particular gratis disponible 24/7? 📚 \n👉🏻 Con NotebookLM y Gemini, puedes convertir tus propios apuntes y documentos en un sistema de estudi",
-      "time": "194h",
+      "summary": "¿Quieres un profesor particular gratis disponible 24/7? 📚 👉🏻 Con NotebookLM y Gemini, puedes convertir tus propios apuntes y documentos en un sistema de",
+      "time": "1491h",
       "url": "https://www.youtube.com/shorts/byb6cWEtTbA"
     },
     {
@@ -433,8 +432,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Probé la nueva VOZ de Claude vs ChatGPT… esto ya parece JARVIS",
-      "summary": "Descarga el recurso de Hubspot Gratis, aquí: https://clickhubspot.com/714c5e\n\nPrueba Omnisend con un 30% de descuento durante 3 meses: https://your.omnisend.com",
-      "time": "212h",
+      "summary": "Descarga el recurso de Hubspot Gratis, aquí: https://clickhubspot.com/714c5e Prueba Omnisend con un 30% de descuento durante 3 meses:",
+      "time": "1509h",
       "url": "https://www.youtube.com/watch?v=V3Ti0ylO-sM"
     },
     {
@@ -444,8 +443,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Patrón ORQUESTADOR-MINION: así ahorrás tokens sin perder calidad",
-      "summary": "Gentleman Programming | Patrón Orquestador-Minion: el patrón que uso en gentle-ai desde hace 4 meses y que hoy recomiendan para trabajar con Fable y modelos Fro",
-      "time": "645h",
+      "summary": "Gentleman Programming | Patrón Orquestador-Minion: el patrón que uso en gentle-ai desde hace 4 meses y que hoy recomiendan para trabajar con Fable y modelos",
+      "time": "1941h",
       "url": "https://www.youtube.com/watch?v=vRydZQZ08OQ"
     },
     {
@@ -456,7 +455,7 @@
       "content_type": "video",
       "title": "TRUCO CLAUDE 9 CÓDIGOS SECRETOS #ia #ai #chatgpt #bigdata #data #bilbao #claude",
       "summary": "",
-      "time": "153h",
+      "time": "1449h",
       "url": "https://www.youtube.com/shorts/lzMnZSmrxXs"
     },
     {
@@ -467,7 +466,7 @@
       "content_type": "video",
       "title": "TRUCO DE GEMINI OMNI VIDEOS PROFESIONALES#ia #ai #chatgpt #bigdata #data #bilbao #gemini",
       "summary": "",
-      "time": "272h",
+      "time": "1568h",
       "url": "https://www.youtube.com/shorts/NlMVZrHa5lU"
     },
     {
@@ -476,20 +475,9 @@
       "lang": "en",
       "cat": "Videos",
       "content_type": "video",
-      "title": "TRUCO CLAUDE - AUTOMATIZA WORD#ia #ai #chatgpt #bigdata #data #bilbao #Claude",
+      "title": "TRUCO CLAUDE - AUTOMATIZA EXCEL SIN FORMULAS#ia #ai #chatgpt #bigdata #data #bilbao #excel",
       "summary": "",
-      "time": "488h",
-      "url": "https://www.youtube.com/shorts/uQzmvKpY17E"
-    },
-    {
-      "source": "maxmaxdata",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "TRUCO CLAUDE - AUTOMATIZA EXCEL SIN FÓRMULAS#ia #ai #chatgpt #bigdata #data #bilbao #excel",
-      "summary": "",
-      "time": "704h",
+      "time": "2000h",
       "url": "https://www.youtube.com/shorts/9iRvuRGKQ5o"
     },
     {
@@ -500,7 +488,7 @@
       "content_type": "video",
       "title": "TRUCO GEMINI + GOOGLE MAPS🚗 #ia #ai #Gemini #GoogleMaps #chatgpt #bigdata #data",
       "summary": "",
-      "time": "772h",
+      "time": "2068h",
       "url": "https://www.youtube.com/shorts/0dlLHjriWeI"
     },
     {
@@ -510,8 +498,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Omnisend: Esta IA optimiza tu Email Marketing 📩",
-      "summary": "Puedes tener la mejor oferta del mundo… pero si nadie abre tu email, no vendes. ❌💰\n👉🏻 Con Omnisend puedes utilizar inteligencia artificial para mejorar tu estra",
-      "time": "217h",
+      "summary": "Puedes tener la mejor oferta del mundo… pero si nadie abre tu email, no vendes. ❌💰 👉🏻 Con Omnisend puedes utilizar inteligencia artificial para mejorar tu",
+      "time": "1514h",
       "url": "https://www.youtube.com/shorts/znJ4ICeI4f8"
     },
     {
@@ -521,8 +509,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Estas 2 Skills de IA cambiarán tus videos 🤩✨",
-      "summary": "¿Tus videos con IA todavía parecen improvisados? El problema puede estar en tu flujo de trabajo. 🤔\n•\nCombina estas dos Skills 👇🏻\n1️⃣ Banana Pro Director\n2️⃣ Cin",
-      "time": "240h",
+      "summary": "¿Tus videos con IA todavía parecen improvisados? El problema puede estar en tu flujo de trabajo. 🤔 • Combina estas dos Skills 👇🏻 1️⃣ Banana Pro Director 2️⃣",
+      "time": "1537h",
       "url": "https://www.youtube.com/shorts/DTkT-t8nAbY"
     },
     {
@@ -533,7 +521,7 @@
       "content_type": "video",
       "title": "Están arreglando GPT 5.6 SOL !... Lo están arreglando ?",
       "summary": "",
-      "time": "459h",
+      "time": "1756h",
       "url": "https://www.youtube.com/shorts/6nCmPVP6mcc"
     },
     {
@@ -543,8 +531,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Crea videos con IA (GRATIS e ILIMITADO) 🤯 Tutorial MiniMax H3 en local",
-      "summary": "En este vídeo te enseño cómo ejecutar MiniMax H3 gratis e ilimitado directamente en tu propio ordenador.\n\nComparamos el rendimiento, calidad y adherencia al pro",
-      "time": "332h",
+      "summary": "En este vídeo te enseño cómo ejecutar MiniMax H3 gratis e ilimitado directamente en tu propio ordenador. Comparamos el rendimiento, calidad y adherencia al",
+      "time": "1628h",
       "url": "https://www.youtube.com/watch?v=JCN1Y8i1be8"
     },
     {
@@ -554,8 +542,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Nuevo REY en GENERACIÓN DE VIDEO (¡Hace cosas IMPOSIBLES!) 🤯",
-      "summary": "👉 Prueba Freepik: https://www.freepik.com/pikaso/ai-image-generator?utm_source=youtube&amp;utm_medium=content&amp;utm_campaign=mitjana\n\nMatricúlate a mi nuevo c",
-      "time": "7870h",
+      "summary": "👉 Prueba Freepik: https://www.freepik.com/pikaso/ai-image-generator?utm_source=youtube&amp;utm_medium=content&amp;utm_campaign=mitjana Matricúlate a mi nuevo",
+      "time": "9167h",
       "url": "https://www.youtube.com/watch?v=f59l9pcWmV8"
     },
     {
@@ -565,8 +553,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Anima cualquier imagen con TU MOVIMIENTO... ¡GRATIS! 🤯 Calidad BRUTAL",
-      "summary": "👉 Prueba Freepik: https://www.freepik.com/pikaso/ai-image-generator?utm_source=youtube&amp;utm_medium=content&amp;utm_campaign=mitjana\n\nMatricúlate a mi nuevo c",
-      "time": "7964h",
+      "summary": "👉 Prueba Freepik: https://www.freepik.com/pikaso/ai-image-generator?utm_source=youtube&amp;utm_medium=content&amp;utm_campaign=mitjana Matricúlate a mi nuevo",
+      "time": "9261h",
       "url": "https://www.youtube.com/watch?v=cVrhNg_xvdY"
     },
     {
@@ -577,7 +565,7 @@
       "content_type": "video",
       "title": "Marcas de agua en la IA?",
       "summary": "",
-      "time": "165h",
+      "time": "1461h",
       "url": "https://www.youtube.com/shorts/wCn6Y1OVzkc"
     },
     {
@@ -588,7 +576,7 @@
       "content_type": "video",
       "title": "NO tienes que usar siempre el mejor modelo para todo",
       "summary": "",
-      "time": "193h",
+      "time": "1490h",
       "url": "https://www.youtube.com/shorts/KMt4M4m66HE"
     },
     {
@@ -599,7 +587,7 @@
       "content_type": "video",
       "title": "Estoy cansado jefe 🥹",
       "summary": "",
-      "time": "476h",
+      "time": "1772h",
       "url": "https://www.youtube.com/shorts/lwzptC5Zj30"
     },
     {
@@ -610,19 +598,8 @@
       "content_type": "video",
       "title": "TRUCO CHATGPT - CAMUFLADO EN TU WHATSAPP #ia #ai #chatgpt #bigdata #data #bilbao #whatsapp",
       "summary": "",
-      "time": "369h",
+      "time": "1665h",
       "url": "https://www.youtube.com/shorts/mRTr3KMh4C0"
-    },
-    {
-      "source": "maxmaxdata",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "TRUCO CHATGPT - IMAGENES PROFESIONALES #ia #ai #chatgpt #bigdata #data #bilbao",
-      "summary": "",
-      "time": "440h",
-      "url": "https://www.youtube.com/shorts/r3yF8XIoFRs"
     },
     {
       "source": "maxmaxdata",
@@ -632,19 +609,8 @@
       "content_type": "video",
       "title": "5 CÓDIGOS SECRETOS DE CHATGPT #ia #chatgpt #bigdata #data",
       "summary": "",
-      "time": "535h",
+      "time": "1832h",
       "url": "https://www.youtube.com/shorts/Zy3RIIj1xik"
-    },
-    {
-      "source": "maxmaxdata",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "TRUCO DE CHATGPT -- CONOCE A TODA TU FAMILIA#ia #ai #chatgpt #bigdata #data #bilbao",
-      "summary": "",
-      "time": "609h",
-      "url": "https://www.youtube.com/shorts/kisP9F1v5BU"
     },
     {
       "source": "maxmaxdata",
@@ -654,7 +620,7 @@
       "content_type": "video",
       "title": "TRUCO KLING - ANIMA TU PERSONAJE#ia #ai #chatgpt #bigdata #data #bilbao #avatarIA",
       "summary": "",
-      "time": "657h",
+      "time": "1954h",
       "url": "https://www.youtube.com/shorts/R-1l_I2raYY"
     },
     {
@@ -664,19 +630,19 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Z.ai entrenó GLM-5.3 para programar mejor. El modelo aprendió de paso a ser mucho mejor en ciberseguridad",
-      "summary": "<p>\n     <img alt=\"Z.ai&#x20;entren&#x00F3;&#x20;GLM-5.3&#x20;para&#x20;programar&#x20;mejor.&#x20;El&#x20;modelo&#x20;aprendi&#x00F3;&#x20;de&#x20;paso&#x20;a&",
-      "time": "88h",
+      "summary": "<p> <img",
+      "time": "1384h",
       "url": "https://www.xataka.com/robotica-e-ia/z-ai-entreno-glm-5-3-para-programar-mejor-modelo-aprendio-paso-a-ser-mucho-mejor-ciberseguridad"
     },
     {
-      "source": "MuyComputer",
-      "source_type": "rss",
+      "source": "MuyComputer — Inteligencia Artificial",
+      "source_type": "web",
       "lang": "es",
       "cat": "Herramientas",
       "content_type": "news",
       "title": "NVIDIA despliega la versión estable de GeForce Now para Linux",
-      "summary": "<p>NVIDIA ha anunciado el lanzamiento de la versión estable de GeForce Now para Linux, algo más de seis meses después de publicar la primera beta del cliente. L",
-      "time": "76h",
+      "summary": "<p>NVIDIA ha anunciado el lanzamiento de la versión estable de GeForce Now para Linux, algo más de seis meses después de publicar la primera beta del cliente.",
+      "time": "1372h",
       "url": "https://www.muycomputer.com/2026/08/15/nvidia-despliega-la-version-estable-de-geforce-now-para-linux/"
     },
     {
@@ -686,8 +652,8 @@
       "cat": "Herramientas",
       "content_type": "news",
       "title": "Windows 11 se actualiza y corrige más de 400 fallos en su parche de agosto",
-      "summary": "<figure><img alt=\"Windows 11\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"614\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-c",
-      "time": "68h",
+      "summary": "<figure><img alt=\"Windows 11\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"614\"",
+      "time": "1365h",
       "url": "https://hipertextual.com/software/windows-11-actualizacion-agosto-2026/"
     },
     {
@@ -697,8 +663,8 @@
       "cat": "Herramientas",
       "content_type": "news",
       "title": "Mucho ojo con estas alertas de Chrome. Pueden instalar malware en tu ordenador",
-      "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-content/upl",
-      "time": "69h",
+      "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\"",
+      "time": "1366h",
       "url": "https://hipertextual.com/seguridad/alertas-google-chrome-malware/"
     }
   ]

@@ -4,13 +4,12 @@
   "greeting": "Buenos días, Effry",
   "briefing": {
     "duration_label": "2:34",
-    "audio_url": "assets/audio/2026-08-22.mp3",
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama acelerado en inteligencia artificial, con avances significativos en visión por computadora, robotización y gobernanza de modelos.\n\nComenzamos en el frente de la visión artificial. DeepSeek acaba de presentar un modelo de interpretación de imágenes que se posiciona casi al nivel de Claude Opus 4.8, lo que representa un salto importante en capacidades competitivas. Paralelamente, Apple ha anunciado despidos masivos en sus equipos de Siri y Vision Pro, sugiriendo un cambio estratégico en sus prioridades de desarrollo de IA integrada.\n\nEn robótica, vemos movimientos concretos. LG y Nvidia han cerrado un acuerdo histórico para fabricar robots humanoides, comenzando con modelos sobre ruedas destinados a automatizar operaciones en fábricas de lavadoras. Al mismo tiempo, investigadores están revolucionando el entrenamiento robótico: en lugar de entrenar un robot desde cero para cada tarea nueva, simplemente necesitan que observe unos segundos para aprender. Un cambio paradigmático en cómo pensamos la adaptabilidad de estos sistemas.\n\nEn el ecosistema de aplicaciones, OpenClaw continúa expandiendo su alcance con nuevas funcionalidades en sus aplicaciones para iPhone y Android, democratizando el acceso a herramientas de IA avanzada.\n\nAhora bien, el lado oscuro también reclama atención. El Tribunal Superior de Justicia de Canarias ha multado a un abogado que citó hasta 48 sentencias falsas, sugeridas por IA. Este caso emblemático subraya la necesidad crítica de verificación humana y responsabilidad legal en sistemas generativos.\n\nEn infraestructura, Anthropic ha lanzado Claude Mythos 5 integrado en Claude Security, permitiendo a equipos empresariales realizar escaneos de vulnerabilidad sin acceso directo al modelo. Además, se está mapeando la economía de proveedores de agentes IA, con nuevos actores como CoreWeave, Nebius y Lambda compitiendo en infraestructura GPU. Y en investigación de seguridad, se están documentando técnicas de watermarking en textos generados por IA, un paso importante hacia la trazabilidad.\n\nFinalmente, LinkedIn reporta que más de un millón de usuarios han interactuado con su botón de \"AI slop\"—contenido de IA de baja calidad—evidenciando tanto la adopción masiva como los desafíos de calidad que persisten en plataformas.\n\nEl mensaje transversal: estamos en un momento donde la capacidad técnica avanza rápidamente, pero la gobernanza, verificación y responsabilidad deben mantener el ritmo.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 38,
-    "sources": 43,
-    "updated_label": "12:14"
+    "sources": 44,
+    "updated_label": "11:17"
   },
   "iaday": {
     "reading_minutes": "23 min",
@@ -22,8 +21,8 @@
     "impact": "Alto"
   },
   "thirty_seconds": [
-    "archna13/RAG-Powered-Chatbot-using-Generative-AI",
-    "kamalesh404/discurso-agencial",
+    "Archna13/RAG-Powered-Chatbot-using-Generative-AI",
+    "Kamalesh404/discurso-agencial",
     "El Dilema del Insercidor: Los LLMs Son Mejores, pero a qué Costo?"
   ],
   "articles": [
@@ -33,9 +32,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "repo",
-      "title": "archna13/RAG-Powered-Chatbot-using-Generative-AI",
-      "summary": "⭐ 0 estrellas — Se desarrolló un chatbot utilizando LLMs y RAG para proporcionar respuestas precisas y conscientes del contexto extraídas de las bases de conoci",
-      "time": "8h",
+      "title": "Archna13/RAG-Powered-Chatbot-using-Generative-AI",
+      "summary": "⭐ 0 estrellas — Se desarrolló un chatbot utilizando LLMs y RAG para proporcionar respuestas precisas y conscientes del contexto extraídas de las bases de",
+      "time": "1206h",
       "url": "https://github.com/archna13/RAG-Powered-Chatbot-using-Generative-AI",
       "stars": "0"
     },
@@ -45,9 +44,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "repo",
-      "title": "kamalesh404/discurso-agencial",
-      "summary": "⭐ 3 estrellas — Una plataforma de debate en tiempo real con múltiples agentes donde las personas inteligentes de IA analizan, argumentan y sintetizan temas comp",
-      "time": "48h",
+      "title": "Kamalesh404/discurso-agencial",
+      "summary": "⭐ 3 estrellas — Una plataforma de debate en tiempo real con múltiples agentes donde las personas inteligentes de IA analizan, argumentan y sintetizan temas",
+      "time": "1246h",
       "url": "https://github.com/kamalesh404/Agentic-discourse",
       "stars": "3"
     },
@@ -58,8 +57,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "El Dilema del Insercidor: Los LLMs Son Mejores, pero a qué Costo?",
-      "summary": "¿Deberías reemplazar tu pipeline de inmersión de texto con un gran modelo de lenguaje? Respondemos esto con una comparación controlada y consciente del costo de",
-      "time": "236h",
+      "summary": "¿Deberías reemplazar tu pipeline de inmersión de texto con un gran modelo de lenguaje? Respondemos esto con una comparación controlada y consciente del costo",
+      "time": "1434h",
       "url": "https://huggingface.co/papers/2608.12875"
     },
     {
@@ -69,8 +68,8 @@
       "cat": "Modelos",
       "content_type": "repo",
       "title": "SeydinaBANE/courPythonForIA",
-      "summary": "⭐ 3 estrellas — ▎ Curso de Python en francés para principiantes en IA — 18 cuadernos Jupyter, desde variables hasta llamadas a API, con ejemplos prácticos de ag",
-      "time": "50h",
+      "summary": "⭐ 3 estrellas — ▎ Curso de Python en francés para principiantes en IA — 18 cuadernos Jupyter, desde variables hasta llamadas a API, con ejemplos prácticos de",
+      "time": "1249h",
       "url": "https://github.com/SeydinaBANE/courPythonForIA",
       "stars": "3"
     },
@@ -81,8 +80,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Hierarchical Auto Mejoramiento: Un Marco para Anclajes de Agentes Evolucionables Específicos de Tarea",
-      "summary": "Los agentes de LLM modernos a menudo se mejoran modificando prompts, herramientas o flujos de trabajo manualmente, mientras que el esqueleto ejecutable que rode",
-      "time": "332h",
+      "summary": "Los agentes de LLM modernos a menudo se mejoran modificando prompts, herramientas o flujos de trabajo manualmente, mientras que el esqueleto ejecutable que",
+      "time": "1530h",
       "url": "https://huggingface.co/papers/2608.08466"
     },
     {
@@ -92,8 +91,8 @@
       "cat": "Industria",
       "content_type": "repo",
       "title": "Yashwanth-Yenduri/Sistema-de-Mantenimiento-Predictivo-Potenciado-por-IA",
-      "summary": "⭐ 1 estrella — Sistema de mantenimiento predictivo y gestión de máquinas basado en inteligencia artificial construido con Python y Streamlit, que incluye anális",
-      "time": "33h",
+      "summary": "⭐ 1 estrella — Sistema de mantenimiento predictivo y gestión de máquinas basado en inteligencia artificial construido con Python y Streamlit, que incluye",
+      "time": "1231h",
       "url": "https://github.com/Yashwanth-Yenduri/AI-Powered-Predictive-Maintenance-System",
       "stars": "1"
     },
@@ -103,9 +102,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "repo",
-      "title": "mashimashica/Alps",
+      "title": "Mashimashica/Alps",
       "summary": "⭐ 3 estrellas — Un marco de proceso reutilizable y una especificación para definir, aplicar y gestionar las Habilidades de los Agentes.",
-      "time": "145h",
+      "time": "1343h",
       "url": "https://github.com/mashimashica/alps",
       "stars": "3"
     },
@@ -116,8 +115,8 @@
       "cat": "Herramientas",
       "content_type": "repo",
       "title": "Basel-ALShaqwery/proyecto_de_maquinaria_de_aprendizaje_para_operaciones_de_autobuses",
-      "summary": "⭐ 1 estrella — Proyecto de aprendizaje automático desde el principio hasta el fin para la predicción de niveles de retraso de autobús y duración del viaje utili",
-      "time": "16h",
+      "summary": "⭐ 1 estrella — Proyecto de aprendizaje automático desde el principio hasta el fin para la predicción de niveles de retraso de autobús y duración del viaje",
+      "time": "1214h",
       "url": "https://github.com/Basel-ALShaqwery/bus-operations-machine-learning-project",
       "stars": "1"
     },
@@ -128,8 +127,8 @@
       "cat": "Modelos",
       "content_type": "repo",
       "title": "AnshulYadav05/Voicecare-AI",
-      "summary": "⭐ 0 estrellas — Asistente basado en voz para la detección de estrés impulsado por IA construido para el SDG 3 (Salud y bienestar). Utiliza las representaciones ",
-      "time": "5h",
+      "summary": "⭐ 0 estrellas — Asistente basado en voz para la detección de estrés impulsado por IA construido para el SDG 3 (Salud y bienestar). Utiliza las representaciones",
+      "time": "1203h",
       "url": "https://github.com/AnshulYadav05/Voicecare-AI",
       "stars": "0"
     },
@@ -140,8 +139,8 @@
       "cat": "Herramientas",
       "content_type": "repo",
       "title": "NiluK/worldmodels101",
-      "summary": "⭐ 18 estrellas — Curso interactivo gratuito sobre modelos del mundo en IA. Nueve capítulos visuales sobre predicción, dinámicas latentes, planificación, JEPA, m",
-      "time": "77h",
+      "summary": "⭐ 18 estrellas — Curso interactivo gratuito sobre modelos del mundo en IA. Nueve capítulos visuales sobre predicción, dinámicas latentes, planificación, JEPA,",
+      "time": "1275h",
       "url": "https://github.com/NiluK/worldmodels101",
       "stars": "18"
     },
@@ -152,8 +151,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "FlowEvo: Agentes Autoevolucionantes a través de la Coevolución de Flujo de Trabajo y Habilidades Ejecutables",
-      "summary": "Los agentes de modelos de lenguaje grandes pueden adaptarse a tareas complejas al construir flujos de trabajo durante el tiempo de inferencia, pero los procedim",
-      "time": "68h",
+      "summary": "Los agentes de modelos de lenguaje grandes pueden adaptarse a tareas complejas al construir flujos de trabajo durante el tiempo de inferencia, pero los",
+      "time": "1266h",
       "url": "https://huggingface.co/papers/2607.21596"
     },
     {
@@ -163,8 +162,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Citación de Bench: ¿Cómo Puntuaciones Ajustadas Pueden Ocultar Fallos en el Camino de Comando?",
-      "summary": "Los agentes de codificación LLM emiten comandos Bash a través de interfaces que pueden serializar, empaquetar y reparsear la salida del modelo. Las puntuaciones",
-      "time": "236h",
+      "summary": "Los agentes de codificación LLM emiten comandos Bash a través de interfaces que pueden serializar, empaquetar y reparsear la salida del modelo. Las",
+      "time": "1434h",
       "url": "https://huggingface.co/papers/2608.13547"
     },
     {
@@ -175,7 +174,7 @@
       "content_type": "repo",
       "title": "Clausewitzbiologicalresearch3709/letsinfer",
       "summary": "⭐ 1 estrella — Instale, ejecute y sirva el mejor entorno de inferencia local para cualquier modelo y hardware con una única API compatible con OpenAI.",
-      "time": "5h",
+      "time": "1203h",
       "url": "https://github.com/Clausewitzbiologicalresearch3709/letsinfer",
       "stars": "1"
     },
@@ -185,9 +184,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "muhd-fayis/Detección y Reciclaje Asistente de Residuos Inteligentes",
+      "title": "Muhd-fayis/Detección y Reciclaje Asistente de Residuos Inteligentes",
       "summary": "⭐ 0 estrellas — Asistente de detección de residuos y reciclaje basado en YOLOv8n con backend FastAPI y frontend Angular.",
-      "time": "81h",
+      "time": "1279h",
       "url": "https://github.com/muhd-fayis/AI-Waste-Detection-Recycling-Assistant",
       "stars": "0"
     },
@@ -197,9 +196,9 @@
       "lang": "en",
       "cat": "Investigación",
       "content_type": "repo",
-      "title": "irajbarani0852-design/varesh-ai",
-      "summary": "⭐ 0 estrellas — Un proyecto de investigación y aprendizaje abierto que explora la inteligencia artificial centrada en la sabiduría para la toma de decisiones hu",
-      "time": "97h",
+      "title": "Irajbarani0852-design/varesh-ai",
+      "summary": "⭐ 0 estrellas — Un proyecto de investigación y aprendizaje abierto que explora la inteligencia artificial centrada en la sabiduría para la toma de decisiones",
+      "time": "1295h",
       "url": "https://github.com/irajbarani0852-design/varesh-ai",
       "stars": "0"
     },
@@ -209,9 +208,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "suxuen/HP_ML_Evaluación",
+      "title": "Suxuen/HP_ML_Evaluación",
       "summary": "⭐ 0 estrellas — Practicas de evaluación para la predicción de propiedades basada en composición en perovskitas halidas.",
-      "time": "90h",
+      "time": "1288h",
       "url": "https://github.com/suxuen/HP_ML_Evaluation",
       "stars": "0"
     },
@@ -222,8 +221,8 @@
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "CoToGrasp: Síntesis de Agarraderes Dexteros Condicionados por Topología de Contacto a Través del Aprendizaje del Espacio de Trabajo Canónico",
-      "summary": "Los planificadores actuales de agarre dexterous se centran principalmente en la estabilidad física, enfocándose en si un objeto puede ser agarrado en lugar de c",
-      "time": "68h",
+      "summary": "Los planificadores actuales de agarre dexterous se centran principalmente en la estabilidad física, enfocándose en si un objeto puede ser agarrado en lugar de",
+      "time": "1266h",
       "url": "https://huggingface.co/papers/2608.19776"
     },
     {
@@ -233,8 +232,8 @@
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "TinyCast: Predicción Probabilística sin Etiquetas con Período Computado",
-      "summary": "Presentamos TinyCast, un predecidor sin atención que emite una distribución predictiva con solo 146,505 parámetros, basado en la premisa de que, a este tamaño, ",
-      "time": "164h",
+      "summary": "Presentamos TinyCast, un predecidor sin atención que emite una distribución predictiva con solo 146,505 parámetros, basado en la premisa de que, a este tamaño,",
+      "time": "1362h",
       "url": "https://huggingface.co/papers/2608.15767"
     },
     {
@@ -243,9 +242,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
-      "title": "τ_0-VLA: un modelo de fundación robótica jerárquico con cálculo guiado por modelo del mundo durante la prueba",
-      "summary": "La manipulación a largo plazo de robots requiere que estos ejecuten habilidades individuales de manera confiable y las sequencien coherentemente a lo largo de t",
-      "time": "140h",
+      "title": "Τ_0-VLA: un modelo de fundación robótica jerárquico con cálculo guiado por modelo del mundo durante la prueba",
+      "summary": "La manipulación a largo plazo de robots requiere que estos ejecuten habilidades individuales de manera confiable y las sequencien coherentemente a lo largo de",
+      "time": "1338h",
       "url": "https://huggingface.co/papers/2608.16885"
     },
     {
@@ -255,8 +254,8 @@
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "PLAG: Planificador Generativo y Agnóstico de Objetos para Agarrar en Manipulación Robótica Dextera",
-      "summary": "El agarre multifingerado es una habilidad robótica crucial, pero los planificadores de agarre basados en aprendizaje profundo a menudo tienen dificultades para ",
-      "time": "68h",
+      "summary": "El agarre multifingerado es una habilidad robótica crucial, pero los planificadores de agarre basados en aprendizaje profundo a menudo tienen dificultades para",
+      "time": "1266h",
       "url": "https://huggingface.co/papers/2608.19759"
     },
     {
@@ -266,8 +265,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "¡Controla todos tus agentes de IA desde un solo lugar!",
-      "summary": "¿Usas varios agentes de IA y ya no sabes en qué terminal está cada uno? \n📌 Conoce Herdr, una herramienta gratuita y open source para centralizar tus agentes en ",
-      "time": "25h",
+      "summary": "¿Usas varios agentes de IA y ya no sabes en qué terminal está cada uno? 📌 Conoce Herdr, una herramienta gratuita y open source para centralizar tus agentes en",
+      "time": "1223h",
       "url": "https://www.youtube.com/shorts/6P6hzRkrspU"
     },
     {
@@ -277,8 +276,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "¿ChatGPT te da siempre la razón? Prueba esto 🤯",
-      "summary": "¿Sientes que ChatGPT siempre está de acuerdo contigo? 🤔\n⚠️ Cuidado: eso puede hacer que confundas validación con una buena decisión.\n•\nPuedes configurar las ins",
-      "time": "2h",
+      "summary": "¿Sientes que ChatGPT siempre está de acuerdo contigo? 🤔 ⚠️ Cuidado: eso puede hacer que confundas validación con una buena decisión. • Puedes configurar las",
+      "time": "1200h",
       "url": "https://www.youtube.com/shorts/FY8XX3Q8X_k"
     },
     {
@@ -288,8 +287,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Todo lo que puedes hacer con OpenClaw gracias a su app para iPhone y Android",
-      "summary": "<figure><img alt=\"OpenClaw para Android y para iPhone\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"683\" src=\"https://i0.wp.com/i",
-      "time": "9h",
+      "summary": "<figure><img alt=\"OpenClaw para Android y para iPhone\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"683\"",
+      "time": "1207h",
       "url": "https://hipertextual.com/guias/para-que-sirve-openclaw-android-iphone/"
     },
     {
@@ -299,8 +298,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "DeepSeek presenta una IA que interpreta imágenes casi tan bien como Claude Opus 4.8",
-      "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"544\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-content/upl",
-      "time": "21h",
+      "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"544\"",
+      "time": "1219h",
       "url": "https://hipertextual.com/inteligencia-artificial/deepseek-presenta-una-ia-que-interpreta-imagenes-casi-tan-bien-como-claude-opus-4-8/"
     },
     {
@@ -310,8 +309,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Hasta ahora había que entrenar a un robot para cada tarea nueva. La nueva idea es mucho más simple: que te mire unos segundos",
-      "summary": "<p>\n     <img alt=\"Hasta&#x20;ahora&#x20;hab&#x00ED;a&#x20;que&#x20;entrenar&#x20;a&#x20;un&#x20;robot&#x20;para&#x20;cada&#x20;tarea&#x20;nueva.&#x20;La&#x20;n",
-      "time": "23h",
+      "summary": "<p> <img",
+      "time": "1221h",
       "url": "https://www.xataka.com/robotica-e-ia/ahora-habia-que-entrenar-a-robot-para-cada-tarea-nueva-nueva-idea-mucho-simple-que-te-mire-unos-segundos"
     },
     {
@@ -321,8 +320,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Construcción de Pipelines Inteligentes de Documento Agente: Creación de Figuras Científicas con AutoFigure",
-      "summary": "Este tutorial explora AutoFigure, una herramienta práctica para generar figuras científicas profesionales directamente desde descripciones de texto y artículos ",
-      "time": "18h",
+      "summary": "Este tutorial explora AutoFigure, una herramienta práctica para generar figuras científicas profesionales directamente desde descripciones de texto y artículos",
+      "time": "1216h",
       "url": "https://www.marktechpost.com/2026/08/21/building-agentic-document-intelligence-pipelines-creating-scientific-figures-with-autofigure/"
     },
     {
@@ -332,8 +331,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Todos los modelos de IA hacen trampas si les das ocasión. Decirles “no hagas trampas” no basta",
-      "summary": "<p>\n     <img alt=\"Todos&#x20;los&#x20;modelos&#x20;de&#x20;IA&#x20;hacen&#x20;trampas&#x20;si&#x20;les&#x20;das&#x20;ocasi&#x00F3;n.&#x20;Decirles&#x20;&#x201C",
-      "time": "27h",
+      "summary": "<p> <img",
+      "time": "1225h",
       "url": "https://www.xataka.com/robotica-e-ia/todos-modelos-ia-hacen-trampas-les-das-ocasion-decirles-no-hagas-trampas-no-basta"
     },
     {
@@ -343,8 +342,8 @@
       "cat": "Herramientas",
       "content_type": "news",
       "title": "El Tribunal Superior de Justicia de Canarias multa a un abogado por citar hasta 48 sentencias falsas. Se las había sugerido la IA",
-      "summary": "<p>\n     <img alt=\"El&#x20;Tribunal&#x20;Superior&#x20;de&#x20;Justicia&#x20;de&#x20;Canarias&#x20;multa&#x20;a&#x20;un&#x20;abogado&#x20;por&#x20;citar&#x20;ha",
-      "time": "ahora",
+      "summary": "<p> <img",
+      "time": "1198h",
       "url": "https://www.xataka.com/magnet/tribunal-superior-justicia-canarias-multa-a-abogado-citar-48-sentencias-falsas-se-habia-sugerido-ia"
     },
     {
@@ -354,8 +353,8 @@
       "cat": "Herramientas",
       "content_type": "news",
       "title": "LG y Nvidia llegan a un acuerdo para fabricar robots humanoides. Empiezan por unos con ruedas en una fábrica de lavadoras",
-      "summary": "<p>\n     <img alt=\"LG&#x20;y&#x20;Nvidia&#x20;llegan&#x20;a&#x20;un&#x20;acuerdo&#x20;para&#x20;fabricar&#x20;robots&#x20;humanoides.&#x20;Empiezan&#x20;por&#x2",
-      "time": "6h",
+      "summary": "<p> <img",
+      "time": "1204h",
       "url": "https://www.xataka.com/robotica-e-ia/lg-nvidia-llegan-a-acuerdo-para-fabricar-robots-humanoides-empiezan-unos-ruedas-fabrica-lavadoras"
     },
     {
@@ -365,8 +364,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Decodificación del Curso Abierto de IA Mapea Tres Maneras de Ejecutar un Círculo de Agente y las Economías del Proveedor detrás de Cada Una",
-      "summary": "La mayoría de los equipos consideran que la elección del modelo es la decisión importante. La literatura sobre ingeniería del arnés siempre apunta en otra direc",
-      "time": "2h",
+      "summary": "La mayoría de los equipos consideran que la elección del modelo es la decisión importante. La literatura sobre ingeniería del arnés siempre apunta en otra",
+      "time": "1200h",
       "url": "https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each/"
     },
     {
@@ -376,8 +375,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Anthropic Lanza Claude Mythos 5 a Claude Security: Equipo Empresarial Recibe Escaneo de Vulnerabilidades de Frontera Sin Acceso Directo al Modelo",
-      "summary": "Anthropic ha trasladado su modelo más capaz en términos de ciberseguridad a un producto que equipos de seguridad pueden activar por sí mismos. Ahora, las revisi",
-      "time": "18h",
+      "summary": "Anthropic ha trasladado su modelo más capaz en términos de ciberseguridad a un producto que equipos de seguridad pueden activar por sí mismos. Ahora, las",
+      "time": "1217h",
       "url": "https://www.marktechpost.com/2026/08/21/anthropic-brings-claude-mythos-5-to-claude-security/"
     },
     {
@@ -388,7 +387,7 @@
       "content_type": "news",
       "title": "Cómo Claude marca acuarelas de texto generado por IA",
       "summary": "Un recorrido de 48 minutos sobre la muestreo de tokens, la detección y eliminación de marcas de agua",
-      "time": "5h",
+      "time": "1203h",
       "url": "https://magazine.sebastianraschka.com/p/claude-watermarking"
     },
     {
@@ -399,7 +398,7 @@
       "content_type": "news",
       "title": "Medición de la optimización del criterio de referencia en reconocimiento de habla",
       "summary": "",
-      "time": "40h",
+      "time": "1238h",
       "url": "https://huggingface.co/blog/asr-benchmark-optimization"
     },
     {
@@ -409,8 +408,8 @@
       "cat": "Investigación",
       "content_type": "news",
       "title": "Apple despide a cientos de empleados de los equipos de Siri y Vision Pro",
-      "summary": "<figure><img alt=\"Apple Vision Pro\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/imgs.hipertextual.co",
-      "time": "18h",
+      "summary": "<figure><img alt=\"Apple Vision Pro\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\"",
+      "time": "1216h",
       "url": "https://hipertextual.com/apple/apple-despidos-siri-vision-pro/"
     },
     {
@@ -420,8 +419,8 @@
       "cat": "Herramientas",
       "content_type": "news",
       "title": "Mejores GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe y Groq clasificados según el precio publicado y la potencia contrataciable",
-      "summary": "Los cinco neoclouds de GPU más grandes ahora funcionan en modelos muy diferentes. CoreWeave y Nebius informan a la SEC; Lambda y Crusoe son privados y se dirige",
-      "time": "16h",
+      "summary": "Los cinco neoclouds de GPU más grandes ahora funcionan en modelos muy diferentes. CoreWeave y Nebius informan a la SEC; Lambda y Crusoe son privados y se",
+      "time": "1214h",
       "url": "https://www.marktechpost.com/2026/08/21/best-gpu-neoclouds-2026/"
     },
     {
@@ -431,8 +430,8 @@
       "cat": "Herramientas",
       "content_type": "news",
       "title": "Más de un millón de personas han hecho clic en el botón de basura de AI de LinkedIn.",
-      "summary": "LinkedIn realmente anunció un botón llamado \"Parece basura de IA\" el 30 de julio, y la compañía afirma que muchas personas ya lo han utilizado. Según un post de",
-      "time": "18h",
+      "summary": "LinkedIn realmente anunció un botón llamado \"Parece basura de IA\" el 30 de julio, y la compañía afirma que muchas personas ya lo han utilizado. Según un post",
+      "time": "1216h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
     },
     {
@@ -442,8 +441,8 @@
       "cat": "Herramientas",
       "content_type": "news",
       "title": "Los principales creadores de YouTube están enfrentando críticas por aceptar dinero de IA",
-      "summary": "En los últimos días, varios creadores de contenido de producción cinematográfica de renombre, incluyendo a Matti Haapoja y Sam \"Kold\" Kolder, han publicado vide",
-      "time": "26h",
+      "summary": "En los últimos días, varios creadores de contenido de producción cinematográfica de renombre, incluyendo a Matti Haapoja y Sam \"Kold\" Kolder, han publicado",
+      "time": "1224h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
     },
     {
@@ -453,8 +452,8 @@
       "cat": "Investigación",
       "content_type": "news",
       "title": "No eres tú: el algoritmo de X (Twitter) está diseñado para hacerte enfadar",
-      "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-content/upl",
-      "time": "ahora",
+      "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\"",
+      "time": "1198h",
       "url": "https://hipertextual.com/internet/no-eres-tu-el-algoritmo-de-x-twitter-esta-disenado-para-hacerte-enfadar/"
     }
   ]

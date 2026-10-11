@@ -4,13 +4,12 @@
   "greeting": "Buenos días, Effry",
   "briefing": {
     "duration_label": "2:19",
-    "audio_url": "assets/audio/2026-08-13.mp3",
     "script_text": "En el resumen de hoy tenemos cinco noticias que tocan puntos clave en la democratización y optimización de modelos de IA. Vamos a desglosarlas. Empecemos con lo más inmediato: Google DeepMind acaba de poner en manos de usuarios reales un sistema de IA para reconocimiento de lengua de signos. No es solo un paper académico, sino una herramienta funcional. El impacto aquí es social, claro, pero también técnico: esto demuestra que los modelos visuales están listos para casos de uso específicos y accesibles. Si trabajas en visión, vale la pena revisar cómo estructuraron la arquitectura para que funcione en tiempo real. En el tema de eficiencia de modelos, tenemos dos noticias complementarias desde Hugging Face. Primero, presentan LFM dos punto cinco, un modelo de visión y lenguaje de solo tres mil millones de parámetros pensado para edge computing. Esto es relevante si tu realidad es hardware limitado: logran capacidades visuales competentes en un footprint pequeño. Después lanzan OlmoEarth embeddings con exportación custom desde un studio. La combinación es interesante: puedes entrenar embeddings específicos para tu dominio y exportarlos directamente. Definitivamente experiments worth trying en tu laboratorio personal. Desde MIT Technology Review nos llega un tema estratégico: cómo escalar agentes de IA manteniendo confianza en los datos. A medida que los agentes se vuelven más autónomos, la calidad de sus datos de entrenamiento y operación se vuelve crítica. Es menos sexy que un benchmark, pero es el tipo de consideración que diferencia proyectos que funcionan en producción de aquellos que colapsan en el mundo real. Finalmente, en GitHub Trending vemos Developer-OS ganando tracción. Es un proyecto que intenta crear un sistema operativo para desarrolladores potenciado por IA. Aunque está en etapas tempranas, esto refleja una tendencia clara: la frontera entre IDEs tradicionales y agentes de IA está desapareciendo. La lectura transversal aquí es accesibilidad y eficiencia: modelos más pequeños, más especializados, más accesibles, y agentes más confiables. Nada de carreras hacia modelos masivos por ahora. Eso es todo por hoy. Mantente atento a los desarrollos de edge AI y a cualquier toolkit de embeddings que se adapte a tu dominio específico. Hasta mañana."
   },
   "stats": {
     "new_articles": 46,
-    "sources": 31,
-    "updated_label": "09:52"
+    "sources": 44,
+    "updated_label": "11:17"
   },
   "iaday": {
     "reading_minutes": "28 min",
@@ -34,8 +33,8 @@
       "cat": "Modelos",
       "content_type": "repo",
       "title": "CODE4LIFEOFFICIAL/.github",
-      "summary": "⭐ 2 estrellas — Compañía de desarrollo de software y IA en Vietnam. Servicios IT, Ingeniería de Plataforma de Software, Ingeniería de Plataforma de IA. Implemen",
-      "time": "233h",
+      "summary": "⭐ 2 estrellas — Compañía de desarrollo de software y IA en Vietnam. Servicios IT, Ingeniería de Plataforma de Software, Ingeniería de Plataforma de IA.",
+      "time": "1530h",
       "url": "https://github.com/CODE4LIFEOFFICIAL/.github",
       "stars": "2"
     },
@@ -46,8 +45,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Un sistema RAG específico del corpus supera o iguala el rendimiento de los recientes LLMs avanzados en HealthBench.",
-      "summary": "Modelos de lenguaje generalistas grandes (LLMs) se han reportado como capaces de igualar o superar herramientas de inteligencia artificial especializadas en med",
-      "time": "142h",
+      "summary": "Modelos de lenguaje generalistas grandes (LLMs) se han reportado como capaces de igualar o superar herramientas de inteligencia artificial especializadas en",
+      "time": "1439h",
       "url": "https://arxiv.org/abs/2608.12138v1",
       "arxiv": "2608.12138v1"
     },
@@ -58,8 +57,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "SkillZip: Compresión de Grafos para Bibliotecas de Habilidades de Agente que Preserva los Contratos",
-      "summary": "Los Grandes Modelos de Lenguaje (GMLs) actúan cada vez más como agentes cuyo conocimiento procedimental se almacena en paquetes de habilidades reutilizables y c",
-      "time": "305h",
+      "summary": "Los Grandes Modelos de Lenguaje (GMLs) actúan cada vez más como agentes cuyo conocimiento procedimental se almacena en paquetes de habilidades reutilizables y",
+      "time": "1602h",
       "url": "https://huggingface.co/papers/2608.05604"
     },
     {
@@ -69,8 +68,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "¿Pueden los Agentes LLM Seguir el Guion? Un Marco para la Coherencia a Largo Plazo en Narrativas Interactivas",
-      "summary": "El rápido avance de los Modelos de Lenguaje Grande (MLG) está revolucionando la IA en Juegos al permitir historias interactivas abiertas y fluidas. Sin embargo,",
-      "time": "257h",
+      "summary": "El rápido avance de los Modelos de Lenguaje Grande (MLG) está revolucionando la IA en Juegos al permitir historias interactivas abiertas y fluidas. Sin",
+      "time": "1554h",
       "url": "https://huggingface.co/papers/2608.08160"
     },
     {
@@ -79,9 +78,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "alejados/ocultos",
-      "summary": "⭐ 3 estrellas — Silzen es un asistente de inteligencia artificial basado en lógica absoluta y meditación silenciosa. Inspirado por la eficiencia meticulosa de u",
-      "time": "242h",
+      "title": "Alejados/ocultos",
+      "summary": "⭐ 3 estrellas — Silzen es un asistente de inteligencia artificial basado en lógica absoluta y meditación silenciosa. Inspirado por la eficiencia meticulosa de",
+      "time": "1538h",
       "url": "https://github.com/alfernado/silzen",
       "stars": "3"
     },
@@ -92,8 +91,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Listos los Cohortes: Delimitando la Oportunidad de GPU y Evitando Viajes de Idioma Host en el Control Agente-LLM",
-      "summary": "Los servicios de LLM-agent ejecutan repetidamente pequeños cambios determinísticos entre llamadas al modelo y las herramientas: rutear un resultado, actualizar ",
-      "time": "161h",
+      "summary": "Los servicios de LLM-agent ejecutan repetidamente pequeños cambios determinísticos entre llamadas al modelo y las herramientas: rutear un resultado, actualizar",
+      "time": "1458h",
       "url": "https://huggingface.co/papers/2608.12123"
     },
     {
@@ -103,8 +102,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Modelado Simplificado de Entidades Agentes: Simulación de Sociedades de Grandes AGI-Agents en un Ordenador Portátil",
-      "summary": "Simular sociedades de muchos agentes con modelos de gran lenguaje (LLM) es costoso, sin embargo, las preguntas planteadas sobre tales simulaciones son generalme",
-      "time": "737h",
+      "summary": "Simular sociedades de muchos agentes con modelos de gran lenguaje (LLM) es costoso, sin embargo, las preguntas planteadas sobre tales simulaciones son",
+      "time": "2034h",
       "url": "https://huggingface.co/papers/2608.11215"
     },
     {
@@ -114,8 +113,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "CoinRAG: Caché de información contextualizada para KV de largos contextos RAG",
-      "summary": "Recientes estudios de optimización en Generación Aumentada por Recuperación (RAG) han explotado el reuso de caché a nivel de fragmentos para evitar el procesami",
-      "time": "281h",
+      "summary": "Recientes estudios de optimización en Generación Aumentada por Recuperación (RAG) han explotado el reuso de caché a nivel de fragmentos para evitar el",
+      "time": "1578h",
       "url": "https://huggingface.co/papers/2608.07458"
     },
     {
@@ -125,8 +124,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "SAG: SQL-Recuperación Aumentada de Generación con Hiperaresgos Dinámicos en Tiempo de Consulta",
-      "summary": "Mientras que la generación con recuperación-aumentada (RAG) ha demostrado ser efectiva para proporcionar a los modelos de lenguaje de gran escala (LLM) acceso a",
-      "time": "143h",
+      "summary": "Mientras que la generación con recuperación-aumentada (RAG) ha demostrado ser efectiva para proporcionar a los modelos de lenguaje de gran escala (LLM) acceso",
+      "time": "1439h",
       "url": "https://arxiv.org/abs/2608.12129v1",
       "arxiv": "2608.12129v1"
     },
@@ -137,8 +136,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Exploración de Parámetros para RLVR mediante Aprendizaje Variacional",
-      "summary": "La exploración ha sido un foco en la investigación del aprendizaje por refuerzo durante mucho tiempo. Recientemente, se ha presentado evidencia creciente de que",
-      "time": "193h",
+      "summary": "La exploración ha sido un foco en la investigación del aprendizaje por refuerzo durante mucho tiempo. Recientemente, se ha presentado evidencia creciente de",
+      "time": "1489h",
       "url": "https://huggingface.co/papers/2608.09805"
     },
     {
@@ -148,8 +147,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Mejorista: El AI como un instrumento científico para descubrir los mecanismos de la inteligencia",
-      "summary": "Los modelos de inteligencia artificial han logrado un éxito notorio en diversos campos, pero los mecanismos subyacentes a sus capacidades y los riesgos que pued",
-      "time": "161h",
+      "summary": "Los modelos de inteligencia artificial han logrado un éxito notorio en diversos campos, pero los mecanismos subyacentes a sus capacidades y los riesgos que",
+      "time": "1458h",
       "url": "https://huggingface.co/papers/2608.12036"
     },
     {
@@ -159,8 +158,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Mundos recursivos persistentes habilitan la evolución autónoma del software",
-      "summary": "Sistemas de software complejos se desarrollan sobre escalas temporales que exceden la vida útil de cualquier agente de codificación individual. La mayoría de lo",
-      "time": "161h",
+      "summary": "Sistemas de software complejos se desarrollan sobre escalas temporales que exceden la vida útil de cualquier agente de codificación individual. La mayoría de",
+      "time": "1458h",
       "url": "https://huggingface.co/papers/2608.10450"
     },
     {
@@ -170,8 +169,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Agentes Corporales Autoevolutivos a través de la Evolución de la Captura de Habilidades",
-      "summary": "Los agentes encarnados se están construyendo cada vez más como sistemas alrededor de modelos de base, donde el rendimiento depende no solo de los pesos del mode",
-      "time": "185h",
+      "summary": "Los agentes encarnados se están construyendo cada vez más como sistemas alrededor de modelos de base, donde el rendimiento depende no solo de los pesos del",
+      "time": "1482h",
       "url": "https://huggingface.co/papers/2608.11350"
     },
     {
@@ -181,8 +180,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "OpenART: Escalado de Agente para Equipo Rojo mediante Evolución de Entornos Abiertos",
-      "summary": "Los agentes de IA operan en entornos persistentes donde los cambios tempranos en el estado pueden influir en las decisiones mucho tiempo después. A diferencia d",
-      "time": "425h",
+      "summary": "Los agentes de IA operan en entornos persistentes donde los cambios tempranos en el estado pueden influir en las decisiones mucho tiempo después. A diferencia",
+      "time": "1722h",
       "url": "https://huggingface.co/papers/2608.00677"
     },
     {
@@ -192,8 +191,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "NeuPAT: Ajuste de Alcance de Plásticidad Consciente de Neuronas para MLMLs que Preservan el Lenguaje",
-      "summary": "La expansión multimodal de los modelos de lenguaje de gran escala (LLMs) permite nuevas capacidades perceptivas, pero a menudo compromete la inteligencia lingüí",
-      "time": "257h",
+      "summary": "La expansión multimodal de los modelos de lenguaje de gran escala (LLMs) permite nuevas capacidades perceptivas, pero a menudo compromete la inteligencia",
+      "time": "1554h",
       "url": "https://huggingface.co/papers/2608.08107"
     },
     {
@@ -203,8 +202,8 @@
       "cat": "Investigación",
       "content_type": "paper",
       "title": "AtlasVLA: Modelado de Estados Ego-Persistente para Modelos de Visión-Lenguaje-Acción",
-      "summary": "Mientras que los modelos de Visión-Lenguaje-Acción (VLA) han avanzado en la inteligencia artificial inmersiva, su paradigma reactivista fundamental limita sever",
-      "time": "281h",
+      "summary": "Mientras que los modelos de Visión-Lenguaje-Acción (VLA) han avanzado en la inteligencia artificial inmersiva, su paradigma reactivista fundamental limita",
+      "time": "1578h",
       "url": "https://huggingface.co/papers/2608.06729"
     },
     {
@@ -214,8 +213,8 @@
       "cat": "Investigación",
       "content_type": "paper",
       "title": "La Ilusión del Uso Visual de Herramientas: Un Examen Causal del Pensamiento con Imágenes",
-      "summary": "El paradigma \"pensar con imágenes\" equipa los LLM multimodales con operaciones visuales activas como recortar y acercarse. Sin embargo, los modelos que utilizan",
-      "time": "305h",
+      "summary": "El paradigma \"pensar con imágenes\" equipa los LLM multimodales con operaciones visuales activas como recortar y acercarse. Sin embargo, los modelos que",
+      "time": "1602h",
       "url": "https://huggingface.co/papers/2608.06270"
     },
     {
@@ -225,8 +224,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "VAKRA: Evaluación del Razonamiento Multihop a Través de Interfaces de Programación de Aplicaciones y Recuperación bajo Políticas de Uso de Herramientas",
-      "summary": "Los agentes desplegados en entornos empresariales deben razonar a través de API estructuradas y colecciones de documentos, pero los benchmarks existentes evalúa",
-      "time": "140h",
+      "summary": "Los agentes desplegados en entornos empresariales deben razonar a través de API estructuradas y colecciones de documentos, pero los benchmarks existentes",
+      "time": "1436h",
       "url": "https://arxiv.org/abs/2608.12282v1",
       "arxiv": "2608.12282v1"
     },
@@ -237,8 +236,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Convergencia de Desvío y Robo de Tareas: Aumento Preservador de Recursos en Agentes LLM Basados en Habilidades",
-      "summary": "Los agentes LLM cada vez se basan más en habilidades de terceros, utilizando descripciones lingüísticas naturales para la selección e instrucciones corporales p",
-      "time": "140h",
+      "summary": "Los agentes LLM cada vez se basan más en habilidades de terceros, utilizando descripciones lingüísticas naturales para la selección e instrucciones corporales",
+      "time": "1437h",
       "url": "https://arxiv.org/abs/2608.12273v1",
       "arxiv": "2608.12273v1"
     },
@@ -249,8 +248,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Un pipeline nebulado de procesamiento de lenguaje natural no supervisado-supervisado para la detección de lenguaje acusatorio en contrataciones públicas",
-      "summary": "El proceso de contratación pública implica la asignación de recursos financieros significativos; por lo tanto, un control continuo a través de auditorías, contr",
-      "time": "140h",
+      "summary": "El proceso de contratación pública implica la asignación de recursos financieros significativos; por lo tanto, un control continuo a través de auditorías,",
+      "time": "1437h",
       "url": "https://arxiv.org/abs/2608.12269v1",
       "arxiv": "2608.12269v1"
     },
@@ -261,8 +260,8 @@
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "Detector de Visibilidad de Manos: Aproximación por Punto de Key para la Visibilidad de Manos",
-      "summary": "La Estimación de la Postura de las Manos (HPE) es una tecnología fundamental para diversas aplicaciones, como el AR/VR y la robótica. En estas aplicaciones, la ",
-      "time": "161h",
+      "summary": "La Estimación de la Postura de las Manos (HPE) es una tecnología fundamental para diversas aplicaciones, como el AR/VR y la robótica. En estas aplicaciones, la",
+      "time": "1458h",
       "url": "https://huggingface.co/papers/2608.11574"
     },
     {
@@ -272,8 +271,8 @@
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "Auto geometría: adaptación libre de GT y plug-and-play en tiempo de prueba para modelos de fundación de la visión tridimensional consistentes geométricamente",
-      "summary": "Recientes Modelos de Fundación de Visión (VFMs) predican profundidad, poses de cámara y punto-mapa en una sola pasada hacia adelante sin optimización por escena",
-      "time": "185h",
+      "summary": "Recientes Modelos de Fundación de Visión (VFMs) predican profundidad, poses de cámara y punto-mapa en una sola pasada hacia adelante sin optimización por",
+      "time": "1482h",
       "url": "https://huggingface.co/papers/2608.10708"
     },
     {
@@ -283,8 +282,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Un Simulador Congelado No Es Suficiente: Colapso de Simuladores en Aprendizaje Automático por Agente Múltiple",
-      "summary": "La aprendizaje por refuerzo multientidad para la interacción humano-AI generalmente se basa en un solo modelo de lenguaje grande para simular el comportamiento ",
-      "time": "140h",
+      "summary": "La aprendizaje por refuerzo multientidad para la interacción humano-AI generalmente se basa en un solo modelo de lenguaje grande para simular el comportamiento",
+      "time": "1437h",
       "url": "https://arxiv.org/abs/2608.12253v1",
       "arxiv": "2608.12253v1"
     },
@@ -295,8 +294,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "AVA-Encoder: Hacia una Aprendizaje de Representación Vidéica Nativa del Agente",
-      "summary": "Los agentes creativos carecen aún de una forma efectiva de aprender de películas de alta calidad humanas, limitando su capacidad para producir videos de calidad",
-      "time": "139h",
+      "summary": "Los agentes creativos carecen aún de una forma efectiva de aprender de películas de alta calidad humanas, limitando su capacidad para producir videos de",
+      "time": "1436h",
       "url": "https://arxiv.org/abs/2608.12313v1",
       "arxiv": "2608.12313v1"
     },
@@ -307,8 +306,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "¿Cuidan los LLMs entre sí? Señales de similitud pueden inducir cooperación",
-      "summary": "Con el despliegue creciente de agentes basados en LLM con metas instruidas por el usuario, estos se encuentran cada vez más entre sí en interacciones estratégic",
-      "time": "143h",
+      "summary": "Con el despliegue creciente de agentes basados en LLM con metas instruidas por el usuario, estos se encuentran cada vez más entre sí en interacciones",
+      "time": "1439h",
       "url": "https://arxiv.org/abs/2608.12125v1",
       "arxiv": "2608.12125v1"
     },
@@ -319,8 +318,8 @@
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "Relajación Simplex para Difusión Discreta",
-      "summary": "Los modelos discretos de difusión para la generación categórica se definen por un núcleo de corrupción, que determina el espacio de estados intermedio y el prob",
-      "time": "185h",
+      "summary": "Los modelos discretos de difusión para la generación categórica se definen por un núcleo de corrupción, que determina el espacio de estados intermedio y el",
+      "time": "1482h",
       "url": "https://huggingface.co/papers/2608.10615"
     },
     {
@@ -330,8 +329,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Diagram-MMU: Un Referente Multimodal para Diagramas Científicos",
-      "summary": "Los modelos de lenguaje de gran tamaño multimodales (MLLMs) han estado aumentando la capacidad para la escritura científica y la colaboración. Por ejemplo, Open",
-      "time": "140h",
+      "summary": "Los modelos de lenguaje de gran tamaño multimodales (MLLMs) han estado aumentando la capacidad para la escritura científica y la colaboración. Por ejemplo,",
+      "time": "1437h",
       "url": "https://arxiv.org/abs/2608.12262v1",
       "arxiv": "2608.12262v1"
     },
@@ -342,8 +341,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Un flujo de trabajo agencial para la modernización del HPC heredado: Convertir el núcleo de integración de dos electrones de GAMESS",
-      "summary": "La modernización delFortran heredado es un problema de volumen: las transformaciones son rutinarias individualmente, pero los códigos pueden ser enormes, y en g",
-      "time": "141h",
+      "summary": "Modernizing legacy Fortran is a problem of volume: the transformations are individually routine, but the codebases can be enormous, and across much of",
+      "time": "1437h",
       "url": "https://arxiv.org/abs/2608.12249v1",
       "arxiv": "2608.12249v1"
     },
@@ -354,8 +353,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "VICBench: Un conjunto de pruebas multilingüístico para la detección de vulnerabilidades en código",
-      "summary": "La evaluación de herramientas para la detección de vulnerabilidades de seguridad requiere conjuntos de datos de referencia con comunes de inducción de vulnerabi",
-      "time": "141h",
+      "summary": "La evaluación de herramientas para la detección de vulnerabilidades de seguridad requiere conjuntos de datos de referencia con comunes de inducción de",
+      "time": "1437h",
       "url": "https://arxiv.org/abs/2608.12246v1",
       "arxiv": "2608.12246v1"
     },
@@ -366,8 +365,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "QV-PIC: Cache visualmente consciente y libre de dependencia de posición para servir RAG de manera eficiente",
-      "summary": "La Generación Aumentada por Recuperación (RAG) vuelve a prellenar fragmentos de texto idénticos en múltiples consultas, lo que implica cálculos redundantes. El ",
-      "time": "143h",
+      "summary": "La Generación Aumentada por Recuperación (RAG) vuelve a prellenar fragmentos de texto idénticos en múltiples consultas, lo que implica cálculos redundantes. El",
+      "time": "1439h",
       "url": "https://arxiv.org/abs/2608.12121v1",
       "arxiv": "2608.12121v1"
     },
@@ -378,8 +377,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "DreamFly: Memoria causal y planificación de difusión horizonte recedente para navegación visio-lenguaje aérea",
-      "summary": "La navegación por visión y lenguaje en vuelo (VLN) requiere que un agente corporizado integre evidencia visual en el tiempo, planeé acciones futuras e identifiq",
-      "time": "139h",
+      "summary": "La navegación por visión y lenguaje en vuelo (VLN) requiere que un agente corporizado integre evidencia visual en el tiempo, planeé acciones futuras e",
+      "time": "1436h",
       "url": "https://arxiv.org/abs/2608.12308v1",
       "arxiv": "2608.12308v1"
     },
@@ -390,8 +389,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "La construcción de modelos lógicos dinámicos maestros como grafos de conocimiento para el diagnóstico de sistemas complejos utilizando modelos de lenguaje de gran tamaño con recuperación aumentada",
-      "summary": "La Logica Maestra Dinámica (DML) proporciona un marco jerárquico para representar el comportamiento del sistema al vincular objetivos funcionales con elementos ",
-      "time": "140h",
+      "summary": "La Logica Maestra Dinámica (DML) proporciona un marco jerárquico para representar el comportamiento del sistema al vincular objetivos funcionales con elementos",
+      "time": "1436h",
       "url": "https://arxiv.org/abs/2608.12304v1",
       "arxiv": "2608.12304v1"
     },
@@ -402,8 +401,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Más allá del ensayo y error: optimización agente para la adhesión de imágenes a videos",
-      "summary": "Los modernos modelos de caja negra de Imagen a Video (I2V) ofrecen capacidades poderosas en la creación automatizada de contenido, pero su falta de control fino",
-      "time": "140h",
+      "summary": "Los modernos modelos de caja negra de Imagen a Video (I2V) ofrecen capacidades poderosas en la creación automatizada de contenido, pero su falta de control",
+      "time": "1436h",
       "url": "https://arxiv.org/abs/2608.12290v1",
       "arxiv": "2608.12290v1"
     },
@@ -414,8 +413,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Quien Piensa Mejor Depende de Cuánto Tiempo Se Les Permite: Calificaciones Dependientes del Presupuesto en la Evaluación de Sistemas de Inteligencia de Lenguaje de Máquinas",
-      "summary": "La evaluación estándar de grandes modelos de lenguaje asume clasificaciones modelísticas estables bajo diferentes condiciones de inferencia. Desafiamos esta sup",
-      "time": "142h",
+      "summary": "La evaluación estándar de grandes modelos de lenguaje asume clasificaciones modelísticas estables bajo diferentes condiciones de inferencia. Desafiamos esta",
+      "time": "1439h",
       "url": "https://arxiv.org/abs/2608.12150v1",
       "arxiv": "2608.12150v1"
     },
@@ -426,8 +425,8 @@
       "cat": "Investigación",
       "content_type": "paper",
       "title": "La transferencia de capacidades de fuerte a débil en tiempo de prueba mediante arneses AI4AI",
-      "summary": "El trabajo reciente sobre destilación transfiere las capacidades de grandes modelos a versiones más pequeñas a menudo mediante la actualización de los parámetro",
-      "time": "139h",
+      "summary": "El trabajo reciente sobre destilación transfiere las capacidades de grandes modelos a versiones más pequeñas a menudo mediante la actualización de los",
+      "time": "1436h",
       "url": "https://arxiv.org/abs/2608.12307v1",
       "arxiv": "2608.12307v1"
     },
@@ -438,8 +437,8 @@
       "cat": "Investigación",
       "content_type": "paper",
       "title": "HAMP-LIC: Quantización por Posentrenamiento de Precisión Mixta Consciente del Hessiano para la Compresión de Imágenes Aprendida",
-      "summary": "Los modelos de compresión por aprendizaje (LIC) logran un rendimiento fuerte en términos de relación entre bits y distorsión pero están limitados por una comple",
-      "time": "141h",
+      "summary": "Los modelos de compresión por aprendizaje (LIC) logran un rendimiento fuerte en términos de relación entre bits y distorsión pero están limitados por una",
+      "time": "1437h",
       "url": "https://arxiv.org/abs/2608.12239v1",
       "arxiv": "2608.12239v1"
     },
@@ -450,8 +449,8 @@
       "cat": "Modelos",
       "content_type": "paper",
       "title": "Modelado de Gran Lenguaje para el Comercio de Pequeñas Capitalizaciones: Integrando la Sentimentalidad de Noticias Financieras, Indicadores Macroeconómicos y Señales Técnicas",
-      "summary": "Los modelos de lenguaje grandes pueden extraer señales más ricas de las noticias financieras que los léxicos de sentimiento fijos, y el trabajo reciente ha expl",
-      "time": "140h",
+      "summary": "Los modelos de lenguaje grandes pueden extraer señales más ricas de las noticias financieras que los léxicos de sentimiento fijos, y el trabajo reciente ha",
+      "time": "1436h",
       "url": "https://arxiv.org/abs/2608.12283v1",
       "arxiv": "2608.12283v1"
     },
@@ -462,8 +461,8 @@
       "cat": "Investigación",
       "content_type": "paper",
       "title": "Silencio Estructural: Cuando la Infraestructura de IA Falla para Hablantes de Lenguas Subrepresentadas",
-      "summary": "Herramientas de inteligencia artificial para la educación y el apoyo lingüístico se presentan cada vez más como respuestas escalables a los desafíos de acceso e",
-      "time": "140h",
+      "summary": "Herramientas de inteligencia artificial para la educación y el apoyo lingüístico se presentan cada vez más como respuestas escalables a los desafíos de acceso",
+      "time": "1436h",
       "url": "https://arxiv.org/abs/2608.12278v1",
       "arxiv": "2608.12278v1"
     },
@@ -474,8 +473,8 @@
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "La inferencia de costos basada en redistribución mejora el aprendizaje por refuerzo seguro en línea con datos escasos",
-      "summary": "El RL seguro en línea generalmente supone el acceso a anotaciones de costo densas por paso, pero en la práctica los supervisores solo proporcionan retroalimenta",
-      "time": "139h",
+      "summary": "Safe offline RL typically assumes access to dense per-step cost annotations, but in practice supervisors provide only trajectory-level stop-feedback: a binary",
+      "time": "1436h",
       "url": "https://arxiv.org/abs/2608.12306v1",
       "arxiv": "2608.12306v1"
     },
@@ -486,8 +485,8 @@
       "cat": "Investigación",
       "content_type": "paper",
       "title": "Mapeo de Activación de Clase en Visión por Computadora Explicativa: Un Revisión Centrada en el Método de CNN, Transformador y ExPLICACIONES VISUALES EN ÉPOCA DE MODELOS DE BASE",
-      "summary": "La mapeación de activación de clase (CAM) es una de las familias de explicaciones visuales más ampliamente utilizadas en la inteligencia artificial explicable. ",
-      "time": "140h",
+      "summary": "La mapeación de activación de clase (CAM) es una de las familias de explicaciones visuales más ampliamente utilizadas en la inteligencia artificial explicable.",
+      "time": "1436h",
       "url": "https://arxiv.org/abs/2608.12299v1",
       "arxiv": "2608.12299v1"
     },
@@ -498,8 +497,8 @@
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "Una red transformadora de atención vecinal para una segmentación tridimensional mejorada de la arteria descendente anterior izquierda",
-      "summary": "Fondo: La segmentación precisa de la arteria Left Anterior Descending (LAD) en CT libre de respiración tridimensional, sin contraste, es crucial para la conserv",
-      "time": "140h",
+      "summary": "Fondo: La segmentación precisa de la arteria Left Anterior Descending (LAD) en CT libre de respiración tridimensional, sin contraste, es crucial para la",
+      "time": "1437h",
       "url": "https://arxiv.org/abs/2608.12274v1",
       "arxiv": "2608.12274v1"
     },
@@ -510,8 +509,8 @@
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "Paradoja de la Abundancia de Información: El Entrenamiento con Contexto Largo Debilita el Conocimiento Paramétrico",
-      "summary": "Los modelos de lenguaje grandes se están entrenando y deploys con contextos largos que abarcan documentos, repositorios de código e historias interactivas. Esta",
-      "time": "141h",
+      "summary": "Los modelos de lenguaje grandes se están entrenando y deploys con contextos largos que abarcan documentos, repositorios de código e historias interactivas.",
+      "time": "1438h",
       "url": "https://arxiv.org/abs/2608.12218v1",
       "arxiv": "2608.12218v1"
     },
@@ -522,8 +521,8 @@
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "Massivas Activaciones en Modelos de Lenguaje Grandes con Atención Lineal Híbrida: Picos Pré-Atención y Plataformas Inter-Pic peace",
-      "summary": "Presentamos el primer estudio sistemático de las Activaciones Masivas (AMs) en HLLMs con intercalación de capas, y descubrimos dos morfologías arquitecturales: ",
-      "time": "142h",
+      "summary": "Presentamos el primer estudio sistemático de las Activaciones Masivas (AMs) en HLLMs con intercalación de capas, y descubrimos dos morfologías arquitecturales:",
+      "time": "1439h",
       "url": "https://arxiv.org/abs/2608.12149v1",
       "arxiv": "2608.12149v1"
     },
@@ -534,8 +533,8 @@
       "cat": "Investigación",
       "content_type": "paper",
       "title": "Estructuración del Espacio de Perspectivas",
-      "summary": "El mismo evento puede ser reportado desde diferentes perspectivas dependiendo de las experiencias, el antecedente y las creencias del escritor o hablante. Un am",
-      "time": "143h",
+      "summary": "El mismo evento puede ser reportado desde diferentes perspectivas dependiendo de las experiencias, el antecedente y las creencias del escritor o hablante. Un",
+      "time": "1439h",
       "url": "https://arxiv.org/abs/2608.12113v1",
       "arxiv": "2608.12113v1"
     },
@@ -546,8 +545,8 @@
       "cat": "Herramientas",
       "content_type": "news",
       "title": "Cómo RingCentral construye el trabajo basado en IA desde ingeniería hasta operaciones",
-      "summary": "Observa cómo RingCentral utiliza ChatGPT Work y Codex para acelerar el desarrollo de productos basados en IA y centralizar la inteligencia operativa entre ingen",
-      "time": "157h",
+      "summary": "Observa cómo RingCentral utiliza ChatGPT Work y Codex para acelerar el desarrollo de productos basados en IA y centralizar la inteligencia operativa entre",
+      "time": "1454h",
       "url": "https://openai.com/index/ringcentral"
     },
     {
@@ -557,8 +556,8 @@
       "cat": "Herramientas",
       "content_type": "news",
       "title": "Cómo los niños se sienten sobre la IA, en sus propias palabras",
-      "summary": "Cuando nos propusimos hablar con niños sobre la inteligencia artificial, pensamos que sabríamos lo que escucharíamos. Esperábamos que algunos nos dijeran que es",
-      "time": "124h",
+      "summary": "Cuando nos propusimos hablar con niños sobre la inteligencia artificial, pensamos que sabríamos lo que escucharíamos. Esperábamos que algunos nos dijeran que",
+      "time": "1421h",
       "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/"
     }
   ]

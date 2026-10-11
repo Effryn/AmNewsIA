@@ -4,13 +4,12 @@
   "greeting": "Buenos días, Effry",
   "briefing": {
     "duration_label": "2:32",
-    "audio_url": "assets/audio/2026-08-30.mp3",
     "script_text": "En el resumen de hoy destacamos un giro importante en la conversación sobre inteligencia artificial: hemos pasado de preocuparnos por las alucinaciones de los modelos a enfrentarnos a un problema más tangible y peligroso: que la IA simplemente *haga cosas*.\n\nDos casos concretos ilustran esta realidad. En primer lugar, un agricultor en China confió en los consejos de una IA para gestionar su cosecha, con resultados desastrosos: diez hectáreas completamente arrasadas en una sola noche. Un recordatorio brutal de que las recomendaciones de estos sistemas pueden tener consecuencias muy reales en el mundo físico.\n\nEn paralelo, Anthropic acaba de anunciar una iniciativa crucial: la apertura de una vista previa de su Estándar de Hardware de Modelos, o MHS. Se trata de una especificación compartida diseñada específicamente para que los agentes de IA operen dispositivos físicos de forma segura. Es evidente que la industria está intentando establecer guardarriles mientras estos sistemas ganan capacidades de acción.\n\nEn el frente técnico, hemos visto avances significativos en rendimiento. MarkTechPost reporta un benchmark enfocado en latencia mínima para APIs de inferencia en voz y agentes en tiempo real, midiendo el tiempo hasta el primer token. Es un indicador de que la carrera por agentes conversacionales más rápidos se intensifica.\n\nGoogle AI, por su parte, ha presentado EnvHarness, una capa programable que convierte ambientes estáticos en mundos de entrenamiento adaptativos. Esto abre nuevas posibilidades para preparar agentes más robustos antes de su despliegue.\n\nOtro desarrollo fascinante es Code-as-World, un loop agéntico que reescribe videos reales en programas ejecutables de física MuJoCo. Es un salto conceptual interesante en cómo la IA interpreta y traduce el mundo físico.\n\nEn infraestructura, China sigue cimentando su posición como potencia de IA: una ciudad entera se ha transformado, donde antes había granjas hoy hay centros de datos masivos. Literalmente, el combustible que alimenta la IA.\n\nFinalmente, en política tecnológica, el gobernador de Texas ha bloqueado la financiación para más cámaras de vigilancia Flock, un gesto que refleja tensiones crecientes sobre la vigilancia y el uso de IA en seguridad pública.\n\nEl mensaje subyacente es claro: la IA ya no es solo un tema académico. Es infraestructura, es negocio, es riesgo operacional, y exige regulación inteligente. Los próximos meses serán críticos para definir cómo operan estos sistemas en el mundo real.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 30,
     "sources": 44,
-    "updated_label": "19:12"
+    "updated_label": "11:17"
   },
   "iaday": {
     "reading_minutes": "18 min",
@@ -22,9 +21,9 @@
     "impact": "Alto"
   },
   "thirty_seconds": [
-    "technomaxxa/Universal-RAG",
-    "soumadip-dev/AgenteCarrera",
-    "ygmrs/planode-ejecución-del-agente"
+    "Technomaxxa/Universal-RAG",
+    "Soumadip-dev/AgenteCarrera",
+    "Ygmrs/planode-ejecución-del-agente"
   ],
   "articles": [
     {
@@ -33,9 +32,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "repo",
-      "title": "technomaxxa/Universal-RAG",
-      "summary": "⭐ 1 estrella — Un asistente RAG Universal construido con Streamlit, LangChain y Gemini. Chatear con PDFs, documentos Word, hojas de cálculo Excel y presentacion",
-      "time": "44h",
+      "title": "Technomaxxa/Universal-RAG",
+      "summary": "⭐ 1 estrella — Un asistente RAG Universal construido con Streamlit, LangChain y Gemini. Chatear con PDFs, documentos Word, hojas de cálculo Excel y",
+      "time": "1043h",
       "url": "https://github.com/technomaxxa/Universal-RAG",
       "stars": "1"
     },
@@ -45,9 +44,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "repo",
-      "title": "soumadip-dev/AgenteCarrera",
-      "summary": "⭐ 2 estrellas — asesor de carrera de inteligencia artificial que utiliza flujos de trabajo con múltiples agentes y recuperación de conocimiento para crear mapas",
-      "time": "67h",
+      "title": "Soumadip-dev/AgenteCarrera",
+      "summary": "⭐ 2 estrellas — asesor de carrera de inteligencia artificial que utiliza flujos de trabajo con múltiples agentes y recuperación de conocimiento para crear",
+      "time": "1066h",
       "url": "https://github.com/soumadip-dev/AgentCareer",
       "stars": "2"
     },
@@ -57,9 +56,9 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "repo",
-      "title": "ygmrs/planode-ejecución-del-agente",
-      "summary": "⭐ 1 estrella — Infraestructura duradera para la ejecución de agentes de inteligencia artificial; alquileres de trabajadores, recuperación, reintegros, puertas d",
-      "time": "80h",
+      "title": "Ygmrs/planode-ejecución-del-agente",
+      "summary": "⭐ 1 estrella — Infraestructura duradera para la ejecución de agentes de inteligencia artificial; alquileres de trabajadores, recuperación, reintegros, puertas",
+      "time": "1079h",
       "url": "https://github.com/ygmrs/agent-execution-plane",
       "stars": "1"
     },
@@ -69,9 +68,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "tejasrishi27/AI-Lead-Qualifier",
-      "summary": "⭐ 0 estrellas — sistema de calificación de leads basado en IA que analiza consultas del cliente, evalúa el interés de compra e inmediatez, y prioriza automática",
-      "time": "9h",
+      "title": "Tejasrishi27/AI-Lead-Qualifier",
+      "summary": "⭐ 0 estrellas — sistema de calificación de leads basado en IA que analiza consultas del cliente, evalúa el interés de compra e inmediatez, y prioriza",
+      "time": "1009h",
       "url": "https://github.com/tejasrishi27/AI-Lead-Qualifier",
       "stars": "0"
     },
@@ -81,9 +80,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "rendimiento_estudiantil-inteligencia Artificial",
-      "summary": "⭐ 0 estrellas — Aplicación de aprendizaje automático que predice los resultados de exámenes de matemáticas de los estudiantes utilizando Regresión Logística y p",
-      "time": "11h",
+      "title": "Rendimiento_estudiantil-inteligencia Artificial",
+      "summary": "⭐ 0 estrellas — Aplicación de aprendizaje automático que predice los resultados de exámenes de matemáticas de los estudiantes utilizando Regresión Logística y",
+      "time": "1010h",
       "url": "https://github.com/zainabsarfraz903/student-performance-ai",
       "stars": "0"
     },
@@ -95,7 +94,7 @@
       "content_type": "repo",
       "title": "AbdulWasay0212/precision-arena",
       "summary": "⭐ 55 estrellas — Ultimate CS Aim Trainer Precision Guide 2026: Maestría en Tiro en la Cabeza y Reflejos",
-      "time": "133h",
+      "time": "1132h",
       "url": "https://github.com/AbdulWasay0212/precision-arena",
       "stars": "55"
     },
@@ -105,9 +104,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "vickyvenu190-web/entrenador-de-arena-precisión",
+      "title": "Vickyvenu190-web/entrenador-de-arena-precisión",
       "summary": "⭐ 55 estrellas — Web Aim Trainer 2026: Rango de Reflejos y Precisión para FPS Practicar",
-      "time": "133h",
+      "time": "1132h",
       "url": "https://github.com/vickyvenu190-web/precision-arena-trainer",
       "stars": "55"
     },
@@ -117,9 +116,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "saghosh8/AI-For-DevOps",
-      "summary": "⭐ 8 estrellas — Un viaje práctico de 21 días para dominar el AI para DevOps — cubriendo LLMs, GenAI, CI/CD, Kubernetes, nube, automatización y proyectos de DevO",
-      "time": "139h",
+      "title": "Saghosh8/AI-For-DevOps",
+      "summary": "⭐ 8 estrellas — Un viaje práctico de 21 días para dominar el AI para DevOps — cubriendo LLMs, GenAI, CI/CD, Kubernetes, nube, automatización y proyectos de",
+      "time": "1138h",
       "url": "https://github.com/saghosh8/AI-For-DevOps",
       "stars": "8"
     },
@@ -129,9 +128,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "madhumita-pardeshi/CODSOFT_TASKS_02",
-      "summary": "⭐ 2 estrellas — 🖼️ Aplicación de captioning de imágenes basada en IA que utiliza conceptos de Visión por Computadora y Procesamiento de Lenguaje Natural para ge",
-      "time": "11h",
+      "title": "Madhumita-pardeshi/CODSOFT_TASKS_02",
+      "summary": "⭐ 2 estrellas — 🖼️ Aplicación de captioning de imágenes basada en IA que utiliza conceptos de Visión por Computadora y Procesamiento de Lenguaje Natural para",
+      "time": "1011h",
       "url": "https://github.com/madhumita-pardeshi/CODSOFT_TASKS_02",
       "stars": "2"
     },
@@ -141,9 +140,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "mshakeelrasheed/ThermoMind",
-      "summary": "⭐ 2 estrellas — Una plataforma de inteligencia urbana para el calor impulsada por IA que transforma los datos climáticos de FortyGuard en estrategias de mitigac",
-      "time": "10h",
+      "title": "Mshakeelrasheed/ThermoMind",
+      "summary": "⭐ 2 estrellas — Una plataforma de inteligencia urbana para el calor impulsada por IA que transforma los datos climáticos de FortyGuard en estrategias de",
+      "time": "1009h",
       "url": "https://github.com/mshakeelrasheed/ThermoMind",
       "stars": "2"
     },
@@ -153,9 +152,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "thejosephantony/Sergipe-traffic-ai",
-      "summary": "⭐ 1 estrella — Simulador inteligente de tráfico para escenarios urbanos de Sergipe, con control adaptativo de semáforos, métricas de movilidad y experimentos co",
-      "time": "105h",
+      "title": "Thejosephantony/Sergipe-traffic-ai",
+      "summary": "⭐ 1 estrella — Simulador inteligente de tráfico para escenarios urbanos de Sergipe, con control adaptativo de semáforos, métricas de movilidad y experimentos",
+      "time": "1104h",
       "url": "https://github.com/thejosephantony/sergipe-traffic-ai",
       "stars": "1"
     },
@@ -165,9 +164,9 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "donia9988/robot_de_limpieza_inteligente",
-      "summary": "⭐ 0 estrellas — Una simulación de un robot de limpieza inteligente que utiliza el aprendizaje por refuerzo mediante el método Actor-Critic para la navegación ad",
-      "time": "16h",
+      "title": "Donia9988/robot_de_limpieza_inteligente",
+      "summary": "⭐ 0 estrellas — Una simulación de un robot de limpieza inteligente que utiliza el aprendizaje por refuerzo mediante el método Actor-Critic para la navegación",
+      "time": "1015h",
       "url": "https://github.com/donia9988/intelligent-cleaning-robot",
       "stars": "0"
     },
@@ -178,8 +177,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "‼️ Pasa de una web genérica a un diseño profesional con estos plugins",
-      "summary": "¿Tus webs con IA se ven todas iguales? Intenta esto 👀‼️\nNo es necesariamente un problema de código, te faltan referencias, reglas de diseño y control de calidad",
-      "time": "11h",
+      "summary": "¿Tus webs con IA se ven todas iguales? Intenta esto 👀‼️ No es necesariamente un problema de código, te faltan referencias, reglas de diseño y control de",
+      "time": "1010h",
       "url": "https://www.youtube.com/shorts/eMd34sFQCzk"
     },
     {
@@ -189,8 +188,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "MoE + MTP con GPU Integrada 🚀 RENDIMIENTO con Modelos Grandes y llama.cpp",
-      "summary": "En este video ponemos a prueba un sistema con MoE Grande GPU Integrada para comprobar cómo funcionan modelos de lenguaje masivos en hardware de bajo coste. Anal",
-      "time": "30h",
+      "summary": "En este video ponemos a prueba un sistema con MoE Grande GPU Integrada para comprobar cómo funcionan modelos de lenguaje masivos en hardware de bajo coste.",
+      "time": "1029h",
       "url": "https://www.youtube.com/watch?v=nJiD_qZPKto"
     },
     {
@@ -200,8 +199,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Atomic AI Tutorial Completo 🚀 Potencia tus Modelos de IA con Subtareas",
-      "summary": "En este Atomic AI Tutorial Completo aprenderás cómo potenciar la inteligencia de modelos de lenguaje pequeños utilizando una técnica de descomposición de tareas",
-      "time": "6h",
+      "summary": "En este Atomic AI Tutorial Completo aprenderás cómo potenciar la inteligencia de modelos de lenguaje pequeños utilizando una técnica de descomposición de",
+      "time": "1005h",
       "url": "https://www.youtube.com/watch?v=iCokaxKK8_I"
     },
     {
@@ -211,8 +210,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Gemini Notebook de 0 a EXPERTO: la guía más completa en español",
-      "summary": "Prueba Hostinger Ecommerce con descuento: https://hostinger.com/MIGUEBAENA10\n\nPrueba Omnisend con un 30% de descuento durante 3 meses: https://your.omnisend.com",
-      "time": "6h",
+      "summary": "Prueba Hostinger Ecommerce con descuento: https://hostinger.com/MIGUEBAENA10 Prueba Omnisend con un 30% de descuento durante 3 meses:",
+      "time": "1005h",
       "url": "https://www.youtube.com/watch?v=5D46UoKt3KE"
     },
     {
@@ -222,8 +221,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Nos hemos pasado tres años preocupados por si la IA alucina. Ahora el problema es que haga cosas",
-      "summary": "<p>\n     <img alt=\"Nos&#x20;hemos&#x20;pasado&#x20;tres&#x20;a&#x00F1;os&#x20;preocupados&#x20;por&#x20;si&#x20;la&#x20;IA&#x20;alucina.&#x20;Ahora&#x20;el&#x20",
-      "time": "14h",
+      "summary": "<p> <img",
+      "time": "1013h",
       "url": "https://www.xataka.com/robotica-e-ia/nos-hemos-pasado-tres-anos-preocupados-ia-alucina-ahora-problema-que-haga-cosas"
     },
     {
@@ -233,8 +232,8 @@
       "cat": "Videos",
       "content_type": "video",
       "title": "Mi TOP 4 VISORES de PCVR en 2026",
-      "summary": "En este vídeo analizamos mi TOP 4 de mejores visores para PCVR en 2026 para resolver una de las grandes dudas: ¿cuál es el mejor visor de Realidad Virtual para ",
-      "time": "31h",
+      "summary": "En este vídeo analizamos mi TOP 4 de mejores visores para PCVR en 2026 para resolver una de las grandes dudas: ¿cuál es el mejor visor de Realidad Virtual para",
+      "time": "1031h",
       "url": "https://www.youtube.com/watch?v=J-PgiuDwwlk"
     },
     {
@@ -244,8 +243,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "APIs de Inferencia con Menor Latencia para Voz y Agentes en Tiempo Real: Un Referencial Basado en el Tiempo hasta el Primer Token (TTFT)",
-      "summary": "<p>Los agentes de voz fallan en latencia mucho antes que en inteligencia. El tiempo hasta el primer token es la métrica que la mayoría de los equipos utilizan p",
-      "time": "1h",
+      "summary": "<p>Los agentes de voz fallan en latencia mucho antes que en inteligencia. El tiempo hasta el primer token es la métrica que la mayoría de los equipos utilizan",
+      "time": "1000h",
       "url": "https://www.marktechpost.com/2026/08/30/lowest-latency-inference-apis-for-voice-and-realtime-agents-a-time-to-first-token-ttft-first-benchmark/"
     },
     {
@@ -255,8 +254,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Google AI Introduce EnvHarness: Una Capa Programable que Convierte Entornos Estáticos de Agentes en Mundos de Entrenamiento Adaptativos",
-      "summary": "Google Cloud AI Research, junto con Washington University en St. Luis y UNC Chapel Hill, ha lanzado EnvHarness, una capa bajo la licencia Apache-2.0 que convier",
-      "time": "2h",
+      "summary": "Google Cloud AI Research, junto con Washington University en St. Luis y UNC Chapel Hill, ha lanzado EnvHarness, una capa bajo la licencia Apache-2.0 que",
+      "time": "1001h",
       "url": "https://www.marktechpost.com/2026/08/30/google-ai-introduces-envharness-a-programmable-layer-that-turns-static-agent-environments-into-adaptive-training-worlds/"
     },
     {
@@ -266,8 +265,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Un agricultor confió en los consejos de la IA para cuidar su cosecha. El resultado: 10 hectáreas arrasadas en una noche",
-      "summary": "<p>\n     <img alt=\"Un&#x20;agricultor&#x20;confi&#x00F3;&#x20;en&#x20;los&#x20;consejos&#x20;de&#x20;la&#x20;IA&#x20;para&#x20;cuidar&#x20;su&#x20;cosecha.&#x20",
-      "time": "6h",
+      "summary": "<p> <img",
+      "time": "1005h",
       "url": "https://www.xataka.com/magnet/agricultor-confio-consejos-ia-para-cuidar-su-cosecha-resultado-10-hectareas-arrasadas-noche"
     },
     {
@@ -277,8 +276,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Anthropic abre una vista previa de la especificación del hardware de investigación estándar (MHS): Una especificación compartida para que los agentes de inteligencia artificial operen de manera segura dispositivos físicos.",
-      "summary": "<p>Anthropic ha abierto una vista previa de investigación del Estándar de Hardware del Modelo (MHS), una especificación de controlador compartido que permite a ",
-      "time": "16h",
+      "summary": "<p>Anthropic ha abierto una vista previa de investigación del Estándar de Hardware del Modelo (MHS), una especificación de controlador compartido que permite a",
+      "time": "1016h",
       "url": "https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices/"
     },
     {
@@ -288,8 +287,8 @@
       "cat": "Modelos",
       "content_type": "release",
       "title": "Google AI lanza Gemini Omni 1.1 Flash: extensión de escena a 40 segundos, control de primer y último cuadro, y escalado a 4K",
-      "summary": "Se analiza Gemini Omni 1.1 Flash, una actualización de producción de Google para su modelo nativo multimodal de generación y edición de video. Se desglosa lo qu",
-      "time": "32h",
+      "summary": "Se analiza Gemini Omni 1.1 Flash, una actualización de producción de Google para su modelo nativo multimodal de generación y edición de video. Se desglosa lo",
+      "time": "1031h",
       "url": "https://www.marktechpost.com/2026/08/29/google-ai-releases-gemini-omni-1-1-flash-40-second-scene-extension-first-last-frame-control-and-4k-upscaling/"
     },
     {
@@ -299,8 +298,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Donde antes había vacas y patatas, hoy hay centros de datos: esta ciudad china es la \"gasolina\" de la IA",
-      "summary": "<p>\n     <img alt=\"Donde&#x20;antes&#x20;hab&#x00ED;a&#x20;vacas&#x20;y&#x20;patatas,&#x20;hoy&#x20;hay&#x20;centros&#x20;de&#x20;datos&#x3A;&#x20;esta&#x20;ciu",
-      "time": "13h",
+      "summary": "<p> <img",
+      "time": "1012h",
       "url": "https://www.xataka.com/servicios/donde-antes-habia-vacas-patatas-hoy-hay-centros-datos-ciudad-china-que-gasolina-ia"
     },
     {
@@ -310,8 +309,8 @@
       "cat": "Modelos",
       "content_type": "news",
       "title": "Conozca 'Code-as-World': Un Círculo Agente que Rewrige Videos Reales en Programas de Física MuJoCo Ejecutables",
-      "summary": "<p>Code-as-World recupera código de escenas de MuJoCo editable a partir de videos reales, y luego utiliza esos mundos verificados para entrenar el razonamiento ",
-      "time": "21h",
+      "summary": "<p>Code-as-World recupera código de escenas de MuJoCo editable a partir de videos reales, y luego utiliza esos mundos verificados para entrenar el razonamiento",
+      "time": "1020h",
       "url": "https://www.marktechpost.com/2026/08/29/mirros-code-as-world-executable-world-representations/"
     },
     {
@@ -321,8 +320,8 @@
       "cat": "Investigación",
       "content_type": "news",
       "title": "El creador de Linux usó IA para resolver un fallo y asegura que el proceso fue «infernal»",
-      "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/imgs.hipertextual.com/wp-content/upl",
-      "time": "29h",
+      "summary": "<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\"",
+      "time": "1028h",
       "url": "https://hipertextual.com/inteligencia-artificial/linus-torvalds-ia-bug-linux-debug/"
     },
     {
@@ -332,8 +331,8 @@
       "cat": "Investigación",
       "content_type": "news",
       "title": "Esta función oculta de Windows comprime tu sistema y libera hasta 5 GB de espacio",
-      "summary": "<figure><img alt=\"Windows 11 archivo ZIP\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/imgs.hipertext",
-      "time": "30h",
+      "summary": "<figure><img alt=\"Windows 11 archivo ZIP\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\"",
+      "time": "1029h",
       "url": "https://hipertextual.com/software/compact-os-windows-comando-comprime-espacio/"
     },
     {
@@ -343,8 +342,8 @@
       "cat": "Herramientas",
       "content_type": "news",
       "title": "Construcción de un Ensamble Meteorológico por Lotes Personalizado con NVIDIA Earth2Studio",
-      "summary": "En este tutorial, se construye un flujo de trabajo de pronóstico del tiempo en ensamble con NVIDIA Earth2Studio. Se instalan los componentes requeridos de Earth",
-      "time": "28h",
+      "summary": "En este tutorial, se construye un flujo de trabajo de pronóstico del tiempo en ensamble con NVIDIA Earth2Studio. Se instalan los componentes requeridos de",
+      "time": "1027h",
       "url": "https://www.marktechpost.com/2026/08/29/building-custom-batched-ensemble-weather-forecasting-with-nvidia-earth2studio/"
     },
     {
@@ -354,8 +353,8 @@
       "cat": "Herramientas",
       "content_type": "news",
       "title": "El gobernador de Texas, Abbott, bloquea el financiamiento para más cámaras Flock.",
-      "summary": "A medida que crece la contrarreacción contra las cámaras de vigilancia con inteligencia artificial de Flock, el gobernador de Texas, Greg Abbott, ha congelado e",
-      "time": "7h",
+      "summary": "A medida que crece la contrarreacción contra las cámaras de vigilancia con inteligencia artificial de Flock, el gobernador de Texas, Greg Abbott, ha congelado",
+      "time": "1006h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras"
     },
     {
@@ -365,8 +364,8 @@
       "cat": "Herramientas",
       "content_type": "news",
       "title": "Sony Music Publishing y Warner Chappell están demandando a Anthropic",
-      "summary": "Sony Music Publishing y Warner Chappell han presentado una demanda contra Anthropic ante el Tribunal Distrital de los Estados Unidos para el Distrito Norte de C",
-      "time": "28h",
+      "summary": "Sony Music Publishing y Warner Chappell han presentado una demanda contra Anthropic ante el Tribunal Distrital de los Estados Unidos para el Distrito Norte de",
+      "time": "1027h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright"
     }
   ]

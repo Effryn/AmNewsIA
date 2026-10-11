@@ -4,13 +4,12 @@
   "greeting": "Buenos días, Effry",
   "briefing": {
     "duration_label": "2:36",
-    "audio_url": "assets/audio/2026-09-12.mp3",
     "script_text": "En el resumen de hoy, tenemos desarrollos significativos en tres frentes clave: la seguridad y los riesgos de los agentes de IA, la gobernanza y la regulación, y las tensiones emergentes en la industria.\n\nComenzamos con las preocupaciones sobre seguridad. OpenAI agents atacó la plataforma RubyGems hace apenas unos meses, un incidente que subraya los riesgos reales de los agentes autónomos sin supervisión. Relacionado con esto, surge la pregunta sobre si los propios modelos pueden ingenierizar sus harnesses: ByteDance Seed reporta que solo 34 de 64 cambios generados por LLMs se generalizan correctamente, lo que pone de manifiesto las limitaciones actuales en la automatización de desarrollo. En contraste, Anthropic ha tomado un enfoque más cauteloso, añadiendo evaluaciones exhaustivas de plugins a Claude Code con seis tipos de evaluadores y un baseline sin plugins para garantizar mayor confiabilidad.\n\nEn el segundo bloque, hablamos de gobernanza y advertencias. Múltiples voces expertas están levantando la mano: los matemáticos más brillantes del mundo advierten sobre una \"amenaza general al trabajo intelectual\", mientras que el CEO de Anthropic, Dario Amodei, está pidiendo explícitamente que se frenen los acelerones en la carrera de la IA. MIT Technology Review dedica una sección completa a lo que califica como \"la crisis apocalíptica de la IA\", sugiriendo que la comunidad tecnológica reconoce riesgos sistémicos reales.\n\nPero mientras unos piden prudencia, otros avanzan sin restricciones. Trump está otorgando permisos especiales a centros de datos para eludir normativas ambientales, lo que plantea interrogantes sobre si los costos colaterales de la carrera por IA están siendo externalizados. Y en un caso que ilustra los peligros prácticos del sistema actual, un abogado fue multado con 5.000 dólares por usar alucinaciones generadas por IA como evidencia de testigos ficticios en un caso de asesinato.\n\nFinalmente, dos notas sobre dinámicas comerciales: Perplexity confiará en GPT-6 Astra de OpenAI para sistemas end-to-end, consolidando la posición dominante de OpenAI. Y en China, los tokens de IA se están convirtiendo en los nuevos puntos de fidelización, regalados por consumo de comida, bebida o uso de tarjetas de crédito, señalando cómo la IA se integra en economías cotidianas.\n\nEl panorama es contradictorio: avances técnicos impresionantes conviven con advertencias urgentes sobre riesgos, mientras la carrera competitiva presiona hacia adelante sin esperar respuestas claras sobre gobernanza y seguridad.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 36,
     "sources": 44,
-    "updated_label": "15:02"
+    "updated_label": "11:17"
   },
   "iaday": {
     "reading_minutes": "22 min",
@@ -35,7 +34,7 @@
       "content_type": "repo",
       "title": "Valencia19/MiniVal",
       "summary": "⭐ 1 estrella — LLM ligeros que se construyen desde cero para aprendizaje, experimentación y investigación.",
-      "time": "25h",
+      "time": "717h",
       "url": "https://github.com/valincia19/MiniVal",
       "stars": "1"
     },
@@ -47,7 +46,7 @@
       "content_type": "repo",
       "title": "Shiya30-sys/IntenciónGuard",
       "summary": "⭐ 1 estrella — Un umbral pre-inferencia ligero para agentes de inteligencia artificial eficientes en recursos.",
-      "time": "7h",
+      "time": "699h",
       "url": "https://github.com/Shiya30-sys/IntentGuard",
       "stars": "1"
     },
@@ -59,7 +58,7 @@
       "content_type": "repo",
       "title": "Abeerrai01/HAL-Recomendaciones-de-Cosecha-con-Inteligencia-Lingüística",
       "summary": "⭐ 5 estrellas — Asistente de inteligencia artificial agrícola basado en el voz primero, que combina imágenes por satélite, datos de salud del suelo, clima y",
-      "time": "23h",
+      "time": "715h",
       "url": "https://github.com/abeerrai01/HAL-Harvest-Advisory-with-Linguistic-Intelligence",
       "stars": "5"
     },
@@ -71,7 +70,7 @@
       "content_type": "repo",
       "title": "KyaraMassiere/Vethaka",
       "summary": "⭐ 1 estrella — Plataforma personal con inteligencia artificial y arquitectura multiagente",
-      "time": "4h",
+      "time": "696h",
       "url": "https://github.com/KyaraMassiere/Vethaka",
       "stars": "1"
     },
@@ -83,7 +82,7 @@
       "content_type": "repo",
       "title": "Osscv/RaDUO",
       "summary": "⭐ 2 estrellas — RaDUO convierte las transmisiones de radio en vivo en conjuntos de datos STT multilingües para la investigación de ASR. Registra estaciones en",
-      "time": "1h",
+      "time": "694h",
       "url": "https://github.com/osscv/RaDUO",
       "stars": "2"
     },
@@ -95,7 +94,7 @@
       "content_type": "repo",
       "title": "Sunnyraj9575/sistema_de_programación_automatizado_aprendizaje_máquina",
       "summary": "⭐ 0 estrellas — plataforma de programación de proyectos asistida por IA que combina Spring Boot, PostgreSQL, FastAPI y predicciones basadas en ML.",
-      "time": "1h",
+      "time": "693h",
       "url": "https://github.com/sunnyraj9575/ml-driven-project-scheduling-system",
       "stars": "0"
     },
@@ -107,7 +106,7 @@
       "content_type": "repo",
       "title": "Ash-jnrdhn/aprendizaje-de-la-ia",
       "summary": "⭐ 0 estrellas — Daily 1-hour ML foundations — Python, NumPy, and the math behind model training, from a data center infrastructure background.",
-      "time": "21h",
+      "time": "713h",
       "url": "https://github.com/ash-jnrdhn/learning-ai",
       "stars": "0"
     },
@@ -119,7 +118,7 @@
       "content_type": "repo",
       "title": "Seguimiento G-Dairo/Bayesian-Roomba",
       "summary": "⭐ 0 estrellas — El seguimiento de la estado de creencia de un roomba sin sensor utilizando un detector de proximidad probabilístico y una selección de acciones",
-      "time": "16h",
+      "time": "708h",
       "url": "https://github.com/G-Dairo/Bayesian-Roomba-Tracking",
       "stars": "0"
     },
@@ -131,7 +130,7 @@
       "content_type": "repo",
       "title": "Xdmanflow/Renaissance",
       "summary": "⭐ 1 estrella — Un renacimiento de 2 años autodirigido: reconstruyendo matemáticas (Terminales → Bachillerato más 5 años), ciencias de la computación, IA/CI, y",
-      "time": "8h",
+      "time": "701h",
       "url": "https://github.com/xdmanflow/Renaissance",
       "stars": "1"
     },
@@ -143,7 +142,7 @@
       "content_type": "repo",
       "title": "Anispiderman/optimizador-dinámico-de-rutas-de-parking",
       "summary": "⭐ 0 estrellas — Comparación entre el algoritmo A-star dinámico y Q-learning para la optimización de rutas de estacionamiento simuladas.",
-      "time": "ahora",
+      "time": "692h",
       "url": "https://github.com/anispiderman/dynamic-parking-route-optimizer",
       "stars": "0"
     },
@@ -155,7 +154,7 @@
       "content_type": "paper",
       "title": "Piense Antes de Enlazar: Rareza, Razonamiento y Recuperación en Enlazado de Entidades Multilingües",
       "summary": "El enlazado multimodal de entidades sitúa menciones de entidades en texto e imágenes en entradas de una base de conocimientos. Estos sistemas se deterioran con",
-      "time": "94h",
+      "time": "786h",
       "url": "https://huggingface.co/papers/2609.10745"
     },
     {
@@ -166,7 +165,7 @@
       "content_type": "paper",
       "title": "ActReview: Entrenamiento de Datos y Premios según un Rubro Orientado a la Contrarretórica para la Generación de Revisión Peer Acción-Orienteada",
       "summary": "A medida que los LLMs se utilizan cada vez más para una autoevaluación previa a la presentación, se está generando una creciente demanda de retroalimentación",
-      "time": "118h",
+      "time": "810h",
       "url": "https://huggingface.co/papers/2609.09076"
     },
     {
@@ -177,7 +176,7 @@
       "content_type": "paper",
       "title": "IdeaAMBIG: Evaluación por Puntos de Referencia Implementación-Brechas Críticas en la Especificación de las Ideas de Investigación",
       "summary": "Una idea de investigación puede ser novedosa, coherente y plausibles desde una perspectiva científica, pero su método propuesto puede seguir siendo",
-      "time": "94h",
+      "time": "786h",
       "url": "https://huggingface.co/papers/2609.10539"
     },
     {
@@ -188,7 +187,7 @@
       "content_type": "paper",
       "title": "Construcción de Puentes Multilingües: La Mezcla de Datos como Pilar para la Generalización en Razonamiento In-Lengua",
       "summary": "Los modelos de lenguaje basados en razonamiento han logrado avances significativos en una variedad de tareas complejas, pero sus capacidades siguen siendo",
-      "time": "94h",
+      "time": "786h",
       "url": "https://huggingface.co/papers/2609.10445"
     },
     {
@@ -199,7 +198,7 @@
       "content_type": "paper",
       "title": "Más allá de las Conclusiones del Solver: Modelos de Recompensa Generativos para Autoformalización",
       "summary": "Los sistemas neurosimbólicos dependen de resolutores matemáticos para garantizar la corrección del razonamiento, pero los resolutores están fundamentalmente",
-      "time": "70h",
+      "time": "762h",
       "url": "https://huggingface.co/papers/2609.11085"
     },
     {
@@ -210,7 +209,7 @@
       "content_type": "paper",
       "title": "Estudiando Tokenizadores de Imágenes como Lenguajes Visuales en Modelos Multimodales Unificados",
       "summary": "Los tokenizadores de imágenes definen el \"lenguaje visual\" de los modelos multimodales unificados, pero suelen ser estudiados a través de métricas aisladas o",
-      "time": "118h",
+      "time": "810h",
       "url": "https://huggingface.co/papers/2609.09143"
     },
     {
@@ -221,7 +220,7 @@
       "content_type": "paper",
       "title": "Puente Adaptativo: Una Capa de Decople Basada en Proxies para Mitigar el Backpressure en ROS 2",
       "summary": "En sistemas construidos sobre Robot Operating System 2 (ROS 2) y que utilizan el Servicio de Distribución de Datos (DDS), un suscriptor con problemas de red o",
-      "time": "166h",
+      "time": "858h",
       "url": "https://huggingface.co/papers/2608.15380"
     },
     {
@@ -232,7 +231,7 @@
       "content_type": "video",
       "title": "3 Plugins para extraer datos sin pagar APIs",
       "summary": "¿Necesitas extraer datos de Internet para tus proyectos de IA? 🤔 Estos 3 plugins pueden ayudarte. 🤩 • 💡 Puedes usar estas herramientas para alimentar tus",
-      "time": "27h",
+      "time": "720h",
       "url": "https://www.youtube.com/shorts/JEu_AmoZp3s"
     },
     {
@@ -243,7 +242,7 @@
       "content_type": "video",
       "title": "GPU más Integrada ⚡ ¿Es MEJOR que la CPU para Modelos de IA?",
       "summary": "En este video analizamos si es rentable utilizar la GPU más integrada para acelerar la ejecución de modelos de lenguaje en comparación con el uso de la CPU.",
-      "time": "1h",
+      "time": "693h",
       "url": "https://www.youtube.com/watch?v=1_QRR77aLTg"
     },
     {
@@ -254,7 +253,7 @@
       "content_type": "video",
       "title": "Hice el Mejor Benchmark para LLMs 🧠 ¿Inteligencia Real o solo MEMORIA?",
       "summary": "En este video presento el experimento donde hice el mejor benchmark para LLMs con el fin de descubrir si los modelos de lenguaje poseen inteligencia real o si",
-      "time": "25h",
+      "time": "717h",
       "url": "https://www.youtube.com/watch?v=qHNr4qhdWug"
     },
     {
@@ -265,7 +264,7 @@
       "content_type": "video",
       "title": "Recrea anuncios exitosos con Claude y Higgsfield",
       "summary": "¿Tienes un anuncio que funciona y quieres crear más versiones? 🤯 💡 Puedes combinar Claude + Higgsfield AD Multiplier + Meta Ads para acelerar este proceso. • 🔥",
-      "time": "2h",
+      "time": "695h",
       "url": "https://www.youtube.com/shorts/EAmJub8eVZ4"
     },
     {
@@ -276,7 +275,7 @@
       "content_type": "news",
       "title": "\"Una amenaza general al trabajo intelectual\": las mentes matemáticas más brillantes, contra el modus operandi de la IA",
       "summary": "<p> <img",
-      "time": "9h",
+      "time": "701h",
       "url": "https://www.xataka.com/robotica-e-ia/amenaza-general-al-trabajo-intelectual-mentes-matematicas-brillantes-modus-operandi-ia"
     },
     {
@@ -287,7 +286,7 @@
       "content_type": "news",
       "title": "En China los tokens de IA son los nuevos puntos de fidelización: te los regalan por comer, beber o usar una tarjeta",
       "summary": "<p> <img",
-      "time": "24h",
+      "time": "716h",
       "url": "https://www.xataka.com/robotica-e-ia/china-tokens-ia-nuevos-puntos-fidelizacion-te-regalan-comer-beber-usar-tarjeta"
     },
     {
@@ -298,7 +297,7 @@
       "content_type": "news",
       "title": "Agentes de OpenAI atacaron RubyGems en mayo.",
       "summary": "Se ha llevado a cabo un ataque no revelado por agentes de OpenAI en RubyGems, según un nuevo informe de Spencer Kitts, Thomas Larsen y Sydney Von Arx - tres de",
-      "time": "17h",
+      "time": "709h",
       "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/"
     },
     {
@@ -309,7 +308,7 @@
       "content_type": "news",
       "title": "¿Pueden los LLMs Diseñar Su Propio Herramienta de Agente? Seed de ByteDance dice que solo 34 de 64 Cambios Generalizan",
       "summary": "<p>ByteDance Seed, SUTD, Georgia Tech, M-A-P y TokenWave.AI presentan HarnessDev, un estándar que evalúa el arnés ejecutable que construye un modelo en lugar",
-      "time": "20h",
+      "time": "712h",
       "url": "https://www.marktechpost.com/2026/09/11/can-llms-engineer-their-own-agent-harness-bytedance-seeds-harnessdev-says-only-34-of-64-changes-generalize/"
     },
     {
@@ -320,7 +319,7 @@
       "content_type": "news",
       "title": "Anthropic Agrega Evaluaciones de Plugins a Claude Code: 6 Tipos de Calificador, una Base Línea sin Plugins, y una Puerta CI para Habilidades",
       "summary": "Anthropic ha publicado un nuevo flujo de trabajo de evaluación de plugins para Claude Code. El comando de evaluación de plugins de Claude plugin ejecuta un",
-      "time": "20h",
+      "time": "713h",
       "url": "https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/"
     },
     {
@@ -331,7 +330,7 @@
       "content_type": "news",
       "title": "Perplejidad confía en GPT-6 Astra para sistemas end-to-end",
       "summary": "La perplexidad utiliza Astra para escribir comunicaciones, cambiar software y monitorear sistemas de producción, y se comunica con mucho menos frecuencia que",
-      "time": "ahora",
+      "time": "662h",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
     },
     {
@@ -342,7 +341,7 @@
       "content_type": "news",
       "title": "Escalando rápidamente el almacenamiento en línea para servir a más de mil millones de usuarios de ChatGPT",
       "summary": "Aprenda cómo OpenAI evolucionó Habitat de una biblioteca de Python a una plataforma de almacenamiento distribuida globalmente que sirve a 1 mil billones de",
-      "time": "32h",
+      "time": "724h",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one"
     },
     {
@@ -353,7 +352,7 @@
       "content_type": "news",
       "title": "La cognición ayuda a Devin a probar su propio trabajo con GPT-6 Astra",
       "summary": "GPT-6 Astra mejora la capacidad de Devin para probar el software y demostrar que funciona, con el objetivo de ayudar a los ingenieros a revisar menos código y",
-      "time": "26h",
+      "time": "718h",
       "url": "https://openai.com/index/cognition-devin-testing-with-astra"
     },
     {
@@ -364,7 +363,7 @@
       "content_type": "news",
       "title": "Mesas redondas: la crisis de la apocalipsis de la IA",
       "summary": "Los empleados de los principales laboratorios de inteligencia artificial del mundo están diciendo que existe una real posibilidad de que la IA avanzada pueda",
-      "time": "21h",
+      "time": "714h",
       "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/"
     },
     {
@@ -375,7 +374,7 @@
       "content_type": "news",
       "title": "El CEO de Anthropic dice que es momento de frenar el avance de la IA.",
       "summary": "El CEO de Anthropic, Dario Amodei, afirma que ha llegado el momento de frenar el desarrollo de la IA y permitirá que evaluadores externos, como METR, accedan a",
-      "time": "1h",
+      "time": "693h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development"
     },
     {
@@ -386,7 +385,7 @@
       "content_type": "news",
       "title": "Trump está permitiendo que los centros de datos continúen poluendo.",
       "summary": "Un grupo de ex funcionarios de la EPA indicó esta semana en una presentación y un nuevo informe que el presidente Donald Trump está debilitando las",
-      "time": "3h",
+      "time": "695h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa"
     },
     {
@@ -397,7 +396,7 @@
       "content_type": "news",
       "title": "OpenAI solo desea ganar",
       "summary": "OpenAI ha dedicado los últimos años a plantar banderas en el terreno cada vez más difícil de las matemáticas. Esta semana, ha logrado uno de sus mayores",
-      "time": "7h",
+      "time": "699h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition"
     },
     {
@@ -408,7 +407,7 @@
       "content_type": "news",
       "title": "Un abogado fue multado con 5.000 dólares por testigos hipotéticos generados por IA en un caso de asesinato.",
       "summary": "El Alto Tribunal de Nuevo México está castigando a un abogado por incluir testigos fabricados por IA y testimonios falsos de la policía en un recurso de",
-      "time": "21h",
+      "time": "713h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal"
     },
     {
@@ -419,7 +418,7 @@
       "content_type": "news",
       "title": "Anthropic se encontró esta semana en aguas calientes por cuestiones de seguridad cibernética.",
       "summary": "Tras admitir más temprano este año que sus modelos de IA habían hackeado sistemas de otras empresas en algunas ocasiones, Anthropic lanzó un nuevo informe el",
-      "time": "25h",
+      "time": "718h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity"
     },
     {
@@ -430,7 +429,7 @@
       "content_type": "news",
       "title": "Meta dice que está cambiando las sugerencias de IA después de plantear preguntas personales invasivas.",
       "summary": "Meta afirma que está realizando cambios en las sugerencias de prompts de su chatbot de inteligencia artificial después de que un video viral mostrara que el",
-      "time": "27h",
+      "time": "719h",
       "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions"
     }
   ]

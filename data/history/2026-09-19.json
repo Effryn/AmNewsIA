@@ -4,13 +4,12 @@
   "greeting": "Buenos días, Effry",
   "briefing": {
     "duration_label": "2:37",
-    "audio_url": "assets/audio/2026-09-19.mp3",
     "script_text": "En el resumen de hoy nos enfocamos en tres áreas clave que están transformando el ecosistema de la inteligencia artificial: los agentes personales, la optimización de modelos y los desafíos regulatorios.\n\nComenzamos con un movimiento significativo en los asistentes de IA personalizados. Meta ha lanzado Muse para Mac, un agente de inteligencia artificial diseñado para trabajar de manera integrada con tus archivos, correo, mensajes, calendario y notas. Este tipo de herramientas marcan la tendencia hacia una IA más contextual y conectada con nuestro ecosistema digital cotidiano.\n\nEn paralelo, el sector de la optimización de modelos está experimentando un dinamismo notable. PrismML ha presentado Ternary Bonsai 2, un modelo de 27 mil millones de parámetros que ocupa apenas 5.9 gigabytes y retiene el 98.2 por ciento del desempeño del Qwen 3.8 original. Además, SpaceX AI ha mejorado significativamente su API de transcripción con Grok Voice Transcribe 2.0, duplicando la precisión respecto a su versión anterior y manteniendo un costo de diez centavos por hora. Jina AI también suma a esta tendencia con su analizador de documentos jina-ocr-v1, un modelo de 3.4 mil millones de parámetros que incorpora decodificación especulativa, permitiendo su uso incluso en GPUs de presupuesto limitado.\n\nEstas optimizaciones reflejan una industria enfocada en democratizar la IA, haciendo modelos más eficientes y accesibles. También hay novedades en embeddings con SPARSEUP, un modelo abierto de 149 millones de parámetros para búsqueda de información.\n\nAhora bien, en China se ha cruzado un hito relevante: la IA no solo genera videos individuales, sino que acaba de producir una serie completa. Esto amplifica las preguntas sobre las implicaciones creativas de estas tecnologías.\n\nFinalmente, los desafíos normativos se intensifican. Microsoft describió internamente el uso de artículos de prensa para entrenar IA como \"el mayor robo laboral de la historia\". Simultáneamente, investigadores de seguridad utilizaron Claude para penetrar sistemas de OpenAI, evidenciando vulnerabilidades. Los reguladores enfrentan preguntas complejas: ¿necesita la IA una exención antimonopolio? ¿Qué ocurre cuando OpenAI y Microsoft reconocen haber iniciado un \"ciclo de perdición\" para la web?\n\nEstos temas convergen en un punto crucial: la industria avanza rápidamente en capacidades técnicas mientras la sociedad aún debate los marcos regulatorios y éticos necesarios.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 35,
     "sources": 44,
-    "updated_label": "11:31"
+    "updated_label": "11:18"
   },
   "iaday": {
     "reading_minutes": "21 min",
@@ -35,7 +34,7 @@
       "content_type": "repo",
       "title": "Kaunaingul-ai/speech-to-reasoning-whisper-unsloth-4bit",
       "summary": "⭐ 0 estrellas — Pipeline de inteligencia artificial de habla a razonamiento end-to-end utilizando OpenAI Whisper, Unsloth Llama 3.2 3B Dinámico 4-bit, Gradio y",
-      "time": "23h",
+      "time": "551h",
       "url": "https://github.com/Kaunaingul-ai/speech-to-reasoning-whisper-unsloth-4bit",
       "stars": "0"
     },
@@ -47,7 +46,7 @@
       "content_type": "paper",
       "title": "Indice de Búsqueda Autoevolvente",
       "summary": "La recuperación de información se ha vuelto cada vez más importante a medida que los agentes de LLM abordan tareas complejas que implican diversas necesidades",
-      "time": "66h",
+      "time": "594h",
       "url": "https://huggingface.co/papers/2609.19656"
     },
     {
@@ -58,7 +57,7 @@
       "content_type": "repo",
       "title": "Vaibhav07772/ai-engineering-operating-system",
       "summary": "⭐ 2 estrellas — Plataforma autónoma de ingeniería de IA que transforma requisitos en lenguaje natural en arquitectura, código, pruebas, revisión de seguridad,",
-      "time": "43h",
+      "time": "571h",
       "url": "https://github.com/vaibhav07772/ai-engineering-operating-system",
       "stars": "2"
     },
@@ -70,7 +69,7 @@
       "content_type": "repo",
       "title": "Faeze-mhmd/montaña-cuantos-aprendizaje",
       "summary": "⭐ 0 estrellas — Un agente de aprendizaje por tabulación para MountainCar-v0 con discretización del estado, experimentos con programación epsilon, visualización",
-      "time": "109h",
+      "time": "637h",
       "url": "https://github.com/faeze-mhmd/mountaincar-q-learning",
       "stars": "0"
     },
@@ -82,7 +81,7 @@
       "content_type": "repo",
       "title": "Kraayenjon/awesome-jev",
       "summary": "⭐ 15 estrellas — Una lista curada de casos de uso de Jev, proyectos, SDKs y recursos. Jev es el modelo System One de TypeSafe AI para decisiones de software",
-      "time": "22h",
+      "time": "550h",
       "url": "https://github.com/kraayenjon/awesome-jev",
       "stars": "15"
     },
@@ -94,7 +93,7 @@
       "content_type": "repo",
       "title": "Milbaxter/ctx perso nal ide al",
       "summary": "⭐ 3 estrellas — Una idea abierta: convierte tu historial digital en un wiki personal privado y vivo para un inteligencia artificial personalizada.",
-      "time": "51h",
+      "time": "579h",
       "url": "https://github.com/Milbaxter/ideal-personal-context",
       "stars": "3"
     },
@@ -106,7 +105,7 @@
       "content_type": "repo",
       "title": "AshrithaAnandaMogaveer/CAREER_AI",
       "summary": "⭐ 1 estrella — Plataforma de orientación profesional basada en IA que ayuda a los estudiantes a descubrir caminos de carrera adecuados mediante evaluaciones",
-      "time": "24h",
+      "time": "552h",
       "url": "https://github.com/AshrithaAnandaMogaveer/CAREER_AI",
       "stars": "1"
     },
@@ -118,7 +117,7 @@
       "content_type": "repo",
       "title": "Ocho-puzzle-búsqueda-ai",
       "summary": "⭐ 0 estrellas — Resolvedor de 8-Puzzle utilizando algoritmos BFS, DFS y A* con funciones heurísticas.",
-      "time": "18h",
+      "time": "546h",
       "url": "https://github.com/elifaytan/eight-puzzle-ai-search",
       "stars": "0"
     },
@@ -130,7 +129,7 @@
       "content_type": "repo",
       "title": "Shifat1112/Detección-de-depresión-PHQ9",
       "summary": "⭐ 0 estrellas — Enfoque de aprendizaje automático para la detección de la severidad de la depresión utilizando datos del cuestionario PHQ-9 y factores de",
-      "time": "79h",
+      "time": "607h",
       "url": "https://github.com/shifat1112/Depression-Detection-PHQ9",
       "stars": "0"
     },
@@ -142,7 +141,7 @@
       "content_type": "repo",
       "title": "Faeze-mhmd/busca-culebras-con-portales",
       "summary": "⭐ 0 estrellas — Algoritmos de búsqueda para un juego de Snake basado en portales utilizando BFS, DFS, IDS, A* y A* ponderado, con visualización interactiva e",
-      "time": "137h",
+      "time": "664h",
       "url": "https://github.com/faeze-mhmd/snake-search-with-portals",
       "stars": "0"
     },
@@ -154,7 +153,7 @@
       "content_type": "repo",
       "title": "IAmDon-144/CSE-3104-DCS",
       "summary": "⭐ 0 estrellas — Sesión CSE-3210-Inteligencia Artificial",
-      "time": "32h",
+      "time": "560h",
       "url": "https://github.com/IAmDon-144/CSE-3104-DCS",
       "stars": "0"
     },
@@ -166,7 +165,7 @@
       "content_type": "paper",
       "title": "Razonamiento Social Verificable para Asistentes de LLM",
       "summary": "Los asistentes LLM se utilizan ampliamente para consejos sociales diarios, pero evaluar su razonamiento social en tales entornos de consulta resulta",
-      "time": "114h",
+      "time": "642h",
       "url": "https://huggingface.co/papers/2609.17496"
     },
     {
@@ -177,7 +176,7 @@
       "content_type": "paper",
       "title": "Muestra de Conteo No Es Suficiente: Estrategia de Generación de Candidatos Crea el Energía y el Desempeño del Escalado en Tiempo de Prueba de los LLM",
       "summary": "El escalado en tiempo de prueba puede mejorar el razonamiento de los modelos de lenguaje grandes al generar y combinar múltiples respuestas candidatas. En los",
-      "time": "90h",
+      "time": "618h",
       "url": "https://huggingface.co/papers/2609.19499"
     },
     {
@@ -188,7 +187,7 @@
       "content_type": "video",
       "title": "Extrae información y datos de internet GRATIS",
       "summary": "Deja de copiar y pegar datos de Internet manualmente. 😮‍💨 📌 Con ScrapeGraphAI puedes extraer información de páginas web utilizando lenguaje natural. • Por",
-      "time": "23h",
+      "time": "551h",
       "url": "https://www.youtube.com/shorts/BS99ZUYI0c0"
     },
     {
@@ -199,7 +198,7 @@
       "content_type": "video",
       "title": "Inteligencia artificial sin sobreingeniería: por qué creé Gentle AI (curso)",
       "summary": "Gentleman Programming | Gentle AI | Inteligencia artificial sin sobreingeniería: por qué creé Gentle AI y curso completo actualizado. Qué es, para quién es,",
-      "time": "ahora",
+      "time": "528h",
       "url": "https://www.youtube.com/watch?v=mjG1w1RjDKg"
     },
     {
@@ -210,7 +209,7 @@
       "content_type": "video",
       "title": "NeoHorse-1-4B es prometedor 🤖 ¿Realmente mejora al Qwen 3.5 4B?",
       "summary": "Analizamos si NeoHorse-1-4B es prometedor tras su reciente lanzamiento como un fine-tuning especializado del modelo Qwen 2.5 4B. En este video ponemos a prueba",
-      "time": "24h",
+      "time": "552h",
       "url": "https://www.youtube.com/watch?v=HahjBkz-0eY"
     },
     {
@@ -221,7 +220,7 @@
       "content_type": "video",
       "title": "Prueba exhaustiva de Bonsai 2 27B",
       "summary": "✅ Canal WhatsApp: https://www.whatsapp.com/channel/0029VbCR3SKId7nGTWkmFE0w Contacto: nichonauta@gmail.com Sitio web: nichonauta.com",
-      "time": "16h",
+      "time": "544h",
       "url": "https://www.youtube.com/watch?v=hNRMVLejcEg"
     },
     {
@@ -232,7 +231,7 @@
       "content_type": "release",
       "title": "Meta lanza Muse para Mac: un agente AI personal que trabaja en tus archivos, correo, mensajes, calendario y notas.",
       "summary": "Meta ha lanzado Muse para Mac, la primera versión de Muse que puede completar tareas en el ordenador del usuario. El agente trabaja con archivos locales e",
-      "time": "7h",
+      "time": "534h",
       "url": "https://www.marktechpost.com/2026/09/19/meta-launches-muse-for-mac/"
     },
     {
@@ -243,7 +242,7 @@
       "content_type": "release",
       "title": "PrismML lanza Ternary Bonsai 2 27B: un modelo de 5,9 GB con licencia Apache 2.0 que mantiene el 98,2% del rendimiento de Qwen3.8 27B.",
       "summary": "PrismML ha lanzado Ternary Bonsai 2 27B, una versión ternaria de peso de Qwen3.8 27B. El modelo lingüístico ocupa 5,93 GB, contra 53,80 GB en FP16. PrismML",
-      "time": "20h",
+      "time": "548h",
       "url": "https://www.marktechpost.com/2026/09/18/prismml-releases-ternary-bonsai-2-27b-a-5-9-gb-apache-2-0-model-retaining-98-2-of-qwen3-8-27b-performance/"
     },
     {
@@ -254,7 +253,7 @@
       "content_type": "news",
       "title": "Hex convierte el análisis complejo en informes visuales con GPT-6 Astra",
       "summary": "GPT-6 Astra ayuda a los agentes de datos de Hex a convertir las respuestas en visualizaciones interactivas que los empleados están orgullosos de compartir.",
-      "time": "74h",
+      "time": "602h",
       "url": "https://openai.com/index/hex-gpt-6-astra"
     },
     {
@@ -265,7 +264,7 @@
       "content_type": "release",
       "title": "SpaceXAI lanza Grok Voice Transcribe 2.0: una API de voz a texto que afirma tener un 2x mayor precisión que la versión 1.0 a un costo de 0,10 dólares por hora.",
       "summary": "SpaceXAI ha lanzado Grok Voice Transcribe 2.0, su nuevo modelo de conversión de voz a texto para audio en lote y en streaming. La empresa afirma que es el",
-      "time": "10h",
+      "time": "538h",
       "url": "https://www.marktechpost.com/2026/09/18/spacexai-releases-grok-voice-transcribe-2-0/"
     },
     {
@@ -276,7 +275,7 @@
       "content_type": "news",
       "title": "La IA no solo genera vídeos sueltos: en China acaba de producir una serie entera",
       "summary": "<p> <img",
-      "time": "1h",
+      "time": "528h",
       "url": "https://www.xataka.com/cine-y-tv/ia-no-solo-genera-videos-sueltos-china-acaba-producir-serie-entera"
     },
     {
@@ -287,7 +286,7 @@
       "content_type": "release",
       "title": "Linkup Research lanza SPARSEUP: un modelo de embeddings esparsos de 149 millones de parámetros de código abierto.",
       "summary": "Linkup Research ha lanzado SPARSEUP, un modelo de embedding esparsa de código abierto construido sobre un esqueleto ModernBERT con 149 millones de parámetros.",
-      "time": "6h",
+      "time": "534h",
       "url": "https://www.marktechpost.com/2026/09/19/linkup-research-releases-sparseup/"
     },
     {
@@ -298,7 +297,7 @@
       "content_type": "release",
       "title": "Jina AI lanza jina-ocr-v1: un analizador de documentos de 3,4B MoE con decodificación especulativa integrada para GPUs de bajo presupuesto.",
       "summary": "<p>Jina AI ha lanzado jina-ocr-v1, un parser de documentos visuales que convierte PDFs, escaneos, tablas, gráficos y facturas en Markdown. El modelo tiene un",
-      "time": "17h",
+      "time": "544h",
       "url": "https://www.marktechpost.com/2026/09/18/jina-ai-releases-jina-ocr-v1-a-3-4b-moe-document-parser-with-built-in-speculative-decoding-for-low-budget-gpus/"
     },
     {
@@ -309,7 +308,7 @@
       "content_type": "news",
       "title": "\"El mayor robo laboral de la historia\": así describían en Microsoft el uso de artículos de prensa para entrenar IA",
       "summary": "<p> <img",
-      "time": "21h",
+      "time": "548h",
       "url": "https://www.xataka.com/robotica-e-ia/mayor-robo-laboral-historia-asi-describian-microsoft-uso-articulos-prensa-para-entrenar-ia-siguieron-haciendolo"
     },
     {
@@ -320,7 +319,7 @@
       "content_type": "news",
       "title": "GGUF vs GPTQ vs AWQ vs EXL2: Formatos de Modelos LLM Explicados (2026)",
       "summary": "<p>GGUF, GPTQ, AWQ, EXL2 y EXL3 resuelven el mismo problema de maneras diferentes. Este guía separa los contenedores de archivos de los métodos de",
-      "time": "10h",
+      "time": "538h",
       "url": "https://www.marktechpost.com/2026/09/18/gguf-vs-gptq-vs-awq-vs-exl2-llm-model-formats-explained-2026/"
     },
     {
@@ -331,7 +330,7 @@
       "content_type": "news",
       "title": "La disputa sobre la regulación del IA no ha terminado",
       "summary": "Al inicio de esta semana, los principales exponentes del AI parecían, al menos de manera tentativa, a favor de la regulación del AI. El fin de semana, el CEO",
-      "time": "1h",
+      "time": "529h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over"
     },
     {
@@ -342,7 +341,7 @@
       "content_type": "news",
       "title": "Los investigadores de seguridad utilizaron a Claude para ayudarles a hackear OpenAI.",
       "summary": "Un equipo de tres investigadores de seguridad independientes de Hacktron afirma que les tomó menos de 72 horas hackear las cuentas de empleados de OpenAI",
-      "time": "23h",
+      "time": "550h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist"
     },
     {
@@ -353,7 +352,7 @@
       "content_type": "news",
       "title": "Presentando el Plan Estratégico para la Seguridad Juvenil australiano",
       "summary": "OpenAI presenta el Blueimpulso Joven Australiano, un itinerario de seis pilares para experiencias de IA más seguras que protegen e inspiran a los jóvenes.",
-      "time": "26h",
+      "time": "554h",
       "url": "https://openai.com/index/australian-youth-safety-blueprint"
     },
     {
@@ -364,7 +363,7 @@
       "content_type": "news",
       "title": "Racionalistas, altruistas eficaces y aceleracionistas: las tres tribus que se disputan el alma de la IA en Silicon Valley",
       "summary": "<p> <img",
-      "time": "25h",
+      "time": "553h",
       "url": "https://www.xataka.com/robotica-e-ia/racionalistas-altruistas-eficaces-aceleracionistas-tres-tribus-que-se-disputan-alma-ia-silicon-valley"
     },
     {
@@ -375,7 +374,7 @@
       "content_type": "news",
       "title": "¿Necesita la IA una exención de la competencia para que no elimine a todos???",
       "summary": "Hoy en Decoder, se trata la primera de una serie de dos partes sobre el futuro del negocio, y estoy hablando con Jonathan Kanter, quien fue el jefe de",
-      "time": "ahora",
+      "time": "528h",
       "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition"
     },
     {
@@ -386,7 +385,7 @@
       "content_type": "news",
       "title": "OpenAI y Microsoft sabían que estaban iniciando un 'círculo vicioso' para la web.",
       "summary": "Recientemente, los documentos judiciales desvelados en el caso del New York Times contra OpenAI y Microsoft son bastante críticos. Las propias documentaciones",
-      "time": "17h",
+      "time": "545h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero"
     },
     {
@@ -397,7 +396,7 @@
       "content_type": "news",
       "title": "El gobernador de Virginia crea una fuerza de tarea para el AI y busca restringir los centros de datos.",
       "summary": "La gobernadora de Virginia, Abigail Spanberger, ordenó al gobierno estatal tomar medidas que pudieran otorgar un mayor poder a las comunidades locales para",
-      "time": "20h",
+      "time": "547h",
       "url": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force"
     },
     {
@@ -408,7 +407,7 @@
       "content_type": "news",
       "title": "Gavin Newsom está promoviendo la implementación de un interruptor de emergencia para IA.",
       "summary": "El gobernador de California, Gavin Newsom (D), está posicionando al estado para tomar la liderazgo en la supervisión de la IA, incluyendo la posibilidad de",
-      "time": "21h",
+      "time": "549h",
       "url": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch"
     },
     {
@@ -419,7 +418,7 @@
       "content_type": "news",
       "title": "Lo que Hollywood piensa sobre advertencias sobre inteligencia artificial existencial",
       "summary": "A medida que el sector tecnológico alerta sobre el potencial de la IA para destruir la humanidad, los grupos laborales del entretenimiento están exhortando al",
-      "time": "21h",
+      "time": "549h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings"
     }
   ]

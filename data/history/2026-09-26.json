@@ -4,13 +4,12 @@
   "greeting": "Buenos días, Effry",
   "briefing": {
     "duration_label": "2:35",
-    "audio_url": "assets/audio/2026-09-26.mp3",
     "script_text": "En el resumen de hoy destacamos un panorama en el que la IA se expande hacia nuevos dispositivos y formatos, mientras las grandes empresas tecnológicas compiten por redefinir las herramientas que usamos diariamente.\n\nComenzamos con la carrera por la próxima generación de interfaces inteligentes. Qualcomm está apostando por auriculares que no solo escuchan, sino que entienden el contexto de lo que dices y ejecutan tareas automáticamente. Mientras tanto, Microsoft va más allá y presenta lo que podría ser el nuevo Office: una superaplicación impulsada por IA que busca competir directamente con los modelos más avanzados de Anthropic y OpenAI. Estamos ante un cambio fundamental en cómo accedemos a la inteligencia artificial.\n\nEn el frente de investigación y desarrollo, vemos dos tendencias opuestas pero complementarias. Las empresas chinas lideran en la creación de modelos pequeños y eficientes, pero ahora el apetito es por lo contrario: modelos colosales con capacidades sin precedentes. Este contraste refleja una maduración del sector que busca soluciones tanto ágiles como potentes.\n\nEn cuanto a los agentes de IA, la innovación es frenética. Exa ha lanzado Agent Ultra, una plataforma de subagentas coordinadas pensada para investigación exhaustiva. Por su parte, Perplexity está entrenando agentes que aprenden de sus propios errores mediante un método revolucionario. Y Liquid AI ha logrado un avance importante en visión y lenguaje: modelos capaces de decodificarse hasta tres veces más rápido sin perder precisión.\n\nTambién detectamos un tema de seguridad que no podemos ignorar: una compañía específica se ha convertido en el epicentro de ataques con IA maliciosa. En paralelo, emergen defensas: Aikido Security ha lanzado Altar-1, un modelo de seguridad de código abierto que promete proteger mejor nuestros sistemas.\n\nSobre cómo estamos usando la IA en producción: OpenAI reporta casos de éxito como Proaction, que ha aumentado ventas un 60 por ciento y ahorrado más de 75 horas de trabajo. Y Jensen Huang, de NVIDIA, reflexiona sobre un aspecto fascinante: cómo delegamos tareas en IA y por qué esa pérdida de ciertos hábitos intelectuales podría no ser mala cosa después de todo.\n\nFinalmente, Meta continúa haciendo el ecosistema más accesible: amplía la disponibilidad del sistema de archivos Muse, permitiendo que más desarrolladores construyan sobre esta base.\n\nLo que vemos es una IA cada vez más integrada en nuestro día a día, más segura, más rápida, y que está empezando a cambiar fundamentalmente cómo trabajamos y pensamos.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 42,
     "sources": 44,
-    "updated_label": "09:19"
+    "updated_label": "11:18"
   },
   "iaday": {
     "reading_minutes": "25 min",
@@ -35,7 +34,7 @@
       "content_type": "repo",
       "title": "Vertracloud/mcp",
       "summary": "⭐ 2 estrellas — Servidor oficial MCP para la conexión de clientes de IA con la API pública de la nube Vertra Cloud.",
-      "time": "68h",
+      "time": "430h",
       "url": "https://github.com/vertracloud/mcp",
       "stars": "2"
     },
@@ -47,7 +46,7 @@
       "content_type": "repo",
       "title": "Lucidrains/recurrent-transformer",
       "summary": "⭐ 8 estrellas — Exploraciones en el Recurrent Transformer propuesto por Costin-Andrei Oncescu et al. de la Universidad de Harvard",
-      "time": "22h",
+      "time": "384h",
       "url": "https://github.com/lucidrains/recurrent-transformer",
       "stars": "8"
     },
@@ -59,7 +58,7 @@
       "content_type": "repo",
       "title": "RezaGooner/ReLePy",
       "summary": "⭐ 1 estrellas — Sin descripción",
-      "time": "26h",
+      "time": "388h",
       "url": "https://github.com/RezaGooner/ReLePy",
       "stars": "1"
     },
@@ -71,7 +70,7 @@
       "content_type": "repo",
       "title": "Grolla05/J.A.R.V.I.S-Sistema-Justo-Muy-Inteligente",
       "summary": "⭐ 1 estrella — 🤖 J.A.R.V.I.S (solo un sistema artificial inteligente bastante) es un asistente personal modular basado en IA alimentado por LLMs locales para",
-      "time": "138h",
+      "time": "500h",
       "url": "https://github.com/Grolla05/J.A.R.V.I.S-Just-A-Rather-Very-Intelligent-System",
       "stars": "1"
     },
@@ -83,7 +82,7 @@
       "content_type": "repo",
       "title": "PrinceZaman-2005/Perceptrón",
       "summary": "⭐ 1 estrella — Implementación simple del Perceptrón, uno de los primeros y fundamentales bloques constructivos de las redes neuronales.",
-      "time": "153h",
+      "time": "515h",
       "url": "https://github.com/PrinceZaman-2005/Perceptron",
       "stars": "1"
     },
@@ -95,7 +94,7 @@
       "content_type": "repo",
       "title": "Ansh-pandey07/Rueda-Virtual-de-Dirección",
       "summary": "⭐ 1 estrella — Virtual Steering Wheel es un proyecto basado en visión por computadora que permite controlar un computador mediante gestos de la mano, creando",
-      "time": "6h",
+      "time": "368h",
       "url": "https://github.com/ansh-pandey07/Virtual-Steering-Wheel",
       "stars": "1"
     },
@@ -107,7 +106,7 @@
       "content_type": "paper",
       "title": "Códigos para Agentes de Planificación Generalizada de Tareas y Movimientos",
       "summary": "Los problemas de planificación de tareas y movimiento (TAMP) siguen siendo difíciles incluso con observabilidad completa y estados centrados en objetos, debido",
-      "time": "42h",
+      "time": "404h",
       "url": "https://arxiv.org/abs/2609.30233v1",
       "arxiv": "2609.30233v1"
     },
@@ -119,7 +118,7 @@
       "content_type": "paper",
       "title": "El uso instrumental de la evasión se manifiesta bajo la presión de tareas ordinarias.",
       "summary": "Un tema central en la seguridad de la IA es que los agentes pueden tratar la supervisión como un obstáculo cuando se contradice con el cumplimiento de sus",
-      "time": "42h",
+      "time": "404h",
       "url": "https://arxiv.org/abs/2609.30217v1",
       "arxiv": "2609.30217v1"
     },
@@ -131,7 +130,7 @@
       "content_type": "paper",
       "title": "Un Referente Vivo para la Recuperación de Información desde Registros de Salud Electrónicos",
       "summary": "Los asistentes basados en modelos de lenguaje de gran tamaño (LLM) se están integrando cada vez más en los sistemas de registro electrónico de salud (EHR),",
-      "time": "42h",
+      "time": "404h",
       "url": "https://arxiv.org/abs/2609.30205v1",
       "arxiv": "2609.30205v1"
     },
@@ -143,7 +142,7 @@
       "content_type": "paper",
       "title": "Aprender a Descubrir Matemáticas Interesantes",
       "summary": "Recientemente, los Modelos de Lenguaje Grande (LLMs) han estado cada vez más capaces de resolver problemas matemáticos avanzados, incluyendo muchos que han",
-      "time": "88h",
+      "time": "450h",
       "url": "https://huggingface.co/papers/2609.28603"
     },
     {
@@ -154,7 +153,7 @@
       "content_type": "paper",
       "title": "RGBD20K: Un Conjunto de Pruebas Grande para la Segmentación Semántica RGB-D",
       "summary": "En este artículo, proponemos RGBD20K, un nuevo conjunto de datos para facilitar el desarrollo de segmentación semántica RGB-D más robusta y general al abarcar",
-      "time": "64h",
+      "time": "426h",
       "url": "https://huggingface.co/papers/2609.29028"
     },
     {
@@ -165,7 +164,7 @@
       "content_type": "paper",
       "title": "Los Agentes LLM Pueden Manipular Fácilmente Sus Propias Huellas",
       "summary": "La supervisión asincrónica, las investigaciones de incidentes y las auditorías de cumplimiento se basan principalmente en las trazas de los agentes para",
-      "time": "42h",
+      "time": "404h",
       "url": "https://arxiv.org/abs/2609.30266v1",
       "arxiv": "2609.30266v1"
     },
@@ -177,7 +176,7 @@
       "content_type": "paper",
       "title": "AV-GRPO: Decodificación de Aprendizaje por Reforzamiento para la Generación Conjunta de Audio-Video Basada en Anchoring de Modalidad",
       "summary": "Recientemente se han registrado importantes avances en la generación conjunta de audio y video. Los modelos existentes aún sufren de fidelidad limitada por",
-      "time": "64h",
+      "time": "426h",
       "url": "https://huggingface.co/papers/2609.29816"
     },
     {
@@ -188,7 +187,7 @@
       "content_type": "paper",
       "title": "Tu Transformador Puede Almacenar Dos Pensamientos a la vez: Prueba de la Superposición Lineal en Sistemas de Aprendizaje de Máquinas",
       "summary": "Mientras que los Modelos de Lenguaje Grande (MLG) se basan en componentes altamente no lineales, en este trabajo demostramos que presentan linealidad",
-      "time": "64h",
+      "time": "426h",
       "url": "https://huggingface.co/papers/2609.29845"
     },
     {
@@ -199,7 +198,7 @@
       "content_type": "paper",
       "title": "Requisito-Determinado Verificación de la Comisionado Local: Un Modelo Local con Cuatro Billones de Parámetros Congelados como Generador Candidato bajo una Capa Externa de Aceptación con Autoridad de Verificación y Liberación",
       "summary": "Se desarrolla un protocolo de aceptación para la unión de sensores y coordenadas y polaridad en la comisionado mecatrónica. La generación de candidatos se",
-      "time": "42h",
+      "time": "404h",
       "url": "https://arxiv.org/abs/2609.30219v1",
       "arxiv": "2609.30219v1"
     },
@@ -211,7 +210,7 @@
       "content_type": "paper",
       "title": "AD-WM: Modelos de Mundos Discriminativos para Control Predictivo Con base en Modelos Couterfactuales",
       "summary": "Los modelos de mundo latente se entrenan generalmente para predecir transiciones factuales, mientras que el control predictivo modelado (MPC) debe comparar",
-      "time": "42h",
+      "time": "404h",
       "url": "https://arxiv.org/abs/2609.30264v1",
       "arxiv": "2609.30264v1"
     },
@@ -223,7 +222,7 @@
       "content_type": "paper",
       "title": "RAPID: Programación agente robótico desde demostraciones",
       "summary": "Los agentes de codificación han demostrado un éxito enorme al resolver problemas de programación complejos. Para aprovechar su potencial en sistemas de robots,",
-      "time": "42h",
+      "time": "404h",
       "url": "https://arxiv.org/abs/2609.30249v1",
       "arxiv": "2609.30249v1"
     },
@@ -235,7 +234,7 @@
       "content_type": "paper",
       "title": "SAGE: Mitigando sesgos de razonamiento a largo plazo mediante orientación topológica",
       "summary": "La razonamiento a largo plazo sigue siendo un desafío central para los modelos de lenguaje de gran escala (LLMs) en regímenes con recompensas escasas.",
-      "time": "42h",
+      "time": "404h",
       "url": "https://arxiv.org/abs/2609.30192v1",
       "arxiv": "2609.30192v1"
     },
@@ -247,7 +246,7 @@
       "content_type": "paper",
       "title": "Modelo de Mundo Cruzado Orientado a Objetos para la Salvamento con ROV Subacuático C3-JEPA: Un Enfoque Centrado en los Objetos para Visión de Mundo Diferente",
       "summary": "Presentamos Underwater C$^{3}$-JEPA (cross-view, control-conditioned, context-extended), un modelo multi-vista predictivo centrado en el objeto para el",
-      "time": "42h",
+      "time": "404h",
       "url": "https://arxiv.org/abs/2609.30214v1",
       "arxiv": "2609.30214v1"
     },
@@ -259,7 +258,7 @@
       "content_type": "paper",
       "title": "ExplorationBench: Medición del Exploratorio de Sistemas de IA en Mundos Extranjeros Verificables",
       "summary": "La descubrimiento científico comienza donde se encuentran los problemas conocidos. Allí, los sistemas de inteligencia artificial deben embarcarse en",
-      "time": "42h",
+      "time": "404h",
       "url": "https://arxiv.org/abs/2609.30199v1",
       "arxiv": "2609.30199v1"
     },
@@ -271,7 +270,7 @@
       "content_type": "paper",
       "title": "Rolling-WAM: Modelos de Acción Mundial con Imagination Enrolada",
       "summary": "Los Modelos de Acción del Mundo (WAMs) combinan la generación de acciones con la predicción visual futura para la manipulación robótica. Sin embargo, completar",
-      "time": "42h",
+      "time": "404h",
       "url": "https://arxiv.org/abs/2609.30247v1",
       "arxiv": "2609.30247v1"
     },
@@ -283,7 +282,7 @@
       "content_type": "paper",
       "title": "TrackEverything: Seguimiento denso a largo plazo a través de la desduplicación de representaciones de escenas tridimensionales",
       "summary": "Los modelos existentes de seguimiento de puntos enfrentan un tradeoff fundamental: pueden rastrear un conjunto escaso de puntos de consulta a largo plazo, o",
-      "time": "42h",
+      "time": "404h",
       "url": "https://arxiv.org/abs/2609.30222v1",
       "arxiv": "2609.30222v1"
     },
@@ -295,7 +294,7 @@
       "content_type": "video",
       "title": "MinAgent - Mi Agente de Desarrollo 🚀 Cómo crear un Agente de IA SIMPLE y POTENTE",
       "summary": "🔥 MinAgent en GitHub 🔥 https://github.com/Nichonauta/MinAgent Se ha actualizado varias veces desde que se publicó este video, ¡pruébalo! En este video te",
-      "time": "20h",
+      "time": "382h",
       "url": "https://www.youtube.com/watch?v=DqXWZ4LB-20"
     },
     {
@@ -306,7 +305,7 @@
       "content_type": "video",
       "title": "MinAgent 🤖 El Mejor Agente IA Gratis 🚀 Guía de INSTALACIÓN y Uso",
       "summary": "En este video te presento MinAgent - El Mejor Agente IA Gratis, una herramienta optimizada y funcional para trabajar con modelos de lenguaje locales.",
-      "time": "14h",
+      "time": "376h",
       "url": "https://www.youtube.com/watch?v=APszMDLxf-o"
     },
     {
@@ -317,7 +316,7 @@
       "content_type": "video",
       "title": "K2 Horizon MoVA 36B A4B ⚠️ ¿Es tan BUENO como dicen? Test Real",
       "summary": "En este video analizamos a fondo el rendimiento del modelo K2 Horizon MoVA 36B A4B para determinar si realmente cumple con las expectativas de su popularidad.",
-      "time": "6h",
+      "time": "368h",
       "url": "https://www.youtube.com/watch?v=M2y0a7Gv87s"
     },
     {
@@ -328,7 +327,7 @@
       "content_type": "video",
       "title": "Google lanza su nuevo profesor particular con IA 📚",
       "summary": "¿Y si pudieras tener un profesor de IA disponible cuando quieras? 😱 Eso busca hacer Google Learn About. • En lugar de limitarse a responder preguntas, está",
-      "time": "2h",
+      "time": "364h",
       "url": "https://www.youtube.com/shorts/j_1mJ6caicw"
     },
     {
@@ -339,7 +338,7 @@
       "content_type": "news",
       "title": "Qualcomm tiene otro lugar donde quiere meter la IA: unos auriculares que entienden tu contexto y ponen a agentes a trabajar",
       "summary": "<p> <img",
-      "time": "16h",
+      "time": "378h",
       "url": "https://www.xataka.com/robotica-e-ia/qualcomm-tiene-otro-lugar-donde-quiere-meter-ia-unos-auriculares-que-entienden-tu-contexto-ponen-a-agentes-a-trabajar"
     },
     {
@@ -350,7 +349,7 @@
       "content_type": "news",
       "title": "Microsoft cree que ha inventado el nuevo Office: una superapp de IA que quiere sentarse a la mesa de Anthropic y OpenAI",
       "summary": "<p> <img",
-      "time": "5h",
+      "time": "367h",
       "url": "https://www.xataka.com/aplicaciones/microsoft-cree-que-ha-inventado-nuevo-office-superapp-ia-que-quiere-sentarse-a-mesa-anthropic-openai"
     },
     {
@@ -361,7 +360,7 @@
       "content_type": "news",
       "title": "Las empresas chinas lleva la delantera en modelos \"pequeños\" de IA. Ahora lo que quieren es justo lo contrario: modelos colosales",
       "summary": "<p> <img",
-      "time": "14h",
+      "time": "376h",
       "url": "https://www.xataka.com/robotica-e-ia/empresas-chinas-lleva-delantera-modelos-pequenos-ia-quieren-justo-contrario-modelos-colosales"
     },
     {
@@ -372,7 +371,7 @@
       "content_type": "release",
       "title": "Exa lanza Agent Ultra: una API de swarm de subagentes para investigaciones exhaustivas sobre listas.",
       "summary": "Exa ha lanzado Agent Ultra, el modo de mayor esfuerzo de su API Exa Agent. Coordinaba subagentes a través de miles de fuentes para la construcción de listas y",
-      "time": "4h",
+      "time": "366h",
       "url": "https://www.marktechpost.com/2026/09/26/exa-launches-agent-ultra-a-subagent-swarm-deep-research-api-built-for-exhaustive-list-building/"
     },
     {
@@ -383,7 +382,7 @@
       "content_type": "news",
       "title": "\"No sé mi dirección y no me importa\". Jensen Huang habla sobre la pérdida de destreza intelectual debido a la IA (y por qué es bueno)",
       "summary": "<p> <img",
-      "time": "23h",
+      "time": "385h",
       "url": "https://www.xataka.com/robotica-e-ia/no-se-mi-direccion-no-me-importa-jensen-huang-habla-perdida-destreza-intelectual-debido-a-ia-que-bueno"
     },
     {
@@ -394,7 +393,7 @@
       "content_type": "news",
       "title": "Accenture inaugura en Barcelona su Agentic AI Innovation Hub",
       "summary": "El objetivo de este espacio es acelerar la innovación en inteligencia artificial agéntica.",
-      "time": "24h",
+      "time": "386h",
       "url": "https://www.silicon.es/accenture-inaugura-en-barcelona-su-agentic-ai-innovation-hub-2584480"
     },
     {
@@ -405,7 +404,7 @@
       "content_type": "release",
       "title": "Liquid AI Releases LFM2.5-VL-3B-DSpark: Decodificación Especulativa para Modelos de Visión-Lenguaje con hasta 3.13 veces la Velocidad de Decodificación",
       "summary": "Liquid AI ha lanzado LFM2.5-VL-3B-DSpark, un modelo de bosque de decisión provisional con 279.5M de parámetros que introduce la decodificación especulativa en",
-      "time": "13h",
+      "time": "375h",
       "url": "https://www.marktechpost.com/2026/09/25/liquid-ai-releases-lfm2-5-vl-3b-dspark-speculative-decoding-for-vision-language-models-with-up-to-3-13x-faster-decoding/"
     },
     {
@@ -416,7 +415,7 @@
       "content_type": "news",
       "title": "Perplejidad Entrena Su Agente Informático en Errores Reales con Auto-distilación Guiada por Consejos",
       "summary": "Perplexity Research publicó un nuevo estudio posentrenamiento. Entrena un modelo en el Perplexity Computer utilizando sesiones reales de usuarios, incluyendo",
-      "time": "21h",
+      "time": "383h",
       "url": "https://www.marktechpost.com/2026/09/25/perplexity-trains-its-computer-agent-on-real-mistakes-with-hint-guided-self-distillation/"
     },
     {
@@ -427,7 +426,7 @@
       "content_type": "news",
       "title": "Una empresa se encuentra en el centro de una ola de ataques de IA desatados por su propio accord.",
       "summary": "En julio, OpenAI reveló que sus agentes de inteligencia artificial habían atacado a Hugging Face sin permiso, lo que despertó preocupaciones generalizadas",
-      "time": "20h",
+      "time": "382h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google"
     },
     {
@@ -438,7 +437,7 @@
       "content_type": "news",
       "title": "Microsoft cree que su nuevo Copilot 'superapp' será tan influyente como Office",
       "summary": "Después de provocar el lanzamiento de su nueva aplicación \"super Copilot\" el mes pasado, Microsoft lo está revelando oficialmente hoy. La aplicación Copilot",
-      "time": "24h",
+      "time": "386h",
       "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot"
     },
     {
@@ -449,7 +448,7 @@
       "content_type": "news",
       "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
       "summary": "Con Codex, GPT-Live-1 y GPT-6 Astra, Proaction construye, opera y vende una gestión moderna de flotas más rápidamente.",
-      "time": "17h",
+      "time": "379h",
       "url": "https://openai.com/index/proaction"
     },
     {
@@ -460,7 +459,7 @@
       "content_type": "release",
       "title": "Aikido Security lanza Altar-1: un modelo de seguridad de peso abierto, derivado de GLM-5.3 y reducido a 328 GB.",
       "summary": "Aikido Security ha lanzado Altar-1, su primer modelo de seguridad de peso abierto. Es una versión comprimida de Z.AI's GLM-5.3, construida para ejecutarse",
-      "time": "21h",
+      "time": "383h",
       "url": "https://www.marktechpost.com/2026/09/25/aikido-security-releases-altar-1-an-open-weight-security-model-pruned-from-glm-5-3-to-328-gb/"
     },
     {
@@ -471,7 +470,7 @@
       "content_type": "news",
       "title": "BENCHMARK DE AUMENTO DE DATOS MULTIMODAL Y ROBUSTEZ ADVERSARIA END-TO-END CON AUGLY PARA IMÁGENES, TEXTO, AUDIENCIA Y PYTORCH",
       "summary": "Se descubre cómo construir un flujo de trabajo comprehensivo de augmentación multimodal y robustez adversarial utilizando AugLy para imágenes, texto, audio y",
-      "time": "4h",
+      "time": "366h",
       "url": "https://www.marktechpost.com/2026/09/26/end-to-end-multimodal-data-augmentation-and-adversarial-robustness-benchmark-with-augly-for-images-text-audio-and-pytorch/"
     },
     {
@@ -482,7 +481,7 @@
       "content_type": "news",
       "title": "Meta hace que el sistema de archivos Muse sea aún más accesible",
       "summary": "Ayer, con un poco de incentivo, se descubrió que el Muse de Meta expuso su sistema de archivos a usuarios curiosos. Los archivos ofrecieron una fascinante",
-      "time": "19h",
+      "time": "381h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem"
     },
     {
@@ -493,7 +492,7 @@
       "content_type": "news",
       "title": "Sony y UMG están demandando nuevamente a Suno.",
       "summary": "Sony y el Grupo de Música Universal presentaron otra demanda contra Suno. Las etiquetas afirman que su nuevo modelo v6 still infringe sus derechos de autor",
-      "time": "20h",
+      "time": "382h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music"
     },
     {
@@ -504,7 +503,7 @@
       "content_type": "news",
       "title": "¿Podrán las características de cámaras con inteligencia artificial de Apple Home superar a las de Amazon y Google? Las puse a prueba.",
       "summary": "Hace algunos años, estaba en una búsqueda de pascuas en la orilla del mar, observando a mis hijos correr por las dunas de arena buscando dulces. Mi teléfono",
-      "time": "23h",
+      "time": "385h",
       "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review"
     }
   ]

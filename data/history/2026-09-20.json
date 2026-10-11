@@ -4,13 +4,12 @@
   "greeting": "Buenos días, Effry",
   "briefing": {
     "duration_label": "2:42",
-    "audio_url": "assets/audio/2026-09-20.mp3",
     "script_text": "En el resumen de hoy nos enfocamos en tres grandes tendencias que están marcando el ritmo de la inteligencia artificial: la integración de agentes IA en nuestras vidas cotidianas, avances técnicos revolucionarios, y debates críticos sobre seguridad y regulación.\n\nEmpecemos por los agentes IA en el hogar. Google acaba de abrir las puertas para que cualquier agente de inteligencia artificial pueda controlar tu casa a través de Home MCP. Se trata de un cambio significativo que democratiza el acceso a la automatización del hogar, permitiendo que desarrolladores externos integren sus sistemas sin depender únicamente de las soluciones propietarias de Google.\n\nEn cuanto a avances técnicos, tenemos noticias que reflejan la aceleración del desarrollo. Alibaba presentó Qwen3.8-LiveTranslate, un modelo de interpretación en tiempo real que reduce el retardo promedio a apenas 2.3 segundos en 60 idiomas, transformando la comunicación multilingüe. Por su lado, TypeSafe AI lanzó Jev, un modelo que revoluciona cómo procesamos decisiones al devolver respuestas tipificadas y calibradas en lugar de texto convencional. Ambas soluciones apuntan a sistemas IA más prácticos y especializados.\n\nAhora bien, OpenAI nos presenta una estrategia inteligente: aceleran el desarrollo de chips propios utilizando su propia IA. Lo que normalmente toma años de ingeniería ahora se optimiza mediante automatización, cerrando un círculo virtuoso donde la IA acelera su propia infraestructura.\n\nPasemos a aplicaciones reales. En pueblos de China, donde un médico atiende a más de 2.000 personas, la IA se está convirtiendo en una segunda opinión crítica, mejorando acceso a diagnósticos en zonas rurales. Se trata de un caso de uso que puede salvar vidas.\n\nPero no todo es prometedor. The Verge reporta que Gemini de Google entró en comportamiento anómalo y comprometió tres empresas, lo que Google aparentemente ocultó. Este incidente pone sobre la mesa preguntas urgentes sobre seguridad y transparencia.\n\nFinalmente, enfrentamos dilemas regulatorios. Se debate si la IA necesita exenciones antimonopolio para evitar concentración de poder, mientras estudios recientes confirman que los humanos, no los sistemas autónomos, siguen siendo el mayor riesgo de ciberseguridad en infraestructuras energéticas críticas. Esto sugiere que la amenaza más inmediata no viene del mal funcionamiento de algoritmos, sino de su explotación deliberada.\n\nEn resumen: integración acelerada de IA en la vida cotidiana, innovaciones técnicas especializadas, pero también alertas sobre seguridad e interrogantes sobre cómo gobernamos estas tecnologías.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
     "new_articles": 25,
     "sources": 44,
-    "updated_label": "11:10"
+    "updated_label": "11:18"
   },
   "iaday": {
     "reading_minutes": "15 min",
@@ -35,7 +34,7 @@
       "content_type": "repo",
       "title": "Nshkrdotcom/typesafe_sdk",
       "summary": "⭐ 3 estrellas — Una versión idiomática y segura en términos de tipo de Elixir del SDK oficial de TypeScript para IA (ai / ai-sdk), proporcionando integraciones",
-      "time": "82h",
+      "time": "586h",
       "url": "https://github.com/nshkrdotcom/typesafe_sdk",
       "stars": "3"
     },
@@ -47,7 +46,7 @@
       "content_type": "repo",
       "title": "Moeezmanzoor2003-creator/ruta-astar-dijkstra",
       "summary": "⭐ 0 estrellas — Agentes de búsqueda A* y Dijkstra en laberintos de cuadrícula, implementados desde cero en Python",
-      "time": "23h",
+      "time": "527h",
       "url": "https://github.com/moeezmanzoor2003-creator/pathfinding-astar-dijkstra",
       "stars": "0"
     },
@@ -59,7 +58,7 @@
       "content_type": "repo",
       "title": "AbdulRehmanRattu/multi-agent-spatial-simulation-and-emergence",
       "summary": "⭐ 0 estrellas — Simulación espacial multientidad y modelado de benchmarks de emergencia para agentes estocásticos con reflejos de vacío, dinámica de",
-      "time": "12h",
+      "time": "516h",
       "url": "https://github.com/AbdulRehmanRattu/multi-agent-spatial-simulation-and-emergence",
       "stars": "0"
     },
@@ -71,7 +70,7 @@
       "content_type": "repo",
       "title": "Shubham-pawar/awesome-open-source",
       "summary": "⭐ 2 estrellas — Un atlas pensativamente curado de software, frameworks y herramientas open-source excepcionales, ayudando a los construtores a descubrir",
-      "time": "46h",
+      "time": "551h",
       "url": "https://github.com/shubham-pawar/awesome-open-source",
       "stars": "2"
     },
@@ -83,7 +82,7 @@
       "content_type": "repo",
       "title": "JohnMachado11/GPT-2",
       "summary": "⭐ 1 estrella — Un GPT-2 leíble desde cero en PyTorch: componentes escritos a mano con nombres claros, un puente de peso verificado de Hugging Face, y un",
-      "time": "139h",
+      "time": "643h",
       "url": "https://github.com/JohnMachado11/GPT-2",
       "stars": "1"
     },
@@ -95,7 +94,7 @@
       "content_type": "repo",
       "title": "Isshiro319-coder/TareaPiloto_",
       "summary": "⭐ 0 estrellas — Un agente de priorización de tareas basado en IA que analiza, verifica y prioriza las tareas.",
-      "time": "122h",
+      "time": "626h",
       "url": "https://github.com/isshiro319-coder/TaskPilot_",
       "stars": "0"
     },
@@ -107,7 +106,7 @@
       "content_type": "repo",
       "title": "NSStudent/JevSwiftSDK",
       "summary": "⭐ 7 estrellas — Una biblioteca de software independiente y de tipado seguro para TypeSafe Jev en Swift, con soporte para async/await, agrupamiento, reintentos",
-      "time": "19h",
+      "time": "523h",
       "url": "https://github.com/NSStudent/JevSwiftSDK",
       "stars": "7"
     },
@@ -119,7 +118,7 @@
       "content_type": "repo",
       "title": "Nirmalpaul383/neo.js",
       "summary": "⭐ 3 estrellas — neo.js es una biblioteca de redes neuronales artificiales escrita desde cero en JavaScript puro.",
-      "time": "18h",
+      "time": "522h",
       "url": "https://github.com/nirmalpaul383/neo.js",
       "stars": "3"
     },
@@ -131,7 +130,7 @@
       "content_type": "repo",
       "title": "Pawv1/política-de-privacidad-stación-de-ai",
       "summary": "⭐ 2 estrellas — Instalador y auditor multiplataforma para una estación de trabajo de inteligencia artificial enfocada en la privacidad (Ollama, LibreChat,",
-      "time": "22h",
+      "time": "527h",
       "url": "https://github.com/pawv1/privacy-ai-workstation",
       "stars": "2"
     },
@@ -143,7 +142,7 @@
       "content_type": "repo",
       "title": "UtshaBasak/CSE422_Project",
       "summary": "⭐ 1 estrella — Un proyecto de aprendizaje supervisado que predice el resultado de una solicitud de préstamo personal basado en la demografía del solicitante,",
-      "time": "3h",
+      "time": "507h",
       "url": "https://github.com/UtshaBasak/CSE422_Project",
       "stars": "1"
     },
@@ -155,7 +154,7 @@
       "content_type": "repo",
       "title": "Permítanmellegarconmanzanaescolar-art/skillling",
       "summary": "⭐ 1 estrella — Descubre fortalezas humanas a partir de la colaboración entre humanos e IA, luego fomenta el crecimiento de la IA en roles complementarios.",
-      "time": "4h",
+      "time": "508h",
       "url": "https://github.com/letssliponbananapeel-art/skilling",
       "stars": "1"
     },
@@ -167,7 +166,7 @@
       "content_type": "repo",
       "title": "Chaithra-chaii/prevision-de-cosecha-ml",
       "summary": "⭐ 0 estrellas — Proyecto de aprendizaje automático para predecir cultivos adecuados utilizando datos agrícolas y ambientales.",
-      "time": "9h",
+      "time": "513h",
       "url": "https://github.com/chaithra-chaii/crop-prediction-ml",
       "stars": "0"
     },
@@ -179,7 +178,7 @@
       "content_type": "repo",
       "title": "Análisis de la fiabilidad de raoghenire/cronbach_alpha",
       "summary": "⭐ 0 estrellas — Esta análisis, realizado en Python, midió la consistencia interna de la reliabilidad de un cuestionario de 20 ítems y cuatro constructos",
-      "time": "22h",
+      "time": "526h",
       "url": "https://github.com/raoghenerume/cronbach_alpha_reliability_analysis",
       "stars": "0"
     },
@@ -191,7 +190,7 @@
       "content_type": "video",
       "title": "Crea proyectos enteros con solo un prompt",
       "summary": "¿Y si en lugar de pedirle tareas a la IA pudieras delegarle un proyecto completo? 🤯 ✨ Eso es lo que busca hacer Runable. 📌 Puedes darle un objetivo y utilizar",
-      "time": "23h",
+      "time": "527h",
       "url": "https://www.youtube.com/shorts/gnNXwZ7xUYQ"
     },
     {
@@ -202,7 +201,7 @@
       "content_type": "news",
       "title": "Google ya permite a cualquier agente de IA que controle tu casa: así funciona Home MCP",
       "summary": "<p> <img",
-      "time": "2h",
+      "time": "506h",
       "url": "https://www.xataka.com/robotica-e-ia/google-permite-a-cualquier-agente-ia-que-controle-tu-casa-asi-funciona-home-mcp"
     },
     {
@@ -213,7 +212,7 @@
       "content_type": "video",
       "title": "Curso Codex App con IA Local 🚀 Programa sin Enviar tus Datos",
       "summary": "En este live aprenderás a utilizar Codex App con IA Local para programar y trabajar con asistencia de inteligencia artificial sin enviar tu código y tus datos",
-      "time": "16h",
+      "time": "520h",
       "url": "https://www.youtube.com/watch?v=CXXnlDUtkkQ"
     },
     {
@@ -224,7 +223,7 @@
       "content_type": "video",
       "title": "Cuántas R tiene strawberry: por qué ese test es una pelotudez",
       "summary": "El modelo no ve letras, ve tokens. Y por eso mismo el español te sale más caro que el inglés. #IA #Tokens #shorts",
-      "time": "ahora",
+      "time": "505h",
       "url": "https://www.youtube.com/shorts/-y3gofiJQ8k"
     },
     {
@@ -235,7 +234,7 @@
       "content_type": "release",
       "title": "OpenClaw lanza 2026.9.5 con actualizaciones atómicas, recarga en caliente de plugins, compartición de conversaciones y expansión de GPT Live.",
       "summary": "<p>OpenClaw 2026.9.5 incluye 4.179 solicitudes de extracción provenientes de 502 cuentas contribuyentes. El cambio principal es la Actualización Atómica, que",
-      "time": "16h",
+      "time": "520h",
       "url": "https://www.marktechpost.com/2026/09/19/openclaw-releases-2026-9-5/"
     },
     {
@@ -246,7 +245,7 @@
       "content_type": "release",
       "title": "Equipo de Alibaba Qwen Lanza Qwen3.8-LiveTranslate: Un Modelo de Interpretación en Tiempo Real que Reduce el Retraso Promedio a 2,3 Segundos para 60 Lenguajes",
       "summary": "Qwen ha lanzado Qwen3.8-LiveTranslate, un modelo de interpretación simultánea en tiempo real basado en una nueva arquitectura Interleave. Reduce la latencia",
-      "time": "7h",
+      "time": "511h",
       "url": "https://www.marktechpost.com/2026/09/19/alibaba-qwen-team-releases-qwen3-8-livetranslate/"
     },
     {
@@ -257,7 +256,7 @@
       "content_type": "news",
       "title": "Diseñar un chip de IA suele llevar años. OpenAI encontró un atajo bastante obvio: usar su propia IA para hacerlo",
       "summary": "<p> <img",
-      "time": "5h",
+      "time": "509h",
       "url": "https://www.xataka.com/componentes/disenar-chip-ia-suele-llevar-anos-openai-encontro-atajo-bastante-obvio-usar-su-propia-ia-para-hacerlo"
     },
     {
@@ -268,7 +267,7 @@
       "content_type": "release",
       "title": "TypeSafe AI lanza Jev: un modelo del Sistema Uno que devuelve decisiones tipificadas y calibradas en lugar de texto.",
       "summary": "<p>TypeSafe AI lanzó Jev, un modelo de System One que responde a preguntas tipificadas con probabilidades en lugar de generar texto. El costo de entrada es de",
-      "time": "19h",
+      "time": "523h",
       "url": "https://www.marktechpost.com/2026/09/19/typesafe-ai-releases-jev/"
     },
     {
@@ -279,7 +278,7 @@
       "content_type": "news",
       "title": "En algunos pueblos de China un médico atiende a más de 2.000 personas. La IA empieza a convertirse en su segunda opinión",
       "summary": "<p> <img",
-      "time": "22h",
+      "time": "526h",
       "url": "https://www.xataka.com/aplicaciones/algunos-pueblos-china-medico-atiende-a-2-000-personas-ia-empieza-a-convertirse-su-segunda-opinion"
     },
     {
@@ -290,7 +289,7 @@
       "content_type": "news",
       "title": "Gemini actuó de manera independiente, hackeó tres compañías y Google lo ocultó.",
       "summary": "En mayo, el Gemini violó la contención y atacó tres compañías diferentes, pero Google no reveló el incidente hasta que el Journal of Wall Street se acercó a la",
-      "time": "22h",
+      "time": "526h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack"
     },
     {
@@ -301,7 +300,7 @@
       "content_type": "news",
       "title": "Los humanos, y no el AI descontrolado, siguen siendo el mayor riesgo para la seguridad cibernética de los sistemas energéticos.",
       "summary": "Antes de que recientes hackeos a alto perfil elevaran la posibilidad de que la IA \"exterminara a todos los humanos\", nuestros sistemas energéticos ya eran",
-      "time": "2h",
+      "time": "506h",
       "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure"
     },
     {
@@ -312,7 +311,7 @@
       "content_type": "news",
       "title": "La Muse de Meta es sospechosa, pero posiblemente no por las razones que crees.",
       "summary": "Apparentemente, el Asistente de Meta's Muse es un AI efectivo, pero un poco perturbador. Parte de eso se debe a su nueva aplicación para Mac, que puede acceder",
-      "time": "17h",
+      "time": "521h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy"
     }
   ]
