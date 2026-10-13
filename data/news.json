@@ -9,7 +9,7 @@
   "stats": {
     "new_articles": 46,
     "sources": 44,
-    "updated_label": "08:30"
+    "updated_label": "10:09"
   },
   "iaday": {
     "reading_minutes": "28 min",
@@ -34,7 +34,7 @@
       "content_type": "repo",
       "title": "Mkbraion/AstrBot-Brasil",
       "summary": "⭐ 1 estrellas — Plataforma de chatbot e automação com IA adaptada para português do Brasil, com foco em comunidade, extensibilidade e experiência brasileira.",
-      "time": "26h",
+      "time": "28h",
       "url": "https://github.com/mkbraion/AstrBot-Brasil",
       "stars": "1"
     },
@@ -46,7 +46,7 @@
       "content_type": "repo",
       "title": "Oleg5055355/machine_learning_project",
       "summary": "⭐ 0 estrellas — Machine Learning and Deep Learning | 15 Models | TU Dublin Third-Year AI Project",
-      "time": "73h",
+      "time": "75h",
       "url": "https://github.com/oleg5055355/machine_learning_project",
       "stars": "0"
     },
@@ -58,7 +58,7 @@
       "content_type": "paper",
       "title": "SPLATIFY: Reproduce, Descubrir, Innovar! De Artículos y Ideas a Códigos 3DGS Entrenables",
       "summary": "El rápido crecimiento de la investigación en 3D Gaussian Splatting (3DGS) requiere un esfuerzo significativo para reimplementar artículos antes de construir",
-      "time": "183h",
+      "time": "185h",
       "url": "https://huggingface.co/papers/2610.09116"
     },
     {
@@ -69,7 +69,7 @@
       "content_type": "paper",
       "title": "Escalar los Datos Agenciales para una Inteligencia de Horizonte Largo",
       "summary": "Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories can demonstrate commands and tool calls,",
-      "time": "111h",
+      "time": "113h",
       "url": "https://huggingface.co/papers/2610.13166"
     },
     {
@@ -80,7 +80,7 @@
       "content_type": "repo",
       "title": "Vinhatson/sccdx-engine",
       "summary": "⭐ 1 estrellas — A qualitative structural engine for world politics: 10 capacity components, 8 feedback loops, bilingual VI/EN, with a provenance tag on every",
-      "time": "28h",
+      "time": "29h",
       "url": "https://github.com/vinhatson/sccdx-engine",
       "stars": "1"
     },
@@ -92,7 +92,7 @@
       "content_type": "repo",
       "title": "Legooz/ai-ml-experiments",
       "summary": "⭐ 0 estrellas — Historical AI and machine-learning notebooks organized by topic, with provenance and experiment limitations.",
-      "time": "8h",
+      "time": "10h",
       "url": "https://github.com/legooz/ai-ml-experiments",
       "stars": "0"
     },
@@ -104,7 +104,7 @@
       "content_type": "repo",
       "title": "Leosanjit10/plant-disease-diagnosis-fastapi",
       "summary": "⭐ 0 estrellas — CNN-based plant disease diagnosis system using TensorFlow, FastAPI, Docker, and the PlantVillage dataset.",
-      "time": "149h",
+      "time": "151h",
       "url": "https://github.com/leosanjit10/plant-disease-diagnosis-fastapi",
       "stars": "0"
     },
@@ -116,7 +116,7 @@
       "content_type": "paper",
       "title": "Navegación Multientidad con Visión y Lenguaje Sistemática: Formulación, Marco de Pruebas y Método",
       "summary": "Vision-and-Language Navigation (VLN) has largely focused on a single agent following a single instruction, yet many real-world applications require teams of",
-      "time": "159h",
+      "time": "161h",
       "url": "https://huggingface.co/papers/2609.35965"
     },
     {
@@ -127,7 +127,7 @@
       "content_type": "paper",
       "title": "Aprender Más Entrenándonos Menos: Contracción Progresiva Guiada por la Incertidumbre para un Razonamiento Eficiente Pos-Entrenamiento",
       "summary": "Los modelos de lenguaje de gran escala han logrado avances notables en el razonamiento complejo. Sin embargo, escalar el razonamiento después del entrenamiento",
-      "time": "111h",
+      "time": "113h",
       "url": "https://huggingface.co/papers/2610.12933"
     },
     {
@@ -138,7 +138,7 @@
       "content_type": "paper",
       "title": "CrossTimeEdit: Un conjunto de datos cruzado y de décadas y una edición guiada por recompensas para la generación de vistas aéreas históricas",
       "summary": "Historical street-view imagery records urban evolution, but uneven coverage leaves substantial gaps in historical records. Generating plausible past",
-      "time": "351h",
+      "time": "353h",
       "url": "https://huggingface.co/papers/2609.36616"
     },
     {
@@ -149,7 +149,7 @@
       "content_type": "paper",
       "title": "AgentSWE: ¿Pueden los Agentes de Codificación Construir el Agente que Realmente Quieres?",
       "summary": "A medida que la producción de software pasa a manos del propio software, los agentes codificadores son cada vez más encargados para construir agentes adaptados",
-      "time": "111h",
+      "time": "113h",
       "url": "https://huggingface.co/papers/2610.13361"
     },
     {
@@ -160,7 +160,7 @@
       "content_type": "paper",
       "title": "GroundAnything: Reconciliando la Decodificación Paralela con el Aterrizaje Visual Preciso a Velocidad de Flash",
       "summary": "Los modelos de aterrizaje autoregresivos (AR) serializan las predicciones espaciales, introduciendo latencia secuencial e imponiendo un orden causal en los",
-      "time": "327h",
+      "time": "329h",
       "url": "https://huggingface.co/papers/2609.39600"
     },
     {
@@ -171,7 +171,7 @@
       "content_type": "paper",
       "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
       "summary": "La precisión del enraizamiento es crucial. Especifica cuál es el objeto objetivo y dónde se encuentra ese objeto, incluso en entornos con interferencias y para",
-      "time": "327h",
+      "time": "329h",
       "url": "https://huggingface.co/papers/2609.39601"
     },
     {
@@ -182,7 +182,7 @@
       "content_type": "paper",
       "title": "ARCS: Hacia un Texto-a-SQL Preciso a Través de una Desambiguación Estructurada",
       "summary": "A medida que los sistemas de texto-a-SQL se mueven más allá de las demostraciones hacia una implementación real en el mundo, la ambigüedad en las preguntas del",
-      "time": "159h",
+      "time": "161h",
       "url": "https://huggingface.co/papers/2610.09396"
     },
     {
@@ -193,7 +193,7 @@
       "content_type": "paper",
       "title": "La relevancia no implica aplicabilidad: activación de experiencias para agentes GUI personalizados",
       "summary": "Los agentes de interfaz gráfica de usuario personalizados (GUI) se basan en el historial de interacción para inferir lo que un usuario desea de instrucciones",
-      "time": "399h",
+      "time": "401h",
       "url": "https://huggingface.co/papers/2609.33304"
     },
     {
@@ -204,7 +204,7 @@
       "content_type": "paper",
       "title": "Inercia Cognitiva: Los LLMs Continúan Pensando Aunque Se les Indique Que No Lo Hagan",
       "summary": "Los Grandes Modelos de Lenguaje (GMLs) cada vez se entregan con modos de pensamiento explícitos, pero su contraparte, el \"no-pensamiento\", ha recibido mucho",
-      "time": "135h",
+      "time": "137h",
       "url": "https://huggingface.co/papers/2610.11765"
     },
     {
@@ -215,7 +215,7 @@
       "content_type": "paper",
       "title": "Multi-Stream Attention Residuals",
       "summary": "Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth",
-      "time": "111h",
+      "time": "113h",
       "url": "https://huggingface.co/papers/2610.13630"
     },
     {
@@ -226,7 +226,7 @@
       "content_type": "paper",
       "title": "SpatialASM: Internalización del mentalización activa para razonamiento espacial",
       "summary": "Cuando se enfrentan a tareas de razonamiento espacial complejas, los humanos promedio naturalmente revisitaban las escenas desde perspectivas relevantes para",
-      "time": "111h",
+      "time": "113h",
       "url": "https://huggingface.co/papers/2610.13832"
     },
     {
@@ -237,7 +237,7 @@
       "content_type": "paper",
       "title": "VIS-Ground: Narración Interactiva de Video con Aterrizaje Contextual",
       "summary": "Video interactive storytelling enables viewers to actively steer how a video unfolds. However, once we allow viewers to intervene during generation, a new",
-      "time": "159h",
+      "time": "161h",
       "url": "https://huggingface.co/papers/2610.09326"
     },
     {
@@ -248,7 +248,7 @@
       "content_type": "paper",
       "title": "T3lescope: Reconstrucción generativa de superficies de alta fidelidad con resolución arbitraria desde imágenes",
       "summary": "Reconstruimos mallas tridimensionales de alta fidelidad de escenas en 3D a partir de imágenes multivista posadas sin optimización por escena, a través de",
-      "time": "279h",
+      "time": "281h",
       "url": "https://huggingface.co/papers/2610.03308"
     },
     {
@@ -259,7 +259,7 @@
       "content_type": "video",
       "title": "Modelos de IA LOCAL 🤖 Guía de Fine-Tuning y Uso de Agentes MCP",
       "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=R7AGC3Irw4E En este video exploramos cómo implementar modelos de IA local y",
-      "time": "3h",
+      "time": "5h",
       "url": "https://www.youtube.com/watch?v=rPJmtjdksXA"
     },
     {
@@ -270,7 +270,7 @@
       "content_type": "video",
       "title": "La Verdad sobre el Fine Tuning en IA 🧠 Por qué NO siempre mejora los Modelos",
       "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=R7AGC3Irw4E Descubre la realidad sobre el fine tuning en IA y por qué este",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.youtube.com/watch?v=dZDV2kl1K70"
     },
     {
@@ -281,7 +281,7 @@
       "content_type": "video",
       "title": "Gemma 4 12B 🚀 la MEJOR Configuración para IA en tu GPU con Máxima VELOCIDAD",
       "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=R7AGC3Irw4E Descubre la configuración ideal para ejecutar Gemma 4 12B en tu",
-      "time": "5h",
+      "time": "6h",
       "url": "https://www.youtube.com/watch?v=OL_9L5bcG6M"
     },
     {
@@ -292,7 +292,7 @@
       "content_type": "video",
       "title": "¿Destilación de IA o simple Fine Tuning? 🧠 La VERDAD sobre cómo entrenan los modelos",
       "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=R7AGC3Irw4E ¿Realmente estás aprendiendo cómo se entrenan los modelos de",
-      "time": "4h",
+      "time": "5h",
       "url": "https://www.youtube.com/watch?v=yD9uG9YhVwU"
     },
     {
@@ -303,7 +303,7 @@
       "content_type": "video",
       "title": "Modelos de IA Locales 🚀 Cómo Elegir el MEJOR para tu Hardware",
       "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=R7AGC3Irw4E Aprende a elegir el mejor modelo de IA local optimizando el uso",
-      "time": "4h",
+      "time": "6h",
       "url": "https://www.youtube.com/watch?v=PV6e7LM-8Vk"
     },
     {
@@ -314,7 +314,7 @@
       "content_type": "video",
       "title": "Probar la RTX 5090 con modelos de IA 🚀 EXPERIENCIA REAL con Qwen y Ollama",
       "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=wlgIUA0Jjy8 Ponemos a prueba la potencia de una RTX 5090 para ejecutar",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.youtube.com/watch?v=ya875rYKjqw"
     },
     {
@@ -325,7 +325,7 @@
       "content_type": "video",
       "title": "¿Son Inteligentes los Modelos de Lenguaje? 🤖 La VERDAD sobre la IA y su Razonamiento",
       "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=wlgIUA0Jjy8 ¿Son realmente inteligentes los modelos de lenguaje o solo",
-      "time": "1h",
+      "time": "3h",
       "url": "https://www.youtube.com/watch?v=gtR7M-gbLLY"
     },
     {
@@ -336,7 +336,7 @@
       "content_type": "video",
       "title": "Probando Qwen 3.5 🚀 el poder de una RTX 5090 en la Nube",
       "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=wlgIUA0Jjy8 En este video realizamos una prueba de rendimiento exhaustiva del",
-      "time": "2h",
+      "time": "4h",
       "url": "https://www.youtube.com/watch?v=XHi55QQPbaE"
     },
     {
@@ -347,7 +347,7 @@
       "content_type": "video",
       "title": "Instalar llama.cpp con soporte CUDA 🚀 Guía en la NVIDIA H100 para IA",
       "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=wlgIUA0Jjy8 Aprende a instalar llama.cpp con soporte CUDA utilizando una",
-      "time": "ahora",
+      "time": "2h",
       "url": "https://www.youtube.com/watch?v=MahAtmLBX84"
     },
     {
@@ -358,7 +358,7 @@
       "content_type": "video",
       "title": "Probar Qwen en una RTX 5090 🚀 Cómo usar GPU en la NUBE con RunPod",
       "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=wlgIUA0Jjy8 En este video exploramos cómo probar el modelo Qwen en una",
-      "time": "2h",
+      "time": "3h",
       "url": "https://www.youtube.com/watch?v=hBC4vL3zpR4"
     },
     {
@@ -369,7 +369,7 @@
       "content_type": "video",
       "title": "OpenAI Ha Cambiado el Significado de Hacer Matemáticas",
       "summary": "❤️ Visita Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers 📝 Los documentos están disponibles aquí:",
-      "time": "2h",
+      "time": "4h",
       "url": "https://www.youtube.com/watch?v=z_sXLlLVUls"
     },
     {
@@ -380,7 +380,7 @@
       "content_type": "video",
       "title": "Mí dashboard decís 0",
       "summary": "Video relacionado: https://youtu.be/qAVc4HNY9OE Descuento HostGator: https://www.hostgator.la/7607-10-3-9.html",
-      "time": "17h",
+      "time": "19h",
       "url": "https://www.youtube.com/shorts/WnypvPGi6PQ"
     },
     {
@@ -391,7 +391,7 @@
       "content_type": "news",
       "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
       "summary": "<p>Python 3.15 <a href=\"https://www.python.org/downloads/release/python-3150/\">is here</a>! Here's the essential <a",
-      "time": "17h",
+      "time": "18h",
       "url": "https://simonwillison.net/2026/Oct/12/python-3-15/"
     },
     {
@@ -402,7 +402,7 @@
       "content_type": "news",
       "title": "ISACA 2026: Gobernanza de la IA agente y resiliencia en crisis",
       "summary": "La Conferencia Europea de ISACA aborda la resiliencia empresarial frente a la IA agente y la toma de decisiones ejecutivas bajo alta presión.",
-      "time": "2h",
+      "time": "4h",
       "url": "https://www.silicon.es/isaca-2026-gobernanza-de-la-ia-agente-y-resiliencia-en-crisis-2585002"
     },
     {
@@ -413,7 +413,7 @@
       "content_type": "news",
       "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
       "summary": "<p>Z.ai’s GLM-Legal is a legal AI model built on GLM-5.3-Flash. It scores 19.2% all-pass on Harvey’s Legal Agent Benchmark, nearly 3x its base, at $0.15 per",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/"
     },
     {
@@ -424,7 +424,7 @@
       "content_type": "news",
       "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
       "summary": "<p>Alibaba&#8217;s Qwen team has introduced QwenGyre, an elastic reinforcement learning RL framework for extreme-long-horizon agent training. QwenGyre is an",
-      "time": "13h",
+      "time": "15h",
       "url": "https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/"
     },
     {
@@ -435,7 +435,7 @@
       "content_type": "news",
       "title": "Meta has some Wonder Full new AI models",
       "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI",
-      "time": "18h",
+      "time": "20h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
     },
     {
@@ -446,7 +446,7 @@
       "content_type": "news",
       "title": "Nvidia deja de fabricar la RTX 5090, la tarjeta más potente para jugadores, según una filtración. Su chip irá destinado a la IA",
       "summary": "<p> <img",
-      "time": "ahora",
+      "time": "2h",
       "url": "https://www.xataka.com/componentes/nvidia-deja-fabricar-rtx-5090-tarjeta-potente-para-jugadores-filtracion-su-chip-ira-destinado-a-ia"
     },
     {
@@ -457,7 +457,7 @@
       "content_type": "news",
       "title": "Hace siete meses, OpenAI mató su IA de generación de vídeo, pero ahora planean resucitar Sora como herramienta para Hollywood",
       "summary": "<p> <img",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.xataka.com/cine-y-tv/hace-siete-meses-openai-mato-su-ia-generacion-video-ahora-planean-resucitar-sora-como-herramienta-para-hollywood"
     },
     {
@@ -468,7 +468,7 @@
       "content_type": "news",
       "title": "NVIDIA tiene motivos para preocuparse. Microsoft apuesta por su propio chip Maia 300 para su infraestructura de IA",
       "summary": "<p> <img",
-      "time": "13h",
+      "time": "15h",
       "url": "https://www.xataka.com/robotica-e-ia/nvidia-tiene-motivos-para-preocuparse-microsoft-apuesta-su-propio-chip-maia-300-para-su-infraestructura-ia"
     },
     {
@@ -479,7 +479,7 @@
       "content_type": "news",
       "title": "Los modelos abiertos tienen beneficios reales. ¿Superan estos beneficios los riesgos?",
       "summary": "MIT Technology Review Explica: Permitan que nuestros escritores desenreden el mundo complejo y desordenado de la ciencia y la tecnología para ayudarlo a",
-      "time": "1h",
+      "time": "3h",
       "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/"
     },
     {
@@ -490,7 +490,7 @@
       "content_type": "news",
       "title": "Los laboratorios de IA están comprando datos de startups defuntas para entrenar sus modelos.",
       "summary": "Cuando Keelan Miskell comenzó a cerrar su startup de criptomonedas este año, no pensó que sus datos valieran mucho: los usuarios eran anónimos y la empresa",
-      "time": "2h",
+      "time": "4h",
       "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
     },
     {
@@ -501,7 +501,7 @@
       "content_type": "news",
       "title": "El 47% de las tecnólogas sufre discriminación laboral, según ISACA",
       "summary": "El informe de ISACA revela un 59% de burnout en tech y un déficit de 300.000 expertos en ciberseguridad ante el avance acelerado de la IA.",
-      "time": "ahora",
+      "time": "2h",
       "url": "https://www.silicon.es/el-47-de-las-tecnologas-sufre-discriminacion-laboral-segun-isaca-2585027"
     },
     {
@@ -512,7 +512,7 @@
       "content_type": "news",
       "title": "RAMageddon: la crisis de memoria que obliga a repensar el puesto de trabajo",
       "summary": "En este podcast, junto con José Luis Díez, Consultor Especialista en Digital Workplace de HP, y César Arenas, Workplace Business Development Manager en",
-      "time": "1h",
+      "time": "3h",
       "url": "https://www.silicon.es/ramageddon-la-crisis-de-memoria-que-obliga-a-repensar-el-puesto-de-trabajo-2585019"
     },
     {
@@ -523,7 +523,7 @@
       "content_type": "news",
       "title": "HUAWEI MatePad Pro 12” ya está disponible en España",
       "summary": "Este dispositivo con pantalla Ultra-clear Flexible OLED PaperMatte está pensado para profesionales y creadores.",
-      "time": "3h",
+      "time": "5h",
       "url": "https://www.silicon.es/huawei-matepad-pro-12-ya-esta-disponible-en-espana-2584989"
     },
     {
@@ -534,7 +534,7 @@
       "content_type": "news",
       "title": "Character.AI files for bankruptcy",
       "summary": "Character.AI, one of the first breakout startups of the generative AI boom, has filed for bankruptcy and is selling some of its assets to Disney. The company,",
-      "time": "ahora",
+      "time": "2h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney"
     }
   ]
