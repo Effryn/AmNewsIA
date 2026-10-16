@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfocamos en tres movimientos estratégicos que redefinirán el panorama de la inteligencia artificial en las próximas semanas.\n\n**El salto de OpenAI con GPT-6 Astra**\n\nComenzamos con el lanzamiento de GPT-6 Astra, el modelo más ambicioso de OpenAI hasta la fecha. Estamos ante un cambio de paradigma: de máquinas que hablan a máquinas que actúan. Con una ventana de contexto de 1.05 millones de tokens y capacidades de uso de computadora, Astra marca el tránsito del \"vibe coding\" al \"vibe doing\". Los usuarios pueden delegarle tareas complejas directamente.\n\nSin embargo, el lanzamiento ha sido turbulento. Sam Altman pidió disculpas públicamente por lo que calificó como un despliegue \"desordenado\" que bloqueó temporalmente el acceso a usuarios de pago. Además, existe una inquietud creciente sobre la supervisión de modelos tan poderosos. OpenAI ha implementado un umbral de seguridad cibernética \"crítico\" para controlar el acceso, pero la pregunta persiste: ¿será suficiente?\n\n**La ofensiva de Anthropic y Meta en agentes especializados**\n\nMientras OpenAI lidia con estas tensiones, sus competidores avanzan. Anthropic presentó Claude Commerce Agents, un conjunto de modelos especializados para retail, viajes, telecomunicaciones y entretenimiento. Por su parte, Meta lanzó Muse Spark 1.3, un modelo de código que reduce un 20% las llamadas a herramientas y un 25% el consumo de tokens respecto a su versión anterior.\n\nEstos lanzamientos demuestran que la industria está pivotando hacia agentes verticalizados, no hacia modelos generales cada vez más grandes.\n\n**El costo de la ambición: la crisis energética que se aproxima**\n\nCerramos con un aviso que trasciende los titulares: la propia industria de IA advierte sobre una crisis inminente. El crecimiento exponencial de la IA está generando un déficit energético \"significativo\". La explosión de demanda de computación enfrenta límites reales en infraestructura de energía.\n\nJensen Huang, CEO de NVIDIA, refuerza el mensaje en su intervención ante el G20: que los países apuesten más por IA y permitan mayor autorregulación empresarial. Es una petición que suena ambiciosa considerando el caos alrededor de seguridad en agentes que reportan comportamientos inesperados.\n\nEn paralelo, Google integra sus aplicaciones empresariales con IA conversacional en Gmail, Docs y Keep, mientras DeepMind mejora predicciones meteorológicas con WeatherNext 3. Estos avances son significativos, aunque opacados por las preguntas de fondo sobre supervisión y sostenibilidad.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 107,
+    "new_articles": 101,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 56,
     "repos_count": 9,
-    "videos_count": 8,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -803,39 +803,6 @@
       "url": "https://www.youtube.com/shorts/WserXN2tT2s"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Spark X2.5 4B ⚠️ ¿Realmente es SUPERIOR a Gemma 4 y Qwen?",
-      "summary": "En este vídeo ponemos a prueba el nuevo modelo Spark X2.5 4B para comprobar si sus capacidades de programación y razonamiento cumplen con lo prometido.",
-      "time": "904h",
-      "url": "https://www.youtube.com/watch?v=7zUD_rh9MLQ"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "GROK Bot ROMPE la IA: Crea agentes que trabajan SOLOS por ti",
-      "summary": "Accede al CRM GRATIS de Hubspot: https://clickhubspot.com/e7c5f2 Prueba Hostinger Ecommerce con descuento: https://hostinger.com/MIGUEBAENA10 Prueba Omnisend",
-      "time": "909h",
-      "url": "https://www.youtube.com/watch?v=jM8X-Jd0ypc"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Ornith 1.5 35B 🚀 Probamos su INTELIGENCIA y VELOCIDAD con IA Local",
-      "summary": "Ponemos a prueba el nuevo modelo Ornith 1.5 35B para comprobar si su capacidad de razonamiento y velocidad justifican el hype. Analizamos este modelo",
-      "time": "888h",
-      "url": "https://www.youtube.com/watch?v=vVvN78PGoEI"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -847,28 +814,6 @@
       "url": "https://www.youtube.com/shorts/uXtWPwPkvLs"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Speculative Decoding ⚡ ¿Más VELOCIDAD pero Menos CALIDAD? Prueba con Gemma 4",
-      "summary": "En este video analizamos en detalle el Speculative Decoding para determinar si su implementación realmente afecta la calidad de las respuestas. Mediante",
-      "time": "896h",
-      "url": "https://www.youtube.com/watch?v=GT6ciFaakxI"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Gemma 4 E2B 🚀 el Modelo de IA Pequeño y ULTRA RÁPIDO con Llama.cpp",
-      "summary": "Descubre cómo aprovechar el potencial de Gemma 4 E2B, un modelo de IA extremadamente pequeño y ultra rápido diseñado para funcionar con una eficiencia",
-      "time": "912h",
-      "url": "https://www.youtube.com/watch?v=3YFQG_mpAzM"
-    },
-    {
       "source": "Xataka IA",
       "source_type": "rss",
       "lang": "es",
@@ -878,17 +823,6 @@
       "summary": "<p> <img",
       "time": "906h",
       "url": "https://www.xataka.com/robotica-e-ia/gpt-6-astra-llega-como-gran-salto-openai-puede-hacer-mucho-nosotros-tambien-sera-dificil-supervisar"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "¡Es AGI! Lanzamiento GPT 6 Astra",
-      "summary": "✅ Canal de WhatsApp: https://www.whatsapp.com/channel/0029VbCR3SKId7nGTWkmFE0w Contacto: nichonauta@gmail.com Sitio web: nichonauta.com",
-      "time": "905h",
-      "url": "https://www.youtube.com/watch?v=r59qY3AFKGI"
     },
     {
       "source": "Xataka IA",

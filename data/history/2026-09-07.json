@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos encontramos con un panorama complejo donde la carrera por la inteligencia artificial sigue acelerándose, pero también emergen preocupaciones importantes sobre monopolios tecnológicos y seguridad.\n\nComenzamos con el anuncio más disruptivo: Jensen Huang de NVIDIA afirma que \"la AGI ha llegado\" con GPT-6 Astra. Sin embargo, y aquí viene lo interesante, esta no es la primera vez que Huang hace esta declaración. Los expertos cuestionan si realmente hemos alcanzado la inteligencia artificial general o si estamos ante una estrategia de marketing bien orquestada. La credibilidad de estas afirmaciones se erosiona cuando se repiten sin materialización clara.\n\nEn respuesta a la hegemonía tecnológica occidental, Corea del Sur está tomando medidas contundentes. El gobierno ha decidido no depender de OpenAI o Google para la inteligencia artificial de sus ciudadanos, anunciando la creación de una IA nacional de acceso gratuito para toda la población. Se trata de una apuesta política clara por la soberanía tecnológica.\n\nEn materia de seguridad, F5 ha presentado mejoras significativas para bloquear amenazas impulsadas por IA, reconociendo que los ciberataques evolucionan a la misma velocidad que la tecnología que los genera.\n\nEl frente investigador también bulle de actividad. Meta FAIR ha introducido los Modelos de Preferencia de Investigación —RPMs—, que permiten clasificar experimentos de machine learning antes de gastar recursos en GPU, optimizando así el proceso de investigación. Simultáneamente, H Company lanza NeoMME, una familia de codificadores multimodales ultracompactos de 260M a 800M parámetros que eliminan la necesidad de torres de visión separadas. IFM, por su parte, libera K2 Horizon, seis modelos bajo licencia Apache 2.0 que van desde 900 millones hasta 375 mil millones de parámetros.\n\nEn el frente editorial, The Seattle Times y Newsday han demandado a OpenAI y Microsoft por infracción de derechos de autor, mientras que OpenAI continúa apoyando el periodismo independiente en Ucrania. Esto refleja la tensión actual entre innovación tecnológica y derechos intelectuales.\n\nFinalmente, el mercado laboral y empresarial reacciona: nace Prometeia como Centro Especial de Empleo dentro de Weber Group, y se funda la Asociación Española de Robótica Humanoide e IA Física, evidenciando que la IA trasciende lo digital y se materializa en soluciones físicas.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 91,
+    "new_articles": 87,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 65,
     "repos_count": 8,
-    "videos_count": 4,
+    "videos_count": 0,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -886,50 +886,6 @@
       "time": "884h",
       "url": "https://arxiv.org/abs/2609.05399v1",
       "arxiv": "2609.05399v1"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Modelos de Lenguaje en CPU 🚀 CÓMO Ejecutarlos con llama.cpp sin una GPU",
-      "summary": "Aprende cómo ejecutar modelos de lenguaje en CPU de forma eficiente y económica en este tutorial detallado. Si no dispones de una GPU potente con mucha VRAM,",
-      "time": "832h",
-      "url": "https://www.youtube.com/watch?v=EyZMuU9SE3g"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Claude AI de 0 a Experto: La Guía Definitiva",
-      "summary": "0:00 Introducción 0:58 Nivel 1 0:59 Qué es Claude 2:06 Crear tu cuenta gratuita 3:38 Cómo escribir buenos prompts 7:29 Elegir modelo, esfuerzo y pensamiento",
-      "time": "837h",
-      "url": "https://www.youtube.com/watch?v=iQMc6fzwW7g"
-    },
-    {
-      "source": "maxmaxdata",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "TRUCO CHATGPT + MINIMAX = ANUNCIOS PRO#ia #ai #inteligenciaartificial #chatgpt #bigdata #data",
-      "summary": "",
-      "time": "820h",
-      "url": "https://www.youtube.com/watch?v=Djo40TYgNUQ"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Windows Original Barato 🚀 Cómo obtener tu LICENCIA con DESCUENTO extra",
-      "summary": "En este video te enseñamos cómo conseguir Windows Original Barato utilizando descuentos especiales para ahorrar significativamente en tu compra. Si buscas una",
-      "time": "824h",
-      "url": "https://www.youtube.com/watch?v=0e5X2beefEs"
     },
     {
       "source": "Xataka IA",

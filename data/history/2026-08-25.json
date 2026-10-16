@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfocamos en cómo la inteligencia artificial está transformando sectores clave y redefiniendo el uso de la tecnología en nuestro día a día.\n\nComenzamos con la educación, tema que genera cada vez más debate. Google Research ha presentado ME-POIs, un framework innovador que enriquece los embeddings de puntos de interés con información sobre cómo se usan realmente los lugares. Pero mientras la tecnología avanza, el impacto en las aulas es preocupante: hacer deberes excelentes ya no es sinónimo de ser buen estudiante, y la culpa, en gran medida, es de la IA. Sin embargo, hay soluciones: expertos sugieren estrategias concretas para fomentar un uso más inteligente de estas herramientas en el aula, y Google ofrece una alternativa atractiva: Gemini Plus gratis durante un año para estudiantes verificados.\n\nEn cuanto a servicios de Google, Gemini continúa expandiendo funcionalidades. Ahora puede diagnosticar y resolver problemas técnicos en tu Pixel simplemente pidiéndole ayuda, integrándose cada vez más en la experiencia del usuario.\n\nEl sector empresarial e industrial también experimenta cambios significativos. Nutanix lanzó su servidor MCP diseñado específicamente para automatizar la gestión del cloud híbrido con inteligencia artificial. Paralelamente, Nvidia ha anunciado un incremento superior al 15 por ciento en el precio de sus servidores de IA, reflejando la demanda creciente y la presión en el mercado de computación para este tipo de soluciones. En Shanghai, un evento de robots mostró el estado actual de la robotización a nivel global, demostrando que ya no estamos ante prototipos, sino ante máquinas operativas transformando procesos reales.\n\nEl comercio y la privacidad también están en el radar. Las aerolíneas están a punto de implementar sistemas de precios dinámicos basados en IA. Delta es el caso más emblemático, y esta práctica abre un debate importante sobre cómo la IA personaliza costos según nuestros perfiles. Además, una noticia curiosa pero reveladora: tres modelos de IA diferentes lograron libertar una tablet de Amazon de su ecosistema cerrado, demostrando que estos sistemas pueden resolver problemas considerados imposibles.\n\nFinalmente, en publicidad digital, AppsFlyer ha integrado sus capacidades de medición móvil directamente en los anuncios de ChatGPT, facilitando a las empresas medir el impacto de sus campañas de forma más integrada.\n\nEn resumen: educación regulada, productividad mejorada, infraestructura más cara, precios más dinámicos y medición más inteligente. La IA no solo avanza, sino que está redefiniendo cómo pagamos, aprendemos y compramos.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 115,
+    "new_articles": 113,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 66,
     "repos_count": 10,
-    "videos_count": 4,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -531,7 +531,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "The Geometry of Low-Resource Language Representations",
+      "title": "La Geometría de las Representaciones de Lenguaje con Recursos Limitados",
       "summary": "Se conoce el desfase en el rendimiento entre las lenguas de baja y alta recursos en los modelos de aprendizaje profundo (MLD), pero es incierto qué factores",
       "time": "1151h",
       "url": "https://arxiv.org/abs/2608.23358v1",
@@ -922,17 +922,6 @@
       "arxiv": "2608.23383v1"
     },
     {
-      "source": "Two Minute Papers",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Este Pequeño AI Cambiará Todo",
-      "summary": "❤️ Consulta Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers 📝 Qwen3.8-27b está disponible aquí: https://huggingface.co/Qwen/Qwen3.8-27B Fuentes:",
-      "time": "1149h",
-      "url": "https://www.youtube.com/watch?v=wMl6c_r0ubw"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -953,17 +942,6 @@
       "summary": "Nvidia no defiende el open source por amor al arte. En la fiebre del oro, el que se hizo rico fue el que vendía las palas. #IA #Nvidia #Shorts",
       "time": "1125h",
       "url": "https://www.youtube.com/shorts/xaC6_nEQOL8"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Una NUEVA VIDA para QUEST y la VR",
-      "summary": "Cada vez hay más MODs para Realidad Virtual, una nueva ERA que se abre camino tanto en PCVR como en Standalone. Además tambien conocemos mediante un estudio",
-      "time": "1127h",
-      "url": "https://www.youtube.com/watch?v=FYbO1SCEpaM"
     },
     {
       "source": "Xataka IA",

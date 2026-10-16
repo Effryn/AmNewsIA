@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy destacamos un giro importante en la conversación sobre inteligencia artificial: hemos pasado de preocuparnos por las alucinaciones de los modelos a enfrentarnos a un problema más tangible y peligroso: que la IA simplemente *haga cosas*.\n\nDos casos concretos ilustran esta realidad. En primer lugar, un agricultor en China confió en los consejos de una IA para gestionar su cosecha, con resultados desastrosos: diez hectáreas completamente arrasadas en una sola noche. Un recordatorio brutal de que las recomendaciones de estos sistemas pueden tener consecuencias muy reales en el mundo físico.\n\nEn paralelo, Anthropic acaba de anunciar una iniciativa crucial: la apertura de una vista previa de su Estándar de Hardware de Modelos, o MHS. Se trata de una especificación compartida diseñada específicamente para que los agentes de IA operen dispositivos físicos de forma segura. Es evidente que la industria está intentando establecer guardarriles mientras estos sistemas ganan capacidades de acción.\n\nEn el frente técnico, hemos visto avances significativos en rendimiento. MarkTechPost reporta un benchmark enfocado en latencia mínima para APIs de inferencia en voz y agentes en tiempo real, midiendo el tiempo hasta el primer token. Es un indicador de que la carrera por agentes conversacionales más rápidos se intensifica.\n\nGoogle AI, por su parte, ha presentado EnvHarness, una capa programable que convierte ambientes estáticos en mundos de entrenamiento adaptativos. Esto abre nuevas posibilidades para preparar agentes más robustos antes de su despliegue.\n\nOtro desarrollo fascinante es Code-as-World, un loop agéntico que reescribe videos reales en programas ejecutables de física MuJoCo. Es un salto conceptual interesante en cómo la IA interpreta y traduce el mundo físico.\n\nEn infraestructura, China sigue cimentando su posición como potencia de IA: una ciudad entera se ha transformado, donde antes había granjas hoy hay centros de datos masivos. Literalmente, el combustible que alimenta la IA.\n\nFinalmente, en política tecnológica, el gobernador de Texas ha bloqueado la financiación para más cámaras de vigilancia Flock, un gesto que refleja tensiones crecientes sobre la vigilancia y el uso de IA en seguridad pública.\n\nEl mensaje subyacente es claro: la IA ya no es solo un tema académico. Es infraestructura, es negocio, es riesgo operacional, y exige regulación inteligente. Los próximos meses serán críticos para definir cómo operan estos sistemas en el mundo real.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 30,
+    "new_articles": 26,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 0,
     "repos_count": 12,
-    "videos_count": 5,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -182,39 +182,6 @@
       "url": "https://www.youtube.com/shorts/eMd34sFQCzk"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "MoE + MTP con GPU Integrada 🚀 RENDIMIENTO con Modelos Grandes y llama.cpp",
-      "summary": "En este video ponemos a prueba un sistema con MoE Grande GPU Integrada para comprobar cómo funcionan modelos de lenguaje masivos en hardware de bajo coste.",
-      "time": "1029h",
-      "url": "https://www.youtube.com/watch?v=nJiD_qZPKto"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Atomic AI Tutorial Completo 🚀 Potencia tus Modelos de IA con Subtareas",
-      "summary": "En este Atomic AI Tutorial Completo aprenderás cómo potenciar la inteligencia de modelos de lenguaje pequeños utilizando una técnica de descomposición de",
-      "time": "1005h",
-      "url": "https://www.youtube.com/watch?v=iCokaxKK8_I"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Gemini Notebook de 0 a EXPERTO: la guía más completa en español",
-      "summary": "Prueba Hostinger Ecommerce con descuento: https://hostinger.com/MIGUEBAENA10 Prueba Omnisend con un 30% de descuento durante 3 meses:",
-      "time": "1005h",
-      "url": "https://www.youtube.com/watch?v=5D46UoKt3KE"
-    },
-    {
       "source": "Xataka IA",
       "source_type": "rss",
       "lang": "es",
@@ -224,17 +191,6 @@
       "summary": "<p> <img",
       "time": "1013h",
       "url": "https://www.xataka.com/robotica-e-ia/nos-hemos-pasado-tres-anos-preocupados-ia-alucina-ahora-problema-que-haga-cosas"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Mi TOP 4 VISORES de PCVR en 2026",
-      "summary": "En este vídeo analizamos mi TOP 4 de mejores visores para PCVR en 2026 para resolver una de las grandes dudas: ¿cuál es el mejor visor de Realidad Virtual para",
-      "time": "1031h",
-      "url": "https://www.youtube.com/watch?v=J-PgiuDwwlk"
     },
     {
       "source": "MarkTechPost",

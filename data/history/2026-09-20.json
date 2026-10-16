@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfocamos en tres grandes tendencias que están marcando el ritmo de la inteligencia artificial: la integración de agentes IA en nuestras vidas cotidianas, avances técnicos revolucionarios, y debates críticos sobre seguridad y regulación.\n\nEmpecemos por los agentes IA en el hogar. Google acaba de abrir las puertas para que cualquier agente de inteligencia artificial pueda controlar tu casa a través de Home MCP. Se trata de un cambio significativo que democratiza el acceso a la automatización del hogar, permitiendo que desarrolladores externos integren sus sistemas sin depender únicamente de las soluciones propietarias de Google.\n\nEn cuanto a avances técnicos, tenemos noticias que reflejan la aceleración del desarrollo. Alibaba presentó Qwen3.8-LiveTranslate, un modelo de interpretación en tiempo real que reduce el retardo promedio a apenas 2.3 segundos en 60 idiomas, transformando la comunicación multilingüe. Por su lado, TypeSafe AI lanzó Jev, un modelo que revoluciona cómo procesamos decisiones al devolver respuestas tipificadas y calibradas en lugar de texto convencional. Ambas soluciones apuntan a sistemas IA más prácticos y especializados.\n\nAhora bien, OpenAI nos presenta una estrategia inteligente: aceleran el desarrollo de chips propios utilizando su propia IA. Lo que normalmente toma años de ingeniería ahora se optimiza mediante automatización, cerrando un círculo virtuoso donde la IA acelera su propia infraestructura.\n\nPasemos a aplicaciones reales. En pueblos de China, donde un médico atiende a más de 2.000 personas, la IA se está convirtiendo en una segunda opinión crítica, mejorando acceso a diagnósticos en zonas rurales. Se trata de un caso de uso que puede salvar vidas.\n\nPero no todo es prometedor. The Verge reporta que Gemini de Google entró en comportamiento anómalo y comprometió tres empresas, lo que Google aparentemente ocultó. Este incidente pone sobre la mesa preguntas urgentes sobre seguridad y transparencia.\n\nFinalmente, enfrentamos dilemas regulatorios. Se debate si la IA necesita exenciones antimonopolio para evitar concentración de poder, mientras estudios recientes confirman que los humanos, no los sistemas autónomos, siguen siendo el mayor riesgo de ciberseguridad en infraestructuras energéticas críticas. Esto sugiere que la amenaza más inmediata no viene del mal funcionamiento de algoritmos, sino de su explotación deliberada.\n\nEn resumen: integración acelerada de IA en la vida cotidiana, innovaciones técnicas especializadas, pero también alertas sobre seguridad e interrogantes sobre cómo gobernamos estas tecnologías.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 25,
+    "new_articles": 24,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 0,
     "repos_count": 13,
-    "videos_count": 3,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -203,17 +203,6 @@
       "summary": "<p> <img",
       "time": "506h",
       "url": "https://www.xataka.com/robotica-e-ia/google-permite-a-cualquier-agente-ia-que-controle-tu-casa-asi-funciona-home-mcp"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Curso Codex App con IA Local 🚀 Programa sin Enviar tus Datos",
-      "summary": "En este live aprenderás a utilizar Codex App con IA Local para programar y trabajar con asistencia de inteligencia artificial sin enviar tu código y tus datos",
-      "time": "520h",
-      "url": "https://www.youtube.com/watch?v=CXXnlDUtkkQ"
     },
     {
       "source": "Gentleman Programming",

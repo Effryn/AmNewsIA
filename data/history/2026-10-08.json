@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy tenemos cambios importantes en tres frentes clave: modelos de IA, agentes inteligentes y hardware especializado.\n\nComenzamos con Anthropic, que ha lanzado Claude Haiku 5.5, su modelo más compacto. Lo interesante aquí no es solo que sea más pequeño, sino su eficiencia de costes: apenas diez centavos por millón de tokens de entrada. Esto abre la puerta a aplicaciones masivas donde antes el coste era prohibitivo. Un modelo pequeño, pero con capacidades sorprendentes para su tamaño.\n\nEn el ecosistema de agentes de IA, estamos viendo un movimiento acelerado. Meta ha lanzado Muse, su nuevo agente que, según describen algunos, tiene un comportamiento casi detectivesco, como un agente del FBI buscando pistas. Mientras tanto, AWS ha presentado un servicio de IA agéntica específico para entornos cloud: detecta problemas, los prioriza y los resuelve automáticamente. Y NVIDIA está mejorando cómo estos agentes aprenden de sus errores con PivotOPD, permitiendo que se recuperen de fallos decisivos en conversaciones multiturn. Estos avances en agencia de IA reflejan una tendencia clara: los sistemas están pasando de ser reactivos a ser verdaderamente proactivos.\n\nEn cuanto a interfaces y hardware, ChatGPT ha actualizado su interfaz inteligente añadiendo elementos visuales: gráficos, tablas y botones interactivos que enriquecen las respuestas. Es un cambio visual que mejora la experiencia del usuario. Y Muse también ha llegado al iPad, expandiendo su disponibilidad. Por otro lado, Microsoft sigue apostando fuerte: su Surface más ambicioso incorporará su propio MagSafe, y Microsoft está preparando Surface RTX Spark Dev Box, una máquina dedicada a desarrollo de IA que estará disponible por preorder a 5.999 dólares.\n\nUn tema que merece atención especial es lo que Wall Street ha descubierto recientemente: implementar IA en las empresas no se trata de despedir empleados. La clave está en contratar a los correctos, aquellos con capacidades para trabajar junto a estos sistemas. Es un cambio de narrativa importante que muestra madurez en cómo la industria entiende la transformación con IA. Y desde el MIT, vemos también preocupación por hacer que la IA industrial sea más segura, un área crítica conforme estos sistemas toman decisiones cada vez más importantes.\n\nFinalmente, una innovación en infraestructura: Architect ha lanzado Liquid Inference, un sistema de subasta en tiempo real para optimizar las operaciones de inferencia de LLMs, lo que podría mejorar significativamente la eficiencia de costes.\n\nEn resumen: modelos más eficientes, agentes más inteligentes, interfaces mejoradas, y una industria que aprende a implementar IA responsablemente.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 116,
+    "new_articles": 112,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "70 min",
     "audio_duration": "2:52",
     "key_count": 3,
-    "papers_count": 79,
+    "papers_count": 77,
     "repos_count": 11,
-    "videos_count": 2,
+    "videos_count": 0,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -317,17 +317,6 @@
       "source": "Hugging Face — Daily Papers",
       "source_type": "huggingface",
       "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
-      "title": "Sherpa: Enseñando LLMs a enseñar de manera adaptativa",
-      "summary": "Los modelos de lenguaje de gran tamaño (LLMs) se han vuelto cada vez mejores resolviendo problemas, pero resolver un problema no es lo mismo que enseñarlo. Los",
-      "time": "138h",
-      "url": "https://huggingface.co/papers/2610.08778"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
       "cat": "Investigación",
       "content_type": "paper",
       "title": "Política de Generación de Acciones en Un Paso para Modelos Fundamentales Robóticos basados en Flujo Cinemático",
@@ -468,17 +457,6 @@
       "summary": "La síntesis de vistas no vistas a partir de pocos datos es un problema central en la creación de contenido tridimensional, pero los enfoques basados en",
       "time": "210h",
       "url": "https://huggingface.co/papers/2610.04722"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Herramientas",
-      "content_type": "paper",
-      "title": "DMAD: Distribución de Distribución como Distilación Adversarial para Generación Visual Rápida",
-      "summary": "La Distribución de Ajuste Distilación (DMD) entrena un estudiante en pocos pasos a partir de la diferencia entre puntuaciones objetivo y estudiante estimadas",
-      "time": "258h",
-      "url": "https://huggingface.co/papers/2610.02188"
     },
     {
       "source": "Hugging Face — Daily Papers",
@@ -1075,28 +1053,6 @@
       "time": "93h",
       "url": "https://arxiv.org/abs/2610.10429v1",
       "arxiv": "2610.10429v1"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "No basta con un buen prompt 🤖 Por qué la IA NO puede hacer Proyectos Completos sola",
-      "summary": "En este video analizamos por qué no basta con un buen prompt cuando intentas que la inteligencia artificial desarrolle una aplicación de forma autónoma.",
-      "time": "93h",
-      "url": "https://www.youtube.com/watch?v=T0Y3RgC26pg"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "SONY vende TODAS sus PATENTES a META",
-      "summary": "Pimax le planta cara a Valve con las Crystal Pro y una \"Steam Machinne\", además ya tenemos las estadisticas de hardware de Steam y veremos como se encuentra",
-      "time": "95h",
-      "url": "https://www.youtube.com/watch?v=FBZV-h3MFgw"
     },
     {
       "source": "Simon Willison",

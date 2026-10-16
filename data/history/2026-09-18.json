@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfocamos en tres grandes tendencias que están moldeando el panorama de la inteligencia artificial: la carrera por los agentes multimodales, la consolidación de controles de seguridad, y aplicaciones disruptivas que ya están salvando vidas.\n\nEmpezamos en Oriente con un lanzamiento importante. Alibaba acaba de presentar Qwen 3.8 Omni Flash, un modelo capaz de procesar hasta un millón de tokens de contexto con comprensión simultánea de audio, video y texto. Esta arquitectura está diseñada específicamente para agentes autónomos y manejo de herramientas complejas. En paralelo, Anthropic y Salesforce están acelerando sus propias plataformas de agentes empresariales: Claude Code Projects permite ahora ejecutar múltiples agentes en paralelo en la nube, incluso después de cerrar la sesión, mientras que Salesforce Agentforce intenta cerrar la brecha entre prototipos rápidos y orquestación en producción real. Se confirma así que el 2026 será el año de los agentes: no solo modelos que responden, sino sistemas que actúan de forma coordinada.\n\nPero aquí viene un giro interesante. Mientras la tecnología avanza sin frenos, los gigantes de la industria están pisando el acelerador de seguridad. Microsoft ha publicado formalmente sus límites para la IA autónoma —quieren que estas herramientas no operen sin supervisión—, marcando distancia explícita con Anthropic. A su vez, Anthropic abre su primera oficina en Madrid como emblema de su apuesta por la IA segura, señalando que después de años persiguiendo capacidades, es momento de establecer guardarraíles. Es un cambio cultural importante: las compañías líderes ahora hablan públicamente de límites.\n\nEn aplicaciones prácticas, vemos dos casos que merecen atención. Amazon está revolucionando el doblaje con una IA que sincroniza movimientos labiales de actores con voces diferentes, bajando costos de producción. Pero más impactante aún: dos estudiantes valencianos crearon con IA un sistema tipo Tinder para asignar trasplantes de hígado, potencialmente reduciendo listas de espera. Aquí la tecnología toca vidas directamente.\n\nY cerramos con perspectiva. Un análisis de The Verge advierte sobre una \"desaceleración superinteligente\": el entusiasmo por alcanzar AGI está chocando con realidades técnicas y límites de inversión. Al mismo tiempo, datos indican que uno de cada diez usuarios de smartphone ya es un superusuario de IA, mostrando que mientras los expertos debaten superinteligencia, la población mainstream ya integra estos sistemas en lo cotidiano.\n\nEn síntesis: agentes coordinados, seguridad como prioridad, impacto real en medicina, y una audiencia global ya acostumbrada a convivir con IA.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 95,
+    "new_articles": 88,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 55,
     "repos_count": 8,
-    "videos_count": 8,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -319,7 +319,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Chronicle: Cut-Point Replay for Regression Testing of LLM Agents",
+      "title": "Chronicle: Reproducción de Puntos de Corte para la Prueba de Regresión de Agentes LLM",
       "summary": "Las respuestas de los grandes modelos de lenguaje son no determinísticas, por lo que los fallos de los agentes de LLM son difíciles de reproducir: un fallo",
       "time": "574h",
       "url": "https://arxiv.org/abs/2609.20625v1",
@@ -768,17 +768,6 @@
       "arxiv": "2609.20649v1"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen3.8 Omni Flash 🚀 el Nuevo Modelo OMNIMODAL que lo Cambia TODO",
-      "summary": "El nuevo modelo Qwen3.8 Omni Flash ha llegado para revolucionar la inteligencia artificial con sus capacidades omnimodales nativas. Este lanzamiento está",
-      "time": "560h",
-      "url": "https://www.youtube.com/watch?v=L4RmDOO6VxA"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -788,72 +777,6 @@
       "summary": "¿Claude Code pierde el contexto de tus proyectos? 🫣 💡 Una forma de solucionarlo es combinar Claude Code + Obsidian y crear una especie de “segundo cerebro”",
       "time": "576h",
       "url": "https://www.youtube.com/shorts/2fzYgf0HR3I"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Bonsai 2 27B 🚀 el Modelo de IA que Pesa MUCHO Menos y NO Pierde Inteligencia",
-      "summary": "Descubre el nuevo Bonsai 2 27B, un modelo de IA revolucionario que logra reducir drásticamente su tamaño sin sacrificar la inteligencia. En este video",
-      "time": "568h",
-      "url": "https://www.youtube.com/watch?v=hOd3QPtikVI"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Mejor que GPT 6 🚀 Automatiza con Modelos LOCALES en Python",
-      "summary": "Descubre cómo lograr un rendimiento mejor que GPT 6 con Harness utilizando modelos de lenguaje locales en Python. En este video, te enseño cómo optimizar la",
-      "time": "571h",
-      "url": "https://www.youtube.com/watch?v=Odk17Xwf5tQ"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Cuantización Extrema de Qwen 3.8 Flash Next 🚀 ¿Mantiene la CALIDAD en Hardware Limitado?",
-      "summary": "En este video exploramos la Cuantización Extrema de Qwen 3.8 Flash Next para comprobar si es posible mantener la calidad de un modelo de gran escala en",
-      "time": "576h",
-      "url": "https://www.youtube.com/watch?v=nzsAJFW9rso"
-    },
-    {
-      "source": "Two Minute Papers",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Nueva Arquitectura Insana de DeepSeek",
-      "summary": "❤️ Revisa Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers 📝 El Flash Paper V4.1 de DeepSeek está disponible aquí:",
-      "time": "559h",
-      "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Las 7 SKILLS de ChatGPT Work que uso cada día (CÓPIALAS)",
-      "summary": "Crea tu web con Hostinger con Descuento con el código MIGUEBAENA10: https://www.hostg.xyz/SHK1r Todos los recursos del vídeo:",
-      "time": "573h",
-      "url": "https://www.youtube.com/watch?v=OmGhMDhHdkk"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Dream Air SE UNBOXING + SORPRESA 🤯",
-      "summary": "Hoy tenemos el unboxing de las PIMAX Dream Air SE, un dispositivo que por su precio podría competir perfectamente con las Steam Frame y superarlo en lo que se",
-      "time": "575h",
-      "url": "https://www.youtube.com/watch?v=TDQXY2dZxkQ"
     },
     {
       "source": "Xataka IA",

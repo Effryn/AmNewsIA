@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos encontramos con un panorama que mezcla innovación acelerada, decisiones corporativas controvertidas y preguntas sin respuesta sobre cómo realmente estamos usando la inteligencia artificial.\n\nEmpecemos por las noticias sobre modelos y capacidades. Anthropic ha logrado construir un modelo superior a sus versiones anteriores, pero con un giro inesperado: han decidido que el mundo no puede usarlo. Una decisión que contrasta fuertemente con la apuesta de Stripe, que ha invertido 7.000 millones de dólares en una tesis clara: no existirá nunca un único modelo de IA que sirva para todo. Dos visiones radicalmente diferentes sobre el futuro de la tecnología.\n\nEn cuanto a transparencia y seguridad, hay señales preocupantes. OpenAI ha disuelto el equipo responsable de evaluar los riesgos catastróficos de su inteligencia artificial. Simultáneamente, MIT Technology Review plantea una pregunta incómoda: realmente, nadie sabe cómo la gente está usando IA en su día a día.\n\nSobre privacidad y vigilancia, tenemos movimientos en diferentes direcciones. ChatGPT ha lanzado Computer History, una función que registra todo lo que haces en tu ordenador para que la IA mejore. Por otro lado, Cataluña ha utilizado cámaras con IA para detectar a miles de conductores usando el móvil. Y hay un detalle curioso: China está regulando las relaciones entre humanos e IAs, obligando a cortes en parejas donde uno de los miembros es una inteligencia artificial.\n\nEn el lado empresarial, HappyRobot, la startup de Guadalajara, ya ha alcanzado estatus de unicornio. Su promesa entusiasma a las empresas, aunque inquieta a los trabajadores. Globant, por su parte, propone la IA como soporte para aliviar la crisis de la sanidad española.\n\nLas noticias oscuras: Amazon está destruyendo miles de libros para entrenar sus modelos, y las brechas maliciosas mediadas por inteligencia artificial ya representan una cuarta parte de todos los ataques cibernéticos. Una cifra que debería preocuparnos.\n\nCierra este resumen una noticia más esperanzadora: el proyecto AC3 ha culminado exitosamente su plataforma inteligente Cloud-Edge, una herramienta que podría democratizar el acceso a capacidades avanzadas.\n\nEn síntesis: estamos en un momento de expansión acelerada donde la innovación es exponencial, pero las garantías de seguridad, privacidad y transparencia aún cojean. Eso es todo por hoy.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 81,
+    "new_articles": 80,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 51,
     "repos_count": 6,
-    "videos_count": 3,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -705,17 +705,6 @@
       "summary": "Google tiene microcursos gratis para aprender inteligencia artificial. 🤖📚 👉🏻 Se llaman AI Boost Bites y están disponibles dentro de Google Skills. • Puedes",
       "time": "1298h",
       "url": "https://www.youtube.com/shorts/yjzfTrjtO2o"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Google lo ha vuelto a hacer: 6 nuevas funciones de Gemini que puedes usar YA",
-      "summary": "Utiliza Hostinger Ecommerce. Cupón MIGUEBAENA10 https://www.hostg.xyz/aff_c?offer_id=48&amp;aff_id=206858&amp;url_id=6554 Prueba Omnisend con un 30% de",
-      "time": "1317h",
-      "url": "https://www.youtube.com/watch?v=Hc5JV_HdkIw"
     },
     {
       "source": "Xataka IA",

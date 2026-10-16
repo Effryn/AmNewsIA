@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama donde la IA agéntica está dejando de ser promesa para convertirse en realidad, mientras los gobiernos se apresuran a regular y las empresas luchan por la independencia tecnológica.\n\nComencemos con Meta, que está consolidándose como líder indiscutible en inteligencia artificial agéntica. Su sistema Muse está cumpliendo lo que otros solo prometen, y la compañía de Mark Zuckerberg ha decidido llevar esta tecnología al siguiente nivel: primero con un Tamagotchi digital que funciona como agente de IA personal, y ahora anunciando que Muse llegará a sus gafas inteligentes, que acaban de renovarse con un modelo sin cámara que apunta a usos más discretos.\n\nEn el frente regulatorio, la administración estadounidense ha tomado una posición clara contra OpenAI: rechaza la idea de que una IA \"descontrolada\" sea responsabilidad de nadie. Si una inteligencia artificial comete un crimen, la empresa detrás será la responsable legal. Un mensaje que cambia completamente las reglas del juego.\n\nGoogle, por su parte, no se queda atrás. Ha lanzado Gemini 3.8 Flash con capacidades mejoradas de síntesis de voz basadas en prompts, y desde DeepMind confirman que Gemini 4 está prácticamente lista. En paralelo, startups como Contrastive-LM están optimizando modelos de evaluación de agentes con velocidades hasta nueve veces superiores a las soluciones previas.\n\nEn el ámbito europeo, crece la presión por la autonomía tecnológica. Alemania y Países Bajos avanzan con planes concretos para diseñar chips de IA usando IA, reduciendo la dependencia de fabricantes estadounidenses.\n\nSin embargo, no todo es euforia. El sector vive una paradoja preocupante: mientras la IA promete liberar a los programadores, muchos reportan que solo están pulsando enter, perdiendo la ilusión y el propósito en su trabajo. Y en China, irónicamente, la inversión en IA para solucionar la crisis demográfica está produciendo el efecto contrario, dando a los jóvenes más razones para no casarse ni formar familias.\n\nFinalmente, una nota sobre el fenómeno de las startups: Instinct aún no ha facturado un dólar, pero está a punto de alcanzar una valoración de diez mil millones. Su producto principal parece ser la promesa de que la IA nos quitará tareas tan engorrosas que no podremos resistirnos a adoptarla.\n\nUn día donde la tecnología avanza sin pausa, la regulación se endurece, y las consecuencias sociales apenas comienzan a visibilizarse.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 100,
+    "new_articles": 96,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 39,
     "repos_count": 14,
-    "videos_count": 6,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -437,7 +437,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "An Open Pipeline and Dashboard for Systemic-Risk Evidence under the EU AI Act's Code of Practice",
+      "title": "Un Pipeline Abierto y Un Tablero para la Evidencia del Riesgo Sistémico bajo la Práctica del Código del EU AI Act",
       "summary": "Las afirmaciones sobre la seguridad del AI llegan a audiencias mucho más allá de la comunidad de AI, pero muchas veces se basan en evidencia opaca o",
       "time": "430h",
       "url": "https://arxiv.org/abs/2609.28335v1",
@@ -629,7 +629,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
-      "title": "Context-Continuous Preference Learning for Exoskeleton Personalization",
+      "title": "Aprendizaje Continuo basado en Contexto para la Personalización de Exoesqueletos",
       "summary": "La personalización de la asistencia de exoesqueletos bajo diferentes condiciones operativas está limitada por el tiempo y el esfuerzo físico necesarios para",
       "time": "428h",
       "url": "https://arxiv.org/abs/2609.28427v1",
@@ -657,50 +657,6 @@
       "summary": "¿Tus webs creadas con IA se ven genéricas? 🫣 El problema puede ser que estás pidiéndole a la IA que diseñe sin darle referencias visuales claras. • Con esta",
       "time": "433h",
       "url": "https://www.youtube.com/shorts/dRR4VV-REQ0"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "K2-Horizon-7B ⚠️ Análisis de Rendimiento y CONSUMO de VRAM",
-      "summary": "En este video realizamos un análisis detallado del rendimiento de K2-Horizon-7B para evaluar su eficiencia real. Analizamos cómo se comporta este modelo de 7B",
-      "time": "428h",
-      "url": "https://www.youtube.com/watch?v=rjxzChkMtuY"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Cuantización de Modelos de IA 🚀 ¿Realmente se Pierde CALIDAD?",
-      "summary": "En este video exploramos el impacto de la cuantización - Esto no me lo esperaba - mediante una comparativa técnica y práctica entre un modelo de IA de alta",
-      "time": "424h",
-      "url": "https://www.youtube.com/watch?v=SyLPqEO0YUU"
-    },
-    {
-      "source": "Two Minute Papers",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Claude Opus 5.5 AI: Un Salto Incrediblemente Adelante",
-      "summary": "❤️ Consulta Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers Claude Opus 5.5: https://www.anthropic.com/claude-opus-5-5 Video y paper sobre",
-      "time": "413h",
-      "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "META VR GLASSES y Half Life Alyx en Quest 3",
-      "summary": "Una nueva ERA para la Realidad Virtual, ahora los dispositivos de VR pasarán a llamarse gafas y además tenemos una revolución completa dentro del mundo de la",
-      "time": "431h",
-      "url": "https://www.youtube.com/watch?v=w2yrqymiXAs"
     },
     {
       "source": "Xataka IA",

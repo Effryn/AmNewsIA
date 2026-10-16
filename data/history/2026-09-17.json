@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama fascinante donde la industria de la IA se divide en tres estrategias completamente distintas.\n\n**Seguridad y confianza como negocio**\n\nMark Zuckerberg ha encontrado su propia vía mientras el debate se polariza entre quienes piden frenar la IA y quienes aceleran sin límites. Su apuesta es clara: vender seguridad. Por su parte, Sam Altman de OpenAI reconoce que \"el mundo tiene razón al tener miedo de la IA\", pero su solución es que confiemos en quienes la construyen. En paralelo, OpenAI ha lanzado un marco de divulgación de desalineación de modelos con tres vías de revisión y seis reportes de incidentes desde entrenamientos con aprendizaje reforzado. La transparencia, al menos en el papel, se convierte en moneda de cambio.\n\n**Una IA diferente: menos es más**\n\nUn aspecto curioso viene de uno de los creadores de ChatGPT: una IA que no sabe escribir. Suena contradictorio, pero ahí está precisamente su ventaja competitiva. Una idea que abre nuevas posibilidades en nichos específicos.\n\n**OpenAI reimagina la publicidad**\n\nOpenAI también publica reflexiones sobre cómo la IA está redefiniendo el mundo de la publicidad, anticipando cambios disruptivos en este sector.\n\n**Agentes de IA: la nueva frontera**\n\nVarios gigantes avanzan en la implementación de agentes autónomos. Stanford ha lanzado Paper2Agent, convirtiendo papers de investigación en agentes de IA que reproducen resultados y funcionan con nuevos datos. Workiva presenta Agent Studio, y Google ya permite que cualquier agente de IA controle tu hogar inteligente. Esta democratización de los agentes marca un cambio fundamental en cómo interactuamos con la tecnología.\n\n**El hogar conectado habla español**\n\nDesde LG, su directivo Noh Beom-jun describe una visión provocadora: \"El futuro del hogar conectado no es instalar otra app más, es hablarle a tu casa por Telegram\". Una perspectiva que promete simplificar radicalmente la experiencia del usuario.\n\n**La guerra de las herramientas de productividad**\n\nClaude contraataca a Gemini lanzando sus propias versiones de Docs y Slides. Google Research, mientras tanto, presenta Retrieve-for-Train, un sistema que acelera consultas entre 12 y 20 veces. Y Snap no se queda atrás, lanzando una nueva herramienta de IA para sus Specs, disponible ya en iOS y Mac.\n\n**Conclusión**\n\nLa semana consolida un patrón: la IA deja de ser un tema abstracto para convertirse en infraestructura operativa en hogares, oficinas y negocios. La pregunta ya no es si llegará, sino cómo gobernarla.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 97,
+    "new_articles": 95,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 60,
     "repos_count": 4,
-    "videos_count": 4,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -777,17 +777,6 @@
       "arxiv": "2609.18920v1"
     },
     {
-      "source": "Gentleman Programming",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Ventana de contexto en inteligencia artificial: por qué llenarla sale mal",
-      "summary": "Gentleman Programming | Ventana de contexto | Ventana de contexto en inteligencia artificial: que la mesa sea grande no significa que tengas que llenarla.",
-      "time": "598h",
-      "url": "https://www.youtube.com/watch?v=RE_Sd5BxzDo"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -808,17 +797,6 @@
       "summary": "<p> <img",
       "time": "599h",
       "url": "https://www.xataka.com/robotica-e-ia/para-zuckerberg-seguridad-ia-no-freno-argumento-venta-anthropic-openai"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.6 35B vs Tiel Coder 35B ⚖️ ¿Cuál es REALMENTE mejor para Programar?",
-      "summary": "En este video comparamos el rendimiento de Qwen3.6 35B vs Tiel Coder 35B para determinar cuál es la mejor opción para programar. Analizamos si las",
-      "time": "597h",
-      "url": "https://www.youtube.com/watch?v=GTIQ-4s2Dco"
     },
     {
       "source": "Xataka IA",

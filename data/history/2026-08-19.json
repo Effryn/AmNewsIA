@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfocamos en infraestructura, regulación y monetización en el sector de la IA.\n\n**Infraestructura y Capacidad**\n\nComenzamos con una noticia de envergadura global: China ha completado la construcción del mayor edificio del mundo dedicado exclusivamente a centros de datos de IA. Esta megaestructura tiene capacidad para albergar hasta un millón de aceleradores bajo un único techo. En paralelo, reportes indican que los hiperescaladores mundiales tienen miles de chips de IA sin desempacar en sus instalaciones. No se trata de ineficiencia, sino de una realidad operativa: los centros de datos no se construyen de la noche a la mañana. La infraestructura física sigue siendo el cuello de botella en la carrera por capacidad de procesamiento. Sumado a esto, Eaton y Trane Technologies han anunciado una alianza estratégica para avanzar en soluciones de infraestructura para fábricas de IA, reconociendo que los desafíos de refrigeración y eficiencia energética son críticos.\n\n**Monetización de Plataformas**\n\nOpenAI continúa expandiendo sus iniciativas comerciales. ChatGPT con anuncios llegará a España el próximo lunes 24 de agosto, ampliando su presencia en mercados europeos. Esta estrategia de monetización a través de publicidad se ha consolidado como modelo viable, complementando las suscripciones premium.\n\n**Seguridad, Gobernanza y Capacidades**\n\nEn el terreno regulatorio, OpenAI ha publicado un artículo sobre el fortalecimiento de la supervisión democrática en seguridad nacional, señalando que los gobiernos deben participar activamente en la governance de sistemas de IA críticos.\n\nEn cuanto a capacidades técnicas, Claude ahora puede enviar correos de Gmail sin requerir permiso explícito cada vez, lo que simplifica la experiencia de usuario pero abre debates sobre privacidad y control. Por otro lado, Snowflake automatiza la selección de modelos de IA para optimizar costes, permitiendo que las empresas elijan automáticamente el modelo más eficiente para cada tarea.\n\nFinalmente, Hugging Face ha publicado investigaciones sobre optimización de memoria en agentes de IA, un tema crucial para hacer estos sistemas más accesibles y prácticos en producción.\n\nEn resumen: la carrera por infraestructura continúa, la monetización avanza en nuevos territorios, y la sofisticación técnica de estas herramientas crece exponencialmente. Gracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 95,
+    "new_articles": 93,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 54,
     "repos_count": 11,
-    "videos_count": 3,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -799,28 +799,6 @@
       "summary": "¿Tus infografías todavía son imágenes estáticas? 🤔 Puedes convertirlas en contenido animado con inteligencia artificial en solo 2 pasos.👇🏻 1️⃣ Usa Gemini para",
       "time": "1273h",
       "url": "https://www.youtube.com/shorts/e2AaClbJj1Q"
-    },
-    {
-      "source": "Two Minute Papers",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "DeepSeek Acaba de Hacer que el IA Cerrado Parezca Ridículo",
-      "summary": "❤️ Revisa Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers DeepSeek V4 Pro 0813: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813 DSpark",
-      "time": "1268h",
-      "url": "https://www.youtube.com/watch?v=kyYepbhe1g8"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "¿Qué pasará con Quest 4? Estado ACTUAL de la VR en 2026",
-      "summary": "La VR siempre es el centro de mucha critica pero ¿Es todavía una tecnología prometedora? ¿En que estado se encuentra la Realidad Virtual en 2026? 🛒 Tiendas y",
-      "time": "1295h",
-      "url": "https://www.youtube.com/watch?v=BdXLN_Vxiqo"
     },
     {
       "source": "Xataka IA",

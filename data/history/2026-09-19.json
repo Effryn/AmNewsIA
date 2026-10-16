@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfocamos en tres áreas clave que están transformando el ecosistema de la inteligencia artificial: los agentes personales, la optimización de modelos y los desafíos regulatorios.\n\nComenzamos con un movimiento significativo en los asistentes de IA personalizados. Meta ha lanzado Muse para Mac, un agente de inteligencia artificial diseñado para trabajar de manera integrada con tus archivos, correo, mensajes, calendario y notas. Este tipo de herramientas marcan la tendencia hacia una IA más contextual y conectada con nuestro ecosistema digital cotidiano.\n\nEn paralelo, el sector de la optimización de modelos está experimentando un dinamismo notable. PrismML ha presentado Ternary Bonsai 2, un modelo de 27 mil millones de parámetros que ocupa apenas 5.9 gigabytes y retiene el 98.2 por ciento del desempeño del Qwen 3.8 original. Además, SpaceX AI ha mejorado significativamente su API de transcripción con Grok Voice Transcribe 2.0, duplicando la precisión respecto a su versión anterior y manteniendo un costo de diez centavos por hora. Jina AI también suma a esta tendencia con su analizador de documentos jina-ocr-v1, un modelo de 3.4 mil millones de parámetros que incorpora decodificación especulativa, permitiendo su uso incluso en GPUs de presupuesto limitado.\n\nEstas optimizaciones reflejan una industria enfocada en democratizar la IA, haciendo modelos más eficientes y accesibles. También hay novedades en embeddings con SPARSEUP, un modelo abierto de 149 millones de parámetros para búsqueda de información.\n\nAhora bien, en China se ha cruzado un hito relevante: la IA no solo genera videos individuales, sino que acaba de producir una serie completa. Esto amplifica las preguntas sobre las implicaciones creativas de estas tecnologías.\n\nFinalmente, los desafíos normativos se intensifican. Microsoft describió internamente el uso de artículos de prensa para entrenar IA como \"el mayor robo laboral de la historia\". Simultáneamente, investigadores de seguridad utilizaron Claude para penetrar sistemas de OpenAI, evidenciando vulnerabilidades. Los reguladores enfrentan preguntas complejas: ¿necesita la IA una exención antimonopolio? ¿Qué ocurre cuando OpenAI y Microsoft reconocen haber iniciado un \"ciclo de perdición\" para la web?\n\nEstos temas convergen en un punto crucial: la industria avanza rápidamente en capacidades técnicas mientras la sociedad aún debate los marcos regulatorios y éticos necesarios.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 35,
+    "new_articles": 31,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "21 min",
     "audio_duration": "2:37",
     "key_count": 3,
-    "papers_count": 3,
+    "papers_count": 2,
     "repos_count": 10,
-    "videos_count": 4,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -163,17 +163,6 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Razonamiento Social Verificable para Asistentes de LLM",
-      "summary": "Los asistentes LLM se utilizan ampliamente para consejos sociales diarios, pero evaluar su razonamiento social en tales entornos de consulta resulta",
-      "time": "642h",
-      "url": "https://huggingface.co/papers/2609.17496"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
       "title": "Muestra de Conteo No Es Suficiente: Estrategia de Generación de Candidatos Crea el Energía y el Desempeño del Escalado en Tiempo de Prueba de los LLM",
       "summary": "El escalado en tiempo de prueba puede mejorar el razonamiento de los modelos de lenguaje grandes al generar y combinar múltiples respuestas candidatas. En los",
       "time": "618h",
@@ -189,39 +178,6 @@
       "summary": "Deja de copiar y pegar datos de Internet manualmente. 😮‍💨 📌 Con ScrapeGraphAI puedes extraer información de páginas web utilizando lenguaje natural. • Por",
       "time": "551h",
       "url": "https://www.youtube.com/shorts/BS99ZUYI0c0"
-    },
-    {
-      "source": "Gentleman Programming",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Inteligencia artificial sin sobreingeniería: por qué creé Gentle AI (curso)",
-      "summary": "Gentleman Programming | Gentle AI | Inteligencia artificial sin sobreingeniería: por qué creé Gentle AI y curso completo actualizado. Qué es, para quién es,",
-      "time": "528h",
-      "url": "https://www.youtube.com/watch?v=mjG1w1RjDKg"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "NeoHorse-1-4B es prometedor 🤖 ¿Realmente mejora al Qwen 3.5 4B?",
-      "summary": "Analizamos si NeoHorse-1-4B es prometedor tras su reciente lanzamiento como un fine-tuning especializado del modelo Qwen 2.5 4B. En este video ponemos a prueba",
-      "time": "552h",
-      "url": "https://www.youtube.com/watch?v=HahjBkz-0eY"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Prueba exhaustiva de Bonsai 2 27B",
-      "summary": "✅ Canal WhatsApp: https://www.whatsapp.com/channel/0029VbCR3SKId7nGTWkmFE0w Contacto: nichonauta@gmail.com Sitio web: nichonauta.com",
-      "time": "544h",
-      "url": "https://www.youtube.com/watch?v=hNRMVLejcEg"
     },
     {
       "source": "MarkTechPost",

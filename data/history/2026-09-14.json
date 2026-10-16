@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy analizamos un panorama de la IA que se debate entre dos fuerzas opuestas: la presión por frenar el avance y la realidad de que nadie quiere ser el primero en hacerlo.\n\nComencemos con el tema de gobernanza y regulación. Anthropic ha presentado un plan de tres pasos llamado \"Pace the Frontier\" que ha ganado el respaldo de OpenAI, xAI y Microsoft. La propuesta intenta establecer un ritmo más controlado en el desarrollo de IA, pero como señala un análisis de Xataka, el problema es evidente: todos quieren que alguien frene, pero nadie confía lo suficiente en los demás como para ser el primero en hacerlo. Es el dilema clásico del prisionero aplicado a la carrera tecnológica más importante de nuestro tiempo.\n\nEn paralelo, Dario Amodei, CEO de Anthropic, ha lanzado una provocadora pregunta: \"¿Por qué esto no lo está construyendo el Gobierno?\" Amodei argumenta que la IA es demasiado importante para dejarla únicamente en manos privadas. Una postura que contrasta con la posición del sector empresarial, aunque reconoce una verdad incómoda sobre la concentración del poder tecnológico.\n\nEn cuanto a los desarrollos técnicos, OpenAI ha anunciado que Perplexity utilizará GPT-6 Astra para sistemas end-to-end, marcando un hito en la integración de modelos avanzados. NVIDIA, por su parte, ha abierto el código de OSMO, una herramienta que orquesta el entrenamiento de IA física, simulación y pruebas de robots mediante un único archivo YAML. Un movimiento significativo hacia la democratización de las herramientas de IA.\n\nEn investigación de frontera, un equipo de Princeton propone el Recurrent Looped Transformer, una arquitectura que mantiene el estado del decodificador a través de cada token, potencialmente superando limitaciones actuales de profundidad temporal. También destaca el trabajo en Hierarchical NeRF con JAX3D para síntesis de vistas novedosas y reconstrucción 3D.\n\nEn infraestructura, el mercado de semiconductores reportó ingresos superiores a 750 mil millones de dólares en la primera mitad del año. Una cifra que refleja la voracidad de la demanda de chips para entrenar modelos de IA.\n\nFinalmente, Donald Trump y Mike Johnson han criticado lo que consideran una reacción exagerada de la industria de IA, sugiriendo que el establishment político aún no ha interiorizado la magnitud del cambio en marcha.\n\nEn resumen: regulación sin confianza, innovación sin pausa, y una tensión creciente entre gobiernos e industria sobre quién debe controlar esta tecnología.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 43,
+    "new_articles": 40,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 24,
     "repos_count": 7,
-    "videos_count": 3,
+    "videos_count": 0,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -334,7 +334,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Continue, Adapt, or Yield: In-Turn Adaptation to Overlapping Speech in Full-Duplex Agents",
+      "title": "Continúe, adapte o ceda: Adaptación en turno a la habla superpuesta en agentes de doble sentido completo",
       "summary": "Full-duplex evaluation often emphasizes whether an agent keeps speaking or stops. That binary cannot express a third response humans use routinely: continuing",
       "time": "716h",
       "url": "https://arxiv.org/abs/2609.13117v1",
@@ -387,39 +387,6 @@
       "time": "718h",
       "url": "https://arxiv.org/abs/2609.12960v1",
       "arxiv": "2609.12960v1"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "El nuevo DeepSeek Harness es MUY BESTIA: ¿Mejor que Claude Code y Codex?",
-      "summary": "Prueba Evox Agent: https://evomap.ai/evox/beta?utm_source=32364622&amp;utm_campaign=kol&amp;utm_content=migue_baena_ia #evoxagent #evomap #aiagent Guía con",
-      "time": "669h",
-      "url": "https://www.youtube.com/watch?v=ZBSHJ7GtiPo"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Así corregí Qwen 3.5 2B 🛠️ la Solución a las REPETICIONES sin Fine-tuning",
-      "summary": "En este video te enseño cómo logré la solución a las repeticiones de Qwen 3.5 2B sin necesidad de recurrir al complejo proceso de fine-tuning. Si utilizas este",
-      "time": "669h",
-      "url": "https://www.youtube.com/watch?v=OSv6Lny0rV4"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "NUEVO VIDEO FILTRADO de Quest Air ⚠️",
-      "summary": "LLega septiembre y tenemos un monton de filtraciones. Por un lado a Linus Tech se le filtra el unboxing e impresiones de las Steam Frame y por otro lado,",
-      "time": "671h",
-      "url": "https://www.youtube.com/watch?v=Z9cDDZcsNI4"
     },
     {
       "source": "Xataka IA",

@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy cubrimos la aceleración tecnológica que vive el sector de inteligencia artificial, con movimientos estratégicos que redefinen el mercado global.\n\nComenzamos con la **competencia internacional en modelos de IA**. DeepSeek continúa ganando terreno con su V4 Pro, demostrando que la carrera por la supremacía en inteligencia artificial no es exclusiva de los gigantes occidentales. Simultáneamente, Microsoft lanza una nueva herramienta para programadores que promete ser más rápida y económica que Claude Code, intensificando la presión competitiva en el segmento de desarrollo de software.\n\nEn paralelo, **Anthropic implementa nuevas medidas de seguridad**. Claude ya marca automáticamente todo el texto generado con una marca de agua para detectar contenido generado por IA. Sin embargo, emerge un debate incómodo: la comunidad ya busca formas de eliminar estas marcas, recordándonos que cualquier sistema detectable puede potencialmente ser eludido. Una carrera entre protección y evasión que apenas comienza.\n\nEn **infraestructura y hardware**, observamos tensiones significativas. Los precios de RAM han alcanzado máximos históricos, multiplicándose por cinco respecto a hace un año, complicando la accesibilidad a sistemas de alto rendimiento. Paradójicamente, mientras tanto, conectores tecnológicos como el de hace 40 años siguen dominando en computadores modernos, mostrando la inercia del hardware legacy.\n\nElon Musk anuncia su **proyecto Terafab**, una estructura que sería la más grande del planeta si se concreta. El énfasis en ese \"si\" es crucial: en un ecosistema donde los anuncios superan frecuentemente a los resultados, la cautela es prudente.\n\nEn política y regulación, OpenAI publica nuevas propuestas de política pública para la Era de la Inteligencia, reconociendo que las máquinas ya no son solo herramientas técnicas, sino actores con implicaciones sociales profundas. Esta reflexión se amplifica cuando consideramos preguntas incómodas: ¿qué sucede cuando la IA se convierte en compañía emocional de menores? MIT Technology Review plantea exactamente eso con su análisis sobre robots que se convierten en amigos de niños.\n\nFinalmente, cerramos con dos desafíos sistémicos. La **ciberdelincuencia** se ha convertido en una economía criminal globalizada sofisticada, mientras que el **impacto ambiental** de la inteligencia artificial representa un reto de sostenibilidad que la industria apenas comienza a dimensionar.\n\nUn día más donde la innovación tecnológica avanza a velocidades vertiginosas, pero donde las preguntas sobre seguridad, equidad y sostenibilidad aún no encuentran respuestas satisfactorias.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 106,
+    "new_articles": 85,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "64 min",
     "audio_duration": "2:41",
     "key_count": 3,
-    "papers_count": 56,
+    "papers_count": 55,
     "repos_count": 15,
-    "videos_count": 23,
+    "videos_count": 3,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -315,17 +315,6 @@
       "summary": "El optimizador Muon incurre en un costo significativo de sobrecarga debido a su paso de ortogonalización de tiempo cúbico Newton-Schulz. Cuando los pesos se",
       "time": "1458h",
       "url": "https://huggingface.co/papers/2608.11612"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
-      "title": "Modelos de Lenguaje con Exposición Cognitiva Controlada por la Pedagogía",
-      "summary": "Los modelos de lenguaje modernos se entrenan en corpora de texto a gran escala y heterogéneos de internet. Como resultado, estudiar el adquirir conocimientos y",
-      "time": "1434h",
-      "url": "https://huggingface.co/papers/2608.13545"
     },
     {
       "source": "Hugging Face — Daily Papers",
@@ -858,17 +847,6 @@
       "arxiv": "2608.14443v1"
     },
     {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "IA LOCAL de 27B en una RTX 3080 ¿adiós ChatGPT?",
-      "summary": "¿Es posible sustituir ChatGPT por una IA local funcionando en una RTX 3080 de solo 10 GB? En este vídeo pongo a prueba Ternary Bonsai 27B con casos de uso",
-      "time": "1967h",
-      "url": "https://www.youtube.com/watch?v=C6WhzKJNTyM"
-    },
-    {
       "source": "Gentleman Programming",
       "source_type": "youtube",
       "lang": "es",
@@ -878,138 +856,6 @@
       "summary": "Objetivos acotados, mínimos permisos, human in the loop. Vos sos OpenAI en chiquito y a vos no te salva un comunicado. #IA #Agentes #Shorts",
       "time": "1339h",
       "url": "https://www.youtube.com/shorts/qwU_BgV4qrM"
-    },
-    {
-      "source": "Gustavo Entrala",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Nadie creerá que la IA empezó siendo GRATIS",
-      "summary": "CyberGhost VPN es la mejor opción para PROTEGER TUS DATOS y NAVEGAR DE FORMA SEGURA. 👉Por sólo €2.03 al mes y con 4 meses GRATIS:",
-      "time": "3573h",
-      "url": "https://www.youtube.com/watch?v=ZsKszAkq0jI"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.8 27B - El REY de la IA LOCAL",
-      "summary": "Qwen 3.8 27B acaba de llegar para destronar a todos los modelos actuales de Inteligencia Artificial Local, incluso se permite el lujo de comprarse con Claude",
-      "time": "1342h",
-      "url": "https://www.youtube.com/watch?v=KZ6CYhSukuA"
-    },
-    {
-      "source": "Gustavo Entrala",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Por qué CHINA regala su IA al mundo",
-      "summary": "Tus ideas siguen siendo tuyas. Prueba Lumo gratis 👉 https://www.proton.me/lumo/gustavoentrala ======================================================= ¿Está",
-      "time": "1773h",
-      "url": "https://www.youtube.com/watch?v=PHeOe18bPuY"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "MUSE GLIMMER: META acaba de liberar un 30B para IA LOCAL - Primeras Pruebas",
-      "summary": "✉️ Grupo de Telegram: https://t.me/iaporuntubo Meta acaba de liberar Muse Glimmer 30B, un nuevo modelo abierto pensado para ejecutar IA localmente en hardware",
-      "time": "1463h",
-      "url": "https://www.youtube.com/watch?v=Z5aduyXzN_8"
-    },
-    {
-      "source": "Gustavo Entrala",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "El PAPA frente a la IA: su plan para proteger a la HUMANIDAD",
-      "summary": "Tus ideas siguen siendo tuyas. Prueba Lumo gratis 👉 http://www.proton.me/lumo/gustavoentrala ======================================================= ¿Qué dice",
-      "time": "2397h",
-      "url": "https://www.youtube.com/watch?v=RnFdEGGPyE4"
-    },
-    {
-      "source": "Gustavo Entrala",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "CHINA hizo grande a APPLE. APPLE hizo de CHINA una SUPERPOTENCIA.",
-      "summary": "👉 Consulta aquí la Biblioteca de recursos para equipos de Marketing y Ventas https://clickhubspot.com/08110e",
-      "time": "3908h",
-      "url": "https://www.youtube.com/watch?v=JjwHFerSu4M"
-    },
-    {
-      "source": "Gustavo Entrala",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Historia de ANTHROPIC, el nuevo líder mundial de la IA",
-      "summary": "¿Cansado de perder horas en tareas repetitivas? Deja que la nueva IA de Odoo trabaje por ti. ¡Pruébala 15 días gratis aquí: https://www.odoo.com/r/gmfj",
-      "time": "3117h",
-      "url": "https://www.youtube.com/watch?v=n6oW7Y7io0Y"
-    },
-    {
-      "source": "Gustavo Entrala",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "La RAZÓN REAL por la que Anthropic NO SE ATREVE A LANZAR su nueva IA",
-      "summary": "CyberGhost VPN es la mejor opción para PROTEGER TUS DATOS y NAVEGAR DE FORMA SEGURA. 👉Por sólo €2.03 al mes y con 4 meses GRATIS:",
-      "time": "4412h",
-      "url": "https://www.youtube.com/watch?v=v47Z61vTKLQ"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "HALO 3 en VR y una sorpresa para Quest",
-      "summary": "Tenemos muchas noticias que comentar, más movimiento hacia dispositivos con Inteligencia Artificial por parte de las compañías, HALO 3 VR diseñado y escrito",
-      "time": "1919h",
-      "url": "https://www.youtube.com/watch?v=iQGkaMS7H4A"
-    },
-    {
-      "source": "Gustavo Entrala",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "La IA ha dado el GRAN SALTO y casi nadie se ha enterado",
-      "summary": "🎓 Curso GRATIS de IA 🤖 (1, 2 y 3 de septiembre) 📅 con Jon Hernández. Aprende a utilizar el nuevo ChatGPT 🚀 y consigue tu certificado 👉",
-      "time": "1388h",
-      "url": "https://www.youtube.com/watch?v=T-X4svhiVpk"
-    },
-    {
-      "source": "Gustavo Entrala",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Por qué SAM ALTMAN quiere IMPEDIR que veamos esta película",
-      "summary": "🚀 Descarga gratis el reporte 2026 de HubSpot y descubre cómo los líderes obtienen resultados reales con la IA: https://clickhubspot.com/26f6b8",
-      "time": "2109h",
-      "url": "https://www.youtube.com/watch?v=d-zacqqP9dk"
-    },
-    {
-      "source": "Gustavo Entrala",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qué ocurre cuando una empresa funciona solo con IAs",
-      "summary": "👉 Descarga aquí tu Plantilla de Plan de Marketing gratuita: https://clickhubspot.com/3387ca ======================================================= ¿Es posible",
-      "time": "2781h",
-      "url": "https://www.youtube.com/watch?v=4AJPafs4rpk"
     },
     {
       "source": "Migue Baena IA",
@@ -1032,83 +878,6 @@
       "summary": "",
       "time": "1329h",
       "url": "https://www.youtube.com/shorts/CMbWaT8MTBo"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "🔴DIRECTO - VR Games Showcase 2026 - Agosto",
-      "summary": "💯 Únete como miembro de YouTube y obtén ventajas exclusivas 👉 https://www.youtube.com/channel/UCGn6BqOTYWAutJOf9cry-pw/join 🏪 Tienda de adaptadores impresos en",
-      "time": "1399h",
-      "url": "https://www.youtube.com/watch?v=q8sBmaj--zo"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "MEJORA del VIRTUAL DESKTOP por USB DIRECTO a las QUEST 3 en BETA",
-      "summary": "🛒 VIRTUAL DESKTOP con un 10% para Meta Quest 👉 https://www.meta.com/affiliates/5QZNUpx4Y Tenemos un montón de noticias interesantes sobre VR y las Meta Quest",
-      "time": "1510h",
-      "url": "https://www.youtube.com/watch?v=Eo-dcmj0PKc"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "HOMELAB de IA con DOBLE GPU ¡MAXIMA POTENCIA!",
-      "summary": "Mi HOMELAB de IA ha recibido una gran actualización con una configuración de doble GPU, permitiéndome ejecutar modelos de hasta 35B de forma totalmente local,",
-      "time": "1582h",
-      "url": "https://www.youtube.com/watch?v=ti5T8HqFXHM"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Cyberpunk 2077 en VR ya es una LOCURA... y no viene solo",
-      "summary": "Ya tenemos el HorizonOS 2.7 en el PTC con algunas novedades, también sabemos cosas de Steam Frame que no nos van a gustar, nuevos mods para VR impresionantes y",
-      "time": "1631h",
-      "url": "https://www.youtube.com/watch?v=NYpkopAEBpA"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Lo más BESTIA de la Realidad Virtual",
-      "summary": "Hoy os cuento las principales diferencias entre todos estos monstruos de la Realidad Virtual. Quest 3, Pimax Crystal Light, Crystal Super y Dream Air ¿Cuál",
-      "time": "1799h",
-      "url": "https://www.youtube.com/watch?v=mhlNcF-gjn4"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "PIMAX Dream Air REVIEW",
-      "summary": "PIMAX Dream Air uno de los mejores visores de Realidad Virtual de la compañía. En este caso hacemos la review de la versión Lighthouse, revisamos sus",
-      "time": "2087h",
-      "url": "https://www.youtube.com/watch?v=ww0HM1unUiE"
-    },
-    {
-      "source": "Gustavo Entrala",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "La amenaza CUÁNTICA que puede romper la seguridad de Internet",
-      "summary": "🚀 Lleva tu estrategia al siguiente nivel descargando el informe exclusivo de HubSpot sobre IA y Go-To-Market este 2026: https://clickhubspot.com/5a8324",
-      "time": "3285h",
-      "url": "https://www.youtube.com/watch?v=IbZLGOMRNs0"
     },
     {
       "source": "Xataka IA",

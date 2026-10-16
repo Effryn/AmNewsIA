@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama de IA marcado por tres grandes tensiones: la seguridad, la carrera comercial y la consolidación de liderazgos regionales.\n\nEmpecemos por lo más preocupante. La seguridad se ha convertido en el talón de Aquiles de la revolución tecnológica. Los gadgets inteligentes son ahora más hackeables que nunca, y existe una IA específica que se ha convertido en la favorita de los ciberdelincuentes para ejecutar ataques. No es Claude. Mientras tanto, WhatsApp intenta reforzar sus defensas eliminando el PIN de seis dígitos e introduciendo nuevas capas de seguridad. La pregunta del millón: ¿llegamos tarde?\n\nEn el frente de los modelos abiertos, IBM ha lanzado Granite 4.2, un modelo empresarial que ahora incorpora razonamiento nativo y aprendizaje reforzado para agentes de IA. En paralelo, Liquid AI ha liberado Pipette, una suite de benchmarking que permite medir modelos locales, cuantización y hardware en conjunto. Estas herramientas abren la puerta a una IA más descentralizada y eficiente.\n\nPero aquí viene lo revelador: Perplexity está distribuyendo computadoras portátiles con GPU NVIDIA DGX Spark con costo cero por token para procesamiento local. Es decir, algunos actores ya están preparando la infraestructura para una IA que funcione sin conexión permanente a servidores centralizados.\n\nEn cuanto al costo humano, los fundadores de startups de IA viven bajo presión extrema. Los agentes de IA nunca duermen, y tampoco lo hacen quienes los crean. Es como una droga, dicen. Mientras tanto, en Anthropic hacen preguntas muy incómodas en las entrevistas: qué harías si tu startup quebrara por negarse a construir IA peligrosa. Sin contraoferta.\n\nHardware-wise, Apple ha presentado los Mac mini M5 Pro y M6 con mejor rendimiento en IA, aunque el precio sube. NVIDIA, por su parte, está llevando los mejores juegos a Windows en ARM con RTX Spark.\n\nY finalmente, dos datos geopolíticos clave. Los envíos de robots humanoides se han triplicado este año, y las cinco empresas líderes son todas chinas. La próxima guerra digital, según los analistas, será entre herramientas de IA.\n\nEn síntesis: una IA más poderosa, pero menos segura; modelos más abiertos; infraestructura descentralizada en marcha; y liderazgo chino en robótica que no muestra signos de debilitamiento.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 106,
+    "new_articles": 94,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 65,
     "repos_count": 6,
-    "videos_count": 13,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -859,61 +859,6 @@
       "arxiv": "2608.24715v1"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "MCPs para LLM muy pequeños 🚀 Potencia tus Modelos Locales con Context 7 y Playwright",
-      "summary": "Aprende cómo potenciar tus modelos locales utilizando MCPs LLM muy pequeño para superar las limitaciones de conocimiento y ejecución. En este vídeo exploramos",
-      "time": "1149h",
-      "url": "https://www.youtube.com/watch?v=MeipNmJyWg0"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Probando Qwen3.8 Flash Next ⚡Arquitectura Qwen4",
-      "summary": "Probando Qwen3.8 Flash Next: hoy lo probamos en vivo. Qwen3.8 Flash Next es el nuevo modelo multimodal MoE de Qwen con pesos abiertos, y además un adelanto de",
-      "time": "1104h",
-      "url": "https://www.youtube.com/watch?v=gnh78rADPjc"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Desarrollo con Modelos IA Muy Pequeños 🚀 Cómo Programar con Gema 4 E2B y Qwen 3.5 2B",
-      "summary": "El desarrollo con modelos IA muy pequeños es una realidad sorprendente que permite programar con rapidez y eficiencia utilizando recursos locales. En este",
-      "time": "1176h",
-      "url": "https://www.youtube.com/watch?v=nDN9G6EsAfs"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Creé un modelo MoE 0.1B 🚀 Ultra RÁPIDO incluso en CPU",
-      "summary": "Creé MoE 0.1B y es increíblemente rápido, superando las expectativas de eficiencia en modelos de lenguaje pequeños. En este video, te muestro cómo he",
-      "time": "1112h",
-      "url": "https://www.youtube.com/watch?v=QZ18qtz9WJ8"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen3.8-27B ⚠️ ¿Conviene usarlo MUY Cuantizado en Hardware Limitado?",
-      "summary": "En este video analizamos si realmente conviene utilizar el modelo Qwen3.8-27B con una cuantización extrema para intentar ejecutarlo en hardware limitado.",
-      "time": "1168h",
-      "url": "https://www.youtube.com/watch?v=k3ebeIyazBI"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -923,83 +868,6 @@
       "summary": "Scott Wu pasó de ser un prodigio de las matemáticas a cofundar Cognition AI, la empresa detrás de Devin. 🤯 • Pero lo realmente interesante es lo que Devin",
       "time": "1105h",
       "url": "https://www.youtube.com/shorts/VbHMzFmEqMU"
-    },
-    {
-      "source": "Gentleman Programming",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Alucinaciones de IA durante el desarrollo: por qué pasan y la solución",
-      "summary": "Gentleman Programming | Alucinaciones de IA | Alucinaciones de IA durante el desarrollo: tu agente escribe código muy bien, pero a la hora de revisarlo te",
-      "time": "1103h",
-      "url": "https://www.youtube.com/watch?v=38Y1JWU-mdE"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Liquid AI QAD 🚀 Modelos ULTRA RÁPIDOS y con poco Consumo de VRAM",
-      "summary": "Descubre cómo funciona la tecnología Liquid AI QAD, una técnica revolucionaria de cuantización que permite ejecutar modelos de lenguaje ultra rápidos con un",
-      "time": "1184h",
-      "url": "https://www.youtube.com/watch?v=Ywet5Kh3dZs"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Hice mi MoE 🚀 Cómo Crear un Mezcla de Expertos LLM",
-      "summary": "En este video presento el lanzamiento de mi MoE, un proceso de conversión para transformar el modelo Qwen 3.5 en una arquitectura de Mezcla de Expertos",
-      "time": "1120h",
-      "url": "https://www.youtube.com/watch?v=aS8eLlm-vTM"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "GPU 40GB 🚀 Cómo usar tu GPU INTEGRADA para IA con llama.cpp",
-      "summary": "En este video te enseñamos cómo configurar una GPU 40GB utilizando tu GPU integrada para ejecutar modelos de inteligencia artificial con llama.cpp. Aprenderás",
-      "time": "1145h",
-      "url": "https://www.youtube.com/watch?v=4ZZT0ZTAJAI"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Descargar Qwen 4 MoE 🚀 Todo sobre la NUEVA Arquitectura y su Lanzamiento",
-      "summary": "Aprenderás todo lo necesario para descargar Qwen 4 MoE y cómo aprovechar su nueva arquitectura de última generación. En este video analizamos el lanzamiento",
-      "time": "1123h",
-      "url": "https://www.youtube.com/watch?v=Fuy_URUQErs"
-    },
-    {
-      "source": "Two Minute Papers",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "El Nuevo Sistema de IA de DeepSeek No Debería Ser Posible",
-      "summary": "❤️ Revisa Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers 📝 DeepSeek Harness + el paper están disponibles aquí: https://deepseek.com/harness/en/",
-      "time": "1105h",
-      "url": "https://www.youtube.com/watch?v=L9mMfAFwbl4"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Facebook MobileMoE 🚀 ¿Valen la pena estos Modelos de IA de Meta?",
-      "summary": "En este vídeo analizamos el nuevo lanzamiento de Facebook MobileMoE, una colección de modelos de IA optimizados para dispositivos móviles. Exploramos cómo Meta",
-      "time": "1125h",
-      "url": "https://www.youtube.com/watch?v=uD7S3YTyWjw"
     },
     {
       "source": "Xataka IA",
@@ -1150,7 +1018,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "How Loveholidays is making everyone a builder with Codex",
+      "title": "Cómo Loveholidays está haciendo que todos sean constructores con Codex",
       "summary": "Descubre cómo Loveholidays utiliza OpenAI Codex para hacer que el desarrollo de software sea accesible en toda la empresa, ayudando a los equipos a convertir",
       "time": "1118h",
       "url": "https://openai.com/index/loveholidays"

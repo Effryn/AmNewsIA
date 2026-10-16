@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfocamos en avances tecnológicos concretos, tensiones regulatorias y un debate crítico sobre la democratización de la IA.\n\nComenzamos con noticias de modelos especializados. Google Research ha publicado MSEB, una guía de codificación para escribir encoders de audio que se evalúan en tareas de clasificación, clustering, recuperación y segmentación. En paralelo, Sarvam AI ha lanzado Saaras V4, un modelo de voz a texto que cubre las 22 lenguas oficiales de India más inglés global. Y desde Supersonic Labs llega Julia 1, un modelo de decisión de 144 millones de parámetros optimizado para correr directamente en CPU, sin necesidad de GPUs costosas. Estos lanzamientos reflejan la especialización creciente de la IA más allá de los gigantes tecnológicos.\n\nEn el frente empresarial, hay un análisis crítico sobre agentes de IA para la empresa. La pregunta central: indemnización de propiedad intelectual, residencia de datos y comparativas de costos para equipos de 500 personas. Este es un tema que determina la velocidad de adopción real en corporaciones.\n\nAhora bien, hay un lado oscuro que merece atención. Una mansión en Silicon Valley donde se reúne la élite de la IA acumula ya 37 incidentes policiales. Esto refleja las tensiones sociales que rodean estos espacios de poder concentrado. Y más preocupante aún: la promesa original era que la IA democratizaría la creación de contenido. La realidad es distinta. Internet está volviendo a levantar puertas. Plataformas están implementando verificación de usuario, paywall y restricciones de acceso, en directa respuesta a la saturación de contenido generado por IA. En lugar de democratización, estamos viendo una recentralización del acceso y la confianza.\n\nFinalmente, OpenAI ha pausado el entrenamiento de sus modelos más capaces. Esta decisión, sin detalles públicos completos, llega en un momento de máxima tensión regulatoria global. Podría interpretarse como un movimiento preventivo ante presión de gobiernos y organismos de seguridad.\n\nEl panorama es entonces este: tenemos especialización técnica acelerada, implementación empresarial selectiva, pero también fragmentación del ecosistema y retorno a estructuras cerradas de acceso. La IA sigue avanzando, pero el sueño de democratización se desmorona.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 21,
+    "new_articles": 17,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 0,
     "repos_count": 7,
-    "videos_count": 5,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -111,17 +111,6 @@
       "stars": "0"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "MiniCPM5 1B como Agente de Desarrollo 🤖 ¿Vale la Pena para Programar?",
-      "summary": "En este video ponemos a prueba el modelo MiniCPM5 1B como agente de desarrollo para evaluar su capacidad en tareas de programación y ejecución de funciones.",
-      "time": "360h",
-      "url": "https://www.youtube.com/watch?v=mSqzvIh3OPA"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -131,39 +120,6 @@
       "summary": "¿Tus resultados con IA se siguen viendo genéricos? Esto te interesa. 👀⚠️ Prueba estas 4 herramientas para darle más contexto y mejores recursos a tu workflow.",
       "time": "338h",
       "url": "https://www.youtube.com/shorts/eSdY7unNktY"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen3.5 0.8B Como Agente de Desarrollo 🚀 Probando su PODER usando MinAgent",
-      "summary": "En este video exploramos el potencial de Qwen3.5 0.8B Como Agente de Desarrollo para entender qué tan capaz es un modelo tan compacto en tareas de programación",
-      "time": "352h",
-      "url": "https://www.youtube.com/watch?v=9CdCQw3gkKA"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Mejor Harness IA Local⚡ MinAgent",
-      "summary": "En este directo voy a presentar MinAgent, un agente de IA que trabaja con los archivos de un proyecto desde la terminal. Lo conectaré a llama.cpp para mostrar",
-      "time": "340h",
-      "url": "https://www.youtube.com/watch?v=5R1nMCMORgs"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Bonsai 2 27B 🚀 Probando la IA CUANTIZADA de 1 bit con Visión y Agentes",
-      "summary": "En este video ponemos a prueba el modelo Bonsai 2 27B, una inteligencia artificial extremadamente cuantizada a 1 bit para comprobar su rendimiento real.",
-      "time": "344h",
-      "url": "https://www.youtube.com/watch?v=yyZl2DrLyag"
     },
     {
       "source": "Xataka IA",

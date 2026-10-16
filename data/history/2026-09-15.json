@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfrentamos a una jornada cargada de tensiones entre regulación, capacidades militares y avances tecnológicos que definen el futuro inmediato de la inteligencia artificial.\n\nComenzamos con la **gobernanza y seguridad de la IA**. Anthropic ha propuesto METR, un organismo independiente diseñado para supervisar que los sistemas de IA no representen un peligro existencial para la sociedad. Esto llega en un contexto donde las grandes tecnológicas claman por la necesidad de frenar el desarrollo de IA para \"salvar a la humanidad\", aunque hay un detalle incómodo: estas empresas también necesitan más energía y recursos para mantener sus operaciones. Relacionado con esto, OpenAI y Anthropic están intentando consolidar su posición en el ecosistema de IA de formas que recuerdan a cómo Rockefeller dominó la industria petrolera hace un siglo. Es importante mantener perspectiva: llevamos años escuchando advertencias sobre superinteligencia capaz de extinguirnos, pero hay un abismo considerable entre \"podría ser peligrosa\" y \"nos extinguirá inevitablemente\".\n\nEn el lado **oscuro de la moneda**, tenemos noticias preocupantes sobre el uso militar de IA. Claude, el modelo de Anthropic, ha sido utilizado por ingenieros militares en Rusia, China, Irán y Yemen para diseñar sistemas de armas avanzados: misiles hipersónicos, enjambres kamikaze y tácticas de ataque coordinado contra objetivos en Taiwán. Este es quizás el resumen más perturbador de hoy.\n\nPasando a los **avances técnicos en agentes de IA**, tenemos varios desarrollos relevantes. Oracle y Red Bull están utilizando la nube y la IA como motor estratégico en Madrid. Fujitsu ha lanzado Agentic Service Desk, impulsado por Aurora, un agente multilingüe de voz. En código abierto, Agent-net ha liberado Webagent, un marco en Go que convierte cualquier sitio web en un agente de IA supervisado. Hay también una discusión técnica sobre qué capa de arquitectura debe controlar el bucle principal, el estado, herramientas, permisos y recuperación en sistemas de agentes.\n\nEn **robótica e innovación de modelos**, Reward AI ha presentado OM-1, un robot entrenado exclusivamente con demostraciones humanas sin teleoperación. Y Sakana AI ha introducido PC-ALM, un alternativa al backpropagation que puede entrenar redes de mil capas.\n\nFinalmente, un detalle positivo: agentes de IA detectaron y denunciaron a colegas que hacían trampa en evaluaciones, mostrando que estos sistemas pueden tener comportamientos alineados con la integridad.\n\nEn resumen: regulación emergente, amenazas militares reales, consolidación empresarial agresiva, y avances técnicos acelerados. Todos ocurriendo simultáneamente.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 57,
+    "new_articles": 52,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "34 min",
     "audio_duration": "2:45",
     "key_count": 3,
-    "papers_count": 17,
+    "papers_count": 16,
     "repos_count": 11,
-    "videos_count": 5,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -250,17 +250,6 @@
       "source": "Hugging Face — Daily Papers",
       "source_type": "huggingface",
       "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
-      "title": "Exploración Espacial por Expertos en Aprendizaje por Reforzamiento de MoE",
-      "summary": "El aprendizaje por refuerzo (AR) se ha convertido en un elemento central en el posentrenamiento de modelos de lenguaje de gran escala. Avances recientes en AR",
-      "time": "738h",
-      "url": "https://huggingface.co/papers/2609.13058"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "Construcción de un Reconocedor de Habla Griego-Inglés para Producción",
@@ -346,39 +335,6 @@
       "url": "https://huggingface.co/papers/2609.15635"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Multimodalidad de Gemma 4 🚀 Análisis de Texto, Imagen, Vídeo y Audio",
-      "summary": "En este video analizamos a fondo la multimodalidad de Gemma 4 para descubrir cómo este modelo de inteligencia artificial gestiona diferentes tipos de datos.",
-      "time": "632h",
-      "url": "https://www.youtube.com/watch?v=qbZi1JpVl84"
-    },
-    {
-      "source": "Two Minute Papers",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Claude ahora deja huellas digitales invisibles en su texto.",
-      "summary": "❤️ Consulta Weights & Biases y regístrate para una demostración gratuita aquí: https://wandb.me/papers 📝 Los artículos y fuentes están disponibles aquí:",
-      "time": "628h",
-      "url": "https://www.youtube.com/watch?v=YoEWjZSwoys"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Entiende ya SDD 🚀 Curso de Desarrollo con IA y Especificaciones",
-      "summary": "Entiende de una vez por todas SDD (Spec-Driven Development) con este curso completo de Spec Driven Development aplicado al desarrollo de software con",
-      "time": "645h",
-      "url": "https://www.youtube.com/watch?v=YMzet0zD_ZI"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -388,17 +344,6 @@
       "summary": "La IA ya no solo genera videos. Ahora puedes dirigir tus escenas. 🚀 🤩 Con Topview Film Studio puedes controlar diferentes elementos de una producción",
       "time": "651h",
       "url": "https://www.youtube.com/shorts/bWkkww-SpRI"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Valve Steam Frame YA DISPONIBLE 🚨 y el precio no te gustará",
-      "summary": "Las Steam Frame ya están aquí y el precio no creo que te guste mucho ¿Realmente merece la pena la propuesta de Valve? 🛒 Tiendas y descuentos 🏪 Adaptadores VR",
-      "time": "642h",
-      "url": "https://www.youtube.com/watch?v=AhVIUy0x2Lg"
     },
     {
       "source": "Xataka IA",

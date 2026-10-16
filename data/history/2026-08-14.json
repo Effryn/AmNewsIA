@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy tenemos un panorama intenso donde confluyen tres movimientos claros: la consolidación de modelos más eficientes, el salto cualitativo en agentes de IA, y un llamado de atención sobre responsabilidad. Empecemos por lo inmediato. Google DeepMind acaba de presentar Gemini 3.7 Flash, y Hugging Face lanzó un ecosistema completo con Strands Agents y LeRobot que promete simplificar todo el ciclo de vida: desde grabar datos hasta entrenar y desplegar en un mismo lugar. Si eres ingeniero, esto es directamente aplicable. Vale mucho la pena meterte con estas herramientas en tu laboratorio porque cierran la brecha entre experimento y producción. Ahora bien, hay un lado que requiere atención. Flock está endureciendo sus políticas después de una ola de críticas sobre vigilancia. Esto no es anecdótico: refleja un cambio en cómo la industria está pensando sobre el impacto social. Mantenlo en tu radar. En investigación, tres áreas despiertan especial interés. Primero, los agentes agenticos están madurando: tenemos AutoDesign optimizando harnesses para diseño a largo plazo, y Vero explorando si los agentes de IA pueden construir repositorios verificados formalmente. Ese es el futuro del desarrollo automático. Segundo, hay una explosión en modelos omnimodales: OmniScientist es un científico de IA que opera simultáneamente en múltiples disciplinas y modalidades. Eso amplía el horizonte de lo que podemos automatizar. Y tercero, hay avances sólidos en evaluación: HumanTracker establece un benchmark para rastreo de movimiento alineado con humanos, y QuoteBench expone vulnerabilidades ocultas en sistemas de matching de puntuaciones. Mención especial a LittleLearner, que estudia cómo los modelos de lenguaje aprenden bajo exposición controlada de conocimiento. Es conceptualmente importante para entender qué sucede durante el entrenamiento. Y DFM Mimir v1 es interesante si te importa eficiencia: un modelo de mil millones de parámetros con rendimiento de frontera, usando solo datos de post-entrenamiento permisibles. Sin compromisos éticos. Finalmente, AlayaWorld abre la puerta a modelado de mundos interactivos a largo plazo. El reporte técnico completo ya está disponible. Si trabajas en simulación o planificación de agentes, merece tu atención. En síntesis: semana de consolidación tecnológica, ambición en agentes, y recordatorio sobre responsabilidad. Todo indica que estamos en un punto de inflexión donde la escalabilidad y la alineación van juntas. Eso es todo por hoy. Que sea productivo tu trabajo."
   },
   "stats": {
-    "new_articles": 131,
+    "new_articles": 123,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "79 min",
     "audio_duration": "2:35",
     "key_count": 3,
-    "papers_count": 64,
+    "papers_count": 62,
     "repos_count": 29,
-    "videos_count": 11,
+    "videos_count": 5,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -224,17 +224,6 @@
       "time": "1437h",
       "url": "https://github.com/nodalytics/till_infinity",
       "stars": "2"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
-      "title": "AVA-Encoder: Hacia una Aprendizaje de Representación Vidéica Nativa del Agente",
-      "summary": "Los agentes creativos carecen aún de una forma efectiva de aprender de películas de alta calidad humanas, limitando su capacidad para producir videos",
-      "time": "1458h",
-      "url": "https://huggingface.co/papers/2608.12313"
     },
     {
       "source": "Hugging Face — Daily Papers",
@@ -527,17 +516,6 @@
       "summary": "Los sistemas de traducción por máquina (MT) a menudo fallan en la correcta traducción del género, especialmente al convertir de un idioma neutro en género como",
       "time": "1530h",
       "url": "https://huggingface.co/papers/2608.08606"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
-      "title": "ReRound: Ajuste reconstructivo para resolver ambigüedades en el punto medio en cuantización de LLMs sin calibración",
-      "summary": "ReRound (Reconstrucción Rounding) es un método de cuantización posentrenamiento que aborda la ambigüedad en el punto medio inherente a los esquemas de redondeo",
-      "time": "1482h",
-      "url": "https://huggingface.co/papers/2608.11045"
     },
     {
       "source": "Hugging Face — Daily Papers",
@@ -1158,76 +1136,10 @@
       "lang": "en",
       "cat": "Videos",
       "content_type": "video",
-      "title": "El mundo extraño de las publicidades de VPN de influenciadores",
-      "summary": "Un análisis profundo sobre las publicidades de VPN en influencer marketing en YouTube. Qué dicen, qué no dicen y por qué existen en primer lugar. Resumen: Una",
-      "time": "27725h",
-      "url": "https://www.youtube.com/watch?v=wUilk9FtIl0"
-    },
-    {
-      "source": "Yannic Kilcher",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
       "title": "Conferencia de Ginebra sobre IA + Arte (Festival AiiA)",
       "summary": "https://aiiafestival.org/ Enlaces: TabNine Code Completion (Referral): http://bit.ly/tabnine-yannick YouTube: https://www.youtube.com/c/yannickilcher Twitter:",
       "time": "34849h",
       "url": "https://www.youtube.com/shorts/dcO0xfpnojc"
-    },
-    {
-      "source": "Yannic Kilcher",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Madrid Travel Vlog (Startup Pitching Competition)",
-      "summary": "#viaje #startups #ia Un vlog de viaje de nuestra estancia en una competencia de presentación de startups en Madrid. Enlaces: Merch: http://store.ykilcher.com",
-      "time": "39212h",
-      "url": "https://www.youtube.com/watch?v=gcQPCOFYWbg"
-    },
-    {
-      "source": "Yannic Kilcher",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "¿Podría el IA resolver este rompecabezas? (Juego ARC)",
-      "summary": "#ai #arc #puzzle Jugamos el Juego ARC. Juego: https://volotat.github.io/ARC-Game/ Código: https://github.com/volotat/ARC-Game Conjunto de Datos Original:",
-      "time": "42952h",
-      "url": "https://www.youtube.com/watch?v=EB6H1yxeZyI"
-    },
-    {
-      "source": "Yannic Kilcher",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Este juego fue hecho para robots, lo jugué de todos modos - Crafter Let's Play",
-      "summary": "Página del Proyecto Crafter: https://danijar.com/project/crafter/ Código: https://github.com/danijar/crafter Enlaces: Completado de Código TabNine (Referido):",
-      "time": "43050h",
-      "url": "https://www.youtube.com/watch?v=GjATw8GfKV8"
-    },
-    {
-      "source": "Yannic Kilcher",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Yannic DESMONTA el reviste anónimo (Vision Transformer)",
-      "summary": "#ai #research #transformers Watch the full video here: https://www.youtube.com/watch?v=TrdevFK_am4&amp;feature=youtu.be Links: TabNine Code Completion",
-      "time": "49606h",
-      "url": "https://www.youtube.com/watch?v=Stwcsq7dLHk"
-    },
-    {
-      "source": "Yannic Kilcher",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "¿Qué es una red de Hopfield?",
-      "summary": "#ai #transformer #attention /watchaletv completo aquí: https://youtu.be/nv6oFDp6rNQ Enlaces: TabNine Code Completion (Referral): http://bit.ly/tabnine-yannick",
-      "time": "49829h",
-      "url": "https://www.youtube.com/watch?v=fkIJwYArKpw"
     },
     {
       "source": "Hipertextual",

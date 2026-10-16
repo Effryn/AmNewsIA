@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy destacamos una semana de cambios profundos en el mercado de modelos de lenguaje, donde la competencia se intensifica y la democratización de la IA acelera su ritmo.\n\n**El dilema de los grandes actores**\n\nOpenAI y Anthropic enfrentan una presión creciente: Google y Meta han lanzado modelos económicos tan competentes que están erosionando su ventaja en el segmento premium. Mientras tanto, Google DeepMind ha presentado Gemini 3.8 Flash y Gemini 3.8 Flash Cyber, modelos que prometen trabajar más inteligentemente aunque posiblemente con costos superiores. Se trata de una estrategia clara: optimizar rendimiento antes que precio, aunque esta decisión podría no ser suficiente para contrarrestar la ofensiva de alternativas más baratas.\n\n**Herramientas que cierran la brecha**\n\nEn paralelo, emergen soluciones técnicas que empoderan a desarrolladores. Switchyard, un proxy y librería en Rust, permite encaminar y traducir tráfico entre APIs de OpenAI y Anthropic, ofreciendo flexibilidad operativa. Qwen ha liberado zg, una capa de búsqueda local que unifica ripgrep, BM25 y búsqueda vectorial, democratizando capacidades avanzadas. Y Perplexity ha abierto Lily, un motor de inferencia optimizado para Apple Silicon que ejecuta Qwen3.6-35B, acercando modelos potentes a dispositivos personales.\n\n**Memoria y capacidad empresarial**\n\nHugging Face introduce herramientas para que agentes de código dispongan de memoria propia, un paso crucial hacia sistemas más autónomos y persistentes. Qualcomm, por su parte, expande el terreno del IoT empresarial con sus chips Q-2390 e IQ-2390, llevando capacidades de IA hacia la periferia de las redes.\n\n**Preocupaciones y regulación**\n\nNo todo es optimismo. Investigadores advierten sobre un posible desastre de seguridad previo al lanzamiento de Astra de OpenAI, subrayando que el ritmo de innovación podría estar adelantándose a las medidas de protección. Además, Claude ha implementado cambios en su prompt del sistema para resistirse a reproducir letras de canciones, reflejando una tensión creciente entre capacidades generativas y restricciones de copyright.\n\n**El ecosistema español también crece**\n\nFinalmente, una startup valenciana ha captado 125 millones de dólares para una pieza crítica pero invisible de la infraestructura de IA, contando con inversión de Nvidia. Este hito subraya que la innovación no solo ocurre en Silicon Valley, sino en polos tecnológicos emergentes que atacan problemas fundamentales.\n\nEl mensaje es claro: la IA se descentraliza, se abarata y se especializa. Estamos en una transición donde la ventaja competitiva ya no proviene solo del modelo, sino de cómo integramos, optimizamos y desplegamos la tecnología.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 110,
+    "new_articles": 104,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "66 min",
     "audio_duration": "2:54",
     "key_count": 3,
-    "papers_count": 63,
+    "papers_count": 62,
     "repos_count": 13,
-    "videos_count": 6,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -291,17 +291,6 @@
       "summary": "Una imagen puede valer mil palabras, pero la mayoría de los modelos de captioning la describen con pocas. Los modelos de visión-lenguaje modernos producen",
       "time": "978h",
       "url": "https://huggingface.co/papers/2609.00591"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
-      "title": "Pipelines de Periódicos Institucionales: Derivando billones de tokens de alta calidad desde periódicos históricos",
-      "summary": "Los periódicos históricos son un registro abundante de la vida pública, pero sus diseños densos, irregulares y a veces ruidosos hacen que el acceso",
-      "time": "1290h",
-      "url": "https://huggingface.co/papers/2608.18972"
     },
     {
       "source": "arXiv — cs.AI",
@@ -581,7 +570,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Graph Machine: Towards Better Pretraining via Edges",
+      "title": "Graph Machine: Hacia una Preentrenamiento Mejor mediante los Límites",
       "summary": "Se presenta la Arquitectura de Máquina de Grafos (GM), una arquitectura que mantiene un estado de tamaño $O(n)$ y accede a través de enrutamiento dinámico y",
       "time": "932h",
       "url": "https://arxiv.org/abs/2609.02881v1",
@@ -922,61 +911,6 @@
       "time": "934h",
       "url": "https://arxiv.org/abs/2609.02747v1",
       "arxiv": "2609.02747v1"
-    },
-    {
-      "source": "Gentleman Programming",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qué es un LLM y por qué la IA \"alucina\": curso gratis, capítulo 1",
-      "summary": "Gentleman Programming | Qué es un LLM | Qué es un LLM y por qué la IA \"alucina\": arranca el curso gratis de inteligencia artificial, de tokens a agentes, sin",
-      "time": "932h",
-      "url": "https://www.youtube.com/watch?v=eq4C_QZ8KgY"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Spark-X2.5-1.7B ⚠️ ¿Vale la pena? Mi EXPERIENCIA Real con este Modelo",
-      "summary": "En este vídeo analizamos a fondo el nuevo modelo Spark-X2.5-1.7B para descubrir si realmente cumple con lo que promete la teoría. Exploramos su rendimiento",
-      "time": "920h",
-      "url": "https://www.youtube.com/watch?v=LLFtJ7oF0hU"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.5 9B 🧪 ¿Vale la PENA? Comparativa de Inteligencia y Rendimiento",
-      "summary": "En este video analizamos a fondo el rendimiento de Qwen3.5 9B para descubrir si realmente ofrece una mejora de inteligencia que justifique su mayor consumo de",
-      "time": "936h",
-      "url": "https://www.youtube.com/watch?v=y-SMykh7Y8c"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Llama 3.1 8B ⚠️ ¿Sigue siendo VALIOSO o ya es OBSOLETO?",
-      "summary": "En este video analizamos a fondo si el modelo Llama 3.1 8B sigue siendo una opción viable o si ha quedado totalmente obsoleto con los avances actuales de la",
-      "time": "928h",
-      "url": "https://www.youtube.com/watch?v=ZiidlVYPIQ4"
-    },
-    {
-      "source": "Two Minute Papers",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Claude Fable AI es mucho más extraño de lo que sugieren los titulares.",
-      "summary": "❤️ Consulta Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers 📝 El paper del Fábula Claude 5.1 está disponible aquí:",
-      "time": "917h",
-      "url": "https://www.youtube.com/watch?v=B3LXEW4Pc-w"
     },
     {
       "source": "maxmaxdata",

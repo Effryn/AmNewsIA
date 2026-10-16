@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy tenemos movimientos importantes en modelos de código abierto, restricciones de seguridad en plataformas establecidas, y cambios en estrategias de monetización que están redefiniendo el panorama de la IA.\n\nComenzamos con un hito significativo en el ecosistema open source. Mistral ha lanzado Mistral Large 4, también conocido como \"Le Chonk\", un modelo multimodal con 1.05 billones de parámetros que utiliza arquitectura Mixture of Experts. La relevancia aquí es que Mistral continúa cerrando la brecha con modelos chinos de alto rendimiento, pero manteniendo el código abierto, lo que democratiza el acceso a capacidades de IA de nivel empresarial.\n\nEn paralelo, Google DeepMind ha liberado EmbeddingGemma 2, un modelo multimodal de embeddings mucho más ligero con 740 millones de parámetros. Esta es una estrategia complementaria: mientras Mistral apunta a máxima potencia con pesos abiertos, Google ofrece soluciones eficientes y compactas para casos de uso específicos.\n\nAhora bien, si el ecosistema open source se expande, el lado propietario se contrae. Apple está cortando el acceso a agentes de IA por motivos de seguridad, y Google está eliminando el acceso gratuito a Gemini Flash y Pro. Estos movimientos revelan una preocupación creciente sobre los riesgos de seguridad que conlleva la autonomía de los agentes de IA sin supervisión.\n\nEn cuanto a monetización, OpenAI mantiene su estrategia de cobrar por diferentes capacidades. Mientras tanto, han anunciado partnerships interesantes: Jump Trading está utilizando ChatGPT para escalar investigación cuantitativa, y OpenAI está compartiendo avances en matemáticas. ChatGPT además está agregando nuevas funciones, como un probador virtual que te permite subir fotos de ropa para ver cómo te queda.\n\nUn dato curioso pero importante: alguien ha entrenado un modelo para detectar textos generados por IA, asegurando precisión del 98%. Esto abre un nuevo frente: la carrera de los detectores frente a los generadores, similar a la dinámica clásica de antivirus versus malware.\n\nMeta, por su parte, ha liberado Rebalancer, un solucionador de asignaciones en C++ capaz de procesar 40 millones de problemas de placement diarios, dirigido a optimización a escala.\n\nEn síntesis: el código abierto avanza con fuerza, las plataformas establecidas refuerzan controles de seguridad, y la monetización se polariza entre modelos gratuitos de empresa y servicios premium. El mercado continúa en plena transformación.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 112,
+    "new_articles": 107,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "67 min",
     "audio_duration": "2:32",
     "key_count": 3,
-    "papers_count": 66,
+    "papers_count": 64,
     "repos_count": 16,
-    "videos_count": 5,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -280,17 +280,6 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Aprendizaje del Contexto de los Token en Transformadores de Difusión",
-      "summary": "Los Transformadores de Difusión Multimodal (MM-DiTs) procesan simultáneamente representaciones visuales y textuales durante la generación. Estos modelos",
-      "time": "162h",
-      "url": "https://huggingface.co/papers/2610.06844"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
       "title": "SlimWise: Decoupling la experta poda en el prelleno y la decodificación para un servicio eficiente de MoE",
       "summary": "Los modelos de Mixture-of-Experts (MoE) activan pocos expertos por token, pero la decodificación en lotes puede acceder casi a todo el conjunto de expertos, lo",
       "time": "330h",
@@ -483,17 +472,6 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
-      "title": "D2P: Difusión Serie-Paralela para la Generación de Video Físicamente y Lógicamente Coherente",
-      "summary": "Los modelos de difusión bidireccional de video desenfaran videos enteros en paralelo, pero cuando se entrenan con datos in-distribuidos de generadores",
-      "time": "162h",
-      "url": "https://huggingface.co/papers/2610.06847"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Herramientas",
-      "content_type": "paper",
       "title": "Una Acción Segura No Es Suficiente: Decodificación Futuro-Posible para Políticas de Visión-Lenguaje-Acción",
       "summary": "Una acción segura no es necesariamente viable. Una política de visión-lenguaje-acción (VLA) congelada puede favorecer un movimiento localmente admisible que",
       "time": "138h",
@@ -613,7 +591,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Agreement Is Not Validity: Cross-Model LLM Consensus in Diagnosing Student Failure Modes in K-12 Math Tutoring Dialogue",
+      "title": "Acuerdo No Es Valididad: Consenso Entre Modelos LLM en la Diagnóstico de Modos de Fallo del Estudiante en Diálogos de Tutoría Matemática para Edades K-12",
       "summary": "En el asesoramiento matemático de nivel K-12, el diálogo entre el estudiante y el tutor proporciona evidencia rica sobre los procesos de resolución de",
       "time": "117h",
       "url": "https://arxiv.org/abs/2610.08703v1",
@@ -992,17 +970,6 @@
       "arxiv": "2610.08704v1"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "La verdad de las cuantizaciones en LLMs 🚀 ¿Realmente afectan al RENDIMIENTO?",
-      "summary": "En este video exploramos la verdad de las cuantizaciones en LLMs mediante una comparativa directa de rendimiento y capacidad de desarrollo. Analizamos si",
-      "time": "117h",
-      "url": "https://www.youtube.com/watch?v=8tN1XsoguD8"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -1012,28 +979,6 @@
       "summary": "ChatGPT ahora puede ayudarte a crear experiencias 3D desde el mismo chat. 🤯 🤖 Con GPT-6 Astra + Higgsfield puedes trabajar en proyectos como: ☑️ Videojuegos y",
       "time": "122h",
       "url": "https://www.youtube.com/shorts/9vcJi_DW55U"
-    },
-    {
-      "source": "Gentleman Programming",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Inteligencia artificial: por qué rechacé Jev para gentle-ai",
-      "summary": "Gentleman Programming | Inteligencia artificial | Inteligencia artificial: por qué rechacé a Jev para gentle-ai y la verdad detrás del fomo de los modelos",
-      "time": "118h",
-      "url": "https://www.youtube.com/watch?v=pDWGRg32Bsk"
-    },
-    {
-      "source": "Two Minute Papers",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "El nuevo AI de DeepMind Acaba de Descifrar el Código de la Vida",
-      "summary": "❤️ Consulta Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers Agradecemos la invitación de Google DeepMind. 📝 El Atlas AlphaGenome está disponible",
-      "time": "96h",
-      "url": "https://www.youtube.com/watch?v=Wkaw03p3BrM"
     },
     {
       "source": "Migue Baena IA",

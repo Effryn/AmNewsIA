@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama donde la IA está madurando rápidamente en tres frentes clave: capacidad, regulación y democratización.\n\nComenzamos con los modelos de lenguaje. Google ha dado un salto significativo con Gemini 4, que ahora puede procesar un millón de tokens en una única sesión. Esto cambia fundamentalmente el paradigma: ya no estamos hablando de chats cortos, sino de sistemas capaces de realizar trabajos largos y completamente autónomos. Es un cambio de mentalidad importante en lo que entendemos como producto de IA.\n\nEn paralelo, la competencia en embeddings se intensifica. Cohere ha lanzado Embed 5, entrando directamente en competencia con Voyage 4 Large, Gemini Embedding 2 y OpenAI. El mercado de representación vectorial se está fragmentando, lo que sugiere que los embeddings especializados van a jugar un rol cada vez más importante en aplicaciones empresariales específicas.\n\nEn cuanto a modelos de decisión y agentes, presenciamos un movimiento importante hacia la automatización de tareas complejas. AWS Strands Labs ha lanzado Strands Decider 2B, capaz de elegir opciones en apenas 115 milisegundos. Cloudflare, por su parte, presenta Clef y Clef-flash, modelos de decisión abiertos que devuelven probabilidades tipadas en lugar de texto. Estos sistemas están comenzando a ocupar ese espacio intermediario entre razonamiento simple y ejecución autónoma.\n\nPero los modelos no son la única noticia. OpenAI ha presentado un nuevo agente que desafía directamente la posición de Meta, aunque el interrogante es si puede competir con alternativas gratuitas. Simultáneamente, crece la expectativa sobre generación de datos sintéticos para entrenar agentes empresariales, como demuestra la iniciativa de Hugging Face con AutoSynthData.\n\nAhora bien, con mayor poder viene mayor responsabilidad regulatoria. OpenAI se enfrenta a una demanda que podría resultar histórica: quién responde legalmente cuando una IA comete un delito. Esta pregunta toca el corazón de cómo entendemos la responsabilidad de los sistemas de IA en el mundo real.\n\nY en el aspecto de despliegue, la industria continúa democratizando el acceso. Se observa una clara tendencia: lanzar un modelo de IA ya no significa simplemente publicarlo, sino decidir estratégicamente quién puede acceder a él y bajo qué términos. Google añade funcionalidades como Guided Vision para mejorar la accesibilidad visual, mientras que IBM expande sus opciones de despliegue autogestionado.\n\nFinalmente, Suno expande las fronteras de la IA generativa musical, ahora capaz de generar palabras habladas, lo que abre nuevas posibilidades para contenido audiovisual.\n\nEn síntesis: mayor capacidad de los modelos, fragmentación especializada de soluciones, preguntas regulatorias urgentes, y un mercado que aprende a controlar el acceso como forma de valor.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 101,
+    "new_articles": 98,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 68,
     "repos_count": 6,
-    "videos_count": 4,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -896,39 +896,6 @@
       "summary": "¿Tus webs creadas con Claude siguen pareciendo genéricas? Prueba estas 3 cosas. 👀‼️ 1️⃣ Emil Kowalski + Impeccable → reglas de diseño, tipografía, espaciado y",
       "time": "215h",
       "url": "https://www.youtube.com/shorts/oVGfoPgI1K8"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.8 con Velocidad x2 con Strata 🚀 el Test de Rendimiento REAL",
-      "summary": "Descubre cómo obtener Qwen3.8 Velocidad x2 con Strata mediante un test de rendimiento real comparado con la ejecución tradicional. En este video analizamos",
-      "time": "213h",
-      "url": "https://www.youtube.com/watch?v=nN_bFUtrF1A"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Cómo Programar con LLMs Locales 💻 Código y Pruebas en DIRECTO",
-      "summary": "En este directo veremos cómo programar con LLMs locales y aprovechar modelos de lenguaje ejecutados en tu PC para escribir, entender y corregir código.",
-      "time": "233h",
-      "url": "https://www.youtube.com/watch?v=XPdBStFUjKw"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Keysfan.com 💰 Cómo Comprar Windows y Office con DESCUENTOS Reales",
-      "summary": "En este video te mostramos cómo comprar Windows y Office en Keysfan.com y aplicar los cupones de descuento NICHO52 para Windows y NICHO62 para Office. También",
-      "time": "225h",
-      "url": "https://www.youtube.com/watch?v=k8ycGfcBoDk"
     },
     {
       "source": "MarkTechPost",

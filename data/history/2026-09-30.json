@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfocamos en tres tendencias clave que están redefiendo el panorama de la inteligencia artificial en este momento.\n\n**Agentes de IA: del diálogo a la delegación**\n\nOpenAI está pivoteando su estrategia de una manera radical. Con el lanzamiento de Dots —sus nuevos agentes GPT-6 Astra siempre activos que funcionan desde sus propias computadoras en la nube— la compañía está moviendo la conversación de \"hablar con IA\" a \"dejar que la IA trabaje por ti\". Según OpenAI, estos agentes funcionan como una extensión de tu vida digital, ejecutando tareas sin necesidad de intervención constante. Esto compite directamente con Muse de Meta, aunque Meta ha enfrentado un golpe importante: su sistema de IA envió accidentalmente la dirección de un YouTuber a un extraño, un recordatorio incómodo de los riesgos de esta tecnología.\n\nPero hay un lado oscuro que no podemos ignorar. RSA ha levantado la alarma sobre lo que llama \"Shadow AI Agents\": una empresa pasó por una crisis completa cuando un solo prompt deficiente derribó su sistema Salesforce. La realidad es que hay 4.000 agentes de IA no supervisados operando en empresas sin control adecuado. Este es el gran reto: mientras la tecnología avanza hacia autonomía completa, los controles de seguridad están rezagados.\n\n**Velocidad técnica y competencia global**\n\nEn el aspecto puramente técnico, Perplexity ha hecho un movimiento inteligente presentando Photon, un motor de búsqueda basado en Rust que reduce la latencia de 800 milisegundos a apenas 65 milisegundos. La velocidad es el nuevo campo de batalla en IA.\n\nMientras tanto, China está acelerando su adopción de IA generativa a un ritmo que resulta imposible ignorar. Las cifras de usuarios hablan por sí solas: están invirtiendo masivamente en capacidades locales.\n\n**Los retos humanistas**\n\nY luego está el aspecto existencial. En Berkeley existe un epicentro real de pensamiento sobre cómo la IA podría afectar la humanidad. Esto no es paranoia futurista; es reflexión seria en tiempo real. OpenAI, por su parte, está navegando las aguas turbulentas del hack reciente. Su Chief Research Officer ha declarado que \"no van a dispararse en el pie\" por cómo manejan el impacto de la brecha de seguridad.\n\nFinalmente, Tesla está pidiendo a sus empleados que enseñen a Optimus a trabajar, pero aquí surge una tensión interesante: no todos los trabajadores quieren entrenar a su posible reemplazo.\n\nEstos movimientos definen dónde estamos: en un momento donde la IA pasa de ser una herramienta conversacional a un agente autónomo, donde la velocidad técnica importa enormemente, y donde los desafíos éticos y de seguridad son tan reales como el código que los sustenta.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 97,
+    "new_articles": 96,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 56,
     "repos_count": 8,
-    "videos_count": 2,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -789,17 +789,6 @@
       "summary": "¿Claude Code se te queda corto antes de terminar la semana? 😥 En lugar de pagar un plan más caro, puedes hacer que Claude + Codex trabajen juntos. 🤖⚡️ • 🟠",
       "time": "290h",
       "url": "https://www.youtube.com/shorts/I_YrB0XgU3Q"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Dream Air SE vs Meta VR Glasses vs Steam Frame ¿Cual ELEGIR para VR?",
-      "summary": "Hoy le echamos un vistazo a las especificaciones técnicas de las Dream Air Se, Meta VR Glasses, Steam Frame y Quest 3 para decidir cual es el mejor dispositivo",
-      "time": "287h",
-      "url": "https://www.youtube.com/watch?v=laf5VzWTFF4"
     },
     {
       "source": "Xataka IA",

@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos encontramos con un panorama de la inteligencia artificial que mezcla hitos científicos con reflexiones éticas, mientras las carreras geopolítica y comercial se aceleran sin frenos.\n\nComenzamos con OpenAI, que vuelve a acaparar titulares. La compañía asegura haber resuelto uno de los Problemas del Milenio mediante su IA, lo que ha generado una controversia considerable en la comunidad académica. Pero hay más: han lanzado su nuevo modelo de frontera, aunque su propio científico jefe ha salido públicamente a cuestionar si no están yendo demasiado lejos. Un gesto de autocrítica que contrasta con la carrera desenfrenada por la capacidad computacional. Paralelamente, OpenAI sigue ampliando aplicaciones prácticas: su plataforma GPT-5.6 Sol ya está ayudando a ejecutar experimentos de computación cuántica, abriendo nuevas fronteras en investigación científica.\n\nEn el frente geopolítico, China está preparando un movimiento estratégico masivo. El país asiático planea cuadruplicar su capacidad de cómputo para inteligencia artificial antes de 2030, un anuncio que refleja la intensidad de la competencia global por supremacía en IA.\n\nLa robótica también vive un momento de transformación. Unitree ha presentado el primer robot humanoide impulsado por un modelo de mundo, capaz de interactuar con su entorno de manera autónoma. Aunque la broma sobre necesitar \"ropa, botas y motocicleta\" sugiere que aún hay ciencia ficción de por medio.\n\nEn lo que respecta a agentes de IA personales, Meta está haciendo su jugada con Muse, un agente de inteligencia artificial que funciona en su propia infraestructura segura en la nube. La compañía apuesta fuerte por esta tecnología para no quedarse atrás en la carrera de la IA.\n\nLos avances en síntesis de voz también avanzan a pasos agigantados. Gradium ha lanzado Voice Design, una herramienta que permite crear voces sintéticas completamente nuevas en cuestión de segundos simplemente escribiendo un prompt.\n\nEn genética, Google ha logrado un salto significativo: su IA ha mapeado predictivamente 9.000 millones de cambios del ADN, abriendo puertas a nuevos descubrimientos en medicina y biología.\n\nLo que vemos es un ecosistema donde la innovación se mueve a velocidad de vértigo, donde los riesgos éticos y científicos avanzan al mismo ritmo que las soluciones, y donde cada semana redefine los límites de lo posible.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 105,
+    "new_articles": 100,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "63 min",
     "audio_duration": "2:23",
     "key_count": 3,
-    "papers_count": 62,
+    "papers_count": 61,
     "repos_count": 5,
-    "videos_count": 4,
+    "videos_count": 0,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -118,17 +118,6 @@
       "summary": "En este artículo, se propone ReactVAU, un marco decoupled Slow-Fast para la comprensión en tiempo real de anomalías en transmisión de video (VAU). Los métodos",
       "time": "834h",
       "url": "https://huggingface.co/papers/2609.07941"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
-      "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
-      "summary": "Los modelos Vision-Lenguaje-Acción (VLA) han mostrado progreso prometedor en la manipulación robótica condicionada por el lenguaje. Sin embargo, los conjuntos",
-      "time": "906h",
-      "url": "https://huggingface.co/papers/2609.05324"
     },
     {
       "source": "arXiv — cs.AI",
@@ -497,7 +486,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
-      "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+      "title": "TANGO: Navegación Humanoide en Entornos Desordenados con un Modelo de Visión-Lenguaje-Acción del Cuerpo Completo",
       "summary": "Estudiamos el problema de navegar entornos interiores congestionados con un robot humanoide. Diferente a los métodos convencionales que modelan la navegación",
       "time": "788h",
       "url": "https://arxiv.org/abs/2609.09158v1",
@@ -814,50 +803,6 @@
       "time": "790h",
       "url": "https://arxiv.org/abs/2609.08949v1",
       "arxiv": "2609.08949v1"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen en Claude Code 🚀 Programación LOCAL con IA y llama.cpp",
-      "summary": "Aprende a configurar Qwen en Claude Code para disfrutar de una experiencia de programación local con inteligencia artificial de alto rendimiento. En este",
-      "time": "792h",
-      "url": "https://www.youtube.com/watch?v=DRcknO84EZk"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Nex AGI N2.5 mini ⚠️ ¿Mejor que el Qwen original o una DECEPCIÓN?",
-      "summary": "Analizamos a fondo el nuevo modelo Nex AGI N2.5 mini para descubrir si realmente ofrece un rendimiento superior o si es una decepción frente a su base",
-      "time": "784h",
-      "url": "https://www.youtube.com/watch?v=VRAt-_0y74g"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Nuevo Qwen3.5 4B Q2 📉 ¿Vale la pena esta Cuantización EXTREMA?",
-      "summary": "En este video analizamos a fondo el Nuevo Qwen3.5 4B Q2 para descubrir si esta cuantización extrema realmente compensa la pérdida de precisión. Exploramos si",
-      "time": "780h",
-      "url": "https://www.youtube.com/watch?v=OAgJyOWr0tY"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "GPU Integrada vs CPU 🚀 Cuál es más RÁPIDA para Modelos de Lenguaje",
-      "summary": "En este video ponemos a prueba la comparativa GPU Integrada vs CPU para determinar cuál es realmente más rápida al ejecutar modelos de lenguaje locales.",
-      "time": "788h",
-      "url": "https://www.youtube.com/watch?v=k_IkDoC-8Jw"
     },
     {
       "source": "Xataka IA",

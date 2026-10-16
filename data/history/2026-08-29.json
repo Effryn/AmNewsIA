@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfrentamos a una paradoja incómoda: mientras las grandes potencias de la IA piden protección contra sus propios riesgos, la realidad en las empresas es bastante más modesta de lo prometido.\n\nEmpecemos por lo más crítico. OpenAI, Anthropic y Google han salido públicamente a pedir regulación y protección contra los riesgos de la inteligencia artificial. El tono es casi urgente. Pero hay algo irónico en esto: son ellos mismos quienes impulsan esta tecnología. Es como si pidieran que alguien los frene mientras aceleran. Complementando esta preocupación, estas tres compañías también han emitido una advertencia coordinada sobre una oleada de ciberataques impulsados por IA. Es decir, el riesgo no solo es teórico, ya está aquí.\n\nAhora bien, si pasamos al impacto real en el trabajo diario: la IA prometía reducir drásticamente nuestras jornadas laborales. ¿El resultado hasta ahora? Tres horas libres a la semana. No es exactamente la revolución que nos vendieron, ¿verdad?\n\nEn cuanto a avances técnicos positivos, Google ha presentado mejoras en Gemini. La herramienta ahora puede convertir tus hojas de Excel en aplicaciones interactivas, lo que abre posibilidades interesantes para usuarios no técnicos. Además, Google ha actualizado su NotebookLM con nuevos límites y capacidades que marcan un cambio en la estrategia de la compañía.\n\nHablando de infraestructura: Kentucky está a punto de vivir una transformación histórica. Una enorme fábrica de aluminio será reconvertida en un centro de datos masivo para Anthropic. Este será uno de los nodos de datos más importantes de la compañía, marcando el crecimiento acelerado del sector.\n\nEn la sección más curiosa del día: Hugging Face ha presentado Microduck, un pequeño robot bípedo de veinticinco centímetros que cuesta trescientos noventa y nueve dólares. Puedes entrenarlo usando aprendizaje por refuerzo. Es un juguete serio para investigadores y entusiastas.\n\nTambién hay movimiento en el código abierto. Vercel IA ha liberado vgpu, una biblioteca TypeScript para shaders de agentes IA que usa WebGPU. Y en el frente de modelos chinos, dos laboratorios independientes han convergido en la misma arquitectura: GLM-5.3-Flash y Qwen3.8-Flash-Next.\n\nPor último, dos historias que reflejan tensiones crecientes: músicos convertidos en detectives están cazando estafadores que usan IA para generar música falsa. Y la EPA de Trump busca permitir que los centros de datos oculten su contaminación del aire. El precio del progreso sigue siendo desigual.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 28,
+    "new_articles": 25,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "17 min",
     "audio_duration": "2:37",
     "key_count": 3,
-    "papers_count": 5,
+    "papers_count": 4,
     "repos_count": 6,
-    "videos_count": 4,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -102,17 +102,6 @@
       "source": "Hugging Face — Daily Papers",
       "source_type": "huggingface",
       "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
-      "title": "CritICL: Generalización débil-a-fuerte en tiempo de inferencia desde los modos de fallo de los modelos de lenguaje pequeños",
-      "summary": "Recientes avances en el escalado durante la inferencia han mejorado significativamente el rendimiento de razonamiento de los modelos de lenguaje de gran escala",
-      "time": "1098h",
-      "url": "https://huggingface.co/papers/2608.27455"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "Luce: Gaussians reencendibles para la generación de activos tridimensionales",
@@ -174,28 +163,6 @@
       "summary": "¿Usas Claude Code? 🤖 Entonces estos 5 plugins pueden mejorar muchísimo tu flujo de trabajo 🔥 La idea es simple: mejor contexto + más memoria + mayor eficiencia",
       "time": "1033h",
       "url": "https://www.youtube.com/shorts/Ojolk1HzMEo"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "GPU de 128GB 🚀 Cómo Cargar Modelos de IA Gigantes de Forma GRATIS",
-      "summary": "Aprende cómo simular una GPU de 128GB utilizando tu hardware actual para cargar modelos de IA gigantes de forma gratuita. En este video, exploramos cómo",
-      "time": "1056h",
-      "url": "https://www.youtube.com/watch?v=JWsw0eRWqAo"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Curso Monetizar Webs IA",
-      "summary": "✅ Canal WhatsApp: https://www.whatsapp.com/channel/0029VbCR3SKId7nGTWkmFE0w Contacto: nichonauta@gmail.com Sitio web: nichonauta.com",
-      "time": "1046h",
-      "url": "https://www.youtube.com/watch?v=NebdQkAFLFQ"
     },
     {
       "source": "Xataka IA",

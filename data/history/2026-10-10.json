@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy destacamos una ola de innovación en modelos de decisión y procesamiento de imágenes, junto con alertas críticas sobre privacidad y confiabilidad en sistemas de IA.\n\n**Modelos especializados en decisiones: la nueva frontera**\n\nComenzamos con un fenómeno convergente: tres actores clave están lanzando simultáneamente modelos especializados en toma de decisiones. Microsoft ha presentado Microsoft-Decision-1, un modelo basado en Qwen3.5 de nueve mil millones de parámetros enfocado específicamente en scoring y evaluación de opciones. Paralelamente, Nace AI ha abierto el código de Drex 1.5, otro modelo de nueve mil millones dedicado a puntuación de decisiones en lugar de generación de texto. Esta convergencia sugiere que la industria ve un nicho claro: sistemas IA que evalúan y califican alternativas, no que generan contenido narrativo. Es un pivote interesante hacia utilidad empresarial directa.\n\n**APIs más rápidas, pero con preguntas pendientes**\n\nEn el frente de la velocidad, OpenAI ha llevado su Decisions API a beta pública con un salto de rendimiento: respuestas tipadas diez veces más rápidas. Esto podría transformar aplicaciones en tiempo real, desde asistentes de toma de decisiones hasta automatización empresarial. Sin embargo, esta aceleración llega en un contexto de incertidumbre sobre confiabilidad.\n\n**Capas de preocupación: privacidad y precisión**\n\nY aquí llegamos a las sombras. The Verge reporta que empresas productoras de agentes de IA prometen privacidad, pero la arquitectura real sigue siendo opaca. ¿Dónde se procesan nuestros datos? ¿Quién tiene acceso? Las promesas son abundantes, pero los garantías técnicas, escasas.\n\nMás alarmante aún: Anthropic —uno de los actores más respetados en seguridad de IA— ha generado una falsa pista en una investigación de homicidio sin resolver en Filadelfia. Su sistema de IA proporcionó información fabricada a la policía. Este caso es un recordatorio brutal: incluso con buenos intentos de diseño seguro, los sistemas pueden fallar de formas que tienen consecuencias reales en el mundo físico.\n\n**Perspectiva**\n\nVemos innovación rápida en eficiencia y especialización, pero las grietas en privacidad, transparencia y confiabilidad se vuelven más visibles. La industria necesita frenar un poco, consolidar, y asegurar que la velocidad no sacrifique la responsabilidad.\n\nAlibaba también sigue en la carrera con Qwen-Image-2.1-Turbo, un modelo de siete mil millones parámetros para procesamiento de imágenes en ocho pasos.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 64,
+    "new_articles": 53,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 25,
     "repos_count": 9,
-    "videos_count": 13,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -91,7 +91,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "Regional-Hub-for-Big-Data-in-Brazil/training-materials",
+      "title": "Regional-Hub-para-Big-Data-en-Brasil/materiales-de-entrenamiento",
       "summary": "⭐ 1 estrellas — training materials",
       "time": "69h",
       "url": "https://github.com/Regional-Hub-for-Big-Data-in-Brazil/training-materials",
@@ -151,7 +151,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
+      "title": "Constelaciones de Habilidades: Trazando la Cadena de Suministro de Habilidades de Agentes en GitHub",
       "summary": "Agent skills are SKILL.md instructions and scripts that AI coding agents such as Claude Code and Codex run with the permissions of their user. Developers share",
       "time": "90h",
       "url": "https://huggingface.co/papers/2610.11169"
@@ -162,7 +162,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+      "title": "Síntesis a través de Simulación: Generación de Datos Empresariales Coherentes a Través de la Interacción Escalable entre Agentes-Sistema",
       "summary": "Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal",
       "time": "426h",
       "url": "https://huggingface.co/papers/2610.10549"
@@ -173,7 +173,7 @@
       "lang": "en",
       "cat": "Investigación",
       "content_type": "paper",
-      "title": "Frozen Models, Evolving Expertise: Model-Agnostic Learning from Deployment Experience for Multimodal Medical AI",
+      "title": "Modelos Congelados, Expertise Evolvente: Aprendizaje Model-Independiente basado en la Experiencia de Implementación para IA Médica Multimodal",
       "summary": "Large language models (LLMs) and vision-language models (VLMs) are usually frozen after deployment, so they do not learn from the cases they solve. This is",
       "time": "138h",
       "url": "https://huggingface.co/papers/2610.09146"
@@ -184,7 +184,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
+      "title": "¿Pueden los agentes de inteligencia artificial realizar descubrimientos científicos abiertos y sin fin? Evidencia desde la estación",
       "summary": "Recent AI systems have made rapid progress in scientific discovery when given well-defined metrics, but whether they can autonomously undertake open-ended",
       "time": "138h",
       "url": "https://huggingface.co/papers/2610.08927"
@@ -206,7 +206,7 @@
       "lang": "en",
       "cat": "Investigación",
       "content_type": "paper",
-      "title": "A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning",
+      "title": "Un marco paralelo para aprendizaje por refuerzo multitarea heterogéneo en GPU",
       "summary": "GPU-parallel simulation provides abundant robot interaction, but existing benchmarks rarely combine this scale with heterogeneous manipulation tasks and",
       "time": "138h",
       "url": "https://huggingface.co/papers/2606.03335"
@@ -217,7 +217,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Mara Chain: Rethinking Failure as a Stepping Stone for AI System Auto-Evolution",
+      "title": "Mara Chain: Reconsiderando el fracaso como una piedra angular para la autoevolución del sistema de inteligencia artificial",
       "summary": "Optimizing deployed AI systems increasingly amounts to editing prompts, skills, harnesses, and code rather than model weights. Existing approaches commonly",
       "time": "402h",
       "url": "https://huggingface.co/papers/2609.35855"
@@ -228,7 +228,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Incidental information contaminates patient notes and disrupts clinical reasoning in large language models",
+      "title": "La información incidental contaminaba los informes de los pacientes y perturba el razonamiento clínico en los modelos de gran lenguaje.",
       "summary": "Large language models (LLMs) are increasingly relied upon to support ambient documentation and clinical reasoning. Here we examine the impact of a failure mode",
       "time": "138h",
       "url": "https://huggingface.co/papers/2610.08585"
@@ -239,7 +239,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "MIRA: A Musical Intent Refinement Agent for Aligning Text-to-Music Generation with User Intent",
+      "title": "MIRA: Un Agente de Afinación de Intenciones Musicales para Alinear la Generación Texto-música con las Intenciones del Usuario",
       "summary": "Text-to-music systems produce increasingly convincing audio, yet evaluation reveals little about whether the result matches user intent. A global text-audio",
       "time": "114h",
       "url": "https://huggingface.co/papers/2610.10355"
@@ -250,7 +250,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics",
+      "title": "Persistencia conductual e transferencia funcional incompleta de comunicación co-evolucionada en robótica evolutiva",
       "summary": "This work evaluates the direct transfer of a co-evolved communication protocol from a 2D simulation to a 3D physical environment, without retraining the",
       "time": "306h",
       "url": "https://huggingface.co/papers/2609.38527"
@@ -261,7 +261,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation",
+      "title": "Evaluando la Transferencia de Comunicación Co-evolucionada desde Simulación 2D hasta Simulación 3D",
       "summary": "This work examines the transfer of a co-evolved communication mechanism between two robotic agents from a discrete two-dimensional (2D) simulator to a",
       "time": "114h",
       "url": "https://huggingface.co/papers/2610.09280"
@@ -283,7 +283,7 @@
       "lang": "en",
       "cat": "Investigación",
       "content_type": "paper",
-      "title": "SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models",
+      "title": "SpecFold: Doblamiento de Redundancia Multirama para Decodificación Especulativa Más Rápida en Modelos de Lenguaje de Difusión",
       "summary": "Diffusion large language models (DLLMs) generate text through iterative block denoising, and multi-branch speculative decoding accelerates this process by",
       "time": "138h",
       "url": "https://huggingface.co/papers/2610.04875"
@@ -329,7 +329,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "What 30,000 Hours of Ego-centric Video Does Not Teach",
+      "title": "Lo que 30.000 Horas de Videos Ego-Céntricos No Enseñan",
       "summary": "World models offer a promising alternative to physics-based simulators, yet remain far from practical deployment. We ask how far scaling ego-centric human",
       "time": "68h",
       "url": "https://arxiv.org/abs/2610.12464v1",
@@ -341,7 +341,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
-      "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+      "title": "Dex-One2Many: Aprendizaje de Manipulación Dextera a partir de una Única Demostración Humana",
       "summary": "While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods",
       "time": "68h",
       "url": "https://arxiv.org/abs/2610.12470v1",
@@ -365,7 +365,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
-      "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
+      "title": "OuroWorld: Traer Cualquier Mundo 3D Vivo como Cinemagramas 3D Diversos e Infinitamente Cíclicos",
       "summary": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D",
       "time": "68h",
       "url": "https://arxiv.org/abs/2610.12461v1",
@@ -389,7 +389,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
-      "title": "Hybrid Cinematography: Previsualizing and Managing Hallucination Risk in Generative Video Reshooting",
+      "title": "Híbrida Cinematografía: Previsualización y Gestión del Riesgo de Hallucinación en la Recomposición Video Generativa",
       "summary": "On a film set, the camera move is committed during a take. Generative video reshooting lets filmmakers change it afterward, but may require hallucinating",
       "time": "68h",
       "url": "https://arxiv.org/abs/2610.12455v1",
@@ -413,66 +413,11 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
-      "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
+      "title": "LEGO: Un enfoque sin levantamiento para la generación de videos exocéntricos a egocéntricos",
       "summary": "Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and",
       "time": "68h",
       "url": "https://arxiv.org/abs/2610.12442v1",
       "arxiv": "2610.12442v1"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Uso de Agentes IA con Hermes Agent 🤖 Cómo Crear Herramientas y Skills Eficaces",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=vtfbmZ1PPyY Aprende a optimizar el uso de agentes IA con Hermes Agent para",
-      "time": "28h",
-      "url": "https://www.youtube.com/watch?v=oWQkTeMuQTM"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Bonsai 27B vs Qwen 3.5 🚀 ¿Cuál es MEJOR para Crear Presentaciones con IA?",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=vtfbmZ1PPyY Ponemos a prueba la capacidad de crear presentaciones con IA",
-      "time": "27h",
-      "url": "https://www.youtube.com/watch?v=GwexZVepWyQ"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Modelos de IA Locales 🚀 Guía de Comparativa y USO AGÉNTICO con Qwen y Bonsai",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=vtfbmZ1PPyY Descubre cómo optimizar el uso de modelos de IA locales para",
-      "time": "29h",
-      "url": "https://www.youtube.com/watch?v=zc4Z52yMPAA"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Bonsai 27B 🚀 el Modelo que consume MENOS MEMORIA y es más RÁPIDO",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=vtfbmZ1PPyY Descubre cómo el modelo Bonsai 27B está revolucionando la",
-      "time": "27h",
-      "url": "https://www.youtube.com/watch?v=MV-Mi7OK3e0"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Prueba de Qwen 3.5 27B Bonsai 🧪 ¿Mantiene la CALIDAD con esta COMPRESIÓN Extrema?",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=hNRMVLejcEg Analizamos a fondo la compresión extrema del modelo Qwen 3.5 27B",
-      "time": "26h",
-      "url": "https://www.youtube.com/watch?v=FNulHf3HzbQ"
     },
     {
       "source": "Migue Baena IA",
@@ -497,72 +442,6 @@
       "url": "https://www.youtube.com/shorts/-WCv46CIJmc"
     },
     {
-      "source": "Gustavo Entrala",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "La revolución de los agentes personales IA",
-      "summary": "📋 Organiza tareas, responsables, plazos y cada fase de tu trabajo con Odoo PROYECTOS. 🚀 Pruébalo gratis aquí 👇",
-      "time": "44h",
-      "url": "https://www.youtube.com/watch?v=d1fKvNlEj60"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 2.7B Cuantizado 🚀 Cómo Ahorrar VRAM y Mejorar la CALIDAD con Llama.cpp",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=hNRMVLejcEg Aprende cómo optimizar el uso de memoria con el modelo Qwen 2.7B",
-      "time": "25h",
-      "url": "https://www.youtube.com/watch?v=oSrfH6Ho5qc"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Ejecutar Qwen 3.5 27B en GPU Pequeña 🚀 Cómo Usar Cuantizaciones Extremas sin Perder Calidad",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=hNRMVLejcEg Aprende cómo ejecutar Qwen 3.5 27B en una GPU pequeña mediante el",
-      "time": "26h",
-      "url": "https://www.youtube.com/watch?v=hBv5mO-yAtk"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Modelos de IA Pequeños 🚀 Por qué son más INTELIGENTES y EFICIENTES que los Grandes",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=vtfbmZ1PPyY Descubre por qué los modelos de IA pequeños están revolucionando",
-      "time": "28h",
-      "url": "https://www.youtube.com/watch?v=o5kacBxx9kk"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Modelos de IA Locales 🧠 Cómo Usar Qwen y Bonsai con Ventana de Contexto Gigante",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=vtfbmZ1PPyY Aprende a configurar e implementar modelos de IA locales",
-      "time": "29h",
-      "url": "https://www.youtube.com/watch?v=AlKL02NST1k"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Cuantizar Modelos de IA con Bonsai 2 🚀 Cómo Reducir su Tamaño SIN Perder Calidad",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=hNRMVLejcEg Aprende a cuantizar modelos de IA con Bonsai 2 para reducir",
-      "time": "25h",
-      "url": "https://www.youtube.com/watch?v=OOIixeuZk8g"
-    },
-    {
       "source": "MarkTechPost",
       "source_type": "rss",
       "lang": "en",
@@ -579,7 +458,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "A new feature for my blog, built using my voice",
+      "title": "Una nueva funcionalidad para mi blog, construida usando mi voz",
       "summary": "<p>I shipped a new feature for my blog today: the <a href=\"https://simonwillison.net/newsletters/\">Newsletters</a> page, which offers an index of all of the",
       "time": "49h",
       "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
@@ -590,7 +469,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "title": "Asana reduce los costos del modelo 76 veces en pruebas del navegador con GPT-6.1 Sol",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "time": "55h",
       "url": "https://openai.com/index/asana-browser-agent"
@@ -656,7 +535,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "AI agent makers are promising privacy — will they deliver?",
+      "title": "Los creadores de agentes de inteligencia artificial prometen privacidad — ¿lo harán?",
       "summary": "At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - and told the crowd that the company wants to \"set a new standard for",
       "time": "25h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots"
@@ -667,7 +546,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Instinct was the buzziest AI agent around — can it survive Muse?",
+      "title": "Instinct fue el agente de inteligencia artificial más destacado —¿puede sobrevivir a Muse?",
       "summary": "Before there were cute little guys, there was Instinct. In August, the startup got its AI agent to market with an unusual playbook: invite-only, no marketing,",
       "time": "48h",
       "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots"
@@ -700,7 +579,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text",
+      "title": "Nace AI Open-Sources Drex 1.5: Un Modelo de Decisión de 9 Billones de Decisiones que Evalúa Opciones, No Texto",
       "summary": "<p>Nace.AI has open-sourced Drex 1.5, a 9B decision model that returns a probability for every option in 1 forward pass. It scores 58.08 on Decision Index",
       "time": "33h",
       "url": "https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/"
@@ -711,7 +590,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "title": "El AI de Anthropic proporcionó a la policía de Filadelfia una pista falsa sobre un asesinato sin resolver",
       "summary": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc.",
       "time": "41h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
@@ -722,7 +601,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop",
+      "title": "'Pura locura': Los matemáticos necesitarán años para dar sentido a la última descarga de OpenAI",
       "summary": "\"Staggering.\" \"Overwhelming.\" \"Unprecedented.\" \"Surreal.\" \"Pure insanity.\" Those were among the descriptions more than three dozen mathematicians reached for",
       "time": "43h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos"
@@ -733,7 +612,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "Nikon microscopic video competition winner disqualified for using generative AI",
+      "title": "Nikon competencia videográfica microscópica ganadora descalificada por usar inteligencia artificial generativa",
       "summary": "Nikon says the video that originally won first place in its Small World in Motion contest \"did not comply with the competition rules regarding generative AI.\"",
       "time": "44h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai"
@@ -744,7 +623,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "Trump’s attempt to rename AI is looking awfully artificial",
+      "title": "El intento de renombrar la IA de Trump parece artificialmente forzado",
       "summary": "President Donald Trump has a knack for turning words against his enemies. His first successful presidential run was built on monikers like \"Little Marco\" and",
       "time": "47h",
       "url": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding"

@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy destacamos una jornada intensa en el ecosistema de inteligencia artificial, con noticias que van desde innovaciones tecnológicas hasta conflictos corporativos de relevancia.\n\nComenzamos con un tema central: la transformación de la casa inteligente. LG ha reconocido que los hogares inteligentes nunca fueron realmente inteligentes, y ahora apuesta por la IA como solución definitiva. Este movimiento refleja una tendencia más amplia: la industria busca darle verdadera capacidad de razonamiento a los dispositivos conectados, dejando atrás simples automatizaciones.\n\nEn cuanto a modelos y herramientas de IA, Google ha lanzado TimesFM-3, un modelo de 330 millones de parámetros especializado en pronósticos de series temporales multivariadas con capacidad zero-shot. Por su parte, Keenable AI ha abierto al público NEEDLE, un benchmark de búsqueda en vivo que regenera su conjunto de consultas cada hora. Estos avances refuerzan la tendencia de crear herramientas más robustas y dinámicas. También destacamos el nuevo modelo de síntesis de voz de Gradium AI, que alcanza una tasa de aprobación del 81% en casos difíciles con apenas 216 milisegundos de latencia.\n\nEn seguridad, Check Point ha lanzado Security Hardening Assessment para potenciar la IA en defensa corporativa, mientras que CrowdStrike unifica seguridad e IA en su conferencia Falcon 2026. MediaTek, por su parte, adoptará la plataforma NVIDIA NVLink Fusion, un movimiento estratégico en infraestructura.\n\nAhora bien, el lado corporativo también genera tensiones. Microsoft descubrió un gasto extraordinario de 28.000 dólares en IA por parte de un empleado en un solo mes, lo que abre preguntas sobre goberanza y control de costos en la era de los modelos de pago por uso. Este incidente, combinado con la filtración de datos de Hugging Face vinculada a OpenAI, sugiere problemas culturales más profundos en cómo las organizaciones manejan la seguridad y el acceso a recursos de IA. Por si fuera poco, OpenAI ha aremetido contra Apple, culpándola de ser responsable de los problemas de integración entre sus plataformas.\n\nEn movimientos empresariales, Fujitsu ha nombrado a Aditya Raj para liderar el área de Data & AI en Iberia, mientras que DXC lanza Workplace Services para reinventar los espacios de trabajo digital.\n\nEste resumen refleja un sector en ebullición: innovaciones técnicas aceleradas, pero también fricciones organizacionales y cuestiones sin resolver sobre costos y seguridad. Los próximos meses serán cruciales para definir cómo estas tensiones se resuelven.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 94,
+    "new_articles": 92,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 64,
     "repos_count": 7,
-    "videos_count": 3,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -862,28 +862,6 @@
       "time": "982h",
       "url": "https://arxiv.org/abs/2608.31023v1",
       "arxiv": "2608.31023v1"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Curso de Creación de Webs con IA 🚀 Guía COMPLETA para Automatizar y Monetizar",
-      "summary": "En este curso de creación de webs con IA, aprenderás a construir sitios web informativos de forma totalmente automatizada para captar tráfico orgánico y",
-      "time": "970h",
-      "url": "https://www.youtube.com/watch?v=qQOBlTnqflc"
-    },
-    {
-      "source": "Two Minute Papers",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "GLM 5.3: El poderoso AI está volviendo a ser casi gratuito.",
-      "summary": "❤️ Revisa Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers 📝 GLM 5.3 Flash: https://z.ai/blog/glm-5.3-flash Fuentes:",
-      "time": "965h",
-      "url": "https://www.youtube.com/watch?v=w9RDunJACkc"
     },
     {
       "source": "Gentleman Programming",

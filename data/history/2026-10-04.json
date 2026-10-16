@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy destacan avances significativos en agentes de IA, tensiones en la adopción comercial, y cambios profundos en la industria de semiconductores.\n\nComenzamos con DeepSeek, que acaba de lanzar Harness v0.2 con aplicaciones de escritorio oficial para su plataforma de agentes de código abierto. Este movimiento democratiza el acceso a herramientas de IA avanzadas, aunque desde la comunidad técnica suena una alarma importante: Simon Willison advierte que necesitamos límites presupuestarios por defecto en prácticamente todas las herramientas de IA. Es un recordatorio de que la capacidad técnica no siempre va acompañada de responsabilidad financiera.\n\nEn otro frente, Hugging Face plantea un problema crítico que muchas empresas enfrentarán: \"The Agent Said It Was Done. The Database Disagreed.\" Esto refleja uno de los grandes retos actuales: la desconexión entre lo que los agentes de IA declaran como completado y la realidad de los sistemas. Es un llamado a la verificación y la confiabilidad.\n\nAhora bien, la adopción comercial de IA está generando fricciones. McDonald's experimenta con precios dinámicos del Big Mac usando IA, pero los clientes rechazan abiertamente esta estrategia. Es un caso de manual sobre cómo la tecnología bien intencionada puede erosionar la confianza del consumidor. Y Capcom adelanta que está preparándose para un futuro donde \"creamos videojuegos junto con la IA\", una declaración que abre debates fascinantes sobre creatividad y autoría.\n\nEn el capítulo de innovación técnica, Aleph Alpha lanza Kolibri, un modelo multilingüe de 78 mil millones de parámetros con solo 3.46 mil millones activos. Y Google amplía su apuesta por privacidad: Federated Learning ahora opera dentro de entornos de ejecución confiable, integrando privacidad diferencial verificable externamente en Gboard.\n\nNVIDIA, por su parte, revela IsaacTeleop, un motor de retargeting basado en grafos que traduce movimientos de manos y controles en acciones robóticas precisas. Un paso decisivo hacia la teleoperación de robots más intuitiva.\n\nFinalmente, el panorama económico. Micron ha alcanzado un trimestre récord, ganando más que Apple. El giro es dramático: hace un año ganaba 3.2 mil millones trimestrales. Su CEO advierte que la escasez de RAM se intensificará en 2027 y 2028. Este mensaje es crucial para toda la industria: el boom de IA está agotando la capacidad de producción de semiconductores críticos.\n\nEstos doce movimientos pintan un cuadro complejo: innovación acelerada, presiones comerciales sin resolver, brechas de confianza en sistemas, y límites físicos que se aproximan en la cadena de suministro.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 31,
+    "new_articles": 27,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 0,
     "repos_count": 12,
-    "videos_count": 5,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -171,50 +171,6 @@
       "stars": "0"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "LLMs locales y su potencial real 🤖 ¿Pueden sustituir a los Modelos FRONTERA?",
-      "summary": "En este video analizamos los LLMs locales y su potencial real frente a los grandes modelos de frontera en tareas de programación. Comparamos cómo un modelo de",
-      "time": "168h",
-      "url": "https://www.youtube.com/watch?v=CBTR1q4CeP0"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Pi 1.0 🚀 El Agente de Desarrollo MINIMALISTA para la Terminal",
-      "summary": "Descubre cómo funciona Pi 1.0, el nuevo agente de desarrollo minimalista diseñado para trabajar directamente desde tu terminal. Esta versión 1.0 llega como un",
-      "time": "189h",
-      "url": "https://www.youtube.com/watch?v=hKaMUjWqqFY"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Comparando Harness - Pi vs Codex ⚡ ¿Cuál es MEJOR para Programar con IA?",
-      "summary": "En este video realizamos una comparando Harness - Pi vs Codex para determinar cuál entorno ofrece mejores resultados al programar con inteligencia artificial.",
-      "time": "176h",
-      "url": "https://www.youtube.com/watch?v=iFlXJn8K9Hc"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Curso Completo IA Local 🚀 Cómo Usar Llama.cpp con Modelos GGUF",
-      "summary": "En este Curso Completo IA Local aprenderás a ejecutar modelos de lenguaje de pesos abiertos directamente en tu propio hardware utilizando Llama.cpp. Este",
-      "time": "186h",
-      "url": "https://www.youtube.com/watch?v=fMKMg5wGwlI"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -308,7 +264,7 @@
       "lang": "en",
       "cat": "Investigación",
       "content_type": "release",
-      "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
+      "title": "Aleph Alpha Releases Kolibri: Un modelo MoE de 78.1B en inglés-alemán con solo 3.46B parámetros activos",
       "summary": "<p>Aleph Alpha has released Kolibri, a 78.1B-parameter English-German Mixture-of-Experts model that activates only 3.46B parameters per token. It has a",
       "time": "175h",
       "url": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/"

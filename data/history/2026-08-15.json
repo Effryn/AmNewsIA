@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy te traemos un especial sobre herramientas prácticas que están ganando tracción en la comunidad, y también algunas actualizaciones importantes de seguridad que no deberías pasar por alto. Empecemos con lo más interesante en GitHub. Ha habido un movimiento fuerte alrededor de proyectos de visión por computadora y detección. RoadSense destaca como un modelo de IA para análisis de tráfico y comportamiento vial, algo muy útil si trabajas en movilidad autónoma o sistemas de monitoreo. En paralelo, encontramos un detector de correos de phishing basado en machine learning que, honestamente, es algo que merece la pena probar en tu sandbox personal si trabajas en ciberseguridad o detectando anomalías. Estos dos te dan patrones prácticos de clasificación que puedes reutilizar. En otro frente, hay dos proyectos que merecen atención: un análisis de algoritmos genéticos aplicado a penales en fútbol, que es un ejemplo académico muy limpio de optimización evolutiva, y Hyperion V3, que promete mejoras en eficiencia de modelos Python. Si buscas entender optimización sin ir directo a papers densos, estos son excelentes puntos de entrada. Ahora, lo que realmente cambia el juego: Z.ai acaba de entrenar GLM-5.3, un modelo especializado en código, y aquí viene lo interesante, el modelo mejoró exponencialmente no solo en programación, sino también en tareas de ciberseguridad. Esto confirma lo que muchos ya sospechábamos: que el entrenamiento en código fuerte transfiere habilidades a detección de vulnerabilidades. Si trabajas en generación de código o análisis de seguridad, este es un modelo que definitivamente deberías monitorear. En el lado de infraestructura, NVIDIA ha sacado la versión estable de GeForce Now para Linux. Para los que desarrollamos en sistemas Linux, esto es un cambio real: acceso a GPUs gaming sin configuración compleja. Es un movimiento que democratiza el acceso a potencia de cómputo. Y termino con dos alertas de seguridad que son críticas. Windows 11 acaba de recibir un parche masivo con más de 400 correcciones en agosto, así que si estás en ese ecosistema, no dejes pasar esa actualización. Más importante aún: Chrome está siendo explotado a través de alertas falsas que instalan malware. Suena simple, pero es sofisticado. Mantén a tu equipo alert sobre esto. En resumen: hay herramientas frescas que probar, un modelo de código generativo que merece seguimiento, y recordatorios de seguridad que no son negociables. Eso es todo por hoy. Gracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 57,
+    "new_articles": 40,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 2,
     "repos_count": 14,
-    "videos_count": 37,
+    "videos_count": 20,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -228,28 +228,6 @@
       "url": "https://www.youtube.com/shorts/YZhVtrB_3dc"
     },
     {
-      "source": "Xavier Mitjana - Lab",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Kimi K3: El modelo LIBRE al nivel de Fable 5",
-      "summary": "En este vídeo analizamos a fondo el Kimi K3 de Moonshot, el nuevo modelo de inteligencia artificial chino que promete competir al de tú a tú con los gigantes",
-      "time": "1965h",
-      "url": "https://www.youtube.com/watch?v=dPdSwlSOYRY"
-    },
-    {
-      "source": "Gentleman Programming",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Una IA se salió del sandbox y atacó una empresa: qué pasó realmente",
-      "summary": "Gentleman Programming | IA se escapó | Se escapó una IA de OpenAI y terminó adentro de la infraestructura de Hugging Face. Te explico qué pasó de verdad, sin",
-      "time": "1630h",
-      "url": "https://www.youtube.com/watch?v=EGlCBzJxwXg"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -259,39 +237,6 @@
       "summary": "Claude Code y Codex ahora pueden trabajar juntos. 🤯 ‼️ OpenAI lanzó un plugin oficial que permite integrar Codex directamente dentro de Claude Code desde tu",
       "time": "1368h",
       "url": "https://www.youtube.com/shorts/jX7xvMwXZz8"
-    },
-    {
-      "source": "Gentleman Programming",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Tu agente de IA está CIEGO: así le das ojos al mundo real",
-      "summary": "Gentleman Programming | Agentes de IA | Tu agente de IA está ciego: le das herramientas, contexto y un modelo carísimo, pero cuando sale al mundo real a buscar",
-      "time": "1413h",
-      "url": "https://www.youtube.com/watch?v=6ChZMEMJ8hA"
-    },
-    {
-      "source": "Gentleman Programming",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "ASÍ Controlo mis agentes de IA desde el TELÉFONO",
-      "summary": "Gentleman Programming | Agentes de IA | Controlo mis agentes de IA desde el teléfono: tu máquina, tu red, tus llaves, sin subir el código a la nube de nadie.",
-      "time": "1367h",
-      "url": "https://www.youtube.com/watch?v=Yj51wXMwFwE"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "4 agentes de IA para automatizar el 99% de tu trabajo",
-      "summary": "Recursos del video: https://app.notion.com/p/4-agentes-de-IA-para-organizar-crear-auditar-y-prepararte-3b35accb1cc9803da4a2d1f7f65288da?source=copy_link Mi",
-      "time": "1413h",
-      "url": "https://www.youtube.com/watch?v=zXxktjZ7s34"
     },
     {
       "source": "Gentleman Programming",
@@ -327,83 +272,6 @@
       "url": "https://www.youtube.com/shorts/nZJ4-8LBqco"
     },
     {
-      "source": "Gentleman Programming",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "RDD: la metodología que INVENTÉ para que la IA no te mienta",
-      "summary": "Gentleman Programming | RDD (Receipt Driven Development): la metodología que inventé para que la IA no te mienta cuando dice \"esto funciona\". Congela tus",
-      "time": "1702h",
-      "url": "https://www.youtube.com/watch?v=t_HEm1om2Ek"
-    },
-    {
-      "source": "Xavier Mitjana - Lab",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "La IA más ALUCINANTE que he probado (mejor que Fable 5) 🤯 Nuevo Opus 5",
-      "summary": "👉 Prueba Magnific: https://www.magnific.com/app/ai-image-generator?utm_source=youtube&amp;utm_medium=content&amp;utm_campaign=mitjana --- ENLACES DEL VÍDEO 👉",
-      "time": "1801h",
-      "url": "https://www.youtube.com/watch?v=3UbKQebN8Ug"
-    },
-    {
-      "source": "Xavier Mitjana - Lab",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Meta contraataca con 2 NUEVOS modelos de IA TOP",
-      "summary": "Toda la INFO del curso de Google 👉 https://iaenaccion.com/curso-ia-gemini-notebook-google -- ENLACES DEL VÍDEO: https://meta.ai/ MARCAS DE TIEMPO 00:00 Intro",
-      "time": "2276h",
-      "url": "https://www.youtube.com/watch?v=b9FtG_fJ1aw"
-    },
-    {
-      "source": "Xavier Mitjana - Lab",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Edita imágenes MÁS FÁCIL con esta herramienta de GOOGLE 🤯",
-      "summary": "Aprovecha el descuento Black Friday en mi curso de Google 👉 https://iaenaccion.com/curso-ia-gemini-notebook-google/ --- ENLACES DEL VIDEO 👉",
-      "time": "7747h",
-      "url": "https://www.youtube.com/watch?v=pw33sBfH-cs"
-    },
-    {
-      "source": "Xavier Mitjana - Lab",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Crea IMÁGENES y VÍDEO con MIDJOURNEY 100% GRATIS 🤯",
-      "summary": "Aprovecha el descuento Black Friday en mi curso de Google 👉 https://iaenaccion.com/curso-ia-gemini-notebook-google/ --- ENLACES DEL VIDEO 👉 https://meta.ai/",
-      "time": "7773h",
-      "url": "https://www.youtube.com/watch?v=j240TyJ4FUA"
-    },
-    {
-      "source": "Xavier Mitjana - Lab",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Crea videos con sonido GRATIS 🤯 Alternativa a VEO 3",
-      "summary": "Accede a la INFO del curso de Google 👉 https://iaenaccion.com/curso-ia-gemini-notebook-google/ --- ENLACES DEL VIDEO https://grok.com/imagine",
-      "time": "8781h",
-      "url": "https://www.youtube.com/watch?v=m9qd4B4-nTo"
-    },
-    {
-      "source": "Xavier Mitjana - Lab",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "¡OFICIAL! NANOBANANA llega a Photoshop 🤯 ¡Lo pongo a prueba!",
-      "summary": "Accede a la INFO del curso de Google 👉 https://iaenaccion.com/curso-ia-gemini-notebook-google/ --- ✅ SUCRÍBETE A MI CANAL: http://bit.ly/suscribirse_XM​​​​ 📕",
-      "time": "9118h",
-      "url": "https://www.youtube.com/watch?v=u2PBXFGfKz4"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -424,28 +292,6 @@
       "summary": "¿Quieres un profesor particular gratis disponible 24/7? 📚 👉🏻 Con NotebookLM y Gemini, puedes convertir tus propios apuntes y documentos en un sistema de",
       "time": "1491h",
       "url": "https://www.youtube.com/shorts/byb6cWEtTbA"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Probé la nueva VOZ de Claude vs ChatGPT… esto ya parece JARVIS",
-      "summary": "Descarga el recurso de Hubspot Gratis, aquí: https://clickhubspot.com/714c5e Prueba Omnisend con un 30% de descuento durante 3 meses:",
-      "time": "1509h",
-      "url": "https://www.youtube.com/watch?v=V3Ti0ylO-sM"
-    },
-    {
-      "source": "Gentleman Programming",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Patrón ORQUESTADOR-MINION: así ahorrás tokens sin perder calidad",
-      "summary": "Gentleman Programming | Patrón Orquestador-Minion: el patrón que uso en gentle-ai desde hace 4 meses y que hoy recomiendan para trabajar con Fable y modelos",
-      "time": "1941h",
-      "url": "https://www.youtube.com/watch?v=vRydZQZ08OQ"
     },
     {
       "source": "maxmaxdata",
@@ -523,39 +369,6 @@
       "summary": "",
       "time": "1756h",
       "url": "https://www.youtube.com/shorts/6nCmPVP6mcc"
-    },
-    {
-      "source": "Xavier Mitjana - Lab",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Crea videos con IA (GRATIS e ILIMITADO) 🤯 Tutorial MiniMax H3 en local",
-      "summary": "En este vídeo te enseño cómo ejecutar MiniMax H3 gratis e ilimitado directamente en tu propio ordenador. Comparamos el rendimiento, calidad y adherencia al",
-      "time": "1628h",
-      "url": "https://www.youtube.com/watch?v=JCN1Y8i1be8"
-    },
-    {
-      "source": "Xavier Mitjana - Lab",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Nuevo REY en GENERACIÓN DE VIDEO (¡Hace cosas IMPOSIBLES!) 🤯",
-      "summary": "👉 Prueba Freepik: https://www.freepik.com/pikaso/ai-image-generator?utm_source=youtube&amp;utm_medium=content&amp;utm_campaign=mitjana Matricúlate a mi nuevo",
-      "time": "9167h",
-      "url": "https://www.youtube.com/watch?v=f59l9pcWmV8"
-    },
-    {
-      "source": "Xavier Mitjana - Lab",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Anima cualquier imagen con TU MOVIMIENTO... ¡GRATIS! 🤯 Calidad BRUTAL",
-      "summary": "👉 Prueba Freepik: https://www.freepik.com/pikaso/ai-image-generator?utm_source=youtube&amp;utm_medium=content&amp;utm_campaign=mitjana Matricúlate a mi nuevo",
-      "time": "9261h",
-      "url": "https://www.youtube.com/watch?v=cVrhNg_xvdY"
     },
     {
       "source": "Gentleman Programming",

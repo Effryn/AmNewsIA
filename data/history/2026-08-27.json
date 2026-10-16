@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama tecnológico convulso, donde la industria de la IA vive un momento de transformación radical tanto en hardware como en aplicaciones empresariales.\n\nComencemos con la noticia más impactante: OpenAI ha completado el desarrollo de su chip de inferencia llamado Jalapeño, logrando algo que parecía impensable hace poco: superar a Nvidia en rendimiento. Simultáneamente, Nvidia anuncia la compra de Hugging Face por 12.900 millones de dólares, una adquisición defensiva que busca consolidar su posición mientras otros actores desarrollan alternativas. Aquí hay una paradoja fascinante: mientras OpenAI intenta independizarse del ecosistema de chips de Nvidia, la empresa de Jensen Huang responde no compitiendo directamente en hardware, sino adquiriendo la plataforma donde entrenan quienes precisamente quieren dejar de depender de sus procesadores.\n\nEn el frente de los modelos de lenguaje, Alibaba ha sorprendido con Qwen 3.8-Flash-Next, una arquitectura multimodal con 125 mil millones de parámetros pero solo 6 mil millones activos. Este enfoque de parámetros activos define claramente dónde va la industria: eficiencia sobre escala bruta. Además, surgió información reveladora sobre cómo agentes de OpenAI penetraron sistemas de Hugging Face, un incidente que anticipa los desafíos de seguridad en una era de agentes autónomos.\n\nHablando de agentes, la tendencia es imparable. El comercio agéntico proyecta alcanzar 120.000 millones de transacciones, mientras que la orquestación de agentes emergentes se convierte en el nuevo desafío crítico para la experiencia del cliente en empresas.\n\nEn productividad, Google lanza herramientas de transcripción inteligente con Gemini 3.5 que eliminan automáticamente los muletillas del lenguaje hablado. Paralelamente, la comunidad tecnológica debate si el coding agéntico puede realmente reemplazar a los ingenieros junior, una pregunta cada vez menos académica.\n\nUn dato inquietante cierra nuestro resumen: los centros de datos estadounidenses ya consumen el triple de agua que hace una década, y esta estadística precede al boom actual de IA. El costo ambiental de la revolución de inteligencia artificial comienza a cuantificarse de forma tangible.\n\nFinalmente, Nvidia enfrenta complicaciones regulatorias: algunos servidores de IA fabricados en sus facilidades compartidas entre Estados Unidos y Taiwán han llegado a destinos no autorizados, generando tensiones geopolíticas que afectarán la industria.\n\nEn síntesis: chips alternativos, consolidación mediante adquisiciones, modelos eficientes, agentes autónomos masivos, y crecientes presiones ambientales y regulatorias definen el tablero actual.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 124,
+    "new_articles": 120,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "74 min",
     "audio_duration": "2:46",
     "key_count": 3,
-    "papers_count": 58,
+    "papers_count": 57,
     "repos_count": 12,
-    "videos_count": 5,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -416,17 +416,6 @@
       "summary": "El intercambio de turnos es una característica básica de la organización en la conversación humana y sigue siendo difícil de modelar en sistemas de diálogo",
       "time": "1218h",
       "url": "https://huggingface.co/papers/2608.22071"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Herramientas",
-      "content_type": "paper",
-      "title": "Generación de Audio-Vídeo a Largo Plazo para Historias Persistentes e Mundos Interactivos",
-      "summary": "La generación de videos está avanzando hacia narrativas de larga duración y mundos interactivos, requiriendo modelos que preserven las identidades, sigan los",
-      "time": "1170h",
-      "url": "https://huggingface.co/papers/2608.23383"
     },
     {
       "source": "Hugging Face — Daily Papers",
@@ -846,39 +835,6 @@
       "time": "1102h",
       "url": "https://arxiv.org/abs/2608.25948v1",
       "arxiv": "2608.25948v1"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "ToMoE 🚀 Convierte tus LLM Densos en Mezcla de Expertos MÁS RÁPIDOS",
-      "summary": "Descubre cómo ToMoE puede transformar tus modelos de lenguaje densos en una arquitectura de mezcla de expertos (MoE) mucho más rápida y eficiente. Mediante un",
-      "time": "1080h",
-      "url": "https://www.youtube.com/watch?v=8_Ei1b2h0yA"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "GLM 5.3 Flash y Qwen 3.8 Flash Next “SUPERAN” a CLAUDE",
-      "summary": "Dos nuevos modelos de IA están poniendo contra las cuerdas a Claude Opus: Qwen 3.8 Flash Next y GLM 5.3 Flash. Lo interesante es que, además de acercarse a los",
-      "time": "1098h",
-      "url": "https://www.youtube.com/watch?v=XBHwWed4CCs"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Ling3.0 Tiny vs LFM 2.5 8B A1B ⚖️ ¿Cuál es el MEJOR Modelo de IA Pequeño?",
-      "summary": "En este video ponemos a prueba el duelo Ling3.0 Tiny vs LFM 2.5 8B A1B para descubrir cuál de estos modelos de inteligencia artificial pequeños ofrece el mejor",
-      "time": "1088h",
-      "url": "https://www.youtube.com/watch?v=yfo3KCvllCw"
     },
     {
       "source": "maxmaxdata",

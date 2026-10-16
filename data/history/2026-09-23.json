@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos encontramos con una industria de la inteligencia artificial en plena ebullición, donde la competencia entre los grandes actores está alcanzando nuevas dimensiones.\n\n**La batalla de precios y rendimiento**\n\nComenzamos con lo más relevante: OpenAI ha lanzado GPT-6 Sol y Luna, dos nuevos modelos que marcan un antes y un después en la estrategia de costos de la industria. Estos modelos representan una reducción del 50 por ciento en los precios de la API, lo que genera una presión inmediata en el mercado. Prácticamente al mismo tiempo, Anthropic ha respondido con Claude Opus 5.5, logrando un rendimiento comparable al de Fable 5.1 pero consumiendo un 40 por ciento menos recursos computacionales. Esto no es casualidad: estamos presenciando una guerra de precios donde la eficiencia se ha convertido en la moneda de cambio fundamental.\n\n**Capacidades matemáticas en expansión**\n\nEn paralelo, OpenAI está resolviendo problemas matemáticos a una velocidad asombrosa con su tecnología GPT-6 Astra, capaz de reducir el tiempo de investigación y costos a la mitad. Kyutai ha presentado Voice of Reason, un modelo nativo de voz que resuelve matemáticas habladas utilizando aprendizaje por refuerzo. Estas capacidades, aunque impresionantes en rendimiento, plantean un desafío interpretativo: entender cómo estos sistemas llegan a sus conclusiones sigue siendo complejo.\n\n**Seguridad y gobernanza en el foco**\n\nUn aspecto crucial que no podemos obviar: Anthropic ha implementado salvaguardas más estrictas en Opus 5.5, particularmente enfocadas en ciberseguridad. Las nuevas restricciones muestran una tendencia clara hacia modelos más controlados, donde lo relevante no es solo qué pueden hacer estos sistemas, sino qué se les permitirá hacer.\n\n**Optimizaciones técnicas**\n\nEn el frente tecnológico, OpenAI ha mejorado significativamente el caché de prompts en GPT-6, reduciendo latencia y costos. Nokia, por su parte, ha abierto el código de AnyJev, una capa de entrenamiento que convierte cualquier LLM de código abierto en un modelo de decisiones calibrado, sin requerir reentrenamiento.\n\n**Contexto general**\n\nLo que observamos es una industria que transita hacia una nueva fase: después de Opus 5.5, la carrera de la IA no solo busca mayor capacidad, sino mayor eficiencia, control y especialización. Los precios caen, las salvaguardas suben, y la especialización por tareas gana terreno.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 107,
+    "new_articles": 99,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "64 min",
     "audio_duration": "2:34",
     "key_count": 3,
-    "papers_count": 64,
+    "papers_count": 63,
     "repos_count": 6,
-    "videos_count": 9,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -130,17 +130,6 @@
       "time": "439h",
       "url": "https://github.com/Amanyadav-07/greenpulse-ai",
       "stars": "0"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
-      "title": "Collusión Emergente en la Interacción de Agentes LLM con Horizonte de Tiempo Largo",
-      "summary": "Los agentes LLM se están depolyendo cada vez más en entornos colaborativos, pero una interacción a largo plazo puede dar lugar a una coordinación no deseada.",
-      "time": "498h",
-      "url": "https://huggingface.co/papers/2609.24967"
     },
     {
       "source": "arXiv — cs.AI",
@@ -852,17 +841,6 @@
       "arxiv": "2609.26662v1"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.6 35B vs Ornith 1.5 35B ⚖️ Cuál es MEJOR para Programar",
-      "summary": "En este video analizamos a fondo la comparativa Qwen3.6 35B vs Ornith 1.5 35B para determinar cuál de estos dos modelos de lenguaje es superior en tareas de",
-      "time": "440h",
-      "url": "https://www.youtube.com/watch?v=hPcjHTEPuTg"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -874,61 +852,6 @@
       "url": "https://www.youtube.com/shorts/FpOkSrjCuwA"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "K2-Horizon-0.9B ⚠️ ¿Vale la PENA? Análisis y Pruebas de Rendimiento",
-      "summary": "En este análisis profundo, ponemos a prueba el modelo K2-Horizon-0.9B para descubrir si su rendimiento justifica su uso en entornos locales. Evaluamos si este",
-      "time": "436h",
-      "url": "https://www.youtube.com/watch?v=A4xx_7k87PQ"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Estoy Decepcionado con OpenAI ❌ la VERDAD sobre sus nuevos Modelos GPT-6",
-      "summary": "Estoy decepcionado con el rumbo actual de OpenAI y la calidad de sus últimos lanzamientos. En este video analizamos la realidad detrás de los nuevos modelos",
-      "time": "444h",
-      "url": "https://www.youtube.com/watch?v=1PKZpgUf5kw"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "GPT 6 Sol es más tonto 📉 COMPARATIVA con el 5.6 SOL para ver si EMPEORÓ",
-      "summary": "En este video analizamos si el nuevo GPT 6 Sol es más tonto que su predecesor mediante una comparativa técnica detallada. Ponemos a prueba las capacidades de",
-      "time": "448h",
-      "url": "https://www.youtube.com/watch?v=EjpkHj0m0NQ"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "GPT 6 Luna es horrible ❌ Comparativa REAL contra GPT 5.6 Luna",
-      "summary": "En este video analizamos por qué GPT 6 Luna es horrible en comparación con su predecesor en pruebas de rendimiento reales. Realizamos una comparativa directa",
-      "time": "450h",
-      "url": "https://www.youtube.com/watch?v=NeALR4MvY44"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Me equivoqué con Ornith 9B 🧪 Comparativa de RENDIMIENTO y Calidad con Qwen",
-      "summary": "Me equivoqué con Ornith 9B al no anticipar cómo se comportaría en una comparativa directa frente al modelo original. En este video analizamos el rendimiento y",
-      "time": "456h",
-      "url": "https://www.youtube.com/watch?v=SLt4-2aIgAs"
-    },
-    {
       "source": "Gentleman Programming",
       "source_type": "youtube",
       "lang": "es",
@@ -938,17 +861,6 @@
       "summary": "Nunca abras el puerto 22",
       "time": "453h",
       "url": "https://www.youtube.com/shorts/aLnQVpSJRpM"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "🔴META CONNECT 2026",
-      "summary": "💯 Hazte miembro de Youtube y obtén ventajas exclusivas 👉 https://www.youtube.com/channel/UCGn6BqOTYWAutJOf9cry-pw/join 🏪 Tienda de adaptadores impresos en 3D 👉",
-      "time": "435h",
-      "url": "https://www.youtube.com/watch?v=m5HYxwwez9k"
     },
     {
       "source": "Xataka IA",

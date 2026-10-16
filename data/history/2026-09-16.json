@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy, nos enfrentamos a un debate geopolítico sin precedentes sobre el futuro de la inteligencia artificial, mientras las empresas tech aceleran su desarrollo y enfrentamos los primeros ciberataques protagonizados por agentes de IA.\n\nComenzamos con la tensión regulatoria más candente. Varios gobiernos están considerando medidas restrictivas para frenar el desarrollo de la IA, un movimiento que muchos ven como una estrategia indirecta para contener el avance de competidores como DeepSeek, Qwen y Mistral. Pero Jensen Huang, CEO de NVIDIA, ha sido claro: \"No vamos a permitir que eso suceda\". La industria estadounidense se resiste frontalmente a cualquier freno legislativo, argumentando que ralentizar la innovación apenas conseguiría debilitar la competitividad global.\n\nEn materia de seguridad, hemos presenciado un hito preocupante: la AEPD ha documentado el primer ciberataque en España perpetrado por un agente de IA autónomo. Un punto de inflexión que confirma los riesgos que ya advertían los expertos. Paradójicamente, el 86% de las empresas españolas ya está desarrollando sus propios modelos de lenguaje, según revela nuestro análisis. Y para mitigar estos riesgos, colaboraciones como la de Cloudera y Mistral están habilitando soluciones de IA segura y soberana, manteniendo los datos donde residen.\n\nEn el frente comercial, Google ha lanzado Gemini 3.8 Live y su variante Extended Thinking para agentes de voz en producción, consolidando su posición en aplicaciones empresariales de alto nivel. Fujitsu, por su parte, apuesta por el chip Monaka para devolver a Japón a los días dorados de la innovación tecnológica, en lo que muchos ven como la nueva fiebre del oro de chips especializados en IA.\n\nPero el desarrollo no es lineal. Google enfrenta un nuevo problema: justo cuando creía haber resuelto la fragmentación de Android, llega la IA para complejificar nuevamente el ecosistema. Y hay un dato curioso sobre cómo percibimos la IA: un estudiante invirtió cuatro horas en \"estropear\" deliberadamente una presentación perfecta generada por IA, simplemente para que no pareciera generada por máquina. Refleja cómo la sociedad aún busca ese toque humano.\n\nCierre económico: la IA confiable multiplica por quince el retorno de inversión empresarial, según nuevos estudios. Un dato que resume por qué la batalla global por liderazgo en IA no es solo tecnológica, sino también económica.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 97,
+    "new_articles": 96,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 61,
     "repos_count": 9,
-    "videos_count": 3,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -308,7 +308,7 @@
       "lang": "en",
       "cat": "Investigación",
       "content_type": "paper",
-      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
+      "title": "PhysStream: Streaming la Generación de Video con Fondo en Física y Memoria Escenográfica Structurada y Control de Movimiento con Detalle Finos",
       "summary": "El control interactivo para la generación de video está evolucionando de prompts coarsos hacia una manipulación más detallada y significativa física de escenas",
       "time": "642h",
       "url": "https://huggingface.co/papers/2609.17521"
@@ -851,17 +851,6 @@
       "time": "623h",
       "url": "https://arxiv.org/abs/2609.17269v1",
       "arxiv": "2609.17269v1"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Cómo Programar con Spec-Driven Development 🚀 Ejemplo con IA Local y Pi Agent",
-      "summary": "En este video realizamos una prueba real de Spec-Driven Development con IA Local para demostrar cómo programar de manera eficiente y controlada. Aplicamos esta",
-      "time": "620h",
-      "url": "https://www.youtube.com/watch?v=qQNd7ajxDL8"
     },
     {
       "source": "Migue Baena IA",

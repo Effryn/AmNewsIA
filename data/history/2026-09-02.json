@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos encontramos con un panorama dominado por Anthropic y sus últimos lanzamientos, además de avances significativos en IA agentica que están redefiniendo lo que estas herramientas pueden hacer.\n\n**Anthropic domina la conversación**\n\nComencemos con Anthropic, que acaba de presentar Claude Fable 5.1, su modelo más potente hasta la fecha. Sin embargo, hay un giro irónico: aunque es su versión más avanzada, la compañía no permite acceso completo a todas sus capacidades. El modelo promete reducciones de costos de hasta un 45 por ciento para trabajos agenticos, y alcanza el 52,6 por ciento en benchmarks científicos, además de ofrecer lecturas de caché un 75 por ciento más económicas. También han lanzado Claude Mythos 5.1 como complemento.\n\nUn dato curioso que surge de estos lanzamientos: ha emergido lo que se está llamando el \"Claudés\", un dialecto que solamente entienden aquellos que pasan sus días interactuando constantemente con agentes de IA. Es un fenómeno lingüístico inesperado que muestra cómo estas herramientas están generando sus propias dinámicas culturales.\n\n**La revolución de la IA agentica**\n\nMás allá de Anthropic, la IA agentica es claramente el tema del momento. Google DeepMind ha introducido capacidades de comprensión de video agentica con Gemini, permitiendo que los modelos no solo analicen video, sino que actúen sobre esa información. En paralelo, Perplexity ha lanzado Hybrid Compute para Mac, un sistema donde agentes en la nube pueden orquestar tareas hacia modelos locales, equilibrando potencia y privacidad.\n\nTambién tenemos a investigadores de Princeton, Ant Group y Stanford con AQuA, un framework de dos partes diseñado específicamente para descubrimiento autónomo de factores y desarrollo de modelos en finanzas cuantitativas. Un caso de uso muy especializado pero altamente relevante.\n\n**Expansión hacia nuevas fronteras**\n\nDos noticias amplían el horizonte más allá de los modelos de lenguaje tradicionales. Google DeepMind presentó Atlas, que busca hacer en el mundo físico lo que los LLM hicieron con internet: mapear, comprender y permitir razonamiento sobre el conocimiento físico. Y Huawei está apostando por llevar su IA más allá de smartphones, buscando un nicho en el desarrollo de nuevos medicamentos.\n\nFinalmente, desde Hugging Face nos llega una reflexión importante: BenchMIRT, un análisis crítico sobre qué están realmente midiendo los benchmarks de LLM, sugiriendo que tal vez necesitamos replantear cómo evaluamos estos sistemas.\n\nEl denominador común es claro: la IA está pasando de ser una herramienta de análisis a un agente autónomo capaz de actuar, aprender y operar en múltiples dominios, desde finanzas hasta medicina.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 115,
+    "new_articles": 110,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 56,
     "repos_count": 11,
-    "videos_count": 7,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -676,7 +676,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "LatentPress: Context Compression Beyond Text and Vision",
+      "title": "LatentPress: Compresión de Contexto Más Allá del Texto y la Visión",
       "summary": "El contexto comprimido se lleva generalmente como texto legible por humanos o como imágenes renderizadas que deben ser decodificadas, incluso cuando su",
       "time": "957h",
       "url": "https://arxiv.org/abs/2609.01507v1",
@@ -826,50 +826,6 @@
       "url": "https://www.youtube.com/shorts/NiHMW6Q3FSc"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.5 0.8B 🚀 ¿Sirve para PROGRAMAR? Prueba de Rendimiento y Código",
-      "summary": "En este vídeo analizamos el rendimiento del modelo Qwen3.5 0.8B ejecutado a precisión completa para determinar si realmente es capaz de programar. Ponemos a",
-      "time": "950h",
-      "url": "https://www.youtube.com/watch?v=fGyLXOACW9k"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Billions vs Bits 🧠 ¿Qué conviene más: Modelo GRANDE o MODELO Pequeño?",
-      "summary": "En este video analizamos el dilema de Billions vs Bits para determinar si es mejor utilizar un modelo de lenguaje grande con alta cuantización o un modelo",
-      "time": "955h",
-      "url": "https://www.youtube.com/watch?v=v88cvk6fBYU"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.5 4B ⚡ Probamos su INTELIGENCIA para Programación y Código",
-      "summary": "En este video ponemos a prueba la capacidad de programación de Qwen3.5 4B para evaluar su verdadero potencial en la generación de código. Analizamos cómo se",
-      "time": "944h",
-      "url": "https://www.youtube.com/watch?v=BItaynpOUy8"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.5 2B 🚀 ¿Es MEJOR que la versión 0.8B para Programar?",
-      "summary": "En este video analizamos si el modelo Qwen3.5 2B es realmente una mejor opción para programar en comparación con su versión de 0.8B. Exploramos cómo el aumento",
-      "time": "947h",
-      "url": "https://www.youtube.com/watch?v=WjCSXvzbxls"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -901,17 +857,6 @@
       "summary": "<p> <img",
       "time": "958h",
       "url": "https://www.xataka.com/robotica-e-ia/ha-nacido-claudes-dialecto-que-solo-entienden-quienes-se-pasan-dia-hablando-sus-agentes-ia"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Quest 3 alcanza los 240Hz… ⚠️ Pero hay un problema",
-      "summary": "Las Meta Quest 3 acaban de desbloquear una capacidad sorprendente: hasta 240 Hz de tasa de refresco. Pero, ¿realmente merece la pena utilizar 240 Hz? En este",
-      "time": "959h",
-      "url": "https://www.youtube.com/watch?v=NTVR1lROFos"
     },
     {
       "source": "Xataka IA",

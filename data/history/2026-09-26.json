@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy destacamos un panorama en el que la IA se expande hacia nuevos dispositivos y formatos, mientras las grandes empresas tecnológicas compiten por redefinir las herramientas que usamos diariamente.\n\nComenzamos con la carrera por la próxima generación de interfaces inteligentes. Qualcomm está apostando por auriculares que no solo escuchan, sino que entienden el contexto de lo que dices y ejecutan tareas automáticamente. Mientras tanto, Microsoft va más allá y presenta lo que podría ser el nuevo Office: una superaplicación impulsada por IA que busca competir directamente con los modelos más avanzados de Anthropic y OpenAI. Estamos ante un cambio fundamental en cómo accedemos a la inteligencia artificial.\n\nEn el frente de investigación y desarrollo, vemos dos tendencias opuestas pero complementarias. Las empresas chinas lideran en la creación de modelos pequeños y eficientes, pero ahora el apetito es por lo contrario: modelos colosales con capacidades sin precedentes. Este contraste refleja una maduración del sector que busca soluciones tanto ágiles como potentes.\n\nEn cuanto a los agentes de IA, la innovación es frenética. Exa ha lanzado Agent Ultra, una plataforma de subagentas coordinadas pensada para investigación exhaustiva. Por su parte, Perplexity está entrenando agentes que aprenden de sus propios errores mediante un método revolucionario. Y Liquid AI ha logrado un avance importante en visión y lenguaje: modelos capaces de decodificarse hasta tres veces más rápido sin perder precisión.\n\nTambién detectamos un tema de seguridad que no podemos ignorar: una compañía específica se ha convertido en el epicentro de ataques con IA maliciosa. En paralelo, emergen defensas: Aikido Security ha lanzado Altar-1, un modelo de seguridad de código abierto que promete proteger mejor nuestros sistemas.\n\nSobre cómo estamos usando la IA en producción: OpenAI reporta casos de éxito como Proaction, que ha aumentado ventas un 60 por ciento y ahorrado más de 75 horas de trabajo. Y Jensen Huang, de NVIDIA, reflexiona sobre un aspecto fascinante: cómo delegamos tareas en IA y por qué esa pérdida de ciertos hábitos intelectuales podría no ser mala cosa después de todo.\n\nFinalmente, Meta continúa haciendo el ecosistema más accesible: amplía la disponibilidad del sistema de archivos Muse, permitiendo que más desarrolladores construyan sobre esta base.\n\nLo que vemos es una IA cada vez más integrada en nuestro día a día, más segura, más rápida, y que está empezando a cambiar fundamentalmente cómo trabajamos y pensamos.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 42,
+    "new_articles": 38,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "25 min",
     "audio_duration": "2:35",
     "key_count": 3,
-    "papers_count": 16,
+    "papers_count": 15,
     "repos_count": 6,
-    "videos_count": 4,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -254,18 +254,6 @@
       "source": "arXiv — cs.AI",
       "source_type": "arxiv",
       "lang": "en",
-      "cat": "Investigación",
-      "content_type": "paper",
-      "title": "ExplorationBench: Medición del Exploratorio de Sistemas de IA en Mundos Extranjeros Verificables",
-      "summary": "La descubrimiento científico comienza donde se encuentran los problemas conocidos. Allí, los sistemas de inteligencia artificial deben embarcarse en",
-      "time": "404h",
-      "url": "https://arxiv.org/abs/2609.30199v1",
-      "arxiv": "2609.30199v1"
-    },
-    {
-      "source": "arXiv — cs.AI",
-      "source_type": "arxiv",
-      "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "Rolling-WAM: Modelos de Acción Mundial con Imagination Enrolada",
@@ -285,39 +273,6 @@
       "time": "404h",
       "url": "https://arxiv.org/abs/2609.30222v1",
       "arxiv": "2609.30222v1"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "MinAgent - Mi Agente de Desarrollo 🚀 Cómo crear un Agente de IA SIMPLE y POTENTE",
-      "summary": "🔥 MinAgent en GitHub 🔥 https://github.com/Nichonauta/MinAgent Se ha actualizado varias veces desde que se publicó este video, ¡pruébalo! En este video te",
-      "time": "382h",
-      "url": "https://www.youtube.com/watch?v=DqXWZ4LB-20"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "MinAgent 🤖 El Mejor Agente IA Gratis 🚀 Guía de INSTALACIÓN y Uso",
-      "summary": "En este video te presento MinAgent - El Mejor Agente IA Gratis, una herramienta optimizada y funcional para trabajar con modelos de lenguaje locales.",
-      "time": "376h",
-      "url": "https://www.youtube.com/watch?v=APszMDLxf-o"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "K2 Horizon MoVA 36B A4B ⚠️ ¿Es tan BUENO como dicen? Test Real",
-      "summary": "En este video analizamos a fondo el rendimiento del modelo K2 Horizon MoVA 36B A4B para determinar si realmente cumple con las expectativas de su popularidad.",
-      "time": "368h",
-      "url": "https://www.youtube.com/watch?v=M2y0a7Gv87s"
     },
     {
       "source": "Migue Baena IA",

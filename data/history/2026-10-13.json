@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfocamos en tres grandes tendencias que están redefiniendo el panorama tecnológico global.\n\n**Infraestructura y chips: la carrera sin frenos**\n\nComenzamos con un movimiento sísmico en la industria de semiconductores. Nvidia ha dejado de fabricar la RTX 5090, su tarjeta gráfica más potente para gaming, redirigiendo toda esa capacidad hacia centros de datos de inteligencia artificial. Esto es significativo porque refleja hacia dónde fluye realmente el dinero. Paralelamente, Microsoft ha avanzado significativamente con su propio chip Maia 300, diseñado específicamente para su infraestructura de IA. Ya no es un secreto que Redmond busca reducir su dependencia de Nvidia. De hecho, según reportes recientes, Estados Unidos está construyendo centros de datos a un ritmo sin precedentes, consolidando su posición como potencia mundial en computación de IA.\n\n**Modelos especializados en competencia feroz**\n\nEn el frente de los grandes modelos de lenguaje, vemos una fragmentación clara del mercado. Z.ai ha lanzado GLM-Legal, un modelo especializado en análisis jurídico que superó a Claude Fable 5 y Kimi K3 en las pruebas Harvey LAB. Esto demuestra que la especialización es la nueva frontera: no se trata solo de tener el modelo más grande, sino el más relevante para cada caso de uso. Alibaba también sumó fuerzas con QwenGyre, un sistema revolucionario de refuerzo elástico diseñado para agentes de horizonte temporal extremadamente largo. Meta, por su parte, presentó nuevos modelos que prometen expandir sus capacidades competitivas.\n\n**El resurgimiento de Sora y gobernanza urgente**\n\nEn noticias que dan la vuelta: OpenAI, que había descontinuado Sora hace siete meses, ahora planea resucitarla como herramienta profesional para Hollywood. Esto sugiere un cambio estratégico importante hacia aplicaciones comerciales concretas.\n\nEn España, la conversación está tomando un giro más reflexivo. ISACA 2026 centra su foco en gobernanza de agentes de IA y resiliencia ante crisis. Además, surge una paradoja inquietante: la IA creará más empleo del que destruye, pero casi nadie está preparado para ello. En el frente local, solo uno de cada cuatro profesionales de oficina en España reporta una relación saludable con su trabajo, lo que sugiere que la transformación digital lleva a muchas personas por delante.\n\n**Cierre**\n\nEstos movimientos pintan un cuadro claro: la infraestructura se consolida, los modelos se especializan, y la gobernanza se vuelve crítica. La pregunta central ahora es si lograremos cerrar la brecha entre capacidad tecnológica y preparación humana.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 46,
+    "new_articles": 35,
     "sources": 44,
     "updated_label": "10:14"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 15,
     "repos_count": 5,
-    "videos_count": 12,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -169,7 +169,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+      "title": "GroundingPI: Un modelo de fundación grounding hacia la inteligencia física con primitivas visuales",
       "summary": "La precisión del enraizamiento es crucial. Especifica cuál es el objeto objetivo y dónde se encuentra ese objeto, incluso en entornos con interferencias y para",
       "time": "329h",
       "url": "https://huggingface.co/papers/2609.39601"
@@ -252,127 +252,6 @@
       "url": "https://huggingface.co/papers/2610.03308"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Modelos de IA LOCAL 🤖 Guía de Fine-Tuning y Uso de Agentes MCP",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=R7AGC3Irw4E En este video exploramos cómo implementar modelos de IA local y",
-      "time": "5h",
-      "url": "https://www.youtube.com/watch?v=rPJmtjdksXA"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "La Verdad sobre el Fine Tuning en IA 🧠 Por qué NO siempre mejora los Modelos",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=R7AGC3Irw4E Descubre la realidad sobre el fine tuning en IA y por qué este",
-      "time": "4h",
-      "url": "https://www.youtube.com/watch?v=dZDV2kl1K70"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Gemma 4 12B 🚀 la MEJOR Configuración para IA en tu GPU con Máxima VELOCIDAD",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=R7AGC3Irw4E Descubre la configuración ideal para ejecutar Gemma 4 12B en tu",
-      "time": "6h",
-      "url": "https://www.youtube.com/watch?v=OL_9L5bcG6M"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "¿Destilación de IA o simple Fine Tuning? 🧠 La VERDAD sobre cómo entrenan los modelos",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=R7AGC3Irw4E ¿Realmente estás aprendiendo cómo se entrenan los modelos de",
-      "time": "5h",
-      "url": "https://www.youtube.com/watch?v=yD9uG9YhVwU"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Modelos de IA Locales 🚀 Cómo Elegir el MEJOR para tu Hardware",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=R7AGC3Irw4E Aprende a elegir el mejor modelo de IA local optimizando el uso",
-      "time": "6h",
-      "url": "https://www.youtube.com/watch?v=PV6e7LM-8Vk"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Probar la RTX 5090 con modelos de IA 🚀 EXPERIENCIA REAL con Qwen y Ollama",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=wlgIUA0Jjy8 Ponemos a prueba la potencia de una RTX 5090 para ejecutar",
-      "time": "2h",
-      "url": "https://www.youtube.com/watch?v=ya875rYKjqw"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "¿Son Inteligentes los Modelos de Lenguaje? 🤖 La VERDAD sobre la IA y su Razonamiento",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=wlgIUA0Jjy8 ¿Son realmente inteligentes los modelos de lenguaje o solo",
-      "time": "3h",
-      "url": "https://www.youtube.com/watch?v=gtR7M-gbLLY"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Probando Qwen 3.5 🚀 el poder de una RTX 5090 en la Nube",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=wlgIUA0Jjy8 En este video realizamos una prueba de rendimiento exhaustiva del",
-      "time": "4h",
-      "url": "https://www.youtube.com/watch?v=XHi55QQPbaE"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Instalar llama.cpp con soporte CUDA 🚀 Guía en la NVIDIA H100 para IA",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=wlgIUA0Jjy8 Aprende a instalar llama.cpp con soporte CUDA utilizando una",
-      "time": "2h",
-      "url": "https://www.youtube.com/watch?v=MahAtmLBX84"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Probar Qwen en una RTX 5090 🚀 Cómo usar GPU en la NUBE con RunPod",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=wlgIUA0Jjy8 En este video exploramos cómo probar el modelo Qwen en una",
-      "time": "3h",
-      "url": "https://www.youtube.com/watch?v=hBC4vL3zpR4"
-    },
-    {
-      "source": "Two Minute Papers",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "OpenAI Ha Cambiado el Significado de Hacer Matemáticas",
-      "summary": "❤️ Visita Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers 📝 Los documentos están disponibles aquí:",
-      "time": "4h",
-      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls"
-    },
-    {
       "source": "Gentleman Programming",
       "source_type": "youtube",
       "lang": "es",
@@ -389,7 +268,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "title": "Hola Python 3.15, adiós 3.10, y ahora puedo usar 3.11",
       "summary": "<p>Python 3.15 <a href=\"https://www.python.org/downloads/release/python-3150/\">is here</a>! Here's the essential <a",
       "time": "18h",
       "url": "https://simonwillison.net/2026/Oct/12/python-3-15/"
@@ -411,7 +290,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
+      "title": "Z.ai GLM-Legal supera a Claude Fable 5 y Kimi K3 en Harvey LAB",
       "summary": "<p>Z.ai’s GLM-Legal is a legal AI model built on GLM-5.3-Flash. It scores 19.2% all-pass on Harvey’s Legal Agent Benchmark, nearly 3x its base, at $0.15 per",
       "time": "4h",
       "url": "https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/"
@@ -422,7 +301,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
+      "title": "Alibaba Qwen Introduce QwenGyre: Aprendizaje por Reforzamiento Elástico RL para Agentes a Largo Plazo",
       "summary": "<p>Alibaba&#8217;s Qwen team has introduced QwenGyre, an elastic reinforcement learning RL framework for extreme-long-horizon agent training. QwenGyre is an",
       "time": "15h",
       "url": "https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/"
@@ -433,7 +312,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Meta has some Wonder Full new AI models",
+      "title": "Meta tiene algunos modelos de IA Maravillosos Nuevos",
       "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI",
       "time": "20h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"

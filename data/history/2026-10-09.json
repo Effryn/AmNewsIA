@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama complejo donde la innovación en IA avanza a ritmo acelerado, pero también crecen exponencialmente los riesgos que conlleva. Comenzamos con una alerta crítica: según JPMorgan, los riesgos de ciberseguridad en la era de la IA se han multiplicado por diez. Una cifra que cobra aún más relevancia cuando sabemos que Corea del Sur acaba de detectar indicios de IA en varios ciberataques dirigidos a sus principales bancos. La combinación de agentes autónomos cada vez más sofisticados con infraestructuras vulnerables es una ecuación peligrosa que los gobiernos y las empresas deben tomar en serio.\n\nEn el lado de la innovación productiva, Google acelera su apuesta por agentes empresariales con el lanzamiento de Gemini Agent, una herramienta única para centralizar tareas laborales. Esto se alinea con la visión que Satya Nadella, CEO de Microsoft, expresó recientemente: llevar inteligencia artificial gratuita a cada hogar y cada escritorio. La democratización de la IA sigue siendo el mantra de los gigantes tecnológicos.\n\nEl ecosistema de modelos abiertos tampoco se queda atrás. Hemos visto dos lanzamientos destacables: Saluki 27B, un modelo de dos bits que supera al original Qwen en tareas de llamadas a herramientas, y Mellum 2.1 de JetBrains, una arquitectura MoE de doce mil millones de parámetros especializada en agentes de coding. Además, alguien ha logrado hacer algo sorprendente: utilizar Opus 5.5 para construir desde cero toda la suite de Adobe, incluyendo Photoshop. Un recordatorio de que los modelos más avanzados ya son capaces de generar aplicaciones complejas de forma autónoma.\n\nEn temas de seguridad y privacidad, Google ha lanzado una aplicación de toma de notas con IA que transcribe reuniones completamente offline, una característica cada vez más demandada. Por otro lado, Anthropic ha implementado nuevas políticas éticas, prohibiendo comportamientos abusivos o crueles hacia Claude, señal de que las empresas comienzan a considerar la seguridad ética en el diseño de agentes.\n\nFinalmente, una curiosidad técnica que no podemos pasar por alto: los robots siguen sin comprender completamente su entorno físico. Hay indicios de que muchos no detectan paredes de cristal, lo que genera riesgos en entornos reales. Google Research ha publicado una guía sobre cómo crear agentes de IA automejorable, un paso fundamental para resolver estos problemas.\n\nEl mensaje es claro: la IA avanza imparable, pero la seguridad debe avanzar al mismo ritmo.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 106,
+    "new_articles": 95,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 53,
     "repos_count": 9,
-    "videos_count": 12,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -136,7 +136,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "Mohamedarifq8-alt/LunarLander-From-Scratch-to-SB3",
+      "title": "Mohamedarifq8-alt/LunarLander-De-Cero-a-SB3",
       "summary": "⭐ 1 estrellas — A comprehensive Deep RL journey: Mastering PPO in LunarLanderContinuous-v3, evolving from a from-scratch PyTorch implementation to a",
       "time": "65h",
       "url": "https://github.com/mohamedarifq8-alt/LunarLander-From-Scratch-to-SB3",
@@ -521,7 +521,7 @@
       "lang": "en",
       "cat": "Investigación",
       "content_type": "paper",
-      "title": "Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching",
+      "title": "Más allá de las priors espaciotemporales: Una aproximación generalizable para el ajuste de correspondencia densa",
       "summary": "Dense correspondence matching has historically been bounded by simplifying spatio-temporal priors, such as smooth motion and rigid geometry. While effective",
       "time": "68h",
       "url": "https://arxiv.org/abs/2610.12421v1",
@@ -737,7 +737,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
-      "title": "A Unified Bellman Operator for Safety-Critical Reinforcement Learning",
+      "title": "Un operador Bellman unificado para aprendizaje por refuerzo crítico para la seguridad",
       "summary": "Reinforcement learning in safety-critical domains requires maximizing task performance while strictly adhering to safety constraints. Existing safe",
       "time": "68h",
       "url": "https://arxiv.org/abs/2610.12420v1",
@@ -749,132 +749,11 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
-      "title": "Learning Kilometer-Scale Weather Prediction with Global-Regional Alignment",
+      "title": "Aprendizaje para la Predicción Escalada Kilométrica del Clima con Alineación Global-Regional",
       "summary": "Kilometer-scale regional weather forecasting is essential for local weather warnings and weather-sensitive decisions. Existing data-driven approaches often",
       "time": "68h",
       "url": "https://arxiv.org/abs/2610.12401v1",
       "arxiv": "2610.12401v1"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Los mejores Modelos de IA para PROGRAMAR 🚀 Guía de Uso LOCAL y Cloud",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=yoKkgCNRVzw Descubre los mejores modelos de IA para programar y aprende cómo",
-      "time": "53h",
-      "url": "https://www.youtube.com/watch?v=k-nNxTWMO4U"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Agentes de IA y Contexto 🚀 Cómo gestionar la MEMORIA para seguir PROGRAMANDO",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=5R1nMCMORgs Aprende a gestionar la memoria y el contexto de tus agentes de IA",
-      "time": "50h",
-      "url": "https://www.youtube.com/watch?v=9R7g2iPPQP4"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.5 y Agentes de IA 🚀 Cómo Usar Modelos CUANTIZADOS en tu PC",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=5R1nMCMORgs Aprende a ejecutar modelos de lenguaje como Qwen 3.5 mediante",
-      "time": "51h",
-      "url": "https://www.youtube.com/watch?v=_4peeITO9Pk"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Min Agent 🤖 Cómo crear un Agente con IA RÁPIDO y SIMPLE",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=5R1nMCMORgs Aprende a crear y utilizar Min Agent, un marco de trabajo",
-      "time": "51h",
-      "url": "https://www.youtube.com/watch?v=9-LIq4BKvgs"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.8 Max Preview 🧠 ¿Puede este Nuevo Modelo de IA Superar a GPT y Claude?",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=yoKkgCNRVzw Analizamos a fondo el nuevo modelo Qwen 3.8 Max Preview para",
-      "time": "53h",
-      "url": "https://www.youtube.com/watch?v=pXzJGv-Snuo"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.8 Max vs GPT-5.6 Sol 🚀 ¿Es la NUEVA IA que superará a los MODELOS FRONTERA?",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=yoKkgCNRVzw Analizamos si el nuevo modelo Qwen 3.8 Max es la inteligencia",
-      "time": "52h",
-      "url": "https://www.youtube.com/watch?v=h1atR5t2F9k"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.5-Coder 🚀 ¿Supera a GPT-4o y Kimi? Prueba de Minecraft con IA",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=yoKkgCNRVzw En este video ponemos a prueba la capacidad de programación de",
-      "time": "52h",
-      "url": "https://www.youtube.com/watch?v=DlFJl4KX6lg"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Modelos de IA Locales 🤖 Guía de Comparativa entre Gemma y Qwen",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=yoKkgCNRVzw Descubre la comparativa definitiva entre modelos de IA locales",
-      "time": "54h",
-      "url": "https://www.youtube.com/watch?v=fxjA2bh9aqw"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Modelos de IA LOCAL 🚀 Comparativa de Rendimiento entre Qwen y Gemma",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=yoKkgCNRVzw En este video analizamos el rendimiento de la IA local mediante",
-      "time": "54h",
-      "url": "https://www.youtube.com/watch?v=qpuJhW96WKc"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.8 de Alibaba 🚀 El NUEVO Modelo de Pesos Abiertos que lo Cambia TODO",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=yoKkgCNRVzw Descubre todo sobre el nuevo Qwen 3.8 de Alibaba, un",
-      "time": "55h",
-      "url": "https://www.youtube.com/watch?v=wpFwel6QgqE"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Crea tu primer AGENTE de IA en 4 pasos (sin programar)",
-      "summary": "🚀 ¿Buscas hosting o un VPS para tu proyecto? Consulta los planes de Axarnet: https://axarnet.es/affiliates/2025 🎁 Usa el cupón MIGUEBAENA10 y consigue un 10 %",
-      "time": "69h",
-      "url": "https://www.youtube.com/watch?v=CBncNido74o"
     },
     {
       "source": "Migue Baena IA",
@@ -915,7 +794,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "release",
-      "title": "Google is launching a one-stop Gemini agent for your work tasks",
+      "title": "Google está lanzando un agente Gemini multifuncional para tus tareas laborales.",
       "summary": "Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work",
       "time": "71h",
       "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise"
@@ -948,7 +827,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
+      "title": "Encuentra al Subestimado Saluki 27B: Un 2-bit Qwen3.8-27B que supera al Original en la Llamada de Herramientas",
       "summary": "<p>Underdog Saluki 27B is a 7.89 GB, 2-bit GGUF of Qwen3.8-27B under Apache 2.0. It beats the 54 GB original on tool calling but gives up ground on competition",
       "time": "54h",
       "url": "https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/"
@@ -1036,7 +915,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?",
+      "title": "¿Puede confiar en Meta’s Muse o en OpenAI’s Dots para dirigir su vida?",
       "summary": "My Decoder guest today is Hayden Field, The Verge’s senior AI reporter, and we’re discussing the new wave of consumer-friendly AI agents. If you’ve been paying",
       "time": "72h",
       "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free"
@@ -1179,7 +1058,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "OpenAI doubles down on decision to fire three AI safety researchers",
+      "title": "OpenAI reafirma su decisión de despedir a tres investigadores de seguridad de la inteligencia artificial",
       "summary": "OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\" In a post",
       "time": "52h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers"
@@ -1201,7 +1080,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "California is trying to shut down robot vs. human cage matches",
+      "title": "California está intentando poner fin a los combates de robots contra humanos en cajas.",
       "summary": "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by",
       "time": "66h",
       "url": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human"
@@ -1212,7 +1091,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "USA Today becomes the latest publisher to sue OpenAI",
+      "title": "USA Today se convierte en el último editor en demandar a OpenAI",
       "summary": "USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied \"hundreds of thousands\" of articles to",
       "time": "68h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit"
@@ -1223,7 +1102,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute",
+      "title": "SpaceXAI apoya Omarchy, la controvertida distribución de Linux, con un millón y medio de dólares en computación",
       "summary": "If Elon Musk and SpaceXAI were going to back any Linux distro, it seems obvious they'd back Omarchy. Today it was announced that SpaceXAI would be joining the",
       "time": "68h",
       "url": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson"
@@ -1234,7 +1113,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "Artificial is a wicked satire that also sticks to the facts",
+      "title": "Artificial es una sátira maligna que también se adhiere a la verdad",
       "summary": "At the New York Film Festival premiere of Artificial, Luca Guadagnino's satirical Sam Altman biopic, the director said onstage that \"[when] someone wants to",
       "time": "72h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1007786/artificial-is-a-wicked-satire-that-also-sticks-to-the-facts"

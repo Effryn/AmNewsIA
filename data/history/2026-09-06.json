@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfocamos en tres áreas clave que están transformando el ecosistema de la inteligencia artificial: infraestructura de agentes autónomos, optimización de modelos y herramientas para desarrolladores.\n\nComenzamos con un avance significativo en la investigación de agentes de IA. Investigadores de UC Berkeley han lanzado CUA-Lite, una plataforma abierta que unifica sandboxes, datos, evaluación y aprendizaje por refuerzo para agentes que pueden utilizar computadoras. Este es un paso importante porque permite que estos agentes aprendan a interactuar con interfaces reales de forma más efectiva, abriendo el camino a automatización mucho más sofisticada en tareas complejas.\n\nEn paralelo, GitHub ha presentado Project HydraFusion, un sistema de orquestación de múltiples modelos en tiempo de ejecución dentro de Copilot CLI. La innovación aquí es elegante: en lugar de usar un único modelo para todas las tareas de codificación, el sistema construye automáticamente un flujo de trabajo específico para cada tarea, optimizando así tanto la velocidad como la calidad de las respuestas. Es el tipo de mejora que los desarrolladores apreciarán inmediatamente.\n\nEn cuanto a infraestructura, Perplexity ha revelado detalles de su pila de GPU para embeddings, con tres componentes clave: Ivy, Tulip y ROSE. Esta arquitectura especializada permite que pplx-embed procese embeddings de manera más eficiente, lo cual es fundamental para cualquier sistema de búsqueda o recuperación de información basado en IA. Es un recordatorio de que detrás de cada búsqueda inteligente hay ingeniería sofisticada.\n\nY hablando de herramientas accesibles, Nous Research ha agregado configuración local de modelos con un clic a Hermes Desktop. Esto democratiza el acceso a modelos de IA locales, permitiendo que desarrolladores y usuarios sin experiencia técnica profunda puedan desplegar modelos sin complejidad.\n\nFinalmente, Meta está implementando medidas de seguridad en sus gafas inteligentes, desactivando la cámara ante indicios de manipulación. Sin embargo, como señala el análisis, esto plantea un debate interesante: ¿es suficiente una protección reactiva cuando hay incentivos para eludirla? Es un recordatorio de que la seguridad en dispositivos de IA requiere pensamiento continuo, no soluciones de una sola vez.\n\nEn resumen: agentes más autónomos, modelos mejor orquestados, infraestructura más eficiente, herramientas más accesibles y desafíos de seguridad en evolución. Una semana que refleja la maduración del ecosistema de IA.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 18,
+    "new_articles": 13,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 0,
     "repos_count": 6,
-    "videos_count": 7,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -99,50 +99,6 @@
       "stars": "0"
     },
     {
-      "source": "Gustavo Entrala",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "La Guerra de la IA contada como una PELÍCULA",
-      "summary": "🚀 Descarga el PLAYBOOK de AGENTES IA para clientes de HubSpot: https://clickhubspot.com/bb04e5 ============================================================ La",
-      "time": "863h",
-      "url": "https://www.youtube.com/watch?v=MlsZSP5L76Y"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "K2 Horizon 0.9B ⚠️ ¿Realmente es SUPERIOR a Qwen 3.5? Pruebas de Rendimiento",
-      "summary": "Analizamos a fondo el rendimiento del nuevo K2 Horizon 0.9B para descubrir si realmente cumple con lo prometido. En este vídeo ponemos a prueba este modelo de",
-      "time": "840h",
-      "url": "https://www.youtube.com/watch?v=xwazNI1zyy0"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.6 35B A3B 🚀 el Modelo MoE más RÁPIDO y EFICIENTE para tu GPU",
-      "summary": "Descubre por qué el modelo Qwen3.6 35B A3B es la opción más rápida y eficiente para ejecutar en tu propia GPU. En este video analizamos las ventajas de",
-      "time": "848h",
-      "url": "https://www.youtube.com/watch?v=L5CCF3IPcoY"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Gemma 4 12B 🚀 El Modelo más INTELIGENTE y RÁPIDO para tu GPU",
-      "summary": "En este video analizamos a fondo el nuevo Gemma 4 12B, un modelo que destaca por ser increíblemente inteligente y rápido para ejecutar en tu GPU. Exploramos",
-      "time": "864h",
-      "url": "https://www.youtube.com/watch?v=xosS1sBBj-c"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -152,17 +108,6 @@
       "summary": "¿Tus textos con IA suenan demasiado robóticos? 🤔 📌 Prueba Humanizer, una skill gratuita para Claude que busca eliminar algunos de los patrones típicos de la",
       "time": "865h",
       "url": "https://www.youtube.com/shorts/XLkVIznFKHc"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Ling 3.0 Tiny 🚀 el Modelo de Razonamiento Extremadamente RÁPIDO",
-      "summary": "En este video analizamos el rendimiento de Ling 3.0 Tiny, un modelo de razonamiento extremadamente rápido y eficiente. Veremos cómo este modelo basado en una",
-      "time": "856h",
-      "url": "https://www.youtube.com/watch?v=dhsrCid6W30"
     },
     {
       "source": "Migue Baena IA",

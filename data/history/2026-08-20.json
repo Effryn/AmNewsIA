@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos encontramos con un panorama tecnológico intenso que mezcla avances científicos importantes, movimientos estratégicos de las grandes empresas y algunas preocupaciones crecientes sobre la seguridad y la alineación de la IA.\n\nEmpecemos con los hitos científicos. Claude, el modelo de Anthropic, acaba de demostrar una capacidad extraordinaria en diseño de proteínas: logró crear soluciones contra quince objetivos diferentes, y cuando los investigadores las fabricaron en laboratorio, funcionaron correctamente en catorce de ellos. Esto representa un salto cualitativo importante en la aplicación práctica de la IA para resolver problemas biológicos reales.\n\nEn cuanto a movimientos corporativos, tenemos novedades de los grandes actores. OpenAI ha anunciado que detiene el entrenamiento de sus modelos más avanzados, una decisión que coincide con su nueva política de retención cero de datos para modelos frontera. Por su parte, Google ofrece un año completo de acceso a Google AI Plus bajo ciertos requisitos, mientras que Meta lanza su aplicación de IA para Mac con funcionalidades que, según los reportes, generan preocupación en competidores como ChatGPT y Claude.\n\nAhora bien, hay un tema que está ganando protagonismo y que explica varios de estos movimientos: la alineación de la IA. Según reportes de la industria, las empresas dedicadas a la IA ya están asignando el veinte por ciento de sus recursos a problemas de alineación. Esto refleja una realidad cada vez más clara: a medida que los modelos se vuelven más potentes, garantizar que funcionen de acuerdo con nuestras intenciones se convierte en una prioridad crítica y en una línea de investigación fundamental.\n\nEn el frente de seguridad hay un incidente que merece atención: Microsoft ha introducido un problema en Windows Defender, el antivirus nativo de Windows 11, lo que subraya que incluso las soluciones de seguridad más establecidas pueden tener vulnerabilidades inesperadas.\n\nFinalmente, dos notas adicionales: una inversión de setenta millones de dólares en una mansión de Silicon Valley apunta a un científico de IA de origen chino, reflejando el flujo global de talento en el sector; y hay un debate creciente sobre cómo la mayoría de soluciones de IA operan sin un contexto unificado, lo que limita su efectividad en escenarios complejos.\n\nEl mensaje general es claro: la IA avanza rápidamente en capacidad, pero la industria se está enfocando cada vez más en resolver los desafíos de seguridad y alineación que este progreso genera.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 176,
+    "new_articles": 172,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "106 min",
     "audio_duration": "2:31",
     "key_count": 3,
-    "papers_count": 64,
+    "papers_count": 63,
     "repos_count": 11,
-    "videos_count": 5,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -241,17 +241,6 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Más populares, más difíciles de olvidar: Popularidad adaptativa para el olvido de LLM",
-      "summary": "Los hechos populares se memorizan más profundamente durante el preentrenamiento y resisten la eliminación por más tiempo que los raros; sin embargo, los",
-      "time": "1410h",
-      "url": "https://huggingface.co/papers/2608.14229"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
       "title": "Zetta ζ: Un arnés cerrado del bucle eficiente para inteligencia física autoevolucionaria corporizada",
       "summary": "Los agentes corporales se utilizan cada vez más para cerrar el gap dejado por los modelos de política end-to-end. Sin embargo, el camino agencial no ha logrado",
       "time": "1338h",
@@ -435,7 +424,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+      "title": "Más allá de la Probabilidad del Maestro: Calentamiento Calibrado por Grupo para Razonamiento con Contexto Largo",
       "summary": "La distilación on-policy (OPD) entrena a un estudiante en sus propias respuestas utilizando una guía densa a nivel de token proporcionada por un maestro más",
       "time": "1268h",
       "url": "https://arxiv.org/abs/2608.19181v1",
@@ -932,17 +921,6 @@
       "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/"
     },
     {
-      "source": "Gentleman Programming",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "No existe el mejor modelo de IA: existe el mejor para cada tarea",
-      "summary": "Gentleman Programming | Mejor modelo de IA | No existe el mejor modelo de IA: existe el mejor modelo para cada tarea. Y si validás decisiones importantes con",
-      "time": "1246h",
-      "url": "https://www.youtube.com/watch?v=zypreQ8hJmI"
-    },
-    {
       "source": "Simon Willison",
       "source_type": "rss",
       "lang": "en",
@@ -1007,28 +985,6 @@
       "summary": "Salesforce lanzó el martes una versión completamente reconstruida de Slackbot, el asistente de trabajo de la empresa, transformándolo de una herramienta",
       "time": "6505h",
       "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Por fin… Esta IA crea VÍDEOS COMPLETOS con AUDIO y personajes consistentes",
-      "summary": "Prueba Seedance 2.5 aquí 👉 https://higgsfield.ai/s/miguebaenaia-pkDouX Recursos del vídeo:",
-      "time": "1245h",
-      "url": "https://www.youtube.com/watch?v=Jsfao8FoQ5E"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "STEAM FRAME se FILTRAN mas DETALLES y PICO presenta NUEVO VISOR",
-      "summary": "Las Steam Frame están a la vuelta de la esquina y se han filtrado todos los videos de unboxing, configuración y accesorios. Además PICO anuncia su nuevo visor",
-      "time": "1247h",
-      "url": "https://www.youtube.com/watch?v=gk9gfrk5P1c"
     },
     {
       "source": "VentureBeat — AI",

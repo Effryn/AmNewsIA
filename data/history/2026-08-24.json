@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama donde la incertidumbre y la nostalgia conviven con expectativas desinfladas sobre la adopción real de inteligencia artificial en las empresas.\n\nComencemos con lo más misterioso: Ox Alpha es el nuevo modelo de IA que tiene a toda la comunidad especulando. Por el momento, nadie sabe quién está detrás de este desarrollo, lo que ha generado considerable intriga en los círculos tecnológicos. Mientras tanto, crece cierta nostalgia por versiones anteriores de tecnologías que ya desaparecieron. Muchos usuarios recuerdan con cariño a DALL-E 2 y lamentan todo lo que se perdió en el camino cuando sus creadores decidieron dar un giro estratégico.\n\nEn cuanto a expectativas empresariales, Sam Altman ha hecho una reflexión interesante. El CEO de OpenAI reconoce públicamente que se equivocó en muchas cosas, pero especialmente en una: subestimó cuánta inercia tiene la economía. Las empresas simplemente no han adoptado inteligencia artificial con la velocidad que él imaginaba hace apenas unos años.\n\nEn problemas técnicos del día, usuarios de Claude reportan que el modelo está más lento de lo habitual. Aunque no sabemos si es un caída total, definitivamente hay algo ralentizando las respuestas del asistente de Anthropic.\n\nEn desarrollos empresariales, Harvey ha presentado Harvey Tenet, un nuevo modelo de IA especializado en trabajo legal de largo alcance. Está basado en Kimi K3 y ha sido entrenado con Fireworks para optimizar tareas jurídicas específicas.\n\nPor otro lado, Gemini de Google parece tener un uso específico particularmente efectivo para ahorrar dinero, aunque los detalles nos invitan a explorarlo más a fondo.\n\nAlgo fascinante que viene de MIT Technology Review: los niños siguen aprendiendo más rápido y mejor que los sistemas de inteligencia artificial, y los investigadores todavía no logran entender completamente por qué. Esto nos recuerda que hay capacidades cognitivas humanas que aún escapan a la replicación tecnológica.\n\nFinalmente, en infraestructura de GPU, un análisis reciente ha ranqueado los mejores proveedores de computación en nube para 2026: CoreWeave, Nebius, Lambda, Crusoe y Groq encabezan la lista según su relación entre precios publicados y potencia contratada.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 104,
+    "new_articles": 102,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "62 min",
     "audio_duration": "2:15",
     "key_count": 3,
-    "papers_count": 67,
+    "papers_count": 66,
     "repos_count": 14,
-    "videos_count": 4,
+    "videos_count": 3,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -360,17 +360,6 @@
       "summary": "Las codificadoras de visión semántica se han convertido en una interfaz visual central para la comprensión multimodal y la condicionamiento semántico en la",
       "time": "1530h",
       "url": "https://huggingface.co/papers/2608.08676"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Investigación",
-      "content_type": "paper",
-      "title": "Cada Moneda Tiene Dos Caras: Sobre la Naturaleza Dual de la Generalización en la Distilación Por Política de Grandes Modelos de Lenguaje",
-      "summary": "La distilación on-policy (OPD) transfiere las capacidades del maestro supervisando trayectorias extraídas de la propia política del estudiante, pero su",
-      "time": "1338h",
-      "url": "https://huggingface.co/papers/2608.16647"
     },
     {
       "source": "Hugging Face — Daily Papers",
@@ -904,7 +893,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
-      "title": "On the Transferability of Agricultural Weed Detection Under Cross-Field Distribution Shift",
+      "title": "Sobre la Transferibilidad de la Detección de Malezas Agrícolas bajo Cambios en la Distribución Fronteriza",
       "summary": "La detección precisa de malas hierbas en condiciones reales de campo es esencial para la agricultura de precisión, permitiendo intervenciones dirigidas y",
       "time": "1222h",
       "url": "https://arxiv.org/abs/2608.21254v1",
@@ -928,7 +917,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
-      "title": "Event-triggered Implicit Perturbation for Zeroth-Order Fine-Tuning of Spiking Transformers",
+      "title": "Event-triggedo Implicit Perturbación para la Ajuste de Segunda Orden Cero de Transformadores Espinadores",
       "summary": "La optimización de orden cero (ZO) estima los gradientes utilizando solo evaluaciones de paso adelante, lo que lo hace adecuado para el ajuste fino de redes",
       "time": "1222h",
       "url": "https://arxiv.org/abs/2608.21223v1",
@@ -1003,17 +992,6 @@
       "summary": "¿Todavía usas Claude solo para escribir código? 🤔 📌 Con las herramientas y habilidades correctas, puedes llevarlo mucho más lejos. 🚀 • 1️⃣ Emilio Kowalski",
       "time": "1178h",
       "url": "https://www.youtube.com/shorts/5hLv3Ra2R8w"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Cómo usar Gemini MEJOR que el 99% (de principiante a experto)",
-      "summary": "Utiliza Hostinger Ecommerce. Cupón MIGUEBAENA10 https://www.hostg.xyz/aff_c?offer_id=48&amp;aff_id=206858&amp;url_id=6554 Recursos del video:",
-      "time": "1173h",
-      "url": "https://www.youtube.com/watch?v=D11HrOsZLu8"
     },
     {
       "source": "maxmaxdata",

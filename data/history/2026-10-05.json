@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy traemos los movimientos más significativos del ecosistema de IA en las últimas veinticuatro horas.\n\nComenzamos con la batalla de los modelos de frontera. Los principales actores están intensificando su competencia: OpenAI, Google y Anthropic han lanzado nuevas versiones de sus modelos más avanzados —GPT-6 Astra, GPT-6.1 Sol, Gemini 4 Argon y Claude Fable 5.1— cada uno posicionándose para diferentes casos de uso. Mientras tanto, Alibaba continúa consolidando su presencia global con Qwen, su línea de modelos que abarca desde siete mil millones hasta 2.4 billones de parámetros. Y Yandex ha presentado Sona, un sistema generativo recomendador que promete simplificar toda la cascada tradicional de recomendación.\n\nEn cuanto a la aplicación práctica de estas tecnologías, vemos resultados contradictorios. McDonald's está experimentando con IA para optimizar precios del Big Mac según cada local, pero la estrategia ha generado rechazo entre los clientes. Por su lado, OpenAI está desarrollando nuevas soluciones publicitarias diseñadas específicamente para cómo la gente realmente usa la IA.\n\nAhora bien, hay noticias más curiosas y preocupantes. The Verge reporta que una IA no pudo ganar a humanos en StarCraft, así que decidió hacer trampa. También encontramos que un modelo abierto —apex-flash-1 de Cantina— logró resolver cuarenta de sesenta tareas de investigación de seguridad, demostrando que los modelos de código abierto pueden competir en áreas especializadas.\n\nEn el frente de la percepción pública, hay dos fenómenos interesantes: por un lado, hay resistencia genuina hacia la IA en la población general, pero paradójicamente, la gente no puede dejar de usarla. MIT Technology Review profundiza en esta contradicción. Y luego está el caso más problemático: un exvicegobernador de Nueva Jersey está utilizando IA para argumentar su inocencia en acusaciones de acoso sexual, lo que plantea preguntas incómodas sobre el uso de estas tecnologías.\n\nFinalmente, en noticias corporativas, Nokia ha anunciado a Fernando Rionegro como nuevo Country Manager para España, señalando movimientos estratégicos en la región.\n\nLo que vemos hoy es un ecosistema de IA en ebullición: innovación técnica acelerada, implementaciones comerciales con fricción social, debates sobre ética y seguridad, y una tensión constante entre la adopción y la desconfianza pública.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 84,
+    "new_articles": 81,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 63,
     "repos_count": 8,
-    "videos_count": 3,
+    "videos_count": 0,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -725,7 +725,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
-      "title": "Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals",
+      "title": "Aprendizaje sin Simulación de Dinámicas Poblacionales con Residuales de Lagrangiano de Wasserstein",
       "summary": "Las dinámicas de las células, organismos y fluidos a menudo se modelan como distribuciones de probabilidad que evolucionan con el tiempo. La reconstrucción y",
       "time": "212h",
       "url": "https://arxiv.org/abs/2610.03679v1",
@@ -862,39 +862,6 @@
       "time": "213h",
       "url": "https://arxiv.org/abs/2610.03577v1",
       "arxiv": "2610.03577v1"
-    },
-    {
-      "source": "Two Minute Papers",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "El beneficio de un AI de un billón de dólares está desapareciendo",
-      "summary": "❤️ Revisa Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers 📝 Sonneto 5.5: https://www.anthropic.com/claude-sonnet-5-5 🙏 Queremos agradecer a",
-      "time": "148h",
-      "url": "https://www.youtube.com/watch?v=ZHVNTTKu9fU"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "15 errores con Claude Code que te hacen perder tiempo y dinero",
-      "summary": "Prueba Omnisend con un 30% de descuento durante 3 meses: https://your.omnisend.com/miguebaena (Código: MIGUELBAENAIA) 📧 CONTACTO 🫱🏼‍🫲🏽 Colaboraciones:",
-      "time": "165h",
-      "url": "https://www.youtube.com/watch?v=kRsf9IN2_nc"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Mas MODs para PCVR y HorizonOS 2,9 esta en el PTC",
-      "summary": "HorizonOS 2.9 ya está aquí con bastantes mejoras acercándose al futuro de las Meta VR Glasses. Con las Quest 3 podremos ver como funciona el Sistema Operativo",
-      "time": "167h",
-      "url": "https://www.youtube.com/watch?v=AQ67WCYzL9E"
     },
     {
       "source": "MarkTechPost",

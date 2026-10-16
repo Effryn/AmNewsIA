@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos encontramos con un panorama tecnológico marcado por tres ejes fundamentales: la innovación en modelos de IA, la reconfiguración geopolítica del sector, y los desafíos laborales que trae consigo esta transformación.\n\nComenzamos con los avances técnicos. El Technology Innovation Institute ha lanzado Falcon-ASR, un modelo de reconocimiento de voz en árabe de 1.6 mil millones de parámetros que alcanza un Word Error Rate del 20.92 por ciento, marcando un hito importante en la accesibilidad de la IA para idiomas no anglosajones. Por su parte, Cloudflare presenta Clef-omni, un modelo multimodal de 30 mil millones de parámetros capaz de procesar simultáneamente audio, vídeo, imágenes y texto. Estos desarrollos subrayan la tendencia de democratización de capacidades de IA avanzada más allá de los gigantes tecnológicos tradicionales.\n\nEn cuanto a las herramientas de traducción en vivo, el panorama en 2026 se muestra prometedor, con múltiples soluciones que atacan directamente el problema de la latencia, reduciendo barreras lingüísticas en tiempo real. También vemos emerge una nueva categoría: los Decision 3.0 u Open Decision Models, propuestos por vLLM como una evolución en los routers semánticos que permiten tomar decisiones más inteligentes sobre el enrutamiento de información.\n\nEn el terreno de la infraestructura y geopolítica, Microsoft ha revelado avances significativos en su propio chip de IA, reduciendo su dependencia de los GPUs de Nvidia. Simultáneamente, Estados Unidos está enfocando masivos recursos en construcción de centros de datos —prácticamente la única infraestructura que está edificando el país en este momento— lo que refleja cómo la carrera por la IA es, en realidad, una carrera por la capacidad computacional bruta.\n\nRespecto al mercado laboral, emerge una paradoja crucial: mientras Hollywood experimenta con IA —Ben Affleck ha utilizado la tecnología \"para muchas cosas\" en su nuevo proyecto— el análisis económico sugiere que la IA creará más empleo del que destruirá. Sin embargo, el problema es estructural: casi nadie está adecuadamente preparado para esas nuevas posiciones. En España, apenas el 25 por ciento de los profesionales de oficina reporta una relación saludable con su trabajo, una cifra que anticipa los desafíos de adaptación que se avecinan.\n\nEn seguridad, los ciberdelincuentes continúan aprovechando la nube como vector de ataque, explotando la misma infraestructura que impulsa la IA moderna.\n\nFinalmente, en Silicon Valley comienzan a alinearse con las iniciativas políticas de Washington, incluyendo cambios nomenclaturales en torno a cómo se define la IA.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 103,
+    "new_articles": 89,
     "sources": 44,
     "updated_label": "10:42"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "62 min",
     "audio_duration": "2:42",
     "key_count": 3,
-    "papers_count": 68,
+    "papers_count": 67,
     "repos_count": 10,
-    "videos_count": 14,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -268,17 +268,6 @@
       "summary": "Los modelos de visión y lenguaje (VLMs) han logrado un rendimiento fuerte en el razonamiento multimodal, pero siguen siendo propensos a generar respuestas",
       "time": "209h",
       "url": "https://huggingface.co/papers/2610.07018"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Investigación",
-      "content_type": "paper",
-      "title": "Factorización de interacciones human-object conscientes del escenario a través de posibilidades funcionales",
-      "summary": "La generación de interacciones human-object (HOI) realistas en escenas 3D complejas requiere dos capacidades complementarias: razonar sobre la factibilidad de",
-      "time": "113h",
-      "url": "https://huggingface.co/papers/2610.12416"
     },
     {
       "source": "Hugging Face — Daily Papers",
@@ -948,28 +937,6 @@
       "arxiv": "2610.13856v1"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Automatizar Guiones con IA 🤖 Cómo usar Gemma en LOCAL para YouTube Shorts",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=Qjd3aCKei4I Aprende a automatizar guiones con IA de forma local utilizando",
-      "time": "2h",
-      "url": "https://www.youtube.com/watch?v=G1T8Ggye3yU"
-    },
-    {
-      "source": "Two Minute Papers",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "DeepSeek Resolvió el Problema de la Memoria del AI",
-      "summary": "❤️ Consulta Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers 📝 El paper de OCR DeepSeek está disponible aquí:",
-      "time": "20h",
-      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -979,127 +946,6 @@
       "summary": "¿Tus proyectos de IA siempre llegan al límite gratuito de las APIs? 🫣 Conoce FreeLLMAPI, una plataforma que reúne proveedores de modelos de Inteligencia",
       "time": "2h",
       "url": "https://www.youtube.com/shorts/dyloPijnBII"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Automatizar YouTube Shorts con IA 🚀 Cómo Generar Escenas con Llama.cpp y ComfyUI",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=Qjd3aCKei4I Aprende a automatizar la creación de YouTube Shorts mediante la",
-      "time": "1h",
-      "url": "https://www.youtube.com/watch?v=Zbwb_OgGCVA"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Crear Shorts con IA en LOCAL 🚀 el Método DEFINITIVO con Qwen TTS y Whisper",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=Qjd3aCKei4I Aprende cómo crear Shorts con IA de forma totalmente local",
-      "time": "1h",
-      "url": "https://www.youtube.com/watch?v=YtiXDq-iIbs"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Automatización de YouTube Shorts con IA 🚀 Cómo Crear Contenido en ESCALA",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=Qjd3aCKei4I Aprende cómo lograr la automatización de YouTube Shorts con IA",
-      "time": "2h",
-      "url": "https://www.youtube.com/watch?v=SJSgCAIIHks"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Automatizar YouTube Shorts con Python 🚀 Guía para Crear Videos con IA",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=Qjd3aCKei4I Aprende a automatizar YouTube Shorts con Python utilizando un",
-      "time": "4h",
-      "url": "https://www.youtube.com/watch?v=8F04FuHMq88"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Generar Imágenes con Z Image Turbo 🚀 el Método para Crear Miniaturas con IA",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=y_x2LASm-QI Aprende cómo generar imágenes de alta calidad y crear miniaturas",
-      "time": "5h",
-      "url": "https://www.youtube.com/watch?v=8ZgcX6rLe9A"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "MI HOMELAB de IA EVOLUCIONA - Carplay, vídeo, imagen, música y mucho más",
-      "summary": "Mi HomeLab de Inteligencia Artificial ha evolucionado gracias al GMKTec EVO X-3. Ahora ya podemos mover Qwen 3.8 Flash Next, usar clonación de voz con",
-      "time": "19h",
-      "url": "https://www.youtube.com/watch?v=Os95YSF8Yxw"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Automatización de YouTube Shorts con IA 🚀 Guía para Generar Videos de forma AUTOMÁTICA",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=Qjd3aCKei4I Aprende cómo lograr la automatización de YouTube Shorts con IA",
-      "time": "3h",
-      "url": "https://www.youtube.com/watch?v=2cKr-sjSYRY"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Canales de YouTube con IA 🚀 Cómo EVITAR la Desmonetización y Crear Contenido de VALOR",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=Qjd3aCKei4I Aprende cómo crear canales de YouTube con IA evitando la",
-      "time": "3h",
-      "url": "https://www.youtube.com/watch?v=Yp_rqVp7_yY"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Ingeniería de Prompts 🚀 el Proceso para Crear GUIONES VIRALES con IA",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=Qjd3aCKei4I Aprende cómo dominar la ingeniería de prompts para crear guiones",
-      "time": "4h",
-      "url": "https://www.youtube.com/watch?v=aJWS12L30zY"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "7 SKILLS de Claude que te ahorran horas (CÓPIALAS)",
-      "summary": "Todos los recursos del vídeo: https://app.notion.com/p/7-habilidades-para-aprovechar-Claude-Code-3eb5accb1cc980ca9707dd1897c8bce9?source=copy_link",
-      "time": "20h",
-      "url": "https://www.youtube.com/watch?v=E2cgbJ8_fqo"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Automatización con ComfyUI 🚀 Generar Imágenes con SDXL Turbo y GGUF",
-      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=Qjd3aCKei4I Aprende a lograr una automatización con ComfyUI para generar",
-      "time": "ahora",
-      "url": "https://www.youtube.com/watch?v=5UGTKmHydfI"
     },
     {
       "source": "MarkTechPost",

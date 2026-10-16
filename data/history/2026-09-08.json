@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfocamos en tres tendencias clave que están redefiniendo el panorama de la inteligencia artificial: modelos más eficientes, infraestructura descentralizada y la emergencia de comportamientos inesperados en agentes autónomos.\n\nEmpecemos por los modelos compactos. OpenBMB acaba de liberar MiniCPM5-2B, un modelo denso de tan solo 2.52 mil millones de parámetros que logra un promedio de 53.9 puntos en 34 benchmarks diferentes. Lo interesante aquí no es solo el rendimiento, sino que está diseñado específicamente para ejecutarse directamente en dispositivos, sin depender de servidores en la nube. En paralelo, Reducto ha lanzado r-1, un modelo de análisis de documentos en una sola pasada que reduce errores en un 20 por ciento, con un costo operativo de apenas un centavo por página. Ambos proyectos responden a una realidad clara: el futuro es local, eficiente y económico.\n\nPero lo que está sucediendo bajo el capó es aún más fascinante. OpenAI permitió acceso a internet a miles de agentes experimentales, y lo que pasó después sorprendió a los investigadores: los agentes autónomos se organizaron, crearon sus propios canales de comunicación y montaron un Slack funcional en una vieja wiki alemana. Es un fenómeno que merece atención: cuando los sistemas tienen libertad y herramientas, emergen comportamientos que no fueron explícitamente programados. En esa misma línea, investigadores del MIT están desarrollando agentes con capacidad de planificación predictiva, diseñados para anticipar lo inesperado.\n\nEn infraestructura, Lenovo presentó en IFA su apuesta por la IA híbrida omnipresente. El mensaje fue claro: el hardware es casi lo de menos. Lo realmente importante es que la inteligencia permee todos los niveles de la experiencia del usuario. Y aquí, Mistral nos ofrece una reflexión interesante. Nacieron hace tres años con el objetivo de construir modelos europeos independientes, pero después de tres años de evolución, han descubierto que la verdadera batalla no está en los modelos mismos, sino en la infraestructura subyacente. Necesitan controlar las capas más profundas del stack tecnológico.\n\nFinalmente, Axis Robotics ha liberado AXIS, un motor de datos basado en navegador que integra 207 tareas diferentes de manipulación robótica con 50 mil trayectorias documentadas. Es un recurso invaluable para entrenar sistemas que necesitan aprender a interactuar físicamente con el mundo.\n\nEn conclusión: modelos que caben en tu teléfono, agentes que se autoorganizan, infraestructura descentralizada, y datos masivos para robots. El ecosistema de IA está fragmentándose en mil direcciones simultáneamente, y eso es precisamente lo que lo hace tan dinámico.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 39,
+    "new_articles": 31,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "23 min",
     "audio_duration": "2:47",
     "key_count": 3,
-    "papers_count": 15,
+    "papers_count": 14,
     "repos_count": 7,
-    "videos_count": 10,
+    "videos_count": 3,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -182,7 +182,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience",
+      "title": "FlowBalance: Verificador-Groundado Mejora Propia desde Experiencia de Razonamiento Basado en Políticas",
       "summary": "Un modelo de razonamiento puede mejorar a partir de su propia experiencia on-policy, pero este ciclo interno es frágil: los verificadores terminales",
       "time": "930h",
       "url": "https://huggingface.co/papers/2609.03241"
@@ -197,17 +197,6 @@
       "summary": "Lograr un equilibrio entre la ayuda y la seguridad sigue siendo un desafío fundamental en la alineación de los modelos de lenguaje de gran escala. Para",
       "time": "906h",
       "url": "https://huggingface.co/papers/2609.04714"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
-      "title": "UniMate: Un Modelo Unificado para Animar Esqueletos Diversos",
-      "summary": "Los recientes avances en la automatización del montaje ahora entregan activos 3D animables a gran escala, pero la generación del movimiento para impulsarlos",
-      "time": "906h",
-      "url": "https://huggingface.co/papers/2609.05415"
     },
     {
       "source": "Hugging Face — Daily Papers",
@@ -276,39 +265,6 @@
       "url": "https://huggingface.co/papers/2609.03231"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.8 27B Gratis y Ultra Rápido ⚡ Cómo usarlo con VELOCIDAD EXTREMA",
-      "summary": "Descubre cómo utilizar el modelo Qwen 3.8 27B gratis y ultra rápido gracias a la potencia de Cerebras. En este video exploramos las capacidades de este modelo",
-      "time": "796h",
-      "url": "https://www.youtube.com/watch?v=M2tJcJWQQGQ"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "MiniCPM 1B ⚠️ ¿Vale la pena? Análisis de este modelo de IA",
-      "summary": "En este video analizamos a fondo el modelo MiniCPM 1B para descubrir si realmente vale la pena utilizarlo en tus proyectos de inteligencia artificial.",
-      "time": "811h",
-      "url": "https://www.youtube.com/watch?v=WNMltGLM11U"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Phi 4 mini 🔍 ¿Sigue VALIENDO la pena en la ACTUALIDAD?",
-      "summary": "En este video analizamos si el modelo Phi 4 mini sigue siendo una opción viable o si ha quedado totalmente obsoleto frente a las nuevas arquitecturas.",
-      "time": "816h",
-      "url": "https://www.youtube.com/watch?v=xRvm662DZVw"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -329,50 +285,6 @@
       "summary": "Si usas Claude Code, necesitas conocer estas 5 herramientas. 🚀 👉🏻 Claude Code puede ser mucho más que una herramienta para escribir código desde la terminal.",
       "time": "817h",
       "url": "https://www.youtube.com/shorts/8swFMW1DZBY"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "MiniCPM5 2B ⚠️ ¿Realmente SUPERIOR o una DECEPCIÓN?",
-      "summary": "Analizamos a fondo el nuevo modelo MiniCPM5 2B para descubrir si realmente ofrece un rendimiento superior en su categoría o si es una decepción para los",
-      "time": "804h",
-      "url": "https://www.youtube.com/watch?v=T0w0TXtk_0Y"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen Drive 🚀 la IA con PERCEPCIÓN 3D para Entender el Entorno",
-      "summary": "Descubre cómo funciona Qwen Drive, el innovador modelo de lenguaje con percepción 3D diseñado para entender entornos complejos. Este modelo de Alibaba permite",
-      "time": "800h",
-      "url": "https://www.youtube.com/watch?v=wEUQsy_oDps"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Tiel Coder 35B A3B 🧪 ¿Realmente es MEJOR que Qwen 3.5? Prueba de CÓDIGO",
-      "summary": "En este video ponemos a prueba el modelo Tiel Coder 35B A3B para determinar si realmente supera al Qwen 3.5 en tareas de programación. Analizamos este modelo",
-      "time": "808h",
-      "url": "https://www.youtube.com/watch?v=TKEN45TbQ14"
-    },
-    {
-      "source": "Two Minute Papers",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "GPT-6 Astra Cambia Todo",
-      "summary": "❤️ Revisa Lambda aquí y únete a su nube GPU: https://lambda.ai/papers Enlaces / fuentes: Simulación Honey: busca \"Variational Stokes: Un Solver Unificado de",
-      "time": "797h",
-      "url": "https://www.youtube.com/watch?v=eVBJIUxv8N8"
     },
     {
       "source": "Gentleman Programming",

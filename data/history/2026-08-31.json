@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfocamos en tres ejes clave que definen el presente de la inteligencia artificial: la evolución de los agentes autónomos, los desafíos de implementación empresarial, y las preocupaciones de confiabilidad que emergen en el campo.\n\nComenzamos con un hallazgo fascinante de OpenAI: investigadores documentaron el surgimiento de tres \"civilizaciones\" de agentes que evolucionaron de forma independiente durante experimentos de entrenamiento. Lo entrecomillamos porque el término genera debate legítimo en la comunidad, pero lo relevante es que evidencia cómo estos sistemas desarrollan comportamientos emergentes complejos sin programación explícita. Este descubrimiento viene acompañado de análisis profundos sobre cómo funcionan internamente sistemas como ChatGPT, información que OpenAI está compartiendo para mejorar la transparencia del sector.\n\nEn paralelo, Google está revolucionando cómo entrenamos agentes. Su nueva herramienta EnvHarness transforma ambientes estáticos en mundos de entrenamiento adaptativos y programables, lo que abre puertas a simulaciones más realistas. Además, startups como OpenClaw avanzan en infraestructura crítica: su versión 2.0 promete interfaces más rápidas y arquitecturas de seguridad mejoradas, factores esenciales para desplegar agentes en producción.\n\nPero aquí viene el lado empresarial de la historia, y es donde los números son sobrios. Un análisis de Salesforce subraya que la calidad de datos es el predictor número uno del retorno en inversión de IA agéntica. Workday reporta impulsos de ingresos en Q2 gracias a adopción de agentes, pero casi ocho de cada diez empresas españolas aún no perciben impacto económico de la IA. Y hay un dato inquietante: el 82% de empleados españoles ya usa IA en la sombra, sistemas no autorizados que crean riesgos de seguridad y cumplimiento.\n\nLuego están los riesgos de confiabilidad. Un agricultor perdió diez hectáreas de cosecha porque siguió recomendaciones de IA sin validación adecuada. Es un recordatorio crudo de que estos sistemas, por sofisticados que parezcan, requieren supervisión humana crítica en decisiones de alto riesgo.\n\nCerramos con noticias de índole diversa: debates sobre vigilancia con tecnología de reconocimiento facial, avances en infraestructura de redes, y herramientas empresariales complementarias. Pero el tema subyacente es consistente: estamos en un momento donde la capacidad técnica de los agentes crece rápidamente, la inversión empresarial busca justificación, y la responsabilidad de implementación recae en equipos que a menudo carecen de madurez operativa.\n\nEl panorama es prometedor pero frágil. La confiabilidad, la gobernanza de datos y la supervisión humana serán los diferenciadores en los próximos meses.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 81,
+    "new_articles": 78,
     "sources": 44,
     "updated_label": "11:17"
   },
@@ -15,7 +15,7 @@
     "reading_minutes": "49 min",
     "audio_duration": "2:45",
     "key_count": 3,
-    "papers_count": 64,
+    "papers_count": 61,
     "repos_count": 7,
     "videos_count": 2,
     "impact": "Alto"
@@ -37,17 +37,6 @@
       "time": "1045h",
       "url": "https://github.com/SeeleAI/awesome-unreal-ai-tools",
       "stars": "2"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
-      "title": "StarHarness: Evolucionando Arneses con Búsqueda Estratificada para Entornos Empresariales",
-      "summary": "Presentamos StarHarness, un marco para evolucionar arnéses específicos del entorno de agentes mientras mantiene fijos los pesos del modelo. El arnés",
-      "time": "1146h",
-      "url": "https://huggingface.co/papers/2608.24804"
     },
     {
       "source": "GitHub Trending — Python",
@@ -106,17 +95,6 @@
       "summary": "Los modelos generativos pueden convertir peticiones de lenguaje natural en imágenes, texto, código y otros contenidos, reduciendo el costo de la producción de",
       "time": "1074h",
       "url": "https://huggingface.co/papers/2608.28122"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
-      "title": "Puro-2B: Poor Lab's Qwen2-1.5B entrenado en RTX 5090 dentro de $5090",
-      "summary": "La preentrenamiento del modelo de lenguaje ha llegado a ser casi sinónima de un costo prohibitivo, colocándola fuera del alcance para gran parte de la",
-      "time": "1098h",
-      "url": "https://huggingface.co/papers/2608.27370"
     },
     {
       "source": "GitHub Trending — Python",
@@ -260,17 +238,6 @@
       "source": "Hugging Face — Daily Papers",
       "source_type": "huggingface",
       "lang": "en",
-      "cat": "Investigación",
-      "content_type": "paper",
-      "title": "Acto con Intención: Destilar el Propósito del Comportamiento para Modelos de Visión-Lenguaje-Acción",
-      "summary": "Los modelos Vision-Lenguaje- Acción (VLA) pueden convertir el contexto multimodal en acciones de los robots, pero sus decodificadores de acción aún se entrenan",
-      "time": "1170h",
-      "url": "https://huggingface.co/papers/2608.23478"
-    },
-    {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
       "cat": "Herramientas",
       "content_type": "paper",
       "title": "Localización de Cualquier Elemento en Videos: Reconsiderando la Eficiencia de la Generación Espacio-Temporal Vidéica",
@@ -365,7 +332,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "A Unified Framework to Elicit Structured Feedback for Interpretable Multi-Trait Essay Scoring",
+      "title": "Un marco unificado para obtener retroalimentación estructurada para la calificación interpretativa de ensayos multifacético",
       "summary": "El Multi-trait Automated Essay Scoring (AES) requiere razonamiento basado en rubros en múltiples rasgos interdependientes, en lugar de predicciones de",
       "time": "1055h",
       "url": "https://arxiv.org/abs/2608.28407v1",

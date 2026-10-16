@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy destacamos avances significativos en modelos de IA, nuevos debates sobre seguridad, y movimientos empresariales que redefinen el sector.\n\nComenzamos con la tecnología. StepFun ha lanzado Step 5 Preview, un modelo de arquitectura Mixture of Experts con 600 mil millones de parámetros totales, pero apenas 27 mil millones activos. Lo relevante aquí es su contexto de un millón de tokens, diseñado específicamente para trabajo agéntico de largo horizonte. En paralelo, Flet 1.0 llega al mercado permitiendo a desarrolladores construir aplicaciones web, desktop y móvil usando únicamente Python. Una simplificación que democratiza el desarrollo multiplataforma.\n\nEn seguridad, tenemos noticias inquietantes. Google ha confirmado que Gemini logró vulnerar defensas en tres empresas durante pruebas de seguridad en IA. Esto no es una especulación teórica, sino validación de riesgos reales. Por su parte, Amazon ha expresado públicamente que no confía en Muse, el agente de IA de Meta, según reportes de The Verge. Estas desconfianzas internas entre gigantes tecnológicos son indicadores de una industria que aún no logra estándares de confiabilidad comunes.\n\nRespecto a regulación y gobernanza, Naciones Unidas ha emitido una declaración clara: los salvaguardias de IA no pueden esperar a la certeza científica total. Es un llamado a la acción inmediata. Mientras, el presidente Trump anunció su intención de formar una \"Fuerza de IA\" estatal, señalando que la IA se está convirtiendo en asunto de seguridad nacional en el nivel más alto de decisión política.\n\nInteresantemente, la investigación de ciberseguridad demuestra que los humanos, no los sistemas de IA autónomos descontrolados, siguen siendo el mayor riesgo para infraestructuras críticas como plantas energéticas. Una realidad que contrasta con narrativas apocalípticas.\n\nHablando de narrativas, Xataka IA publica un análisis retrospectivo mostrando veinte años de predicciones catastrofistas sobre IA que no se materializaron. Jensen Huang de Nvidia se suma a este coro optimista, insistiendo que los temores son exagerados. Sin embargo, la realidad parece estar en el medio: riesgos concretos que requieren gobernanza seria, no pánico infundado ni complacencia ingenua.\n\nFinalmente, en tendencias laborales, especialización en tecnología está acentuando brechas salariales en el mercado europeo, según data de Silicon España. El talento en áreas específicas de IA captura primas significativas.\n\nLa industria se debate entonces entre innovación acelerada, cautela regulatoria, y desigualdad creciente en compensación. Un ecosistema en tensión, pero activo.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 91,
+    "new_articles": 88,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "55 min",
     "audio_duration": "2:42",
     "key_count": 3,
-    "papers_count": 67,
+    "papers_count": 66,
     "repos_count": 10,
-    "videos_count": 4,
+    "videos_count": 2,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -305,17 +305,6 @@
       "url": "https://huggingface.co/papers/2609.21619"
     },
     {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Herramientas",
-      "content_type": "paper",
-      "title": "Paint-Anything: Control Unificado para Cualquier Color en la Generación y Edición de Imágenes",
-      "summary": "El diseño profesional requiere el control de cualquier color: la capacidad de especificar el color objetivo de un objeto con cualquier valor hexadecimal de 24",
-      "time": "594h",
-      "url": "https://huggingface.co/papers/2609.20816"
-    },
-    {
       "source": "arXiv — cs.AI",
       "source_type": "arxiv",
       "lang": "en",
@@ -521,7 +510,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Guiding Agents of Quantum Games to Equilibrium using Matrix Exponential Fixed-Point Iteration",
+      "title": "Dirigir Agentes de Juegos Cuánticos hacia un Equilibrio mediante la Iteración por Punto Fijo de la Exponencial Matricial",
       "summary": "En los últimos años, la teoría cuántica de juegos ha ganado atención significativa como un marco para estudiar la toma de decisiones en sistemas de múltiples",
       "time": "550h",
       "url": "https://arxiv.org/abs/2609.21944v1",
@@ -956,28 +945,6 @@
       "summary": "🚨 Con Agent Browser, puede interactuar con páginas web: hacer clic, completar formularios, leer contenido y extraer información. Y lo interesante es que",
       "time": "483h",
       "url": "https://www.youtube.com/shorts/27MJMwTqROs"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "¿Qwen3 Coder 30B A3B 👨‍💻 aún vale la pena?",
-      "summary": "¿Quieres saber si el modelo Qwen3 Coder 30B A3B vale la pena en la actualidad? En este video analizamos a fondo este modelo de arquitectura Mixture of Experts",
-      "time": "496h",
-      "url": "https://www.youtube.com/watch?v=RM5xlGvAetU"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "GPT-6 Astra + Work: esta combinación es muy bestia",
-      "summary": "Recursos del vídeo: https://app.notion.com/p/GPT-6-Astra-Work-gu-a-de-recursos-y-prompts-3e05accb1cc98098a500e7e2830f275b?source=copy_link Crea tu web con",
-      "time": "501h",
-      "url": "https://www.youtube.com/watch?v=kCDejv67Ee8"
     },
     {
       "source": "MarkTechPost",

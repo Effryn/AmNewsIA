@@ -329,7 +329,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "SkillZip: Evaluation-Free Skill Compression for Self-Evolving Agents by Discovering Reusable Structure",
+      "title": "SkillZip: Compresión de Habilidades sin Evaluación para Agentes que Se Autoevolucionan a Través de la Descubrimiento de Estructuras Reutilizables",
       "summary": "Los agentes autoevolutivos acumulan habilidades reutilizables al adjuntar procedimientos exitosos y correcciones de fallos. Con el tiempo, la misma necesidad",
       "time": "1462h",
       "url": "https://arxiv.org/abs/2608.11079v1",
@@ -602,7 +602,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "Daybreak models are now available on AWS",
+      "title": "Los modelos de Daybreak ahora están disponibles en AWS",
       "summary": "OpenAI y AWS están haciendo disponibles las capacidades de seguridad cibernética de Daybreak a través de Amazon Bedrock para apoyar los flujos de trabajo de",
       "time": "1468h",
       "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws"

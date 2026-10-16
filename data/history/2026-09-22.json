@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos encontramos con avances significativos en la optimización de agentes de IA, cambios estructurales en los mercados laborales globales, y movimientos políticos importantes en España.\n\nComenzamos con un tema que está transformando cómo trabajamos con modelos de lenguaje: la eficiencia. NVIDIA ha presentado SoL-Pi, un sistema de bucles auto-investigadores que reduce el tráfico de tokens en agentes de codificación hasta un 49 por ciento. En la misma línea, AWS ha lanzado Strands Harness, un arnés de agentes de código abierto que logra una reducción de costos de tokens del 28 por ciento manteniendo precisión comparable. Estos avances responden a una necesidad real: hacer que los agentes de IA sean más económicos y sostenibles sin sacrificar rendimiento.\n\nParalelo a esto, vemos innovaciones en arquitecturas de modelos. Jev ha introducido una nueva forma de LLM llamada System One, o Decision Models, mientras que OpenAI reporta que Higgsfield AI ha logrado desplegar nuevas características de video en apenas un día utilizando GPT-6 Astra. Esto sugiere que la velocidad de innovación en IA sigue acelerándose exponencialmente.\n\nEn el mercado de modelos abiertos, hay movimiento constante. SpaceX ha liberado Grok 4.7 con un modelo base más grande, manteniendo los mismos precios de sus versiones anteriores. Alibaba Qwen ha presentado Qwen-Image-2.1, un modelo de 7 mil millones de parámetros especializado en generación y edición de imágenes. Y Hugging Face continúa democratizando estas tecnologías: ahora Transformers ejecuta cuantificaciones de llama.cpp, mientras que Jun Kim, creador de oMLX, se une a la compañía para fortalecer la comunidad de MLX.\n\nDesde una perspectiva socioeconómica, tenemos datos alarmantes de China, donde la IA está revolucionando el mercado laboral: se estima la creación de siete millones de \"empresas de una sola persona\" como respuesta a esta transformación. Esto plantea preguntas fundamentales sobre el futuro del empleo global.\n\nEn el frente político-tecnológico español, el Gobierno ha presentado su ambicioso plan para la IA, que incluye gigafactorías, un \"contrato social\" para la tecnología, e integración en Mi Carpeta Ciudadana. Por su parte, Portugal ya está dando pasos con Ethiack, una startup de ciberseguridad que se expande hacia España.\n\nFinalmente, OpenAI ha convocado un grupo asesor especializado en matemáticas e IA, señalando que los fundamentos matemáticos seguirán siendo cruciales para los próximos avances.\n\nEn resumen, vemos un día caracterizado por optimizaciones de eficiencia, expansión de capacidades en generación de contenido, y un creciente reconocimiento de que la IA requiere tanto innovación técnica como marcos regulatorios y sociales claros.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 98,
+    "new_articles": 89,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 55,
     "repos_count": 7,
-    "videos_count": 10,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -160,7 +160,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+      "title": "Harness-Zero: Distilación de Harness mediante Agente-como-Harness",
       "summary": "Los arneses de agente, los sistemas externos que mediaron la interacción modelo-entorno, pueden mejorar significativamente el rendimiento del agente, pero sus",
       "time": "498h",
       "url": "https://huggingface.co/papers/2609.24974"
@@ -171,7 +171,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles",
+      "title": "Medición del Verificador: Análisis de Mutación para Oráculos de Benchmark de Kernels GPU",
       "summary": "Benchmarks for LLM-generated GPU kernels decide correctness with a few random inputs and a loose floating-point tolerance, and their verdicts now feed",
       "time": "954h",
       "url": "https://huggingface.co/papers/2609.22220"
@@ -756,72 +756,6 @@
       "arxiv": "2609.24819v1"
     },
     {
-      "source": "Gentleman Programming",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Inteligencia artificial: por qué hace lo que le pedís y sale mal",
-      "summary": "Gentleman Programming | Agentes de IA | Por qué tu agente de IA hace exactamente lo que le pedís y sale mal: 11 archivos tocados, tests que andaban ahora rotos",
-      "time": "479h",
-      "url": "https://www.youtube.com/watch?v=7CZLMLnfIiw"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "GPT 5.6 Luna en Pi-Agent 🚀 ¿Resultado más PULIDO que Qwen?",
-      "summary": "En este video ponemos a prueba el modelo GPT 5.6 Luna en Pi-Agent para comprobar su capacidad de generación de código y diseño. Analizamos cómo se comporta",
-      "time": "468h",
-      "url": "https://www.youtube.com/watch?v=c9j9iID0LZE"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "NeoHorse 4B vs Qwen3.5 4B ⚖️ ¿Realmente es MEJOR para Desarrollar?",
-      "summary": "En este video analizamos a fondo la comparativa NeoHorse 4B vs Qwen3.5 4B para descubrir cuál de estos modelos de lenguaje es realmente superior. Ponemos a",
-      "time": "460h",
-      "url": "https://www.youtube.com/watch?v=qeFPE-ciIN0"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Ornith 1.5 9B en Pi Agent 🧐 ¿Es REALMENTE mejor que Qwen?",
-      "summary": "En este vídeo ponemos a prueba el modelo Ornith 1.5 9B en Pi Agent para descubrir si su rendimiento es realmente superior a otras opciones populares.",
-      "time": "464h",
-      "url": "https://www.youtube.com/watch?v=GKxQAJgKvYU"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Qwen 3.6 35B A3B en Pi-Agent 🚀 Más INTELIGENTE y Rápido con MoE",
-      "summary": "En este video ponemos a prueba el rendimiento de Qwen3.6 35B A3B en Pi-Agent para comprobar si un modelo más grande y con arquitectura MoE supera a los",
-      "time": "472h",
-      "url": "https://www.youtube.com/watch?v=MFf8WPXHESw"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "NeoHorse 4B en Pi Agent 🤖 ¿Es mejor que el Modelo ORIGINAL?",
-      "summary": "En este video ponemos a prueba el rendimiento de NeoHorse 4B en Pi Agent para analizar su capacidad de razonamiento y ejecución agéntica. Exploramos si este",
-      "time": "475h",
-      "url": "https://www.youtube.com/watch?v=Ka_NCCGeQ8U"
-    },
-    {
       "source": "maxmaxdata",
       "source_type": "youtube",
       "lang": "en",
@@ -831,39 +765,6 @@
       "summary": "",
       "time": "465h",
       "url": "https://www.youtube.com/shorts/ncYKz8TCY7M"
-    },
-    {
-      "source": "Two Minute Papers",
-      "source_type": "youtube",
-      "lang": "en",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Sí, Jev está loco, pero hay una condición.",
-      "summary": "❤️ Revisa Lambda aquí y únete a su nube de GPU: https://lambda.ai/papers 📝 Jev: https://typesafe.ai/blog/introducing-system-one-models-and-jev Canción",
-      "time": "460h",
-      "url": "https://www.youtube.com/watch?v=qBBRRsH0rQc"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Xiaomi MiMo-V2.6 Pro 🧠 MEJOR que Fable y Destilado 9B",
-      "summary": "Xiaomi MiMo-V2.6 Pro llega con un tamaño de solo 9B y en este video lo ponemos a prueba para descubrir si realmente puede superar a Fable. Analizamos su",
-      "time": "472h",
-      "url": "https://www.youtube.com/watch?v=qMZpfwNT_co"
-    },
-    {
-      "source": "AlehandoroVR",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "NUEVAS META QUEST en la META CONNECT 2026 y más sorpresas",
-      "summary": "Quedan pocos días para la Meta Connect 2026 y hay más información sobre el Proyecto Phoenix o futuras Quest Air, además de eso tenemos novedades sobre futuros",
-      "time": "479h",
-      "url": "https://www.youtube.com/watch?v=NYVHDJNQWlY"
     },
     {
       "source": "Xataka IA",

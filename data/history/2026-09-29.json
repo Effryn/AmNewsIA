@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama de IA marcado por tensiones entre ambición tecnológica y prudencia regulatoria, mientras el mercado se redefine a velocidad de vértigo.\n\nComenzamos con una noticia que rompe expectativas: OpenAI ha cancelado el lanzamiento de GPT-6.1 Astra. Su propio equipo de seguridad detectó problemas de fiabilidad que hicieron inviable la presentación pública. Es un momento significativo que muestra cómo incluso los líderes del sector están aplicando frenos cuando la integridad del modelo está en juego.\n\nEn el lado opuesto, vemos una explosión de lanzamientos técnicos. Anthropic ha liberado Claude Sonnet 5.5, alcanzando un 70.6 por ciento en Terminal-Bench 4.0 manteniendo sus precios competitivos. Simultáneamente, H Company presenta Holo4, modelos de peso abierto capaces de interactuar directamente con escritorios, navegadores, aplicaciones móviles y APIs. Google Research abre al público RRSI, agentes de IA que mejoran sus propios mecanismos sin sobreajuste. Y Alibaba lanza Qwen-Audio-3.1-Realtime, un modelo de voz full-duplex que decide autónomamente cuándo hablar.\n\nLa carrera es imparable, pero también lo es la necesidad de contención. NVIDIA ha presentado su plataforma abierta de seguridad para agentes: OpenShell, que sandboxea agentes en CPUs Vera, y Sentry en BlueField-4, capaz de aislar agentes problemáticos en milisegundos. Una respuesta directa a la creciente preocupación sobre agentes de IA no controlados.\n\nEsto conecta con la crisis de confianza que vive Anthropic. Sus cuentas desveladas sugieren un escenario de extremos: o la mayor ronda de financiación de la historia, o un agujero financiero sin precedentes. La viabilidad económica de estas empresas sigue siendo la gran interrogante.\n\nEn el frente editorial, nos enfrentamos a desafíos absurdos pero reveladores. Un nuevo benchmark propone preguntarle a la IA si has montado correctamente tus muebles de Ikea, un test de fiabilidad práctica que cuestiona qué tan útil es realmente nuestra IA. Relacionado con esto, sigue siendo imposible determinar cuál es el mejor chatbot en 2026, dada la velocidad de iteración.\n\nFinalmente, investigadores del MIT plantean una pregunta fundamental: ¿cuándo podemos afirmar que la IA ha hecho un descubrimiento científico real? Una pregunta que trasciende la hype y nos obliga a repensar qué significa verdaderamente el progreso en inteligencia artificial.\n\nEl mensaje de fondo es claro: vivimos en una carrera entre capacidad tecnológica sin precedentes y la necesidad urgente de seguridad, gobernanza y viabilidad económica. Todos los frentes están activos.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 106,
+    "new_articles": 102,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 59,
     "repos_count": 9,
-    "videos_count": 4,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -460,7 +460,7 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
-      "title": "FlowTool: Controlling Tool Parameter in Image Retouching via Flow Matching",
+      "title": "FlowTool: Control del Parámetro de Herramienta en Ajustes de Imagen a Través de Ajuste de Flujo",
       "summary": "La edición de imágenes basada en herramientas (retoucheo de imágenes) se formula comúnmente con modelos de lenguaje de gran tamaño multimodales autoregresivos",
       "time": "308h",
       "url": "https://arxiv.org/abs/2609.35673v1",
@@ -827,39 +827,6 @@
       "arxiv": "2609.35704v1"
     },
     {
-      "source": "Gentleman Programming",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Inteligencia artificial: por qué los modelos son cada vez más baratos",
-      "summary": "Gentleman Programming | Inteligencia artificial | Inteligencia artificial: por qué los modelos son cada vez más baratos. Salieron GPT 6 y Opus 5.5, y lo que",
-      "time": "310h",
-      "url": "https://www.youtube.com/watch?v=nUiWXGA8pAI"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "MiMo V2.6 Distill Qwen 9B 🧪 ¿Es Realmente MEJOR que el Original?",
-      "summary": "En este video analizamos a fondo el modelo MiMo V2.6 Distill Qwen 9B para comprobar si realmente ofrece un rendimiento superior al modelo original. Exploramos",
-      "time": "309h",
-      "url": "https://www.youtube.com/watch?v=gduYtA3q30A"
-    },
-    {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Sharp MiniCPM5 ⚡ Desarrollo agéntico largo en 4GB de VRAM",
-      "summary": "En este live voy a explorar Sharp MiniCPM5 y su potencial para desarrollar agentes de IA durante sesiones largas usando únicamente 4 GB de VRAM. Veremos cómo",
-      "time": "306h",
-      "url": "https://www.youtube.com/watch?v=OOylxha2qqg"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -1100,17 +1067,6 @@
       "summary": "Cuando los clientes hablan sobre los costos de la IA, la conversación generalmente comienza con los precios de las monedas y termina con el acceso al modelo",
       "time": "291h",
       "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/"
-    },
-    {
-      "source": "MIT Technology Review — IA",
-      "source_type": "rss",
-      "lang": "en",
-      "cat": "Herramientas",
-      "content_type": "news",
-      "title": "Mesas redondas: Los Fallos Letales de la Muro Fronterizo Virtual",
-      "summary": "Escuche la sesión o vea abajo: Estados Unidos ha invertido billones de dólares construyendo una \"muralla virtual\" de torres de vigilancia a lo largo de su",
-      "time": "304h",
-      "url": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/"
     },
     {
       "source": "Silicon España",

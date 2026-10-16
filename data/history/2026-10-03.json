@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfocamos en tres ejes principales que están transformando el panorama de la inteligencia artificial: la descentralización de los agentes, la seguridad ante su expansión, y los avances en modelos especializados.\n\nComenzamos con los agentes de software. IBM ha anunciado \"Bob\", una solución revolucionaria para desarrolladores que permite ejecutar agentes de IA en entornos privados y aislados, sin necesidad de enviar el código a la nube. Simultáneamente, OpenAI ha lanzado una guía completa para la familia GPT-6, mientras que su nuevo agente \"Dot\" promete democratizar la automatización empresarial incluso en tareas cotidianas como pedir comida. Meta y OpenAI, junto con Uber, han dado un paso más enseñando a estos agentes cuándo comunicarse y cuándo permanecer en silencio, un avance crítico para su adopción responsable.\n\nEn cuanto a hardware especializado, Nvidia ha presentado el DGX Spark de 64GB, un equipo desktop con capacidad de 1 petaFLOP diseñado específicamente para ejecutar localmente agentes de IA, fine-tuning e inferencia. Esta tendencia hacia la computación de borde refleja la creciente demanda de procesamiento independiente.\n\nLa seguridad emerge como preocupación central. Apple anuncia restricciones significativas en el acceso al disco de Mac, reconociendo que los agentes de IA representan un riesgo \"sustancial\" para la privacidad del usuario. Meta, en contraste, abre el código de su plataforma Muse para permitir que otros desarrollen gadgets de IA, demostrando un enfoque más permisivo hacia la innovación distribuida.\n\nEn modelos especializados, Microsoft lanza MAI-Transcribe-2-Streaming, posicionándose como el modelo número uno en speech-to-text en tiempo real según Artificial Analysis. Hugging Face contribuye con AstaBrief, un modelo rápido para generación automática de reportes. Datalab introduce OmniExtractBench para abordar un problema urgente: los sesgos y la falta de transparencia en los benchmarks de extracción de datos.\n\nFinalmente, un dato curioso: una compañía afirma haber creado un modelo capaz de pasar el test de Turing, aunque Nvidia expresa escepticismo sobre estas afirmaciones. MIT Technology Review, por su lado, explora cómo redefinir la inteligencia empresarial mediante IA autónoma.\n\nEl mensaje claro es que 2025 ve converger tres tendencias: la independencia tecnológica, la responsabilidad en el despliegue, y la especialización de modelos. Los agentes no solo son más poderosos, sino que ahora pueden ejecutarse localmente y con mayor seguridad.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 26,
+    "new_articles": 25,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -17,7 +17,7 @@
     "key_count": 3,
     "papers_count": 8,
     "repos_count": 5,
-    "videos_count": 2,
+    "videos_count": 1,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -186,17 +186,6 @@
       "url": "https://www.youtube.com/shorts/puf_BjwAFtk"
     },
     {
-      "source": "Nichonauta",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "FrogNano 4B 🚀 ¿Es REALMENTE mejor que el Qwen 3.5 Original?",
-      "summary": "Analizamos el nuevo FrogNano 4B para descubrir si este modelo de lenguaje realmente supera al Qwen 3.5 original. En este video ponemos a prueba las capacidades",
-      "time": "208h",
-      "url": "https://www.youtube.com/watch?v=95vKXHnfwpA"
-    },
-    {
       "source": "MarkTechPost",
       "source_type": "rss",
       "lang": "en",
@@ -257,7 +246,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "release",
-      "title": "Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model on Artificial Analysis",
+      "title": "Microsoft AI lanza MAI-Transcribe-2-Streaming: #1 Modelo en tiempo real de transcripción de voz a texto en análisis artificial",
       "summary": "Microsoft AI ha lanzado MAI-Transcribe-2-Streaming, su primer modelo de conversión de voz a texto en tiempo real. Se sitúa en primer lugar entre 38 modelos en",
       "time": "201h",
       "url": "https://www.marktechpost.com/2026/10/02/microsoft-ai-releases-mai-transcribe-2-streaming-1-real-time-speech-to-text-model-on-artificial-analysis/"

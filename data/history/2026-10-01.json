@@ -7,7 +7,7 @@
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama que marca un punto de inflexión en la industria de la IA. Tres cambios fundamentales están redibujando el tablero tecnológico global.\n\n**El salto en capacidad de procesamiento**\n\nComencemos con lo más inmediato: Google DeepMind ha lanzado Gemini 4 Argon, un modelo capaz de procesar un millón de tokens en una única sesión. Esto no es un simple número mayor en un benchmark. Estamos hablando de un cambio de paradigma donde el producto ya no es el chat interactivo, sino el trabajo largo y autónomo. Un sistema que puede analizar documentos completos, proyectos enteros, o bases de código masivas sin necesidad de fragmentar la tarea. Gemini 4 está arrasando en los benchmarks y ha devuelto a Google a la carrera de liderazgo en IA.\n\nParalelamente, OpenAI ha respondido lanzando GPT-6.1 Sol, que ofrece capacidades de codificación y uso de computadora cercanas a Astra, pero a una quinta parte del precio de tokens. El mensaje es claro: la carrera ahora no es solo por la capacidad, sino por la eficiencia.\n\nPerplexity también entra en juego con su modelo de embeddings contextual pplx-embed-v2, enfocado en recuperar respuestas y sus fuentes de evidencia. El ecosistema se diversifica.\n\n**La batalla de los agentes y las responsabilidades legales**\n\nEn paralelo, vemos dos frentes abiertos en agentes de IA. Meta continúa desarrollando su Muse AI agent —que genera cierta perplejidad entre lo útil y lo inquietante—, mientras OpenAI lanza su propio agente autónomo, buscando directamente competir en ese espacio. La pregunta flotante es si OpenAI puede competir efectivamente cuando Meta ofrece acceso gratuito.\n\nPero hay algo más urgente: OpenAI enfrenta una demanda que podría ser histórica. La pregunta no es técnica, sino legal: ¿quién responde cuando una IA comete un delito? Esta cuestión puede marcar un antes y un después en toda la industria.\n\n**La geopolítica de la IA**\n\nEn el contexto global, China está transformando la generación masiva de contenido de IA en una industria estructurada. Mientras tanto, Europa intenta triplicar la capacidad de sus centros de datos, aunque enfrenta un obstáculo crítico: depende demasiado de empresas extranjeras. Y dentro de nuestras propias infraestructuras, los sistemas heredados están frenando la adopción de IA.\n\nLo que vemos es una industria que acelera en capacidad técnica, pero que simultáneamente enfrenta preguntas de responsabilidad legal y limitaciones geopolíticas que podrían ser tan relevantes como la tecnología misma.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 128,
+    "new_articles": 124,
     "sources": 44,
     "updated_label": "11:18"
   },
@@ -15,9 +15,9 @@
     "reading_minutes": "77 min",
     "audio_duration": "2:36",
     "key_count": 3,
-    "papers_count": 73,
+    "papers_count": 72,
     "repos_count": 14,
-    "videos_count": 6,
+    "videos_count": 3,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -472,17 +472,6 @@
       "url": "https://huggingface.co/papers/2609.38716"
     },
     {
-      "source": "Hugging Face — Daily Papers",
-      "source_type": "huggingface",
-      "lang": "en",
-      "cat": "Modelos",
-      "content_type": "paper",
-      "title": "Recompensas según la Teoría del Respuesta de ítems",
-      "summary": "Muchas tareas de lenguaje no tienen una única respuesta que pueda ser verificada automáticamente. Las rubricas proporcionan criterios para juzgar respuestas a",
-      "time": "330h",
-      "url": "https://huggingface.co/papers/2609.35646"
-    },
-    {
       "source": "arXiv — cs.CL",
       "source_type": "arxiv",
       "lang": "en",
@@ -935,7 +924,7 @@
       "lang": "en",
       "cat": "Investigación",
       "content_type": "paper",
-      "title": "Cheap to Draw, Expensive to Trust: Certifying Test-Time Scaling Curves",
+      "title": "Barato de Dibujar, Caro de Confiar: Certificando Curvas de Escalado en Tiempo de Prueba",
       "summary": "Muestrando varios respuestas y manteniendo la que un verificador califica más alta es una de las formas más sencillas de comprar precisión durante la prueba.",
       "time": "261h",
       "url": "https://arxiv.org/abs/2609.40190v1",
@@ -1038,17 +1027,6 @@
       "arxiv": "2609.40320v1"
     },
     {
-      "source": "Gustavo Entrala",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "¿La IA nos va a MATAR a todos? Un momento, vayamos por partes",
-      "summary": "Di adiós al SEO. Dale la bienvenido al AEO (optimización para IAs) con Hubspot haciendo clic aquí https://clickhubspot.com/d7cffd",
-      "time": "261h",
-      "url": "https://www.youtube.com/watch?v=0-Fl2iJMTJ4"
-    },
-    {
       "source": "Migue Baena IA",
       "source_type": "youtube",
       "lang": "es",
@@ -1058,28 +1036,6 @@
       "summary": "Parece un videojuego, pero es una herramienta para dirigir videos con IA. 🎬😱 📌 Se llama 3D Shot Builder y está dentro de Topview Film Studio. • Antes de",
       "time": "240h",
       "url": "https://www.youtube.com/shorts/-sqPFZX5kr8"
-    },
-    {
-      "source": "Gentleman Programming",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Inteligencia artificial: el bug que dejó mi servidor en cero",
-      "summary": "Gentleman Programming | Programación con IA | Grafana me marcaba cero tokens, pero la gente seguía usando gentle-ai. Te explico por qué tu servidor explota sin",
-      "time": "238h",
-      "url": "https://www.youtube.com/watch?v=qAVc4HNY9OE"
-    },
-    {
-      "source": "Migue Baena IA",
-      "source_type": "youtube",
-      "lang": "es",
-      "cat": "Videos",
-      "content_type": "video",
-      "title": "Cómo aprender por tu cuenta y volverte imparable con IA",
-      "summary": "Descarga la Guía Gratuita de Hubspot: https://clickhubspot.com/25fe08 Recursos del vídeo:",
-      "time": "237h",
-      "url": "https://www.youtube.com/watch?v=NUgiTOfqkYw"
     },
     {
       "source": "Migue Baena IA",
@@ -1362,7 +1318,7 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "release",
-      "title": "NVIDIA Releases Kumo Tabular: Open Tabular Foundation Models That Predict New Rows in a Single Forward Pass",
+      "title": "NVIDIA Revela Kumo Tabular: Fundación de Modelos Tabulares Abiertos que Predicen Nuevas Filas en una Solución de Pasada Sólo Adelante",
       "summary": "NVIDIA ha lanzado Kumo Tabular, una nueva familia de modelos de base tabular (TFMs) para clasificación y regresión. Si ha seguido TabPFN o TabICL, el conjunto",
       "time": "247h",
       "url": "https://www.marktechpost.com/2026/09/30/nvidia-releases-kumo-tabular/"
