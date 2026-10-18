@@ -1,0 +1,393 @@
+{
+  "date": "2026-10-18",
+  "date_label": "18 de octubre de 2026",
+  "greeting": "Buenos días, Effry",
+  "briefing": {
+    "duration_label": "2:34",
+    "script_text": "En el resumen de hoy nos enfrentamos a seis noticias que marcan tendencias importantes en el ecosistema de la inteligencia artificial, desde cuestiones éticas hasta avances técnicos disruptivos.\n\nComenzamos con un tema que toca fibra sensible: la percepción de género en los sistemas de IA. Un análisis publicado en Xataka IA señala la paradoja moderna donde aseguramos que el género de una inteligencia artificial nos es indiferente, hasta que llega el momento de tomar decisiones económicas. Este debate pone sobre la mesa cuestiones fundamentales sobre sesgos implícitos, percepciones humanas y cómo valoramos las interacciones con máquinas.\n\nEn el frente del hardware y la robótica, tenemos tres desarrollos convergentes. Kyutai lanza REKI, un modelo de visión y lenguaje de apenas 2.4 mil millones de parámetros que promete revolucionar la manipulación robótica con una eficiencia de memoria notablemente superior. Complementando este avance, Voxel51 presenta su plataforma Voxel51 3.0, una solución unificada para datos multimodales específicamente diseñada para physical AI. Estos dos anuncios apuntan en la misma dirección: estamos entrando en una era donde los sistemas de IA embebidos en robots físicos requieren plataformas de datos sofisticadas y modelos optimizados. No se trata solo de hacer IA más pequeña, sino de hacerla más inteligente en contextos físicos reales.\n\nGoogle, por su parte, contribuye a esta evolución con Harness2, un framework recursivo de agentes que abre nuevas posibilidades en cómo orquestamos comportamientos complejos en sistemas autónomos. Este tipo de herramientas de código abierto son catalizadores del progreso colectivo.\n\nEn datos estructurados, NVIDIA presenta su avance en predicciones tabulares sin entrenamiento, lo que simplifica significativamente el despliegue de modelos en contextos empresariales donde abundan las bases de datos convencionales.\n\nFinalmente, Meta ha modificado su política de términos de servicio, removiendo lenguaje que potencialmente habría permitido raspar contenido de sitios de noticias. Este movimiento refleja la creciente presión regulatoria y la reconfiguración de límites éticos alrededor de cómo las grandes corporaciones entrenan sus modelos.\n\nLo que vemos en estas seis historias es un patrón claro: la IA está madurando hacia aplicaciones prácticas, multimodales y distribuidas, mientras que en paralelo, la industria enfrenta presiones crecientes sobre gobernanza, sesgo y responsabilidad.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
+  },
+  "stats": {
+    "new_articles": 32,
+    "sources": 44,
+    "updated_label": "10:42"
+  },
+  "iaday": {
+    "reading_minutes": "19 min",
+    "audio_duration": "2:34",
+    "key_count": 3,
+    "papers_count": 0,
+    "repos_count": 11,
+    "videos_count": 14,
+    "impact": "Alto"
+  },
+  "thirty_seconds": [
+    "Fazmin/cve-intel",
+    "Serájetastra-MCP",
+    "Elouansalaun/de_del_neurona_al_AGI"
+  ],
+  "articles": [
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Fazmin/cve-intel",
+      "summary": "⭐ 24 estrellas — Inteligencia local de seguridad para la triage de CVE — 31 herramientas, 25 fuentes, puntuaciones de riesgo y un servidor MCP para agentes de",
+      "time": "9h",
+      "url": "https://github.com/Fazmin/cve-intel",
+      "stars": "24"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Serájetastra-MCP",
+      "summary": "⭐ 1 estrella — ASTRA es un servidor de MCP (Protocolo de Contexto de Modelo) que permite a un asistente de IA ejecutar programas de línea de comandos en tu",
+      "time": "115h",
+      "url": "https://github.com/s-r-e-e-r-a-j/Astra-MCP",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Elouansalaun/de_del_neurona_al_AGI",
+      "summary": "⭐ 1 estrella — De un único perceptrón a agentes que utilizan herramientas, en 27 cuadernos, construyendo cada pieza desde cero.",
+      "time": "19h",
+      "url": "https://github.com/elouansalaun/from_neuron_to_AGI",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "CharlesAkl/AI-email-drafting-assistant",
+      "summary": "⭐ 1 estrella — Asistente para la redacción de correos electrónicos basado en inteligencia artificial construido con Python, Streamlit y la API de OpenAI para",
+      "time": "136h",
+      "url": "https://github.com/charlesakl/ai-email-drafting-assistant",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "Jazz-lnz/csac212-projects",
+      "summary": "⭐ 0 estrellas — Una colección de proyectos realizados en Machine Learning, Deep Learning y Procesamiento de Lenguaje Natural (PLN) para CSAC 212 (Introducción",
+      "time": "21h",
+      "url": "https://github.com/jazz-lnz/csac212-projects",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Dandan566666/metric-agora",
+      "summary": "⭐ 1 estrella — Los números moldean nuestras vidas. Verifique la evidencia. Una visión para una verificación cruzada asistida por IA de datos públicos. Fork",
+      "time": "67h",
+      "url": "https://github.com/Dandan566666/metric-agora",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Nailulgh/virtual_lab_jst_mahasiswa",
+      "summary": "⭐ 1 estrella — Lab virtual JST basado en web (SPA) para simulaciones de capacitación y evaluación JST en datos tabulares reales (CSV personalizados/Kaggle), no",
+      "time": "6h",
+      "url": "https://github.com/nailulgh/virtual_lab_jst_mahasiswa",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Yaseenkhaleel16-tech/Sistema_de_Navegación_Autónoma_Basado_en_IA",
+      "summary": "⭐ 1 estrella — Una simulación de navegación autónoma basada en Python que utiliza el algoritmo A* para planificar rutas, evitar obstáculos y demostrar",
+      "time": "123h",
+      "url": "https://github.com/yaseenkhaleel16-tech/AI-Based-Autonomous-Navigation-System",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Djouharadgb/Radar_ML_Lite_supervisada_clasificación_multiclase",
+      "summary": "⭐ 0 estrellas — Modificación del radar por pulso supervisada en clasificación multiclase a partir de I/Q crudo (7 clases, SNR de +30 a -30 dB). Track A:",
+      "time": "113h",
+      "url": "https://github.com/djouharadgb/Radar_ML_Lite_supervised_multiclass_classification",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Aminehemmaz/segmentación_fuzzy_de_satélites",
+      "summary": "⭐ 0 estrellas — Segmentación de imágenes satelitales con Fuzzy C-Means – Tesis de Maestría 2, 2025 | Segmentación d'images satellitaires par Fuzzy C-Means –",
+      "time": "20h",
+      "url": "https://github.com/aminehemmaz/satellite-fuzzy-segmentation",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "HimangshuSharma01/Predecir Enfermedades Cardíacas",
+      "summary": "⭐ 0 estrellas — Un flujo de trabajo de aprendizaje automático end-to-end y una aplicación web interactiva de Streamlit que predice el riesgo de enfermedades",
+      "time": "5h",
+      "url": "https://github.com/HimangshuSharma01/Heart-Disease-Prediction",
+      "stars": "0"
+    },
+    {
+      "source": "Nichonauta",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Comparativa de Modelos de IA para Programar 🚀 ¿Es Mejor Claude Opus o Qwen?",
+      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=y_fsuqZxwqE En este video analizamos la comparativa de modelos de IA para",
+      "time": "2h",
+      "url": "https://www.youtube.com/watch?v=QonAp85YP1g"
+    },
+    {
+      "source": "Gentleman Programming",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Inteligencia artificial: le di a GPT-6 Astra el trabajo de mi editor",
+      "summary": "Este video contiene una integración pagada de Higgsfield. #AD Gentleman Programming | Inteligencia artificial | Le di a GPT-6 Astra el trabajo de mi editor:",
+      "time": "20h",
+      "url": "https://www.youtube.com/watch?v=oYsHWtl5Ci0"
+    },
+    {
+      "source": "Nichonauta",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Programar con Modelos Locales 🚀 Cómo usar Gemma 4 para DEBUGEAR Código",
+      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=y_fsuqZxwqE Aprende a programar con modelos locales y descubre cómo usar",
+      "time": "3h",
+      "url": "https://www.youtube.com/watch?v=inZXn-iIhEU"
+    },
+    {
+      "source": "Migue Baena IA",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "¡5 complementos necesarios para Claude Code! 🚀",
+      "summary": "¿Usas Claude Code para programar? Estas 5 herramientas te pueden ayudar a sacarle más provecho. 😎 ✔️ Claude-mem: mantiene contexto entre sesiones. ✔️ Find",
+      "time": "1h",
+      "url": "https://www.youtube.com/shorts/R-JsDQGlP_Y"
+    },
+    {
+      "source": "Migue Baena IA",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "3 herramientas para mejorar el SEO de tu web 🌐",
+      "summary": "¿Quieres mejorar el SEO de tu web usando inteligencia artificial? Prueba estas 3 herramientas. 🤩 El SEO está evolucionando y puedes apoyarte en la inteligencia",
+      "time": "24h",
+      "url": "https://www.youtube.com/shorts/9aAu-hfvoME"
+    },
+    {
+      "source": "Nichonauta",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "DeepSeek-V3 vs Qwen 3.5 🧠 Comparativa de VRAM y RENDIMIENTO de IA",
+      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=MT9WnyTOeEI En este video analizamos el rendimiento y el consumo de VRAM de",
+      "time": "ahora",
+      "url": "https://www.youtube.com/watch?v=imqPd1_8Vd4"
+    },
+    {
+      "source": "Nichonauta",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Nuevos Modelos de IA 🧠 Cómo la Cuantización está CAMBIANDO el Consumo de Memoria",
+      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=MT9WnyTOeEI Descubre cómo la cuantización está transformando la inteligencia",
+      "time": "1h",
+      "url": "https://www.youtube.com/watch?v=_DVsguyztY0"
+    },
+    {
+      "source": "Nichonauta",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Programar con IA en LOCAL 🚀 Guía de OpenCode y Llama.cpp para Desarrolladores",
+      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=y_fsuqZxwqE Aprende a programar con IA en local utilizando OpenCode y",
+      "time": "5h",
+      "url": "https://www.youtube.com/watch?v=ki6DAxt1hlI"
+    },
+    {
+      "source": "Nichonauta",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Nuevos Modelos de IA 🚀 Cómo Optimizar la VRAM con Gemma 4 y Qwen",
+      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=MT9WnyTOeEI Descubre cómo optimizar el uso de VRAM con los nuevos modelos de",
+      "time": "1h",
+      "url": "https://www.youtube.com/watch?v=n0hoNgNg2OI"
+    },
+    {
+      "source": "Nichonauta",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Modelos de IA Pequeños vs Grandes 🤖 ¿Realmente Sirven para Programar?",
+      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=y_fsuqZxwqE ¿Son los modelos de IA pequeños realmente capaces de programar de",
+      "time": "4h",
+      "url": "https://www.youtube.com/watch?v=teeQOR1NYXA"
+    },
+    {
+      "source": "Nichonauta",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Cómo optimizar la VENTANA de Contexto en IA 🧠 Guía para Modelos Locales",
+      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=y_fsuqZxwqE Aprende cómo optimizar la ventana de contexto en IA para evitar",
+      "time": "4h",
+      "url": "https://www.youtube.com/watch?v=c9rWolxZBgo"
+    },
+    {
+      "source": "Nichonauta",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Corregir código con IA 🚀 el Método para SOLUCIONAR Errores de Programación",
+      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=y_fsuqZxwqE Aprende cómo corregir código con IA mediante un método",
+      "time": "3h",
+      "url": "https://www.youtube.com/watch?v=-1G_H3MxRRg"
+    },
+    {
+      "source": "Nichonauta",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Kimi 3 de Moonshot AI 🚀 ¿Se puede ejecutar en LOCAL? Análisis de PESOS ABIERTOS",
+      "summary": "⚠ Este video es un fragmento de un video en vivo: https://www.youtube.com/watch?v=MT9WnyTOeEI Analizamos el lanzamiento de Kimi 3 de Moonshot AI y si realmente",
+      "time": "2h",
+      "url": "https://www.youtube.com/watch?v=A3E2tBTTMCg"
+    },
+    {
+      "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Decimos que el género de una IA nos da igual, hasta que llega el momento de pagarle",
+      "summary": "<p> <img",
+      "time": "7h",
+      "url": "https://www.xataka.com/robotica-e-ia/decimos-que-genero-ia-nos-da-igual-que-llega-momento-pagarle"
+    },
+    {
+      "source": "AlehandoroVR",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "¡PELICULAS en 3D en VR es OTRO MUNDO!",
+      "summary": "Con Nex Player podrás ver cualquier contenido multimedia en 3D ya sea desde un servidor, tu PC, el almacenamiento externo incluso el interno. Aquí tienes el",
+      "time": "21h",
+      "url": "https://www.youtube.com/watch?v=WReLqcfcgzM"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Conozca Voxel51 3.0: Una Plataforma Unificada Multimodal para el IA Físico",
+      "summary": "<p>Voxel51 3.0 combina la búsqueda, la curación, la anotación y la evaluación de datos de sensores multimodales en una plataforma para equipos de inteligencia",
+      "time": "9h",
+      "url": "https://www.marktechpost.com/2026/10/17/voxel51-3-0-physical-ai-data-platform/"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Google libera el código abierto de Harness2, un marco deHarness recursivo.",
+      "summary": "Google Research lanzó Harness2, un marco bajo la licencia Apache-2.0 que reescribe el marco de un agente durante las pruebas. Un paso de refinamiento elevó",
+      "time": "5h",
+      "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "Conozca Kyutai REKI: El modelo de VLA de 2,4B que trae eficiencia en la memoria a la manipulación robótica",
+      "summary": "Kyutai, junto con Inria y École des Ponts, ha lanzado REKI, un modelo de 2,4B de visión-lenguaje-acción (VLA) para la manipulación robótica. El modelo de",
+      "time": "17h",
+      "url": "https://www.marktechpost.com/2026/10/17/meet-kyutai-reki-the-2-4b-vla-model-bringing-efficient-memory-to-robot-manipulation/"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Los sitios web están cerrando sus puertas para los agentes de inteligencia artificial",
+      "summary": "Los agentes autónomos son lo más caliente en el campo del IA. OpenAI, Meta, Google, Instinct y otros prometen que sus agentes pueden recorrer la internet en",
+      "time": "24h",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Cómo hacer predicciones tabulares sin entrenamiento con modelos de datos estructurados NVIDIA",
+      "summary": "En este tutorial, se implementan los Modelos de Datos Estruturados, una nueva biblioteca de NVIDIA que pone detrás de un solo interfaz PyTorch varios modelos",
+      "time": "7h",
+      "url": "https://www.marktechpost.com/2026/10/17/how-to-make-zero-training-tabular-predictions-with-nvidia-structured-data-models/"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Meta elimina lenguaje que podría haber permitido escanear sitios de noticias",
+      "summary": "Después de la contrarrestada, Meta está actualizando nuevamente sus términos para eliminar el lenguaje que sugería que podría extraer contenido de sitios,",
+      "time": "22h",
+      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+    }
+  ]
+}
