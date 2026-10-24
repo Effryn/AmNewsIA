@@ -1,0 +1,413 @@
+{
+  "date": "2026-10-24",
+  "date_label": "24 de octubre de 2026",
+  "greeting": "Buenos días, Effry",
+  "briefing": {
+    "duration_label": "2:44",
+    "script_text": "En el resumen de hoy destacan avances significativos en infraestructura, agentes autónomos y una creciente preocupación por la seguridad en inteligencia artificial.\n\nComenzamos con novedades en arquitectura de sistemas. Anthropic ha presentado su sandbox-runtime, un mecanismo de aislamiento a nivel del sistema operativo que permite que los agentes de IA ejecuten código de forma segura sin necesidad de contenedores tradicionales. Por su parte, Letta lanza una solución de ingeniería agentica con memoria persistente, estado compartido y retrieval semántico, permitiendo flujos de trabajo portables y herramientas personalizadas. Estas tecnologías marcan un antes y un después en cómo los modelos pueden interactuar con sistemas reales de forma controlada.\n\nEn el frente de modelos compactos, NVIDIA acaba de liberar Nemotron 3.5 Bolt E4B, un modelo de lenguaje pequeño optimizado para agentes de voz locales, personajes de videojuegos y robots. Mientras tanto, IBM presenta cifras que desafían el paradigma dominante: logra el 90% del rendimiento de modelos cerrados gastando solo el 10% del costo por token. Esta eficiencia abre nuevas posibilidades para quienes apuestan por soluciones open source.\n\nEn robótica y humanoides, China intensifica su carrera con Estados Unidos. Unitree está desarrollando robots capaces de auto-mejorarse, un hito que acelera la competencia geopolítica por el liderazgo en sistemas autónomos avanzados.\n\nEn seguridad, Jason Clinton, subdirector de ciberseguridad de Anthropic, lanza una advertencia inquietante: los ataques informáticos \"van a empeorar mucho más\". Su mensaje es directo: la industria debe prepararse para una escalada de amenazas.\n\nEn regulación y ética, tenemos dos frentes abiertos. Alemania cuestiona el Modo IA de Google, argumentando que cuando los resúmenes no incluyen enlaces, la opinión pasa a ser atribuible a Google. Por otro lado, Meta ha retrasado sus nuevos términos de servicio tras presión de editores preocupados por el scraping de contenido para entrenar IA.\n\nEn infraestructura, OpenAI publica la segunda parte de su análisis sobre cómo escalar almacenamiento online para servir a más de mil millones de usuarios de ChatGPT, revelando los desafíos técnicos detrás del crecimiento masivo.\n\nFinalmente, una nota sobre herramientas: Hugging Face presenta LitPivot, una plataforma para desarrollar ideas de investigación mediante contextualización dinámica del paisaje literario, facilitando el descubrimiento científico en IA.\n\nUn dato curioso: un análisis de Pangram sugiere que una obra de David Silva Rojas es IA al 99%, recordándonos que la detección automática sigue siendo imperfecta.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
+  },
+  "stats": {
+    "new_articles": 34,
+    "sources": 44,
+    "updated_label": "11:25"
+  },
+  "iaday": {
+    "reading_minutes": "20 min",
+    "audio_duration": "2:44",
+    "key_count": 3,
+    "papers_count": 8,
+    "repos_count": 9,
+    "videos_count": 0,
+    "impact": "Alto"
+  },
+  "thirty_seconds": [
+    "PRIORIZACIÓN DE AGENCIES BASADA EN LA FUNCIÓN DE INFLUENCIA EN SISTEMAS DE AGENCIAS MULTIPLES",
+    "Johnskop7/labs-de-inteligencia-artificial",
+    "Zidniryi/cutvii"
+  ],
+  "articles": [
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "PRIORIZACIÓN DE AGENCIES BASADA EN LA FUNCIÓN DE INFLUENCIA EN SISTEMAS DE AGENCIAS MULTIPLES",
+      "summary": "Mejorar cada agente en un sistema multi-agente basado en LLM puede ser altamente costoso, lo que hace importante identificar cuál agente debe ser priorizado",
+      "time": "186h",
+      "url": "https://huggingface.co/papers/2610.24383"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Johnskop7/labs-de-inteligencia-artificial",
+      "summary": "⭐ 0 estrellas — Tres laboratorios de Inteligencia Artificial de la NTUA: búsqueda en laberintos y agentes adversarios, un recomendador de películas en Prolog,",
+      "time": "48h",
+      "url": "https://github.com/johnskop7/artificial-intelligence-labs",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Zidniryi/cutvii",
+      "summary": "⭐ 7 estrellas — CutVii - Edición creativa. Flujo de trabajo flexible. Inteligencia artificial en el dispositivo",
+      "time": "49h",
+      "url": "https://github.com/zidniryi/cutvii",
+      "stars": "7"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "A220man/cobalt-console-ryan-vo",
+      "summary": "⭐ 2 estrellas — Ryan Vo | En progreso: cobalt-console-ryan-vo",
+      "time": "53h",
+      "url": "https://github.com/A220man/cobalt-console-ryan-vo",
+      "stars": "2"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Lazos entre Exploración y Perfil del Usuario: Duelo Dirigido por Información para la Personalización en Tiempo de Prueba del Agente",
+      "summary": "La personalización efectiva durante el tiempo del test requiere que los agentes LLM adapten sus preferencias de usuario a partir de una interacción ligera.",
+      "time": "186h",
+      "url": "https://huggingface.co/papers/2610.24385"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "Agente Mosaic: Reconociendo filtraciones de confidencialidad en sistemas de LLM agentes",
+      "summary": "Los agentes de LLM modernos pueden recuperar información de documentos accesibles y luego revelar una conclusión sensible compuesta a partir de ellos. Este",
+      "time": "90h",
+      "url": "https://huggingface.co/papers/2610.30418"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "ALANDVO/cilindro-de-coleante-alan-vo",
+      "summary": "⭐ 2 estrellas — Alan Vo | En progreso: cobalt-lens-alan-vo",
+      "time": "93h",
+      "url": "https://github.com/ALANDVO/cobalt-lens-alan-vo",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "ALANDVO/nexus-pilot-144-alan-vo",
+      "summary": "⭐ 2 estrellas — Alan Vo | En progreso: nexus-pilot-144-alan-vo",
+      "time": "31h",
+      "url": "https://github.com/ALANDVO/nexus-pilot-144-alan-vo",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "A220man/signal-lab-ryan-vo",
+      "summary": "⭐ 2 estrellas — Ryan Vo | En progreso: signal-lab-ryan-vo",
+      "time": "59h",
+      "url": "https://github.com/A220man/signal-lab-ryan-vo",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "A220man/prism-hub-144-ryan-vo",
+      "summary": "⭐ 2 estrellas — Ryan Vo | Trabajo en progreso: prism-hub-144-ryan-vo",
+      "time": "32h",
+      "url": "https://github.com/A220man/prism-hub-144-ryan-vo",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "A220man/sentinel-studio-144-ryan-vo",
+      "summary": "⭐ 2 estrellas — Ryan Vo | En progreso: sentinel-studio-144-ryan-vo",
+      "time": "17h",
+      "url": "https://github.com/A220man/sentinel-studio-144-ryan-vo",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Pancharith/I4-DAS-B-TP-AI",
+      "summary": "⭐ 0 estrellas — Tareas del curso de Inteligencia Artificial — Ciencia de Datos, ITC, Año Académico 2026-2027.",
+      "time": "61h",
+      "url": "https://github.com/pancharith/I4-DAS-B-TP-AI",
+      "stars": "0"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "El LLM-Attacker: Un marco unificado para la evaluación de la privacidad de sistemas de LLM divididos y distribuidos para equipos rojos",
+      "summary": "Los modelos de lenguaje divididos mantienen el texto de entrada en un cliente pero envían representaciones intermedias a un servidor. Los ataques pueden",
+      "time": "234h",
+      "url": "https://huggingface.co/papers/2610.22722"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "TARSphere: Un marco completo para agentes corporales de larga horizonte orientados a robots en entornos físicos y sociales evolucionantes",
+      "summary": "Los robots deben actuar bajo restricciones físicas y sociales mientras se adaptan a los cambios en su entorno y las necesidades humanas. Los sistemas",
+      "time": "90h",
+      "url": "https://huggingface.co/papers/2610.30043"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "paper",
+      "title": "EvalResearchBench: ¿Pueden los Agentes de Inteligencia Artificial Construir Su Propio Feedback para Mejoramiento Recursivo Sobre Sí Mismo?",
+      "summary": "El auto Mejoramiento Recursivo (RSI, por sus siglas en inglés) depende del feedback de evaluación para evaluar el progreso y guiar la investigación adicional,",
+      "time": "210h",
+      "url": "https://huggingface.co/papers/2610.04184"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Tareas Diferentes, Tiempos Diferentes: Cuantización Temporalmente Consciente de Tareas para Modelos de Difusión de Lenguaje",
+      "summary": "Los Modelos de Lenguaje con Diffusión (DLMs) presentan desafíos únicos de cuantización debido a su proceso iterativo de desens Playoff. En este trabajo,",
+      "time": "66h",
+      "url": "https://huggingface.co/papers/2610.31198"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "paper",
+      "title": "Los modelos de lenguaje por difusión cambian la velocidad entre tareas y lenguajes",
+      "summary": "Los modelos de difusión pueden generar varios tokens en una sola pasada hacia adelante, y deciden durante la generación cuántas pasadas gastar. Dos salidas de",
+      "time": "132h",
+      "url": "https://huggingface.co/papers/2610.25835"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Conoce el sandbox-runtime de Anthropic: aislamiento por nivel de sistema operativo para agentes de inteligencia artificial, sin contenedores",
+      "summary": "<p>El sandbox-runtime (srt) de Anthropic es el sandbox de código abierto a nivel de sistema operativo detrás de Claude Code. Restringe el acceso a archivos y",
+      "time": "3h",
+      "url": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Ingeniería Agente Estadístico Copiloto con Letta: Memoria Core, Estado Compartido, Recuperación Semántica, Herramientas Personalizadas, Flujo de Datos en Streaming y Flujo de Trabajo del Agente Portátil",
+      "summary": "Descubre cómo extender la memoria agente más allá de los prompts básicos construyendo un copiloto de ingeniería estadal con Letta. Este guía completo abarca la",
+      "time": "3h",
+      "url": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/"
+    },
+    {
+      "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "Según Pangram, 'Donde el agua trabaja' de David Silva Rojas es IA al 99%. El problema es el de siempre: que una IA no es infalible",
+      "summary": "<p> <img",
+      "time": "4h",
+      "url": "https://www.xataka.com/robotica-e-ia/pangram-donde-agua-trabaja-david-silva-rojas-ia-al-99-problema-siempre-que-ia-no-infalible"
+    },
+    {
+      "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "IBM tiene unas cifras que desafían a los gigantes de la IA cerrada: 90% del rendimiento por solo el 10% del coste por token",
+      "summary": "<p> <img",
+      "time": "18h",
+      "url": "https://www.xataka.com/robotica-e-ia/ibm-tiene-unas-cifras-que-desafian-a-gigantes-ia-cerrada-90-rendimiento-solo-10-coste-token"
+    },
+    {
+      "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "\"Van a empeorar mucho más\": Jason Clinton, subdirector de ciberseguridad de Anthropic, advierte de lo que está por venir",
+      "summary": "<p> <img",
+      "time": "19h",
+      "url": "https://www.xataka.com/seguridad/van-a-empeorar-mucho-jason-clinton-subdirector-ciberseguridad-anthropic-advierte-que-esta-venir"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "release",
+      "title": "NVIDIA lanza Nemotron 3.5 Bolt E4B 4GB: Un modelo de lenguaje pequeño abierto para agentes de voz locales, personajes de juegos y robots.",
+      "summary": "NVIDIA lanzó Nemotron 3.5 Bolt E4B 4GB, un modelo de lenguaje pequeño abierto post-entrenado desde Gemma 4 E4B para asistentes de voz locales, personajes de",
+      "time": "10h",
+      "url": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/"
+    },
+    {
+      "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "Alemania pone en aprietos el Modo IA de Google: cuando en el resumen no hay enlaces, la opinión es de Google",
+      "summary": "<p> <img",
+      "time": "20h",
+      "url": "https://www.xataka.com/robotica-e-ia/alemania-pone-aprietos-modo-ia-google-cuando-resumen-no-hay-enlaces-opinion-google"
+    },
+    {
+      "source": "Ahead of AI — Sebastian Raschka",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Crea tu propio modelo de razonamiento: Un curso completo en video",
+      "summary": "Más de 11 horas de videos sobre evaluación, escalado en tiempo de inferencia, aprendizaje por refuerzo y distilación, utilizando Python y PyTorch.",
+      "time": "3h",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+    },
+    {
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Escalando rápidamente el almacenamiento en línea para servir a más de mil millones de usuarios de ChatGPT (Parte II)",
+      "summary": "Aprende cómo OpenAI escaló Habitat con una multi-tenancy confiable, un caché global y Azure Cosmos DB para proporcionar lecturas 12 veces más rápidas para",
+      "time": "21h",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+    },
+    {
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Securando nuestro entorno de entrenamiento del modelo fronterero",
+      "summary": "OpenAI explica cómo fortalecimos la contención para el entrenamiento y evaluación de modelos frontiers, incluyendo entornos offline y equipos de verificación",
+      "time": "28h",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "LitPivot: Desarrollando ideas de investigación mediante una contextualización dinámica dentro del paisaje de la literatura.",
+      "summary": "",
+      "time": "22h",
+      "url": "https://huggingface.co/blog/allenai/litpivot"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Kyutai CADRE: Video Autoencoders que Reducen el Retraso del Modelo Mundial por Debajo de 230 ms",
+      "summary": "<p>Kyutai lanzó CADRE, una familia de 7 autoencoderes causales de difusión de video abiertos para modelos de mundo interactivos. Los modelos de mundo",
+      "time": "14h",
+      "url": "https://www.marktechpost.com/2026/10/23/kyutai-cadre-video-autoencoders-interactive-world-models/"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "release",
+      "title": "Moonshot AI lanza Kimi K3.1 Pro: un modelo con 2,8T de parámetros totales/104B de parámetros activos (MoE) y un contexto de 1 millón.",
+      "summary": "Moonshot AI lanzó Kimi K3.1 Pro, un modelo con 2.8T de parámetros, 104B de parámetros activos (MoE) y un contexto de 1M de tokens. Obtiene una puntuación de",
+      "time": "15h",
+      "url": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "OpenAI ahora entrena sus modelos de inteligencia artificial avanzados sin acceso a internet.",
+      "summary": "OpenAI ahora está entrenando sus modelos de inteligencia artificial más avanzados sin acceso a internet tras una serie de incidentes de hacking incontrolados.",
+      "time": "17h",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Jack Dorsey's Block creó un modelo de inteligencia artificial que te habla como un nuevo amigo incómodo",
+      "summary": "Block, la iniciativa de Jack Dorsey, presentó un modelo de inteligencia artificial llamado Dessa que se entrenó \"desde cero solo con conversaciones humanas\".",
+      "time": "18h",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "El iPhone Duo debería haber sido un iPad",
+      "summary": "Se otorgó una puntuación de 7/10 al iPhone Duo. Sin embargo, esa no era siempre la puntuación que planeábamos, y podría no ser la puntuación correcta para",
+      "time": "21h",
+      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Ahora Google dice que podría usar tus datos de Gmail y Google Photos para dirigir anuncios.",
+      "summary": "Google ha actualizado su política de privacidad de manera que podría significar que comenzarán a mostrar anuncios personalizados basados en sus datos",
+      "time": "21h",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
+    }
+  ]
+}
