@@ -1,0 +1,256 @@
+{
+  "date": "2026-10-25",
+  "date_label": "25 de octubre de 2026",
+  "greeting": "Buenos días, Effry",
+  "briefing": {
+    "duration_label": "2:45",
+    "script_text": "En el resumen de hoy nos enfrentamos a un panorama donde la seguridad, la optimización técnica y la regulación de la IA toman protagonismo absoluto.\n\nComenzamos con el frente de seguridad, donde Cognition ha liberado un plugin de agente diseñado para proteger sistemas contra las amenazas cibernéticas más recientes. En paralelo, Anthropic ha lanzado OSS Scanner, una herramienta gratuita de análisis de vulnerabilidades en IA que promete democratizar el acceso a evaluaciones de seguridad. Estos movimientos responden a una necesidad urgente: conforme los sistemas de IA se despliegan masivamente, la brecha de seguridad se amplía. Dinamarca, por su parte, está tomando un camino diferente con un plan nacional para blindar la voz y el rostro de sus ciudadanos contra deepfakes, reconociendo que la defensa será tan importante como el ataque.\n\nEn términos de optimización, tenemos avances significativos que están redefiniendo lo posible. Investigadores de Stanford y UC Berkeley han presentado TokenGate, una técnica de atención ponderada que acelera el prefill de contextos largos hasta 11.3 veces. Paralelamente, MarkTechPost reporta sobre Saluki 27B, un modelo de dos bits que abre la puerta a ejecución más eficiente de herramientas de llamada. Y Microsoft ha liberado Agensh, un marco para orquestar hasta mil agentes simultáneamente. Estos desarrollos señalan una tendencia clara: la comunidad tecnológica está enfocada en escalar la IA de forma más inteligente.\n\nEn el terreno de aplicaciones prácticas, la IA está transformando industrias concretas. Los modelos de predicción de fenómenos meteorológicos basados en IA demostraron su valor al prever con precisión la trayectoria del huracán Isaías cuando los sistemas tradicionales fallaron. Un recordatorio de que la IA no es solo promesa teórica, sino herramienta con impacto medible en vidas reales.\n\nSin embargo, el optimismo técnico choca con tensiones en el ecosistema. Google's cambios en búsqueda con IA han generado disrupciones en la cadena de valor del contenido online, alterando fundamentalmente cómo los editores distribuyen información. Pennsylvania está legislando sobre etiquetado en anuncios generados por IA, anticipándose a la necesidad de transparencia regulatoria.\n\nY finalmente, la comunidad de código abierto enfrenta sus propias tensiones internas, con r/opensource implementando restricciones que incluyen prohibiciones sobre contenido generado por IA y limitaciones lingüísticas.\n\nEn síntesis: la IA avanza tecnológicamente a ritmo acelerado, pero su integración social requiere seguridad robusta, regulación anticipada y transparencia. El próximo capítulo será definido tanto por innovación técnica como por gobernanza responsable.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
+  },
+  "stats": {
+    "new_articles": 20,
+    "sources": 44,
+    "updated_label": "12:15"
+  },
+  "iaday": {
+    "reading_minutes": "12 min",
+    "audio_duration": "2:45",
+    "key_count": 3,
+    "papers_count": 0,
+    "repos_count": 6,
+    "videos_count": 3,
+    "impact": "Alto"
+  },
+  "thirty_seconds": [
+    "Ashtonckj/Purrrfessorrr-Slothhh",
+    "A220man/cobalt-lab-144-ryan-vo",
+    "ALANDVO/lente-sentinel-144-alan-vo"
+  ],
+  "articles": [
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Ashtonckj/Purrrfessorrr-Slothhh",
+      "summary": "⭐ 3 estrellas — Una aplicación de análisis de datos inspirada en píxeles que hace que la exploración, el limpiado y la visualización de conjuntos de datos sea",
+      "time": "95h",
+      "url": "https://github.com/ashtonckj/Purrrfessorrr-Slothhh",
+      "stars": "3"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "A220man/cobalt-lab-144-ryan-vo",
+      "summary": "⭐ 2 estrellas — Ryan Vo | En progreso: cobalt-lab-144-ryan-vo",
+      "time": "19h",
+      "url": "https://github.com/A220man/cobalt-lab-144-ryan-vo",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "ALANDVO/lente-sentinel-144-alan-vo",
+      "summary": "⭐ 2 estrellas — Alan Vo | Trabajo en progreso: sentinel-lens-144-alan-vo",
+      "time": "18h",
+      "url": "https://github.com/ALANDVO/sentinel-lens-144-alan-vo",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "Changtk07/trabajo_de_grado_de_nyu",
+      "summary": "⭐ 0 estrellas — Laboratorios, tareas y proyectos de NYU 2021: Aprendizaje Profundo, Sistemas Operativos, Gráficos Computacionales e Inteligencia Artificial",
+      "time": "5h",
+      "url": "https://github.com/changtk07/nyu-coursework",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Proyectos_de_ai_tinak25",
+      "summary": "⭐ 0 estrellas — Proyectos de inteligencia artificial en Python: búsqueda, planificación y aprendizaje por refuerzo, con pruebas.",
+      "time": "11h",
+      "url": "https://github.com/tinak25/ai-projects",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Fai707/detector de dígitos escritos à mano",
+      "summary": "⭐ 0 estrellas — 2023 Proyecto Mawhiba",
+      "time": "ahora",
+      "url": "https://github.com/Fai707/handwritten-digit-recognizer",
+      "stars": "0"
+    },
+    {
+      "source": "Migue Baena IA",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "¡Adiós Veo y Kling! Conoce LTX 2.5",
+      "summary": "‼️ Conoce LTX 2.5, un modelo de código abierto que puedes integrar en tu flujo de trabajo audiovisual. ¿Qué posibilidades ofrece? 🚀 ✅ Crear secuencias con",
+      "time": "2h",
+      "url": "https://www.youtube.com/shorts/qt9RQi7O4A4"
+    },
+    {
+      "source": "Gentleman Programming",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Code review con IA: revisar código ya no es leerlo",
+      "summary": "Ya hay demasiado código para que un humano lo revise línea por línea. Un estudio de SmartBear con Cisco dice que más allá de 400 líneas encontramos cada vez",
+      "time": "20h",
+      "url": "https://www.youtube.com/shorts/kG8jtNqRa-4"
+    },
+    {
+      "source": "Gentleman Programming",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "La IA te iba a ahorrar trabajo: el 77% dice lo contrario",
+      "summary": "Upwork le preguntó a ejecutivos y empleados: el 96% de los jefes esperaba que la IA subiera la productividad, y el 77% de los empleados dijo que la IA le sumó",
+      "time": "23h",
+      "url": "https://www.youtube.com/shorts/fb2TrQ2p-Eg"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Guía de Llamado de Herramientas para Correr el Underdog Saluki 27B: Herramienta Qwen3.8-27B",
+      "summary": "<p>Explore un guía completo de codificación que compara Underdog Saluki 27B con la quantización GSQ-RCO de ISTA, examinando los encabezados GGUF, el uso de",
+      "time": "12h",
+      "url": "https://www.marktechpost.com/2026/10/24/underdog-saluki-27b-coding-guide-llama-cpp/"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Cognition libera el código abierto para un plugin de agente que ayuda a proteger sistemas contra recientes amenazas de seguridad cibernética.",
+      "summary": "Cognition lanzó el plugin de correcciones de vulnerabilidades Devin, tres habilidades de agentes con licencia MIT que inventariarán, parchearán y probarán",
+      "time": "12h",
+      "url": "https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/"
+    },
+    {
+      "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "Dinamarca tiene un plan contra los deepfakes: blindar la voz y el rostro de su ciudadanía contra la IA",
+      "summary": "<p> <img",
+      "time": "4h",
+      "url": "https://www.xataka.com/privacidad/dinamarca-tiene-plan-deepfakes-blindar-voz-rostro-sus-ciudadanos-ia"
+    },
+    {
+      "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "La IA ya está cambiando la predicción del tiempo: con el huracán Isaías acertó su trayectoria cuando los modelos tradicionales fallaron",
+      "summary": "<p> <img",
+      "time": "22h",
+      "url": "https://www.xataka.com/ecologia-y-naturaleza/ia-esta-cambiando-prediccion-tiempo-huracan-isaias-acerto-su-trayectoria-cuando-modelos-tradicionales-fallaron"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Investigadores de Stanford y UC Berkeley presentan TokenGate: la atención conTokens hace que el prelleno con contexto largo sea hasta 11,3 veces más rápido.",
+      "summary": "Investigadores de Stanford y UC Berkeley lanzaron TokenGate, un módulo de poda de tokens aprendidos para LLMs. Reduce el tiempo de prefijo hasta el primer",
+      "time": "3h",
+      "url": "https://www.marktechpost.com/2026/10/25/stanford-berkeley-tokengate-learned-token-pruning-llm-prefill/"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "release",
+      "title": "Anthropic lanza OSS Scanner, un escáner gratuito de vulnerabilidades de IA.",
+      "summary": "Anthropic ha lanzado OSS Scanner, un escáner de vulnerabilidades gratuito y voluntario para proyectos de código abierto críticos. El escáner de código abierto",
+      "time": "3h",
+      "url": "https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Microsoft libera el código abierto de Agensh: Un arnés multi-agente para 1,024 agentes",
+      "summary": "Microsoft Research liberó el código fuente de Agensh, un marco multi-agente sin orquestador central. Trabajadores autónomos comparten un repositorio Git,",
+      "time": "11h",
+      "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "R/opensource ha prohibido el uso de IA y hablantes de idiomas diferentes.",
+      "summary": "Los moderadores de r/opensource publicaron nuevas reglas para las nuevas contribuciones que, entre otras cosas, prohíben los proyectos que utilizan IA. El",
+      "time": "1h",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Los cambios en la búsqueda de inteligencia artificial de Google han revolucionado la publicación en línea.",
+      "summary": "Este es The Stepback, un boletín semanal que descompone una historia esencial del mundo tecnológico. Para obtener más información sobre el impacto de la IA en",
+      "time": "3h",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Blue Planet III is keeping the rough edges in the age of AI",
+      "summary": "BBC's Blue Planet III busca demostrar su autenticidad al incluir las tomas menos perfectas. Las incarnationes anteriores de la serie sobre naturaleza estaban",
+      "time": "17h",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Pennsylvania requerirá etiquetas en anuncios generados por IA",
+      "summary": "El jueves, el gobernador de Pensilvania, Josh Shapiro, firmó la Ley contra la Publicidad Engañosa con Inteligencia Artificial, que requiere declaraciones en",
+      "time": "20h",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
+    }
+  ]
+}
