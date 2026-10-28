@@ -7,23 +7,23 @@
     "script_text": "En el resumen de hoy nos enfocamos en cómo la inteligencia artificial está transitando de la experimentación a la industrialización real, con avances significativos en modelos de simulación, capacidades multimodales y aplicaciones empresariales concretas.\n\nComenzamos con SAP, que consolida en TechEd 2026 la era de la empresa autónoma con IA agéntica. Estamos hablando de sistemas que no solo asisten, sino que toman decisiones y ejecutan procesos de manera independiente. En paralelo, desde Silicon España reportan que empresas como Lenovo están ampliando sistemáticamente sus bibliotecas de casos de uso en inteligencia artificial, pasando de pruebas piloto a despliegues escalables. Y muy relevante: Sopra Steria y FIDAMC impulsan activamente la inteligencia artificial física en Europa, lo que indica que la IA ya no es solo software, sino que se materializa en dispositivos y robótica.\n\nEn el frente de modelos y arquitecturas, tenemos novedades importantes. Google DeepMind presenta Genie 4, una nueva generación de simulación de mundos que genera experiencias más realistas. Por su parte, Liquid AI lanza LFM3, un conjunto de seis modelos multimodales de clase 2B con pesos abiertos, democratizando el acceso a capacidades avanzadas. Mientras tanto, Mirendil entra al mercado con Fern 0.1, su primer modelo, destacando por soportar 10 millones de tokens de contexto, lo que abre posibilidades para procesar documentos y conversaciones mucho más extensas.\n\nEn ecosistemas y asociaciones estratégicas, OpenAI expande su partnership con Oracle para llevar sus aplicaciones directamente a ChatGPT, consolidando una integración profunda en infraestructura empresarial. Desde Hugging Face, surgen preguntas fundamentales sobre confiabilidad: ¿podemos confiar en los LLMs para juzgar si una idea de investigación es realmente novedosa? Una inquietud que refleja cómo la IA empieza a participar en procesos de evaluación y toma de decisiones críticas.\n\nFinalmente, MIT Technology Review destaca la inteligencia industrial como la próxima gran oportunidad de crecimiento en manufactura. Y Silicon España profundiza en un debate crucial: cómo industrializar proyectos de IA generando rentabilidad real sin deshumanizar las organizaciones. Este es posiblemente el desafío más importante del momento: transformar la tecnología en valor económico manteniendo el elemento humano en el centro.\n\nEn síntesis, vemos una IA que madura desde laboratorios hacia operaciones reales, con énfasis en autonomía, multimodalidad y aplicaciones físicas. El desafío ahora es escalar responsablemente.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 128,
+    "new_articles": 159,
     "sources": 44,
-    "updated_label": "00:13"
+    "updated_label": "00:18"
   },
   "iaday": {
-    "reading_minutes": "77 min",
+    "reading_minutes": "95 min",
     "audio_duration": "2:44",
     "key_count": 3,
     "papers_count": 66,
-    "repos_count": 9,
+    "repos_count": 40,
     "videos_count": 9,
     "impact": "Alto"
   },
   "thirty_seconds": [
     "ReGE: Agentes más fuertes mediante la síntesis de experiencias",
-    "XAerux/aerus-ezai",
-    "OierZu/IA26_P01_E01"
+    "Dednain/gestalt-net",
+    "XAerux/aerus-ezai"
   ],
   "articles": [
     {
@@ -36,6 +36,18 @@
       "summary": "Las tentativas repetidas en tareas interactivas revelan hechos, operaciones útiles y fracasos que pueden informar la ejecución posterior. Introducimos ReGE, un",
       "time": "103h",
       "url": "https://huggingface.co/papers/2610.33861"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Dednain/gestalt-net",
+      "summary": "⭐ 0 estrellas — 86.5% less context memory for long-context AI — a pure-Python, zero-dependency alternative to heavy LLM caches. No GPU. 7.4x compression, 100%",
+      "time": "7h",
+      "url": "https://github.com/dednain/gestalt-net",
+      "stars": "0"
     },
     {
       "source": "GitHub Trending — IA",
@@ -62,6 +74,18 @@
       "stars": "0"
     },
     {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Devilking2017/ResumeSaathi-AI",
+      "summary": "⭐ 0 estrellas — ResumeSaathi AI is an AI-powered interview preparation tool that analyzes resumes and generates personalized interview questions and suggested",
+      "time": "22h",
+      "url": "https://github.com/devilking2017/ResumeSaathi-AI",
+      "stars": "0"
+    },
+    {
       "source": "Hugging Face — Daily Papers",
       "source_type": "huggingface",
       "lang": "en",
@@ -73,6 +97,54 @@
       "url": "https://huggingface.co/papers/2610.33024"
     },
     {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Joshsaxe/vulnpocalypse",
+      "summary": "⭐ 0 estrellas — Data, code, figures, and annotated bibliography for Joshua Saxe’s Substack post “If the vulnpocalypse is the apocalypse, where are the agentic",
+      "time": "9h",
+      "url": "https://github.com/joshsaxe/vulnpocalypse",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Teede-N/afrique-ia",
+      "summary": "⭐ 0 estrellas — AfrIA : plateforme gratuite pour apprendre l'IA en français, pensée pour l'Afrique. PWA installable + API serverless d'actualités IA avec cache",
+      "time": "8h",
+      "url": "https://github.com/Teede-N/afrique-ia",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Nowii-core/devlists-atlas",
+      "summary": "⭐ 0 estrellas — Ultimate curated index of 700+ awesome developer resources, open-source tools, AI/ML frameworks, DevOps utilities, and learning roadmaps.",
+      "time": "5h",
+      "url": "https://github.com/nowii-core/devlists-atlas",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Elexy101/WAgent",
+      "summary": "⭐ 0 estrellas — WAgent acts as your personal, autonomous research agent. You simply paste a chaotic message from a friend or record a voice note. The AI then",
+      "time": "23h",
+      "url": "https://github.com/Elexy101/WAgent",
+      "stars": "0"
+    },
+    {
       "source": "arXiv — cs.CL",
       "source_type": "arxiv",
       "lang": "en",
@@ -80,7 +152,7 @@
       "content_type": "paper",
       "title": "Evaluación de DeepSeek V4.1 Flash-1017 para el riesgo de pérdida de control y manipulación dañina",
       "summary": "A medida que los modelos de lenguaje de frontera se vuelven cada vez más capaces y autónomos, las evaluaciones independientes de terceros son críticas para",
-      "time": "34h",
+      "time": "35h",
       "url": "https://arxiv.org/abs/2610.35671v1",
       "arxiv": "2610.35671v1"
     },
@@ -178,6 +250,306 @@
       "time": "31h",
       "url": "https://github.com/ALANDVO/tensor-foundry-144",
       "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "ALANDVO/prism-lab-145",
+      "summary": "⭐ 2 estrellas — Alan Vo | Work in progress: prism-lab-145",
+      "time": "15h",
+      "url": "https://github.com/ALANDVO/prism-lab-145",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "ALANDVO/cobalt-station-145",
+      "summary": "⭐ 2 estrellas — Alan Vo | Work in progress: cobalt-station-145",
+      "time": "9h",
+      "url": "https://github.com/ALANDVO/cobalt-station-145",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Samcserey/cmt-humanai-math2-remainder",
+      "summary": "⭐ 1 estrellas — Null: finite-order autoregressive approximation leaves a Lagrange R_n(x) ≠ 0 remainder. We do not ask whether AI can sound mathematical. We ask",
+      "time": "16h",
+      "url": "https://github.com/samcserey/cmt-humanai-math2-remainder",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "AlienMuse/AlienMuse",
+      "summary": "⭐ 1 estrellas — Profile of Vincent Liu (WiseMotif.ai): mathematics and machine reasoning — The Grothendieckian Programme, Series 00–07.",
+      "time": "19h",
+      "url": "https://github.com/AlienMuse/AlienMuse",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Martin08ABM/sonara",
+      "summary": "⭐ 1 estrellas — Open-source AI-powered expressive narration engine that combines language models, emotional analysis, and text-to-speech to deliver natural,",
+      "time": "3h",
+      "url": "https://github.com/Martin08ABM/sonara",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Temanhattan/Lake",
+      "summary": "⭐ 1 estrellas — Do not judge my handwritten logo",
+      "time": "10h",
+      "url": "https://github.com/temanhattan/Lake",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "AiLogicSpace/class12-ai-lessons",
+      "summary": "⭐ 0 estrellas — Interactive CBSE Class 12 AI lessons: neural networks, generative AI and board-exam practice. Free, offline-ready, by AI Logic School.",
+      "time": "20h",
+      "url": "https://github.com/AiLogicSpace/class12-ai-lessons",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Radenaffanh/ai-tic-tac-toe",
+      "summary": "⭐ 0 estrellas — Console Tic-Tac-Toe game in C++",
+      "time": "12h",
+      "url": "https://github.com/radenaffanh/ai-tic-tac-toe",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "Teede-N/ia-classroom",
+      "summary": "⭐ 0 estrellas — Masterclass IA & No-Code gratuite : 40 modules, 4 piliers, du débutant à l'avancé. Ingénierie pédagogique + site statique léger (HTML/CSS/JS, 0",
+      "time": "8h",
+      "url": "https://github.com/Teede-N/ia-classroom",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "Teede-N/solution-ia",
+      "summary": "⭐ 0 estrellas — Solution IA : applications sur mesure (données, web, IA) pour résoudre des problèmes précis d'entreprise. Réalisations en vidéo : supply chain,",
+      "time": "7h",
+      "url": "https://github.com/Teede-N/solution-ia",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Saikot313/Ticketiq-n8n-AI-TIcket-Triage",
+      "summary": "⭐ 0 estrellas — AI-powered support ticket triage automation using n8n, a DistilBERT classifier served via FastAPI, PostgreSQL, and Discord alerts with",
+      "time": "27h",
+      "url": "https://github.com/Saikot313/Ticketiq-n8n-AI-TIcket-Triage",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Thanhbinh-ic/Chess.A.C.A.S",
+      "summary": "⭐ 0 estrellas — Advanced Chess Assistance System for Chess.com, Lichess.org, Pychess.org and more. Hassle-free 1-click install, no downloading. All devices and",
+      "time": "10h",
+      "url": "https://github.com/thanhbinh-ic/Chess.A.C.A.S",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Industria",
+      "content_type": "repo",
+      "title": "RenadQ/Munjez",
+      "summary": "⭐ 0 estrellas — Munjaz: AR + AI + IoT mobile app concept for reporting and fixing campus facility issues",
+      "time": "10h",
+      "url": "https://github.com/RenadQ/Munjez",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "TuanKiet-23/UNSWBattlecode-2026",
+      "summary": "⭐ 0 estrellas — Autonomous Python strategy bot for UNSW Battlecode 2026 | Peak Rank #126 | Graph Navigation, Heuristic Decision-Making & Tactical AI",
+      "time": "18h",
+      "url": "https://github.com/TuanKiet-23/UNSWBattlecode-2026",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Radenaffanh/ai-genetic-algorithm",
+      "summary": "⭐ 0 estrellas — Genetic algorithm in Python with binary chromosomes, roulette-wheel selection and one-point crossover",
+      "time": "12h",
+      "url": "https://github.com/radenaffanh/ai-genetic-algorithm",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Pragathidevanga/AI-Image-Variation-Studio",
+      "summary": "⭐ 0 estrellas — A Streamlit application that transforms uploaded images using a pretrained AI image-to-image model from Hugging Face.",
+      "time": "17h",
+      "url": "https://github.com/pragathidevanga/AI-Image-Variation-Studio",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Augl-l/ai-intro-5th-edition-courseware",
+      "summary": "⭐ 0 estrellas — 王万良《人工智能导论》（第5版）配套电子课件 — 高等教育出版社，ISBN 978-7-04-055153-2，共11章 PPT",
+      "time": "21h",
+      "url": "https://github.com/Augl-l/ai-intro-5th-edition-courseware",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Robrosenast/awesome-ai-tools-for-creators",
+      "summary": "⭐ 0 estrellas — A curated list of AI tools for creators and side hustles, with free plans, prices and honest video reviews. Maintained by A1 Republic.",
+      "time": "10h",
+      "url": "https://github.com/robrosenast/awesome-ai-tools-for-creators",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "R-behera/knowledge-graph-risk-engine-20261027",
+      "summary": "⭐ 0 estrellas — An explainable knowledge-graph pipeline for entity links, relationship paths, and risk evidence.",
+      "time": "8h",
+      "url": "https://github.com/R-behera/knowledge-graph-risk-engine-20261027",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "AnjaySah1/anjay-portfolio",
+      "summary": "⭐ 0 estrellas — Personal portfolio showcasing my projects, research, and interests in Machine Learning, AI, and Quantitative Mathematics.",
+      "time": "12h",
+      "url": "https://github.com/AnjaySah1/anjay-portfolio",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "AcezeraDev/MINERVA-SITE",
+      "summary": "⭐ 0 estrellas — Plataforma educacional com IA, jogos interativos, XP, progressão e desafios. React, TypeScript e Node.js.",
+      "time": "16h",
+      "url": "https://github.com/AcezeraDev/MINERVA-SITE",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Radenaffanh/ai-nim-game-minimax-alpha-beta",
+      "summary": "⭐ 0 estrellas — Graphical Nim game (Pygame) where the AI uses Alpha-Beta pruning, compared live against Minimax",
+      "time": "12h",
+      "url": "https://github.com/radenaffanh/ai-nim-game-minimax-alpha-beta",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "WallaksCardoso/algoritmo-genetico-java",
+      "summary": "⭐ 0 estrellas — Algoritmo genético em Java para o problema da mochila aplicado à carga de um caminhão baú",
+      "time": "7h",
+      "url": "https://github.com/WallaksCardoso/algoritmo-genetico-java",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "RenadQ/EDUassist",
+      "summary": "⭐ 0 estrellas — AI academic assistant: full software engineering lifecycle (proposal, SPMP, SRS, SDS, test plan), UI prototype and database design",
+      "time": "8h",
+      "url": "https://github.com/RenadQ/EDUassist",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "SergeyLebidko/SerGO",
+      "summary": "⭐ 0 estrellas — Игра в Го на Python + pygame: свой движок правил, MCTS-бот, русский интерфейс",
+      "time": "19h",
+      "url": "https://github.com/SergeyLebidko/SerGO",
+      "stars": "0"
     },
     {
       "source": "Hugging Face — Daily Papers",
@@ -379,7 +751,7 @@
       "content_type": "paper",
       "title": "Un Área Unificada para Agentes de LLM en Diversos Juegos Euro",
       "summary": "Los entornos interactivos ofrecen una forma práctica para evaluar los agentes de modelos de lenguaje de gran escala (LLM), y los juegos competitivos extienden",
-      "time": "33h",
+      "time": "34h",
       "url": "https://arxiv.org/abs/2610.35773v1",
       "arxiv": "2610.35773v1"
     },
@@ -1007,7 +1379,7 @@
       "content_type": "video",
       "title": "META habla del FUTURO de la VR",
       "summary": "Las Meta VR Glasses cambiaran por completo como Meta ha estado apostando por esta tecnología. Ya es una realidad y el propio Mark lo ha confirmado 🛒 Tiendas y",
-      "time": "10h",
+      "time": "11h",
       "url": "https://www.youtube.com/watch?v=RhGZqNjmPJs"
     },
     {
@@ -1073,7 +1445,7 @@
       "content_type": "news",
       "title": "Lenovo añade más casos de uso a su biblioteca de inteligencia artificial",
       "summary": "Se trata de Lenovo AI Computer Vision for Retail y for Manufacturing, Lenovo Enterprise AI Claw for Personal Productivity y for ITOps y Lenovo Super Agent for",
-      "time": "13h",
+      "time": "14h",
       "url": "https://www.silicon.es/lenovo-anade-mas-casos-de-uso-a-su-biblioteca-de-inteligencia-artificial-2585411"
     },
     {
@@ -1194,7 +1566,7 @@
       "content_type": "news",
       "title": "Sopra Steria y FIDAMC impulsarán la inteligencia artificial física en Europa",
       "summary": "Trabajarán en robots industriales entrenados en simulación, capaces de percibir el entorno y que se adaptan a los cambios.",
-      "time": "17h",
+      "time": "18h",
       "url": "https://www.silicon.es/sopra-steria-y-fidamc-impulsaran-la-inteligencia-artificial-fisica-en-europa-2585450"
     },
     {
@@ -1293,7 +1665,7 @@
       "content_type": "news",
       "title": "Crea modelos especializados multimodales con LFM3",
       "summary": "",
-      "time": "9h",
+      "time": "10h",
       "url": "https://huggingface.co/blog/LiquidAI/lfm3"
     },
     {
@@ -1447,7 +1819,7 @@
       "content_type": "news",
       "title": "La Ventana Inteligente de Firefox añade el llenado automático de formularios mediante IA y el monitoreo de páginas web.",
       "summary": "Mozilla está actualizando Smart Window - la experiencia de navegación impulsada por IA de Firefox - con una nueva funcionalidad que puede ayudarte a completar",
-      "time": "10h",
+      "time": "11h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms"
     },
     {
