@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-28",
+  "date_label": "28 de octubre de 2026",
+  "greeting": "Buenos días, Effry",
+  "briefing": {
+    "duration_label": "—",
+    "script_text": ""
+  },
+  "stats": {
+    "new_articles": 0,
+    "sources": 44,
+    "updated_label": "00:05"
+  },
+  "iaday": {
+    "reading_minutes": "1 min",
+    "audio_duration": "—",
+    "key_count": 0,
+    "papers_count": 0,
+    "repos_count": 0,
+    "videos_count": 0,
+    "impact": "Bajo"
+  },
+  "thirty_seconds": [],
+  "articles": []
+}
