@@ -1,29 +1,29 @@
 {
-  "date": "2026-10-31",
-  "date_label": "31 de octubre de 2026",
+  "date": "2026-11-01",
+  "date_label": "1 de noviembre de 2026",
   "greeting": "Buenos días, Effry",
   "briefing": {
-    "duration_label": "2:29",
-    "script_text": "En el resumen de hoy destacan avances significativos en agentes de IA, tensiones financieras en el sector y un debate candente sobre el futuro del trabajo.\n\nComenzamos con el frente técnico. Vercel Labs acaba de abrir el código de agent-desktop, una herramienta diseñada para que los agentes de IA interactúen con computadoras de manera independiente del modelo. En la misma línea, Microsoft ha lanzado TokenEconomizer, un plugin que reduce los costos operativos de agentes de codificación hasta un 30.9 por ciento, una mejora crucial para la viabilidad económica de estos sistemas. Además, se ha presentado Factory Droid 1.0, un harness de agentes de código que funciona independientemente de la arquitectura subyacente. Y MarkTechPost ha publicado un análisis comparativo de agentes de seguridad en IA, evaluando soluciones de Claude, Codex, Mantis y Cloudflare.\n\nEn el plano corporativo, tenemos noticias que generan inquietud. Según reportes de Xataka IA, Blackstone ha advertido a Anthropic que podría enfrentar serios desafíos si sale a bolsa sin una calificación financiera sólida. Este aviso supone un golpe real para los planes de expansión de la empresa. Paralelamente, Samsung reporta que sus precios de memoria están en máximos históricos, con la paradoja de que la propia Samsung es uno de sus clientes más afectados por esta situación.\n\nEl debate sobre empleo y automatización se intensifica. Bill Gates, cofundador de Microsoft, ha hecho una declaración polémica: \"Consiste en contratar al robot, despedir al humano y no mirar atrás\". Estas palabras reflejan la realidad incómoda que muchos en la industria evitan mencionar públicamente.\n\nEn cuanto a infraestructura y modelos, Sam Altman sostiene que el futuro pasa por centralizar la RAM en centros de datos en lugar de distribuirla en dispositivos personales, una visión que apunta hacia una arquitectura computacional radicalmente diferente. Google, por su parte, ha logrado transmitir la primera respuesta desde su nuevo servidor de IA por satélite hacia la Tierra, abriendo posibilidades para la IA distribuida globalmente. Apple Intelligence finalmente llegará a China con iOS 27.3, marcando un hito en la adopción de IA en mercados regulados.\n\nFinalmente, los principales actores de la industria, incluyendo Anthropic, Google y otros, están respaldando un nuevo mecanismo para optar por no participar en el raspado de datos, una respuesta coordinada a las preocupaciones sobre privacidad.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
+    "duration_label": "2:27",
+    "script_text": "En el resumen de hoy nos enfrentamos a tres tendencias claras que están redefiniendo el panorama de la inteligencia artificial.\n\nComenzamos con un cambio fundamental en cómo interactuamos con la tecnología. Xataka IA reporta un caso que ejemplifica perfectamente esta transformación: una tarea administrativa que antes requería días de trámites burocráticos —dar de baja una moto— se resolvió en menos de diez minutos gracias a una IA llamada Instinct. Esto no es anecdótico. Detrás de esto hay una realidad más profunda: las aplicaciones tradicionales solo podían hacer lo que sus creadores programaron explícitamente. Eso se acabó. La IA está dinamitando esa limitación, permitiendo que las apps evolucionen y resuelvan problemas para los que nunca fueron diseñadas específicamente. Estamos ante un cambio de paradigma en la relación entre usuarios y software.\n\nEn el frente técnico, DeepSeek ha open-sourceado dsh-superagent, un agente router-worker especializado en coding. Simultáneamente, AI lanza Drex Max v1, un modelo de decisión de 27 mil millones de parámetros que funciona localmente en Apple Silicon. Ambas noticias confirman la tendencia: herramientas de IA cada vez más sofisticadas se democratizan y descentralizan, permitiendo que desarrolladores trabajen sin depender exclusivamente de proveedores centralizados.\n\nPero donde las cosas se ponen realmente tensas es en el mercado de talento y dinero. Anthropic promete a sus inversores un negocio valorado en 40 billones de dólares —una cifra que pone en perspectiva lo que cobran actualmente los profesionales que desarrollan lo que estas IAs harán automáticamente en el futuro. Esa presión económica explica por qué China está lanzando ofertas agresivas: sueldos de un millón de yuanes para ingenieros de IA, exactamente los mismos perfiles que buscan desesperadamente Anthropic y OpenAI. Estamos presenciando una carrera de talentos sin precedentes donde las potencias tecnológicas mundiales compiten para quedarse con los mejores cerebros en IA.\n\nTres mensajes confluyen: primero, la IA está infiltrándose en procesos cotidianos de formas cada vez más transparentes y útiles. Segundo, la tecnología se descentraliza y democratiza con herramientas open-source cada vez más poderosas. Y tercero, el mercado de talento en IA está en plena ebullición, con compensaciones que reflejan una competencia global sin tregua.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 9,
+    "new_articles": 18,
     "sources": 44,
-    "updated_label": "10:47"
+    "updated_label": "13:44"
   },
   "iaday": {
-    "reading_minutes": "5 min",
-    "audio_duration": "2:29",
+    "reading_minutes": "11 min",
+    "audio_duration": "2:27",
     "key_count": 3,
     "papers_count": 0,
-    "repos_count": 4,
-    "videos_count": 0,
-    "impact": "Medio"
+    "repos_count": 8,
+    "videos_count": 3,
+    "impact": "Alto"
   },
   "thirty_seconds": [
-    "Sunbyte16/Labornorio_de_Ingeniería_de_Prompt_Estilo_Solar",
-    "Taruntejareddyklv/janaseva-citizen-service-agent",
-    "A220man/beacon-observatorio-144"
+    "Ouahbiwalid32-droid/SmartMonument",
+    "TanmayKhomane13/Staxio--Odoo-Make-a-ton-9.0-Round-1-Virtual-Hackathon",
+    "Ashh-droid/AksharaCheck"
   ],
   "articles": [
     {
@@ -32,10 +32,10 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "repo",
-      "title": "Sunbyte16/Labornorio_de_Ingeniería_de_Prompt_Estilo_Solar",
-      "summary": "⭐ 0 estrellas — 🧠 Laboratorio de Ingeniería de Prompts Avanzados e Interacción con Sistemas de Inteligencia de Lenguaje en Timepo — Experimentos prácticos en",
-      "time": "10h",
-      "url": "https://github.com/sunbyte16/Prompt_Engineering_Lab",
+      "title": "Ouahbiwalid32-droid/SmartMonument",
+      "summary": "⭐ 0 estrellas — Aplicación IA para la reconocimiento de monumentos históricos marroquíes mediante CNN (MobileNetV2) y chatbot LLM (Llama 3).",
+      "time": "3h",
+      "url": "https://github.com/ouahbiwalid32-droid/SmartMonument",
       "stars": "0"
     },
     {
@@ -44,10 +44,10 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "repo",
-      "title": "Taruntejareddyklv/janaseva-citizen-service-agent",
-      "summary": "⭐ 0 estrellas — Agente autónomo de servicio ciudadano basado en IA para orientación en servicios gubernamentales.",
-      "time": "20h",
-      "url": "https://github.com/taruntejareddyklv/janaseva-citizen-service-agent",
+      "title": "TanmayKhomane13/Staxio--Odoo-Make-a-ton-9.0-Round-1-Virtual-Hackathon",
+      "summary": "⭐ 0 estrellas — Staxio es una plataforma de gestión de suscripciones para Brightloop Software, construida para administrar productos, planes, clientes,",
+      "time": "36h",
+      "url": "https://github.com/TanmayKhomane13/Staxio--Odoo-Make-a-ton-9.0-Round-1-Virtual-Hackathon",
       "stars": "0"
     },
     {
@@ -56,11 +56,11 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "A220man/beacon-observatorio-144",
-      "summary": "⭐ 2 estrellas — Ryan Vo | En progreso: beacon-observatory-144",
-      "time": "60h",
-      "url": "https://github.com/A220man/beacon-observatory-144",
-      "stars": "2"
+      "title": "Ashh-droid/AksharaCheck",
+      "summary": "⭐ 3 estrellas — AksharaCheck detecta problemas de renderizado de texto en idiomas hindi y kannada utilizando explicaciones AI multilingües BharatCode,",
+      "time": "77h",
+      "url": "https://github.com/ashh-droid/AksharaCheck",
+      "stars": "3"
     },
     {
       "source": "GitHub Trending — IA",
@@ -68,33 +68,92 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "repo",
-      "title": "A220man/vector-hub-144",
-      "summary": "⭐ 2 estrellas — Ryan Vo | Trabajo en progreso: vector-hub-144",
-      "time": "110h",
-      "url": "https://github.com/A220man/vector-hub-144",
+      "title": "A220man/tensor-engine-144-ryan-vo",
+      "summary": "⭐ 2 estrellas — Ryan Vo | En progreso: tensor-engine-144-ryan-vo",
+      "time": "155h",
+      "url": "https://github.com/A220man/tensor-engine-144-ryan-vo",
       "stars": "2"
     },
     {
-      "source": "MarkTechPost",
-      "source_type": "rss",
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
       "lang": "en",
-      "cat": "Modelos",
-      "content_type": "news",
-      "title": "Conozca Factory Droid 1.0: Un Agente de Codificación Neutro Basado en Modo Script",
-      "summary": "<p>Se lanzó el Droid 1.0 fabricado por la fábrica, un adaptador de agente de codificación independiente del modelo que hace que la llamada de herramientas",
-      "time": "3h",
-      "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/"
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Awahib480/optimizador-de-imágenes",
+      "summary": "⭐ 0 estrellas — Modelos de inteligencia artificial generativa entrenados para mejorar la resolución de imágenes (SRGAN) y desenfocar imágenes",
+      "time": "24h",
+      "url": "https://github.com/awahib480/image-enhancer",
+      "stars": "0"
     },
     {
-      "source": "MarkTechPost",
-      "source_type": "rss",
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
       "lang": "en",
-      "cat": "Modelos",
-      "content_type": "news",
-      "title": "Vercel Labs libera agent-desktop para el uso en computadoras agente",
-      "summary": "<p>Vercel Labs lanzó agent-desktop, una interfaz de línea de comandos de Rust bajo la licencia Apache-2.0 que permite a cualquier agente de inteligencia",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "La Academia de Maestría del AIM/curso",
+      "summary": "⭐ 0 estrellas — Curso gratuito: Inteligencia artificial, ciencia de datos y big data desde cero, con Microsoft Azure. Lecciones, cuestionarios, tareas y",
+      "time": "51h",
+      "url": "https://github.com/TheAIMasteryAcademy/course",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Husnain-official/Cs-labs",
+      "summary": "⭐ 0 estrellas — Colección de todo el trabajo de laboratorio, tareas y preparación para exámenes de mi grado en Ciencias de la Computación. Actualmente incluye",
+      "time": "7h",
+      "url": "https://github.com/husnain-official/Cs-labs",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Anupbagale/python-for-ai-ml",
+      "summary": "⭐ 0 estrellas — Curso práctico de Python para ingenieros de IA/ML: lecciones, ejercicios auto-corregidos, soluciones y proyectos mini. Se ejecuta en Google",
+      "time": "11h",
+      "url": "https://github.com/anupbagale/python-for-ai-ml",
+      "stars": "0"
+    },
+    {
+      "source": "Migue Baena IA",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Así puedes detectar código malicioso en Claude Code ⚠️",
+      "summary": "¿Instalas habilidades en Claude Code sin comprobar si son seguras? 🤔 Las herramientas de terceros pueden incluir instrucciones maliciosas o vulnerabilidades",
+      "time": "25h",
+      "url": "https://www.youtube.com/shorts/AHB2HKy3OQE"
+    },
+    {
+      "source": "Migue Baena IA",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Cierra tu ordenador y deja que Claude Code programe por ti 💻🤖",
+      "summary": "¿Y si pudieras cerrar tu portátil y dejar que la IA siga trabajando en tu proyecto? 🤯 Con Claude Code en la nube, puedes conectar un repositorio de GitHub y",
       "time": "3h",
-      "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/"
+      "url": "https://www.youtube.com/shorts/ABV5tUFCcVY"
+    },
+    {
+      "source": "Gentleman Programming",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Brain fry: el cansancio mental de supervisar IA",
+      "summary": "Investigadores de BCG y de la Universidad de California encuestaron a casi 1.500 trabajadores y le pusieron nombre: brain fry. El 14% dijo haberlo sentido, los",
+      "time": "23h",
+      "url": "https://www.youtube.com/shorts/yAbaPArcVvk"
     },
     {
       "source": "Xataka IA",
@@ -102,10 +161,65 @@
       "lang": "es",
       "cat": "Modelos",
       "content_type": "news",
-      "title": "Bill Gates, fundador de Microsoft: \"Consiste en contratar al robot, despedir al humano y no mirar atrás\"",
+      "title": "Llevo años queriendo dar de baja mi moto. Instinct me lo ha solucionado en menos de diez minutos",
+      "summary": "<p> <img",
+      "time": "5h",
+      "url": "https://www.xataka.com/robotica-e-ia/llevo-anos-queriendo-dar-baja-mi-moto-instinct-me-ha-solucionado-diez-minutos"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "DeepSeek abre fuente dsh-superagent, un agente de codificación router-trabajador",
+      "summary": "<p>DeepSeek lanzó dsh-superagent, un prototipo de investigación con licencia MIT que convierte solicitudes de GitHub y Feishu en sesiones de trabajadores en",
+      "time": "8h",
+      "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/"
+    },
+    {
+      "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Hasta ahora, las apps de siempre solo podían hacer lo que sus creadores querían. La IA está dinamitando eso",
+      "summary": "<p> <img",
+      "time": "3h",
+      "url": "https://www.xataka.com/robotica-e-ia/ahora-apps-siempre-solo-podian-hacer-que-sus-creadores-querian-ia-esta-dinamitando-eso"
+    },
+    {
+      "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "El negocio que Anthropic promete a sus inversores vale 40 billones. Es lo que cobramos quienes hacemos lo que quiere hacer su IA",
+      "summary": "<p> <img",
+      "time": "6h",
+      "url": "https://www.xataka.com/robotica-e-ia/negocio-que-anthropic-promete-a-sus-inversores-vale-40-billones-que-cobramos-quienes-hacemos-que-quiere-hacer-su-ia"
+    },
+    {
+      "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Investigación",
+      "content_type": "news",
+      "title": "China ofrece sueldos de un millón de yuanes por el ingeniero de IA que también buscan Anthropic y OpenAI",
       "summary": "<p> <img",
       "time": "2h",
-      "url": "https://www.xataka.com/robotica-e-ia/bill-gates-fundador-microsoft-consiste-contratar-al-robot-despedir-al-humano-no-mirar-atras"
+      "url": "https://www.xataka.com/empresas-y-economia/china-ofrece-sueldos-millon-yuanes-ingeniero-ia-que-tambien-buscan-anthropic-openai"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Nace AI Open-Source Drex Max v1: Un modelo de decisión de 27B que se ejecuta localmente en Apple Silicon",
+      "summary": "Nace AI ha liberado de código abierto Drex Max v1, un modelo multimodal de decisión con 27B de parámetros que alcanza una puntuación de 67,52 y que se ejecuta",
+      "time": "8h",
+      "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/"
     },
     {
       "source": "The Verge — AI",
@@ -113,21 +227,10 @@
       "lang": "en",
       "cat": "Herramientas",
       "content_type": "news",
-      "title": "La inteligencia de Apple finalmente estará disponible en China con iOS 27.3",
-      "summary": "Apple lanzará Apple Intelligence en China con iOS 27.3, según anunció en su sitio de noticias chino, informa MacRumors. Las funciones de Apple Intelligence",
-      "time": "15h",
-      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
-    },
-    {
-      "source": "OpenAI Blog",
-      "source_type": "rss",
-      "lang": "en",
-      "cat": "Herramientas",
-      "content_type": "news",
-      "title": "El uso justo beneficia a todos",
-      "summary": "OpenAI comparte extractos de memorias de tribunal de creadores, académicos, defensores de la accesibilidad y expertos legales, entre otros, sobre cómo el uso",
-      "time": "37h",
-      "url": "https://openai.com/index/fair-use-benefits-everyone"
+      "title": "Construí un AI Tamagotchi antes de que Meta lo hiciera.",
+      "summary": "Mark Zuckerberg's Meta hizo que el AI pareciera tan encantador al darle un rostro suave - y esta temporada festiva, quiere venderle a Muse Charm para que lo",
+      "time": "24h",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code"
     }
   ]
 }
