@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-06",
+    "date_label": "6 de noviembre de 2026",
+    "new_articles": 116,
+    "duration_label": "2:24"
+  },
+  {
+    "date": "2026-11-05",
+    "date_label": "5 de noviembre de 2026",
+    "new_articles": 150,
+    "duration_label": "2:32"
+  },
+  {
+    "date": "2026-11-04",
+    "date_label": "4 de noviembre de 2026",
+    "new_articles": 124,
+    "duration_label": "2:32"
+  },
+  {
     "date": "2026-11-03",
     "date_label": "3 de noviembre de 2026",
     "new_articles": 106,
