@@ -9,7 +9,7 @@
   "stats": {
     "new_articles": 150,
     "sources": 44,
-    "updated_label": "12:53"
+    "updated_label": "13:42"
   },
   "iaday": {
     "reading_minutes": "90 min",
@@ -34,7 +34,7 @@
       "content_type": "repo",
       "title": "Rodos4312/Meu-Agent",
       "summary": "⭐ 0 estrellas — Privacy-focused AI agent for Windows with persistent memory, multi-agent coordination, skills, MCP integrations and local or cloud LLMs.",
-      "time": "28h",
+      "time": "29h",
       "url": "https://github.com/rodos4312/Meu-Agent",
       "stars": "0"
     },
@@ -58,7 +58,7 @@
       "content_type": "repo",
       "title": "DeepakSingh98/qwenlab",
       "summary": "⭐ 7 estrellas — Six small transformers compiled into Qwen3.5-9B, trained in its own forward passes. Qwen runs the experiments.",
-      "time": "45h",
+      "time": "46h",
       "url": "https://github.com/DeepakSingh98/qwenlab",
       "stars": "7"
     },
@@ -70,7 +70,7 @@
       "content_type": "repo",
       "title": "Big-data-team/ai-course",
       "summary": "⭐ 2 estrellas — AI Agents Engineer Specialization / Practical AI Course",
-      "time": "50h",
+      "time": "51h",
       "url": "https://github.com/big-data-team/ai-course",
       "stars": "2"
     },
@@ -82,7 +82,7 @@
       "content_type": "paper",
       "title": "TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens",
       "summary": "LLM-based agentic systems are increasingly combined with CoT reasoning to solve tasks that require accurate reasoning, external knowledge, and multi-step",
-      "time": "126h",
+      "time": "127h",
       "url": "https://huggingface.co/papers/2611.01926"
     },
     {
@@ -93,7 +93,7 @@
       "content_type": "repo",
       "title": "AyyoubAmazal/AI-Career-Twin",
       "summary": "⭐ 0 estrellas — 🎯 CareerTwin AI is an AI-powered career assistant that uses RAG, FAISS, and LLMs to analyze professional profiles, find similar career paths,",
-      "time": "22h",
+      "time": "23h",
       "url": "https://github.com/AyyoubAmazal/AI-Career-Twin",
       "stars": "0"
     },
@@ -105,7 +105,7 @@
       "content_type": "repo",
       "title": "R-behera/hybrid-semantic-search-20261105",
       "summary": "⭐ 0 estrellas — A local-first semantic search service combining lexical retrieval, weighted concepts, filters, and offline evaluation.",
-      "time": "18h",
+      "time": "19h",
       "url": "https://github.com/R-behera/hybrid-semantic-search-20261105",
       "stars": "0"
     },
@@ -153,7 +153,7 @@
       "content_type": "repo",
       "title": "BrightRaider/universal-gpu-unlock",
       "summary": "⭐ 5 estrellas — Universal one-click UEFI pre-boot rate-limiter unlock for NVIDIA GeForce RTX 40 & 30 Series (Ada Lovelace & Ampere). Uncaps full tensor",
-      "time": "183h",
+      "time": "184h",
       "url": "https://github.com/BrightRaider/universal-gpu-unlock",
       "stars": "5"
     },
@@ -165,7 +165,7 @@
       "content_type": "repo",
       "title": "Coretech001/Aurum-AI",
       "summary": "⭐ 3 estrellas — AI-powered desktop platform for gold market analysis, algorithmic trading, and local model experimentation with MetaTrader 5 integration.",
-      "time": "168h",
+      "time": "169h",
       "url": "https://github.com/Coretech001/Aurum-AI",
       "stars": "3"
     },
@@ -177,7 +177,7 @@
       "content_type": "repo",
       "title": "Olidesarrollador-png/Quack-Efficient",
       "summary": "⭐ 2 estrellas — Aplicación local para Ollama: lista modelos instalados, chatea y ajusta contexto. El ahorro de RAM depende del modelo y equipo.",
-      "time": "120h",
+      "time": "121h",
       "url": "https://github.com/olidesarrollador-png/Quack-Efficient",
       "stars": "2"
     },
@@ -189,7 +189,7 @@
       "content_type": "repo",
       "title": "A220man/tensor-studio-144",
       "summary": "⭐ 2 estrellas — Ryan Vo | Work in progress: tensor-studio-144",
-      "time": "56h",
+      "time": "57h",
       "url": "https://github.com/A220man/tensor-studio-144",
       "stars": "2"
     },
@@ -201,7 +201,7 @@
       "content_type": "repo",
       "title": "A220man/axiom-pilot-144",
       "summary": "⭐ 2 estrellas — Ryan Vo | Work in progress: axiom-pilot-144",
-      "time": "51h",
+      "time": "52h",
       "url": "https://github.com/A220man/axiom-pilot-144",
       "stars": "2"
     },
@@ -224,7 +224,7 @@
       "content_type": "paper",
       "title": "On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation",
       "summary": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) to consolidate capabilities from multiple teachers. Although prior work",
-      "time": "92h",
+      "time": "93h",
       "url": "https://huggingface.co/papers/2611.05609"
     },
     {
@@ -259,7 +259,7 @@
       "content_type": "repo",
       "title": "Datalyceum/course",
       "summary": "⭐ 0 estrellas — Free course: AI, data science and big data from zero, with Microsoft Azure. Lessons, quizzes, homework and notebooks.",
-      "time": "170h",
+      "time": "171h",
       "url": "https://github.com/Datalyceum/course",
       "stars": "0"
     },
@@ -271,7 +271,7 @@
       "content_type": "repo",
       "title": "Ravneet1002/FGSM-Adversarial_Robustness",
       "summary": "⭐ 0 estrellas — Auditing Neural Network Robustness using FGSM Adversarial Attacks",
-      "time": "50h",
+      "time": "51h",
       "url": "https://github.com/Ravneet1002/FGSM-Adversarial_Robustness",
       "stars": "0"
     },
@@ -307,7 +307,7 @@
       "content_type": "repo",
       "title": "Endouv/loreloom",
       "summary": "⭐ 1 estrellas — Loreloom is an AI-powered creative writing workspace designed to help you build stories, manage characters, create fictional worlds, and",
-      "time": "21h",
+      "time": "22h",
       "url": "https://github.com/Endouv/loreloom",
       "stars": "1"
     },
@@ -319,7 +319,7 @@
       "content_type": "repo",
       "title": "ShashwatXP/V.O.I.D.A.I.",
       "summary": "⭐ 1 estrellas — V.O.I.D is a autonomous AI serve as personal AI helper/manager for Android as well as Windows. It works for both internal as well as external",
-      "time": "20h",
+      "time": "21h",
       "url": "https://github.com/ShashwatXP/V.O.I.D.A.I.",
       "stars": "1"
     },
@@ -331,7 +331,7 @@
       "content_type": "repo",
       "title": "Sharabarinillia/SEO-GEO-Vercel-Playbook-Skill",
       "summary": "⭐ 1 estrellas — Equip your AI coding assistant with 10 open-format skills covering SEO, GEO, performance, and Vercel management. Includes 9 lightweight Node.js",
-      "time": "17h",
+      "time": "18h",
       "url": "https://github.com/sharabarinillia/SEO-GEO-Vercel-Playbook-Skill",
       "stars": "1"
     },
@@ -343,7 +343,7 @@
       "content_type": "repo",
       "title": "Alekhya912/AI-Resume-Reviewer",
       "summary": "⭐ 0 estrellas — AI-powered web application that analyzes resumes against job descriptions, identifies skill gaps, calculates compatibility scores, and provides",
-      "time": "26h",
+      "time": "27h",
       "url": "https://github.com/alekhya912/AI-Resume-Reviewer",
       "stars": "0"
     },
@@ -355,7 +355,7 @@
       "content_type": "repo",
       "title": "Dedeus-lucas/dio-projects",
       "summary": "⭐ 0 estrellas — Engineering monorepo centralizing hands-on laboratories, architecture implementations, and technical challenges across Cybersecurity, AI, Cloud",
-      "time": "21h",
+      "time": "22h",
       "url": "https://github.com/dedeus-lucas/dio-projects",
       "stars": "0"
     },
@@ -379,7 +379,7 @@
       "content_type": "repo",
       "title": "Ribeiroarley/Challenge-TaranisBlack",
       "summary": "⭐ 0 estrellas — Projeto consultivo de Inteligência Artificial aplicada à estratégia, finanças, controladoria e operações corporativas da Taranis Black,",
-      "time": "18h",
+      "time": "19h",
       "url": "https://github.com/ribeiroarley/Challenge-TaranisBlack",
       "stars": "0"
     },
@@ -403,7 +403,7 @@
       "content_type": "repo",
       "title": "Mannanloomba/PayGuard",
       "summary": "⭐ 0 estrellas — AI-powered payment safety assistant that detects suspicious activity, analyzes UPI QR codes, extracts bill details, and provides smart spending",
-      "time": "25h",
+      "time": "26h",
       "url": "https://github.com/mannanloomba/PayGuard",
       "stars": "0"
     },
@@ -415,7 +415,7 @@
       "content_type": "paper",
       "title": "MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation",
       "summary": "Self-distillation methods for large language models with an exponential moving average (EMA) teacher already retain a history of student updates. Muon",
-      "time": "187h",
+      "time": "188h",
       "url": "https://huggingface.co/papers/2610.41104"
     },
     {
@@ -426,7 +426,7 @@
       "content_type": "paper",
       "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
       "summary": "While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints.",
-      "time": "55h",
+      "time": "56h",
       "url": "https://huggingface.co/papers/2611.06483"
     },
     {
@@ -437,7 +437,7 @@
       "content_type": "paper",
       "title": "Reasoning over Non-Parametric Memory in Multilingual LLMs: A Cognitive-Based Analysis of Relational Knowledge",
       "summary": "Retrieval-augmented generation (RAG) assumes that language models can reason over relations stated in their context rather than fall back on associations",
-      "time": "47h",
+      "time": "48h",
       "url": "https://arxiv.org/abs/2611.06715v1",
       "arxiv": "2611.06715v1"
     },
@@ -449,7 +449,7 @@
       "content_type": "paper",
       "title": "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
       "summary": "Computer-use agents increasingly tackle tasks ranging from everyday desktop activities to long-horizon professional workflows. Yet interfaces centered on",
-      "time": "179h",
+      "time": "180h",
       "url": "https://huggingface.co/papers/2610.41432"
     },
     {
@@ -460,7 +460,7 @@
       "content_type": "paper",
       "title": "Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting",
       "summary": "Probabilistic time-series forecasting requires models that simultaneously capture structured temporal dynamics, expressive uncertainty, and efficient",
-      "time": "80h",
+      "time": "81h",
       "url": "https://huggingface.co/papers/2611.04760"
     },
     {
@@ -471,7 +471,7 @@
       "content_type": "paper",
       "title": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
       "summary": "Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop",
-      "time": "74h",
+      "time": "75h",
       "url": "https://huggingface.co/papers/2611.05304"
     },
     {
@@ -482,7 +482,7 @@
       "content_type": "paper",
       "title": "ServerBench: How can your coding agents design specialized LLM serving systems?",
       "summary": "Large language model (LLM) coding agents develop software through experimentation, offering an opportunity to design the serving systems supporting their own",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06841v1",
       "arxiv": "2611.06841v1"
     },
@@ -494,7 +494,7 @@
       "content_type": "paper",
       "title": "Task-Efficient Agent Evaluation Using Cached Traces",
       "summary": "Efficient benchmarking estimates a system's full benchmark performance from a small number of task executions. Standard approaches rely solely on the binary",
-      "time": "46h",
+      "time": "47h",
       "url": "https://arxiv.org/abs/2611.06803v1",
       "arxiv": "2611.06803v1"
     },
@@ -517,7 +517,7 @@
       "content_type": "paper",
       "title": "VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing",
       "summary": "Video dubbing aims to synthesize lip movements that match target speech while preserving the speaker identity, head pose, and background of a source video.",
-      "time": "116h",
+      "time": "117h",
       "url": "https://huggingface.co/papers/2611.03404"
     },
     {
@@ -528,7 +528,7 @@
       "content_type": "paper",
       "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
       "summary": "Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video",
-      "time": "68h",
+      "time": "69h",
       "url": "https://huggingface.co/papers/2611.06518"
     },
     {
@@ -539,7 +539,7 @@
       "content_type": "paper",
       "title": "SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification",
       "summary": "LLM agents use context compaction to manage growing interaction histories, but summarizing long histories with large models can introduce substantial delays.",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06876v1",
       "arxiv": "2611.06876v1"
     },
@@ -551,7 +551,7 @@
       "content_type": "paper",
       "title": "LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds",
       "summary": "Streaming video-to-audio (V2A) generation is essential for immersive interactive applications. However, real-time constraints leave existing streaming V2A",
-      "time": "63h",
+      "time": "64h",
       "url": "https://huggingface.co/papers/2611.05988"
     },
     {
@@ -562,7 +562,7 @@
       "content_type": "paper",
       "title": "GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats",
       "summary": "Can a neural network learn to render 3D Gaussian splats on its own, with no rasterizer in the renderer? We present GaussianRenderFormer, a transformer that",
-      "time": "72h",
+      "time": "73h",
       "url": "https://huggingface.co/papers/2611.05593"
     },
     {
@@ -573,7 +573,7 @@
       "content_type": "paper",
       "title": "NitroFusion2: Bringing Adversarial Loss to the Text Stream of Multimodal Diffusion Transformers",
       "summary": "Adversarial diffusion distillation has conventionally relied on image features for discrimination. We revisit this choice for multimodal diffusion transformers",
-      "time": "71h",
+      "time": "72h",
       "url": "https://huggingface.co/papers/2611.05648"
     },
     {
@@ -584,7 +584,7 @@
       "content_type": "paper",
       "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
       "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization",
-      "time": "68h",
+      "time": "69h",
       "url": "https://huggingface.co/papers/2611.06728"
     },
     {
@@ -595,7 +595,7 @@
       "content_type": "paper",
       "title": "On Turn-Level Best-of-N Sampling for Scaling LLM Agents",
       "summary": "In this work, we evaluate a simple inference-time scaling approach based on \\textit{turn-level best-of-N sampling} (\\method) for large language model (LLM)",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06868v1",
       "arxiv": "2611.06868v1"
     },
@@ -619,7 +619,7 @@
       "content_type": "paper",
       "title": "Rules, Traces and Routing Statistics: Training and Calibration Data for Open Models on ARC-AGI-2",
       "summary": "We study which training and calibration data help three open models solve ARC-AGI-2 tasks when the solver runs offline on four L4 GPUs for at most 12 hours. We",
-      "time": "46h",
+      "time": "47h",
       "url": "https://arxiv.org/abs/2611.06827v1",
       "arxiv": "2611.06827v1"
     },
@@ -631,7 +631,7 @@
       "content_type": "paper",
       "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
       "summary": "Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape",
-      "time": "44h",
+      "time": "45h",
       "url": "https://arxiv.org/abs/2611.06914v1",
       "arxiv": "2611.06914v1"
     },
@@ -643,7 +643,7 @@
       "content_type": "paper",
       "title": "Balancing hierarchical representation and quantization: A performance trade-off in text embeddings",
       "summary": "Hierarchical text embedding models offer variable-length representations, while quantization reduces numerical precision; both aim to improve computational",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06859v1",
       "arxiv": "2611.06859v1"
     },
@@ -655,7 +655,7 @@
       "content_type": "paper",
       "title": "SAUCE: Summary Analysis Using Conversation Entailment",
       "summary": "With the growing need for evaluating Large Language Models (LLMs) and their applications to speech, challenges persist in summarizing and evaluating",
-      "time": "46h",
+      "time": "47h",
       "url": "https://arxiv.org/abs/2611.06812v1",
       "arxiv": "2611.06812v1"
     },
@@ -667,7 +667,7 @@
       "content_type": "paper",
       "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
       "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated",
-      "time": "44h",
+      "time": "45h",
       "url": "https://arxiv.org/abs/2611.06910v1",
       "arxiv": "2611.06910v1"
     },
@@ -679,7 +679,7 @@
       "content_type": "paper",
       "title": "CounterFactual Retrieval for Evidence-Aware Individual Animal Identification",
       "summary": "Automated identification of individual animals is moving from small curated studies toward shared benchmarks and reusable foundation models. This progress is",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06864v1",
       "arxiv": "2611.06864v1"
     },
@@ -691,7 +691,7 @@
       "content_type": "paper",
       "title": "CompressionBench: How can your coding agents compress LLMs?",
       "summary": "Recursive self-improvement requires AI systems to improve the models and infrastructure used by subsequent systems. LLM compression offers a concrete",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06858v1",
       "arxiv": "2611.06858v1"
     },
@@ -703,7 +703,7 @@
       "content_type": "paper",
       "title": "Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token",
       "summary": "Under stochastic decoding, a single context can elicit many different answers from a language model. Characterizing this variation typically requires many",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06837v1",
       "arxiv": "2611.06837v1"
     },
@@ -715,7 +715,7 @@
       "content_type": "paper",
       "title": "Message-passing graph persistence",
       "summary": "Message-passing graph neural networks (GNNs) are limited in expressive power by the one-dimensional Weisfeiler-Leman test. Persistent homology (PH) provides",
-      "time": "46h",
+      "time": "47h",
       "url": "https://arxiv.org/abs/2611.06801v1",
       "arxiv": "2611.06801v1"
     },
@@ -727,7 +727,7 @@
       "content_type": "paper",
       "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
       "summary": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06856v1",
       "arxiv": "2611.06856v1"
     },
@@ -739,7 +739,7 @@
       "content_type": "paper",
       "title": "Before You Continue: Evaluating Time-Sensitive Safety Awareness in Conversational Assistants",
       "summary": "Large language model (LLM) assistants increasingly help users with everyday activities that involve time-dependent constraints. However, users may not mention",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06839v1",
       "arxiv": "2611.06839v1"
     },
@@ -751,7 +751,7 @@
       "content_type": "paper",
       "title": "Measuring Risk, Not Harm: Detecting Psychological Harm Risk Factors in LLM Conversations",
       "summary": "Psychological harms from interactions with large language models cannot be monitored directly because they may emerge over repeated interactions and depend",
-      "time": "46h",
+      "time": "47h",
       "url": "https://arxiv.org/abs/2611.06806v1",
       "arxiv": "2611.06806v1"
     },
@@ -763,7 +763,7 @@
       "content_type": "paper",
       "title": "Visual Token Routing: Learning to keep tokens that matter",
       "summary": "Computer-use agents (CUAs) have recently achieved superhuman performance on several long-horizon benchmarks. However, their computational cost limits their use",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06854v1",
       "arxiv": "2611.06854v1"
     },
@@ -775,7 +775,7 @@
       "content_type": "paper",
       "title": "Where to Connect? Boosting MLLMs via Dynamic Gated Pathways across ALL ViT and LLM Layers",
       "summary": "A central yet under-explored question in Multimodal Large Language Models (MLLMs) is where to connect---how visual information from a hierarchical vision",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06844v1",
       "arxiv": "2611.06844v1"
     },
@@ -787,7 +787,7 @@
       "content_type": "paper",
       "title": "Persona Perspectives: Adopting Viewpoints Reorganizes Representations in LLMs",
       "summary": "Common methods for monitoring features in large language models (LLMs) such as linear probes and sparse autoencoders (SAEs) assume that features maintain a",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06848v1",
       "arxiv": "2611.06848v1"
     },
@@ -799,7 +799,7 @@
       "content_type": "paper",
       "title": "LLMs Don't Know What They Know: Benchmarking Temporal Self-Knowledge for Financial Backtesting",
       "summary": "Financial backtests of large language models (LLMs) are meaningful only if the model did not already know the outcomes it is asked to predict. Practitioners",
-      "time": "46h",
+      "time": "47h",
       "url": "https://arxiv.org/abs/2611.06808v1",
       "arxiv": "2611.06808v1"
     },
@@ -811,7 +811,7 @@
       "content_type": "paper",
       "title": "Context-Aware Autoregressive Image Generation for Emerging Reasoning Properties",
       "summary": "Autoregressive image generation has recently emerged as a competitive visual generation paradigm, yet its generation order is often predefined or heuristic,",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06838v1",
       "arxiv": "2611.06838v1"
     },
@@ -823,7 +823,7 @@
       "content_type": "paper",
       "title": "Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
       "summary": "Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies",
-      "time": "46h",
+      "time": "47h",
       "url": "https://arxiv.org/abs/2611.06817v1",
       "arxiv": "2611.06817v1"
     },
@@ -835,7 +835,7 @@
       "content_type": "paper",
       "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
       "summary": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes,",
-      "time": "44h",
+      "time": "45h",
       "url": "https://arxiv.org/abs/2611.06911v1",
       "arxiv": "2611.06911v1"
     },
@@ -859,7 +859,7 @@
       "content_type": "paper",
       "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
       "summary": "Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06888v1",
       "arxiv": "2611.06888v1"
     },
@@ -871,7 +871,7 @@
       "content_type": "paper",
       "title": "Learning to Decode Linear Codes with Generalized Belief Propagation Network",
       "summary": "Error correcting codes are a fundamental component of communication systems, enabling reliable data transmission over noisy channels. Recently, neural decoders",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06874v1",
       "arxiv": "2611.06874v1"
     },
@@ -883,7 +883,7 @@
       "content_type": "paper",
       "title": "Ranking Agreement Does Not Reveal Paragraph-Edit Agreement in Two Released Paper Acceptance Predictors",
       "summary": "A fast acceptance classifier could select revisions for a slower evaluator. We ask whether agreement on existing papers supports that use. We compare a",
-      "time": "46h",
+      "time": "47h",
       "url": "https://arxiv.org/abs/2611.06789v1",
       "arxiv": "2611.06789v1"
     },
@@ -895,7 +895,7 @@
       "content_type": "paper",
       "title": "ALTO: African and Levantine Tech-Facilitated Gender-Based Violence Corpus",
       "summary": "Tech-facilitated gender based violence (TFGBV) is a pervasive online harm affecting women and gender minority groups through its many direct and covert forms.",
-      "time": "47h",
+      "time": "48h",
       "url": "https://arxiv.org/abs/2611.06706v1",
       "arxiv": "2611.06706v1"
     },
@@ -907,7 +907,7 @@
       "content_type": "paper",
       "title": "Adaptive Multi Mode: Budget-Aware Routing of Optimizers By Online Landscape Probes",
       "summary": "The best classical optimizer for a continuous black-box problem depends on its budget and landscape. Existing routers decide from the dimension and budget,",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06879v1",
       "arxiv": "2611.06879v1"
     },
@@ -919,7 +919,7 @@
       "content_type": "paper",
       "title": "Thermally Conditioned Time-Series Forecasting of Grain Growth in Polycrystalline Materials",
       "summary": "Grain growth during heat treatment strongly affects the microstructure of polycrystalline materials and, consequently, their mechanical properties. Although",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06843v1",
       "arxiv": "2611.06843v1"
     },
@@ -931,7 +931,7 @@
       "content_type": "paper",
       "title": "Same Layout, Different Count: What Number Words Do Past Ten in Text-to-Image Models",
       "summary": "Ask SD3.5-Medium for twelve of an object and then, from the same starting noise, for twenty-five. The picture keeps its layout, but the count changes about as",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06840v1",
       "arxiv": "2611.06840v1"
     },
@@ -943,7 +943,7 @@
       "content_type": "paper",
       "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
       "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only",
-      "time": "44h",
+      "time": "45h",
       "url": "https://arxiv.org/abs/2611.06918v1",
       "arxiv": "2611.06918v1"
     },
@@ -967,7 +967,7 @@
       "content_type": "paper",
       "title": "Perceptive Humanoid Motion from Simulation",
       "summary": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a",
-      "time": "44h",
+      "time": "45h",
       "url": "https://arxiv.org/abs/2611.06908v1",
       "arxiv": "2611.06908v1"
     },
@@ -991,7 +991,7 @@
       "content_type": "paper",
       "title": "Template Gap Reconstruction for Shell Output Simulation with Small Language Models",
       "summary": "Small language models offer a compact basis for shell simulation without executing submitted commands, but full-output decoding requires them to predict",
-      "time": "47h",
+      "time": "48h",
       "url": "https://arxiv.org/abs/2611.06731v1",
       "arxiv": "2611.06731v1"
     },
@@ -1003,7 +1003,7 @@
       "content_type": "paper",
       "title": "FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors",
       "summary": "Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when",
-      "time": "44h",
+      "time": "45h",
       "url": "https://arxiv.org/abs/2611.06912v1",
       "arxiv": "2611.06912v1"
     },
@@ -1027,7 +1027,7 @@
       "content_type": "paper",
       "title": "Navigating Disagreement Among Criteria for Evaluating Explanation Faithfulness",
       "summary": "Faithfulness requires that algorithmic explanations accurately reflect the model's behavior. Yet existing operationalizations of faithfulness can disagree",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06846v1",
       "arxiv": "2611.06846v1"
     },
@@ -1075,7 +1075,7 @@
       "content_type": "paper",
       "title": "PixelSpline: Continuous Space-Time Video Super-Resolution via Endpoint-Anchored Shared Pixel Trajectories",
       "summary": "Existing continuous space-time video super-resolution methods often infer motion from only two endpoint frames and model the two motion directions",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06870v1",
       "arxiv": "2611.06870v1"
     },
@@ -1087,7 +1087,7 @@
       "content_type": "paper",
       "title": "Trainspotting: Learning Object-Centric 3D Reconstruction from Found Photos",
       "summary": "State-of-the-art feedforward reconstruction models perform poorly on in-the-wild object-centric photo collections. They are trained largely on single-session",
-      "time": "45h",
+      "time": "46h",
       "url": "https://arxiv.org/abs/2611.06849v1",
       "arxiv": "2611.06849v1"
     },
@@ -1099,7 +1099,7 @@
       "content_type": "paper",
       "title": "VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation",
       "summary": "Few-step distillation offers efficient generation with diffusion and flow models, but preserving quality with only a few sampling steps remains challenging.",
-      "time": "46h",
+      "time": "47h",
       "url": "https://arxiv.org/abs/2611.06796v1",
       "arxiv": "2611.06796v1"
     },
@@ -1111,7 +1111,7 @@
       "content_type": "video",
       "title": "Desarrollando juegos con IA Local 🚀 Crea Videojuegos con Godot y TOKENS ILIMITADOS",
       "summary": "Desarrollando juegos con IA Local es posible y, como veremos en este video, puedes lograr resultados sorprendentes utilizando el motor Godot y modelos de",
-      "time": "70h",
+      "time": "71h",
       "url": "https://www.youtube.com/watch?v=WkaDb-1MOCY"
     },
     {
@@ -1122,7 +1122,7 @@
       "content_type": "video",
       "title": "Me hice mi propio asistente de IA (open source). Por qué y cómo",
       "summary": "Asistente de IA open source que usa tu Mac y tiene memoria | Me cansé de los asistentes de IA que viven en una pestaña y se olvidan de vos, así que me hice el",
-      "time": "44h",
+      "time": "45h",
       "url": "https://www.youtube.com/watch?v=mXQEpPqhOqU"
     },
     {
@@ -1133,7 +1133,7 @@
       "content_type": "video",
       "title": "Google Vids: crea vídeos con IA en un solo lugar 🤯🎬",
       "summary": "¡Google tiene una herramienta para crear y editar vídeos con ayuda de la IA! 😱 👉🏻 Se llama Google Vids y reúne funciones para producir contenido audiovisual",
-      "time": "48h",
+      "time": "49h",
       "url": "https://www.youtube.com/shorts/xImflZCZ75g"
     },
     {
@@ -1144,7 +1144,7 @@
       "content_type": "video",
       "title": "Engram v3.6.1: lo borrado queda borrado",
       "summary": "Engram v3.6.1: lo que borrás queda borrado, aunque otra máquina tenga una copia vieja. Las búsquedas ya no dependen de las tildes, los textos con eñes o emojis",
-      "time": "72h",
+      "time": "73h",
       "url": "https://www.youtube.com/shorts/nNj4npgKHWE"
     },
     {
@@ -1155,7 +1155,7 @@
       "content_type": "video",
       "title": "Le pedís un botón y te arma un sistema de plugins",
       "summary": "Sobreingeniería: Jarvis le agrega cosas al traje que nadie pidió. Se ve muy profesional, tiene capas, abstracciones, de todo, y después lo tenés que mantener",
-      "time": "43h",
+      "time": "44h",
       "url": "https://www.youtube.com/shorts/jluOk1taSJs"
     },
     {
@@ -1166,7 +1166,7 @@
       "content_type": "video",
       "title": "¿Sentís que no llegás con todo lo que sale de IA?",
       "summary": "Lunes, un modelo nuevo. Martes, el framework que cambia todo. Miércoles, la herramienta que si no usás te quedás atrás. Y vos todavía no entendiste lo del",
-      "time": "46h",
+      "time": "47h",
       "url": "https://www.youtube.com/shorts/q5WVfCQrdoY"
     },
     {
@@ -1177,7 +1177,7 @@
       "content_type": "video",
       "title": "¿Cómo funciona el módulo de pagos? Nadie sabe",
       "summary": "Entra alguien nuevo al equipo y pregunta cómo funciona el módulo de pagos. Todos se miran, le preguntan al Team Lead y el Team Lead dice dame un segundito.",
-      "time": "67h",
+      "time": "68h",
       "url": "https://www.youtube.com/shorts/e8rD1M1ZQCE"
     },
     {
@@ -1188,7 +1188,7 @@
       "content_type": "video",
       "title": "¿Quién se queda con el tiempo que te ahorra la IA?",
       "summary": "Si ganaste dos horas, una puede ir a la empresa y otra a aprender, a tu familia o a no hacer nada. No hacer nada también es productivo para la cabeza. Y te soy",
-      "time": "70h",
+      "time": "71h",
       "url": "https://www.youtube.com/shorts/2XnGd6SmU_g"
     },
     {
@@ -1199,7 +1199,7 @@
       "content_type": "video",
       "title": "NUEVO HorizonOS 2.10 acercándose a Meta VR Glasses",
       "summary": "Analizamos a fondo la nueva actualización HorizonOS 2.10, las novedades que allanan el camino hacia las futuras Meta VR Glasses, y el anuncio oficial del fin",
-      "time": "47h",
+      "time": "48h",
       "url": "https://www.youtube.com/watch?v=sjPs9UOjqRw"
     },
     {
@@ -1210,7 +1210,7 @@
       "content_type": "news",
       "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
       "summary": "<p>Yesterday's hot paper was <a href=\"https://rikiyat.github.io/blog/weight-space-programming/\">Sparks of Weight-Space Programming: LLMs can natively read",
-      "time": "71h",
+      "time": "72h",
       "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
     },
     {
@@ -1221,7 +1221,7 @@
       "content_type": "news",
       "title": "CrowdStrike reforzará las capacidades de Falcon con Fiddler AI",
       "summary": "Ha llegado a un acuerdo para comprar esta compañía especializada en observabilidad y explicabilidad de agentes de inteligencia artificial.",
-      "time": "54h",
+      "time": "55h",
       "url": "https://www.silicon.es/crowdstrike-reforzara-las-capacidades-de-falcon-con-fiddler-ai-2585708"
     },
     {
@@ -1232,7 +1232,7 @@
       "content_type": "news",
       "title": "La nueva IA de Tencent ha decidido hacer algo novedoso en el entrenamiento de modelos: ponerle límites",
       "summary": "<p> <img",
-      "time": "40h",
+      "time": "41h",
       "url": "https://www.xataka.com/robotica-e-ia/tencent-acaba-lanzar-nueva-ia-interesante-no-solo-que-sabe-hacer-sino-que-ha-decidido-no-ensenarle"
     },
     {
@@ -1243,7 +1243,7 @@
       "content_type": "news",
       "title": "Anthropic ya ingresa 17.000 millones al trimestre. Su factura de computación es más de 50 veces mayor",
       "summary": "<p> <img",
-      "time": "72h",
+      "time": "73h",
       "url": "https://www.xataka.com/empresas-y-economia/anthropic-ingresa-17-000-millones-al-trimestre-su-factura-computacion-50-veces-mayor"
     },
     {
@@ -1254,7 +1254,7 @@
       "content_type": "release",
       "title": "OpenAI Launches GPT-Image-2.6 Flare and Sunburst: Adds GIFs, SVG Export and 6-Second API Generation",
       "summary": "<p>OpenAI released Images 2.6 and the GPT-Image-2.6 Flare and Sunburst API models. Flare generates images in as little as 6 seconds, and both add GIF output,",
-      "time": "32h",
+      "time": "33h",
       "url": "https://www.marktechpost.com/2026/11/04/openai-gpt-image-2-6-flare-sunburst/"
     },
     {
@@ -1265,7 +1265,7 @@
       "content_type": "release",
       "title": "Google AI Research Releases Agile Deliberation Framework for Gray-Area Image Classifiers",
       "summary": "<p>Google Research released Agile Deliberation, a human-in-the-loop framework that helps users define subjective visual concepts through borderline images. In",
-      "time": "34h",
+      "time": "35h",
       "url": "https://www.marktechpost.com/2026/11/04/google-agile-deliberation-subjective-image-classifiers/"
     },
     {
@@ -1276,7 +1276,7 @@
       "content_type": "news",
       "title": "Soniox STT v6 Adds Agent Text Input and Echo Filtering for Voice Agents",
       "summary": "<p>Soniox has released Soniox STT v6, the latest generation of its speech-to-text API. Soniox STT v6 is a speech-to-text model that reads what a voice agent",
-      "time": "67h",
+      "time": "68h",
       "url": "https://www.marktechpost.com/2026/11/03/soniox-stt-v6-agent-text-input-echo-cancellation/"
     },
     {
@@ -1287,7 +1287,7 @@
       "content_type": "news",
       "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
       "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-      "time": "56h",
+      "time": "57h",
       "url": "https://openai.com/index/daybreak-red-aws-govcloud"
     },
     {
@@ -1298,7 +1298,7 @@
       "content_type": "news",
       "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
       "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-      "time": "63h",
+      "time": "64h",
       "url": "https://openai.com/index/devrev-enterprise-self-service"
     },
     {
@@ -1309,7 +1309,7 @@
       "content_type": "news",
       "title": "EEUU tuvo una idea hace 20 años para matar a los mosquitos. China la acaba de hacer realidad con una torreta láser automática para pulverizarlos",
       "summary": "<p> <img",
-      "time": "51h",
+      "time": "52h",
       "url": "https://www.xataka.com/robotica-e-ia/eeuu-tuvo-idea-hace-20-anos-para-aniquilar-a-mosquitos-china-acaba-convertir-realidad-torreta-laser-ia"
     },
     {
@@ -1320,7 +1320,7 @@
       "content_type": "news",
       "title": "Google sacrificó su buscador para ganar la carrera de la IA y ahora corre el riesgo de quedarse sin ninguna de las dos cosas",
       "summary": "<p> <img",
-      "time": "54h",
+      "time": "55h",
       "url": "https://www.xataka.com/servicios/google-esta-financiando-futuro-ia-negocio-que-amenaza-destruir-su-buscador-clasico"
     },
     {
@@ -1331,7 +1331,7 @@
       "content_type": "release",
       "title": "Together AI Releases Together Compiler: Agents Make Inference Up to 2.6x Faster",
       "summary": "<p>Together AI released Together Compiler, an agent-driven loop that keeps re-optimizing the inference forward pass as traffic shifts. It beat the best",
-      "time": "31h",
+      "time": "32h",
       "url": "https://www.marktechpost.com/2026/11/05/together-ai-together-compiler-continual-compilation-ai-inference/"
     },
     {
@@ -1342,7 +1342,7 @@
       "content_type": "release",
       "title": "WebAI Releases TwIL-8B, an 8.8B Reasoning Model Scoring 98.2 on MATH-500",
       "summary": "<p>webAI released TwIL-8B, an 8.8B reasoning model post-trained from IBM Granite 4.2 8B. It posts 98.2 on MATH-500 and 81.6 on LiveCodeBench, but trails",
-      "time": "41h",
+      "time": "42h",
       "url": "https://www.marktechpost.com/2026/11/04/webai-twil-8b-reasoning-model/"
     },
     {
@@ -1353,7 +1353,7 @@
       "content_type": "release",
       "title": "Ricursive AI Releases Ripple-65B Preview: A 65B Dense Open-Weight Model Scoring 80.5 on Terminal-Bench 2.1",
       "summary": "<p>Ricursive Intelligence released Ripple-65B Preview, a 65B dense open-weight LLM under Apache 2.0. It scores 80.5 on Terminal-Bench 2.1, ahead of US open",
-      "time": "42h",
+      "time": "43h",
       "url": "https://www.marktechpost.com/2026/11/04/ricursive-ripple-65b-preview-open-weight-model/"
     },
     {
@@ -1364,7 +1364,7 @@
       "content_type": "release",
       "title": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
       "summary": "<p>Anthropic released FlashProve, an Apache 2.0 zkSNARK prototype that proves a reply came from a committed model without revealing weights. It proves Llama 4",
-      "time": "65h",
+      "time": "66h",
       "url": "https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/"
     },
     {
@@ -1375,7 +1375,7 @@
       "content_type": "news",
       "title": "Gemini for Home now plugs into AT&#038;T’s smart security system",
       "summary": "AT&#38;T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to",
-      "time": "43h",
+      "time": "44h",
       "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system"
     },
     {
@@ -1386,7 +1386,7 @@
       "content_type": "news",
       "title": "Agentic cheminformatics with Google Antigravity",
       "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
-      "time": "70h",
+      "time": "71h",
       "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
     },
     {
@@ -1397,7 +1397,7 @@
       "content_type": "release",
       "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
       "summary": "",
-      "time": "39h",
+      "time": "40h",
       "url": "https://huggingface.co/blog/phonon-tts"
     },
     {
@@ -1408,7 +1408,7 @@
       "content_type": "news",
       "title": "Securing the agentic enterprise with data lineage",
       "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal",
-      "time": "50h",
+      "time": "51h",
       "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/"
     },
     {
@@ -1419,7 +1419,7 @@
       "content_type": "news",
       "title": "ChatGPT will now make you animated GIFs",
       "summary": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model,",
-      "time": "45h",
+      "time": "46h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
     },
     {
@@ -1430,7 +1430,7 @@
       "content_type": "news",
       "title": "Uber only fulfilled 4 rides from AI agents last quarter",
       "summary": "AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber",
-      "time": "47h",
+      "time": "48h",
       "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation"
     },
     {
@@ -1441,7 +1441,7 @@
       "content_type": "news",
       "title": "Setting a new standard for responsible AI infrastructure",
       "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI",
-      "time": "37h",
+      "time": "38h",
       "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
     },
     {
@@ -1452,7 +1452,7 @@
       "content_type": "news",
       "title": "OpenAI to acquire Pierre Computer Company, Inc.",
       "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "time": "49h",
+      "time": "50h",
       "url": "https://openai.com/index/openai-to-acquire-pierre"
     },
     {
@@ -1463,7 +1463,7 @@
       "content_type": "news",
       "title": "A thousand fewer paths to root",
       "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-      "time": "55h",
+      "time": "56h",
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
     },
     {
@@ -1474,7 +1474,7 @@
       "content_type": "news",
       "title": "Introducing Images 2.6",
       "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-      "time": "63h",
+      "time": "64h",
       "url": "https://openai.com/index/introducing-images-2-6"
     },
     {
@@ -1485,7 +1485,7 @@
       "content_type": "news",
       "title": "Accelerating engineering for the physical world",
       "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-      "time": "75h",
+      "time": "76h",
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
     },
     {
@@ -1496,7 +1496,7 @@
       "content_type": "news",
       "title": "How Cisco defends at machine speed with OpenAI",
       "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
-      "time": "79h",
+      "time": "80h",
       "url": "https://openai.com/index/cisco-cyber"
     },
     {
@@ -1507,7 +1507,7 @@
       "content_type": "news",
       "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
       "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
-      "time": "87h",
+      "time": "88h",
       "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer"
     },
     {
@@ -1529,7 +1529,7 @@
       "content_type": "news",
       "title": "StateBench: Testing how language models track state changes over long documents",
       "summary": "",
-      "time": "70h",
+      "time": "71h",
       "url": "https://huggingface.co/blog/allenai/statebench"
     },
     {
@@ -1540,7 +1540,7 @@
       "content_type": "news",
       "title": "Palette: teaching a small model to build decks in your design language",
       "summary": "",
-      "time": "71h",
+      "time": "72h",
       "url": "https://huggingface.co/blog/ibm-research/palette-deck-building"
     },
     {
@@ -1551,7 +1551,7 @@
       "content_type": "news",
       "title": "CWE-bench v2: More coverage, quality, and transparency",
       "summary": "",
-      "time": "87h",
+      "time": "88h",
       "url": "https://huggingface.co/blog/cwe-bench"
     },
     {
@@ -1573,7 +1573,7 @@
       "content_type": "news",
       "title": "Dario Amodei, CEO de Anthropic: “no todos los tokens que producen los modelos valen lo mismo”",
       "summary": "<p> <img",
-      "time": "33h",
+      "time": "34h",
       "url": "https://www.xataka.com/empresas-y-economia/no-todos-tokens-que-producen-modelos-valen-dario-amodei-sugiere-modelo-precios-dinamicos-funcion-tarea"
     },
     {
@@ -1584,7 +1584,7 @@
       "content_type": "news",
       "title": "China está viviendo su particular explosión de la burbuja IA: si llega a Occidente, no va a ser bonito",
       "summary": "<p> <img",
-      "time": "55h",
+      "time": "56h",
       "url": "https://www.xataka.com/empresas-y-economia/china-esta-experimentando-parecido-que-hemos-vivido-ahora-a-estallido-burbuja-ia"
     },
     {
@@ -1595,7 +1595,7 @@
       "content_type": "news",
       "title": "La española INNOVASUR logra la certificación del CCN para sus cinco servicios",
       "summary": "La compañía está especializada en inteligencia artificial, gestión del dato y seguridad cibernética.",
-      "time": "27h",
+      "time": "28h",
       "url": "https://www.silicon.es/la-espanola-innovasur-logra-la-certificacion-del-ccn-para-sus-cinco-servicios-2585774"
     },
     {
@@ -1606,7 +1606,7 @@
       "content_type": "news",
       "title": "Ericsson ISAC System ofrece detección de drones con redes móviles",
       "summary": "Este sistema integrado de detección y comunicación permite rastrear objetos en movimiento en grandes extensiones.",
-      "time": "28h",
+      "time": "29h",
       "url": "https://www.silicon.es/ericsson-isac-system-ofrece-deteccion-de-drones-con-redes-moviles-2585769"
     },
     {
@@ -1617,7 +1617,7 @@
       "content_type": "news",
       "title": "Sage destina 3,5 millones de euros a incentivar la adopción de la IA entre empresas españolas",
       "summary": "Lanza los Fondos Transformación iA para pymes, despachos profesionales y asesorías.",
-      "time": "53h",
+      "time": "54h",
       "url": "https://www.silicon.es/sage-destina-35-millones-de-euros-a-incentivar-la-adopcion-de-la-ia-entre-empresas-espanolas-2585721"
     },
     {
@@ -1628,7 +1628,7 @@
       "content_type": "news",
       "title": "Oracle integra la IA en procesos críticos y evoluciona su modelo comercial",
       "summary": "La firma presenta en Madrid sus avances agénticos, la incorporación del paso del pago por usuario al valor por resultado.",
-      "time": "54h",
+      "time": "55h",
       "url": "https://www.silicon.es/oracle-integra-la-ia-en-procesos-criticos-y-evoluciona-su-modelo-comercial-2585710"
     },
     {
@@ -1639,7 +1639,7 @@
       "content_type": "news",
       "title": "El talento tecnológico español se muestra mayoritariamente optimista respecto a la IA",
       "summary": "El 78 % de los estudiantes y profesionales de este ámbito prevé un impacto positivo o muy positivo de esta tecnología en sus carreras.",
-      "time": "75h",
+      "time": "76h",
       "url": "https://www.silicon.es/el-talento-tecnologico-espanol-se-muestra-mayoritariamente-optimista-respecto-a-la-ia-2585645"
     },
     {
@@ -1650,7 +1650,7 @@
       "content_type": "news",
       "title": "8 de cada 10 directivos ampliarán sus plantillas tecnológicas en España por el boom de la IA",
       "summary": "Muchos priorizan las certificaciones y las microcredenciales sobre a los títulos universitarios.",
-      "time": "75h",
+      "time": "76h",
       "url": "https://www.silicon.es/8-de-cada-10-directivos-ampliaran-sus-plantillas-tecnologicas-en-espana-por-el-boom-de-la-ia-2585674"
     },
     {
@@ -1661,7 +1661,7 @@
       "content_type": "news",
       "title": "Tencent WeVisOne-VL Unifies Detection, OCR, Segmentation and Matting",
       "summary": "<p>Tencent’s WeChat Vision team released WeVisOne-VL, an Apache 2.0 vision language model in 2B and 4B sizes. It handles detection, OCR, counting, segmentation",
-      "time": "59h",
+      "time": "60h",
       "url": "https://www.marktechpost.com/2026/11/03/tencent-wevisone-vl-vision-language-model/"
     },
     {
@@ -1672,7 +1672,7 @@
       "content_type": "news",
       "title": "NVIDIA Shows 3 Ways to Speed Up MoE Inference on DGX Spark, Lifting Ling-3.0-flash Throughput 42.5%",
       "summary": "<p>NVIDIA shows how 3 stacked optimizations speed up MoE inference on a single DGX Spark. On Ant Group inclusionAI's 124B Ling-3.0-flash, GSM8K decode",
-      "time": "67h",
+      "time": "68h",
       "url": "https://www.marktechpost.com/2026/11/03/nvidia-dgx-spark-moe-inference-ling-3-0-flash/"
     },
     {
@@ -1694,7 +1694,7 @@
       "content_type": "news",
       "title": "Qualcomm is betting big on data centers as smartphone sales sink",
       "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026",
-      "time": "41h",
+      "time": "42h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers"
     },
     {
@@ -1716,7 +1716,7 @@
       "content_type": "release",
       "title": "Nothing teases a screen-free AI device ahead of launch next month",
       "summary": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced",
-      "time": "45h",
+      "time": "46h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei"
     },
     {
@@ -1727,7 +1727,7 @@
       "content_type": "news",
       "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
       "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear",
-      "time": "45h",
+      "time": "46h",
       "url": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables"
     },
     {
@@ -1738,7 +1738,7 @@
       "content_type": "news",
       "title": "Data centers lost the midterms",
       "summary": "Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and",
-      "time": "47h",
+      "time": "48h",
       "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
     },
     {

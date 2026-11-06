@@ -7,17 +7,17 @@
     "script_text": "En el resumen de hoy nos enfrentamos a un panorama de transformación acelerada en inteligencia artificial, con OpenAI protagonizando varios de los movimientos más relevantes.\n\nComenzamos con la seguridad informática, donde OpenAI ha presentado GPT-6 Cyber, su nuevo modelo especializado en detectar vulnerabilidades críticas. Se trata de una herramienta diseñada específicamente para el análisis de ciberseguridad, que llega en un contexto de preocupación global por la vulnerabilidad de nuestras infraestructuras digitales. En paralelo, Anthropic sigue ampliando las capacidades de Claude con funcionalidades cada vez más sofisticadas. Su último avance permite analizar tus movimientos bancarios y ofrecerte un diagnóstico detallado de en qué se te va el dinero. Una capacidad impresionante que, aunque no puede tocar ni un euro de tu cuenta, abre puertas fascinantes a la asesoría financiera automática.\n\nEn el frente de la adopción masiva, España marca un hito importante: ya casi la mitad de los internautas españoles utiliza inteligencia artificial de forma habitual. Este dato refleja la naturalización de estas tecnologías en nuestro día a día, algo impensable hace apenas dos años.\n\nMás allá de la seguridad y el análisis, la IA se está integrando en sectores específicos del viaje y la hospitalidad. Airbnb está desarrollando un agente de IA de viajes que promete cambiar cómo planificamos nuestras escapadas, mientras que en España, empresas como Septeo Hospitality continúan su expansión con nuevas adquisiciones en el sector hotelero.\n\nEn el terreno de la robótica, el MIT ha presenciado un hito emblemático: robots humanoides que limpian apartamentos con una precisión y naturalidad que hace algunos años parecía de ciencia ficción. Paralelamente, desde Hugging Face trabajan en ToyBlocks, un entorno controlado para el aprendizaje y evaluación de robots, junto con iniciativas de accesibilidad lingüística como la incorporación del inglés de Egipto y Nigeria en el Leaderboard de reconocimiento de voz.\n\nCerramos con notas menos optimistas del mercado tecnológico: se han evaporado 2,5 billones de dólares de la bolsa estadounidense con la inteligencia artificial y las neocloud bajo el punto de mira de los inversores. Un recordatorio de que incluso en tiempos de innovación, la volatilidad sigue siendo parte del juego.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
   },
   "stats": {
-    "new_articles": 116,
+    "new_articles": 121,
     "sources": 44,
-    "updated_label": "13:01"
+    "updated_label": "13:42"
   },
   "iaday": {
-    "reading_minutes": "70 min",
+    "reading_minutes": "73 min",
     "audio_duration": "2:24",
     "key_count": 3,
-    "papers_count": 53,
-    "repos_count": 20,
-    "videos_count": 6,
+    "papers_count": 54,
+    "repos_count": 21,
+    "videos_count": 7,
     "impact": "Alto"
   },
   "thirty_seconds": [
@@ -34,7 +34,7 @@
       "content_type": "repo",
       "title": "Gana-Y/LLM-System-Patterns",
       "summary": "⭐ 0 estrellas — 🧠 Production design patterns, latency budgets, failure modes, and architectural trade-offs for real-world LLMs, RAG pipelines, and autonomous",
-      "time": "2h",
+      "time": "3h",
       "url": "https://github.com/Gana-Y/LLM-System-Patterns",
       "stars": "0"
     },
@@ -46,7 +46,7 @@
       "content_type": "repo",
       "title": "Seinsdieum/also",
       "summary": "⭐ 0 estrellas — Version, translate and install artificial intelligence infrastructure across Claude Code, Codex CLI, OpenCode and Qwen Code.",
-      "time": "5h",
+      "time": "6h",
       "url": "https://github.com/seinsdieum/also",
       "stars": "0"
     },
@@ -81,7 +81,7 @@
       "content_type": "repo",
       "title": "ToniYggdrasilEverglade/bough",
       "summary": "⭐ 1 estrellas — Bough — a branching cognitive architecture for language models: the root model answers freely, agent branches filter the reply. Python/FastAPI",
-      "time": "146h",
+      "time": "147h",
       "url": "https://github.com/ToniYggdrasilEverglade/bough",
       "stars": "1"
     },
@@ -105,7 +105,7 @@
       "content_type": "repo",
       "title": "Rohaan2802/AI_Course_Repo",
       "summary": "⭐ 1 estrellas — My Artificial Intelligence (AL2002) course work at FAST-NUCES – search, genetic algorithms, CSPs, minimax and machine learning in Python, with",
-      "time": "40h",
+      "time": "41h",
       "url": "https://github.com/rohaan2802/AI_Course_Repo",
       "stars": "1"
     },
@@ -132,6 +132,18 @@
       "time": "3h",
       "url": "https://github.com/ravindraaries/enterprise-ai-readiness-validation-toolkit",
       "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Aimenhamzi01-dot/PolyGlot-Agents",
+      "summary": "⭐ 1 estrellas — Open infrastructure for traceable multilingual AI-agent data, verifiable environments, and safety-aware evaluation.",
+      "time": "10h",
+      "url": "https://github.com/aimenhamzi01-dot/PolyGlot-Agents",
+      "stars": "1"
     },
     {
       "source": "GitHub Trending — IA",
@@ -176,7 +188,7 @@
       "content_type": "repo",
       "title": "Ankitmallick800/MOOD_WAVE",
       "summary": "⭐ 1 estrellas — recommends real songs from how you listen, then plays a music preview of the song. Rankings and the short reasons under each song come from the",
-      "time": "143h",
+      "time": "144h",
       "url": "https://github.com/ankitmallick800/MOOD_WAVE",
       "stars": "1"
     },
@@ -188,7 +200,7 @@
       "content_type": "repo",
       "title": "Twpkevin06222/pathoinfer",
       "summary": "⭐ 1 estrellas — Inference engine for pathotrain on WSI",
-      "time": "37h",
+      "time": "38h",
       "url": "https://github.com/twpkevin06222/pathoinfer",
       "stars": "1"
     },
@@ -224,7 +236,7 @@
       "content_type": "repo",
       "title": "Luminariadev/nexaconsult",
       "summary": "⭐ 1 estrellas — AI-Powered UMKM Business Consulting Platform & Instant Landing Page Studio (Laravel 12 + MongoDB + Tailwind CSS)",
-      "time": "2h",
+      "time": "3h",
       "url": "https://github.com/luminariadev/nexaconsult",
       "stars": "1"
     },
@@ -272,7 +284,7 @@
       "content_type": "repo",
       "title": "Alvintnw/BaliSort-AI",
       "summary": "⭐ 0 estrellas — Platform AI untuk klasifikasi gambar sampah dan rekomendasi pemilahan demi Bali yang lebih bersih.",
-      "time": "7h",
+      "time": "8h",
       "url": "https://github.com/alvintnw/BaliSort-AI",
       "stars": "0"
     },
@@ -294,9 +306,20 @@
       "lang": "en",
       "cat": "Modelos",
       "content_type": "paper",
+      "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+      "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only",
+      "time": "29h",
+      "url": "https://huggingface.co/papers/2611.08237"
+    },
+    {
+      "source": "Hugging Face — Daily Papers",
+      "source_type": "huggingface",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "paper",
       "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
       "summary": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangle semantic content with residual",
-      "time": "43h",
+      "time": "44h",
       "url": "https://huggingface.co/papers/2611.07298"
     },
     {
@@ -341,7 +364,7 @@
       "content_type": "paper",
       "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
       "summary": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08433v1",
       "arxiv": "2611.08433v1"
     },
@@ -353,7 +376,7 @@
       "content_type": "paper",
       "title": "The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI",
       "summary": "Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet the",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08428v1",
       "arxiv": "2611.08428v1"
     },
@@ -387,7 +410,7 @@
       "content_type": "paper",
       "title": "Hard Sample-Conditioned Decorrelated Attention for Robust Face Recognition",
       "summary": "Multi-head attention in Vision Transformers (ViTs) allows independent attention patterns across heads, but without explicit regularization, heads may learn",
-      "time": "173h",
+      "time": "174h",
       "url": "https://huggingface.co/papers/2610.41789"
     },
     {
@@ -398,7 +421,7 @@
       "content_type": "paper",
       "title": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
       "summary": "Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines a larger model's prompt representations",
-      "time": "55h",
+      "time": "56h",
       "url": "https://huggingface.co/papers/2611.06976"
     },
     {
@@ -420,7 +443,7 @@
       "content_type": "paper",
       "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
       "summary": "Mixture-of-Experts (MoE) models route each token to a few of many experts, yet what an individual expert is responsible for remains unsettled. Existing",
-      "time": "30h",
+      "time": "31h",
       "url": "https://huggingface.co/papers/2611.08089"
     },
     {
@@ -454,7 +477,7 @@
       "content_type": "paper",
       "title": "HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation",
       "summary": "Recent advances in Vision-Language-Action (VLA) models have enabled fine manipulation capabilities, yet performing tasks that require working memory remains a",
-      "time": "109h",
+      "time": "110h",
       "url": "https://huggingface.co/papers/2611.02660"
     },
     {
@@ -499,7 +522,7 @@
       "content_type": "paper",
       "title": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
       "summary": "Coding agents are among the most economically consequential deployments of LLMs to date, making reliable evaluation increasingly important. Yet even benchmarks",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08417v1",
       "arxiv": "2611.08417v1"
     },
@@ -535,7 +558,7 @@
       "content_type": "paper",
       "title": "The Gold Rush in AI4Math, II: What are signatures of AI-assisted Proofs?",
       "summary": "The growing use of AI in mathematics raises a question: can we detect AI involvement in proofs, separately from AI assistance with writing? Historical arXiv",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08412v1",
       "arxiv": "2611.08412v1"
     },
@@ -559,7 +582,7 @@
       "content_type": "paper",
       "title": "A Hidden Markov Preference Model for Online Prediction of Adversary Actions",
       "summary": "A defender anticipating an attacker needs a probability distribution over the attacker's next action from information available before that action occurs. Two",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08445v1",
       "arxiv": "2611.08445v1"
     },
@@ -571,7 +594,7 @@
       "content_type": "paper",
       "title": "On the limitations of molecular representations",
       "summary": "Molecular representations such as fingerprints and learned embeddings play a central role in cheminformatics and small-molecule machine learning. They serve as",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08420v1",
       "arxiv": "2611.08420v1"
     },
@@ -583,7 +606,7 @@
       "content_type": "paper",
       "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
       "summary": "Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08407v1",
       "arxiv": "2611.08407v1"
     },
@@ -607,7 +630,7 @@
       "content_type": "paper",
       "title": "T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models",
       "summary": "Vision-Language-Action (VLA) models enable end-to-end robot control, but inference is increasingly expensive. Each decision processes hundreds of visual",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08413v1",
       "arxiv": "2611.08413v1"
     },
@@ -631,7 +654,7 @@
       "content_type": "paper",
       "title": "Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety",
       "summary": "Neural networks are likely to be among the most consequential artefacts in human history. As these systems become more capable and autonomous, their potential",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08438v1",
       "arxiv": "2611.08438v1"
     },
@@ -643,7 +666,7 @@
       "content_type": "paper",
       "title": "StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time Reasoning",
       "summary": "Self-consistency (SC) is a widely used decoding strategy for improving chain-of-thought reasoning, but it requires sampling many complete reasoning",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08403v1",
       "arxiv": "2611.08403v1"
     },
@@ -655,7 +678,7 @@
       "content_type": "paper",
       "title": "Data-driven discovery of intrinsic Lie point symmetries of differential equation systems",
       "summary": "Discovering continuous symmetries directly from differential-equation data can reveal geometric structure for model reduction and scientific machine learning",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08421v1",
       "arxiv": "2611.08421v1"
     },
@@ -667,7 +690,7 @@
       "content_type": "paper",
       "title": "Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Reinforcement Learning",
       "summary": "Low-rank adaptation (LoRA) is commonly used in both supervised fine-tuning (SFT) and reinforcement learning (RL), often under similar optimizer settings. Yet,",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08414v1",
       "arxiv": "2611.08414v1"
     },
@@ -691,7 +714,7 @@
       "content_type": "paper",
       "title": "SM4RT: Cascaded Feed-forward Model for 4D Reconstruction",
       "summary": "We introduce SM4RT, a multi-task cascade feed-forward model for dynamic scene reconstruction from RGB videos. While existing feed-forward approaches typically",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08436v1",
       "arxiv": "2611.08436v1"
     },
@@ -703,7 +726,7 @@
       "content_type": "paper",
       "title": "Adaptive Low-Light Enhancement for Road Anomaly Detection: A Multi-Architecture Benchmark and Edge Deployment Study",
       "summary": "Road anomaly detection systems on autonomous vehicles must function reliably under degraded visual conditions including darkness, rain, and Harmattan dust",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08393v1",
       "arxiv": "2611.08393v1"
     },
@@ -715,7 +738,7 @@
       "content_type": "paper",
       "title": "OraRefer: Segmentation-Guided Multi-Photograph Fusion for Oral Cancer Screening with Guaranteed Patient-Level Sensitivity",
       "summary": "Oral cancer and the oral potentially malignant disorders (OPMD) that can precede it are visible on the oral mucosa, which makes smartphone photographs a",
-      "time": "22h",
+      "time": "23h",
       "url": "https://arxiv.org/abs/2611.08360v1",
       "arxiv": "2611.08360v1"
     },
@@ -727,7 +750,7 @@
       "content_type": "paper",
       "title": "USB Gym: A Gymnasium Testbed for Closed-Loop Ultrasound View Matching",
       "summary": "Background and Objective: Our main goal is ultrasound guidance: moving a probe until its image matches a target view. Published methods for each part of a",
-      "time": "22h",
+      "time": "23h",
       "url": "https://arxiv.org/abs/2611.08352v1",
       "arxiv": "2611.08352v1"
     },
@@ -751,7 +774,7 @@
       "content_type": "paper",
       "title": "Label-Wording Augmentation in a Typed-Decision Encoder: Gains on Unfamiliar Words, Not on Abbreviations or Codes",
       "summary": "Typed-decision models score options that the caller supplies at request time, so their accuracy depends on label wording that the model's developer does not",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08439v1",
       "arxiv": "2611.08439v1"
     },
@@ -763,7 +786,7 @@
       "content_type": "paper",
       "title": "Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing",
       "summary": "Vision-Language-Action models (VLAs) enable general-purpose embodied intelligence, but their performance is brittle under distribution shift, where",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08425v1",
       "arxiv": "2611.08425v1"
     },
@@ -775,7 +798,7 @@
       "content_type": "paper",
       "title": "Learning a patient world model for health system simulation in intensive care",
       "summary": "Designing healthcare strategies requires anticipating their clinical and operational consequences before implementation, a task that often relies on health",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08392v1",
       "arxiv": "2611.08392v1"
     },
@@ -799,7 +822,7 @@
       "content_type": "paper",
       "title": "Conformal Prediction for Time-Dependent PDEs",
       "summary": "Uncertainty quantification is crucial in scientific machine learning, where models inform safety-critical tasks such as flood forecasting, financial risk",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08409v1",
       "arxiv": "2611.08409v1"
     },
@@ -835,7 +858,7 @@
       "content_type": "paper",
       "title": "Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception",
       "summary": "Cyclist fatality rates remain high despite policy support for active travel, and autonomous vehicles add complexity to mixed traffic. Neither crash statistics",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08441v1",
       "arxiv": "2611.08441v1"
     },
@@ -871,7 +894,7 @@
       "content_type": "paper",
       "title": "A Theoretical Analysis of a Bilevel Optimization Formulation for Combined Local-Global Optical Flow Models",
       "summary": "This paper analyzes a bilevel formulation for learning the regularization parameter of combined local-global (CLG) optical flow models. The lower-level problem",
-      "time": "22h",
+      "time": "23h",
       "url": "https://arxiv.org/abs/2611.08359v1",
       "arxiv": "2611.08359v1"
     },
@@ -883,7 +906,7 @@
       "content_type": "paper",
       "title": "4D Point Splatting for mmWave Radar Micro-Doppler Differentiable Rendering",
       "summary": "Millimeter-wave radar resolves the micrometer displacements of a moving body as micro-Doppler, enabling gait, gesture, activity, pose and vital-sign sensing.",
-      "time": "22h",
+      "time": "23h",
       "url": "https://arxiv.org/abs/2611.08342v1",
       "arxiv": "2611.08342v1"
     },
@@ -895,7 +918,7 @@
       "content_type": "video",
       "title": "Delega y automatiza tareas con OpenAI Dots 💻",
       "summary": "¿Te imaginas tener un agente de IA que siga trabajando aunque cierres tu ordenador? 🤯 📌 Se llama Dots y es una propuesta de OpenAI para delegar tareas,",
-      "time": "24h",
+      "time": "25h",
       "url": "https://www.youtube.com/shorts/p0brY6LAGFc"
     },
     {
@@ -906,7 +929,7 @@
       "content_type": "video",
       "title": "No tenés que saber todas las herramientas de IA que salen",
       "summary": "El problema es que sentís que tenés que saberlas todas. Y esa sensación no sale del mercado, sale de tu timeline: en la burbuja de X, YouTube y Discord todo el",
-      "time": "22h",
+      "time": "23h",
       "url": "https://www.youtube.com/shorts/r7SIMq-z2_c"
     },
     {
@@ -921,6 +944,17 @@
       "url": "https://www.youtube.com/watch?v=RRLayD6kDxM"
     },
     {
+      "source": "Migue Baena IA",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Descubre qué corte de pelo te favorece con este prompt 💇🏻‍♂️🤯",
+      "summary": "¡Ahora puedes probar diferentes cortes de pelo y colores de ropa usando tu propia foto y ChatGPT! 🤩 👉🏻 Con ChatGPT y la inteligencia artificial puedes crear",
+      "time": "ahora",
+      "url": "https://www.youtube.com/shorts/bVeF1qVaKHA"
+    },
+    {
       "source": "Two Minute Papers",
       "source_type": "youtube",
       "lang": "en",
@@ -928,7 +962,7 @@
       "content_type": "video",
       "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
       "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Chapters: 00:00 Intro 02:40 Why Robots Are Hard 08:16 The Perfect Data Diet",
-      "time": "8h",
+      "time": "9h",
       "url": "https://www.youtube.com/watch?v=XgC1QTs6A2U"
     },
     {
@@ -961,7 +995,7 @@
       "content_type": "video",
       "title": "Revisá el diff de la IA antes de mergear",
       "summary": "El vuelo de prueba antes de aceptar un cambio: mirá cuánto tocó, qué archivos y cuántas líneas. Si son 40 archivos para un botón, algo está pasando. Y la regla",
-      "time": "19h",
+      "time": "20h",
       "url": "https://www.youtube.com/shorts/hqpCeUSI0vA"
     },
     {
@@ -1027,7 +1061,7 @@
       "content_type": "release",
       "title": "Perplexity launches its own take on AI agents for work",
       "summary": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a",
-      "time": "17h",
+      "time": "18h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
     },
     {
@@ -1082,7 +1116,7 @@
       "content_type": "news",
       "title": "Airbnb is working on an AI travel agent",
       "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder",
-      "time": "15h",
+      "time": "16h",
       "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings"
     },
     {
@@ -1104,7 +1138,7 @@
       "content_type": "news",
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
       "summary": "",
-      "time": "22h",
+      "time": "23h",
       "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
     },
     {
@@ -1137,7 +1171,7 @@
       "content_type": "news",
       "title": "Muse has a voice mode now",
       "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me,",
-      "time": "20h",
+      "time": "21h",
       "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar"
     },
     {
@@ -1214,7 +1248,7 @@
       "content_type": "news",
       "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
       "summary": "",
-      "time": "20h",
+      "time": "21h",
       "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
     },
     {
@@ -1236,7 +1270,7 @@
       "content_type": "news",
       "title": "Se han evaporado 2,5 billones de dólares de la bolsa de EEUU y en el punto de mira está el estallido de las neoclouds",
       "summary": "<p> <img",
-      "time": "ahora",
+      "time": "1h",
       "url": "https://www.xataka.com/empresas-y-economia/se-han-evaporado-2-5-billones-dolares-bolsa-eeuu-punto-mira-esta-estallido-neoclouds"
     },
     {
@@ -1258,7 +1292,7 @@
       "content_type": "news",
       "title": "Los nuevos riesgos que introduce la IA en las empresas: errores de cálculo y desplazamiento competitivo",
       "summary": "Garrner adviert de que \"el riesgo relacionado con la IA está trascendiendo las preocupaciones tecnológicas y de gobernanza para situarse en el núcleo de la",
-      "time": "4h",
+      "time": "5h",
       "url": "https://www.silicon.es/los-nuevos-riesgos-que-introduce-la-ia-en-las-empresas-errores-de-calculo-y-desplazamiento-competitivo-2585823"
     },
     {
@@ -1280,7 +1314,7 @@
       "content_type": "news",
       "title": "Los españoles han adoptado la IA el doble de rápido que el smartphone",
       "summary": "La IA generativa ha tardado 2,5 años en alcanzar una penetración del 40 %. Al smartphone, las redes sociales e internet les llevó 5, 8 y 15 años,",
-      "time": "26h",
+      "time": "27h",
       "url": "https://www.silicon.es/los-espanoles-han-adoptado-la-ia-el-doble-de-rapido-que-el-smartphone-2585781"
     },
     {
@@ -1291,7 +1325,7 @@
       "content_type": "release",
       "title": "Thinking Machines Releases Inkling 2 Small, a 594B MoE With 17B Active",
       "summary": "<p>Thinking Machines Lab released Inkling 2 Small, a 594B-parameter MoE with 17B active parameters. It scores 31 on the Artificial Analysis Intelligence Index",
-      "time": "11h",
+      "time": "12h",
       "url": "https://www.marktechpost.com/2026/11/05/thinking-machines-inkling-2-small-release/"
     },
     {
@@ -1302,7 +1336,7 @@
       "content_type": "release",
       "title": "Baidu Releases ERNIE 5.5 Flash Base: A 280B MoE Base Model With 14B Active Parameters",
       "summary": "<p>Baidu has released ERNIE 5.5 Flash Base, a 280B sparse MoE base model with 14B active parameters, trained on 33.5T tokens and published before any mid- or",
-      "time": "18h",
+      "time": "19h",
       "url": "https://www.marktechpost.com/2026/11/05/baidu-ernie-5-5-flash-base-280b-moe/"
     },
     {
@@ -1335,7 +1369,7 @@
       "content_type": "news",
       "title": "OpenAI is stepping back from NDAs for data center projects",
       "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to",
-      "time": "15h",
+      "time": "16h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
     },
     {
@@ -1359,6 +1393,28 @@
       "summary": "The AI-generated sci-fi film Gods Don't Give Gifts has added a bit of star power: Pop star Grimes is going to appear in the movie. Billed as \"the first AI film",
       "time": "23h",
       "url": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "Big Tech lost big in the 2026 election",
+      "summary": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come",
+      "time": "ahora",
+      "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "How Akai and Moog are embracing vibe-coded mods",
+      "summary": "inMusic, the parent company of Akai, Moog, Native Instruments, and more, has decided to embrace the modding community. In an interview with The Verge, inMusic",
+      "time": "ahora",
+      "url": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai"
     }
   ]
 }
