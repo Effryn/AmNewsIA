@@ -9,7 +9,7 @@
   "stats": {
     "new_articles": 121,
     "sources": 44,
-    "updated_label": "13:42"
+    "updated_label": "13:45"
   },
   "iaday": {
     "reading_minutes": "73 min",
@@ -248,7 +248,7 @@
       "content_type": "repo",
       "title": "OlehDatsyk/dataforge-ai-analytics-platform",
       "summary": "⭐ 1 estrellas — AI-powered data analytics platform for exploring datasets, discovering insights, detecting anomalies, generating visualisations, and creating",
-      "time": "6h",
+      "time": "7h",
       "url": "https://github.com/OlehDatsyk/dataforge-ai-analytics-platform",
       "stars": "1"
     },
@@ -296,7 +296,7 @@
       "content_type": "repo",
       "title": "BrkNx/grid-block-ai",
       "summary": "⭐ 0 estrellas — Two-player adversarial grid strategy game featuring Minimax search with Alpha-Beta pruning, iterative deepening (<5s), and obstacle blocking",
-      "time": "9h",
+      "time": "10h",
       "url": "https://github.com/brkNx/grid-block-ai",
       "stars": "0"
     },
@@ -846,7 +846,7 @@
       "content_type": "paper",
       "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes,",
-      "time": "21h",
+      "time": "22h",
       "url": "https://arxiv.org/abs/2611.08449v1",
       "arxiv": "2611.08449v1"
     },
@@ -1017,7 +1017,7 @@
       "content_type": "news",
       "title": "En un movimiento cada vez más familiar, Apple ha empezado a reducir el gasto de tokens IA de sus empleados a 200 dólares diarios",
       "summary": "<p> <img",
-      "time": "26h",
+      "time": "27h",
       "url": "https://www.xataka.com/robotica-e-ia/apple-quiere-que-siri-ia-este-todas-partes-al-tiempo-limita-a-200-dolares-gasto-tokens-para-sus-empleados"
     },
     {
@@ -1028,7 +1028,7 @@
       "content_type": "news",
       "title": "En Estados Unidos, Google está dejando sin su buscador a las escuelas que rechazan utilizar sus herramientas IA",
       "summary": "<p> <img",
-      "time": "27h",
+      "time": "28h",
       "url": "https://www.xataka.com/empresas-y-economia/escuelas-eeuu-quieren-google-ia-se-enfrentan-a-dilema-aceptan-sus-resumenes-ia-se-quedan-buscador"
     },
     {
@@ -1149,7 +1149,7 @@
       "content_type": "news",
       "title": "Hundimiento histórico de la bolsa estadounidense: las grandes tecnológicas se dejan a esta hora entre un 9% y un 19%",
       "summary": "<p> <img",
-      "time": "20h",
+      "time": "21h",
       "url": "https://www.xataka.com/empresas-y-economia/hundimiento-historico-bolsa-estadounidense-grandes-tecnologicas-se-dejan-a-esta-hora-9-19"
     },
     {
@@ -1204,7 +1204,7 @@
       "content_type": "release",
       "title": "Flipsnack grows product signups with conversion optimization",
       "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
-      "time": "39h",
+      "time": "40h",
       "url": "https://openai.com/ads/customers/flipsnack"
     },
     {
