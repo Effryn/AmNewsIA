@@ -1,0 +1,270 @@
+{
+  "date": "2026-11-07",
+  "date_label": "7 de noviembre de 2026",
+  "greeting": "Buenos días, Effry",
+  "briefing": {
+    "duration_label": "2:40",
+    "script_text": "En el resumen de hoy abordamos cómo la carrera global por la inteligencia artificial está transformando industrias inesperadas y creando nuevos desafíos geopolíticos.\n\nComencemos con una historia sorprendente: Lituania, un país de apenas 2,9 millones de habitantes, está compitiendo directamente con China en la fabricación de láseres para chips de IA en serie. Esto demuestra que la tecnología de punta en semiconductores no es monopolio de las grandes potencias. Los pequeños actores están encontrando nichos críticos en la cadena de suministro global, posicionándose como proveedores clave para la industria.\n\nPero mientras la oferta de chips se expande, emerge un cuello de botella silencioso: la energía. La explosión de demanda por IA está generando una crisis de materiales. Necesitamos toneladas de metales —cobre, litio, cobalto— para expandir la infraestructura eléctrica que alimentará estos sistemas. Este es un problema de escala masiva que aún no está completamente en el radar público.\n\nEn el frente de los Estados Unidos, se reporta un incidente curioso: Nvidia logró sortear restricciones comerciales vendiendo chips a través de una oficina aparentemente vacía en China. Un recordatorio de que, incluso con sanciones en vigor, los agujeros regulatorios siguen siendo una realidad.\n\nCambio de enfoque hacia las aplicaciones prácticas. ChatGPT crece en España, pero no de la manera que esperábamos. Creíamos que la IA iba a revolucionar la escritura, pero los datos muestran que su mayor adopción es como buscador. Los usuarios están reemplazando Google con ChatGPT para búsquedas cotidianas. Y en cuanto a herramientas especializadas: el asistente de IA de NYT Cooking funcionó impecablemente para preparar pollo entre semana, aunque casi arruina un pastel. Los matices importan.\n\nEn seguridad, la IA ha provocado un quiebre en el mundo de la ciberseguridad. Los modelos tradicionales de defensa ya no funcionan. Necesitamos repensarlos desde cero.\n\nFinalmente, una alerta de investigadores: Anthropic está automatizando el desarrollo de IA —usando IA para mejorar IA—. Un reporte reciente sobre esto está encendiendo alarmas en la comunidad científica. Es un paso más hacia sistemas que se optimizan a sí mismos, lo que plantea preguntas serias sobre supervisión y control.\n\nEn infraestructura técnica, Buoyant acaba de lanzar Kinference, un plano de control de código abierto para optimizar la inferencia en Kubernetes y vLLM. Y para los desarrolladores interesados en modelos compactos, está disponible una guía completa para ejecutar NVIDIA Dory 4B con llama.cpp.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
+  },
+  "stats": {
+    "new_articles": 20,
+    "sources": 44,
+    "updated_label": "09:37"
+  },
+  "iaday": {
+    "reading_minutes": "12 min",
+    "audio_duration": "2:40",
+    "key_count": 3,
+    "papers_count": 0,
+    "repos_count": 20,
+    "videos_count": 0,
+    "impact": "Alto"
+  },
+  "thirty_seconds": [
+    "Sn3hhaa/clai",
+    "B44x/ai-polish-skills",
+    "R-behera/rag-evaluation-lab-20261107"
+  ],
+  "articles": [
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Sn3hhaa/clai",
+      "summary": "⭐ 0 estrellas — Voice-first agreement intelligence: talk to a PDF agreement and get answers cited to the clause. LangGraph, hybrid RAG, Qdrant, LiveKit. Runs",
+      "time": "53h",
+      "url": "https://github.com/sn3hhaa/clai",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "B44x/ai-polish-skills",
+      "summary": "⭐ 0 estrellas — 🇵🇱 Open-source skills that connect AI agents with Polish APIs, services and public data. Built for Claude Code, Cursor, Windsurf and other AI",
+      "time": "38h",
+      "url": "https://github.com/b44x/ai-polish-skills",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "R-behera/rag-evaluation-lab-20261107",
+      "summary": "⭐ 0 estrellas — A reproducible RAG evaluation harness for retrieval misses, unsupported answers, citation gaps, and abstention errors.",
+      "time": "41h",
+      "url": "https://github.com/R-behera/rag-evaluation-lab-20261107",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Faisal620/Fintalk",
+      "summary": "⭐ 0 estrellas — AI-powered multilingual financial assistant for loan guidance using Gemini AI, Python and Next.js.",
+      "time": "41h",
+      "url": "https://github.com/Faisal620/Fintalk",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Hitgalani/Learning-Lab",
+      "summary": "⭐ 0 estrellas — My learning journey from Python basics to advanced programming, Machine Learning, and AI. Includes notes, practice, projects, and progress",
+      "time": "57h",
+      "url": "https://github.com/hitgalani/Learning-Lab",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Guruchiwate06/MarketVue",
+      "summary": "⭐ 0 estrellas — An AI-powered portfolio analytics platform for investment research, featuring natural-language SQL queries, sector exposure analysis, and",
+      "time": "55h",
+      "url": "https://github.com/guruchiwate06/MarketVue",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Zaneoox-dotcom/instaling.pl-bot",
+      "summary": "⭐ 1 estrellas — An AI-powered Node.js bot for automating Instaling.pl vocabulary exercises using Puppeteer, Google Gemini, and personalized input simulation.",
+      "time": "44h",
+      "url": "https://github.com/zaneoox-dotcom/instaling.pl-bot",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "SondosGafar/sondosgafar.github.io",
+      "summary": "⭐ 0 estrellas — Personal Portfolio website showcasing AI systems, Machine Learning pipelines, and Software Engineering projects.",
+      "time": "42h",
+      "url": "https://github.com/SondosGafar/sondosgafar.github.io",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "LeonTolentino30/AI-Video-Studio",
+      "summary": "⭐ 0 estrellas — Full-stack AI video generation platform powered by Python, Flask, SQLite, and the Runway API. Features real text-to-video generation, task",
+      "time": "57h",
+      "url": "https://github.com/LeonTolentino30/AI-Video-Studio",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Elyoryusufov/foundry_Ai-mastering-tool",
+      "summary": "⭐ 1 estrellas — i made it for myself for learning super-intelligence from pretty basic level. For years i have been searching for a program for learning AI but",
+      "time": "41h",
+      "url": "https://github.com/elyoryusufov/foundry_Ai-mastering-tool",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Alenpepaxx1/AELVOR",
+      "summary": "⭐ 1 estrellas — AELVOR — A modern AI and cybersecurity workspace with local CPU/GPU models, English and German chat, voice support, code generation, project",
+      "time": "47h",
+      "url": "https://github.com/alenpepaxx1/AELVOR",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Joniilmanfahmi00-collab/rusted-os",
+      "summary": "⭐ 1 estrellas — A Rust-first, AI-native Linux desktop operating system built on Fedora, focused on security, performance, and developer experience.",
+      "time": "59h",
+      "url": "https://github.com/joniilmanfahmi00-collab/rusted-os",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Nonsense3/Veriq",
+      "summary": "⭐ 1 estrellas — Verify before you trust. AI-powered phishing and scam detection with URL investigation, TLS certificate analysis, explainable risk reports, and",
+      "time": "38h",
+      "url": "https://github.com/nonsense3/Veriq",
+      "stars": "1"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Warint/quantitative-methods",
+      "summary": "⭐ 0 estrellas — Repo of the MATH60033A course at HEC Montréal. Enjoy!",
+      "time": "40h",
+      "url": "https://github.com/warint/quantitative-methods",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Chatgptopenaiagi/METAMORPHOSE-EXCELSIOR-ENGINE",
+      "summary": "⭐ 0 estrellas — Futuristic research concept for a universal cognitive engine that metamorphoses into new software systems according to human or AI intentions.",
+      "time": "57h",
+      "url": "https://github.com/chatgptopenaiagi/METAMORPHOSE-EXCELSIOR-ENGINE",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Valdislavn-spec/valdislavn-spec",
+      "summary": "⭐ 0 estrellas — Daily crypto, AI & US sports news in Telegram — English and Spanish channels",
+      "time": "40h",
+      "url": "https://github.com/valdislavn-spec/valdislavn-spec",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Investigación",
+      "content_type": "repo",
+      "title": "Rcarlgnds/sentio-instruction-slot-personalization",
+      "summary": "⭐ 0 estrellas — Code, result tables, per-row scores, and coded lecturer ratings for our IJIES paper on student-profile personalization in instruction-following",
+      "time": "50h",
+      "url": "https://github.com/rcarlgnds/sentio-instruction-slot-personalization",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Datweb07/sa-localbeam-eho-knapsack",
+      "summary": "⭐ 0 estrellas — Implementation and evaluation of Simulated Annealing combined with Local Beam Search and Elephant Herding Optimization for the Knapsack Problem",
+      "time": "58h",
+      "url": "https://github.com/datweb07/sa-localbeam-eho-knapsack",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "TheVicky1/Aurora",
+      "summary": "⭐ 0 estrellas — An intelligent lunar geospatial analysis platform for evaluating, visualizing, and comparing candidate landing sites through terrain",
+      "time": "51h",
+      "url": "https://github.com/TheVicky1/Aurora",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "H0ffmann/awesome-neurosymbolic-ai",
+      "summary": "⭐ 0 estrellas — when Symbolic AI meets DNN",
+      "time": "43h",
+      "url": "https://github.com/h0ffmann/awesome-neurosymbolic-ai",
+      "stars": "0"
+    }
+  ]
+}

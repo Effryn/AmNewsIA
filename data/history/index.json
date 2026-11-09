@@ -2,8 +2,20 @@
   {
     "date": "2026-11-09",
     "date_label": "9 de noviembre de 2026",
-    "new_articles": 0,
-    "duration_label": "—"
+    "new_articles": 123,
+    "duration_label": "2:36"
+  },
+  {
+    "date": "2026-11-08",
+    "date_label": "8 de noviembre de 2026",
+    "new_articles": 25,
+    "duration_label": "2:29"
+  },
+  {
+    "date": "2026-11-07",
+    "date_label": "7 de noviembre de 2026",
+    "new_articles": 20,
+    "duration_label": "2:40"
   },
   {
     "date": "2026-11-06",
