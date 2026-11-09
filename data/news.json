@@ -9,7 +9,7 @@
   "stats": {
     "new_articles": 123,
     "sources": 44,
-    "updated_label": "09:41"
+    "updated_label": "10:11"
   },
   "iaday": {
     "reading_minutes": "74 min",
@@ -46,7 +46,7 @@
       "content_type": "repo",
       "title": "Karthik-ctrl25/AI-Incident-Response-Agent",
       "summary": "⭐ 2 estrellas — AI-powered incident response agent using Groq for log analysis and Hindsight memory to retrieve verified historical incidents and recommend",
-      "time": "67h",
+      "time": "68h",
       "url": "https://github.com/Karthik-ctrl25/AI-Incident-Response-Agent",
       "stars": "2"
     },
@@ -58,7 +58,7 @@
       "content_type": "repo",
       "title": "Ctianye/CodeSlice",
       "summary": "⭐ 11 estrellas — Local-first AI code-reading desktop app with navigable source citations and human-approved actions.",
-      "time": "46h",
+      "time": "47h",
       "url": "https://github.com/ctianye/CodeSlice",
       "stars": "11"
     },
@@ -70,7 +70,7 @@
       "content_type": "repo",
       "title": "Byte-od/mixture-of-scars",
       "summary": "⭐ 3 estrellas — Breaking the barrier between LLMs and hardware. Mixture of Scars (MoS) static weight compression & SCache O(1) constant KV-cache replacement.",
-      "time": "31h",
+      "time": "32h",
       "url": "https://github.com/byte-od/mixture-of-scars",
       "stars": "3"
     },
@@ -94,7 +94,7 @@
       "content_type": "repo",
       "title": "WebDMX/followspot-AI",
       "summary": "⭐ 2 estrellas — Tool for using moving lights as followspots based on video camera image.",
-      "time": "24h",
+      "time": "25h",
       "url": "https://github.com/webDMX/followspot-AI",
       "stars": "2"
     },
@@ -106,7 +106,7 @@
       "content_type": "paper",
       "title": "Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use",
       "summary": "LLM agents can exceed their authorization boundaries while pursuing user goals without an adversary. We formalize this phenomenon as authorization drift across",
-      "time": "81h",
+      "time": "82h",
       "url": "https://huggingface.co/papers/2611.09113"
     },
     {
@@ -117,7 +117,7 @@
       "content_type": "repo",
       "title": "OlehDatsyk/visionguard-ai-visual-inspection",
       "summary": "⭐ 1 estrellas — AI-powered visual inspection platform using computer vision, object detection, defect analysis and intelligent image comparison.",
-      "time": "39h",
+      "time": "40h",
       "url": "https://github.com/OlehDatsyk/visionguard-ai-visual-inspection",
       "stars": "1"
     },
@@ -165,7 +165,7 @@
       "content_type": "repo",
       "title": "Priyarengasamy24-cmyk/EduGuard-AI-Intelligent-Proctoring",
       "summary": "⭐ 0 estrellas — AI-powered intelligent online exam proctoring system using Machine Learning to detect suspicious student behaviour through eye gaze, audio",
-      "time": "49h",
+      "time": "50h",
       "url": "https://github.com/priyarengasamy24-cmyk/EduGuard-AI-Intelligent-Proctoring",
       "stars": "0"
     },
@@ -189,7 +189,7 @@
       "content_type": "repo",
       "title": "Aro-1790/foo_plops",
       "summary": "⭐ 0 estrellas — PLOPS: PLaylist OPerationS for fb2k - \"The sound of your bathroom visit™\"",
-      "time": "8h",
+      "time": "9h",
       "url": "https://github.com/aro-1790/foo_plops",
       "stars": "0"
     },
@@ -201,7 +201,7 @@
       "content_type": "repo",
       "title": "Theinsidecoder/concord",
       "summary": "⭐ 0 estrellas — A zero-dependency, open-source AI engine that detects contradictions, inconsistencies, and conflicting claims across teams, documents, and",
-      "time": "1h",
+      "time": "2h",
       "url": "https://github.com/theinsidecoder/concord",
       "stars": "0"
     },
@@ -213,7 +213,7 @@
       "content_type": "repo",
       "title": "Aro-1790/foo_playback_custom",
       "summary": "⭐ 0 estrellas — Freebuff-driven sadness pile of a plugin decomp",
-      "time": "10h",
+      "time": "11h",
       "url": "https://github.com/aro-1790/foo_playback_custom",
       "stars": "0"
     },
@@ -225,7 +225,7 @@
       "content_type": "repo",
       "title": "Saratcsk/po-intelligence",
       "summary": "⭐ 0 estrellas —",
-      "time": "10h",
+      "time": "11h",
       "url": "https://github.com/saratcsk/po-intelligence",
       "stars": "0"
     },
@@ -261,7 +261,7 @@
       "content_type": "repo",
       "title": "Anushkayadav4827/StockSense-AI",
       "summary": "⭐ 0 estrellas — Enterprise-grade global stock market intelligence & quantitative risk analytics platform powered by live multi-exchange data feeds, econometric",
-      "time": "ahora",
+      "time": "1h",
       "url": "https://github.com/anushkayadav4827/StockSense-AI",
       "stars": "0"
     },
@@ -273,7 +273,7 @@
       "content_type": "paper",
       "title": "RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
       "summary": "RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt. The lower layers run exactly up to a split; from the split layer's",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2611.09709v1",
       "arxiv": "2611.09709v1"
     },
@@ -285,7 +285,7 @@
       "content_type": "paper",
       "title": "Where to Connect? Boosting MLLMs via Dynamic Gated Pathways across ALL ViT and LLM Layers",
       "summary": "A central yet under-explored question in Multimodal Large Language Models (MLLMs) is where to connect---how visual information from a hierarchical vision",
-      "time": "137h",
+      "time": "138h",
       "url": "https://huggingface.co/papers/2611.06844"
     },
     {
@@ -296,7 +296,7 @@
       "content_type": "paper",
       "title": "AutoCompress: Automated Hardware-Guided Model Compression",
       "summary": "LLM pruning must preserve quality while meeting hardware- and workload-specific constraints on latency, throughput, and memory. Existing pruning workflows",
-      "time": "96h",
+      "time": "97h",
       "url": "https://huggingface.co/papers/2611.08290"
     },
     {
@@ -318,7 +318,7 @@
       "content_type": "paper",
       "title": "When Instruction Files Go Stale: Documentation Debt and Hidden Cost in Coding Agents",
       "summary": "LLM-based coding agents such as Claude Code are guided by repository instruction files (also called context files or agent configuration files) like AGENTS.md",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2611.09802v1",
       "arxiv": "2611.09802v1"
     },
@@ -330,7 +330,7 @@
       "content_type": "paper",
       "title": "How Much Conversation History Does an AI Agent Need?",
       "summary": "How does using less conversational history change reader-token use and benchmark scores? We examine this question on 1,100 BEAM questions. We held the",
-      "time": "68h",
+      "time": "69h",
       "url": "https://arxiv.org/abs/2611.09662v1",
       "arxiv": "2611.09662v1"
     },
@@ -342,7 +342,7 @@
       "content_type": "paper",
       "title": "\"PRISM\" Is Not All You Need: Cross-Topic Name Collisions and Scientific Paper Retrieval",
       "summary": "Scientific names increasingly connect papers from different research topics, leaving readers to recover a paper's identity from context. We study this",
-      "time": "208h",
+      "time": "209h",
       "url": "https://huggingface.co/papers/2611.01362"
     },
     {
@@ -353,7 +353,7 @@
       "content_type": "paper",
       "title": "LLMs Don't Know What They Know: Benchmarking Temporal Self-Knowledge for Financial Backtesting",
       "summary": "Financial backtests of large language models (LLMs) are meaningful only if the model did not already know the outcomes it is asked to predict. Practitioners",
-      "time": "137h",
+      "time": "138h",
       "url": "https://huggingface.co/papers/2611.06808"
     },
     {
@@ -397,7 +397,7 @@
       "content_type": "paper",
       "title": "Fast and Exact Relative-Position Attention via Structure-Aware Kernels",
       "summary": "Relative-position attention mechanisms offer compelling alternatives to RoPE across various transformer architectures, delivering superior performance in",
-      "time": "232h",
+      "time": "233h",
       "url": "https://huggingface.co/papers/2611.01182"
     },
     {
@@ -408,7 +408,7 @@
       "content_type": "paper",
       "title": "Learning to evolve by matching velocities",
       "summary": "Learning the continuous-time evolution of nonlinear dynamical systems relies on trajectory-based objectives, which require simulating the learned dynamics",
-      "time": "233h",
+      "time": "234h",
       "url": "https://huggingface.co/papers/2611.00448"
     },
     {
@@ -419,7 +419,7 @@
       "content_type": "paper",
       "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
       "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a",
-      "time": "164h",
+      "time": "165h",
       "url": "https://huggingface.co/papers/2611.03953"
     },
     {
@@ -441,7 +441,7 @@
       "content_type": "paper",
       "title": "OneTrans-GSR: A Generative Slate Ranking Paradigm Unifying Reranking and Mix-Ranking with One Autoregressive Transformer",
       "summary": "Industrial recommender systems allocate substantial computation to pointwise candidate scoring, yet separate reranking and mix-ranking stages still assemble",
-      "time": "161h",
+      "time": "162h",
       "url": "https://huggingface.co/papers/2611.04720"
     },
     {
@@ -452,7 +452,7 @@
       "content_type": "paper",
       "title": "PREEN: Exemplar-Based Color Style Transfer with Smartphone Editor Presets",
       "summary": "We present PREEN (Preset Regression via an Exemplar-based Editor Network), which casts color style transfer as regression onto the 29 parameters of a",
-      "time": "328h",
+      "time": "329h",
       "url": "https://huggingface.co/papers/2610.36896"
     },
     {
@@ -463,7 +463,7 @@
       "content_type": "paper",
       "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
       "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2611.09891v1",
       "arxiv": "2611.09891v1"
     },
@@ -499,7 +499,7 @@
       "content_type": "paper",
       "title": "Maya a1: Do the Options Read the Model, or Does Their Position? Order Sensitivity in a Non-Autoregressive Decision Model",
       "summary": "Laya answers typed multiple-choice questions in one forward pass by scoring a hidden state at one [MASK] marker per option. We re-engineer the checkpoint (421M",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2611.09803v1",
       "arxiv": "2611.09803v1"
     },
@@ -523,7 +523,7 @@
       "content_type": "paper",
       "title": "MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory",
       "summary": "LLM agents benefit from using memory systems to improve performance on long-horizon, multi-session tasks. However, memory introduces a critical attack surface.",
-      "time": "67h",
+      "time": "68h",
       "url": "https://arxiv.org/abs/2611.09721v1",
       "arxiv": "2611.09721v1"
     },
@@ -535,7 +535,7 @@
       "content_type": "paper",
       "title": "Query-Guided RoPE Modulation for Lost-in-the-Middle Mitigation in Long-Context LLMs",
       "summary": "Long-context language models often neglect information in the middle of the input, a phenomenon known as \"lost-in-the-middle\". Part of this gap may stem from",
-      "time": "69h",
+      "time": "70h",
       "url": "https://arxiv.org/abs/2611.09554v1",
       "arxiv": "2611.09554v1"
     },
@@ -559,7 +559,7 @@
       "content_type": "paper",
       "title": "On Agentic Manipulation Policies",
       "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2611.09892v1",
       "arxiv": "2611.09892v1"
     },
@@ -583,7 +583,7 @@
       "content_type": "paper",
       "title": "Compaction, decay and reinforcement in a two-tier conversational memory: a paired evaluation against retrieval-augmented generation",
       "summary": "A conversational agent that remembers has to decide what to keep. Retrieval-augmented generation keeps the transcript and searches it; the alternative is to",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2611.09807v1",
       "arxiv": "2611.09807v1"
     },
@@ -631,7 +631,7 @@
       "content_type": "paper",
       "title": "Knowing When to Intervene: Causal Evaluation of AI Agents",
       "summary": "Current evaluations of agentic AI systems primarily rely on benchmarks. However, the static nature of benchmarks makes them uninformative about the value of",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2611.09792v1",
       "arxiv": "2611.09792v1"
     },
@@ -643,7 +643,7 @@
       "content_type": "paper",
       "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
       "summary": "Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2611.09894v1",
       "arxiv": "2611.09894v1"
     },
@@ -667,7 +667,7 @@
       "content_type": "paper",
       "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
       "summary": "Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2611.09872v1",
       "arxiv": "2611.09872v1"
     },
@@ -679,7 +679,7 @@
       "content_type": "paper",
       "title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description",
       "summary": "Purpose: Surgical operative reports support procedural documentation, surgical training, performance assessment, and workflow review. However, extracting",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2611.09866v1",
       "arxiv": "2611.09866v1"
     },
@@ -691,7 +691,7 @@
       "content_type": "paper",
       "title": "Flow-Guided Target-Space Alignment via Path Consistency",
       "summary": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2611.09863v1",
       "arxiv": "2611.09863v1"
     },
@@ -703,7 +703,7 @@
       "content_type": "paper",
       "title": "Discovering formally verified quantum programs with AI",
       "summary": "The timeline by which quantum computers can solve breakthrough problems in science depends on improved quantum algorithms as much as on better hardware. Such",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2611.09822v1",
       "arxiv": "2611.09822v1"
     },
@@ -715,7 +715,7 @@
       "content_type": "paper",
       "title": "Generative Latent Priors for Interpreting and Steering Protein Language Models",
       "summary": "Dominant methods for interpreting large models impose strong structural assumptions. Generative Latent Priors (GLP) are a complementary approach: a diffusion",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2611.09818v1",
       "arxiv": "2611.09818v1"
     },
@@ -727,7 +727,7 @@
       "content_type": "paper",
       "title": "Are These Programmers Ripe Enough to Eat? Evaluating How LLMs Handle Lexical Knowledge Conflicts in Translation",
       "summary": "External lexical resources can help large language models (LLMs) translate texts in low-resource languages and specialized domains, but these resources may",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2611.09785v1",
       "arxiv": "2611.09785v1"
     },
@@ -739,7 +739,7 @@
       "content_type": "paper",
       "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
       "summary": "Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent,",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2611.09882v1",
       "arxiv": "2611.09882v1"
     },
@@ -751,7 +751,7 @@
       "content_type": "paper",
       "title": "ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Representations",
       "summary": "Zeolites are an important class of porous crystalline materials with broad applications in gas storage, separations, and catalysis. Although hundreds of",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2611.09880v1",
       "arxiv": "2611.09880v1"
     },
@@ -763,7 +763,7 @@
       "content_type": "paper",
       "title": "Scaling Graph Similarity Learning with Graph Neural Networks",
       "summary": "Graph similarity computation is an important task in graph mining with many real-world applications, such as chemical compound analysis, program dependence",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2611.09805v1",
       "arxiv": "2611.09805v1"
     },
@@ -775,7 +775,7 @@
       "content_type": "paper",
       "title": "Test-Time Compute Scales Better with Parallel Agent Teams",
       "summary": "Test-time scaling improves the performance of a fixed model by spending more computation at inference. There are two common ways to spend it on agents when a",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2611.09798v1",
       "arxiv": "2611.09798v1"
     },
@@ -787,7 +787,7 @@
       "content_type": "paper",
       "title": "CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs",
       "summary": "Large reasoning models (LRMs) improve task performance by generating longer intermediate reasoning traces, but this substantially increases inference costs and",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2611.09868v1",
       "arxiv": "2611.09868v1"
     },
@@ -835,7 +835,7 @@
       "content_type": "paper",
       "title": "BEV3SR: Evidence-Aware 3D Spatial Reasoning from Video",
       "summary": "3D spatial reasoning from video remains challenging for VLMs because videos provide sequential, view-local observations rather than persistent metric scene",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2611.09816v1",
       "arxiv": "2611.09816v1"
     },
@@ -847,7 +847,7 @@
       "content_type": "paper",
       "title": "Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation",
       "summary": "When should a robot look at the cup, and when at the portafilter? Spatial-reasoning benchmarks evaluate whether a model can describe a scene, but manipulation",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2611.09794v1",
       "arxiv": "2611.09794v1"
     },
@@ -859,7 +859,7 @@
       "content_type": "paper",
       "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
       "summary": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2611.09864v1",
       "arxiv": "2611.09864v1"
     },
@@ -883,7 +883,7 @@
       "content_type": "paper",
       "title": "Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters",
       "summary": "Language model deployment often requires different trade-offs between competing objectives as user preferences change, yet standard post-training methods",
-      "time": "68h",
+      "time": "69h",
       "url": "https://arxiv.org/abs/2611.09634v1",
       "arxiv": "2611.09634v1"
     },
@@ -895,7 +895,7 @@
       "content_type": "paper",
       "title": "On the (non-)closedness of the set of ReLU networks",
       "summary": "We prove that the set $\\mathcal{N}_N$ of ReLU networks with one hidden layer and at most $N\\in\\mathbb N$ neurons is weakly closed in $W^{1,p}(Ω)$, for a",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2611.09887v1",
       "arxiv": "2611.09887v1"
     },
@@ -907,7 +907,7 @@
       "content_type": "paper",
       "title": "Graded convolutional networks: scale invariance without the scale and robustness to unknown blur",
       "summary": "The Gaussian jet of an image is a graded vector space: a dilation by $λ$ multiplies derivatives of order $k$ by $λ^{-k}$. Local graded convolutions are exactly",
-      "time": "65h",
+      "time": "66h",
       "url": "https://arxiv.org/abs/2611.09878v1",
       "arxiv": "2611.09878v1"
     },
@@ -919,7 +919,7 @@
       "content_type": "paper",
       "title": "Machine learning for lattice QCD",
       "summary": "Machine learning (ML) methods have been explored as a means of optimizing lattice field theory calculations, with increasing interest in recent years. This",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2611.09817v1",
       "arxiv": "2611.09817v1"
     },
@@ -931,7 +931,7 @@
       "content_type": "paper",
       "title": "The Cost of Coverage: Conformalising Native Forecast Uncertainty for GB Wind Power",
       "summary": "Uncertainty bands on wind forecasts help inform reserve sizing and commitments, but often fail to deliver their stated coverage. We apply conformal prediction",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2611.09815v1",
       "arxiv": "2611.09815v1"
     },
@@ -967,7 +967,7 @@
       "content_type": "paper",
       "title": "AR-Edit: Training-Free Autoregressive Video Editing without Inversion",
       "summary": "Editing a video stream in real time, without access to future frames, is essential for interactive applications. Existing training-free video editing methods,",
-      "time": "66h",
+      "time": "67h",
       "url": "https://arxiv.org/abs/2611.09795v1",
       "arxiv": "2611.09795v1"
     },
@@ -979,7 +979,7 @@
       "content_type": "video",
       "title": "La app de DeepSeek es una BESTIA (y cuesta céntimos)",
       "summary": "🔐 Certificado Profesional de Ciberseguridad de Google: https://imp.i384100.net/E06K2K 🎓 Accede a más de 10.000 cursos y certificaciones con Coursera Plus.",
-      "time": "20h",
+      "time": "21h",
       "url": "https://www.youtube.com/watch?v=QZZxRzp0s8s"
     },
     {
@@ -1001,7 +1001,7 @@
       "content_type": "video",
       "title": "Fundamentos de programación que no tienen versión",
       "summary": "Arriba está lo que cambia cada semana: el modelo nuevo, la herramienta nueva, el prompt mágico. En el medio, lo que cambia cada uno o dos años: frameworks y",
-      "time": "43h",
+      "time": "44h",
       "url": "https://www.youtube.com/shorts/EKGkjQY5A7k"
     },
     {
@@ -1012,7 +1012,7 @@
       "content_type": "video",
       "title": "La IA crea modelos 3D en Blender 🚀 Cómo profesionalizar tus diseños con MCP",
       "summary": "En este video aprenderás cómo la IA crea modelos 3D en Blender de forma automatizada para profesionalizar tus proyectos de videojuegos. Veremos cómo conectar",
-      "time": "43h",
+      "time": "44h",
       "url": "https://www.youtube.com/watch?v=e7ziROaD0ZQ"
     },
     {
@@ -1023,7 +1023,7 @@
       "content_type": "video",
       "title": "Consigue prospectos automáticamente con este tip 🤩💻",
       "summary": "¿Quieres tener una lista de potenciales clientes cada mañana sin pasar horas buscándolos manualmente? 🤯 📌 Con ChatGPT y ScrapGraphAI puedes crear un sistema",
-      "time": "ahora",
+      "time": "1h",
       "url": "https://www.youtube.com/shorts/f5N0FShRUeU"
     },
     {
@@ -1034,7 +1034,7 @@
       "content_type": "video",
       "title": "El nuevo asistente de marketing para campañas 🚀",
       "summary": "¿Y si pudieras analizar tus campañas publicitarias utilizando un asistente de IA? Esto te interesa. 👀‼️ Con Composio puedes conectar plataformas como Meta Ads,",
-      "time": "23h",
+      "time": "24h",
       "url": "https://www.youtube.com/shorts/WtVY9u0JnEw"
     },
     {
@@ -1045,7 +1045,7 @@
       "content_type": "video",
       "title": "¿Llegaste al límite en Claude? Pásate a Codex ⚡️",
       "summary": "¿Te quedaste sin mensajes en Claude y no quieres perder el progreso de tu proyecto? 🤔 🚨 Si trabajas con ChatGPT y Codex, puedes utilizar la función de",
-      "time": "46h",
+      "time": "47h",
       "url": "https://www.youtube.com/shorts/_HYNAoPAB1M"
     },
     {
@@ -1056,7 +1056,7 @@
       "content_type": "video",
       "title": "Un millón de tokens: por qué los fundamentos te ahorran el hype",
       "summary": "Cada cosa nueva de arriba es una combinación de cosas de abajo. Cuando salió el millón de tokens, el que sabía qué es la ventana de contexto lo entendió en 5",
-      "time": "19h",
+      "time": "20h",
       "url": "https://www.youtube.com/shorts/0yw2-Yn3I6c"
     },
     {
@@ -1078,7 +1078,7 @@
       "content_type": "video",
       "title": "¿La IA te hace peor programador? Depende de cómo la usás",
       "summary": "Te vuelve peor programador si dejás de pensar. Con la misma herramienta unos sacaron menos de 40 y otros 65 o más, según cómo la usaron. La diferencia no",
-      "time": "64h",
+      "time": "65h",
       "url": "https://www.youtube.com/shorts/_q0X76zpBSA"
     },
     {
@@ -1089,7 +1089,7 @@
       "content_type": "video",
       "title": "¿Estás atrás con la IA? Solo el 21,7% de las empresas la usa",
       "summary": "En Estados Unidos, según el dato del Census Bureau publicado en julio de 2026, solo el 21,7% de las empresas usaba IA: una de cada cinco. En Europa, en 2025,",
-      "time": "67h",
+      "time": "68h",
       "url": "https://www.youtube.com/shorts/sitseljK4yA"
     },
     {
@@ -1100,7 +1100,7 @@
       "content_type": "news",
       "title": "Claude Code guardaba tu correo para saber quién eres. Algunas webs acabaron recibiéndolo",
       "summary": "<p> <img",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.xataka.com/robotica-e-ia/claude-code-guardaba-tu-correo-para-saber-quien-eres-algunas-webs-acabaron-recibiendolo"
     },
     {
@@ -1122,7 +1122,7 @@
       "content_type": "news",
       "title": "0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP",
       "summary": "<p>0sec Labs has open-sourced 0, an AI security harness for code review, pentesting, reverse engineering and fixes. It runs locally through a browser console,",
-      "time": "4h",
+      "time": "5h",
       "url": "https://www.marktechpost.com/2026/11/08/0sec-labs-open-sources-0-ai-security-harness/"
     },
     {
@@ -1133,7 +1133,7 @@
       "content_type": "news",
       "title": "Lituania tiene 2,9 millones de habitantes pero compite con China fabricando láseres para chips de IA en serie",
       "summary": "<p> <img",
-      "time": "47h",
+      "time": "48h",
       "url": "https://www.xataka.com/componentes/lituania-tiene-2-9-millones-habitantes-compite-china-fabricando-laseres-para-chips-ia-serie"
     },
     {
@@ -1155,7 +1155,7 @@
       "content_type": "release",
       "title": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
       "summary": "<p>Google's Elephant-Goldfish Model plugin makes coding agents draft specs, then runs 5 zero-context review stages before any code.</p> <p>The post <a",
-      "time": "25h",
+      "time": "26h",
       "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/"
     },
     {
@@ -1166,7 +1166,7 @@
       "content_type": "news",
       "title": "Measuring how AI agents handle everyday wet-lab science",
       "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-      "time": "84h",
+      "time": "85h",
       "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
     },
     {
@@ -1177,7 +1177,7 @@
       "content_type": "news",
       "title": "El mando de mi tele tiene botones que no utilizo. Le he pedido a la IA que los cambie por las apps que sí uso",
       "summary": "<p> <img",
-      "time": "23h",
+      "time": "24h",
       "url": "https://www.xataka.com/robotica-e-ia/mando-mi-tele-tiene-botones-que-no-utilizo-le-he-pedido-a-ia-que-cambie-apps-que-uso"
     },
     {
@@ -1188,7 +1188,7 @@
       "content_type": "news",
       "title": "Creíamos que la IA iba a escribir por nosotros, pero donde ChatGPT está creciendo más en España es como buscador",
       "summary": "<p> <img",
-      "time": "51h",
+      "time": "52h",
       "url": "https://www.xataka.com/robotica-e-ia/creiamos-que-ia-iba-a-escribir-nosotros-donde-chagpt-esta-creciendo-espana-como-buscador"
     },
     {
@@ -1199,7 +1199,7 @@
       "content_type": "release",
       "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
       "summary": "<p>Nous Research released Arete-27B, an Apache 2.0 fine-tune of Qwen3.8-27B. On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0.9% while Hermes",
-      "time": "31h",
+      "time": "32h",
       "url": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/"
     },
     {
@@ -1210,7 +1210,7 @@
       "content_type": "news",
       "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
       "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese",
-      "time": "13h",
+      "time": "14h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
     },
     {
@@ -1232,7 +1232,7 @@
       "content_type": "news",
       "title": "\"Debo una disculpa a mi familia\": Jensen Huang confiesa su infidelidad mientras Nvidia investiga un posible espionaje chino",
       "summary": "<p> <img",
-      "time": "13h",
+      "time": "14h",
       "url": "https://www.xataka.com/empresas-y-economia/debo-disculpa-a-mi-familia-jensen-huang-confiesa-su-infidelidad-nvidia-investiga-posible-espionaje-chino"
     },
     {
@@ -1265,7 +1265,7 @@
       "content_type": "news",
       "title": "Hitachi Energy combina su experiencia industrial con la inteligencia de procesos de Celonis",
       "summary": "Extiende su colaboración para acelerar la excelencia operativa con inteligencia artificial.",
-      "time": "2h",
+      "time": "3h",
       "url": "https://www.silicon.es/hitachi-energy-combina-su-experiencia-industrial-con-la-inteligencia-de-procesos-de-celonis-2585878"
     },
     {
@@ -1320,7 +1320,7 @@
       "content_type": "news",
       "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
       "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "time": "76h",
+      "time": "77h",
       "url": "https://openai.com/index/partnering-with-hacktron"
     },
     {
@@ -1331,7 +1331,7 @@
       "content_type": "news",
       "title": "8 de cada de 10 empresas no despliegan protocolos de seguridad cibernética para sus proyectos de IA",
       "summary": "Entre los riesgos actuales destaca el uso de herramientas públicas por parte de los empleados sin autorización ni supervisión.",
-      "time": "1h",
+      "time": "2h",
       "url": "https://www.silicon.es/8-de-cada-de-10-empresas-no-despliegan-protocolos-de-seguridad-cibernetica-para-sus-proyectos-de-ia-2585886"
     },
     {
@@ -1342,7 +1342,7 @@
       "content_type": "news",
       "title": "Llega Cloudera Blueprints para llevar las aplicaciones de IA a producción",
       "summary": "El nuevo portfolio de soluciones listas para usar de Cloudera ayuda a las empresas a desarrollar aplicaciones con sus propios datos.",
-      "time": "3h",
+      "time": "4h",
       "url": "https://www.silicon.es/llega-cloudera-blueprints-para-llevar-las-aplicaciones-de-ia-a-produccion-2585798"
     },
     {
@@ -1386,7 +1386,7 @@
       "content_type": "news",
       "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
       "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain,",
-      "time": "44h",
+      "time": "45h",
       "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review"
     },
     {
@@ -1397,7 +1397,7 @@
       "content_type": "news",
       "title": "The US let Nvidia sell chips to an empty office in China",
       "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to",
-      "time": "44h",
+      "time": "45h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
     },
     {
@@ -1408,7 +1408,7 @@
       "content_type": "news",
       "title": "AI broke the cybersecurity world. What’s next?",
       "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This",
-      "time": "45h",
+      "time": "46h",
       "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos"
     },
     {
@@ -1430,7 +1430,7 @@
       "content_type": "news",
       "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
       "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the",
-      "time": "60h",
+      "time": "61h",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
     },
     {
@@ -1441,7 +1441,7 @@
       "content_type": "news",
       "title": "China reportedly recruited AI exec to spy on Jensen Huang",
       "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State",
-      "time": "61h",
+      "time": "62h",
       "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
     }
   ]
