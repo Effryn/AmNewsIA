@@ -9,7 +9,7 @@
   "stats": {
     "new_articles": 103,
     "sources": 44,
-    "updated_label": "10:17"
+    "updated_label": "10:32"
   },
   "iaday": {
     "reading_minutes": "62 min",
@@ -45,7 +45,7 @@
       "content_type": "repo",
       "title": "Husseinawalalb-coder/documind-ai",
       "summary": "⭐ 0 estrellas — AI-powered PDF question-answering application using Retrieval-Augmented Generation (RAG), LLMs, and Streamlit.",
-      "time": "14h",
+      "time": "15h",
       "url": "https://github.com/husseinawalalb-coder/documind-ai",
       "stars": "0"
     },
@@ -80,7 +80,7 @@
       "content_type": "repo",
       "title": "Joedejesus/JJ_ML_DL_BOOK",
       "summary": "⭐ 1 estrellas — Recurso educativo en español sobre Data Science, Machine Learning, Deep Learning, NLP y Transformers con Python, PyTorch y Jupyter.",
-      "time": "26h",
+      "time": "27h",
       "url": "https://github.com/joedejesus/JJ_ML_DL_BOOK",
       "stars": "1"
     },
@@ -92,7 +92,7 @@
       "content_type": "repo",
       "title": "Kokoc30/Auto-Stitch",
       "summary": "⭐ 49 estrellas — AI-powered video editing platform for transforming long-form content into short, engaging videos. Public product showcase.",
-      "time": "64h",
+      "time": "65h",
       "url": "https://github.com/kokoc30/Auto-Stitch",
       "stars": "49"
     },
@@ -127,7 +127,7 @@
       "content_type": "repo",
       "title": "Kevinrn-info/Engineering-Data-Analysis_Sales-Overview",
       "summary": "⭐ 0 estrellas — Final Project: Engineering Data Analysis – End-to-end data lifecycle analysis with AI.",
-      "time": "117h",
+      "time": "118h",
       "url": "https://github.com/Kevinrn-info/Engineering-Data-Analysis_Sales-Overview",
       "stars": "0"
     },
@@ -274,7 +274,7 @@
       "content_type": "paper",
       "title": "InstantHMR : Real-Time Human Mesh Recovery on Your Phone",
       "summary": "Real-time 3D human mesh recovery from a single image on mobile devices is a challenging problem with many applications, including robotics, biomechanics,",
-      "time": "104h",
+      "time": "105h",
       "url": "https://huggingface.co/papers/2611.09195"
     },
     {
@@ -296,7 +296,7 @@
       "content_type": "paper",
       "title": "FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning",
       "summary": "Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives roll out the current policy at every",
-      "time": "121h",
+      "time": "122h",
       "url": "https://huggingface.co/papers/2611.08240"
     },
     {
@@ -415,7 +415,7 @@
       "content_type": "paper",
       "title": "MaxIM: Maximally Informative Incremental Summarization via Reinforcement Learning",
       "summary": "AI systems must often maintain bounded memory of unbounded interaction histories. However, optimizing the memory representation, and its updates, for",
-      "time": "18h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2611.12825v1",
       "arxiv": "2611.12825v1"
     },
@@ -439,7 +439,7 @@
       "content_type": "paper",
       "title": "$Σ$-LeWM: Learning World Models via S-Information for Robot Control",
       "summary": "World models have increasingly been applied as a model-based control method for robotics tasks such as manipulation and locomotion. While early world model",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2611.12732v1",
       "arxiv": "2611.12732v1"
     },
@@ -547,7 +547,7 @@
       "content_type": "paper",
       "title": "LUCQUE: A lung cancer screening dataset from Québec for reliable AI evaluation",
       "summary": "BACKGROUND: AI-based tools are expected to play a key role in lung cancer screening (LCS). The evaluation of these tools often relied on private datasets or",
-      "time": "18h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2611.12817v1",
       "arxiv": "2611.12817v1"
     },
@@ -559,7 +559,7 @@
       "content_type": "paper",
       "title": "Automated Knowledge Acquisition Pipeline for Disassembly Instructions: A Comparison of NLP and Generative AI Frameworks",
       "summary": "The push towards circularity and Re-X principles presents a challenge to SMEs, particularly due to increasing product complexity that impedes the adoption of",
-      "time": "18h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2611.12816v1",
       "arxiv": "2611.12816v1"
     },
@@ -583,7 +583,7 @@
       "content_type": "paper",
       "title": "How Well Does AI Peer Review Work? A Benchmark Built from 100 Planted Errors",
       "summary": "One hundred known errors were planted into 10 open-access psychology papers, and the modified papers were then run through frontier models and two commercial",
-      "time": "18h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2611.12820v1",
       "arxiv": "2611.12820v1"
     },
@@ -595,7 +595,7 @@
       "content_type": "paper",
       "title": "Curbside Chatbots: Auditing the Mental Health Interventions Large Language Models Recommend to Clinicians, Caregivers, and Patients",
       "summary": "Users are asking language models mental health questions and are receiving answers. We audited what 41 language models recommend to users when the same",
-      "time": "18h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2611.12814v1",
       "arxiv": "2611.12814v1"
     },
@@ -631,7 +631,7 @@
       "content_type": "paper",
       "title": "Inversion-Free High-Dimensional Counterfactual Inference",
       "summary": "Counterfactual inference is the task of answering hypothetical \"what-if\" queries about a unit, given an observational dataset, modeling assumptions, and a",
-      "time": "18h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2611.12815v1",
       "arxiv": "2611.12815v1"
     },
@@ -679,7 +679,7 @@
       "content_type": "paper",
       "title": "Plant Orbiter: 3D Plant Reconstruction and Generation with Video Diffusion Orbit Cameras and 3D Gaussian Splatting",
       "summary": "Modern digital phenotyping pipelines require the precise measurement of a range of 3D morphological plant traits. The accurate, high throughput acquisition of",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2611.12739v1",
       "arxiv": "2611.12739v1"
     },
@@ -703,7 +703,7 @@
       "content_type": "paper",
       "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
       "summary": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions,",
-      "time": "19h",
+      "time": "20h",
       "url": "https://arxiv.org/abs/2611.12750v1",
       "arxiv": "2611.12750v1"
     },
@@ -763,7 +763,7 @@
       "content_type": "paper",
       "title": "What the Loss Curve Misses: FP4 Pretraining Slows the Acquisition of Rare Facts",
       "summary": "Low-precision pretraining is usually judged by validation loss. We ask whether matching loss also means learning rare facts as efficiently. We train",
-      "time": "18h",
+      "time": "19h",
       "url": "https://arxiv.org/abs/2611.12832v1",
       "arxiv": "2611.12832v1"
     },
@@ -867,7 +867,7 @@
       "content_type": "news",
       "title": "Una startup paga 20 dólares la hora por pasear perros robot",
       "summary": "<p> <img alt=\"Una&#x20;startup&#x20;paga&#x20;20&#x20;d&#x00F3;lares&#x20;la&#x20;hora&#x20;por&#x20;pasear&#x20;perros&#x20;robot&#x20;\"",
-      "time": "6h",
+      "time": "7h",
       "url": "https://www.xataka.com/robotica-e-ia/startup-paga-20-dolares-hora-pasear-perros-robot"
     },
     {
@@ -933,7 +933,7 @@
       "content_type": "news",
       "title": "Anthropic pidió frenar el desarrollo de la IA, pero su IA está avanzando el doble de rápido que el año pasado",
       "summary": "<p> <img",
-      "time": "24h",
+      "time": "25h",
       "url": "https://www.xataka.com/robotica-e-ia/anthropic-pidio-frenar-desarrollo-ia-su-ia-esta-avanzando-doble-rapido-que-ano-pasado"
     },
     {
@@ -977,7 +977,7 @@
       "content_type": "news",
       "title": "El empleo en programación y consultoría informática marca máximo histórico en la EPA: por ahora no llega la temida caída por la IA",
       "summary": "<p> <img",
-      "time": "22h",
+      "time": "23h",
       "url": "https://www.xataka.com/empresas-y-economia/empleo-programacion-consultoria-informatica-marca-maximo-historico-epa-ahora-no-llega-temida-caida-ia"
     },
     {
@@ -1109,7 +1109,7 @@
       "content_type": "news",
       "title": "Quería quitar las aplicaciones que Android no me deja borrar. Así que le pedí a la IA mi propio desinstalador: en media hora lo tenía",
       "summary": "<p> <img",
-      "time": "20h",
+      "time": "21h",
       "url": "https://www.xataka.com/robotica-e-ia/queria-quitar-aplicaciones-que-android-no-me-deja-borrar-asi-que-le-pedi-a-ia-mi-propio-desinstalador-media-hora-tenia"
     },
     {
@@ -1131,7 +1131,7 @@
       "content_type": "news",
       "title": "Baidu’s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records",
       "summary": "<p>Baidu’s ERNIE Evolve is an automated research system that edits code, runs experiments and keeps only verified gains. It beat public bests on NanoChat and",
-      "time": "20h",
+      "time": "21h",
       "url": "https://www.marktechpost.com/2026/11/09/baidu-ernie-evolve-automated-research-system/"
     },
     {
@@ -1142,7 +1142,7 @@
       "content_type": "news",
       "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
       "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In",
-      "time": "12h",
+      "time": "13h",
       "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai"
     },
     {
