@@ -9,7 +9,7 @@
   "stats": {
     "new_articles": 143,
     "sources": 44,
-    "updated_label": "08:56"
+    "updated_label": "08:59"
   },
   "iaday": {
     "reading_minutes": "86 min",
@@ -154,7 +154,7 @@
       "content_type": "repo",
       "title": "Omar136796/CSE422-Artificial-Intelligence",
       "summary": "⭐ 0 estrellas — AI and machine learning labs in Python from CSE422 at BRAC University",
-      "time": "26h",
+      "time": "27h",
       "url": "https://github.com/Omar136796/CSE422-Artificial-Intelligence",
       "stars": "0"
     },
@@ -526,7 +526,7 @@
       "content_type": "paper",
       "title": "AppSci-Bench: Can LLMs Build AI Agents and Make Them Better?",
       "summary": "Large language models (LLMs) are increasingly used not only to power AI agents but also to build them. While many benchmarks assess the quality of LLM- powered",
-      "time": "33h",
+      "time": "34h",
       "url": "https://arxiv.org/abs/2611.25360v1",
       "arxiv": "2611.25360v1"
     },
@@ -910,7 +910,7 @@
       "content_type": "paper",
       "title": "A four-level executable validation protocol for evaluating LLM-generated topology specifications of physics-based HVAC digital twins",
       "summary": "Physics-based digital twins of air conditioning, a principal energy consumer in manufacturing and buildings, can be generated automatically from a declarative",
-      "time": "31h",
+      "time": "32h",
       "url": "https://arxiv.org/abs/2611.25471v1",
       "arxiv": "2611.25471v1"
     },
@@ -1102,7 +1102,7 @@
       "content_type": "paper",
       "title": "Bilateral Evidence Selection and Reasoning for Mammography Vision--Language Models",
       "summary": "Medical vision--language models (VLMs) often need to identify small, subtle lesions within high-resolution images containing extensive normal anatomy and",
-      "time": "32h",
+      "time": "33h",
       "url": "https://arxiv.org/abs/2611.25418v1",
       "arxiv": "2611.25418v1"
     },
@@ -1150,7 +1150,7 @@
       "content_type": "paper",
       "title": "Persona Lenses: What Makes a Vision-Language Model See Through Its Persona's Eyes?",
       "summary": "Vision-language models have been used to simulate where a user looks on a web page. However, a persona in the prompt reaches the simulated gaze only partly. We",
-      "time": "30h",
+      "time": "31h",
       "url": "https://arxiv.org/abs/2611.25508v1",
       "arxiv": "2611.25508v1"
     },
