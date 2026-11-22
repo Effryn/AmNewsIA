@@ -1,0 +1,320 @@
+{
+  "date": "2026-11-22",
+  "date_label": "22 de noviembre de 2026",
+  "greeting": "Buenos días, Effry",
+  "briefing": {
+    "duration_label": "2:37",
+    "script_text": "En el resumen de hoy nos enfrentamos a un punto de inflexión en la estrategia de Google con inteligencia artificial, mientras el sector debate cuestiones cruciales sobre seguridad, regulación y la adopción de IA en la industria creativa.\n\nComencemos con Google y Gemini. La compañía ha expandido significativamente su ecosistema de modelos, pero esto ha generado confusión en el mercado. Según reportes de Xataka IA, ahora coexisten múltiples versiones de Gemini sin directrices claras sobre cuál elegir para cada caso de uso. Simultáneamente, Google ha presentado en su API de Gemini una herramienta de recuperación de recursos diseñada para gestionar bibliotecas grandes de herramientas, lo que sugiere un movimiento hacia sistemas más especializados y fragmentados.\n\nEn paralelo, el mercado de agentes de IA personal está madurando. Un análisis comparativo destaca opciones como OpenClaw, Hermes Agent y Gemini Spark, evaluándolas en criterios clave como memoria, seguridad y costo. Este segmento refleja la transición de la IA desde modelos genéricos hacia soluciones personalizadas y especializadas.\n\nPasando a cuestiones de fondo: Anthropic enfrenta preguntas fundamentales sobre sostenibilidad. The Verge examina si la compañía puede mantener su postura de priorizar seguridad sin comprometer su viabilidad comercial, un dilema que captura la tensión entre principios éticos y presiones de mercado.\n\nEn creatividad e industria, tenemos noticias mixtas. GTA VI aparentemente será uno de los últimos títulos AAA desarrollados sin IA integrada en su pipeline de producción, marcando potencialmente el fin de una era. Mientras tanto, Chess.com pivota hacia un hub de juegos clásicos como mahjong y sudoku, sugiriendo que la especialización, no solo la escala, define estrategias ganadoras.\n\nDesde el lado técnico, investigadores de Columbia y CertiK han introducido TensorLean, una herramienta para verificación formal de kernels GPU, abordando un desafío crítico en la confiabilidad de sistemas de IA de alto rendimiento.\n\nA nivel cultural, The Verge reporta que la programación por \"vibes\" —una aproximación más intuitiva e interactiva al desarrollo de software— llegará a dispositivos convencionales, democratizando formas más accesibles de interactuar con tecnología.\n\nFinalmente, en gobernanza global, la ONU no logró consenso sobre regulación de \"robots asesinos\", dejando un vacío regulatorio significativo que definirá debates políticos en 2026.\n\nEl patrón claro: fragmentación de estándares, especialización de soluciones, y un regulatorio que no sigue el ritmo de la innovación.\n\nGracias por escuchar, y nos vemos mañana con más novedades del mundo de la IA."
+  },
+  "stats": {
+    "new_articles": 25,
+    "sources": 44,
+    "updated_label": "10:36"
+  },
+  "iaday": {
+    "reading_minutes": "15 min",
+    "audio_duration": "2:37",
+    "key_count": 3,
+    "papers_count": 0,
+    "repos_count": 15,
+    "videos_count": 3,
+    "impact": "Alto"
+  },
+  "thirty_seconds": [
+    "Hosseinamini729/CI2026_lab5",
+    "Lucidrains/SEA-pytorch",
+    "JosueVele77/perceptron-learning-visualization"
+  ],
+  "articles": [
+    {
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Hosseinamini729/CI2026_lab5",
+      "summary": "⭐ 0 estrellas — Agente de Aprendizaje por Reforzamiento (Aprendizaje Q) navegando en el entorno del Mundo de Wumpus en Python, con visualización paso a paso y",
+      "time": "122h",
+      "url": "https://github.com/hosseinamini729/CI2026_lab5",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "repo",
+      "title": "Lucidrains/SEA-pytorch",
+      "summary": "⭐ 2 estrellas — Exploraciones en el Escalado de Agentes Empoderados, de Catherine Ji et al. del grupo de Eysenbach",
+      "time": "20h",
+      "url": "https://github.com/lucidrains/SEA-pytorch",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — Jupyter",
+      "source_type": "github",
+      "lang": "es",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "JosueVele77/perceptron-learning-visualization",
+      "summary": "⭐ 0 estrellas — Implementación desde cero de un perceptrón en Python sin librerías de ML: función de activación bipolar, regla de aprendizaje, visualización de",
+      "time": "5h",
+      "url": "https://github.com/JosueVele77/perceptron-learning-visualization",
+      "stars": "0"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Juanlabs1989/descript-pro-win",
+      "summary": "⭐ 268 estrellas — Descripción - Editor de vídeo y podcast basado en IA para edición textual, transcripción y grabación de pantalla para Windows 10/11",
+      "time": "21h",
+      "url": "https://github.com/Juanlabs1989/descript-pro-win",
+      "stars": "268"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Morriswawan05/elevenlabs-pro-win",
+      "summary": "⭐ 267 estrellas — ElevenLabs - plataforma de síntesis de voz para la generación de texto-a-voz, clonación de voz y doblaje multilingüístico para Windows 10/11",
+      "time": "22h",
+      "url": "https://github.com/Morriswawan05/elevenlabs-pro-win",
+      "stars": "267"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Cloudcode04/runway-ml-pro-win",
+      "summary": "⭐ 265 estrellas — Runway - plataforma de generación de video mediante inteligencia artificial para la síntesis de texto-a-video, animación de imágenes y",
+      "time": "22h",
+      "url": "https://github.com/Cloudcode04/runway-ml-pro-win",
+      "stars": "265"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Debugdigital677/descript-pro-win",
+      "summary": "⭐ 263 estrellas — Descripción - Editor de videos y podcasts basado en IA para edición textual, transcripción y grabación de pantalla en Windows 10/11",
+      "time": "25h",
+      "url": "https://github.com/debugdigital677/descript-pro-win",
+      "stars": "263"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "JieFedorov81/runway-ml-pro-win",
+      "summary": "⭐ 262 estrellas — Runway - plataforma de generación de video mediante inteligencia artificial para la síntesis de texto-a-video, animación de imágenes y",
+      "time": "25h",
+      "url": "https://github.com/JieFedorov81/runway-ml-pro-win",
+      "stars": "262"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Suryacode04/jasper-ai-win",
+      "summary": "⭐ 257 estrellas — Jasper AI - plataforma de generación de contenido basada en IA para la creación de copias publicitarias, personalización de la voz de la",
+      "time": "21h",
+      "url": "https://github.com/suryacode04/jasper-ai-win",
+      "stars": "257"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "GuzmanJacqueline93/copia-ai-pro-win",
+      "summary": "⭐ 256 estrellas — Copy Ai Pro - Asistente de redacción AI para la generación de contenido, reescritura de tono y optimización de texto SEO en Windows 10/11",
+      "time": "20h",
+      "url": "https://github.com/GuzmanJacqueline93/copy-ai-pro-win",
+      "stars": "256"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Isanders5152/descript-pro-win",
+      "summary": "⭐ 245 estrellas — Descripción - Editor de video y podcasts basado en IA para edición textual, transcripción y grabación de pantalla en Windows 10/11",
+      "time": "22h",
+      "url": "https://github.com/isanders5152/descript-pro-win",
+      "stars": "245"
+    },
+    {
+      "source": "GitHub Trending — IA",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "Amirreza-Tirandaz/ai-hardware-acceleradores-fpga",
+      "summary": "⭐ 2 estrellas — Investigación sobre aceleración de redes neuronales, optimización hardware y implementación basada en FPGA.",
+      "time": "19h",
+      "url": "https://github.com/Amirreza-Tirandaz/ai-hardware-accelerators-fpga",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "ALANDVO/lente-sentinel-148",
+      "summary": "⭐ 2 estrellas — Alan Vo | Trabajo en progreso: sentinel-lens-148",
+      "time": "11h",
+      "url": "https://github.com/ALANDVO/sentinel-lens-148",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "No se puede traducir este texto ya que no contiene texto en inglés o cualquier otro idioma para traducir, sino que contiene nombres de usuarios o nombres de repositorios en GitHub.",
+      "summary": "⭐ 2 estrellas — Mejorando la precisión de la replicación de la interfaz de usuario para modelos de inteligencia artificial basados en la visión y el texto",
+      "time": "43h",
+      "url": "https://github.com/sallout/LayoutLens",
+      "stars": "2"
+    },
+    {
+      "source": "GitHub Trending — Python",
+      "source_type": "github",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "repo",
+      "title": "ALANDVO/tensor-pilot-146",
+      "summary": "⭐ 2 estrellas — Alan Vo | Trabajo en progreso: tensor-pilot-146",
+      "time": "35h",
+      "url": "https://github.com/ALANDVO/tensor-pilot-146",
+      "stars": "2"
+    },
+    {
+      "source": "Migue Baena IA",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Crea tu agencia completa con IA 🤖💻",
+      "summary": "¿Te imaginas tener un equipo de agentes de IA especializados en distintas áreas de tu negocio? 🤖 📌 Eso es lo que puedes explorar con Agency Agents, una",
+      "time": "ahora",
+      "url": "https://www.youtube.com/shorts/Q06FkIhFHrw"
+    },
+    {
+      "source": "Nichonauta",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "IA MoE que supera a Qwen 3.8 en Hardware Limitado 🚀 Inkling 2 Mini",
+      "summary": "Inkling es el nuevo modelo MoE que llega para transformar la forma en que ejecutamos inteligencia artificial en hardware limitado. En este video analizamos las",
+      "time": "20h",
+      "url": "https://www.youtube.com/watch?v=kGhnIXsJ7UE"
+    },
+    {
+      "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Google ha convertido Gemini en una tabla periódica. El problema es que ahora hay dos modelos de programación y ninguna pista de cuál elegir",
+      "summary": "<p> <img",
+      "time": "ahora",
+      "url": "https://www.xataka.com/robotica-e-ia/google-ha-convertido-gemini-tabla-periodica-problema-que-ahora-hay-dos-modelos-programacion-ninguna-pista-cual-elegir"
+    },
+    {
+      "source": "Gentleman Programming",
+      "source_type": "youtube",
+      "lang": "es",
+      "cat": "Videos",
+      "content_type": "video",
+      "title": "Comparar auriculares: el más fuerte siempre parece mejor",
+      "summary": "Si probás auriculares uno atrás del otro sin tocar el volumen, el que suena más fuerte te va a parecer mejor siempre. Cada uno tiene distinta sensibilidad:",
+      "time": "20h",
+      "url": "https://www.youtube.com/shorts/ORkcmchESW4"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Google AI presenta una herramienta de recuperación de herramientas en la API Gemini para bibliotecas de herramientas grandes",
+      "summary": "Google lanzó una prueba del Herramienta de Retención de API Gemini en el Gemini API. Los agentes mantienen una gran biblioteca de herramientas en espera y",
+      "time": "3h",
+      "url": "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Modelos",
+      "content_type": "news",
+      "title": "Mejores Agentes de Inteligencia Artificial Personal en 2026: OpenClaw, Agente Hermes, Spark Geminiano y Más, Comparados por Memoria, Seguridad y Costo",
+      "summary": "<p>Hermes Agent, OpenClaw, Gemini Spark, OpenAI dots, Meta Muse y Perplexity Personal Computer se clasificaron según su memoria, configuraciones de seguridad",
+      "time": "3h",
+      "url": "https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026/"
+    },
+    {
+      "source": "Xataka IA",
+      "source_type": "rss",
+      "lang": "es",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "¿Es GTA VI el último juego a gran escala desarrollado sin usar IA?",
+      "summary": "<p> <img",
+      "time": "1h",
+      "url": "https://www.xataka.com/videojuegos/gta-vi-ultimo-gran-juego-desarrollado-usar-ia"
+    },
+    {
+      "source": "MarkTechPost",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels",
+      "summary": "<p>TensorLean, de la Universidad de Columbia y CertiK, verifica formalmente los núcleos de producción de GPU a nivel PTX usando Lean. Verificó 149 instancias",
+      "time": "11h",
+      "url": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "La revolución en el codificado de vibra está llegando a todos los gadgets.",
+      "summary": "Este es The Stepback, un boletín semanal que analiza una historia esencial del mundo tecnológico. Para obtener más información sobre el hackeo del estado de",
+      "time": "ahora",
+      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera"
+    },
+    {
+      "source": "The Verge — AI",
+      "source_type": "rss",
+      "lang": "en",
+      "cat": "Herramientas",
+      "content_type": "news",
+      "title": "La ONU no logra llegar a un acuerdo sobre reglas que rigen los 'robots asesinos'.",
+      "summary": "Uno de los puntos del orden del día para los diplomáticos de la ONU que se reunieron en Ginebra esta semana fue trabajar en reglas para el uso de armas",
+      "time": "17h",
+      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+    }
+  ]
+}
